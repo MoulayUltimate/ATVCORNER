@@ -99,6 +99,21 @@ export default async function RootLayout({
 
   return (
     <html lang={lang} className={`${inter.variable} ${montserrat.variable}`}>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DWS58BCDTL"
+          strategy="afterInteractive"
+          async
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DWS58BCDTL');
+          `}
+        </Script>
+      </head>
       <body className="min-h-screen flex flex-col">
         <Navbar lang={lang} dict={dict} />
         <main className="flex-1 pt-20">{children}</main>
