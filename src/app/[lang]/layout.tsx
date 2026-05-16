@@ -82,7 +82,6 @@ export async function generateMetadata({
       description: siteConfig.shortDesc,
     },
     robots: { index: true, follow: true, "max-image-preview": "large" },
-    icons: { icon: "/favicon.ico" },
   };
 }
 
