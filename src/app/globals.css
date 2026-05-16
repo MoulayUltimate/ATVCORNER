@@ -1,26 +1,151 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Cinematic Luxe — Surfaces */
+  --color-surface: #111317;
+  --color-surface-dim: #111317;
+  --color-surface-bright: #37393e;
+  --color-surface-dark: #050505;
+  --color-surface-container-lowest: #0c0e12;
+  --color-surface-container-low: #1a1c20;
+  --color-surface-container: #1e2024;
+  --color-surface-container-high: #282a2e;
+  --color-surface-container-highest: #333539;
+  --color-surface-glass: rgba(255, 255, 255, 0.05);
+  --color-surface-variant: #333539;
+
+  /* Text */
+  --color-on-surface: #e2e2e8;
+  --color-on-surface-variant: #b8c5be;
+  --color-on-background: #e2e2e8;
+  --color-background: #0c0e12;
+
+  /* WhatsApp green accents */
+  --color-primary: #25d366;
+  --color-vibrant-gold: #25d366; /* legacy token name, now WhatsApp green */
+  --color-primary-container: #128c7e;
+  --color-primary-fixed: #dcf8c6;
+  --color-primary-fixed-dim: #128c7e;
+  --color-on-primary: #04201a;
+  --color-on-primary-fixed: #04201a;
+  --color-on-primary-container: #075e54;
+
+  /* Secondary (blue accent) */
+  --color-secondary: #b0c6ff;
+  --color-secondary-container: #045cd5;
+  --color-on-secondary: #002c6f;
+  --color-on-secondary-container: #d6e0ff;
+
+  /* Tertiary */
+  --color-tertiary: #bfcdff;
+  --color-tertiary-container: #97b0ff;
+
+  /* Semantic */
+  --color-success-green: #32cd32;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+
+  /* Outline */
+  --color-outline: #7c9990;
+  --color-outline-variant: #354d46;
+
+  /* Typography */
+  --font-display: var(--font-montserrat), "Montserrat", system-ui, sans-serif;
+  --font-body: var(--font-inter), "Inter", system-ui, sans-serif;
+
+  /* Spacing */
+  --spacing-base: 8px;
+  --spacing-gutter: 24px;
+  --spacing-card-gap: 16px;
+  --spacing-margin-desktop: 80px;
+
+  /* Radius */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-surface-container-lowest);
+    color: var(--color-on-surface);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-vibrant-gold);
+    color: #000;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .hero-gradient {
+    background:
+      radial-gradient(circle at top right, rgba(37, 211, 102, 0.18), transparent 55%),
+      radial-gradient(circle at bottom left, rgba(4, 92, 213, 0.15), transparent 55%);
+  }
+  .gold-glow:hover {
+    box-shadow: 0 0 32px rgba(37, 211, 102, 0.35);
+    transform: scale(1.02);
+  }
+  .container-luxe {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .container-luxe {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+  .text-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+  .text-headline {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .live-pulse {
+    animation: live-pulse 2s ease-in-out infinite;
+  }
+  @keyframes live-pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+    50% { opacity: 0.85; box-shadow: 0 0 0 8px rgba(37, 211, 102, 0); }
+  }
 }

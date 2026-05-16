@@ -1,0 +1,11 @@
+# Cloudflare Pages config
+# Deploy with: npx @cloudflare/next-on-pages
+# Then: npx wrangler pages deploy .vercel/output/static
+
+name = "lumixstream"
+compatibility_date = "2026-05-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://lumixstream.com"

@@ -1,0 +1,344 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "channels": "Kanäle & VOD",
+    "setup": "Installation",
+    "contact": "Support",
+    "cta": "24h Gratistest"
+  },
+  "hero": {
+    "eyebrow": "Premium Streaming · Europa",
+    "title_a": "Das beste",
+    "title_accent": "Streaming",
+    "title_b": "Abonnement in Europa.",
+    "desc": "Über 66.000 internationale Sender, Filme und Serien in 4K/8K. Außergewöhnliche Stabilität, Aktivierung in 5 Minuten. Ab",
+    "from_price": "12,99 $",
+    "cta_primary": "Kostenlosen Test starten",
+    "cta_secondary": "Preise ansehen",
+    "benefits": {
+      "uhd": "8K Ultra HD",
+      "no_buffer": "Kein Buffering",
+      "support": "24/7 Support"
+    },
+    "trust_strip": "Kompatibel mit allen Premium-Plattformen"
+  },
+  "sports": {
+    "eyebrow": "Live-Sport",
+    "title": "Jedes Topspiel, ohne Buffering.",
+    "desc": "Fußball, Basketball, MMA, F1 — jede Liga, jedes PPV, jederzeit verfügbar."
+  },
+  "vod": {
+    "eyebrow": "Kino & Serien",
+    "title": "Die neuesten Releases inklusive.",
+    "see_all": "Alle ansehen"
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "title": "Ein Service, mehrere Laufzeiten.",
+    "desc": "Ohne Verpflichtung. Sofortiger Zugang. Geld-zurück-Garantie.",
+    "best_seller": "BESTSELLER",
+    "duration": {
+      "1m": "1 Monat",
+      "3m": "3 Monate",
+      "6m": "6 Monate",
+      "12m": "12 Monate"
+    },
+    "badge": {
+      "1m": "ENTDECKER-PAKET",
+      "3m": "KOMFORT-PAKET",
+      "6m": "PREMIUM-PAKET",
+      "12m": "ULTIMATE-PAKET"
+    },
+    "savings_12m": "Nur 4,16 $/Monat statt 12,99 $",
+    "feature": {
+      "quality": "Streaming HD / FHD / 4K / 8K",
+      "channels": "+50.000 TV- & Sportsender",
+      "vod": "+70.000 Filme & VOD-Serien",
+      "fast": "Schnelles & flüssiges Streaming",
+      "ultra_fast": "Ultraflüssiges Streaming",
+      "support": "Technischer Support 7/7",
+      "vip_support": "Vorrangiger VIP-Support",
+      "instant": "Sofortige Aktivierung",
+      "antifreeze": "Anti-Freeze-Technologie",
+      "premium_live": "Premium-Live-TV-Sender, schnelles & stabiles Streaming",
+      "fullhd": "Full-HD-Video in hoher Qualität",
+      "epg": "EPG (TV-Guide) verfügbar",
+      "worldwide": "Weltweit verfügbar",
+      "adult": "+18 Erwachseneninhalte",
+      "support_247": "Support 24/7"
+    },
+    "cta": "Dieses Paket wählen"
+  },
+  "how": {
+    "eyebrow": "So funktioniert's",
+    "title": "Konto in drei Schritten aktivieren.",
+    "step1_title": "Wählen",
+    "step1_text": "Wählen Sie die passende Laufzeit und kontaktieren Sie uns auf WhatsApp.",
+    "step2_title": "Erhalten",
+    "step2_text": "Ihre Zugangsdaten kommen per E-Mail oder WhatsApp in weniger als 5 Minuten.",
+    "step3_title": "Genießen",
+    "step3_text": "Gerät einrichten und +66.000 Sender in 4K/8K schauen."
+  },
+  "devices": {
+    "eyebrow": "Geräte-Kompatibilität",
+    "title": "Auf jedem Gerät schauen",
+    "desc": "Streamen Sie Ihre Lieblingsinhalte auf jedem Gerät, überall, jederzeit.",
+    "items": [
+      { "name": "Smart TV", "desc": "Samsung, LG, Sony" },
+      { "name": "Fire Stick", "desc": "Alle Amazon-Geräte" },
+      { "name": "Android", "desc": "Smartphones & Tablets" },
+      { "name": "iOS", "desc": "iPhone & iPad" },
+      { "name": "Windows / Mac", "desc": "Desktop & Laptop" },
+      { "name": "MAG Box", "desc": "Alle MAG-Geräte" }
+    ]
+  },
+  "stats": {
+    "channels": "Live-Sender",
+    "vod": "Filme & Serien",
+    "quality": "Max. Qualität",
+    "activation": "Aktivierung"
+  },
+  "reviews": {
+    "eyebrow": "Kundenmeinungen",
+    "title": "Echte WhatsApp-Screenshots, unbearbeitet.",
+    "desc": "Keine Schauspieler, keine Skripte. Nur echte Gespräche mit unseren Nutzern.",
+    "cta": "Unseren 12.000+ Kunden auf WhatsApp beitreten"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "desc": "Noch eine Frage offen? Unser Team antwortet auf WhatsApp in unter 2 Minuten.",
+    "items": [
+      { "q": "Was ist IPTV und wie funktioniert es?", "a": "Mit IPTV schauen Sie Fernsehen über das Internet. Nach dem Kauf erhalten Sie Zugangsdaten, die Sie in einer App eingeben, um sofort auf alle unsere Sender zuzugreifen." },
+      { "q": "Ist die Transaktion sicher?", "a": "Absolut. Wir verwenden SSL-Verschlüsselung und Stripe oder PayPal, um zu 100 % sichere Zahlungen zu garantieren." },
+      { "q": "Welche Sender und Inhalte sind enthalten?", "a": "Über 66.000 internationale Sender und eine unbegrenzte VOD-Bibliothek (Filme und Serien), täglich in 4K und Full HD aktualisiert." },
+      { "q": "Auf welchen Geräten kann ich ATV Corner nutzen?", "a": "Unser Dienst läuft auf allen Plattformen: Smart TV (Samsung, LG, Android), Amazon Fire Stick, Apple TV, Smartphones, Android-Boxen und Computern." },
+      { "q": "Was passiert direkt nach der Zahlung?", "a": "Sofort! Sie erhalten Ihren Zugang und eine vollständige Installationsanleitung per WhatsApp oder E-Mail in weniger als 5 Minuten." },
+      { "q": "Bieten Sie einen kostenlosen Test vor dem Kauf?", "a": "Ja, wir bieten einen 24-Stunden-Gratistest, damit Sie Serverstabilität und Bildqualität vor einer Verpflichtung prüfen können." },
+      { "q": "Mein Abo ist abgelaufen, wie verlängere ich?", "a": "Bestellen Sie einfach das Paket Ihrer Wahl erneut auf unserer Website. Die Verlängerung erfolgt automatisch auf Ihrem bestehenden Konto." },
+      { "q": "Kann ich das Abo auf mehreren Geräten nutzen?", "a": "Das Standard-Abo gilt für jeweils einen Bildschirm. Für die gleichzeitige Nutzung auf mehreren Bildschirmen kontaktieren Sie uns für ein individuelles Angebot." },
+      { "q": "Was tun, wenn ich Hilfe bei der Installation brauche?", "a": "Unser technischer Support ist 7/7 auf WhatsApp oder Live-Chat erreichbar. Wir begleiten Sie Schritt für Schritt, bis alles perfekt läuft." }
+    ]
+  },
+  "cta": {
+    "title": "Testen Sie ATV Corner 24 Stunden gratis.",
+    "desc": "Ohne Verpflichtung, ohne Kreditkarte. Sofortige Aktivierung via WhatsApp.",
+    "primary": "Test starten",
+    "secondary": "Preise ansehen"
+  },
+  "footer": {
+    "tagline": "Das beste Streaming-Abo in Europa.",
+    "nav_title": "Navigation",
+    "legal_title": "Rechtliches",
+    "contact_title": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "refund": "Rückerstattung",
+    "about": "Über uns",
+    "legal_notice": "Impressum",
+    "cookies": "Cookie-Richtlinie",
+    "dmca": "DMCA / Urheberrecht",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "lang_switcher": {
+    "label": "Sprache"
+  },
+  "pricing_page": {
+    "meta_title": "Abo-Preise — Pakete 1 / 3 / 6 / 12 Monate",
+    "meta_desc": "Premium-Streaming-Abo ab 12,99 $. +50.000 Sender, +70.000 Filme & Serien, 4K/8K-Qualität, 24/7-Support. 7 Tage Geld-zurück-Garantie.",
+    "hero_badge": "Sofortige Aktivierung",
+    "hero_title_a": "Unsere",
+    "hero_title_accent": "exklusiven",
+    "hero_title_b": " Pakete",
+    "hero_desc": "4K/8K-Qualität · 24/7-Support · Sichere Zahlung über Stripe & PayPal. Grenzenlose Unterhaltung beginnt hier.",
+    "compare_title_a": "Kinoreife",
+    "compare_title_accent": "4K / 8K",
+    "compare_desc": "Unerreichte Stabilität, keine Verzögerung, keine überzogenen Monatsrechnungen. Reine Unterhaltung auf jedem Bildschirm.",
+    "compare_bullets": [
+      "100 % sichere Zahlung",
+      "Aktivierung in 5 Minuten",
+      "VIP-WhatsApp-Support",
+      "7-Tage-Garantie",
+      "Keine Karte für den Test nötig",
+      "Einfache Verlängerung"
+    ],
+    "compare_cta": "24H-Test starten",
+    "compare_cta_sub": "Keine Kreditkarte nötig",
+    "faq_eyebrow": "Unentschlossen?",
+    "faq_title": "Häufige Fragen zu unseren Paketen"
+  },
+  "channels_page": {
+    "meta_title": "Kanäle & VOD — 66.000+ internationale Sender",
+    "meta_desc": "Unser Katalog: 50.000+ Live-TV-Sender (Premier League, Champions League, NBA, F1), 70.000+ VOD-Filme & -Serien in 4K/8K.",
+    "hero_badge": "Premium Streaming Europa",
+    "hero_title_a": "Das",
+    "hero_title_accent": "kinoreife",
+    "hero_title_b": "Erlebnis, ohne Grenzen.",
+    "hero_desc_a": "Premium-Abo ab 12 €. Genießen Sie",
+    "hero_desc_strong": "+66.000 Sender",
+    "hero_desc_b": "international in 8K Ultra HD. Sport, Filme und Serien als unbegrenztes VOD.",
+    "hero_cta_order": "Jetzt bestellen",
+    "hero_cta_trial": "24H-Gratistest",
+    "stat_live": "Live-Sender",
+    "cat_eyebrow": "Vollständiger Katalog",
+    "cat_title_a": "Alle",
+    "cat_title_accent": "Kategorien",
+    "cat_title_b": ", in einem einzigen Abo",
+    "sports_eyebrow": "Live-Sport",
+    "sports_title_a": "Alle Ligen,",
+    "sports_title_accent": "in 4K",
+    "sports_desc": "Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League, NBA, NFL, UFC, F1 — alles inklusive.",
+    "vod_eyebrow": "Premium-VOD",
+    "vod_title_accent": "Filme",
+    "vod_title_b": "& Serien — unbegrenzt.",
+    "vod_desc": "Katalog täglich aktualisiert. Die neuesten Hollywood-Releases und exklusive Serien in jedem Paket enthalten.",
+    "see_pricing": "Preise ansehen"
+  },
+  "contact_page": {
+    "meta_title": "Kontakt & Support — WhatsApp 7/7",
+    "meta_desc": "Erreichen Sie das ATV Corner-Team per WhatsApp oder E-Mail. Technischer und vertrieblicher Support 7/7.",
+    "hero_badge": "Menschlicher Support 7/7",
+    "hero_title_a": "Sprechen Sie mit",
+    "hero_title_accent": "echten",
+    "hero_title_b": "Menschen.",
+    "hero_desc": "Unser Team antwortet in unter 2 Minuten — Zahlung, Installation, Verlängerung, Fehlerbehebung. Wählen Sie Ihren Kanal.",
+    "ch_whatsapp_desc": "Antwort in < 2 Min — empfohlen",
+    "ch_whatsapp_cta": "WhatsApp öffnen",
+    "ch_email_cta": "E-Mail senden",
+    "ch_telegram_desc": "Updates & Neuigkeiten",
+    "ch_telegram_cta": "Kanal beitreten",
+    "faq_eyebrow": "Schnelle FAQ",
+    "faq_title_a": "Bevor Sie uns kontaktieren, die",
+    "faq_title_accent": "3 häufigsten",
+    "faq_title_b": "Fragen",
+    "faq_items": [
+      { "q": "Aktivierung nach Zahlung?", "a": "Ihre Zugangsdaten kommen per E-Mail oder WhatsApp in weniger als 5 Minuten." },
+      { "q": "Kostenloser Test?", "a": "Ja — 24h, ohne Kreditkarte. Einfach auf WhatsApp anfragen." },
+      { "q": "Kompatibilität?", "a": "Smart TV, Firestick, Apple TV, Android, iOS, MAG, Enigma, PC, Mac." }
+    ]
+  },
+  "setup_page": {
+    "meta_title": "Installationsanleitung — Smart TV, Firestick, Android, iOS",
+    "meta_desc": "Richten Sie ATV Corner auf Smart TV, Fire Stick, Android, iOS, MAG, PC in weniger als 5 Minuten ein. Schritt-für-Schritt-Anleitungen für jedes Gerät.",
+    "hero_badge": "Vorrangige Aktivierung",
+    "hero_title_a": "Installations",
+    "hero_title_accent": "anleitung",
+    "hero_desc": "Richten Sie Ihren Unterhaltungs-Concierge in unter 5 Minuten auf all Ihren Lieblingsgeräten ein.",
+    "hero_cta_help": "Live-WhatsApp-Hilfe",
+    "hero_cta_pick": "Gerät auswählen",
+    "pick_eyebrow": "6 unterstützte Plattformen",
+    "pick_title_a": "Wählen Sie Ihr",
+    "pick_title_accent": "Gerät",
+    "pick_desc": "Wählen Sie Ihr Gerät für eine personalisierte Schritt-für-Schritt-Anleitung.",
+    "official_guide": "Offizielle Anleitung",
+    "remote_eyebrow": "Menschlicher Support 7/7",
+    "remote_title_a": "Festgefahren? Wir installieren",
+    "remote_title_accent": "aus der Ferne",
+    "remote_desc": "Senden Sie uns eine WhatsApp-Nachricht und ein Techniker führt Sie in Echtzeit. Keine technischen Kenntnisse nötig.",
+    "remote_cta": "Geführte Installation starten"
+  },
+  "legal": {
+    "last_updated": "Zuletzt aktualisiert:",
+    "privacy": {
+      "meta_title": "Datenschutzerklärung",
+      "meta_desc": "Datenschutzerklärung von ATV Corner.",
+      "title": "Datenschutzerklärung",
+      "sections": [
+        { "h": "1. Datenerhebung", "p": "ATV Corner erhebt nur die für die Bereitstellung der Dienste unbedingt erforderlichen Informationen: Name, E-Mail, WhatsApp-Nummer und Zahlungsdaten (verarbeitet durch Stripe / PayPal — wir speichern niemals Kartennummern)." },
+        { "h": "2. Verwendung", "p": "Ihre Daten dienen der Aktivierung Ihres Abos, dem technischen Support und Verlängerungs-Benachrichtigungen. Keine Daten werden an Dritte verkauft." },
+        { "h": "3. Cookies", "p": "Wir verwenden essenzielle Cookies für die Funktion der Website sowie anonyme Analyse-Cookies zur Verbesserung der Nutzererfahrung." },
+        { "h": "4. Ihre Rechte (DSGVO)", "p": "Gemäß DSGVO haben Sie das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten." }
+      ],
+      "contact_h": "Kontakt",
+      "contact_p": "Bei Fragen schreiben Sie uns per E-Mail oder über WhatsApp."
+    },
+    "terms": {
+      "meta_title": "Nutzungsbedingungen",
+      "meta_desc": "Nutzungsbedingungen von ATV Corner.",
+      "title": "Nutzungsbedingungen",
+      "sections": [
+        { "h": "1. Annahme", "p": "Mit dem Abschluss eines ATV Corner-Abos akzeptieren Sie diese Bedingungen vollständig." },
+        { "h": "2. Abonnement", "p": "Das Standard-Abo gilt für ein gleichzeitig genutztes Gerät. Für die parallele Nutzung auf mehreren Bildschirmen ist ein Multi-Screen-Abo erforderlich." },
+        { "h": "3. Einschränkungen", "p": "Das Teilen, der Weiterverkauf oder die öffentliche Wiedergabe der über ATV Corner zugänglichen Inhalte ist strikt untersagt." },
+        { "h": "4. Sperrung", "p": "Jede missbräuchliche Nutzung führt zur sofortigen Sperrung des Kontos ohne Rückerstattung." },
+        { "h": "5. Änderungen", "p": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten mit Veröffentlichung in Kraft." }
+      ]
+    },
+    "refund": {
+      "meta_title": "Rückerstattungsrichtlinie",
+      "meta_desc": "7 Tage Geld-zurück-Garantie nach Aktivierung.",
+      "title": "Rückerstattungsrichtlinie",
+      "intro": "Geld-zurück-Garantie — Ihre Sicherheit hat Priorität.",
+      "sections": [
+        { "h": "7-Tage-Garantie", "p": "Funktioniert der Dienst innerhalb von 7 Tagen nach Aktivierung nicht wie versprochen, können Sie ohne Angabe von Gründen die volle Rückerstattung verlangen." },
+        { "h": "Rückerstattung anfordern", "p": "Kontaktieren Sie unseren Support auf WhatsApp mit Ihrer Bestellnummer und beschreiben Sie das Problem (Screenshots willkommen). Die Rückerstattung wird in 3 bis 5 Werktagen über Stripe oder PayPal abgewickelt." },
+        { "h": "Ausschlüsse", "p": "Rückerstattungsanfragen nach 7 Tagen oder aufgrund von Hardware-Inkompatibilität, die im 24-Stunden-Gratistest nicht überprüft wurde, können nicht berücksichtigt werden." }
+      ],
+      "cta": "Rückerstattung anfordern"
+    }
+  },
+  "about_page": {
+    "meta_title": "Über ATV Corner — Premium-Streaming-Dienst in Europa",
+    "meta_desc": "Entdecken Sie ATV Corner: europäisches Team, Premium-Infrastruktur, 12.000+ aktive Kunden. Unsere Mission, unsere Geschichte, unsere Werte.",
+    "eyebrow": "Über uns",
+    "title_a": "Das",
+    "title_accent": "Premium",
+    "title_b": "-Streaming, gemacht für die Dauer.",
+    "intro": "ATV Corner ist ein unabhängiger Streaming-Dienst, der in Europa mit einer Obsession gestartet ist: das stabilste Bild, die umfassendste Senderliste und menschlichen Support liefern, den Sie jederzeit erreichen.",
+    "story_title": "Unsere Geschichte",
+    "story_p1": "Aus Frust über instabile oder undurchsichtige Streaming-Dienste wurde ATV Corner von Sport- und Filmbegeisterten geschaffen, um eine klare, professionelle Alternative zu bieten.",
+    "story_p2": "Heute vertrauen über 12.000 Kunden in 20+ Ländern uns ihre tägliche Unterhaltung an — vom Wochenend-Fußball bis zur Abendserie.",
+    "values_title": "Unsere Werte",
+    "values": [
+      { "h": "Stabilität zuerst", "p": "Redundante Server und dedizierte Bandbreite, damit Buffering verschwindet — selbst an Spitzenspielabenden." },
+      { "h": "Menschlicher Support", "p": "Ein echtes Team auf WhatsApp 7/7, antwortet in unter 2 Minuten — kein Chatbot, keine Warteschlange." },
+      { "h": "Transparenz", "p": "Keine Verpflichtung, 7 Tage Geld-zurück-Garantie, klare Bedingungen. Sie behalten die Kontrolle über Ihr Abo." }
+    ],
+    "contact_title": "Frage, B2B-Projekt?",
+    "contact_p": "Unser Team antwortet allen — Privatkunden, Unternehmen, Wiederverkäufern. Schreiben Sie per E-Mail oder WhatsApp.",
+    "cta_contact": "Kontaktieren Sie uns"
+  },
+  "legal_notice_page": {
+    "meta_title": "Impressum",
+    "meta_desc": "Impressum von ATV Corner.",
+    "title": "Impressum",
+    "sections": [
+      { "h": "Herausgeber", "p": "Die Website atvcorner.com wird von ATV Corner herausgegeben. Für jede Korrespondenz erreichen Sie uns unter der unten angegebenen E-Mail-Adresse." },
+      { "h": "Kontakt", "p": "E-Mail: support@atvcorner.com — WhatsApp 7/7 verfügbar über den Button auf jeder Seite." },
+      { "h": "Hosting", "p": "Die Website wird auf der Infrastruktur von Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA gehostet." },
+      { "h": "Geistiges Eigentum", "p": "Sämtliche Inhalte auf atvcorner.com (Texte, Logos, Bilder, Code) sind urheberrechtlich geschützt. Jede Vervielfältigung ohne vorherige schriftliche Zustimmung ist untersagt." },
+      { "h": "Haftung", "p": "ATV Corner ist bemüht, alle Informationen aktuell und korrekt zu halten, übernimmt jedoch keine Haftung für Fehler, Auslassungen oder Folgen ihrer Nutzung." }
+    ]
+  },
+  "cookies_page": {
+    "meta_title": "Cookie-Richtlinie",
+    "meta_desc": "Wie atvcorner.com Cookies verwendet.",
+    "title": "Cookie-Richtlinie",
+    "intro": "Diese Seite erklärt, wie ATV Corner Cookies und ähnliche Technologien auf atvcorner.com einsetzt.",
+    "sections": [
+      { "h": "Was ist ein Cookie?", "p": "Ein Cookie ist eine kleine Textdatei, die eine Website auf Ihrem Gerät ablegt. Sie hilft typischerweise dabei, Einstellungen zu speichern und das Erlebnis zu verbessern." },
+      { "h": "Essenzielle Cookies", "p": "Wir verwenden ein technisches Cookie (NEXT_LOCALE), um Ihre Sprachauswahl zu speichern. Dieses Cookie ist für den Betrieb der Website unverzichtbar und nicht einwilligungspflichtig." },
+      { "h": "Analyse-Cookies", "p": "Wir messen die Website-Nutzung anonymisiert, um Inhalte zu verbessern. Es werden keine personenbezogenen Daten zu Werbezwecken an Dritte weitergegeben." },
+      { "h": "Cookies verwalten", "p": "Sie können Cookies jederzeit über die Browser-Einstellungen löschen oder blockieren. Das Löschen des Sprach-Cookies setzt die automatische Erkennung zurück." }
+    ]
+  },
+  "dmca_page": {
+    "meta_title": "DMCA / Urheberrecht",
+    "meta_desc": "DMCA-Meldeverfahren für atvcorner.com.",
+    "title": "DMCA / Urheberrecht",
+    "intro": "ATV Corner respektiert das geistige Eigentum Dritter und bittet seine Nutzer, dasselbe zu tun.",
+    "sections": [
+      { "h": "Meldung", "p": "Wenn Sie der Meinung sind, dass über ATV Corner zugängliche Inhalte Ihre Urheberrechte verletzen, schreiben Sie an support@atvcorner.com mit: Ihrer Identität, dem betroffenen Inhalt, dem Nachweis Ihrer Rechte und Ihren Kontaktdaten." },
+      { "h": "Bearbeitung", "p": "Jede konforme Meldung wird innerhalb von 72 Stunden geprüft. Strittige Inhalte werden bis zur Antwort der betroffenen Partei entfernt." },
+      { "h": "Falsche Meldungen", "p": "Jede Falschaussage zieht die zivil- und strafrechtliche Haftung des Urhebers nach sich. Wir behalten uns das Recht vor, solche Meldungen an die zuständigen Behörden weiterzuleiten." }
+    ]
+  },
+  "not_found": {
+    "eyebrow": "Fehler 404",
+    "title_a": "Seite",
+    "title_accent": "nicht gefunden",
+    "desc": "Diese Seite wurde möglicherweise verschoben oder existiert nicht. Kehren wir zur Startseite zurück.",
+    "cta": "Zurück zur Startseite"
+  }
+}

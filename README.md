@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LumixStream — Premium IPTV (Next.js 16)
 
-## Getting Started
+Modern rebuild of [lumixstream.com](https://lumixstream.com) on Next.js 16 + Tailwind CSS 4, replacing the previous WordPress installation. Deploy-ready for **Vercel** or **Cloudflare Pages**.
 
-First, run the development server:
+## Stack
+
+- **Framework:** Next.js 16 (App Router, Server Components, Turbopack)
+- **Styling:** Tailwind CSS 4 (CSS-first `@theme` design tokens)
+- **Fonts:** Montserrat (display) + Inter (body) via `next/font`
+- **SEO:** built-in `sitemap.ts`, `robots.ts`, OpenGraph metadata, JSON-LD (Organization / Product / FAQPage)
+- **Language:** French (primary), English (secondary)
+
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev      # http://localhost:3000
+pnpm build    # production build
+pnpm start    # serve production
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/                    # Next.js routes
+│   ├── layout.tsx          # Root layout — Nav, Footer, WhatsApp FAB, JSON-LD
+│   ├── page.tsx            # Home — hero, categories, sports, VOD, pricing, FAQ
+│   ├── pricing/            # 4 subscription tiers + comparison
+│   ├── channels/           # Channel categories + sports + VOD highlights
+│   ├── setup/              # Install guides for 6 platforms
+│   ├── contact/            # WhatsApp + email + Telegram
+│   ├── privacy / terms / refund / not-found
+│   ├── sitemap.ts          # /sitemap.xml
+│   └── robots.ts           # /robots.txt
+├── components/             # Navbar, Footer, WhatsAppFab, PricingGrid, etc.
+├── data/                   # plans, channels, faqs, devices (single source of truth)
+└── lib/site.ts             # siteConfig + WhatsApp helper
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Configuration
 
-## Learn More
+Update `src/lib/site.ts` with:
+- Your **WhatsApp number** (E.164 without leading `+`) — currently a placeholder
+- Your **domain** (currently `https://lumixstream.com`)
+- Your **email** and social links
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Vercel (recommended)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+vercel --prod
+```
 
-## Deploy on Vercel
+Configuration is in `vercel.json`. Sets EU (`cdg1`) + US (`iad1`) regions and security headers.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Cloudflare Pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm add -D @cloudflare/next-on-pages
+npx @cloudflare/next-on-pages
+npx wrangler pages deploy .vercel/output/static
+```
+
+Or connect the GitHub repo in the Cloudflare dashboard. Configuration is in `wrangler.toml`.
+
+## SEO checklist
+
+- [x] Per-page `<title>` + `<meta description>`
+- [x] OpenGraph + Twitter cards in root layout
+- [x] JSON-LD: Organization, Product, FAQPage
+- [x] `sitemap.xml` + `robots.txt` auto-generated
+- [x] Canonical URLs
+- [x] French language declared (`lang="fr"`, `locale: "fr_FR"`)
+- [x] Mobile-first, semantic HTML, accessible labels
+
+## Migrating content from the WordPress (WPVivid) backup
+
+The WPVivid backup zips contain:
+- `*.sql` — full WP database (posts, products, users)
+- `wp-content/uploads/` — media files
+
+To extract product data from the SQL dump:
+
+```bash
+unzip lumixstream.com_wpvivid-*.part001.zip -d wp-backup
+unzip lumixstream.com_wpvivid-*.part002.zip -d wp-backup
+# Then import into a local MySQL to query wp_posts / wp_postmeta
+# or use mysqldump-to-json to convert
+```
+
+The current `src/data/*` files mirror the production pricing and channel structure from the live site — adjust if your backup contains different data.
+
+## What's *not* WordPress anymore
+
+- No PHP runtime
+- No MySQL
+- No plugin attack surface
+- Pure static generation → ~100 Lighthouse score
+- Edge-deployable → < 50ms TTFB worldwide
+- Versionable in git, AI-augmentable content pipeline ready
