@@ -13,7 +13,7 @@
     "title_accent": "Streaming",
     "title_b": "subscription in Europe.",
     "desc": "Over 66,000 international channels, movies and series in 4K/8K. Rock-solid stability, activation in 5 minutes. Starting at",
-    "from_price": "$12.99",
+    "from_price": "$16",
     "cta_primary": "Start a free trial",
     "cta_secondary": "View pricing",
     "benefits": {
@@ -50,7 +50,7 @@
       "6m": "PREMIUM PACK",
       "12m": "ULTIMATE PACK"
     },
-    "savings_12m": "Just $4.16/month instead of $12.99",
+    "savings_12m": "Just $5.42/month instead of $16",
     "feature": {
       "quality": "Streaming HD / FHD / 4K / 8K",
       "channels": "+50,000 TV & sports channels",
@@ -150,7 +150,7 @@
   },
   "pricing_page": {
     "meta_title": "Subscription Pricing — 1 / 3 / 6 / 12 Month Packs",
-    "meta_desc": "Premium streaming subscription from $12.99. +50,000 channels, +70,000 movies & series, 4K/8K quality, 24/7 support. 7-day money-back guarantee.",
+    "meta_desc": "Premium streaming subscription from $16. +50,000 channels, +70,000 movies & series, 4K/8K quality, 24/7 support. 7-day money-back guarantee.",
     "hero_badge": "Instant activation",
     "hero_title_a": "Our",
     "hero_title_accent": "Exclusive",

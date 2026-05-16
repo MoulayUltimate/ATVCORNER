@@ -1,11 +1,11 @@
-import { plans } from "@/data/plans";
+import { plans, formatPrice } from "@/data/plans";
 import { whatsappUrl } from "@/lib/site";
 import { CheckIcon } from "./CheckIcon";
 import type { Dictionary } from "@/i18n";
 
-type Props = { dict: Dictionary };
+type Props = { dict: Dictionary; lang: string };
 
-export function PricingGrid({ dict }: Props) {
+export function PricingGrid({ dict, lang }: Props) {
   const pricing = dict.pricing;
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
@@ -13,6 +13,7 @@ export function PricingGrid({ dict }: Props) {
         const featured = p.highlighted;
         const durationLabel = pricing.duration[p.id];
         const badgeLabel = pricing.badge[p.id];
+        const priceLabel = formatPrice(p, lang);
         return (
           <article
             key={p.id}
@@ -48,7 +49,7 @@ export function PricingGrid({ dict }: Props) {
                     featured ? "text-emerald-400" : "text-white"
                   }`}
                 >
-                  ${p.price}
+                  {priceLabel}
                 </span>
               </div>
               <p
@@ -79,7 +80,7 @@ export function PricingGrid({ dict }: Props) {
 
             <a
               href={whatsappUrl(
-                `${pricing.cta} — ${durationLabel} ($${p.price}).`,
+                `${pricing.cta} — ${durationLabel} (${priceLabel}).`,
               )}
               target="_blank"
               rel="noopener noreferrer"

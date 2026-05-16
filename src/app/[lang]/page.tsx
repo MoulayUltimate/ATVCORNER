@@ -3,7 +3,7 @@ import Image from "next/image";
 import Script from "next/script";
 import { notFound } from "next/navigation";
 import { HeroMockup } from "@/components/HeroMockup";
-import { plans } from "@/data/plans";
+import { plans, currencyForLocale, priceFor } from "@/data/plans";
 import { vodHighlights, sportsHighlights, whatsappReviews } from "@/data/channels";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { PricingGrid } from "@/components/PricingGrid";
@@ -249,7 +249,7 @@ export default async function HomePage({
           description={dict.pricing.desc}
         />
         <div className="mt-12">
-          <PricingGrid dict={dict} />
+          <PricingGrid dict={dict} lang={lang} />
         </div>
       </section>
 
@@ -435,14 +435,17 @@ export default async function HomePage({
             name: `${siteConfig.name} Premium Streaming`,
             description: siteConfig.shortDesc,
             brand: { "@type": "Brand", name: siteConfig.name },
-            offers: plans.map((p) => ({
-              "@type": "Offer",
-              name: dict.pricing.duration[p.id],
-              price: p.price,
-              priceCurrency: "USD",
-              availability: "https://schema.org/InStock",
-              url: `${siteConfig.url}/${lang}/pricing#${p.id}`,
-            })),
+            offers: plans.map((p) => {
+              const currency = currencyForLocale(lang);
+              return {
+                "@type": "Offer",
+                name: dict.pricing.duration[p.id],
+                price: priceFor(p, currency),
+                priceCurrency: currency,
+                availability: "https://schema.org/InStock",
+                url: `${siteConfig.url}/${lang}/pricing#${p.id}`,
+              };
+            }),
             aggregateRating: {
               "@type": "AggregateRating",
               ratingValue: "4.9",

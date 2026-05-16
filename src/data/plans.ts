@@ -2,11 +2,12 @@ import type { Dictionary } from "@/i18n";
 
 export type PlanId = "1m" | "3m" | "6m" | "12m";
 export type FeatureKey = keyof Dictionary["pricing"]["feature"];
+export type Currency = "EUR" | "USD";
 
 export type Plan = {
   id: PlanId;
-  price: number;
-  currency: "USD" | "EUR";
+  priceEur: number;
+  priceUsd: number;
   features: FeatureKey[];
   highlighted?: boolean;
 };
@@ -23,13 +24,13 @@ const baseFeatures: FeatureKey[] = [
 ];
 
 export const plans: Plan[] = [
-  { id: "1m", price: 12.99, currency: "USD", features: baseFeatures },
-  { id: "3m", price: 24.99, currency: "USD", features: baseFeatures },
-  { id: "6m", price: 34.99, currency: "USD", features: baseFeatures },
+  { id: "1m", priceEur: 15, priceUsd: 16, features: baseFeatures },
+  { id: "3m", priceEur: 30, priceUsd: 33, features: baseFeatures },
+  { id: "6m", priceEur: 50, priceUsd: 55, features: baseFeatures },
   {
     id: "12m",
-    price: 49.99,
-    currency: "USD",
+    priceEur: 60,
+    priceUsd: 65,
     features: [
       "antifreeze",
       "instant",
@@ -43,3 +44,25 @@ export const plans: Plan[] = [
     highlighted: true,
   },
 ];
+
+const currencyByLocale: Record<string, Currency> = {
+  fr: "EUR",
+  de: "EUR",
+  en: "USD",
+};
+
+export function currencyForLocale(lang: string): Currency {
+  return currencyByLocale[lang] ?? "EUR";
+}
+
+export function priceFor(plan: Plan, currency: Currency): number {
+  return currency === "EUR" ? plan.priceEur : plan.priceUsd;
+}
+
+export function formatPrice(plan: Plan, lang: string): string {
+  const currency = currencyForLocale(lang);
+  const value = priceFor(plan, currency);
+  const symbol = currency === "EUR" ? "€" : "$";
+  // EUR: "60 €" (after), USD: "$60" (before) — keep it simple, no decimals for round prices
+  return currency === "EUR" ? `${value} ${symbol}` : `${symbol}${value}`;
+}

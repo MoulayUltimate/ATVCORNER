@@ -64,7 +64,7 @@ export default async function PricingPage({
       </section>
 
       <section className="container-luxe -mt-8 pb-20">
-        <PricingGrid dict={dict} />
+        <PricingGrid dict={dict} lang={lang} />
       </section>
 
       {/* Comparison row */}

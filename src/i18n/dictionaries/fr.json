@@ -13,7 +13,7 @@
     "title_accent": "Streaming",
     "title_b": "en Europe.",
     "desc": "Plus de 66 000 chaînes internationales, films et séries en 4K/8K. Stabilité exceptionnelle, activation en 5 minutes. À partir de",
-    "from_price": "12,99 $",
+    "from_price": "15 €",
     "cta_primary": "Démarrer un test gratuit",
     "cta_secondary": "Voir les tarifs",
     "benefits": {
@@ -50,7 +50,7 @@
       "6m": "PACK PREMIUM",
       "12m": "PACK ULTIME"
     },
-    "savings_12m": "Seulement 4,16$/mois au lieu de 12,99$",
+    "savings_12m": "Seulement 5 €/mois au lieu de 15 €",
     "feature": {
       "quality": "Streaming HD / FHD / 4K / 8K",
       "channels": "+50 000 chaînes TV & sports",
@@ -150,7 +150,7 @@
   },
   "pricing_page": {
     "meta_title": "Tarifs Abonnement — Packs 1 / 3 / 6 / 12 Mois",
-    "meta_desc": "Abonnement Streaming premium dès 12,99 $. +50 000 chaînes, +70 000 films & séries, qualité 4K/8K, support 24/7. Satisfait ou remboursé sous 7 jours.",
+    "meta_desc": "Abonnement Streaming premium dès 15 €. +50 000 chaînes, +70 000 films & séries, qualité 4K/8K, support 24/7. Satisfait ou remboursé sous 7 jours.",
     "hero_badge": "Activation instantanée",
     "hero_title_a": "Nos Packs",
     "hero_title_accent": "Exclusifs",

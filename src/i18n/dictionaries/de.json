@@ -13,7 +13,7 @@
     "title_accent": "Streaming",
     "title_b": "Abonnement in Europa.",
     "desc": "Über 66.000 internationale Sender, Filme und Serien in 4K/8K. Außergewöhnliche Stabilität, Aktivierung in 5 Minuten. Ab",
-    "from_price": "12,99 $",
+    "from_price": "15 €",
     "cta_primary": "Kostenlosen Test starten",
     "cta_secondary": "Preise ansehen",
     "benefits": {
@@ -50,7 +50,7 @@
       "6m": "PREMIUM-PAKET",
       "12m": "ULTIMATE-PAKET"
     },
-    "savings_12m": "Nur 4,16 $/Monat statt 12,99 $",
+    "savings_12m": "Nur 5 €/Monat statt 15 €",
     "feature": {
       "quality": "Streaming HD / FHD / 4K / 8K",
       "channels": "+50.000 TV- & Sportsender",
@@ -150,7 +150,7 @@
   },
   "pricing_page": {
     "meta_title": "Abo-Preise — Pakete 1 / 3 / 6 / 12 Monate",
-    "meta_desc": "Premium-Streaming-Abo ab 12,99 $. +50.000 Sender, +70.000 Filme & Serien, 4K/8K-Qualität, 24/7-Support. 7 Tage Geld-zurück-Garantie.",
+    "meta_desc": "Premium-Streaming-Abo ab 15 €. +50.000 Sender, +70.000 Filme & Serien, 4K/8K-Qualität, 24/7-Support. 7 Tage Geld-zurück-Garantie.",
     "hero_badge": "Sofortige Aktivierung",
     "hero_title_a": "Unsere",
     "hero_title_accent": "exklusiven",
