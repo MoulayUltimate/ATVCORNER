@@ -127,6 +127,10 @@
     "primary": "Start my trial",
     "secondary": "View pricing"
   },
+  "wa_fab": {
+    "label": "Buy on WhatsApp !!",
+    "aria": "Buy on WhatsApp"
+  },
   "footer": {
     "tagline": "The best streaming subscription in Europe.",
     "nav_title": "Navigation",

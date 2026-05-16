@@ -103,7 +103,7 @@ export default async function RootLayout({
         <Navbar lang={lang} dict={dict} />
         <main className="flex-1 pt-20">{children}</main>
         <Footer lang={lang} dict={dict} />
-        <WhatsAppFab />
+        <WhatsAppFab label={dict.wa_fab.label} aria={dict.wa_fab.aria} />
 
         <Script
           id="ld-organization"

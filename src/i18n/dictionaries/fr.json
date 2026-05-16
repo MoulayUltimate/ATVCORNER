@@ -127,6 +127,10 @@
     "primary": "Démarrer mon test",
     "secondary": "Voir les tarifs"
   },
+  "wa_fab": {
+    "label": "Acheter sur WhatsApp !!",
+    "aria": "Acheter sur WhatsApp"
+  },
   "footer": {
     "tagline": "Le meilleur abonnement de streaming en Europe.",
     "nav_title": "Navigation",
