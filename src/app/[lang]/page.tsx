@@ -89,20 +89,23 @@ const steps = [
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href={`/${lang}/pricing`}
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-emerald-400 text-zinc-950 font-semibold hover:bg-emerald-300 transition-colors"
+              >
+                {dict.hero.cta_primary}
+              </Link>
               <a
                 href={whatsappUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-emerald-400 text-zinc-950 font-semibold hover:bg-emerald-300 transition-colors"
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/15 text-white font-medium hover:border-white/30 hover:bg-white/5 transition-colors"
               >
-                {dict.hero.cta_primary}
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-emerald-400" aria-hidden>
+                  <path d="M20.5 3.5A11 11 0 0 0 3.6 17.3L2 22l4.8-1.6A11 11 0 1 0 20.5 3.5ZM12 20.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-2.8.9.9-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.7-6.1c-.3-.1-1.5-.7-1.8-.8-.2-.1-.4-.1-.6.1-.2.3-.7.8-.8 1-.1.2-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.3.1-.1 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.9 4.5 4 2.7 1 2.7.7 3.2.7.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3Z" />
+                </svg>
+                {lang === "fr" ? "Discuter sur WhatsApp" : lang === "de" ? "Auf WhatsApp chatten" : "Chat on WhatsApp"}
               </a>
-              <Link
-                href={`/${lang}/pricing`}
-                className="inline-flex items-center px-7 py-3.5 rounded-full border border-white/15 text-white font-medium hover:border-white/30 hover:bg-white/5 transition-colors"
-              >
-                {dict.hero.cta_secondary}
-              </Link>
             </div>
 
             <ul className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-zinc-300">
