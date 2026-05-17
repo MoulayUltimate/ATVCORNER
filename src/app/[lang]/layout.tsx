@@ -112,6 +112,34 @@ export default async function RootLayout({
             gtag('js', new Date());
             gtag('config', 'G-DWS58BCDTL');
             gtag('config', 'AW-18142154553');
+
+            // WhatsApp click → Google Ads conversion (Add to cart)
+            window.gtag_report_conversion = function(url) {
+              var callback = function () {
+                if (typeof(url) !== 'undefined') { window.location = url; }
+              };
+              gtag('event', 'conversion', {
+                'send_to': 'AW-18142154553/CmtNCIfStK4cELme7cpD',
+                'value': 1.0,
+                'currency': 'USD',
+                'event_callback': callback
+              });
+              return false;
+            };
+
+            // Auto-track any click on a WhatsApp (wa.me) link, anywhere on the site.
+            // Links open in _blank so navigation isn't blocked — we just fire the event.
+            document.addEventListener('click', function(e) {
+              var a = e.target && e.target.closest ? e.target.closest('a[href*="wa.me/"]') : null;
+              if (!a) return;
+              try {
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-18142154553/CmtNCIfStK4cELme7cpD',
+                  'value': 1.0,
+                  'currency': 'USD'
+                });
+              } catch (err) {}
+            }, true);
           `}
         </Script>
       </head>
