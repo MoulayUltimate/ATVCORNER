@@ -22,9 +22,12 @@ type Page =
   | "iptv-4k"
   | "m3u-playlist"
   | "xtream-codes"
-  | "iptv-sport";
+  | "iptv-sport"
+  | "best-iptv-alternatives";
 
-const content: Record<Page, Record<Locale, SeoContent>> = {
+const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
+
+Object.assign(content, {
   // ===========================================================================
   // /iptv-premium — Targets "premium", "ott premium", "ott", "premium ott"
   // ===========================================================================
@@ -708,6 +711,141 @@ const content: Record<Page, Record<Locale, SeoContent>> = {
       cta: "Sport-Sender anzeigen",
     },
   },
+});
+
+// ===========================================================================
+// /best-iptv-alternatives — Targets competitor brand queries
+// (NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365,
+//  TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV…)
+// Neutral comparison page — no disparagement, factual positioning only.
+// ===========================================================================
+content["best-iptv-alternatives"] = {
+  fr: {
+    metaTitle: "Meilleures Alternatives IPTV 2026 — Comparatif | ATV Corner",
+    metaDesc:
+      "Comparatif 2026 des services IPTV : NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV. Pourquoi ATV Corner se démarque.",
+    eyebrow: "Comparatif IPTV · Édition 2026",
+    h1: "Meilleures alternatives",
+    h1Accent: "IPTV 2026",
+    intro:
+      "Vous comparez les services IPTV du marché — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV ? Voici un comparatif factuel des critères qui comptent : qualité d'image, stabilité, catalogue, support et prix. ATV Corner se positionne comme l'alternative premium 4K/8K, avec un test gratuit 24h pour vérifier par vous-même.",
+    features: [
+      { h: "66 000+ chaînes", p: "Catalogue plus large que la majorité des services concurrents — France, Europe, USA, Maghreb, monde." },
+      { h: "Vraie qualité 8K", p: "Flux 8K natifs encodés HEVC, là où beaucoup d'acteurs annoncent du 8K mais diffusent du 4K upscalé." },
+      { h: "Anti-freeze garanti", p: "Infrastructure Tier 1 européenne dimensionnée pour les pics — Champions League, F1, finales." },
+      { h: "Test gratuit 24h", p: "Aucun engagement, aucune carte. Comparez vous-même la stabilité avant de payer." },
+    ],
+    sections: [
+      {
+        h: "Comment choisir entre les services IPTV concurrents",
+        p: "Le marché de l'IPTV compte des dizaines d'offres : NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, FooxTV, TVnow, Smartiflix, 7IPTV, SixStarIPTV, et beaucoup d'autres. Pour bien choisir, comparez quatre critères objectifs : (1) la taille réelle du catalogue, (2) la qualité maximale supportée — 4K natif ou simple Full HD upscalé, (3) la stabilité serveur pendant les pics d'audience sportifs, (4) la qualité du support client en cas de panne. Le prix seul est rarement un bon indicateur — un abonnement très peu cher cache souvent des serveurs surchargés.",
+      },
+      {
+        h: "Pourquoi ATV Corner comme alternative premium",
+        p: "ATV Corner a été conçu pour le segment premium du marché : 66 000+ chaînes (au-dessus de la moyenne du secteur), résolutions jusqu'au 8K natif, infrastructure CDN européenne calibrée pour 10× la charge réelle, support 24/7 en français, anglais, allemand et arabe. Nos abonnements démarrent à 15 €/mois et descendent à 5 €/mois sur le plan annuel — compétitifs sans sacrifier la qualité. Le test gratuit 24h vous permet de comparer directement avec votre service actuel avant de basculer.",
+      },
+      {
+        h: "Migrer depuis un autre service IPTV",
+        p: "Si vous utilisez déjà NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV ou un autre service, la migration vers ATV Corner prend moins de 5 minutes. Vos identifiants Xtream Codes ou URL M3U remplacent simplement ceux de votre ancien service dans la même application (TiviMate, IBO Player, IPTV Smarters, VLC…). Aucune réinstallation, aucun nouveau matériel — juste un meilleur flux.",
+      },
+      {
+        h: "Critères de comparaison objectifs",
+        p: "Pour comparer honnêtement deux services IPTV, vérifiez : la résolution réelle (lancez un fichier mediainfo sur un flux 4K annoncé), la latence des chaînes sport en live, le nombre de positions du catalogue VOD (et la fréquence de mise à jour), la présence d'un vrai EPG multilingue, les options de paiement (Stripe/PayPal pour la traçabilité), et la réactivité du support sur WhatsApp en cas de coupure. ATV Corner se mesure favorablement sur ces six critères face aux acteurs établis du marché.",
+      },
+    ],
+    faq: [
+      { q: "Quelle est la meilleure alternative à NigmaTV ?", a: "ATV Corner propose un catalogue plus large (66 000+ chaînes vs catalogue standard), une vraie qualité 8K native et un test gratuit 24h. Vous pouvez comparer directement les deux services avant de basculer." },
+      { q: "ATV Corner est-il meilleur que SphereIPTV, SonixIPTV ou AeroTV ?", a: "Chaque service a ses forces. ATV Corner se distingue par l'infrastructure Tier 1 européenne dimensionnée pour les pics sportifs, le support multilingue 24/7 et le test gratuit 24h sans carte — comparez vous-même." },
+      { q: "Puis-je migrer depuis WorldIPTV, Streamex, King365, TVnow ou Smartiflix ?", a: "Oui. La migration est immédiate : vous remplacez vos identifiants Xtream Codes ou votre URL M3U dans votre lecteur actuel (TiviMate, IBO Player, Smarters Pro, VLC). Aucun nouveau matériel nécessaire." },
+      { q: "Quel est le critère le plus important pour comparer ?", a: "La stabilité pendant les grands événements sportifs. Un service avec moins de chaînes mais zéro coupure pendant Real-Barça vaut mieux qu'un catalogue immense qui freeze. C'est exactement le créneau d'ATV Corner." },
+      { q: "Comment tester ATV Corner sans risque ?", a: "Demandez le test gratuit 24h sur WhatsApp : +44 7796 630011. Aucune carte bancaire, aucun engagement. Vous comparez directement avec votre service actuel." },
+    ],
+    cta: "Tester ATV Corner gratuitement 24h",
+  },
+  en: {
+    metaTitle: "Best IPTV Alternatives 2026 — Comparison | ATV Corner",
+    metaDesc:
+      "2026 IPTV comparison: NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV. Why ATV Corner stands out.",
+    eyebrow: "IPTV Comparison · 2026 Edition",
+    h1: "Best IPTV",
+    h1Accent: "Alternatives 2026",
+    intro:
+      "Comparing IPTV services — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV? Here's a factual comparison of what matters: image quality, stability, catalog, support, and pricing. ATV Corner positions itself as the premium 4K/8K alternative, with a free 24h trial so you can verify for yourself.",
+    features: [
+      { h: "66,000+ Channels", p: "Larger catalog than most competitor services — France, Europe, US, MENA, worldwide." },
+      { h: "Real 8K Quality", p: "Native 8K streams in HEVC, where many providers advertise 8K but deliver upscaled 4K." },
+      { h: "Guaranteed Anti-Freeze", p: "Tier 1 European infrastructure sized for peaks — Champions League, F1, finals." },
+      { h: "Free 24h Trial", p: "No commitment, no card. Compare stability yourself before paying." },
+    ],
+    sections: [
+      {
+        h: "How to choose between competing IPTV services",
+        p: "The IPTV market has dozens of offers: NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, FooxTV, TVnow, Smartiflix, 7IPTV, SixStarIPTV, and many more. To choose well, compare four objective criteria: (1) real catalog size, (2) maximum supported quality — native 4K or just Full HD upscaled, (3) server stability during sports peaks, (4) customer support quality during outages. Price alone is rarely a good indicator — very cheap subscriptions often hide overloaded servers.",
+      },
+      {
+        h: "Why ATV Corner as a premium alternative",
+        p: "ATV Corner was built for the premium segment: 66,000+ channels (above industry average), resolutions up to native 8K, European CDN infrastructure calibrated for 10× actual load, 24/7 support in French, English, German and Arabic. Our subscriptions start at $16/month and drop to $5/month on the annual plan — competitive without sacrificing quality. The free 24h trial lets you compare directly with your current service before switching.",
+      },
+      {
+        h: "Migrating from another IPTV service",
+        p: "If you already use NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV or another service, migrating to ATV Corner takes less than 5 minutes. Your Xtream Codes credentials or M3U URL simply replace the old ones in the same app (TiviMate, IBO Player, IPTV Smarters, VLC…). No reinstall, no new hardware — just a better stream.",
+      },
+      {
+        h: "Objective comparison criteria",
+        p: "To honestly compare two IPTV services, check: real resolution (run mediainfo on an advertised 4K stream), latency of live sports channels, VOD catalog size (and update frequency), presence of a real multilingual EPG, payment options (Stripe/PayPal for traceability), and WhatsApp support responsiveness during outages. ATV Corner measures favorably on these six criteria against established market players.",
+      },
+    ],
+    faq: [
+      { q: "What's the best alternative to NigmaTV?", a: "ATV Corner offers a larger catalog (66,000+ channels vs standard catalog), real native 8K quality and a free 24h trial. You can directly compare both services before switching." },
+      { q: "Is ATV Corner better than SphereIPTV, SonixIPTV or AeroTV?", a: "Each service has its strengths. ATV Corner stands out for its Tier 1 European infrastructure sized for sports peaks, 24/7 multilingual support and free 24h trial with no card — compare for yourself." },
+      { q: "Can I migrate from WorldIPTV, Streamex, King365, TVnow or Smartiflix?", a: "Yes. Migration is immediate: replace your Xtream Codes credentials or M3U URL in your current player (TiviMate, IBO Player, Smarters Pro, VLC). No new hardware needed." },
+      { q: "What's the most important comparison criterion?", a: "Stability during major sports events. A service with fewer channels but zero downtime during Real-Barça beats a huge catalog that freezes. That's exactly ATV Corner's niche." },
+      { q: "How to test ATV Corner risk-free?", a: "Request the free 24h trial on WhatsApp: +44 7796 630011. No card, no commitment. Compare directly with your current service." },
+    ],
+    cta: "Try ATV Corner free for 24h",
+  },
+  de: {
+    metaTitle: "Beste IPTV-Alternativen 2026 — Vergleich | ATV Corner",
+    metaDesc:
+      "IPTV-Vergleich 2026: NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV. Warum ATV Corner heraussticht.",
+    eyebrow: "IPTV-Vergleich · Ausgabe 2026",
+    h1: "Beste IPTV-",
+    h1Accent: "Alternativen 2026",
+    intro:
+      "Sie vergleichen IPTV-Dienste — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV? Hier ein sachlicher Vergleich dessen, was zählt: Bildqualität, Stabilität, Katalog, Support und Preis. ATV Corner positioniert sich als Premium-4K/8K-Alternative, mit kostenlosem 24h-Test.",
+    features: [
+      { h: "66.000+ Sender", p: "Größerer Katalog als die meisten Konkurrenzdienste — Frankreich, Europa, USA, MENA, weltweit." },
+      { h: "Echte 8K-Qualität", p: "Native 8K-Streams in HEVC, wo viele Anbieter 8K bewerben aber hochskaliertes 4K liefern." },
+      { h: "Garantiertes Anti-Freeze", p: "Tier-1-Infrastruktur in Europa, dimensioniert für Spitzen — Champions League, F1, Finale." },
+      { h: "Kostenloser 24h-Test", p: "Keine Verpflichtung, keine Karte. Vergleichen Sie die Stabilität selbst vor der Zahlung." },
+    ],
+    sections: [
+      {
+        h: "Wie zwischen konkurrierenden IPTV-Diensten wählen",
+        p: "Der IPTV-Markt hat Dutzende von Angeboten: NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, FooxTV, TVnow, Smartiflix, 7IPTV, SixStarIPTV und viele mehr. Vergleichen Sie vier objektive Kriterien: (1) reale Katalogfgröße, (2) maximale unterstützte Qualität — natives 4K oder nur hochskaliertes Full HD, (3) Serverstabilität bei Sportspitzen, (4) Kundensupport-Qualität bei Ausfällen.",
+      },
+      {
+        h: "Warum ATV Corner als Premium-Alternative",
+        p: "ATV Corner wurde für das Premium-Segment entwickelt: 66.000+ Sender, Auflösungen bis natives 8K, europäische CDN-Infrastruktur für die 10-fache tatsächliche Last kalibriert, 24/7-Support auf Französisch, Englisch, Deutsch und Arabisch. Unsere Abos beginnen bei 15 €/Monat und sinken auf 5 €/Monat im Jahresplan — wettbewerbsfähig ohne Qualitätskompromisse.",
+      },
+      {
+        h: "Migration von einem anderen IPTV-Dienst",
+        p: "Wenn Sie bereits NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV oder einen anderen Dienst nutzen, dauert der Wechsel zu ATV Corner weniger als 5 Minuten. Ihre Xtream-Codes-Zugangsdaten oder M3U-URL ersetzen einfach die alten in derselben App. Keine Neuinstallation, keine neue Hardware.",
+      },
+      {
+        h: "Objektive Vergleichskriterien",
+        p: "Um zwei IPTV-Dienste ehrlich zu vergleichen, prüfen Sie: reale Auflösung, Latenz der Live-Sport-Sender, VOD-Kataloggröße, Vorhandensein eines mehrsprachigen EPG, Zahlungsoptionen (Stripe/PayPal), und WhatsApp-Support-Reaktionsfähigkeit bei Ausfällen.",
+      },
+    ],
+    faq: [
+      { q: "Was ist die beste Alternative zu NigmaTV?", a: "ATV Corner bietet einen größeren Katalog, echte native 8K-Qualität und einen kostenlosen 24h-Test. Vergleichen Sie beide Dienste direkt vor dem Wechsel." },
+      { q: "Ist ATV Corner besser als SphereIPTV, SonixIPTV oder AeroTV?", a: "Jeder Dienst hat seine Stärken. ATV Corner zeichnet sich durch Tier-1-Infrastruktur in Europa, 24/7-Mehrsprachigen Support und kostenlosen 24h-Test ohne Karte aus." },
+      { q: "Kann ich von WorldIPTV, Streamex, King365, TVnow oder Smartiflix migrieren?", a: "Ja. Die Migration ist sofortig: ersetzen Sie Ihre Xtream-Codes-Zugangsdaten oder M3U-URL in Ihrem aktuellen Player. Keine neue Hardware nötig." },
+      { q: "Was ist das wichtigste Vergleichskriterium?", a: "Stabilität bei großen Sportveranstaltungen. Ein Dienst mit weniger Sendern aber null Ausfallzeit bei Real-Barça schlägt einen riesigen Katalog der einfriert." },
+      { q: "Wie ATV Corner risikofrei testen?", a: "Fordern Sie den kostenlosen 24h-Test auf WhatsApp an: +44 7796 630011. Keine Karte, keine Verpflichtung." },
+    ],
+    cta: "ATV Corner 24h kostenlos testen",
+  },
 };
 
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
@@ -721,4 +859,5 @@ export const seoPages: Page[] = [
   "m3u-playlist",
   "xtream-codes",
   "iptv-sport",
+  "best-iptv-alternatives",
 ];

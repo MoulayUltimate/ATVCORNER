@@ -21,6 +21,7 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [Playlist M3U](https://atvcorner.com/fr/m3u-playlist): Configuration M3U et lecteurs compatibles
 - [Xtream Codes](https://atvcorner.com/fr/xtream-codes): Compte API Xtream Codes
 - [IPTV Sport](https://atvcorner.com/fr/iptv-sport): Sport en direct (Premier League, Champions, F1, NBA)
+- [Meilleures alternatives IPTV 2026](https://atvcorner.com/fr/best-iptv-alternatives): Comparatif vs autres services du marché
 
 ## English
 

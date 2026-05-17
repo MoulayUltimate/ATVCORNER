@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/m3u-playlist", priority: 0.75, changeFrequency: "monthly" as const },
     { path: "/xtream-codes", priority: 0.75, changeFrequency: "monthly" as const },
     { path: "/iptv-sport", priority: 0.85, changeFrequency: "weekly" as const },
+    { path: "/best-iptv-alternatives", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/refund", priority: 0.3, changeFrequency: "yearly" as const },
