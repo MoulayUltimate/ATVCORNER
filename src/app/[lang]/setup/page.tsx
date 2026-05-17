@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { devices } from "@/data/devices";
 import { SectionHeading } from "@/components/SectionHeading";
+import { DeviceBrandIcon } from "@/components/DeviceBrandIcon";
 import { whatsappUrl } from "@/lib/site";
 import { getDictionary, hasLocale, locales } from "@/i18n";
 
@@ -29,33 +30,6 @@ export async function generateMetadata({
       },
     },
   };
-}
-
-const iconMap: Record<string, string> = {
-  tv: "tv",
-  cast: "fire",
-  smartphone: "smartphone",
-  phone_iphone: "apple",
-  router: "router",
-  laptop: "laptop",
-};
-
-function DeviceIcon({ icon }: { icon: string }) {
-  const k = iconMap[icon] ?? "tv";
-  // Use neutral SVG glyphs (no emoji) so all locales look consistent
-  const paths: Record<string, React.ReactNode> = {
-    tv: <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h18v12H3zM8 21h8M12 17v4" />,
-    fire: <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c1 3 4 5 4 9a4 4 0 1 1-8 0c0-2 1-3 1-5 1 2 3 3 3-4Z" />,
-    smartphone: <path strokeLinecap="round" strokeLinejoin="round" d="M7 3h10v18H7zM11 18h2" />,
-    apple: <path strokeLinecap="round" strokeLinejoin="round" d="M16 13c0-3 2-4 2-4-1-2-3-2-4-2-2 0-2 1-3 1s-2-1-3-1-3 1-3 4c0 4 3 9 5 9 1 0 2-1 3-1s2 1 3 1 3-3 3-5c-2-1-3-1-3-2Z" />,
-    router: <path strokeLinecap="round" strokeLinejoin="round" d="M4 13h16v6H4zM7 17h.01M11 17h.01M8 13a4 4 0 1 1 8 0M5 13a7 7 0 1 1 14 0" />,
-    laptop: <path strokeLinecap="round" strokeLinejoin="round" d="M5 5h14v10H5zM3 19h18" />,
-  };
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-7 h-7" aria-hidden>
-      {paths[k]}
-    </svg>
-  );
 }
 
 export default async function SetupPage({
@@ -118,7 +92,7 @@ export default async function SetupPage({
               className="group glass-card rounded-2xl p-5 sm:p-6 text-center hover:border-emerald-400/40 hover:-translate-y-1 transition-all flex flex-col items-center"
             >
               <span className="text-emerald-400">
-                <DeviceIcon icon={d.icon} />
+                <DeviceBrandIcon kind={d.icon} className="w-8 h-8" />
               </span>
               <h3 className="mt-3 text-sm font-semibold text-white leading-tight">
                 {d.name}
@@ -137,7 +111,7 @@ export default async function SetupPage({
           >
             <header className="flex items-center gap-5 mb-7">
               <span className="w-14 h-14 rounded-2xl bg-emerald-400/15 text-emerald-400 flex items-center justify-center shrink-0">
-                <DeviceIcon icon={d.icon} />
+                <DeviceBrandIcon kind={d.icon} className="w-8 h-8" />
               </span>
               <div>
                 <p className="text-[11px] font-bold tracking-[0.18em] uppercase text-emerald-400/80">

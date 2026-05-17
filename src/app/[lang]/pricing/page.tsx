@@ -63,8 +63,61 @@ export default async function PricingPage({
         </div>
       </section>
 
-      <section className="container-luxe -mt-8 pb-20">
+      <section className="container-luxe -mt-8 pb-12">
         <PricingGrid dict={dict} lang={lang} />
+
+        {/* Trust line under plans */}
+        <div className="mt-10 flex flex-col items-center gap-5 text-center">
+          <p className="inline-flex items-center gap-2 text-sm sm:text-base text-zinc-300">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5 text-emerald-400 shrink-0" aria-hidden>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 2 4 6v6c0 5 3.4 8.9 8 10 4.6-1.1 8-5 8-10V6l-8-4Z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="m9 12 2 2 4-4" />
+            </svg>
+            <span>
+              {lang === "fr"
+                ? "Tous les abonnements incluent une garantie satisfait ou remboursé sous 7 jours."
+                : lang === "de"
+                ? "Alle Abos enthalten eine 7-tägige Geld-zurück-Garantie."
+                : "All plans include a 7-day money-back guarantee."}
+            </span>
+          </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs sm:text-sm text-zinc-400">
+            <span className="text-zinc-500">
+              {lang === "fr"
+                ? "Paiement sécurisé via"
+                : lang === "de"
+                ? "Sichere Zahlung über"
+                : "Secure payment via"}
+            </span>
+            {/* PayPal */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#0070BA]" aria-hidden>
+                <path d="M7.5 21h-3a.5.5 0 0 1-.5-.6L6.4 3.6A.7.7 0 0 1 7.1 3h6.5c3.1 0 5.3 1.7 5 4.7-.4 3.8-3.2 5.7-7 5.7H9.5l-.9 5.9a.7.7 0 0 1-.7.7H7.5Z" />
+                <path opacity="0.6" d="M16.7 8.6c-.4 3.4-3 5.1-6.5 5.1H8.7l-1 6.6h2.8c.3 0 .6-.2.6-.5l.7-4.5h1.7c3.4 0 5.9-1.7 6.3-4.9.2-1.4-.4-2.6-1.4-3.3-.1.4-.3 1.1-.7 1.5Z" />
+              </svg>
+              <span className="font-semibold text-zinc-200">PayPal</span>
+            </span>
+            {/* Credit Card */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-300" aria-hidden>
+                <rect x="2.5" y="5.5" width="19" height="13" rx="1.8" />
+                <path d="M2.5 10h19" />
+                <path strokeLinecap="round" d="M6 15h3" />
+              </svg>
+              <span className="font-semibold text-zinc-200">
+                {lang === "fr" ? "Carte bancaire" : lang === "de" ? "Kreditkarte" : "Credit Card"}
+              </span>
+            </span>
+            {/* Crypto */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#F7931A]" aria-hidden>
+                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm3.5 9.1c.7-.5 1-1.3.9-2.2-.2-1.3-1.3-1.8-2.7-1.9V5.4h-1.2v1.5h-1V5.4h-1.2v1.6H8.5v1.2h.9c.4 0 .5.1.5.5v4.5c0 .4-.1.5-.5.5h-.9v1.3h1.8v1.6h1.2v-1.6h1v1.6h1.2v-1.6c1.7-.1 3-.7 3.2-2.2.1-1-.3-1.7-1.4-2.1Zm-3.8-2.8h.4c1 0 1.9.2 1.9 1.1 0 .9-.9 1.1-1.9 1.1h-.4V8.3Zm.6 5.3h-.6v-2.3h.6c1.2 0 2.2.2 2.2 1.2s-1 1.1-2.2 1.1Z" />
+              </svg>
+              <span className="font-semibold text-zinc-200">Crypto</span>
+            </span>
+          </div>
+        </div>
       </section>
 
       {/* Comparison row */}

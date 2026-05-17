@@ -9,7 +9,7 @@ export const siteConfig = {
   whatsapp: {
     // E.164 without leading + (UK number)
     number: "447796630011",
-    text: "Bonjour, je souhaite m'abonner à ATV Corner.",
+    text: "Hi, I want to buy an IPTV subscription from ATV Corner. Please send me the plans and payment methods.",
   },
   email: "support@atvcorner.com",
   social: {

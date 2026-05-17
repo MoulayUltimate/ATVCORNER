@@ -10,6 +10,7 @@ import { PricingGrid } from "@/components/PricingGrid";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { SectionHeading } from "@/components/SectionHeading";
 import { LeagueCard } from "@/components/LeagueCard";
+import { DeviceBrandIcon } from "@/components/DeviceBrandIcon";
 import { getDictionary, hasLocale } from "@/i18n";
 
 const benefitIcons = {
@@ -50,28 +51,7 @@ export default async function HomePage({
 
   const benefitKeys: (keyof typeof benefitIcons)[] = ["uhd", "no_buffer", "support"];
 
-  const deviceIcons: Record<string, React.ReactNode> = {
-    "Smart TV": (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h18v12H3zM8 21h8M12 17v4" />
-    ),
-    "Fire Stick": (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c1 3 4 5 4 9a4 4 0 1 1-8 0c0-2 1-3 1-5 1 2 3 3 3-4Z" />
-    ),
-    Android: (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M7 3h10v18H7zM11 18h2" />
-    ),
-    iOS: (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M8 3h8v18H8zM11 18h2M9 6h6" />
-    ),
-    "Windows / Mac": (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M4 5h16v11H4zM2 20h20M9 16v4M15 16v4" />
-    ),
-    "MAG Box": (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M4 7h16v10H4zM7 11h.01M7 14h6" />
-    ),
-  };
-
-  const steps = [
+const steps = [
     { n: "01", title: dict.how.step1_title, text: dict.how.step1_text },
     { n: "02", title: dict.how.step2_title, text: dict.how.step2_text },
     { n: "03", title: dict.how.step3_title, text: dict.how.step3_text },
@@ -293,16 +273,7 @@ export default async function HomePage({
                 className="glass-card rounded-2xl p-6 text-center hover:border-emerald-400/40 hover:-translate-y-1 transition-all duration-300"
               >
                 <span className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-400/10 text-emerald-400 mb-4">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.8}
-                    className="w-6 h-6"
-                    aria-hidden
-                  >
-                    {deviceIcons[d.name]}
-                  </svg>
+                  <DeviceBrandIcon kind={d.name} className="w-6 h-6" />
                 </span>
                 <h3 className="text-sm font-display font-bold text-white">
                   {d.name}
