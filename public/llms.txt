@@ -1,0 +1,55 @@
+# ATV Corner
+
+> ATV Corner est un service d'abonnement IPTV premium offrant plus de 66 000 chaînes internationales en 4K/8K, sports en direct, films et séries illimités, avec une stabilité exceptionnelle et un support 24/7. Service disponible en français, anglais et allemand.
+
+ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. Caractéristiques principales : 8K Ultra HD, zéro coupure, support 24/7, essai gratuit 24h via WhatsApp.
+
+## Pages principales
+
+- [Accueil](https://atvcorner.com/fr): Présentation de l'offre, valeur ajoutée et essai gratuit
+- [Tarifs](https://atvcorner.com/fr/pricing): Plans d'abonnement et prix
+- [Chaînes & VOD](https://atvcorner.com/fr/channels): Catalogue de chaînes, sports, films et séries
+- [Installation](https://atvcorner.com/fr/setup): Guides d'installation par appareil (Smart TV, Firestick, Android, iOS, MAG)
+- [Support / Contact](https://atvcorner.com/fr/contact): Contact WhatsApp, email et support technique
+- [À propos](https://atvcorner.com/fr/about): Présentation de l'entreprise
+
+## Pages thématiques
+
+- [IPTV Premium](https://atvcorner.com/fr/iptv-premium): Service OTT premium 4K/8K
+- [IPTV 8K](https://atvcorner.com/fr/iptv-8k): Streaming Ultra HD 8K
+- [IPTV 4K](https://atvcorner.com/fr/iptv-4k): Streaming Ultra HD 4K live
+- [Playlist M3U](https://atvcorner.com/fr/m3u-playlist): Configuration M3U et lecteurs compatibles
+- [Xtream Codes](https://atvcorner.com/fr/xtream-codes): Compte API Xtream Codes
+- [IPTV Sport](https://atvcorner.com/fr/iptv-sport): Sport en direct (Premier League, Champions, F1, NBA)
+
+## English
+
+- [Home](https://atvcorner.com/en)
+- [Pricing](https://atvcorner.com/en/pricing)
+- [Channels & VOD](https://atvcorner.com/en/channels)
+- [Setup](https://atvcorner.com/en/setup)
+- [Contact](https://atvcorner.com/en/contact)
+- [About](https://atvcorner.com/en/about)
+
+## Deutsch
+
+- [Startseite](https://atvcorner.com/de)
+- [Preise](https://atvcorner.com/de/pricing)
+- [Sender & VOD](https://atvcorner.com/de/channels)
+- [Einrichtung](https://atvcorner.com/de/setup)
+- [Kontakt](https://atvcorner.com/de/contact)
+- [Über uns](https://atvcorner.com/de/about)
+
+## Légal
+
+- [Mentions légales](https://atvcorner.com/fr/legal-notice)
+- [Politique de confidentialité](https://atvcorner.com/fr/privacy)
+- [Conditions générales](https://atvcorner.com/fr/terms)
+- [Politique de cookies](https://atvcorner.com/fr/cookies)
+- [Politique de remboursement](https://atvcorner.com/fr/refund)
+- [DMCA](https://atvcorner.com/fr/dmca)
+
+## Optional
+
+- [Sitemap XML](https://atvcorner.com/sitemap.xml): Liste complète des URLs indexables
+- [Robots](https://atvcorner.com/robots.txt): Règles d'exploration

@@ -101,7 +101,7 @@ export default async function RootLayout({
     <html lang={lang} className={`${inter.variable} ${montserrat.variable}`}>
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-DWS58BCDTL"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18142154553"
           strategy="afterInteractive"
           async
         />
@@ -111,6 +111,7 @@ export default async function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-DWS58BCDTL');
+            gtag('config', 'AW-18142154553');
           `}
         </Script>
       </head>
