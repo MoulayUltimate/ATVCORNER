@@ -5,7 +5,7 @@
     "channels": "Chaînes & VOD",
     "setup": "Installation",
     "contact": "Support",
-    "cta": "Test gratuit 24h"
+    "cta": "Activer maintenant"
   },
   "hero": {
     "eyebrow": "Streaming premium · Europe",
@@ -14,7 +14,7 @@
     "title_b": "en Europe.",
     "desc": "Plus de 66 000 chaînes internationales, films et séries en 4K/8K. Stabilité exceptionnelle, activation en 5 minutes. À partir de",
     "from_price": "15 €",
-    "cta_primary": "Démarrer un test gratuit",
+    "cta_primary": "Activer mon abonnement",
     "cta_secondary": "Voir les tarifs",
     "benefits": {
       "uhd": "8K Ultra HD",
@@ -115,16 +115,16 @@
       { "q": "Quels types de chaînes et de contenus sont inclus ?", "a": "Vous profitez de plus de 66 000 chaînes internationales et d'une bibliothèque VOD illimitée (films et séries) mise à jour quotidiennement en qualité 4K et Full HD." },
       { "q": "Sur quels appareils puis-je utiliser ATV Corner ?", "a": "Notre service fonctionne sur tous les supports : Smart TV (Samsung, LG, Android), Amazon Fire Stick, Apple TV, Smartphones, Box Android et Ordinateurs." },
       { "q": "Que se passe-t-il immédiatement après mon paiement ?", "a": "C'est instantané ! Vous recevez vos accès et un guide d'installation complet via WhatsApp ou E-mail en moins de 5 minutes." },
-      { "q": "Proposez-vous un essai gratuit avant l'achat ?", "a": "Oui, nous offrons un test gratuit de 24h pour vous permettre de vérifier la stabilité de nos serveurs et la qualité de l'image avant de vous engager." },
+      { "q": "Offrez-vous une garantie de satisfaction ?", "a": "Oui — nous appliquons une garantie satisfait ou remboursé sous 7 jours, sans question. Si la stabilité ou la qualité ne vous convient pas, nous vous remboursons intégralement." },
       { "q": "Mon abonnement est terminé, comment le renouveler ?", "a": "Il suffit de commander à nouveau le pack de votre choix sur notre site. Le renouvellement se fait automatiquement sur votre compte existant." },
       { "q": "Puis-je utiliser l'abonnement sur plusieurs appareils ?", "a": "L'abonnement standard est pour un seul écran à la fois. Pour une utilisation simultanée sur plusieurs écrans, veuillez nous contacter pour une offre personnalisée." },
       { "q": "Que faire si j'ai besoin d'aide pour l'installation ?", "a": "Notre support technique est disponible 7j/7 sur WhatsApp ou Live Chat. Nous vous accompagnons pas à pas jusqu'à ce que tout fonctionne parfaitement sur votre écran." }
     ]
   },
   "cta": {
-    "title": "Essayez ATV Corner gratuitement pendant 24h.",
-    "desc": "Sans engagement, sans carte bancaire. Activation immédiate via WhatsApp.",
-    "primary": "Démarrer mon test",
+    "title": "Activez ATV Corner — satisfait ou remboursé sous 7 jours.",
+    "desc": "Paiement sécurisé Stripe ou PayPal. Activation immédiate via WhatsApp — remboursement intégral sous 7 jours si vous n'êtes pas satisfait.",
+    "primary": "Activer maintenant",
     "secondary": "Voir les tarifs"
   },
   "wa_fab": {
@@ -163,12 +163,12 @@
       "Paiement 100% sécurisé",
       "Activation en 5 minutes",
       "Support VIP WhatsApp",
-      "Garantie 7 jours",
-      "Aucune carte requise pour le test",
+      "Satisfait ou remboursé sous 7 jours",
+      "Résiliable à tout moment",
       "Renouvellement simple"
     ],
-    "compare_cta": "Démarrer un Test 24H",
-    "compare_cta_sub": "Aucune carte bancaire requise",
+    "compare_cta": "Activer mon abonnement",
+    "compare_cta_sub": "Satisfait ou remboursé sous 7 jours",
     "faq_eyebrow": "Vous hésitez ?",
     "faq_title": "Questions fréquentes sur nos packs"
   },
@@ -183,7 +183,7 @@
     "hero_desc_strong": "+66 000 chaînes",
     "hero_desc_b": "internationales en 8K Ultra HD. Sport, Films et Séries en VOD illimitée.",
     "hero_cta_order": "Commander maintenant",
-    "hero_cta_trial": "Test gratuit 24H",
+    "hero_cta_trial": "Garantie 7 jours",
     "stat_live": "Chaînes Live",
     "cat_eyebrow": "Catalogue complet",
     "cat_title_a": "Toutes les",
@@ -218,7 +218,7 @@
     "faq_title_b": "les plus fréquentes",
     "faq_items": [
       { "q": "Activation après paiement ?", "a": "Vos identifiants arrivent par e-mail ou WhatsApp en moins de 5 minutes." },
-      { "q": "Test gratuit ?", "a": "Oui — 24h, sans carte bancaire. Demandez sur WhatsApp." },
+      { "q": "Garantie de satisfaction ?", "a": "Oui — satisfait ou remboursé sous 7 jours, sans question. Demandez sur WhatsApp." },
       { "q": "Compatibilité ?", "a": "Smart TV, Firestick, Apple TV, Android, iOS, MAG, Enigma, PC, Mac." }
     ]
   },
@@ -277,7 +277,7 @@
       "sections": [
         { "h": "Garantie 7 jours", "p": "Si le service ne fonctionne pas comme annoncé dans les 7 jours suivant l'activation de votre abonnement, vous pouvez demander un remboursement intégral, sans justification." },
         { "h": "Comment demander un remboursement", "p": "Contactez notre support sur WhatsApp avec votre numéro de commande, décrivez le problème rencontré (capture d'écran appréciée). Le remboursement est traité sous 3 à 5 jours ouvrés via Stripe ou PayPal." },
-        { "h": "Exclusions", "p": "Les demandes de remboursement après 7 jours, ou liées à une incompatibilité de matériel non vérifiée pendant le test gratuit 24h, ne peuvent être honorées." }
+        { "h": "Exclusions", "p": "Les demandes de remboursement déposées après 7 jours, ou liées à une incompatibilité matérielle non signalée à notre support avant l'achat, ne peuvent être honorées." }
       ],
       "cta": "Demander un remboursement"
     }

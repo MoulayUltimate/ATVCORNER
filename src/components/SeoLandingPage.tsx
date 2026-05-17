@@ -121,10 +121,10 @@ export function SeoLandingPage({
           </h2>
           <p className="mt-3 text-zinc-300 max-w-xl mx-auto">
             {lang === "fr"
-              ? "Test gratuit 24h sur simple demande WhatsApp. Activation immédiate après paiement."
+              ? "Activation immédiate après paiement. Satisfait ou remboursé sous 7 jours."
               : lang === "de"
-              ? "Kostenloser 24h-Test auf einfache WhatsApp-Anfrage. Sofortige Aktivierung nach Zahlung."
-              : "Free 24h trial on simple WhatsApp request. Instant activation after payment."}
+              ? "Sofortige Aktivierung nach Zahlung. 7 Tage Geld-zurück-Garantie."
+              : "Instant activation after payment. 7-day money-back guarantee."}
           </p>
           <div className="mt-8 flex flex-wrap gap-3 justify-center">
             <a

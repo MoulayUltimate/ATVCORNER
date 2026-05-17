@@ -25,8 +25,8 @@ export const faqs: Faq[] = [
     a: "C'est instantané ! Vous recevez vos accès et un guide d'installation complet via WhatsApp ou E-mail en moins de 5 minutes.",
   },
   {
-    q: "Proposez-vous un essai gratuit avant l'achat ?",
-    a: "Oui, nous offrons un test gratuit de 24h pour vous permettre de vérifier la stabilité de nos serveurs et la qualité de l'image avant de vous engager.",
+    q: "Offrez-vous une garantie de satisfaction ?",
+    a: "Oui — nous appliquons une garantie satisfait ou remboursé sous 7 jours, sans question. Si la stabilité ou la qualité ne vous convient pas, nous vous remboursons intégralement.",
   },
   {
     q: "Mon abonnement est terminé, comment le renouveler ?",

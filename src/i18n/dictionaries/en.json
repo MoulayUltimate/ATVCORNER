@@ -5,7 +5,7 @@
     "channels": "Channels & VOD",
     "setup": "Setup",
     "contact": "Support",
-    "cta": "24h free trial"
+    "cta": "Activate now"
   },
   "hero": {
     "eyebrow": "Premium Streaming · Europe",
@@ -14,7 +14,7 @@
     "title_b": "subscription in Europe.",
     "desc": "Over 66,000 international channels, movies and series in 4K/8K. Rock-solid stability, activation in 5 minutes. Starting at",
     "from_price": "$16",
-    "cta_primary": "Start a free trial",
+    "cta_primary": "Activate my subscription",
     "cta_secondary": "View pricing",
     "benefits": {
       "uhd": "8K Ultra HD",
@@ -115,16 +115,16 @@
       { "q": "Which channels and content are included?", "a": "You get over 66,000 international channels and an unlimited VOD library (movies and series) updated daily in 4K and Full HD quality." },
       { "q": "Which devices can I use with ATV Corner?", "a": "Our service works on all platforms: Smart TV (Samsung, LG, Android), Amazon Fire Stick, Apple TV, smartphones, Android boxes and computers." },
       { "q": "What happens right after I pay?", "a": "It's instant! You receive your access and a full installation guide via WhatsApp or email in less than 5 minutes." },
-      { "q": "Do you offer a free trial before purchase?", "a": "Yes, we offer a 24-hour free trial so you can test server stability and image quality before committing." },
+      { "q": "Do you offer a satisfaction guarantee?", "a": "Yes — we offer a 7-day money-back guarantee, no questions asked. If stability or quality doesn't meet your expectations, we refund in full." },
       { "q": "My subscription has ended, how do I renew it?", "a": "Just order the pack of your choice again on our website. Renewal applies automatically to your existing account." },
       { "q": "Can I use the subscription on multiple devices?", "a": "The standard subscription is for one screen at a time. For simultaneous use on multiple screens, contact us for a custom offer." },
       { "q": "What if I need help with the installation?", "a": "Our technical support is available 7/7 on WhatsApp or Live Chat. We guide you step by step until everything works perfectly on your screen." }
     ]
   },
   "cta": {
-    "title": "Try ATV Corner free for 24 hours.",
-    "desc": "No commitment, no credit card. Instant activation via WhatsApp.",
-    "primary": "Start my trial",
+    "title": "Activate ATV Corner with a 7-day money-back guarantee.",
+    "desc": "Pay securely via Stripe or PayPal. Instant activation via WhatsApp — full refund within 7 days if you're not satisfied.",
+    "primary": "Activate now",
     "secondary": "View pricing"
   },
   "wa_fab": {
@@ -163,12 +163,12 @@
       "100% secure payment",
       "Activation in 5 minutes",
       "VIP WhatsApp support",
-      "7-day guarantee",
-      "No card required for the trial",
+      "7-day money-back guarantee",
+      "Cancel anytime",
       "Easy renewal"
     ],
-    "compare_cta": "Start a 24H trial",
-    "compare_cta_sub": "No credit card required",
+    "compare_cta": "Activate my subscription",
+    "compare_cta_sub": "7-day money-back guarantee",
     "faq_eyebrow": "On the fence?",
     "faq_title": "Frequently asked questions about our packs"
   },
@@ -183,7 +183,7 @@
     "hero_desc_strong": "+66,000 channels",
     "hero_desc_b": "internationally in 8K Ultra HD. Sports, movies and series in unlimited VOD.",
     "hero_cta_order": "Order now",
-    "hero_cta_trial": "24H free trial",
+    "hero_cta_trial": "7-day guarantee",
     "stat_live": "Live channels",
     "cat_eyebrow": "Full catalogue",
     "cat_title_a": "Every",
@@ -218,7 +218,7 @@
     "faq_title_b": "questions",
     "faq_items": [
       { "q": "Activation after payment?", "a": "Your credentials arrive by email or WhatsApp in less than 5 minutes." },
-      { "q": "Free trial?", "a": "Yes — 24h, no credit card. Just ask on WhatsApp." },
+      { "q": "Satisfaction guarantee?", "a": "Yes — 7-day money-back guarantee, no questions asked. Just ask on WhatsApp." },
       { "q": "Compatibility?", "a": "Smart TV, Firestick, Apple TV, Android, iOS, MAG, Enigma, PC, Mac." }
     ]
   },
@@ -277,7 +277,7 @@
       "sections": [
         { "h": "7-day guarantee", "p": "If the service does not work as advertised within 7 days of activation, you can request a full refund, no questions asked." },
         { "h": "How to request a refund", "p": "Contact our support on WhatsApp with your order number, describe the issue (screenshots appreciated). The refund is processed within 3 to 5 business days via Stripe or PayPal." },
-        { "h": "Exclusions", "p": "Refund requests after 7 days, or related to hardware incompatibility not verified during the 24h free trial, cannot be honored." }
+        { "h": "Exclusions", "p": "Refund requests submitted after 7 days, or related to hardware incompatibility not reported to our support before purchase, cannot be honored." }
       ],
       "cta": "Request a refund"
     }

@@ -5,7 +5,7 @@
     "channels": "Kanäle & VOD",
     "setup": "Installation",
     "contact": "Support",
-    "cta": "24h Gratistest"
+    "cta": "Jetzt aktivieren"
   },
   "hero": {
     "eyebrow": "Premium Streaming · Europa",
@@ -14,7 +14,7 @@
     "title_b": "Abonnement in Europa.",
     "desc": "Über 66.000 internationale Sender, Filme und Serien in 4K/8K. Außergewöhnliche Stabilität, Aktivierung in 5 Minuten. Ab",
     "from_price": "15 €",
-    "cta_primary": "Kostenlosen Test starten",
+    "cta_primary": "Abo aktivieren",
     "cta_secondary": "Preise ansehen",
     "benefits": {
       "uhd": "8K Ultra HD",
@@ -115,16 +115,16 @@
       { "q": "Welche Sender und Inhalte sind enthalten?", "a": "Über 66.000 internationale Sender und eine unbegrenzte VOD-Bibliothek (Filme und Serien), täglich in 4K und Full HD aktualisiert." },
       { "q": "Auf welchen Geräten kann ich ATV Corner nutzen?", "a": "Unser Dienst läuft auf allen Plattformen: Smart TV (Samsung, LG, Android), Amazon Fire Stick, Apple TV, Smartphones, Android-Boxen und Computern." },
       { "q": "Was passiert direkt nach der Zahlung?", "a": "Sofort! Sie erhalten Ihren Zugang und eine vollständige Installationsanleitung per WhatsApp oder E-Mail in weniger als 5 Minuten." },
-      { "q": "Bieten Sie einen kostenlosen Test vor dem Kauf?", "a": "Ja, wir bieten einen 24-Stunden-Gratistest, damit Sie Serverstabilität und Bildqualität vor einer Verpflichtung prüfen können." },
+      { "q": "Bieten Sie eine Zufriedenheitsgarantie?", "a": "Ja — wir bieten eine 7-tägige Geld-zurück-Garantie ohne Fragen. Wenn Stabilität oder Qualität nicht Ihren Erwartungen entsprechen, erstatten wir den vollen Betrag." },
       { "q": "Mein Abo ist abgelaufen, wie verlängere ich?", "a": "Bestellen Sie einfach das Paket Ihrer Wahl erneut auf unserer Website. Die Verlängerung erfolgt automatisch auf Ihrem bestehenden Konto." },
       { "q": "Kann ich das Abo auf mehreren Geräten nutzen?", "a": "Das Standard-Abo gilt für jeweils einen Bildschirm. Für die gleichzeitige Nutzung auf mehreren Bildschirmen kontaktieren Sie uns für ein individuelles Angebot." },
       { "q": "Was tun, wenn ich Hilfe bei der Installation brauche?", "a": "Unser technischer Support ist 7/7 auf WhatsApp oder Live-Chat erreichbar. Wir begleiten Sie Schritt für Schritt, bis alles perfekt läuft." }
     ]
   },
   "cta": {
-    "title": "Testen Sie ATV Corner 24 Stunden gratis.",
-    "desc": "Ohne Verpflichtung, ohne Kreditkarte. Sofortige Aktivierung via WhatsApp.",
-    "primary": "Test starten",
+    "title": "ATV Corner aktivieren — mit 7 Tage Geld-zurück-Garantie.",
+    "desc": "Sichere Zahlung über Stripe oder PayPal. Sofortige Aktivierung via WhatsApp — volle Rückerstattung innerhalb von 7 Tagen bei Unzufriedenheit.",
+    "primary": "Jetzt aktivieren",
     "secondary": "Preise ansehen"
   },
   "wa_fab": {
@@ -163,12 +163,12 @@
       "100 % sichere Zahlung",
       "Aktivierung in 5 Minuten",
       "VIP-WhatsApp-Support",
-      "7-Tage-Garantie",
-      "Keine Karte für den Test nötig",
+      "7 Tage Geld-zurück-Garantie",
+      "Jederzeit kündbar",
       "Einfache Verlängerung"
     ],
-    "compare_cta": "24H-Test starten",
-    "compare_cta_sub": "Keine Kreditkarte nötig",
+    "compare_cta": "Mein Abo aktivieren",
+    "compare_cta_sub": "7 Tage Geld-zurück-Garantie",
     "faq_eyebrow": "Unentschlossen?",
     "faq_title": "Häufige Fragen zu unseren Paketen"
   },
@@ -183,7 +183,7 @@
     "hero_desc_strong": "+66.000 Sender",
     "hero_desc_b": "international in 8K Ultra HD. Sport, Filme und Serien als unbegrenztes VOD.",
     "hero_cta_order": "Jetzt bestellen",
-    "hero_cta_trial": "24H-Gratistest",
+    "hero_cta_trial": "7-Tage-Garantie",
     "stat_live": "Live-Sender",
     "cat_eyebrow": "Vollständiger Katalog",
     "cat_title_a": "Alle",
@@ -218,7 +218,7 @@
     "faq_title_b": "Fragen",
     "faq_items": [
       { "q": "Aktivierung nach Zahlung?", "a": "Ihre Zugangsdaten kommen per E-Mail oder WhatsApp in weniger als 5 Minuten." },
-      { "q": "Kostenloser Test?", "a": "Ja — 24h, ohne Kreditkarte. Einfach auf WhatsApp anfragen." },
+      { "q": "Zufriedenheitsgarantie?", "a": "Ja — 7 Tage Geld-zurück-Garantie, ohne Fragen. Einfach auf WhatsApp anfragen." },
       { "q": "Kompatibilität?", "a": "Smart TV, Firestick, Apple TV, Android, iOS, MAG, Enigma, PC, Mac." }
     ]
   },
@@ -277,7 +277,7 @@
       "sections": [
         { "h": "7-Tage-Garantie", "p": "Funktioniert der Dienst innerhalb von 7 Tagen nach Aktivierung nicht wie versprochen, können Sie ohne Angabe von Gründen die volle Rückerstattung verlangen." },
         { "h": "Rückerstattung anfordern", "p": "Kontaktieren Sie unseren Support auf WhatsApp mit Ihrer Bestellnummer und beschreiben Sie das Problem (Screenshots willkommen). Die Rückerstattung wird in 3 bis 5 Werktagen über Stripe oder PayPal abgewickelt." },
-        { "h": "Ausschlüsse", "p": "Rückerstattungsanfragen nach 7 Tagen oder aufgrund von Hardware-Inkompatibilität, die im 24-Stunden-Gratistest nicht überprüft wurde, können nicht berücksichtigt werden." }
+        { "h": "Ausschlüsse", "p": "Rückerstattungsanfragen nach 7 Tagen oder im Zusammenhang mit Hardware-Inkompatibilität, die unserem Support nicht vor dem Kauf gemeldet wurde, können nicht berücksichtigt werden." }
       ],
       "cta": "Rückerstattung anfordern"
     }

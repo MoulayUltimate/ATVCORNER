@@ -64,7 +64,7 @@ Object.assign(content, {
       faq: [
         { q: "Quelle différence entre IPTV et OTT premium ?", a: "OTT (Over-The-Top) désigne tout service de streaming livré via internet, comme Netflix ou Prime Video. L'IPTV premium est une forme d'OTT spécialisée dans la diffusion en direct de chaînes TV — sport, info, divertissement — avec EPG et catalogue VOD intégré." },
         { q: "Le service Premium est-il plus cher ?", a: "Non. Nos prix démarrent à 15 € pour un mois et 60 € pour 12 mois. La qualité Premium est incluse par défaut sur tous nos plans." },
-        { q: "Puis-je tester avant de payer ?", a: "Oui — un test gratuit de 24h est disponible sur simple demande WhatsApp. Vous vérifiez la qualité et la stabilité avant tout engagement." },
+        { q: "Quelle garantie en cas d'insatisfaction ?", a: "Vous bénéficiez d'une garantie satisfait ou remboursé sous 7 jours, sans question. Si la qualité ou la stabilité ne vous convient pas, nous remboursons intégralement votre abonnement." },
       ],
       cta: "Activer mon abonnement Premium",
     },
@@ -100,7 +100,7 @@ Object.assign(content, {
       faq: [
         { q: "What's the difference between IPTV and premium OTT?", a: "OTT (Over-The-Top) refers to any streaming service delivered via internet, like Netflix or Prime Video. Premium IPTV is a specialized form of OTT focused on live TV channel delivery — sports, news, entertainment — with EPG and integrated VOD library." },
         { q: "Is the Premium service more expensive?", a: "No. Our prices start at $16 for one month and $65 for 12 months. Premium quality is included by default on all our plans." },
-        { q: "Can I test before paying?", a: "Yes — a free 24h trial is available on simple WhatsApp request. You verify the quality and stability before any commitment." },
+        { q: "What guarantee do I have if I'm not satisfied?", a: "You're covered by a 7-day money-back guarantee, no questions asked. If the quality or stability doesn't meet your expectations, we refund your subscription in full." },
       ],
       cta: "Activate my Premium subscription",
     },
@@ -136,7 +136,7 @@ Object.assign(content, {
       faq: [
         { q: "Was ist der Unterschied zwischen IPTV und Premium-OTT?", a: "OTT (Over-The-Top) bezeichnet jeden Streaming-Dienst, der über das Internet bereitgestellt wird, wie Netflix oder Prime Video. Premium-IPTV ist eine spezialisierte OTT-Form für Live-TV-Sender — Sport, Nachrichten, Unterhaltung — mit EPG und integrierter VOD-Bibliothek." },
         { q: "Ist der Premium-Service teurer?", a: "Nein. Unsere Preise beginnen bei 15 € für einen Monat und 60 € für 12 Monate. Premium-Qualität ist in allen Plänen enthalten." },
-        { q: "Kann ich vor dem Kauf testen?", a: "Ja — ein kostenloser 24-Stunden-Test ist auf WhatsApp-Anfrage verfügbar. Sie überprüfen Qualität und Stabilität vor jeder Verpflichtung." },
+        { q: "Welche Garantie habe ich bei Unzufriedenheit?", a: "Sie genießen eine 7-tägige Geld-zurück-Garantie, ohne Fragen. Wenn Qualität oder Stabilität nicht überzeugen, erstatten wir Ihr Abo vollständig." },
       ],
       cta: "Premium-Abo aktivieren",
     },
@@ -728,12 +728,12 @@ content["best-iptv-alternatives"] = {
     h1: "Meilleures alternatives",
     h1Accent: "IPTV 2026",
     intro:
-      "Vous comparez les services IPTV du marché — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV ? Voici un comparatif factuel des critères qui comptent : qualité d'image, stabilité, catalogue, support et prix. ATV Corner se positionne comme l'alternative premium 4K/8K, avec un test gratuit 24h pour vérifier par vous-même.",
+      "Vous comparez les services IPTV du marché — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV ? Voici un comparatif factuel des critères qui comptent : qualité d'image, stabilité, catalogue, support et prix. ATV Corner se positionne comme l'alternative premium 4K/8K, couverte par une garantie satisfait ou remboursé sous 7 jours.",
     features: [
       { h: "66 000+ chaînes", p: "Catalogue plus large que la majorité des services concurrents — France, Europe, USA, Maghreb, monde." },
       { h: "Vraie qualité 8K", p: "Flux 8K natifs encodés HEVC, là où beaucoup d'acteurs annoncent du 8K mais diffusent du 4K upscalé." },
       { h: "Anti-freeze garanti", p: "Infrastructure Tier 1 européenne dimensionnée pour les pics — Champions League, F1, finales." },
-      { h: "Test gratuit 24h", p: "Aucun engagement, aucune carte. Comparez vous-même la stabilité avant de payer." },
+      { h: "Garantie 7 jours", p: "Satisfait ou remboursé sous 7 jours, sans question. Activez sans risque et jugez par vous-même." },
     ],
     sections: [
       {
@@ -742,7 +742,7 @@ content["best-iptv-alternatives"] = {
       },
       {
         h: "Pourquoi ATV Corner comme alternative premium",
-        p: "ATV Corner a été conçu pour le segment premium du marché : 66 000+ chaînes (au-dessus de la moyenne du secteur), résolutions jusqu'au 8K natif, infrastructure CDN européenne calibrée pour 10× la charge réelle, support 24/7 en français, anglais, allemand et arabe. Nos abonnements démarrent à 15 €/mois et descendent à 5 €/mois sur le plan annuel — compétitifs sans sacrifier la qualité. Le test gratuit 24h vous permet de comparer directement avec votre service actuel avant de basculer.",
+        p: "ATV Corner a été conçu pour le segment premium du marché : 66 000+ chaînes (au-dessus de la moyenne du secteur), résolutions jusqu'au 8K natif, infrastructure CDN européenne calibrée pour 10× la charge réelle, support 24/7 en français, anglais, allemand et arabe. Nos abonnements démarrent à 15 €/mois et descendent à 5 €/mois sur le plan annuel — compétitifs sans sacrifier la qualité. La garantie satisfait ou remboursé 7 jours vous permet d'activer sans risque et de comparer directement avec votre service actuel.",
       },
       {
         h: "Migrer depuis un autre service IPTV",
@@ -754,13 +754,13 @@ content["best-iptv-alternatives"] = {
       },
     ],
     faq: [
-      { q: "Quelle est la meilleure alternative à NigmaTV ?", a: "ATV Corner propose un catalogue plus large (66 000+ chaînes vs catalogue standard), une vraie qualité 8K native et un test gratuit 24h. Vous pouvez comparer directement les deux services avant de basculer." },
-      { q: "ATV Corner est-il meilleur que SphereIPTV, SonixIPTV ou AeroTV ?", a: "Chaque service a ses forces. ATV Corner se distingue par l'infrastructure Tier 1 européenne dimensionnée pour les pics sportifs, le support multilingue 24/7 et le test gratuit 24h sans carte — comparez vous-même." },
+      { q: "Quelle est la meilleure alternative à NigmaTV ?", a: "ATV Corner propose un catalogue plus large (66 000+ chaînes vs catalogue standard), une vraie qualité 8K native et une garantie satisfait ou remboursé 7 jours. Vous pouvez activer sans risque et comparer directement les deux services." },
+      { q: "ATV Corner est-il meilleur que SphereIPTV, SonixIPTV ou AeroTV ?", a: "Chaque service a ses forces. ATV Corner se distingue par l'infrastructure Tier 1 européenne dimensionnée pour les pics sportifs, le support multilingue 24/7 et la garantie satisfait ou remboursé 7 jours — comparez sans risque." },
       { q: "Puis-je migrer depuis WorldIPTV, Streamex, King365, TVnow ou Smartiflix ?", a: "Oui. La migration est immédiate : vous remplacez vos identifiants Xtream Codes ou votre URL M3U dans votre lecteur actuel (TiviMate, IBO Player, Smarters Pro, VLC). Aucun nouveau matériel nécessaire." },
       { q: "Quel est le critère le plus important pour comparer ?", a: "La stabilité pendant les grands événements sportifs. Un service avec moins de chaînes mais zéro coupure pendant Real-Barça vaut mieux qu'un catalogue immense qui freeze. C'est exactement le créneau d'ATV Corner." },
-      { q: "Comment tester ATV Corner sans risque ?", a: "Demandez le test gratuit 24h sur WhatsApp : +44 7796 630011. Aucune carte bancaire, aucun engagement. Vous comparez directement avec votre service actuel." },
+      { q: "Comment activer ATV Corner sans risque ?", a: "Activez votre abonnement via WhatsApp : +44 7796 630011. Vous êtes couvert par notre garantie satisfait ou remboursé sous 7 jours — remboursement intégral si la qualité ne vous convient pas." },
     ],
-    cta: "Tester ATV Corner gratuitement 24h",
+    cta: "Activer ATV Corner maintenant",
   },
   en: {
     metaTitle: "Best IPTV Alternatives 2026 — Comparison | ATV Corner",
@@ -770,12 +770,12 @@ content["best-iptv-alternatives"] = {
     h1: "Best IPTV",
     h1Accent: "Alternatives 2026",
     intro:
-      "Comparing IPTV services — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV? Here's a factual comparison of what matters: image quality, stability, catalog, support, and pricing. ATV Corner positions itself as the premium 4K/8K alternative, with a free 24h trial so you can verify for yourself.",
+      "Comparing IPTV services — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV? Here's a factual comparison of what matters: image quality, stability, catalog, support, and pricing. ATV Corner positions itself as the premium 4K/8K alternative, backed by a 7-day money-back guarantee.",
     features: [
       { h: "66,000+ Channels", p: "Larger catalog than most competitor services — France, Europe, US, MENA, worldwide." },
       { h: "Real 8K Quality", p: "Native 8K streams in HEVC, where many providers advertise 8K but deliver upscaled 4K." },
       { h: "Guaranteed Anti-Freeze", p: "Tier 1 European infrastructure sized for peaks — Champions League, F1, finals." },
-      { h: "Free 24h Trial", p: "No commitment, no card. Compare stability yourself before paying." },
+      { h: "7-Day Money-Back", p: "Full refund within 7 days, no questions asked. Activate risk-free and judge for yourself." },
     ],
     sections: [
       {
@@ -784,7 +784,7 @@ content["best-iptv-alternatives"] = {
       },
       {
         h: "Why ATV Corner as a premium alternative",
-        p: "ATV Corner was built for the premium segment: 66,000+ channels (above industry average), resolutions up to native 8K, European CDN infrastructure calibrated for 10× actual load, 24/7 support in French, English, German and Arabic. Our subscriptions start at $16/month and drop to $5/month on the annual plan — competitive without sacrificing quality. The free 24h trial lets you compare directly with your current service before switching.",
+        p: "ATV Corner was built for the premium segment: 66,000+ channels (above industry average), resolutions up to native 8K, European CDN infrastructure calibrated for 10× actual load, 24/7 support in French, English, German and Arabic. Our subscriptions start at $16/month and drop to $5/month on the annual plan — competitive without sacrificing quality. Our 7-day money-back guarantee lets you activate risk-free and compare directly with your current service.",
       },
       {
         h: "Migrating from another IPTV service",
@@ -796,13 +796,13 @@ content["best-iptv-alternatives"] = {
       },
     ],
     faq: [
-      { q: "What's the best alternative to NigmaTV?", a: "ATV Corner offers a larger catalog (66,000+ channels vs standard catalog), real native 8K quality and a free 24h trial. You can directly compare both services before switching." },
-      { q: "Is ATV Corner better than SphereIPTV, SonixIPTV or AeroTV?", a: "Each service has its strengths. ATV Corner stands out for its Tier 1 European infrastructure sized for sports peaks, 24/7 multilingual support and free 24h trial with no card — compare for yourself." },
+      { q: "What's the best alternative to NigmaTV?", a: "ATV Corner offers a larger catalog (66,000+ channels vs standard catalog), real native 8K quality and a 7-day money-back guarantee. You can activate risk-free and compare both services directly." },
+      { q: "Is ATV Corner better than SphereIPTV, SonixIPTV or AeroTV?", a: "Each service has its strengths. ATV Corner stands out for its Tier 1 European infrastructure sized for sports peaks, 24/7 multilingual support and a 7-day money-back guarantee — compare risk-free." },
       { q: "Can I migrate from WorldIPTV, Streamex, King365, TVnow or Smartiflix?", a: "Yes. Migration is immediate: replace your Xtream Codes credentials or M3U URL in your current player (TiviMate, IBO Player, Smarters Pro, VLC). No new hardware needed." },
       { q: "What's the most important comparison criterion?", a: "Stability during major sports events. A service with fewer channels but zero downtime during Real-Barça beats a huge catalog that freezes. That's exactly ATV Corner's niche." },
-      { q: "How to test ATV Corner risk-free?", a: "Request the free 24h trial on WhatsApp: +44 7796 630011. No card, no commitment. Compare directly with your current service." },
+      { q: "How to activate ATV Corner risk-free?", a: "Activate your subscription via WhatsApp: +44 7796 630011. You're covered by our 7-day money-back guarantee — full refund if quality doesn't meet your expectations." },
     ],
-    cta: "Try ATV Corner free for 24h",
+    cta: "Activate ATV Corner now",
   },
   de: {
     metaTitle: "Beste IPTV-Alternativen 2026 — Vergleich | ATV Corner",
@@ -812,12 +812,12 @@ content["best-iptv-alternatives"] = {
     h1: "Beste IPTV-",
     h1Accent: "Alternativen 2026",
     intro:
-      "Sie vergleichen IPTV-Dienste — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV? Hier ein sachlicher Vergleich dessen, was zählt: Bildqualität, Stabilität, Katalog, Support und Preis. ATV Corner positioniert sich als Premium-4K/8K-Alternative, mit kostenlosem 24h-Test.",
+      "Sie vergleichen IPTV-Dienste — NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV, SixStarIPTV? Hier ein sachlicher Vergleich dessen, was zählt: Bildqualität, Stabilität, Katalog, Support und Preis. ATV Corner positioniert sich als Premium-4K/8K-Alternative, abgesichert durch eine 7-tägige Geld-zurück-Garantie.",
     features: [
       { h: "66.000+ Sender", p: "Größerer Katalog als die meisten Konkurrenzdienste — Frankreich, Europa, USA, MENA, weltweit." },
       { h: "Echte 8K-Qualität", p: "Native 8K-Streams in HEVC, wo viele Anbieter 8K bewerben aber hochskaliertes 4K liefern." },
       { h: "Garantiertes Anti-Freeze", p: "Tier-1-Infrastruktur in Europa, dimensioniert für Spitzen — Champions League, F1, Finale." },
-      { h: "Kostenloser 24h-Test", p: "Keine Verpflichtung, keine Karte. Vergleichen Sie die Stabilität selbst vor der Zahlung." },
+      { h: "7-Tage Geld-zurück", p: "Volle Rückerstattung innerhalb von 7 Tagen, ohne Fragen. Aktivieren Sie risikofrei und urteilen Sie selbst." },
     ],
     sections: [
       {
@@ -838,13 +838,13 @@ content["best-iptv-alternatives"] = {
       },
     ],
     faq: [
-      { q: "Was ist die beste Alternative zu NigmaTV?", a: "ATV Corner bietet einen größeren Katalog, echte native 8K-Qualität und einen kostenlosen 24h-Test. Vergleichen Sie beide Dienste direkt vor dem Wechsel." },
-      { q: "Ist ATV Corner besser als SphereIPTV, SonixIPTV oder AeroTV?", a: "Jeder Dienst hat seine Stärken. ATV Corner zeichnet sich durch Tier-1-Infrastruktur in Europa, 24/7-Mehrsprachigen Support und kostenlosen 24h-Test ohne Karte aus." },
+      { q: "Was ist die beste Alternative zu NigmaTV?", a: "ATV Corner bietet einen größeren Katalog, echte native 8K-Qualität und eine 7-tägige Geld-zurück-Garantie. Aktivieren Sie risikofrei und vergleichen Sie beide Dienste direkt." },
+      { q: "Ist ATV Corner besser als SphereIPTV, SonixIPTV oder AeroTV?", a: "Jeder Dienst hat seine Stärken. ATV Corner zeichnet sich durch Tier-1-Infrastruktur in Europa, 24/7-mehrsprachigen Support und eine 7-tägige Geld-zurück-Garantie aus — vergleichen Sie risikofrei." },
       { q: "Kann ich von WorldIPTV, Streamex, King365, TVnow oder Smartiflix migrieren?", a: "Ja. Die Migration ist sofortig: ersetzen Sie Ihre Xtream-Codes-Zugangsdaten oder M3U-URL in Ihrem aktuellen Player. Keine neue Hardware nötig." },
       { q: "Was ist das wichtigste Vergleichskriterium?", a: "Stabilität bei großen Sportveranstaltungen. Ein Dienst mit weniger Sendern aber null Ausfallzeit bei Real-Barça schlägt einen riesigen Katalog der einfriert." },
-      { q: "Wie ATV Corner risikofrei testen?", a: "Fordern Sie den kostenlosen 24h-Test auf WhatsApp an: +44 7796 630011. Keine Karte, keine Verpflichtung." },
+      { q: "Wie ATV Corner risikofrei aktivieren?", a: "Aktivieren Sie Ihr Abo per WhatsApp: +44 7796 630011. Sie sind durch unsere 7-tägige Geld-zurück-Garantie abgesichert — volle Rückerstattung bei Unzufriedenheit." },
     ],
-    cta: "ATV Corner 24h kostenlos testen",
+    cta: "ATV Corner jetzt aktivieren",
   },
 };
 

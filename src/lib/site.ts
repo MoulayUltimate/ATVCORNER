@@ -9,7 +9,7 @@ export const siteConfig = {
   whatsapp: {
     // E.164 without leading + (UK number)
     number: "447796630011",
-    text: "Bonjour, je souhaite un test gratuit 24h ATV Corner.",
+    text: "Bonjour, je souhaite m'abonner à ATV Corner.",
   },
   email: "support@atvcorner.com",
   social: {
