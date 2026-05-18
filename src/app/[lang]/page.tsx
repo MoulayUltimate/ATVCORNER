@@ -11,6 +11,7 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { SectionHeading } from "@/components/SectionHeading";
 import { LeagueCard } from "@/components/LeagueCard";
 import { DeviceBrandIcon } from "@/components/DeviceBrandIcon";
+import { broadcasters } from "@/components/BroadcasterLogos";
 import { getDictionary, hasLocale } from "@/i18n";
 
 const benefitIcons = {
@@ -172,6 +173,69 @@ const steps = [
               <LeagueCard key={s.league} league={s.league} country={s.country} />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* WATCH YOUR TEAM — broadcaster strip */}
+      <section className="py-20 md:py-24 border-t border-white/5 relative overflow-hidden">
+        <span
+          aria-hidden
+          className="absolute -top-24 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-emerald-500/5 blur-3xl"
+        />
+        <div className="container-luxe relative">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-[11px] font-semibold tracking-[0.22em] uppercase text-emerald-400 mb-3 inline-flex items-center gap-2">
+              <span aria-hidden className="inline-block h-px w-6 bg-emerald-400/60" />
+              {lang === "fr"
+                ? "Match en direct · Tous les week-ends"
+                : lang === "de"
+                ? "Live-Spiele · Jedes Wochenende"
+                : "Live matches · Every weekend"}
+              <span aria-hidden className="inline-block h-px w-6 bg-emerald-400/60" />
+            </p>
+            <h2 className="text-headline text-3xl sm:text-4xl md:text-5xl text-white text-balance">
+              {lang === "fr" ? (
+                <>
+                  Regardez votre <span className="text-emerald-400">équipe préférée</span> jouer en direct.
+                </>
+              ) : lang === "de" ? (
+                <>
+                  Schauen Sie Ihre <span className="text-emerald-400">Lieblingsmannschaft</span> live spielen.
+                </>
+              ) : (
+                <>
+                  Watch your <span className="text-emerald-400">favorite team</span> play live.
+                </>
+              )}
+            </h2>
+            <p className="mt-5 text-zinc-400 max-w-2xl mx-auto leading-relaxed">
+              {lang === "fr"
+                ? "PSG, Marseille, Lyon, Bayern, Dortmund, Red Bull Salzbourg, Real Madrid, Barça, Manchester… Chaque match du week-end, en direct et en 4K, sur les chaînes officielles des plus grands diffuseurs européens."
+                : lang === "de"
+                ? "Bayern, Dortmund, RB Leipzig, RB Salzburg, Real Madrid, Barça, PSG, Manchester… Jedes Wochenendspiel live in 4K, über die offiziellen Sender der größten europäischen Sportkanäle."
+                : "Bayern, Dortmund, Real Madrid, Barça, PSG, Manchester City, Arsenal, Red Bull Salzburg, AC Milan… Every weekend fixture live in 4K, through the official feeds of Europe's biggest sports broadcasters."}
+            </p>
+          </div>
+
+          <div className="mt-14 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {broadcasters.map(({ name, region, Component }) => (
+              <div
+                key={name}
+                className="glass-card rounded-2xl p-4 flex flex-col items-center text-center hover:border-emerald-400/40 hover:-translate-y-1 transition-all duration-300"
+              >
+                <Component className="w-full h-16" />
+                <p className="mt-3 text-xs text-zinc-500 leading-snug">{region}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-10 text-center text-xs text-zinc-500 max-w-2xl mx-auto">
+            {lang === "fr"
+              ? "Sky, DAZN, beIN, Canal+, RMC, TNT, Sport1, ServusTV, ORF, Eurosport — toutes les chaînes officielles des ligues majeures, en HD, 4K et 8K."
+              : lang === "de"
+              ? "Sky, DAZN, beIN, Canal+, RMC, TNT, Sport1, ServusTV, ORF, Eurosport — alle offiziellen Sender der großen Ligen, in HD, 4K und 8K."
+              : "Sky, DAZN, beIN, Canal+, RMC, TNT, Sport1, ServusTV, ORF, Eurosport — every official channel of the major leagues, in HD, 4K and 8K."}
+          </p>
         </div>
       </section>
 
