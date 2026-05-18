@@ -34,11 +34,24 @@ export function Navbar({ lang, dict }: Props) {
     { href: `/${lang}/contact`, label: dict.nav.contact },
   ];
 
+  // Lock background scroll while the mobile menu is open
+  useEffect(() => {
+    if (open) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [open]);
+
+  const solid = scrolled || open;
+
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-[#0c0e12]/85 backdrop-blur-2xl border-b border-white/5 shadow-2xl shadow-black/40"
+        solid
+          ? "bg-[#0c0e12]/95 backdrop-blur-2xl border-b border-white/5 shadow-2xl shadow-black/40"
           : "bg-transparent"
       }`}
     >
@@ -98,7 +111,7 @@ export function Navbar({ lang, dict }: Props) {
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-[max-height,opacity] duration-300 ease-out ${
+        className={`lg:hidden overflow-hidden bg-[#0c0e12]/98 backdrop-blur-2xl border-b border-white/5 transition-[max-height,opacity] duration-300 ease-out ${
           open ? "max-h-[480px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
