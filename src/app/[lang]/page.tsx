@@ -298,6 +298,75 @@ const steps = [
         <div className="mt-12">
           <PricingGrid dict={dict} lang={lang} />
         </div>
+
+        {/* Trust line under plans */}
+        <div className="mt-10 flex flex-col items-center gap-5 text-center">
+          <p className="inline-flex items-center gap-2 text-sm sm:text-base text-zinc-300">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5 text-emerald-400 shrink-0" aria-hidden>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 2 4 6v6c0 5 3.4 8.9 8 10 4.6-1.1 8-5 8-10V6l-8-4Z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="m9 12 2 2 4-4" />
+            </svg>
+            <span>
+              {lang === "fr"
+                ? "Tous les abonnements incluent une garantie satisfait ou remboursé sous 7 jours."
+                : lang === "de"
+                ? "Alle Abos enthalten eine 7-tägige Geld-zurück-Garantie."
+                : "All plans include a 7-day money-back guarantee."}
+            </span>
+          </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs sm:text-sm text-zinc-400">
+            <span className="text-zinc-500">
+              {lang === "fr"
+                ? "Paiement sécurisé via"
+                : lang === "de"
+                ? "Sichere Zahlung über"
+                : "Secure payment via"}
+            </span>
+
+            {/* PayPal */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#0070BA]" aria-hidden>
+                <path d="M7.5 21h-3a.5.5 0 0 1-.5-.6L6.4 3.6A.7.7 0 0 1 7.1 3h6.5c3.1 0 5.3 1.7 5 4.7-.4 3.8-3.2 5.7-7 5.7H9.5l-.9 5.9a.7.7 0 0 1-.7.7H7.5Z" />
+                <path opacity="0.6" d="M16.7 8.6c-.4 3.4-3 5.1-6.5 5.1H8.7l-1 6.6h2.8c.3 0 .6-.2.6-.5l.7-4.5h1.7c3.4 0 5.9-1.7 6.3-4.9.2-1.4-.4-2.6-1.4-3.3-.1.4-.3 1.1-.7 1.5Z" />
+              </svg>
+              <span className="font-semibold text-zinc-200">PayPal</span>
+            </span>
+
+            {/* Stripe */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#635BFF]" aria-hidden>
+                <path d="M11.2 9.3c0-.7.6-1 1.5-1 1.3 0 3 .4 4.3 1.1V5.5C15.6 4.9 14.2 4.7 12.7 4.7c-3.6 0-6 1.9-6 5 0 4.9 6.7 4.1 6.7 6.2 0 .8-.7 1-1.6 1-1.4 0-3.3-.6-4.8-1.4v3.9c1.6.7 3.3 1 4.8 1 3.7 0 6.2-1.8 6.2-5 0-5.3-6.8-4.3-6.8-6.1Z" />
+              </svg>
+              <span className="font-semibold text-zinc-200">Stripe</span>
+            </span>
+
+            {/* Klarna */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" className="w-4 h-4" aria-hidden>
+                <rect width="24" height="24" rx="6" fill="#FFA8CD" />
+                <path d="M7 6.5h2.4v11H7v-11Zm9.3 0c0 2.1-.8 4.1-2.1 5.7l3 5.3h-2.8L11.9 13c-.3-.4-.3-1 0-1.5 1-1.4 1.6-3.1 1.6-5h2.8Z" fill="#0B0B0B" />
+              </svg>
+              <span className="font-semibold text-zinc-200">Klarna</span>
+            </span>
+
+            {/* Apple Pay */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-white" aria-hidden>
+                <path d="M16.7 12.8c0-2.1 1.7-3.1 1.8-3.1-1-1.4-2.5-1.6-3-1.6-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.7-2.8-.7-1.4 0-2.7.8-3.4 2.1-1.5 2.5-.4 6.3 1 8.4.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7s1.6.7 2.7.7c1.1 0 1.8-1 2.5-2 .8-1.1 1.1-2.2 1.1-2.3 0 0-2.1-.8-2.1-3.2v-.5ZM14.5 6.4c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.5.6-1 1.6-.9 2.6 1 .1 2 0 2.5-1.2Z" />
+              </svg>
+              <span className="font-semibold text-zinc-200">Apple Pay</span>
+            </span>
+
+            {/* Crypto */}
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#F7931A]" aria-hidden>
+                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm3.5 9.1c.7-.5 1-1.3.9-2.2-.2-1.3-1.3-1.8-2.7-1.9V5.4h-1.2v1.5h-1V5.4h-1.2v1.6H8.5v1.2h.9c.4 0 .5.1.5.5v4.5c0 .4-.1.5-.5.5h-.9v1.3h1.8v1.6h1.2v-1.6h1v1.6h1.2v-1.6c1.7-.1 3-.7 3.2-2.2.1-1-.3-1.7-1.4-2.1Zm-3.8-2.8h.4c1 0 1.9.2 1.9 1.1 0 .9-.9 1.1-1.9 1.1h-.4V8.3Zm.6 5.3h-.6v-2.3h.6c1.2 0 2.2.2 2.2 1.2s-1 1.1-2.2 1.1Z" />
+              </svg>
+              <span className="font-semibold text-zinc-200">Crypto</span>
+            </span>
+          </div>
+        </div>
       </section>
 
       {/* HOW IT WORKS */}
