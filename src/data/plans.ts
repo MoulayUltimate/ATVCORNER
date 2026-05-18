@@ -33,10 +33,10 @@ const baseFeatures: FeatureKey[] = [
 // Get them from: https://dashboard.stripe.com/payment-links
 // One link per plan. Empty string = falls back to WhatsApp checkout.
 export const STRIPE_LINKS: Record<PlanId, string> = {
-  "1m": "",
-  "3m": "",
-  "6m": "",
-  "12m": "",
+  "1m": "", // 1 month → WhatsApp only
+  "3m": "https://t.co/CCwl0eBnuQ",
+  "6m": "https://t.co/xEHFqYdLhS",
+  "12m": "https://t.co/lkLStZ4sch",
 };
 // ─────────────────────────────────────────────────────────────────────────
 
