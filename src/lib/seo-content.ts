@@ -66,7 +66,7 @@ Object.assign(content, {
         { q: "Le service Premium est-il plus cher ?", a: "Non. Nos prix démarrent à 15 € pour un mois et 60 € pour 12 mois. La qualité Premium est incluse par défaut sur tous nos plans." },
         { q: "Quelle garantie en cas d'insatisfaction ?", a: "Vous bénéficiez d'une garantie satisfait ou remboursé sous 7 jours, sans question. Si la qualité ou la stabilité ne vous convient pas, nous remboursons intégralement votre abonnement." },
       ],
-      cta: "Activer mon abonnement Premium",
+      cta: "Regarder maintenant",
     },
     en: {
       metaTitle: "Premium IPTV Subscription — 8K OTT Streaming | ATV Corner",
@@ -102,7 +102,7 @@ Object.assign(content, {
         { q: "Is the Premium service more expensive?", a: "No. Our prices start at $16 for one month and $65 for 12 months. Premium quality is included by default on all our plans." },
         { q: "What guarantee do I have if I'm not satisfied?", a: "You're covered by a 7-day money-back guarantee, no questions asked. If the quality or stability doesn't meet your expectations, we refund your subscription in full." },
       ],
-      cta: "Activate my Premium subscription",
+      cta: "Watch now",
     },
     de: {
       metaTitle: "Premium IPTV Abo — 8K OTT Streaming | ATV Corner",
@@ -138,7 +138,7 @@ Object.assign(content, {
         { q: "Ist der Premium-Service teurer?", a: "Nein. Unsere Preise beginnen bei 15 € für einen Monat und 60 € für 12 Monate. Premium-Qualität ist in allen Plänen enthalten." },
         { q: "Welche Garantie habe ich bei Unzufriedenheit?", a: "Sie genießen eine 7-tägige Geld-zurück-Garantie, ohne Fragen. Wenn Qualität oder Stabilität nicht überzeugen, erstatten wir Ihr Abo vollständig." },
       ],
-      cta: "Premium-Abo aktivieren",
+      cta: "Jetzt schauen",
     },
   },
 
@@ -294,7 +294,7 @@ Object.assign(content, {
         { q: "Combien de chaînes en 4K ?", a: "Plus de 1 500 chaînes 4K live + l'ensemble du catalogue VOD 4K HDR." },
         { q: "Le 4K consomme-t-il beaucoup de data ?", a: "Environ 7-10 Go/h pour un flux 4K HDR. Sur fibre c'est imperceptible ; sur 4G, prévoir un forfait illimité." },
       ],
-      cta: "Activer mon abonnement 4K",
+      cta: "Regarder maintenant",
     },
     en: {
       metaTitle: "4K Live IPTV — Ultra HD 4K VIP Streaming | ATV Corner",
@@ -330,7 +330,7 @@ Object.assign(content, {
         { q: "How many 4K channels?", a: "Over 1,500 live 4K channels plus the full 4K HDR VOD library." },
         { q: "Does 4K use a lot of data?", a: "About 7-10 GB/h for a 4K HDR stream. On fiber it's imperceptible; on 4G, plan an unlimited package." },
       ],
-      cta: "Activate my 4K subscription",
+      cta: "Watch now",
     },
     de: {
       metaTitle: "4K Live IPTV — Ultra HD 4K VIP Streaming | ATV Corner",
@@ -366,7 +366,7 @@ Object.assign(content, {
         { q: "Wie viele 4K-Sender?", a: "Über 1.500 Live-4K-Sender plus die gesamte 4K HDR VOD-Bibliothek." },
         { q: "Verbraucht 4K viele Daten?", a: "Etwa 7-10 GB/h für einen 4K HDR-Stream." },
       ],
-      cta: "Mein 4K-Abo aktivieren",
+      cta: "Jetzt schauen",
     },
   },
 
@@ -760,7 +760,7 @@ content["best-iptv-alternatives"] = {
       { q: "Quel est le critère le plus important pour comparer ?", a: "La stabilité pendant les grands événements sportifs. Un service avec moins de chaînes mais zéro coupure pendant Real-Barça vaut mieux qu'un catalogue immense qui freeze. C'est exactement le créneau d'ATV Corner." },
       { q: "Comment activer ATV Corner sans risque ?", a: "Activez votre abonnement via WhatsApp : +44 7796 630011. Vous êtes couvert par notre garantie satisfait ou remboursé sous 7 jours — remboursement intégral si la qualité ne vous convient pas." },
     ],
-    cta: "Activer ATV Corner maintenant",
+    cta: "Regarder maintenant",
   },
   en: {
     metaTitle: "Best IPTV Alternatives 2026 — Comparison | ATV Corner",
@@ -802,7 +802,7 @@ content["best-iptv-alternatives"] = {
       { q: "What's the most important comparison criterion?", a: "Stability during major sports events. A service with fewer channels but zero downtime during Real-Barça beats a huge catalog that freezes. That's exactly ATV Corner's niche." },
       { q: "How to activate ATV Corner risk-free?", a: "Activate your subscription via WhatsApp: +44 7796 630011. You're covered by our 7-day money-back guarantee — full refund if quality doesn't meet your expectations." },
     ],
-    cta: "Activate ATV Corner now",
+    cta: "Watch now",
   },
   de: {
     metaTitle: "Beste IPTV-Alternativen 2026 — Vergleich | ATV Corner",
@@ -844,7 +844,7 @@ content["best-iptv-alternatives"] = {
       { q: "Was ist das wichtigste Vergleichskriterium?", a: "Stabilität bei großen Sportveranstaltungen. Ein Dienst mit weniger Sendern aber null Ausfallzeit bei Real-Barça schlägt einen riesigen Katalog der einfriert." },
       { q: "Wie ATV Corner risikofrei aktivieren?", a: "Aktivieren Sie Ihr Abo per WhatsApp: +44 7796 630011. Sie sind durch unsere 7-tägige Geld-zurück-Garantie abgesichert — volle Rückerstattung bei Unzufriedenheit." },
     ],
-    cta: "ATV Corner jetzt aktivieren",
+    cta: "Jetzt schauen",
   },
 };
 
