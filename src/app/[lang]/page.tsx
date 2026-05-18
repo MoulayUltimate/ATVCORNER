@@ -90,12 +90,12 @@ const steps = [
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                href={`/${lang}/pricing`}
+              <a
+                href="#pricing"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-emerald-400 text-zinc-950 font-semibold hover:bg-emerald-300 transition-colors"
               >
                 {dict.hero.cta_primary}
-              </Link>
+              </a>
               <a
                 href={whatsappUrl()}
                 target="_blank"
@@ -289,7 +289,7 @@ const steps = [
       </section>
 
       {/* PRICING */}
-      <section id="pricing" className="container-luxe py-20 md:py-24 border-t border-white/5">
+      <section id="pricing" className="container-luxe py-20 md:py-24 border-t border-white/5 scroll-mt-24">
         <SectionHeading
           eyebrow={dict.pricing.eyebrow}
           title={<>{dict.pricing.title}</>}
