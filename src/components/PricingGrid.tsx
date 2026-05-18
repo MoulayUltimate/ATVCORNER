@@ -78,21 +78,69 @@ export function PricingGrid({ dict, lang }: Props) {
               ))}
             </ul>
 
-            <a
-              href={whatsappUrl(
-                `${pricing.cta} — ${durationLabel} (${priceLabel}).`,
-                lang,
-              )}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
-                featured
-                  ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"
-                  : "bg-white/5 text-white border border-white/15 hover:bg-white/10 hover:border-emerald-400/40"
-              }`}
-            >
-              {pricing.cta}
-            </a>
+            {p.stripeLink ? (
+              <div className="space-y-2.5">
+                <a
+                  href={p.stripeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
+                    featured
+                      ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"
+                      : "bg-white text-zinc-950 hover:bg-zinc-100"
+                  }`}
+                >
+                  <span className="inline-flex items-center gap-2">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} className="w-4 h-4" aria-hidden>
+                      <rect x="3" y="6" width="18" height="13" rx="2.5" />
+                      <path d="M3 10h18" strokeLinecap="round" />
+                      <path d="M7 15h3" strokeLinecap="round" />
+                    </svg>
+                    {lang === "fr"
+                      ? "Payer en sécurité"
+                      : lang === "de"
+                      ? "Sicher bezahlen"
+                      : "Pay securely"}
+                  </span>
+                </a>
+                <a
+                  href={whatsappUrl(
+                    `${pricing.cta} — ${durationLabel} (${priceLabel}).`,
+                    lang,
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-center w-full py-2.5 rounded-full text-sm font-medium text-zinc-300 bg-white/5 border border-white/10 hover:bg-white/10 hover:text-white transition-colors"
+                >
+                  <span className="inline-flex items-center gap-1.5">
+                    <svg viewBox="0 0 32 32" fill="#25D366" className="w-4 h-4" aria-hidden>
+                      <path d="M16 .4C7.4.4.4 7.4.4 16c0 2.7.7 5.4 2.1 7.7L.3 31.7l8.2-2.1A15.5 15.5 0 0 0 16 31.6C24.6 31.6 31.6 24.6 31.6 16 31.6 7.4 24.6.4 16 .4Zm0 28.4a13 13 0 0 1-6.6-1.8l-.5-.3-4.9 1.3 1.3-4.7-.3-.5A12.8 12.8 0 1 1 16 28.8Zm7.4-9.6c-.4-.2-2.4-1.2-2.8-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.3 1.5-.2.3-.5.3-.9.1a10.5 10.5 0 0 1-5.2-4.5c-.4-.7.4-.6 1.1-2 .1-.2.1-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.7-.6-.6-.9-.7H10c-.3 0-.8.1-1.2.6-.4.5-1.6 1.5-1.6 3.7s1.6 4.3 1.8 4.6c.2.3 3.2 4.9 7.7 6.8a25.8 25.8 0 0 0 2.6.9c1.1.4 2.1.3 2.9.2.9-.1 2.7-1.1 3.1-2.2.4-1.1.4-2 .3-2.2-.1-.2-.4-.3-.8-.5Z" />
+                    </svg>
+                    {lang === "fr"
+                      ? "Ou demander sur WhatsApp"
+                      : lang === "de"
+                      ? "Oder per WhatsApp anfragen"
+                      : "Or ask on WhatsApp"}
+                  </span>
+                </a>
+              </div>
+            ) : (
+              <a
+                href={whatsappUrl(
+                  `${pricing.cta} — ${durationLabel} (${priceLabel}).`,
+                  lang,
+                )}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
+                  featured
+                    ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"
+                    : "bg-white/5 text-white border border-white/15 hover:bg-white/10 hover:border-emerald-400/40"
+                }`}
+              >
+                {pricing.cta}
+              </a>
+            )}
           </article>
         );
       })}

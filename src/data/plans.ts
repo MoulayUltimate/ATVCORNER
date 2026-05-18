@@ -10,6 +10,12 @@ export type Plan = {
   priceUsd: number;
   features: FeatureKey[];
   highlighted?: boolean;
+  /**
+   * Stripe Payment Link URL. Paste the link from
+   * dashboard.stripe.com → Payments → Payment Links.
+   * Leave empty string to fall back to WhatsApp checkout.
+   */
+  stripeLink?: string;
 };
 
 const baseFeatures: FeatureKey[] = [
@@ -23,10 +29,21 @@ const baseFeatures: FeatureKey[] = [
   "support_247",
 ];
 
+// ─── PASTE YOUR 4 STRIPE PAYMENT LINKS HERE ──────────────────────────────
+// Get them from: https://dashboard.stripe.com/payment-links
+// One link per plan. Empty string = falls back to WhatsApp checkout.
+export const STRIPE_LINKS: Record<PlanId, string> = {
+  "1m": "",
+  "3m": "",
+  "6m": "",
+  "12m": "",
+};
+// ─────────────────────────────────────────────────────────────────────────
+
 export const plans: Plan[] = [
-  { id: "1m", priceEur: 15, priceUsd: 16, features: baseFeatures },
-  { id: "3m", priceEur: 30, priceUsd: 33, features: baseFeatures },
-  { id: "6m", priceEur: 50, priceUsd: 55, features: baseFeatures },
+  { id: "1m", priceEur: 15, priceUsd: 16, features: baseFeatures, stripeLink: STRIPE_LINKS["1m"] },
+  { id: "3m", priceEur: 30, priceUsd: 33, features: baseFeatures, stripeLink: STRIPE_LINKS["3m"] },
+  { id: "6m", priceEur: 50, priceUsd: 55, features: baseFeatures, stripeLink: STRIPE_LINKS["6m"] },
   {
     id: "12m",
     priceEur: 60,
@@ -42,6 +59,7 @@ export const plans: Plan[] = [
       "vip_support",
     ],
     highlighted: true,
+    stripeLink: STRIPE_LINKS["12m"],
   },
 ];
 
