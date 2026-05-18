@@ -84,7 +84,7 @@ export function Navbar({ lang, dict }: Props) {
         <div className="flex items-center gap-3">
           <LanguageSwitcher lang={lang} />
           <a
-            href={whatsappUrl()}
+            href={whatsappUrl(undefined, lang)}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-emerald-400 text-zinc-950 font-semibold text-sm hover:bg-emerald-300 transition-colors"
@@ -139,7 +139,7 @@ export function Navbar({ lang, dict }: Props) {
             })}
             <li className="pt-2">
               <a
-                href={whatsappUrl()}
+                href={whatsappUrl(undefined, lang)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center px-5 py-3 rounded-full bg-emerald-400 text-zinc-950 font-bold"

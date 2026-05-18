@@ -97,7 +97,7 @@ const steps = [
                 {dict.hero.cta_primary}
               </a>
               <a
-                href={whatsappUrl()}
+                href={whatsappUrl(undefined, lang)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/15 text-white font-medium hover:border-white/30 hover:bg-white/5 transition-colors"
@@ -132,8 +132,65 @@ const steps = [
           </div>
         </div>
 
+        {/* Social-proof badges (rating + customers + secure) */}
+        <div className="container-luxe pb-2 pt-4">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+              <svg viewBox="0 0 24 24" fill="#FBBF24" className="w-4 h-4" aria-hidden>
+                <path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.3l7.1-.7L12 2Z" />
+              </svg>
+              <span className="font-bold text-white">4.9/5</span>
+              <span className="text-zinc-400">
+                {lang === "fr"
+                  ? "· 2 800+ avis clients"
+                  : lang === "de"
+                  ? "· 2.800+ Kundenbewertungen"
+                  : "· 2,800+ customer reviews"}
+              </span>
+            </span>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-400" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm12 10v-2a4 4 0 0 0-3-3.87M15 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+              <span className="font-bold text-white">12 000+</span>
+              <span className="text-zinc-400">
+                {lang === "fr"
+                  ? "abonnés actifs"
+                  : lang === "de"
+                  ? "aktive Abonnenten"
+                  : "active subscribers"}
+              </span>
+            </span>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-400" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 2 4 6v6c0 5 3.4 8.9 8 10 4.6-1.1 8-5 8-10V6l-8-4Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="m9 12 2 2 4-4" />
+              </svg>
+              <span className="font-semibold text-white">
+                {lang === "fr"
+                  ? "Garantie 7 jours"
+                  : lang === "de"
+                  ? "7 Tage Geld zurück"
+                  : "7-day money-back"}
+              </span>
+            </span>
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-400" aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z" />
+              </svg>
+              <span className="font-semibold text-white">
+                {lang === "fr"
+                  ? "Activation en 5 min"
+                  : lang === "de"
+                  ? "Aktivierung in 5 Min."
+                  : "Activated in 5 min"}
+              </span>
+            </span>
+          </div>
+        </div>
+
         {/* Trust strip */}
-        <div className="container-luxe pb-12 border-t border-white/5 pt-10">
+        <div className="container-luxe pb-12 border-t border-white/5 pt-10 mt-4">
           <p className="text-center text-[10px] font-semibold tracking-[0.3em] uppercase text-zinc-500 mb-6">
             {dict.hero.trust_strip}
           </p>
@@ -464,13 +521,159 @@ const steps = [
         </div>
         <div className="mt-10 text-center">
           <a
-            href={whatsappUrl()}
+            href={whatsappUrl(undefined, lang)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-emerald-400 font-medium hover:text-emerald-300 transition-colors"
           >
             {dict.reviews.cta} <span aria-hidden>→</span>
           </a>
+        </div>
+      </section>
+
+      {/* SAFE & LEGAL — reassurance band (especially for DE traffic) */}
+      <section className="container-luxe py-20 md:py-24 border-t border-white/5">
+        <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-white/[0.01] p-8 sm:p-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+            <div className="lg:col-span-5">
+              <p className="text-[11px] font-semibold tracking-[0.22em] uppercase text-emerald-400 mb-3 inline-flex items-center gap-2">
+                <span aria-hidden className="inline-block h-px w-6 bg-emerald-400/60" />
+                {lang === "fr"
+                  ? "Sécurité & Confiance"
+                  : lang === "de"
+                  ? "Sicherheit & Vertrauen"
+                  : "Security & Trust"}
+              </p>
+              <h2 className="text-headline text-3xl sm:text-4xl text-white text-balance">
+                {lang === "fr" ? (
+                  <>
+                    Service <span className="text-emerald-400">privé et sécurisé</span>, du paiement au visionnage.
+                  </>
+                ) : lang === "de" ? (
+                  <>
+                    <span className="text-emerald-400">Privater & sicherer</span> Service — vom Bezahlen bis zum Anschauen.
+                  </>
+                ) : (
+                  <>
+                    A <span className="text-emerald-400">private & secure</span> service — from checkout to streaming.
+                  </>
+                )}
+              </h2>
+              <p className="mt-5 text-zinc-400 leading-relaxed">
+                {lang === "fr"
+                  ? "Aucune installation invasive, aucun partage de données. Vous recevez vos identifiants par WhatsApp et regardez sur vos applications habituelles."
+                  : lang === "de"
+                  ? "Keine invasive Installation, keine Weitergabe Ihrer Daten. Sie erhalten Ihre Zugangsdaten per WhatsApp und schauen über Ihre gewohnten Apps."
+                  : "No invasive install, no data sharing. You get your credentials via WhatsApp and watch through your usual apps."}
+              </p>
+            </div>
+
+            <ul className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[
+                {
+                  t:
+                    lang === "fr"
+                      ? "Paiement protégé"
+                      : lang === "de"
+                      ? "Geschützte Zahlung"
+                      : "Protected payment",
+                  d:
+                    lang === "fr"
+                      ? "PayPal, carte bancaire, crypto — tous nos paiements transitent par des opérateurs régulés."
+                      : lang === "de"
+                      ? "PayPal, Kreditkarte, Krypto — alle Zahlungen laufen über regulierte Anbieter."
+                      : "PayPal, credit card, crypto — every payment goes through regulated processors.",
+                },
+                {
+                  t:
+                    lang === "fr"
+                      ? "Garantie 7 jours"
+                      : lang === "de"
+                      ? "7-Tage Geld-zurück-Garantie"
+                      : "7-day money-back guarantee",
+                  d:
+                    lang === "fr"
+                      ? "Pas satisfait ? Remboursement intégral sous 7 jours, sans question."
+                      : lang === "de"
+                      ? "Nicht zufrieden? Vollständige Rückerstattung innerhalb von 7 Tagen, ohne Fragen."
+                      : "Not happy? Full refund within 7 days — no questions asked.",
+                },
+                {
+                  t:
+                    lang === "fr"
+                      ? "Connexion chiffrée"
+                      : lang === "de"
+                      ? "Verschlüsselte Verbindung"
+                      : "Encrypted connection",
+                  d:
+                    lang === "fr"
+                      ? "Le flux est délivré en HTTPS et reste invisible pour les tiers."
+                      : lang === "de"
+                      ? "Der Stream läuft über HTTPS und bleibt für Dritte unsichtbar."
+                      : "Stream delivered over HTTPS, invisible to third parties.",
+                },
+                {
+                  t:
+                    lang === "fr"
+                      ? "Aucune donnée personnelle vendue"
+                      : lang === "de"
+                      ? "Keine Weitergabe Ihrer Daten"
+                      : "We never sell your data",
+                  d:
+                    lang === "fr"
+                      ? "Nous ne stockons que l'essentiel et ne partageons rien avec des tiers commerciaux."
+                      : lang === "de"
+                      ? "Wir speichern nur das Nötigste und geben nichts an Werbenetzwerke weiter."
+                      : "We store only what's necessary and share nothing with advertisers.",
+                },
+                {
+                  t:
+                    lang === "fr"
+                      ? "Support humain 7j/7"
+                      : lang === "de"
+                      ? "Echter Support 7 Tage/Woche"
+                      : "Real human support 7 days/week",
+                  d:
+                    lang === "fr"
+                      ? "Une équipe basée en Europe, réponse en moins de 5 minutes sur WhatsApp."
+                      : lang === "de"
+                      ? "Ein Team mit Sitz in Europa, Antwort in weniger als 5 Minuten per WhatsApp."
+                      : "European-based team, replies in under 5 minutes on WhatsApp.",
+                },
+                {
+                  t:
+                    lang === "fr"
+                      ? "Annulation à tout moment"
+                      : lang === "de"
+                      ? "Jederzeit kündbar"
+                      : "Cancel anytime",
+                  d:
+                    lang === "fr"
+                      ? "Pas d'engagement, pas de reconduction tacite. Vous décidez."
+                      : lang === "de"
+                      ? "Keine Bindung, keine automatische Verlängerung. Sie entscheiden."
+                      : "No commitment, no auto-renewal. You stay in control.",
+                },
+              ].map((it) => (
+                <li
+                  key={it.t}
+                  className="rounded-2xl border border-white/10 bg-white/[0.02] p-5 hover:border-emerald-400/30 transition-colors"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-emerald-400/10 border border-emerald-400/20">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4 text-emerald-400" aria-hidden>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m5 12 5 5L20 7" />
+                      </svg>
+                    </span>
+                    <div>
+                      <p className="font-semibold text-white text-sm">{it.t}</p>
+                      <p className="mt-1 text-zinc-400 text-sm leading-relaxed">{it.d}</p>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -497,7 +700,7 @@ const steps = [
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
-              href={whatsappUrl()}
+              href={whatsappUrl(undefined, lang)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-emerald-400 text-zinc-950 font-semibold hover:bg-emerald-300 transition-colors"

@@ -17,7 +17,7 @@ export function Footer({ lang, dict }: Props) {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href={whatsappUrl()}
+              href={whatsappUrl(undefined, lang)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-400/20 text-emerald-300 text-sm font-medium hover:bg-emerald-500/15 transition-colors"

@@ -45,7 +45,7 @@ export default async function ContactPage({
       name: "WhatsApp",
       desc: cp.ch_whatsapp_desc,
       cta: cp.ch_whatsapp_cta,
-      href: whatsappUrl(),
+      href: whatsappUrl(undefined, lang),
       accent: "from-emerald-400 to-emerald-600",
     },
     {

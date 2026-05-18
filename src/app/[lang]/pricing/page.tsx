@@ -143,7 +143,7 @@ export default async function PricingPage({
             </div>
             <div className="lg:justify-self-end">
               <a
-                href={whatsappUrl()}
+                href={whatsappUrl(undefined, lang)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-8 py-5 rounded-2xl bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 font-bold text-lg hover:scale-[1.02] transition-transform shadow-2xl shadow-emerald-500/30"

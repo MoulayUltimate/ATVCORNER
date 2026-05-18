@@ -57,7 +57,7 @@ export default async function SetupPage({
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <a
-              href={whatsappUrl()}
+              href={whatsappUrl(undefined, lang)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-emerald-500 text-white font-bold hover:scale-[1.03] transition-transform shadow-xl shadow-emerald-500/25"
@@ -157,7 +157,7 @@ export default async function SetupPage({
               {sp.remote_desc}
             </p>
             <a
-              href={whatsappUrl()}
+              href={whatsappUrl(undefined, lang)}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-9 inline-flex items-center gap-2 px-8 py-4 rounded-full bg-emerald-500 text-white font-bold hover:scale-[1.03] transition-transform shadow-2xl shadow-emerald-500/30"

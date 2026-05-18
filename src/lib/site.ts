@@ -10,6 +10,11 @@ export const siteConfig = {
     // E.164 without leading + (UK number)
     number: "447796630011",
     text: "Hi, I want to buy an IPTV subscription from ATV Corner. Please send me the plans and payment methods.",
+    prefill: {
+      fr: "Bonjour, je souhaite souscrire un abonnement chez ATV Corner. Pouvez-vous m'envoyer les formules et les moyens de paiement ?",
+      en: "Hi, I'd like to subscribe to ATV Corner. Please send me the plans and payment methods.",
+      de: "Hallo, ich möchte ein Abo bei ATV Corner buchen. Bitte senden Sie mir die Pakete und Zahlungsmethoden.",
+    } as Record<string, string>,
   },
   email: "support@atvcorner.com",
   social: {
@@ -23,8 +28,10 @@ export const siteConfig = {
   },
 };
 
-export function whatsappUrl(message?: string) {
-  const msg = encodeURIComponent(message ?? siteConfig.whatsapp.text);
+export function whatsappUrl(message?: string, lang?: string) {
+  const fallback =
+    (lang && siteConfig.whatsapp.prefill[lang]) ?? siteConfig.whatsapp.text;
+  const msg = encodeURIComponent(message ?? fallback);
   return `https://wa.me/${siteConfig.whatsapp.number}?text=${msg}`;
 }
 

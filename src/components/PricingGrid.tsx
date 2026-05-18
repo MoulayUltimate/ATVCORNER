@@ -81,6 +81,7 @@ export function PricingGrid({ dict, lang }: Props) {
             <a
               href={whatsappUrl(
                 `${pricing.cta} — ${durationLabel} (${priceLabel}).`,
+                lang,
               )}
               target="_blank"
               rel="noopener noreferrer"

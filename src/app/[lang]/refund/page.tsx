@@ -56,7 +56,7 @@ export default async function RefundPage({
         ))}
       </div>
       <a
-        href={whatsappUrl()}
+        href={whatsappUrl(undefined, lang)}
         target="_blank"
         rel="noopener noreferrer"
         className="mt-10 inline-flex items-center gap-2 px-7 py-4 rounded-full bg-emerald-500 text-white font-bold hover:scale-[1.03] transition-transform shadow-xl shadow-emerald-500/25"

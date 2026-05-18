@@ -96,7 +96,7 @@ export default async function AboutPage({
         </p>
         <div className="mt-8 flex flex-wrap gap-3 justify-center">
           <a
-            href={whatsappUrl()}
+            href={whatsappUrl(undefined, lang)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-emerald-500 text-black font-semibold hover:bg-emerald-400 transition-colors"

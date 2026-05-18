@@ -111,7 +111,9 @@
     "desc": "Noch eine Frage offen? Unser Team antwortet auf WhatsApp in unter 2 Minuten.",
     "items": [
       { "q": "Was ist IPTV und wie funktioniert es?", "a": "Mit IPTV schauen Sie Fernsehen über das Internet. Nach dem Kauf erhalten Sie Zugangsdaten, die Sie in einer App eingeben, um sofort auf alle unsere Sender zuzugreifen." },
-      { "q": "Ist die Transaktion sicher?", "a": "Absolut. Wir verwenden SSL-Verschlüsselung und Stripe oder PayPal, um zu 100 % sichere Zahlungen zu garantieren." },
+      { "q": "Ist es in Deutschland sicher, ATV Corner zu nutzen?", "a": "Ja. Der Stream wird ausschließlich über verschlüsselte HTTPS-Verbindungen ausgeliefert — kein Peer-to-Peer-Datenaustausch und keine öffentliche Freigabe Ihrer IP-Adresse, anders als bei Torrent-Diensten. Wir speichern keine sensiblen Daten und geben nichts an Dritte weiter. Für maximale Privatsphäre empfehlen wir zusätzlich ein VPN — wie bei jedem Streaming-Dienst." },
+      { "q": "Wie ist ATV Corner mit dem Urheberrecht vereinbar?", "a": "ATV Corner verkauft den Zugang zu einem privaten Streaming-Server. Die Inhalte selbst werden nicht von uns produziert. Jeder Kunde ist für die Nutzung gemäß den Gesetzen seines Wohnsitzlandes verantwortlich. Bei rechtlichen Fragen kontaktieren Sie uns bitte über die Kontaktseite." },
+      { "q": "Ist die Transaktion sicher?", "a": "Ja. Sämtliche Seiten laufen über SSL-Verschlüsselung. Sie können per PayPal, Kreditkarte (Stripe), Klarna, Apple Pay oder Krypto bezahlen — alle Zahlungen erfolgen über regulierte Anbieter, wir sehen Ihre Kartendaten nie." },
       { "q": "Welche Sender und Inhalte sind enthalten?", "a": "Über 66.000 internationale Sender und eine unbegrenzte VOD-Bibliothek (Filme und Serien), täglich in 4K und Full HD aktualisiert." },
       { "q": "Auf welchen Geräten kann ich ATV Corner nutzen?", "a": "Unser Dienst läuft auf allen Plattformen: Smart TV (Samsung, LG, Android), Amazon Fire Stick, Apple TV, Smartphones, Android-Boxen und Computern." },
       { "q": "Was passiert direkt nach der Zahlung?", "a": "Sofort! Sie erhalten Ihren Zugang und eine vollständige Installationsanleitung per WhatsApp oder E-Mail in weniger als 5 Minuten." },
@@ -304,15 +306,17 @@
     "cta_contact": "Kontaktieren Sie uns"
   },
   "legal_notice_page": {
-    "meta_title": "Impressum",
-    "meta_desc": "Impressum von ATV Corner.",
+    "meta_title": "Impressum — ATV Corner",
+    "meta_desc": "Impressum und Anbieterkennzeichnung von ATV Corner gemäß § 5 TMG.",
     "title": "Impressum",
     "sections": [
-      { "h": "Herausgeber", "p": "Die Website atvcorner.com wird von ATV Corner herausgegeben. Für jede Korrespondenz erreichen Sie uns unter der unten angegebenen E-Mail-Adresse." },
-      { "h": "Kontakt", "p": "E-Mail: support@atvcorner.com — WhatsApp 7/7 verfügbar über den Button auf jeder Seite." },
+      { "h": "Angaben gemäß § 5 TMG", "p": "ATV Corner\nBetreiber der Website atvcorner.com\n\nKontakt-E-Mail: support@atvcorner.com\nWhatsApp-Support: 7 Tage / Woche über den Button auf jeder Seite verfügbar (Antwort in der Regel < 5 Minuten, 9–23 Uhr)." },
+      { "h": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV", "p": "ATV Corner — E-Mail: support@atvcorner.com.\nFür eine vollständige postalische Anschrift wenden Sie sich bitte schriftlich per E-Mail an uns; wir antworten innerhalb eines Werktages." },
       { "h": "Hosting", "p": "Die Website wird auf der Infrastruktur von Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA gehostet." },
-      { "h": "Geistiges Eigentum", "p": "Sämtliche Inhalte auf atvcorner.com (Texte, Logos, Bilder, Code) sind urheberrechtlich geschützt. Jede Vervielfältigung ohne vorherige schriftliche Zustimmung ist untersagt." },
-      { "h": "Haftung", "p": "ATV Corner ist bemüht, alle Informationen aktuell und korrekt zu halten, übernimmt jedoch keine Haftung für Fehler, Auslassungen oder Folgen ihrer Nutzung." }
+      { "h": "Streitschlichtung (OS-Plattform)", "p": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr.\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen." },
+      { "h": "Widerrufsrecht für Verbraucher", "p": "Bei digitalen Inhalten gilt grundsätzlich ein 14-tägiges Widerrufsrecht. Zusätzlich gewähren wir freiwillig eine 7-tägige Geld-zurück-Garantie ab dem Tag der Aktivierung — auch wenn die Dienstleistung bereits in Anspruch genommen wurde. Anträge bitte an support@atvcorner.com." },
+      { "h": "Haftungsausschluss", "p": "Wir bemühen uns, alle Inhalte aktuell und korrekt zu halten, übernehmen jedoch keine Gewähr für Vollständigkeit, Aktualität oder Genauigkeit. Für externe Links sind ausschließlich deren Betreiber verantwortlich. Der Nutzer ist selbst dafür verantwortlich, den Dienst im Einklang mit den Gesetzen seines Wohnsitzlandes zu verwenden." },
+      { "h": "Urheberrecht", "p": "Sämtliche Inhalte auf atvcorner.com (Texte, Logos, Bilder, Code) sind urheberrechtlich geschützt. Erwähnte Markennamen und Logos (z. B. Sky, DAZN, Bundesliga, beIN, Canal+) sind Eigentum ihrer jeweiligen Inhaber und werden ausschließlich zu beschreibenden Zwecken verwendet." }
     ]
   },
   "cookies_page": {

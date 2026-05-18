@@ -3,20 +3,33 @@ import { whatsappUrl } from "@/lib/site";
 type Props = {
   label?: string;
   aria?: string;
+  lang?: string;
+  responseHint?: string;
 };
 
 export function WhatsAppFab({
   label = "Buy on WhatsApp",
   aria = "Buy on WhatsApp",
+  lang,
+  responseHint,
 }: Props) {
   return (
     <a
-      href={whatsappUrl()}
+      href={whatsappUrl(undefined, lang)}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={aria}
       className="fixed bottom-6 right-6 z-[60] group"
     >
+      {responseHint && (
+        <span className="hidden sm:flex absolute -top-9 right-0 items-center gap-1.5 px-3 py-1.5 rounded-full bg-zinc-900/95 border border-emerald-400/30 text-[11px] font-semibold text-emerald-300 whitespace-nowrap shadow-lg shadow-black/40 backdrop-blur">
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60 animate-ping" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
+          </span>
+          {responseHint}
+        </span>
+      )}
       <span className="relative inline-flex">
         {/* Outer ping ring */}
         <span

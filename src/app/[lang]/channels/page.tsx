@@ -72,7 +72,7 @@ export default async function ChannelsPage({
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href={whatsappUrl()}
+                href={whatsappUrl(undefined, lang)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 font-bold hover:scale-[1.03] transition-transform shadow-xl shadow-emerald-500/25"
@@ -80,7 +80,7 @@ export default async function ChannelsPage({
                 {cp.hero_cta_order}
               </a>
               <a
-                href={whatsappUrl()}
+                href={whatsappUrl(undefined, lang)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-4 rounded-full glass-card text-white font-semibold hover:bg-white/10 transition-all"
