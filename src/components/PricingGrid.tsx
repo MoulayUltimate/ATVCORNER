@@ -1,6 +1,7 @@
 import { plans, formatPrice } from "@/data/plans";
 import { whatsappUrl } from "@/lib/site";
 import { CheckIcon } from "./CheckIcon";
+import { PROMO_CODE } from "@/lib/promo";
 import type { Dictionary } from "@/i18n";
 
 type Props = { dict: Dictionary; lang: string };
@@ -105,7 +106,7 @@ export function PricingGrid({ dict, lang }: Props) {
                 </a>
                 <a
                   href={whatsappUrl(
-                    `${pricing.cta} — ${durationLabel} (${priceLabel}).`,
+                    `${pricing.cta} — ${durationLabel} (${priceLabel}). Code: ${PROMO_CODE}`,
                     lang,
                   )}
                   target="_blank"
