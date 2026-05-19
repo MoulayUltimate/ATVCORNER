@@ -29,12 +29,36 @@ function cap(s: unknown, n = MAX_STRING): string {
 }
 
 function getCountry(req: NextRequest): string {
-  // Vercel sets x-vercel-ip-country; Cloudflare sets cf-ipcountry.
-  // Both return ISO 3166-1 alpha-2 ("FR", "MA", "US"...) or "XX" for unknown.
-  const v =
+  // Each host exposes the visitor's country slightly differently:
+  //   - Vercel:     x-vercel-ip-country
+  //   - Cloudflare: cf-ipcountry
+  //   - Netlify:    x-country (Edge) or x-nf-geo (base64 JSON; we decode below)
+  // All return ISO 3166-1 alpha-2 ("FR", "MA", "US"...).
+  let v =
     req.headers.get("x-vercel-ip-country") ??
     req.headers.get("cf-ipcountry") ??
+    req.headers.get("x-country") ??
     "";
+
+  if (!v) {
+    // Netlify packs richer geo into x-nf-geo as base64-encoded JSON.
+    const nfGeo = req.headers.get("x-nf-geo");
+    if (nfGeo) {
+      try {
+        const decoded = JSON.parse(
+          typeof atob === "function"
+            ? atob(nfGeo)
+            : Buffer.from(nfGeo, "base64").toString("utf8"),
+        );
+        if (typeof decoded?.country?.code === "string") {
+          v = decoded.country.code;
+        }
+      } catch {
+        /* fall through to "??" */
+      }
+    }
+  }
+
   const cc = v.toUpperCase();
   if (/^[A-Z]{2}$/.test(cc)) return cc;
   return "??";
