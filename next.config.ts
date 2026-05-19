@@ -9,6 +9,21 @@ const config: NextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
     ],
   },
+  // 301 legacy WordPress URLs to the new homepage so Google preserves the
+  // SEO authority on re-crawl instead of seeing 404s. The proxy then
+  // resolves "/" → "/{lang}" based on geo/Accept-Language.
+  async redirects() {
+    return [
+      { source: "/home", destination: "/", permanent: true },
+      { source: "/home/", destination: "/", permanent: true },
+      { source: "/default", destination: "/", permanent: true },
+      { source: "/default/", destination: "/", permanent: true },
+      { source: "/index.php", destination: "/", permanent: true },
+      { source: "/index.html", destination: "/", permanent: true },
+      { source: "/downloads", destination: "/", permanent: true },
+      { source: "/downloads/:path*", destination: "/", permanent: true },
+    ];
+  },
 };
 
 export default config;
