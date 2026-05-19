@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { HeroMockup } from "@/components/HeroMockup";
 import { plans, currencyForLocale, priceFor } from "@/data/plans";
 import { vodHighlights, sportsHighlights } from "@/data/channels";
-import { TrustpilotReviews } from "@/components/TrustpilotReviews";
+import { WhatsAppMarquee } from "@/components/WhatsAppMarquee";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { PricingGrid } from "@/components/PricingGrid";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -353,7 +353,7 @@ const steps = [
           title={<>{dict.reviews.title}</>}
           description={dict.reviews.desc}
         />
-        <TrustpilotReviews dict={dict} lang={lang} />
+        <WhatsAppMarquee lang={lang} />
         <div className="mt-10 text-center">
           <a
             href={whatsappUrl(undefined, lang)}

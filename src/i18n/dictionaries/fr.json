@@ -103,22 +103,8 @@
   "reviews": {
     "eyebrow": "Avis clients",
     "title": "Ce que disent nos clients.",
-    "desc": "Retours authentiques de plus de 12 000 abonnés en Europe et en Amérique du Nord.",
-    "cta": "Rejoindre nos 12 000+ clients sur WhatsApp",
-    "quotes": [
-      "4K cristallin. Zéro coupure, zéro excuse.",
-      "Ligue des Champions lancée en 5 secondes. Parfait.",
-      "Changé d'un provider bancal — le jour et la nuit.",
-      "Installation en 3 minutes. Mes enfants ne décollent plus.",
-      "Sport, films, dessins animés — toute la famille y trouve son compte.",
-      "Réponse WhatsApp à 23h. De vrais humains.",
-      "F1 en vraie Full HD. Investissement réussi.",
-      "Bundesliga, Ligue 1, Premier League — tout passe sans accroc.",
-      "Remboursement proposé sans hésiter. Je n'en ai pas eu besoin.",
-      "Testé sur Fire Stick et iPad. Impeccable des deux côtés.",
-      "Le meilleur flux que j'ai eu en cinq ans.",
-      "Bibliothèque VOD énorme. Je ne reviendrai jamais en arrière."
-    ]
+    "desc": "Vraies conversations WhatsApp avec nos 12 000+ abonnés.",
+    "cta": "Rejoindre nos 12 000+ clients sur WhatsApp"
   },
   "faq": {
     "eyebrow": "FAQ",

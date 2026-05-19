@@ -103,22 +103,8 @@
   "reviews": {
     "eyebrow": "Kundenmeinungen",
     "title": "Was unsere Kunden sagen.",
-    "desc": "Echtes Feedback von über 12.000 Abonnenten in Europa und Nordamerika.",
-    "cta": "Unseren 12.000+ Kunden auf WhatsApp beitreten",
-    "quotes": [
-      "Kristallklares 4K. Kein Buffern, keine Ausreden.",
-      "Champions League in Sekunden gestartet. Top.",
-      "Vom Billig-Anbieter gewechselt — Welten dazwischen.",
-      "Einrichtung in 3 Minuten. Meine Kinder kleben am TV.",
-      "Sport, Filme, Kinderserien — alle zuhause sind happy.",
-      "Antwort per WhatsApp um 23 Uhr. Echte Menschen.",
-      "Formel 1 in echtem Full HD. Geld gut investiert.",
-      "Bundesliga, Ligue 1, Premier League — alles flüssig.",
-      "Rückerstattung angeboten, als ich zweifelte. Brauchte ich nicht.",
-      "Auf Fire Stick und iPad getestet. Beides einwandfrei.",
-      "Der beste Stream seit fünf Jahren.",
-      "Riesige VOD-Bibliothek. Nie wieder etwas anderes."
-    ]
+    "desc": "Echte WhatsApp-Gespräche mit unseren 12.000+ Abonnenten.",
+    "cta": "Unseren 12.000+ Kunden auf WhatsApp beitreten"
   },
   "faq": {
     "eyebrow": "FAQ",
