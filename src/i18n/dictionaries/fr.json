@@ -86,7 +86,7 @@
     "title": "Regardez sur tous vos appareils",
     "desc": "Streamez vos contenus favoris partout, à tout moment, sur n'importe quel écran.",
     "items": [
-      { "name": "Smart TV", "desc": "Android TV, Google TV, WebOS, Tizen, Roku" },
+      { "name": "Smart TV", "desc": "Toutes les Smart TV" },
       { "name": "Fire Stick", "desc": "Tous les appareils Amazon" },
       { "name": "Android", "desc": "Téléphones & tablettes" },
       { "name": "iOS", "desc": "iPhone & iPad" },
