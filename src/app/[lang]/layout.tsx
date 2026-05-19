@@ -4,7 +4,7 @@ import Script from "next/script";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import { Navbar } from "@/components/Navbar";
-import { PromoBar } from "@/components/PromoBar";
+import { PromoPopup } from "@/components/PromoPopup";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
 import { siteConfig } from "@/lib/site";
@@ -145,8 +145,8 @@ export default async function RootLayout({
         </Script>
       </head>
       <body className="min-h-screen flex flex-col">
-        <PromoBar lang={lang} />
         <Navbar lang={lang} dict={dict} />
+        <PromoPopup lang={lang} />
         <main className="flex-1 pt-20">{children}</main>
         <Footer lang={lang} dict={dict} />
         <WhatsAppFab
