@@ -141,6 +141,15 @@
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
   }
+  .wa-marquee-track {
+    animation: marquee 60s linear infinite;
+  }
+  .wa-marquee-track:hover {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wa-marquee-track { animation: none; }
+  }
   .live-pulse {
     animation: live-pulse 2s ease-in-out infinite;
   }
