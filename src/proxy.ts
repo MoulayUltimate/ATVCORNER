@@ -83,10 +83,12 @@ function detectLocale(request: NextRequest): Locale {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Skip static assets and API routes
+  // Skip static assets, API routes, and the admin section (which lives
+  // outside the [lang] tree and must not be locale-rewritten).
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
+    pathname.startsWith("/admin") ||
     pathname.includes(".") // /favicon.ico, /robots.txt, /sitemap.xml, /stitch/...
   ) {
     return NextResponse.next();
@@ -105,5 +107,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|api|.*\\..*).*)"],
+  matcher: ["/((?!_next|api|admin|.*\\..*).*)"],
 };

@@ -113,6 +113,7 @@ export function PricingGrid({ dict, lang }: Props) {
                 href={p.stripeLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-plan={p.id}
                 className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
                   featured
                     ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"
@@ -133,6 +134,8 @@ export function PricingGrid({ dict, lang }: Props) {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-plan={p.id}
+                data-wa-source="plan-card"
                 className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
                   featured
                     ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"

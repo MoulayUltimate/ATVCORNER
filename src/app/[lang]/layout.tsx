@@ -8,6 +8,7 @@ import { PromoPopup } from "@/components/PromoPopup";
 import { SalesNotification } from "@/components/SalesNotification";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
+import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { siteConfig } from "@/lib/site";
 import { getDictionary, hasLocale, locales, type Locale } from "@/i18n";
 
@@ -146,6 +147,7 @@ export default async function RootLayout({
         </Script>
       </head>
       <body className="min-h-screen flex flex-col">
+        <AnalyticsTracker lang={lang} />
         <Navbar lang={lang} dict={dict} />
         <PromoPopup lang={lang} />
         {lang === "de" && <SalesNotification />}

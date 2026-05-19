@@ -19,6 +19,7 @@ export function WhatsAppFab({
       target="_blank"
       rel="noopener noreferrer"
       aria-label={aria}
+      data-wa-source="fab"
       className="fixed bottom-6 right-6 z-[60] group"
     >
       {responseHint && (
