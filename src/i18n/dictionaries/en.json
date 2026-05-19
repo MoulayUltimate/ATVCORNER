@@ -103,8 +103,22 @@
   "reviews": {
     "eyebrow": "Customer reviews",
     "title": "What our customers say.",
-    "desc": "WhatsApp conversations with our subscribers.",
-    "cta": "Join our 12,000+ customers on WhatsApp"
+    "desc": "Real feedback from 12,000+ subscribers across Europe and North America.",
+    "cta": "Join our 12,000+ customers on WhatsApp",
+    "quotes": [
+      "Crystal-clear 4K. No buffering, no excuses.",
+      "Got my Champions League fix in seconds. Spot on.",
+      "Switched from a junky provider — night and day.",
+      "Setup took 3 minutes. My kids haven't blinked since.",
+      "Sports, films, kids' shows — the whole house wins.",
+      "Replied to my WhatsApp at 11pm. Real humans.",
+      "F1 in proper Full HD. Money well spent.",
+      "Bundesliga, Ligue 1, Premier League — all smooth.",
+      "They offered a refund when I doubted. Didn't need it.",
+      "Tested on Fire Stick + iPad. Both flawless.",
+      "Best stream I've used in five years.",
+      "Massive VOD library. Never going back."
+    ]
   },
   "faq": {
     "eyebrow": "FAQ",

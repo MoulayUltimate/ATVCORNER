@@ -4,7 +4,8 @@ import Script from "next/script";
 import { notFound } from "next/navigation";
 import { HeroMockup } from "@/components/HeroMockup";
 import { plans, currencyForLocale, priceFor } from "@/data/plans";
-import { vodHighlights, sportsHighlights, whatsappReviews } from "@/data/channels";
+import { vodHighlights, sportsHighlights } from "@/data/channels";
+import { TestimonialsGrid } from "@/components/TestimonialsGrid";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { PricingGrid } from "@/components/PricingGrid";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -496,29 +497,14 @@ const steps = [
         </div>
       </section>
 
-      {/* WHATSAPP REVIEWS — screenshots only */}
+      {/* CUSTOMER REVIEWS — short testimonial cards */}
       <section className="container-luxe py-20 md:py-24">
         <SectionHeading
           eyebrow={dict.reviews.eyebrow}
           title={<>{dict.reviews.title}</>}
           description={dict.reviews.desc}
         />
-        <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-4">
-          {whatsappReviews.map((r) => (
-            <div
-              key={r.id}
-              className="relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-zinc-900 hover:border-emerald-400/40 transition-colors"
-            >
-              <Image
-                src={r.image}
-                alt={`${siteConfig.name} — WhatsApp`}
-                fill
-                sizes="(min-width: 1024px) 360px, (min-width: 640px) 33vw, 50vw"
-                className="object-cover"
-              />
-            </div>
-          ))}
-        </div>
+        <TestimonialsGrid dict={dict} />
         <div className="mt-10 text-center">
           <a
             href={whatsappUrl(undefined, lang)}
