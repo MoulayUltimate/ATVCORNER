@@ -109,18 +109,11 @@ export function PricingGrid({ dict, lang }: Props) {
                       : "bg-white text-zinc-950 hover:bg-zinc-100"
                   }`}
                 >
-                  <span className="inline-flex items-center gap-2">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} className="w-4 h-4" aria-hidden>
-                      <rect x="3" y="6" width="18" height="13" rx="2.5" />
-                      <path d="M3 10h18" strokeLinecap="round" />
-                      <path d="M7 15h3" strokeLinecap="round" />
-                    </svg>
-                    {lang === "fr"
-                      ? "Commencer"
-                      : lang === "de"
-                      ? "Loslegen"
-                      : "Get started"}
-                  </span>
+                  {lang === "fr"
+                    ? "Commencer"
+                    : lang === "de"
+                    ? "Loslegen"
+                    : "Get started"}
                 </a>
                 <a
                   href={whatsappUrl(
