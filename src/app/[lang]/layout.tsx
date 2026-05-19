@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import { Navbar } from "@/components/Navbar";
 import { PromoPopup } from "@/components/PromoPopup";
+import { SalesNotification } from "@/components/SalesNotification";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
 import { siteConfig } from "@/lib/site";
@@ -147,6 +148,7 @@ export default async function RootLayout({
       <body className="min-h-screen flex flex-col">
         <Navbar lang={lang} dict={dict} />
         <PromoPopup lang={lang} />
+        {lang === "de" && <SalesNotification />}
         <main className="flex-1 pt-20">{children}</main>
         <Footer lang={lang} dict={dict} />
         <WhatsAppFab
