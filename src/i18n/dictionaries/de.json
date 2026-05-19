@@ -36,8 +36,8 @@
   "pricing": {
     "eyebrow": "Preise",
     "title": "Ein Service, mehrere Laufzeiten.",
-    "desc": "Ohne Verpflichtung. Sofortiger Zugang. Geld-zurück-Garantie.",
-    "best_seller": "BESTSELLER",
+    "desc": "Bundesliga, Champions League & DFB-Pokal in 4K — ohne Vertrag, mit Geld-zurück-Garantie.",
+    "best_seller": "AM BELIEBTESTEN",
     "duration": {
       "1m": "1 Monat",
       "3m": "3 Monate",
@@ -45,28 +45,28 @@
       "12m": "12 Monate"
     },
     "badge": {
-      "1m": "ENTDECKER-PAKET",
-      "3m": "KOMFORT-PAKET",
-      "6m": "PREMIUM-PAKET",
-      "12m": "ULTIMATE-PAKET"
+      "1m": "BUNDESLIGA STARTER",
+      "3m": "SAISON-PAKET",
+      "6m": "FUSSBALL HALBSAISON",
+      "12m": "JAHRESABO PREMIUM"
     },
-    "savings_12m": "Nur 5 €/Monat statt 15 €",
+    "savings_12m": "Im Schnitt nur 5 €/Monat statt 15 €",
     "feature": {
-      "quality": "Streaming HD / FHD / 4K / 8K",
+      "quality": "HD / Full HD / 4K / 8K Streaming",
       "channels": "+50.000 TV- & Sportsender",
-      "vod": "+70.000 Filme & VOD-Serien",
+      "vod": "+70.000 Filme & Serien (VOD)",
       "fast": "Schnelles & flüssiges Streaming",
       "ultra_fast": "Ultraflüssiges Streaming",
-      "support": "Technischer Support 7/7",
+      "support": "Technischer Support 7 Tage die Woche",
       "vip_support": "Vorrangiger VIP-Support",
-      "instant": "Sofortige Aktivierung",
-      "antifreeze": "Anti-Freeze-Technologie",
-      "premium_live": "Premium-Live-TV-Sender, schnelles & stabiles Streaming",
-      "fullhd": "Full-HD-Video in hoher Qualität",
-      "epg": "EPG (TV-Guide) verfügbar",
-      "worldwide": "Weltweit verfügbar",
+      "instant": "Sofort-Aktivierung in unter 5 Minuten",
+      "antifreeze": "Anti-Buffering-Technologie",
+      "premium_live": "Bundesliga, Champions League, DFB-Pokal & alle Top-Ligen live",
+      "fullhd": "Full HD & 4K — Stadion-Atmosphäre im Wohnzimmer",
+      "epg": "Vollständige TV-Programmübersicht (EPG)",
+      "worldwide": "Deutsche TV-Sender + internationale Sender weltweit",
       "adult": "+18 Erwachseneninhalte",
-      "support_247": "Support 24/7"
+      "support_247": "Deutschsprachiger Support rund um die Uhr"
     },
     "cta": "Dieses Paket wählen",
     "out_of_stock": "Ausverkauft — bald wieder verfügbar"
