@@ -155,10 +155,10 @@ export default async function RootLayout({
           aria={dict.wa_fab.aria}
           responseHint={
             lang === "fr"
-              ? "Réponse en < 5 min · 9h–23h"
+              ? "Réponse en < 5 min"
               : lang === "de"
-              ? "Antwort in < 5 Min · 9–23 Uhr"
-              : "Reply in < 5 min · 9am–11pm"
+              ? "Antwort in < 5 Min"
+              : "Reply in < 5 min"
           }
         />
 

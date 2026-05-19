@@ -310,7 +310,7 @@
     "meta_desc": "Impressum und Anbieterkennzeichnung von ATV Corner gemäß § 5 TMG.",
     "title": "Impressum",
     "sections": [
-      { "h": "Angaben gemäß § 5 TMG", "p": "ATV Corner\nBetreiber der Website atvcorner.com\n\nKontakt-E-Mail: support@atvcorner.com\nWhatsApp-Support: 7 Tage / Woche über den Button auf jeder Seite verfügbar (Antwort in der Regel < 5 Minuten, 9–23 Uhr)." },
+      { "h": "Angaben gemäß § 5 TMG", "p": "ATV Corner\nBetreiber der Website atvcorner.com\n\nKontakt-E-Mail: support@atvcorner.com\nWhatsApp-Support: 7 Tage / Woche über den Button auf jeder Seite verfügbar (Antwort in der Regel innerhalb von 5 Minuten)." },
       { "h": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV", "p": "ATV Corner — E-Mail: support@atvcorner.com.\nFür eine vollständige postalische Anschrift wenden Sie sich bitte schriftlich per E-Mail an uns; wir antworten innerhalb eines Werktages." },
       { "h": "Hosting", "p": "Die Website wird auf der Infrastruktur von Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA gehostet." },
       { "h": "Streitschlichtung (OS-Plattform)", "p": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr.\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen." },
