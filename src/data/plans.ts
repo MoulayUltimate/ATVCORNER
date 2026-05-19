@@ -86,3 +86,39 @@ export function formatPrice(plan: Plan, lang: string): string {
   // EUR: "60 €" (after), USD: "$60" (before) — keep it simple, no decimals for round prices
   return currency === "EUR" ? `${value} ${symbol}` : `${symbol}${value}`;
 }
+
+const monthsByPlan: Record<PlanId, number> = {
+  "1m": 1,
+  "3m": 3,
+  "6m": 6,
+  "12m": 12,
+};
+
+/**
+ * Returns the effective price per month as a string like "10 €/Monat",
+ * "≈ 8,30 €/Monat", "$5/mo". Used to show buyers the real cost-per-month
+ * of multi-month plans so the 12m's value is unambiguous.
+ */
+export function formatPerMonth(plan: Plan, lang: string): string {
+  const currency = currencyForLocale(lang);
+  const total = priceFor(plan, currency);
+  const months = monthsByPlan[plan.id];
+  const perMonth = total / months;
+  const exact = Number.isInteger(perMonth);
+  // Locale-aware formatting — EUR uses comma decimal, USD uses dot.
+  const localeNum =
+    currency === "EUR"
+      ? perMonth.toFixed(exact ? 0 : 2).replace(".", ",")
+      : perMonth.toFixed(exact ? 0 : 2);
+  const suffix =
+    lang === "fr" ? "/mois" : lang === "de" ? "/Monat" : "/mo";
+  const prefix = exact ? "" : "≈ ";
+  return currency === "EUR"
+    ? `${prefix}${localeNum} €${suffix}`
+    : `${prefix}$${localeNum}${suffix}`;
+}
+
+/** Price per month for the 1m plan — used as the "regular" anchor for strikethroughs. */
+export function basePerMonth(lang: string): string {
+  return formatPerMonth(plans[0], lang);
+}

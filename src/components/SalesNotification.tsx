@@ -49,10 +49,11 @@ const CITIES = [
   "Wiesbaden",
 ];
 
+// Short plan labels — keep the pill on a single line.
 const PLANS = [
-  { label: "Jahresabo Premium (12 Monate)", weight: 5 },
-  { label: "Fußball Halbsaison (6 Monate)", weight: 3 },
-  { label: "Saison-Paket (3 Monate)", weight: 2 },
+  { label: "Jahresabo", weight: 5 },
+  { label: "6-Monats-Paket", weight: 3 },
+  { label: "3-Monats-Paket", weight: 2 },
 ];
 
 // Weighted random plan choice — 12m most likely.
@@ -75,7 +76,6 @@ type Sale = {
   name: string;
   city: string;
   plan: string;
-  minutesAgo: number;
 };
 
 let nextId = 1;
@@ -86,34 +86,53 @@ function makeSale(): Sale {
     name: pick(NAMES),
     city: pick(CITIES),
     plan: pickPlan(),
-    minutesAgo: 1 + Math.floor(Math.random() * 9), // "vor 1–9 Minuten"
   };
 }
+
+// Cap total notifications per session so the buyer is nudged once,
+// not pestered. After this many, the toast goes silent for the session.
+const MAX_PER_SESSION = 3;
+const STORAGE_KEY = "atv_sales_shown";
+const DISMISS_KEY = "atv_sales_dismissed";
 
 export function SalesNotification() {
   const [sale, setSale] = useState<Sale | null>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    // Respect a per-session dismissal — if user closed it, never show again.
+    if (sessionStorage.getItem(DISMISS_KEY) === "1") return;
+
     let cycleTimer: ReturnType<typeof setTimeout>;
     let hideTimer: ReturnType<typeof setTimeout>;
     let mounted = true;
 
+    const getShown = () =>
+      parseInt(sessionStorage.getItem(STORAGE_KEY) ?? "0", 10) || 0;
+
     const showOne = () => {
       if (!mounted) return;
+      if (sessionStorage.getItem(DISMISS_KEY) === "1") return;
+      const shown = getShown();
+      if (shown >= MAX_PER_SESSION) return;
+
       setSale(makeSale());
       setVisible(true);
-      // Visible for ~5s
+      sessionStorage.setItem(STORAGE_KEY, String(shown + 1));
+
+      // Visible for ~4s
       hideTimer = setTimeout(() => {
         if (!mounted) return;
         setVisible(false);
-        // Then wait ~12s before the next one
-        cycleTimer = setTimeout(showOne, 12_000);
-      }, 5_000);
+        // Longer breathing room between toasts — 35s — so it never feels spammy.
+        if (getShown() < MAX_PER_SESSION) {
+          cycleTimer = setTimeout(showOne, 35_000);
+        }
+      }, 4_000);
     };
 
-    // First notification appears 8s after page load
-    cycleTimer = setTimeout(showOne, 8_000);
+    // First notification appears 15s after page load — let the page settle first.
+    cycleTimer = setTimeout(showOne, 15_000);
 
     return () => {
       mounted = false;
@@ -122,40 +141,50 @@ export function SalesNotification() {
     };
   }, []);
 
+  const handleDismiss = () => {
+    sessionStorage.setItem(DISMISS_KEY, "1");
+    setVisible(false);
+  };
+
   if (!sale) return null;
 
   return (
     <div
       role="status"
       aria-live="polite"
-      className={`fixed bottom-24 sm:bottom-6 left-4 sm:left-6 z-[55] w-[300px] sm:w-[320px] max-w-[calc(100vw-2rem)] transition-all duration-500 ${
+      className={`fixed bottom-36 sm:bottom-6 left-4 sm:left-6 z-[55] max-w-[calc(100vw-2rem)] transition-all duration-500 ${
         visible
           ? "opacity-100 translate-y-0"
           : "opacity-0 translate-y-3 pointer-events-none"
       }`}
     >
-      <div className="flex items-start gap-3 rounded-2xl bg-zinc-900/95 border border-emerald-400/30 px-4 py-3 shadow-2xl shadow-black/50 backdrop-blur">
+      <div className="inline-flex items-center gap-2 rounded-full bg-zinc-900/95 border border-emerald-400/25 pl-2.5 pr-1.5 py-1.5 shadow-xl shadow-black/40 backdrop-blur">
         <span
-          className="shrink-0 w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold text-zinc-950"
-          style={{ background: "#00B67A" }}
+          className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0"
           aria-hidden
+        />
+        <p className="text-[12px] leading-tight text-zinc-200 whitespace-nowrap">
+          <span className="font-semibold text-white">{sale.name}</span>
+          <span className="text-zinc-400"> · {sale.city} · </span>
+          <span className="font-semibold text-emerald-300">{sale.plan}</span>
+        </p>
+        <button
+          type="button"
+          onClick={handleDismiss}
+          aria-label="Schließen"
+          className="shrink-0 w-5 h-5 inline-flex items-center justify-center rounded-full text-zinc-500 hover:text-zinc-200 hover:bg-white/5 transition-colors"
         >
-          {sale.name.charAt(0)}
-        </span>
-        <div className="min-w-0">
-          <p className="text-[13px] leading-snug text-zinc-100">
-            <span className="font-semibold text-white">{sale.name}</span>
-            <span className="text-zinc-400"> aus </span>
-            <span className="font-semibold text-white">{sale.city}</span>
-            <span className="text-zinc-400"> hat soeben das </span>
-            <span className="font-semibold text-emerald-300">{sale.plan}</span>
-            <span className="text-zinc-400"> gekauft.</span>
-          </p>
-          <p className="mt-1 text-[11px] text-zinc-500 inline-flex items-center gap-1">
-            <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" aria-hidden />
-            vor {sale.minutesAgo} {sale.minutesAgo === 1 ? "Minute" : "Minuten"}
-          </p>
-        </div>
+          <svg
+            viewBox="0 0 24 24"
+            className="w-3 h-3"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+          >
+            <path d="M6 6l12 12M18 6L6 18" />
+          </svg>
+        </button>
       </div>
     </div>
   );

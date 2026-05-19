@@ -1,4 +1,4 @@
-import { plans, formatPrice } from "@/data/plans";
+import { plans, formatPrice, formatPerMonth, basePerMonth } from "@/data/plans";
 import { whatsappUrl } from "@/lib/site";
 import { CheckIcon } from "./CheckIcon";
 import type { Dictionary } from "@/i18n";
@@ -61,6 +61,18 @@ export function PricingGrid({ dict, lang }: Props) {
                   {priceLabel}
                 </span>
               </div>
+              {p.id !== "1m" && (
+                <p className="mt-1.5 text-sm text-zinc-400 flex items-baseline gap-2 flex-wrap">
+                  {featured && (
+                    <span className="text-zinc-500 line-through">
+                      {basePerMonth(lang)}
+                    </span>
+                  )}
+                  <span className={featured ? "text-emerald-400 font-semibold" : "text-zinc-300"}>
+                    {formatPerMonth(p, lang)}
+                  </span>
+                </p>
+              )}
               <p
                 className={`mt-2 text-[11px] font-bold tracking-[0.2em] uppercase ${
                   featured ? "text-emerald-400/90" : "text-emerald-400/80"
