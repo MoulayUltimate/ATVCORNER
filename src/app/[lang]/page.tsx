@@ -346,6 +346,26 @@ const steps = [
         </div>
       </section>
 
+      {/* CUSTOMER REVIEWS — Trustpilot-style, placed right before pricing so buyers see proof at decision moment */}
+      <section className="container-luxe py-20 md:py-24 border-t border-white/5">
+        <SectionHeading
+          eyebrow={dict.reviews.eyebrow}
+          title={<>{dict.reviews.title}</>}
+          description={dict.reviews.desc}
+        />
+        <TrustpilotReviews dict={dict} lang={lang} />
+        <div className="mt-10 text-center">
+          <a
+            href={whatsappUrl(undefined, lang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-emerald-400 font-medium hover:text-emerald-300 transition-colors"
+          >
+            {dict.reviews.cta} <span aria-hidden>→</span>
+          </a>
+        </div>
+      </section>
+
       {/* PRICING */}
       <section id="pricing" className="container-luxe py-20 md:py-24 border-t border-white/5 scroll-mt-24">
         <SectionHeading
@@ -494,26 +514,6 @@ const steps = [
               </p>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* CUSTOMER REVIEWS — Trustpilot-style */}
-      <section className="container-luxe py-20 md:py-24">
-        <SectionHeading
-          eyebrow={dict.reviews.eyebrow}
-          title={<>{dict.reviews.title}</>}
-          description={dict.reviews.desc}
-        />
-        <TrustpilotReviews dict={dict} lang={lang} />
-        <div className="mt-10 text-center">
-          <a
-            href={whatsappUrl(undefined, lang)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-emerald-400 font-medium hover:text-emerald-300 transition-colors"
-          >
-            {dict.reviews.cta} <span aria-hidden>→</span>
-          </a>
         </div>
       </section>
 
