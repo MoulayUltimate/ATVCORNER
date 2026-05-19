@@ -98,10 +98,10 @@ export function PricingGrid({ dict, lang }: Props) {
                       <path d="M7 15h3" strokeLinecap="round" />
                     </svg>
                     {lang === "fr"
-                      ? "Payer en sécurité"
+                      ? "Commencer"
                       : lang === "de"
-                      ? "Sicher bezahlen"
-                      : "Pay securely"}
+                      ? "Loslegen"
+                      : "Get started"}
                   </span>
                 </a>
                 <a
