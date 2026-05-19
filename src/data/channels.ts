@@ -86,12 +86,12 @@ export const sportsHighlights = [
   { league: "Formula 1", country: "🌍 Mondial", color: "from-red-500 to-zinc-900" },
 ];
 
-// WhatsApp customer review screenshots (real conversations — images only, no fabricated quotes)
+// WhatsApp customer review screenshots (real conversations — images only, no fabricated quotes).
+// s1 and s2 show the service running on a TV — keep those first so they appear before the fold of the marquee.
 export const whatsappReviews = [
-  { id: "r1", image: "/stitch/reviews/s6.png" },
-  { id: "r2", image: "/stitch/reviews/s5.png" },
-  { id: "r3", image: "/stitch/reviews/s1.png" },
+  { id: "r1", image: "/stitch/reviews/s1.png" },
+  { id: "r2", image: "/stitch/reviews/s2.png" },
+  { id: "r3", image: "/stitch/reviews/s6.png" },
   { id: "r4", image: "/stitch/reviews/s3.png" },
   { id: "r5", image: "/stitch/reviews/s4.png" },
-  { id: "r6", image: "/stitch/reviews/s2.png" },
 ];

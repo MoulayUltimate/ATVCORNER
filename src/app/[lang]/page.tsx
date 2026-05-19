@@ -133,10 +133,10 @@ const steps = [
           </div>
         </div>
 
-        {/* Social-proof badges (rating + customers + secure) */}
+        {/* Social-proof badges (rating + customers + secure) — 2-col grid on mobile, row on desktop */}
         <div className="container-luxe pb-2 pt-4">
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-stretch sm:items-center justify-center gap-2 sm:gap-x-6 sm:gap-y-3 text-xs sm:text-sm max-w-md sm:max-w-none mx-auto">
+            <span className="inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
               <svg viewBox="0 0 24 24" fill="#FBBF24" className="w-4 h-4" aria-hidden>
                 <path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.3l7.1-.7L12 2Z" />
               </svg>
@@ -149,7 +149,7 @@ const steps = [
                   : "· 2,800+ customer reviews"}
               </span>
             </span>
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+            <span className="inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-400" aria-hidden>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm12 10v-2a4 4 0 0 0-3-3.87M15 3.13a4 4 0 0 1 0 7.75" />
               </svg>
@@ -162,7 +162,7 @@ const steps = [
                   : "active subscribers"}
               </span>
             </span>
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+            <span className="inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-400" aria-hidden>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 2 4 6v6c0 5 3.4 8.9 8 10 4.6-1.1 8-5 8-10V6l-8-4Z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="m9 12 2 2 4-4" />
@@ -175,7 +175,7 @@ const steps = [
                   : "7-day money-back"}
               </span>
             </span>
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
+            <span className="inline-flex items-center justify-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-white/[0.04] border border-white/10 text-zinc-200">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-4 h-4 text-emerald-400" aria-hidden>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z" />
               </svg>
@@ -447,32 +447,7 @@ const steps = [
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
-      <section className="py-20 md:py-24 border-t border-white/5">
-        <div className="container-luxe">
-          <SectionHeading
-            eyebrow={dict.how.eyebrow}
-            title={<>{dict.how.title}</>}
-          />
-          <div className="relative mt-14 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
-            {steps.map((s) => (
-              <div key={s.n} className="relative">
-                <p className="font-display font-extrabold text-5xl text-emerald-400/70">
-                  {s.n}
-                </p>
-                <h3 className="mt-4 text-xl font-display font-bold text-white">
-                  {s.title}
-                </h3>
-                <p className="mt-2 text-zinc-400 text-sm leading-relaxed">
-                  {s.text}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* DEVICES */}
+      {/* DEVICES — placed right after pricing so buyers see device coverage at decision moment */}
       <section className="py-20 md:py-24 border-t border-white/5">
         <div className="container-luxe">
           <SectionHeading
@@ -494,6 +469,31 @@ const steps = [
                 </h3>
                 <p className="mt-1 text-xs text-zinc-500 leading-snug">
                   {d.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section className="py-20 md:py-24 border-t border-white/5">
+        <div className="container-luxe">
+          <SectionHeading
+            eyebrow={dict.how.eyebrow}
+            title={<>{dict.how.title}</>}
+          />
+          <div className="relative mt-14 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
+            {steps.map((s) => (
+              <div key={s.n} className="relative">
+                <p className="font-display font-extrabold text-5xl text-emerald-400/70">
+                  {s.n}
+                </p>
+                <h3 className="mt-4 text-xl font-display font-bold text-white">
+                  {s.title}
+                </h3>
+                <p className="mt-2 text-zinc-400 text-sm leading-relaxed">
+                  {s.text}
                 </p>
               </div>
             ))}
