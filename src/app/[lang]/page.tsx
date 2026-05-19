@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { HeroMockup } from "@/components/HeroMockup";
 import { plans, currencyForLocale, priceFor } from "@/data/plans";
 import { vodHighlights, sportsHighlights } from "@/data/channels";
-import { WhatsAppMarquee } from "@/components/WhatsAppMarquee";
+import { TrustpilotReviews } from "@/components/TrustpilotReviews";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { PricingGrid } from "@/components/PricingGrid";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -497,14 +497,14 @@ const steps = [
         </div>
       </section>
 
-      {/* CUSTOMER REVIEWS — auto-scrolling WhatsApp screenshots */}
+      {/* CUSTOMER REVIEWS — Trustpilot-style */}
       <section className="container-luxe py-20 md:py-24">
         <SectionHeading
           eyebrow={dict.reviews.eyebrow}
           title={<>{dict.reviews.title}</>}
           description={dict.reviews.desc}
         />
-        <WhatsAppMarquee />
+        <TrustpilotReviews dict={dict} lang={lang} />
         <div className="mt-10 text-center">
           <a
             href={whatsappUrl(undefined, lang)}
