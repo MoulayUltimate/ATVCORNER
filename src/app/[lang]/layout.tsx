@@ -50,6 +50,7 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
 
   const dict = getDictionary(lang);
+  const description = dict.meta.description;
 
   return {
     metadataBase: new URL(siteConfig.url),
@@ -57,7 +58,7 @@ export async function generateMetadata({
       default: `${siteConfig.name} | ${dict.footer.tagline}`,
       template: `%s | ${siteConfig.name}`,
     },
-    description: siteConfig.shortDesc,
+    description,
     applicationName: siteConfig.name,
     authors: [{ name: siteConfig.name }],
     creator: siteConfig.name,
@@ -76,13 +77,13 @@ export async function generateMetadata({
       locale: ogLocaleMap[lang],
       url: `${siteConfig.url}/${lang}`,
       title: `${siteConfig.name} | ${dict.footer.tagline}`,
-      description: siteConfig.shortDesc,
+      description,
       siteName: siteConfig.name,
     },
     twitter: {
       card: "summary_large_image",
       title: `${siteConfig.name} | ${dict.footer.tagline}`,
-      description: siteConfig.shortDesc,
+      description,
     },
     robots: { index: true, follow: true, "max-image-preview": "large" },
   };
@@ -186,6 +187,22 @@ export default async function RootLayout({
                   areaServed: ["FR", "BE", "CH", "DE", "AT", "GB", "US", "CA", "MA", "DZ", "TN", "EU"],
                 },
               ],
+            }),
+          }}
+        />
+        <Script
+          id="ld-website"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: siteConfig.name,
+              url: `${siteConfig.url}/${lang}`,
+              inLanguage: ogLocaleMap[lang].replace("_", "-"),
+              description: dict.meta.description,
+              publisher: { "@type": "Organization", name: siteConfig.name },
             }),
           }}
         />
