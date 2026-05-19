@@ -68,7 +68,8 @@
       "adult": "Contenu adulte +18",
       "support_247": "Support 24/7"
     },
-    "cta": "Choisir ce pack"
+    "cta": "Choisir ce pack",
+    "out_of_stock": "Épuisé — bientôt de retour"
   },
   "how": {
     "eyebrow": "Comment ça marche",
@@ -85,7 +86,7 @@
     "title": "Regardez sur tous vos appareils",
     "desc": "Streamez vos contenus favoris partout, à tout moment, sur n'importe quel écran.",
     "items": [
-      { "name": "Smart TV", "desc": "Samsung, LG, Sony" },
+      { "name": "Smart TV", "desc": "Android TV, Google TV, WebOS, Tizen, Roku" },
       { "name": "Fire Stick", "desc": "Tous les appareils Amazon" },
       { "name": "Android", "desc": "Téléphones & tablettes" },
       { "name": "iOS", "desc": "iPhone & iPad" },

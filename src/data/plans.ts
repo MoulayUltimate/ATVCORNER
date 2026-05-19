@@ -16,6 +16,8 @@ export type Plan = {
    * Leave empty string to fall back to WhatsApp checkout.
    */
   stripeLink?: string;
+  /** Hide checkout CTAs and show an out-of-stock state. */
+  outOfStock?: boolean;
 };
 
 const baseFeatures: FeatureKey[] = [
@@ -41,7 +43,7 @@ export const STRIPE_LINKS: Record<PlanId, string> = {
 // ─────────────────────────────────────────────────────────────────────────
 
 export const plans: Plan[] = [
-  { id: "1m", priceEur: 15, priceUsd: 16, features: baseFeatures, stripeLink: STRIPE_LINKS["1m"] },
+  { id: "1m", priceEur: 15, priceUsd: 16, features: baseFeatures, stripeLink: STRIPE_LINKS["1m"], outOfStock: true },
   { id: "3m", priceEur: 30, priceUsd: 33, features: baseFeatures, stripeLink: STRIPE_LINKS["3m"] },
   { id: "6m", priceEur: 50, priceUsd: 55, features: baseFeatures, stripeLink: STRIPE_LINKS["6m"] },
   {

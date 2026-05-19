@@ -12,19 +12,28 @@ export function PricingGrid({ dict, lang }: Props) {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
       {plans.map((p) => {
         const featured = p.highlighted;
+        const soldOut = p.outOfStock;
         const durationLabel = pricing.duration[p.id];
         const badgeLabel = pricing.badge[p.id];
         const priceLabel = formatPrice(p, lang);
         return (
           <article
             key={p.id}
+            aria-disabled={soldOut || undefined}
             className={`relative flex flex-col rounded-2xl p-7 transition-all duration-500 ${
-              featured
+              soldOut
+                ? "glass-card opacity-60 grayscale"
+                : featured
                 ? "bg-gradient-to-b from-emerald-400/15 via-zinc-900/80 to-zinc-950 border border-emerald-400/40 shadow-2xl shadow-emerald-500/10 lg:scale-105"
                 : "glass-card hover:border-white/20 hover:-translate-y-1"
             }`}
           >
-            {featured && (
+            {soldOut && (
+              <span className="absolute -top-3 right-6 px-3 py-1 rounded-full bg-zinc-200 text-zinc-900 text-[11px] font-extrabold tracking-widest shadow-lg shadow-black/30">
+                {pricing.out_of_stock}
+              </span>
+            )}
+            {featured && !soldOut && (
               <>
                 <span className="absolute -top-3 right-6 px-3 py-1 rounded-full bg-emerald-400 text-zinc-950 text-[11px] font-extrabold tracking-widest shadow-lg shadow-emerald-500/30">
                   {pricing.best_seller}
@@ -79,7 +88,16 @@ export function PricingGrid({ dict, lang }: Props) {
               ))}
             </ul>
 
-            {p.stripeLink ? (
+            {soldOut ? (
+              <button
+                type="button"
+                disabled
+                aria-disabled
+                className="block text-center w-full py-3.5 rounded-full font-semibold bg-white/5 text-zinc-400 border border-white/10 cursor-not-allowed"
+              >
+                {pricing.out_of_stock}
+              </button>
+            ) : p.stripeLink ? (
               <div className="space-y-2.5">
                 <a
                   href={p.stripeLink}
