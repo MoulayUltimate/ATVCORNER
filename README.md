@@ -1,102 +1,84 @@
-# LumixStream — Premium IPTV (Next.js 16)
+# ATV Corner
 
-Modern rebuild of [lumixstream.com](https://lumixstream.com) on Next.js 16 + Tailwind CSS 4, replacing the previous WordPress installation. Deploy-ready for **Vercel** or **Cloudflare Pages**.
+Premium IPTV marketing site at **[atvcorner.com](https://atvcorner.com)** — Next.js 16, React 19, Tailwind CSS 4, deployed on Netlify (Vercel + Cloudflare compatible).
+
+> **Working on this project? Read [`docs/`](./docs/README.md) first.**
+> The full architecture, schemas, conventions, and operational runbooks live there — no need to re-explore the codebase.
 
 ## Stack
 
-- **Framework:** Next.js 16 (App Router, Server Components, Turbopack)
-- **Styling:** Tailwind CSS 4 (CSS-first `@theme` design tokens)
-- **Fonts:** Montserrat (display) + Inter (body) via `next/font`
-- **SEO:** built-in `sitemap.ts`, `robots.ts`, OpenGraph metadata, JSON-LD (Organization / Product / FAQPage)
-- **Language:** French (primary), English (secondary)
+| Layer | Tech |
+|---|---|
+| Framework | Next.js 16 (App Router, Server Components, Turbopack) |
+| UI | React 19, Tailwind CSS 4 (CSS-first `@theme` tokens) |
+| Language | TypeScript 5 (strict) |
+| Fonts | Montserrat (display) + Inter (body) via `next/font` |
+| i18n | Custom — `fr` (primary), `en`, `de`. No external lib. |
+| Analytics | First-party (`/api/track` → Upstash Redis or in-memory) |
+| Admin auth | HMAC-SHA256 cookie via Web Crypto |
+| SEO/GEO | Per-locale meta + JSON-LD (Organization / WebSite / FAQPage / Product) + `llms.txt` + AI bot allow-list |
+| Host | Netlify primary; `vercel.json` + `wrangler.toml` for alternatives |
 
 ## Quick start
 
 ```bash
 pnpm install
-pnpm dev      # http://localhost:3000
-pnpm build    # production build
-pnpm start    # serve production
+cp .env.example .env.local      # edit values — see docs/development.md
+pnpm dev                        # http://localhost:3000
 ```
 
-## Project structure
-
-```
-src/
-├── app/                    # Next.js routes
-│   ├── layout.tsx          # Root layout — Nav, Footer, WhatsApp FAB, JSON-LD
-│   ├── page.tsx            # Home — hero, categories, sports, VOD, pricing, FAQ
-│   ├── pricing/            # 4 subscription tiers + comparison
-│   ├── channels/           # Channel categories + sports + VOD highlights
-│   ├── setup/              # Install guides for 6 platforms
-│   ├── contact/            # WhatsApp + email + Telegram
-│   ├── privacy / terms / refund / not-found
-│   ├── sitemap.ts          # /sitemap.xml
-│   └── robots.ts           # /robots.txt
-├── components/             # Navbar, Footer, WhatsAppFab, PricingGrid, etc.
-├── data/                   # plans, channels, faqs, devices (single source of truth)
-└── lib/site.ts             # siteConfig + WhatsApp helper
-```
-
-## Configuration
-
-Update `src/lib/site.ts` with:
-- Your **WhatsApp number** (E.164 without leading `+`) — currently a placeholder
-- Your **domain** (currently `https://lumixstream.com`)
-- Your **email** and social links
-
-## Deploy
-
-### Vercel (recommended)
+Common commands:
 
 ```bash
-vercel --prod
+pnpm build         # production build
+pnpm start         # serve production
+pnpm lint          # ESLint
+pnpm exec tsc --noEmit
 ```
 
-Configuration is in `vercel.json`. Sets EU (`cdg1`) + US (`iad1`) regions and security headers.
+## Documentation
 
-### Cloudflare Pages
+| Doc | What's in it |
+|---|---|
+| [docs/architecture.md](./docs/architecture.md) | Stack, directory tree, request lifecycle, two-tree layout |
+| [docs/routing-i18n.md](./docs/routing-i18n.md) | Locales, `proxy.ts` detection, dictionary rules |
+| [docs/data-models.md](./docs/data-models.md) | TypeScript shapes for plans, channels, events, siteConfig… |
+| [docs/components.md](./docs/components.md) | Component catalog (Server vs Client) |
+| [docs/analytics-admin.md](./docs/analytics-admin.md) | Event pipeline, Redis schema, admin dashboard |
+| [docs/seo-geo.md](./docs/seo-geo.md) | Metadata, sitemap, robots, JSON-LD, llms.txt |
+| [docs/deployment.md](./docs/deployment.md) | Netlify, Vercel, Cloudflare, env vars, ops |
+| [docs/development.md](./docs/development.md) | Local setup, conventions, troubleshooting |
 
-```bash
-pnpm add -D @cloudflare/next-on-pages
-npx @cloudflare/next-on-pages
-npx wrangler pages deploy .vercel/output/static
+## Repository layout (top-level)
+
+```
+.
+├── src/
+│   ├── app/                # Next.js App Router (routes)
+│   ├── components/         # All UI components
+│   ├── data/               # Static data: plans, channels, devices, faqs
+│   ├── i18n/dictionaries/  # fr.json (source of truth), en.json, de.json
+│   ├── lib/                # site config, analytics, admin auth, SEO copy, promo
+│   └── proxy.ts            # Locale routing middleware
+├── public/                 # llms.txt, llms-full.txt, images, fonts
+├── docs/                   # Project documentation (this is what you want)
+├── AGENTS.md / CLAUDE.md   # Guidance for AI agents (Claude Code, Codex)
+├── next.config.ts          # Legacy URL 301s + Next.js config
+├── vercel.json             # Vercel config (regions + security headers)
+├── wrangler.toml           # Cloudflare Pages config
+└── package.json            # pnpm-managed
 ```
 
-Or connect the GitHub repo in the Cloudflare dashboard. Configuration is in `wrangler.toml`.
+## For AI agents
 
-## SEO checklist
+`AGENTS.md` (also loaded by Claude Code as `CLAUDE.md`) covers the critical "this is not the Next.js you know" warning and SEO/GEO conventions. Beyond that, read `docs/README.md` and follow its order.
 
-- [x] Per-page `<title>` + `<meta description>`
-- [x] OpenGraph + Twitter cards in root layout
-- [x] JSON-LD: Organization, Product, FAQPage
-- [x] `sitemap.xml` + `robots.txt` auto-generated
-- [x] Canonical URLs
-- [x] French language declared (`lang="fr"`, `locale: "fr_FR"`)
-- [x] Mobile-first, semantic HTML, accessible labels
+**Three rules you must not violate:**
 
-## Migrating content from the WordPress (WPVivid) backup
+1. **No root `src/app/layout.tsx`** — the two roots are `[lang]/layout.tsx` and `admin/layout.tsx`.
+2. **Dictionaries are `server-only`** — never import `@/i18n` from a client component. Pass strings as props.
+3. **Async APIs** — `params`, `cookies()`, `headers()`, `searchParams` are promises. `await` them.
 
-The WPVivid backup zips contain:
-- `*.sql` — full WP database (posts, products, users)
-- `wp-content/uploads/` — media files
+## License
 
-To extract product data from the SQL dump:
-
-```bash
-unzip lumixstream.com_wpvivid-*.part001.zip -d wp-backup
-unzip lumixstream.com_wpvivid-*.part002.zip -d wp-backup
-# Then import into a local MySQL to query wp_posts / wp_postmeta
-# or use mysqldump-to-json to convert
-```
-
-The current `src/data/*` files mirror the production pricing and channel structure from the live site — adjust if your backup contains different data.
-
-## What's *not* WordPress anymore
-
-- No PHP runtime
-- No MySQL
-- No plugin attack surface
-- Pure static generation → ~100 Lighthouse score
-- Edge-deployable → < 50ms TTFB worldwide
-- Versionable in git, AI-augmentable content pipeline ready
+Proprietary — all rights reserved.
