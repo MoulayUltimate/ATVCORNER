@@ -31,6 +31,8 @@ export function Navbar({ lang, dict }: Props) {
     { href: `/${lang}/pricing`, label: dict.nav.pricing },
     { href: `/${lang}/channels`, label: dict.nav.channels },
     { href: `/${lang}/setup`, label: dict.nav.setup },
+    { href: `/${lang}/tools`, label: dict.nav.tools },
+    { href: `/${lang}/blog`, label: dict.nav.blog },
     { href: `/${lang}/contact`, label: dict.nav.contact },
   ];
 

@@ -23,6 +23,46 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV Sport](https://atvcorner.com/fr/iptv-sport): Sport en direct (Premier League, Champions, F1, NBA)
 - [Meilleures alternatives IPTV 2026](https://atvcorner.com/fr/best-iptv-alternatives): Comparatif vs autres services du marché
 
+## Blog (FR)
+
+- [Blog ATV Corner](https://atvcorner.com/fr/blog): Index des guides et comparatifs IPTV
+- [Playlist M3U : guide complet 2026](https://atvcorner.com/fr/blog/m3u-playlist-guide): Tout sur le format M3U et son installation
+- [Xtream Codes expliqués](https://atvcorner.com/fr/blog/xtream-codes-explained): API, sécurité, configuration TiviMate/Smarters
+- [IPTV 4K vs 8K en 2026](https://atvcorner.com/fr/blog/4k-vs-8k-iptv): Bitrate, débit, codecs, matériel requis
+- [OTT Premium vs IPTV](https://atvcorner.com/fr/blog/ott-premium-vs-iptv): Différences réelles et comparatif honnête
+- [TiviMate vs Smarters Pro vs IBO Player](https://atvcorner.com/fr/blog/tivimate-vs-smarters): Comparatif lecteurs IPTV 2026
+- [Smart STB Portal URL](https://atvcorner.com/fr/blog/smart-stb-portal-url): Configuration MAC + portal pour Samsung/LG/MAG
+
+## Outils Streaming (FR)
+
+- [Outils ATV Corner](https://atvcorner.com/fr/tools): Hub des outils interactifs et guides
+- [Vérificateur de compatibilité](https://atvcorner.com/fr/tools/device-compatibility): Smart TV, Fire Stick, Apple TV, Android, iPhone
+- [Test de débit streaming](https://atvcorner.com/fr/tools/speed-test): SD/HD/4K/8K selon Mbps
+- [Quiz d'abonnement](https://atvcorner.com/fr/tools/recommender): Trouver le plan ATV Corner adapté
+- [Comparatif abonnements](https://atvcorner.com/fr/tools/comparison): ATV Corner vs DAZN, Sky, beIN, Canal+, Movistar
+- [Premier League en direct](https://atvcorner.com/fr/tools/watch/premier-league)
+- [Champions League en direct](https://atvcorner.com/fr/tools/watch/champions-league)
+- [LaLiga en direct](https://atvcorner.com/fr/tools/watch/la-liga)
+- [Serie A en direct](https://atvcorner.com/fr/tools/watch/serie-a)
+- [Bundesliga en direct](https://atvcorner.com/fr/tools/watch/bundesliga)
+- [Ligue 1 en direct](https://atvcorner.com/fr/tools/watch/ligue-1)
+- [Europa League en direct](https://atvcorner.com/fr/tools/watch/europa-league)
+- [Football en France](https://atvcorner.com/fr/tools/in/france)
+- [Football en Allemagne](https://atvcorner.com/fr/tools/in/germany)
+- [Football en Espagne](https://atvcorner.com/fr/tools/in/spain)
+- [Football en Italie](https://atvcorner.com/fr/tools/in/italy)
+- [Football en Belgique](https://atvcorner.com/fr/tools/in/belgium)
+- [Real Madrid](https://atvcorner.com/fr/tools/team/real-madrid)
+- [FC Barcelone](https://atvcorner.com/fr/tools/team/barcelona)
+- [Manchester United](https://atvcorner.com/fr/tools/team/manchester-united)
+- [Arsenal](https://atvcorner.com/fr/tools/team/arsenal)
+- [Liverpool](https://atvcorner.com/fr/tools/team/liverpool)
+- [PSG](https://atvcorner.com/fr/tools/team/psg)
+- [Bayern Munich](https://atvcorner.com/fr/tools/team/bayern-munich)
+- [Borussia Dortmund](https://atvcorner.com/fr/tools/team/borussia-dortmund)
+- [Juventus](https://atvcorner.com/fr/tools/team/juventus)
+- [Olympique Marseille](https://atvcorner.com/fr/tools/team/olympique-marseille)
+
 ## English
 
 - [Home](https://atvcorner.com/en)
@@ -31,6 +71,43 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [Setup](https://atvcorner.com/en/setup)
 - [Contact](https://atvcorner.com/en/contact)
 - [About](https://atvcorner.com/en/about)
+- [Blog](https://atvcorner.com/en/blog): IPTV guides, comparisons, tutorials
+- [M3U Playlist guide](https://atvcorner.com/en/blog/m3u-playlist-guide)
+- [Xtream Codes explained](https://atvcorner.com/en/blog/xtream-codes-explained)
+- [4K vs 8K IPTV](https://atvcorner.com/en/blog/4k-vs-8k-iptv)
+- [OTT Premium vs IPTV](https://atvcorner.com/en/blog/ott-premium-vs-iptv)
+- [TiviMate vs Smarters Pro vs IBO Player](https://atvcorner.com/en/blog/tivimate-vs-smarters)
+- [Smart STB Portal URL guide](https://atvcorner.com/en/blog/smart-stb-portal-url)
+
+## Streaming Tools (EN)
+
+- [ATV Corner Tools](https://atvcorner.com/en/tools): Hub of interactive tools and guides
+- [Device Compatibility Checker](https://atvcorner.com/en/tools/device-compatibility): Smart TV, Fire Stick, Apple TV, Android, iPhone
+- [Streaming Speed Test](https://atvcorner.com/en/tools/speed-test): SD/HD/4K/8K based on Mbps
+- [Subscription Quiz](https://atvcorner.com/en/tools/recommender): Find the right ATV Corner plan
+- [Subscription Comparison](https://atvcorner.com/en/tools/comparison): ATV Corner vs DAZN, Sky, beIN, Canal+, Movistar
+- [Premier League live](https://atvcorner.com/en/tools/watch/premier-league)
+- [Champions League live](https://atvcorner.com/en/tools/watch/champions-league)
+- [LaLiga live](https://atvcorner.com/en/tools/watch/la-liga)
+- [Serie A live](https://atvcorner.com/en/tools/watch/serie-a)
+- [Bundesliga live](https://atvcorner.com/en/tools/watch/bundesliga)
+- [Ligue 1 live](https://atvcorner.com/en/tools/watch/ligue-1)
+- [Europa League live](https://atvcorner.com/en/tools/watch/europa-league)
+- [Football in France](https://atvcorner.com/en/tools/in/france)
+- [Football in Germany](https://atvcorner.com/en/tools/in/germany)
+- [Football in Spain](https://atvcorner.com/en/tools/in/spain)
+- [Football in Italy](https://atvcorner.com/en/tools/in/italy)
+- [Football in Belgium](https://atvcorner.com/en/tools/in/belgium)
+- [Real Madrid](https://atvcorner.com/en/tools/team/real-madrid)
+- [FC Barcelona](https://atvcorner.com/en/tools/team/barcelona)
+- [Manchester United](https://atvcorner.com/en/tools/team/manchester-united)
+- [Arsenal](https://atvcorner.com/en/tools/team/arsenal)
+- [Liverpool](https://atvcorner.com/en/tools/team/liverpool)
+- [PSG](https://atvcorner.com/en/tools/team/psg)
+- [Bayern Munich](https://atvcorner.com/en/tools/team/bayern-munich)
+- [Borussia Dortmund](https://atvcorner.com/en/tools/team/borussia-dortmund)
+- [Juventus](https://atvcorner.com/en/tools/team/juventus)
+- [Olympique Marseille](https://atvcorner.com/en/tools/team/olympique-marseille)
 
 ## Deutsch
 
@@ -40,6 +117,43 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [Einrichtung](https://atvcorner.com/de/setup)
 - [Kontakt](https://atvcorner.com/de/contact)
 - [Über uns](https://atvcorner.com/de/about)
+- [Blog](https://atvcorner.com/de/blog): IPTV-Guides, Vergleiche, Tutorials
+- [M3U-Playlist-Leitfaden](https://atvcorner.com/de/blog/m3u-playlist-guide)
+- [Xtream Codes erklärt](https://atvcorner.com/de/blog/xtream-codes-explained)
+- [4K vs. 8K IPTV](https://atvcorner.com/de/blog/4k-vs-8k-iptv)
+- [OTT Premium vs. IPTV](https://atvcorner.com/de/blog/ott-premium-vs-iptv)
+- [TiviMate vs. Smarters Pro vs. IBO Player](https://atvcorner.com/de/blog/tivimate-vs-smarters)
+- [Smart STB Portal URL Anleitung](https://atvcorner.com/de/blog/smart-stb-portal-url)
+
+## Streaming-Tools (DE)
+
+- [ATV Corner Tools](https://atvcorner.com/de/tools): Hub für interaktive Tools und Leitfäden
+- [Geräte-Kompatibilitätsprüfung](https://atvcorner.com/de/tools/device-compatibility): Smart TV, Fire Stick, Apple TV, Android, iPhone
+- [Streaming-Speedtest](https://atvcorner.com/de/tools/speed-test): SD/HD/4K/8K je nach Mbit/s
+- [Abo-Quiz](https://atvcorner.com/de/tools/recommender): Finden Sie den passenden ATV Corner Plan
+- [Abo-Vergleich](https://atvcorner.com/de/tools/comparison): ATV Corner vs DAZN, Sky, beIN, Canal+, Movistar
+- [Premier League live](https://atvcorner.com/de/tools/watch/premier-league)
+- [Champions League live](https://atvcorner.com/de/tools/watch/champions-league)
+- [LaLiga live](https://atvcorner.com/de/tools/watch/la-liga)
+- [Serie A live](https://atvcorner.com/de/tools/watch/serie-a)
+- [Bundesliga live](https://atvcorner.com/de/tools/watch/bundesliga)
+- [Ligue 1 live](https://atvcorner.com/de/tools/watch/ligue-1)
+- [Europa League live](https://atvcorner.com/de/tools/watch/europa-league)
+- [Fußball in Frankreich](https://atvcorner.com/de/tools/in/france)
+- [Fußball in Deutschland](https://atvcorner.com/de/tools/in/germany)
+- [Fußball in Spanien](https://atvcorner.com/de/tools/in/spain)
+- [Fußball in Italien](https://atvcorner.com/de/tools/in/italy)
+- [Fußball in Belgien](https://atvcorner.com/de/tools/in/belgium)
+- [Real Madrid](https://atvcorner.com/de/tools/team/real-madrid)
+- [FC Barcelona](https://atvcorner.com/de/tools/team/barcelona)
+- [Manchester United](https://atvcorner.com/de/tools/team/manchester-united)
+- [Arsenal](https://atvcorner.com/de/tools/team/arsenal)
+- [Liverpool](https://atvcorner.com/de/tools/team/liverpool)
+- [PSG](https://atvcorner.com/de/tools/team/psg)
+- [Bayern München](https://atvcorner.com/de/tools/team/bayern-munich)
+- [Borussia Dortmund](https://atvcorner.com/de/tools/team/borussia-dortmund)
+- [Juventus](https://atvcorner.com/de/tools/team/juventus)
+- [Olympique Marseille](https://atvcorner.com/de/tools/team/olympique-marseille)
 
 ## Légal
 

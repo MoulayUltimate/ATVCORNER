@@ -41,6 +41,8 @@ export function Footer({ lang, dict }: Props) {
             <li><Link href={`/${lang}/pricing`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.pricing}</Link></li>
             <li><Link href={`/${lang}/channels`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.channels}</Link></li>
             <li><Link href={`/${lang}/setup`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.setup}</Link></li>
+            <li><Link href={`/${lang}/tools`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.tools}</Link></li>
+            <li><Link href={`/${lang}/blog`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.blog}</Link></li>
             <li><Link href={`/${lang}/about`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.footer.about}</Link></li>
             <li><Link href={`/${lang}/contact`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.contact}</Link></li>
             <li><Link href={`/${lang}#faq`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.faq.eyebrow}</Link></li>
