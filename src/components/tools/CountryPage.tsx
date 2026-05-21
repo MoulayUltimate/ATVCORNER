@@ -2,9 +2,12 @@ import Link from "next/link";
 import type { Locale } from "@/i18n";
 import type { CountryData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
+import { getCountryExtras } from "@/data/tools/seoExtras";
+import { SeoSections } from "./SeoSections";
 
 export function CountryPage({ lang, country }: { lang: Locale; country: CountryData }) {
   const t = country.i18n[lang];
+  const extras = getCountryExtras(country.slug, lang);
   const labels = {
     fr: { leagues: "Championnats les plus populaires", teams: "Équipes locales", devices: "Appareils compatibles", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils" },
     en: { leagues: "Most popular leagues", teams: "Local teams", devices: "Supported devices", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools" },
@@ -55,7 +58,7 @@ export function CountryPage({ lang, country }: { lang: Locale; country: CountryD
         </div>
       </section>
 
-      <section className="py-12 border-t border-white/5 mb-16">
+      <section className="py-12 border-t border-white/5">
         <div className="container-luxe max-w-3xl">
           <h2 className="text-2xl font-bold mb-6">{labels.faq}</h2>
           <div className="space-y-3">
@@ -68,6 +71,9 @@ export function CountryPage({ lang, country }: { lang: Locale; country: CountryD
           </div>
         </div>
       </section>
+
+      {extras && <SeoSections lang={lang} extras={extras} langPrefix={`/${lang}`} />}
+      <div className="pb-16" />
     </div>
   );
 }

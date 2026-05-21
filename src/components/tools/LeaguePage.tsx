@@ -2,9 +2,12 @@ import Link from "next/link";
 import type { Locale } from "@/i18n";
 import type { LeagueData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
+import { getLeagueExtras } from "@/data/tools/seoExtras";
+import { SeoSections } from "./SeoSections";
 
 export function LeaguePage({ lang, league }: { lang: Locale; league: LeagueData }) {
   const t = league.i18n[lang];
+  const extras = getLeagueExtras(league.slug, lang);
   const labels = {
     fr: { benefits: "Ce que vous obtenez", whyAtv: "Pourquoi ATV Corner", devices: "Appareils compatibles", countries: "Disponibilité par pays", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils" },
     en: { benefits: "What you get", whyAtv: "Why ATV Corner", devices: "Supported devices", countries: "Country availability", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools" },
@@ -93,7 +96,7 @@ export function LeaguePage({ lang, league }: { lang: Locale; league: LeagueData 
         </div>
       </section>
 
-      <section className="py-12 border-t border-white/5 mb-16">
+      <section className="py-12 border-t border-white/5">
         <div className="container-luxe max-w-3xl">
           <h2 className="text-2xl font-bold mb-6">{labels.faq}</h2>
           <div className="space-y-3">
@@ -106,6 +109,9 @@ export function LeaguePage({ lang, league }: { lang: Locale; league: LeagueData 
           </div>
         </div>
       </section>
+
+      {extras && <SeoSections lang={lang} extras={extras} langPrefix={`/${lang}`} />}
+      <div className="pb-16" />
     </div>
   );
 }

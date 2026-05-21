@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Script from "next/script";
 import { TeamPage } from "@/components/tools/TeamPage";
 import { getTeam, teamSlugs } from "@/data/tools";
+import { getTeamExtras } from "@/data/tools/seoExtras";
 import { hasLocale, locales } from "@/i18n";
 
 export async function generateStaticParams() {
@@ -44,6 +45,8 @@ export default async function Page({
   const data = getTeam(team);
   if (!data) notFound();
   const t = data.i18n[lang];
+  const extras = getTeamExtras(team, lang);
+  const allFaq = [...t.faq, ...(extras?.extraFaq ?? [])];
 
   const sportsTeamLd = {
     "@context": "https://schema.org",
@@ -57,7 +60,7 @@ export default async function Page({
   const faqLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: t.faq.map((f) => ({
+    mainEntity: allFaq.map((f) => ({
       "@type": "Question",
       name: f.q,
       acceptedAnswer: { "@type": "Answer", text: f.a },

@@ -2,9 +2,12 @@ import Link from "next/link";
 import type { Locale } from "@/i18n";
 import type { TeamData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
+import { getTeamExtras } from "@/data/tools/seoExtras";
+import { SeoSections } from "./SeoSections";
 
 export function TeamPage({ lang, team }: { lang: Locale; team: TeamData }) {
   const t = team.i18n[lang];
+  const extras = getTeamExtras(team.slug, lang);
   const labels = {
     fr: { whyFollow: "Pourquoi suivre", whereToWatch: "Où regarder", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils", founded: "Fondé", stadium: "Stade", competitions: "Compétitions" },
     en: { whyFollow: "Why follow", whereToWatch: "Where to watch", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools", founded: "Founded", stadium: "Stadium", competitions: "Competitions" },
@@ -64,7 +67,7 @@ export function TeamPage({ lang, team }: { lang: Locale; team: TeamData }) {
         </div>
       </section>
 
-      <section className="py-12 border-t border-white/5 mb-16">
+      <section className="py-12 border-t border-white/5">
         <div className="container-luxe max-w-3xl">
           <h2 className="text-2xl font-bold mb-6">{labels.faq}</h2>
           <div className="space-y-3">
@@ -77,6 +80,9 @@ export function TeamPage({ lang, team }: { lang: Locale; team: TeamData }) {
           </div>
         </div>
       </section>
+
+      {extras && <SeoSections lang={lang} extras={extras} langPrefix={`/${lang}`} />}
+      <div className="pb-16" />
     </div>
   );
 }
