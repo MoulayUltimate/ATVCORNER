@@ -12,7 +12,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en France",
-        metaTitle: "Football en direct en France 2026 — Ligue 1, C1, Premier League | ATV Corner",
+        metaTitle: "Football en direct en France 2026 — Ligue 1, C1, Premier League",
         metaDesc: "Tous les championnats en direct depuis la France : Ligue 1, Champions League, Premier League, LaLiga. HD/4K, sans VPN, à partir de 15€/mois.",
         intro: "Vous habitez en France et vous voulez suivre TOUS les championnats sans multiplier les abonnements DAZN, beIN, Canal+ et Amazon Prime ? ATV Corner regroupe l'intégralité du football européen en un seul abonnement à 15€/mois.",
         popularLeagues: "Ligue 1 (PSG, OM, Lyon), Premier League (Liverpool, Manchester United), Champions League, LaLiga (Real, Barça), Serie A, Bundesliga, Europa League.",
@@ -26,7 +26,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in France",
-        metaTitle: "Watch Football Live in France 2026 — Ligue 1, UCL, EPL | ATV Corner",
+        metaTitle: "Watch Football Live in France 2026 — Ligue 1, UCL, EPL",
         metaDesc: "Every league live from France: Ligue 1, Champions League, Premier League, LaLiga. HD/4K, no VPN, from €15/month.",
         intro: "You live in France and want to follow EVERY league without juggling DAZN, beIN, Canal+ and Amazon Prime subscriptions? ATV Corner bundles all of European football into one €15/month subscription.",
         popularLeagues: "Ligue 1 (PSG, OM, Lyon), Premier League (Liverpool, Man United), Champions League, LaLiga (Real, Barça), Serie A, Bundesliga, Europa League.",
@@ -40,7 +40,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Frankreich streamen",
-        metaTitle: "Fußball live in Frankreich 2026 — Ligue 1, UCL, EPL | ATV Corner",
+        metaTitle: "Fußball live in Frankreich 2026 — Ligue 1, UCL, EPL",
         metaDesc: "Jede Liga live aus Frankreich: Ligue 1, Champions League, Premier League, LaLiga. HD/4K, kein VPN, ab 15€/Monat.",
         intro: "Sie leben in Frankreich und wollen ALLE Ligen verfolgen, ohne DAZN, beIN, Canal+ und Amazon Prime parallel zu zahlen? ATV Corner bündelt den gesamten europäischen Fußball in einem 15€/Monat-Abo.",
         popularLeagues: "Ligue 1 (PSG, OM, Lyon), Premier League (Liverpool, Man United), Champions League, LaLiga (Real, Barça), Serie A, Bundesliga, Europa League.",
@@ -64,7 +64,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en Allemagne",
-        metaTitle: "Football en direct en Allemagne 2026 — Bundesliga, C1 | ATV Corner",
+        metaTitle: "Football en direct en Allemagne 2026 — Bundesliga, C1",
         metaDesc: "Tous les championnats depuis l'Allemagne : Bundesliga, Champions League, Premier League. HD/4K, à partir de 15€/mois.",
         intro: "En Allemagne, Sky et DAZN se partagent la Bundesliga, RTL/Prime ont la Champions League. ATV Corner regroupe tout, plus les autres championnats européens.",
         popularLeagues: "Bundesliga, 2. Bundesliga, DFB-Pokal, Champions League, Europa League, Premier League, LaLiga.",
@@ -76,7 +76,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Germany",
-        metaTitle: "Watch Football Live in Germany 2026 — Bundesliga, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in Germany 2026 — Bundesliga, UCL",
         metaDesc: "Every league from Germany: Bundesliga, Champions League, Premier League. HD/4K, from €15/month.",
         intro: "In Germany, Sky and DAZN split the Bundesliga, RTL/Prime hold the Champions League. ATV Corner aggregates all of it, plus other European leagues.",
         popularLeagues: "Bundesliga, 2. Bundesliga, DFB-Pokal, Champions League, Europa League, Premier League, LaLiga.",
@@ -88,7 +88,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Deutschland streamen",
-        metaTitle: "Fußball live in Deutschland 2026 — Bundesliga, UCL | ATV Corner",
+        metaTitle: "Fußball live in Deutschland 2026 — Bundesliga, UCL",
         metaDesc: "Jede Liga live aus Deutschland: Bundesliga, Champions League, Premier League. HD/4K, ab 15€/Monat.",
         intro: "In Deutschland teilen sich Sky und DAZN die Bundesliga, RTL/Prime haben die Champions League. ATV Corner bündelt alles, plus weitere europäische Ligen.",
         popularLeagues: "Bundesliga, 2. Bundesliga, DFB-Pokal, Champions League, Europa League, Premier League, LaLiga.",
@@ -110,7 +110,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en Espagne",
-        metaTitle: "Football en direct en Espagne 2026 — LaLiga, C1 | ATV Corner",
+        metaTitle: "Football en direct en Espagne 2026 — LaLiga, C1",
         metaDesc: "Tous les championnats depuis l'Espagne : LaLiga, Champions League, Copa del Rey. HD/4K, à partir de 15€/mois.",
         intro: "En Espagne, Movistar+ et DAZN dominent. ATV Corner regroupe LaLiga, Copa del Rey et Champions League dans un seul abonnement.",
         popularLeagues: "LaLiga, LaLiga 2, Copa del Rey, Champions League, Europa League, Premier League.",
@@ -122,7 +122,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Spain",
-        metaTitle: "Watch Football Live in Spain 2026 — LaLiga, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in Spain 2026 — LaLiga, UCL",
         metaDesc: "Every league from Spain: LaLiga, Champions League, Copa del Rey. HD/4K, from €15/month.",
         intro: "In Spain, Movistar+ and DAZN dominate. ATV Corner bundles LaLiga, Copa del Rey and Champions League into one subscription.",
         popularLeagues: "LaLiga, LaLiga 2, Copa del Rey, Champions League, Europa League, Premier League.",
@@ -134,7 +134,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Spanien streamen",
-        metaTitle: "Fußball live in Spanien 2026 — LaLiga, UCL | ATV Corner",
+        metaTitle: "Fußball live in Spanien 2026 — LaLiga, UCL",
         metaDesc: "Jede Liga live aus Spanien: LaLiga, Champions League, Copa del Rey. HD/4K, ab 15€/Monat.",
         intro: "In Spanien dominieren Movistar+ und DAZN. ATV Corner bündelt LaLiga, Copa del Rey und Champions League in einem Abo.",
         popularLeagues: "LaLiga, LaLiga 2, Copa del Rey, Champions League, Europa League, Premier League.",
@@ -156,7 +156,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en Italie",
-        metaTitle: "Football en direct en Italie 2026 — Serie A, C1 | ATV Corner",
+        metaTitle: "Football en direct en Italie 2026 — Serie A, C1",
         metaDesc: "Tous les championnats depuis l'Italie : Serie A, Champions League, Coppa Italia. HD/4K, à partir de 15€/mois.",
         intro: "En Italie, DAZN détient l'exclusivité Serie A, Sky a la Champions League. ATV Corner regroupe tout, plus les autres ligues européennes.",
         popularLeagues: "Serie A, Serie B, Coppa Italia, Champions League, Europa League, Premier League, LaLiga.",
@@ -168,7 +168,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Italy",
-        metaTitle: "Watch Football Live in Italy 2026 — Serie A, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in Italy 2026 — Serie A, UCL",
         metaDesc: "Every league from Italy: Serie A, Champions League, Coppa Italia. HD/4K, from €15/month.",
         intro: "In Italy, DAZN holds exclusive Serie A rights, Sky has Champions League. ATV Corner aggregates everything, plus other European leagues.",
         popularLeagues: "Serie A, Serie B, Coppa Italia, Champions League, Europa League, Premier League, LaLiga.",
@@ -180,7 +180,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Italien streamen",
-        metaTitle: "Fußball live in Italien 2026 — Serie A, UCL | ATV Corner",
+        metaTitle: "Fußball live in Italien 2026 — Serie A, UCL",
         metaDesc: "Jede Liga live aus Italien: Serie A, Champions League, Coppa Italia. HD/4K, ab 15€/Monat.",
         intro: "In Italien hält DAZN die exklusiven Serie-A-Rechte, Sky hat die Champions League. ATV Corner bündelt alles, plus weitere europäische Ligen.",
         popularLeagues: "Serie A, Serie B, Coppa Italia, Champions League, Europa League, Premier League, LaLiga.",
@@ -202,7 +202,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en Belgique",
-        metaTitle: "Football en direct en Belgique 2026 — Pro League, C1 | ATV Corner",
+        metaTitle: "Football en direct en Belgique 2026 — Pro League, C1",
         metaDesc: "Tous les championnats depuis la Belgique : Jupiler Pro League, Champions League, Ligue 1, Premier League. HD/4K, à partir de 15€/mois.",
         intro: "En Belgique, Eleven Sports (DAZN) et Proximus se partagent les droits. ATV Corner regroupe la Pro League et tous les championnats européens.",
         popularLeagues: "Jupiler Pro League, Champions League, Europa League, Ligue 1, Premier League, LaLiga.",
@@ -214,7 +214,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Belgium",
-        metaTitle: "Watch Football Live in Belgium 2026 — Pro League, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in Belgium 2026 — Pro League, UCL",
         metaDesc: "Every league from Belgium: Jupiler Pro League, Champions League, Ligue 1, Premier League. HD/4K, from €15/month.",
         intro: "In Belgium, Eleven Sports (DAZN) and Proximus split the rights. ATV Corner aggregates the Pro League plus every European championship.",
         popularLeagues: "Jupiler Pro League, Champions League, Europa League, Ligue 1, Premier League, LaLiga.",
@@ -226,7 +226,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Belgien streamen",
-        metaTitle: "Fußball live in Belgien 2026 — Pro League, UCL | ATV Corner",
+        metaTitle: "Fußball live in Belgien 2026 — Pro League, UCL",
         metaDesc: "Jede Liga live aus Belgien: Jupiler Pro League, Champions League, Ligue 1, Premier League. HD/4K, ab 15€/Monat.",
         intro: "In Belgien teilen sich Eleven Sports (DAZN) und Proximus die Rechte. ATV Corner bündelt die Pro League plus alle europäischen Ligen.",
         popularLeagues: "Jupiler Pro League, Champions League, Europa League, Ligue 1, Premier League, LaLiga.",
@@ -248,7 +248,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct aux Pays-Bas",
-        metaTitle: "Football en direct aux Pays-Bas 2026 — Eredivisie, C1 | ATV Corner",
+        metaTitle: "Football en direct aux Pays-Bas 2026 — Eredivisie, C1",
         metaDesc: "Tous les championnats depuis les Pays-Bas : Eredivisie, Champions League. HD/4K, à partir de 15€/mois.",
         intro: "Aux Pays-Bas, ESPN et Ziggo Sport se partagent l'Eredivisie. ATV Corner regroupe tout en un seul abonnement.",
         popularLeagues: "Eredivisie, Eerste Divisie, Champions League, Europa League, Premier League, Bundesliga.",
@@ -260,7 +260,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in the Netherlands",
-        metaTitle: "Watch Football Live in the Netherlands 2026 — Eredivisie, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in the Netherlands 2026 — Eredivisie, UCL",
         metaDesc: "Every league from the Netherlands: Eredivisie, Champions League. HD/4K, from €15/month.",
         intro: "In the Netherlands, ESPN and Ziggo Sport split the Eredivisie. ATV Corner bundles everything into one subscription.",
         popularLeagues: "Eredivisie, Eerste Divisie, Champions League, Europa League, Premier League, Bundesliga.",
@@ -272,7 +272,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in den Niederlanden streamen",
-        metaTitle: "Fußball live in den Niederlanden 2026 — Eredivisie, UCL | ATV Corner",
+        metaTitle: "Fußball live in den Niederlanden 2026 — Eredivisie, UCL",
         metaDesc: "Jede Liga live aus den Niederlanden: Eredivisie, Champions League. HD/4K, ab 15€/Monat.",
         intro: "In den Niederlanden teilen sich ESPN und Ziggo Sport die Eredivisie. ATV Corner bündelt alles in einem Abo.",
         popularLeagues: "Eredivisie, Eerste Divisie, Champions League, Europa League, Premier League, Bundesliga.",
@@ -294,7 +294,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct au Portugal",
-        metaTitle: "Football en direct au Portugal 2026 — Primeira Liga | ATV Corner",
+        metaTitle: "Football en direct au Portugal 2026 — Primeira Liga",
         metaDesc: "Tous les championnats depuis le Portugal : Primeira Liga, Champions League. HD/4K.",
         intro: "Au Portugal, Sport TV, Eleven et DAZN se partagent les droits. ATV Corner regroupe tout.",
         popularLeagues: "Primeira Liga, Taça de Portugal, Champions League, Europa League.",
@@ -304,7 +304,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Portugal",
-        metaTitle: "Watch Football Live in Portugal 2026 — Primeira Liga | ATV Corner",
+        metaTitle: "Watch Football Live in Portugal 2026 — Primeira Liga",
         metaDesc: "Every league from Portugal: Primeira Liga, Champions League. HD/4K.",
         intro: "In Portugal, Sport TV, Eleven and DAZN split the rights. ATV Corner bundles everything.",
         popularLeagues: "Primeira Liga, Taça de Portugal, Champions League, Europa League.",
@@ -314,7 +314,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Portugal streamen",
-        metaTitle: "Fußball live in Portugal 2026 — Primeira Liga | ATV Corner",
+        metaTitle: "Fußball live in Portugal 2026 — Primeira Liga",
         metaDesc: "Jede Liga live aus Portugal: Primeira Liga, Champions League. HD/4K.",
         intro: "In Portugal teilen sich Sport TV, Eleven und DAZN die Rechte. ATV Corner bündelt alles.",
         popularLeagues: "Primeira Liga, Taça de Portugal, Champions League, Europa League.",
@@ -334,7 +334,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en Suisse",
-        metaTitle: "Football en direct en Suisse 2026 — Super League, C1 | ATV Corner",
+        metaTitle: "Football en direct en Suisse 2026 — Super League, C1",
         metaDesc: "Tous les championnats depuis la Suisse : Super League, Champions League, Ligue 1, Bundesliga. HD/4K, à partir de 15€/mois.",
         intro: "En Suisse, blue Sport détient la Super League. ATV Corner regroupe tout, plus les championnats voisins (Ligue 1, Bundesliga, Serie A).",
         popularLeagues: "Super League, Champions League, Europa League, Bundesliga, Ligue 1, Serie A, Premier League.",
@@ -344,7 +344,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Switzerland",
-        metaTitle: "Watch Football Live in Switzerland 2026 — Super League, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in Switzerland 2026 — Super League, UCL",
         metaDesc: "Every league from Switzerland: Super League, Champions League, Ligue 1, Bundesliga. HD/4K, from €15/month.",
         intro: "In Switzerland, blue Sport holds Super League rights. ATV Corner aggregates everything, plus neighbouring leagues (Ligue 1, Bundesliga, Serie A).",
         popularLeagues: "Super League, Champions League, Europa League, Bundesliga, Ligue 1, Serie A, Premier League.",
@@ -354,7 +354,7 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in der Schweiz streamen",
-        metaTitle: "Fußball live in der Schweiz 2026 — Super League, UCL | ATV Corner",
+        metaTitle: "Fußball live in der Schweiz 2026 — Super League, UCL",
         metaDesc: "Jede Liga live aus der Schweiz: Super League, Champions League, Ligue 1, Bundesliga. HD/4K, ab 15€/Monat.",
         intro: "In der Schweiz hält blue Sport die Super-League-Rechte. ATV Corner bündelt alles, plus Nachbarligen (Ligue 1, Bundesliga, Serie A).",
         popularLeagues: "Super League, Champions League, Europa League, Bundesliga, Ligue 1, Serie A, Premier League.",
@@ -374,7 +374,7 @@ export const countries: CountryData[] = [
     i18n: {
       fr: {
         h1: "Regarder le football en direct en Suède",
-        metaTitle: "Football en direct en Suède 2026 — Allsvenskan, C1 | ATV Corner",
+        metaTitle: "Football en direct en Suède 2026 — Allsvenskan, C1",
         metaDesc: "Tous les championnats depuis la Suède : Allsvenskan, Champions League, Premier League. HD/4K.",
         intro: "En Suède, Discovery+ et TV4 se partagent les droits. ATV Corner regroupe tout.",
         popularLeagues: "Allsvenskan, Champions League, Europa League, Premier League, LaLiga.",
@@ -384,7 +384,7 @@ export const countries: CountryData[] = [
       },
       en: {
         h1: "Watch football live in Sweden",
-        metaTitle: "Watch Football Live in Sweden 2026 — Allsvenskan, UCL | ATV Corner",
+        metaTitle: "Watch Football Live in Sweden 2026 — Allsvenskan, UCL",
         metaDesc: "Every league from Sweden: Allsvenskan, Champions League, Premier League. HD/4K.",
         intro: "In Sweden, Discovery+ and TV4 split the rights. ATV Corner aggregates everything.",
         popularLeagues: "Allsvenskan, Champions League, Europa League, Premier League, LaLiga.",
@@ -394,13 +394,117 @@ export const countries: CountryData[] = [
       },
       de: {
         h1: "Fußball live in Schweden streamen",
-        metaTitle: "Fußball live in Schweden 2026 — Allsvenskan, UCL | ATV Corner",
+        metaTitle: "Fußball live in Schweden 2026 — Allsvenskan, UCL",
         metaDesc: "Jede Liga live aus Schweden: Allsvenskan, Champions League, Premier League. HD/4K.",
         intro: "In Schweden teilen sich Discovery+ und TV4 die Rechte. ATV Corner bündelt alles.",
         popularLeagues: "Allsvenskan, Champions League, Europa League, Premier League, LaLiga.",
         popularTeams: "Malmö FF, AIK, Djurgården, Hammarby, IFK Göteborg.",
         devices: "Alle Geräte.",
         faq: [{ q: "Ist die Allsvenskan enthalten?", a: "Ja." }],
+      },
+    },
+  },
+  {
+    slug: "usa",
+    name: "United States",
+    flag: "🇺🇸",
+    topLeagues: ["NFL", "NBA", "MLB", "NHL", "MLS", "Premier League"],
+    topTeams: ["Inter Miami", "LA Galaxy", "LAFC", "Atlanta United"],
+    language: "en",
+    i18n: {
+      fr: {
+        h1: "IPTV aux USA : sport et TV en direct",
+        metaTitle: "IPTV USA 2026 — Meilleur Service IPTV aux États-Unis",
+        metaDesc: "Meilleur service IPTV aux USA : NFL, NBA, MLB, NHL, MLS, Premier League et 66 000+ chaînes en 4K/8K. Essai gratuit, sans câble, à partir de 15€/mois.",
+        intro: "Vous cherchez un service IPTV aux États-Unis pour regarder le sport et la TV sans câble ? ATV Corner réunit la NFL, la NBA, la MLB, la NHL, la MLS et le football européen, plus 66 000+ chaînes internationales, dans un seul abonnement IPTV USA en 4K/8K.",
+        popularLeagues: "NFL, NBA, MLB, NHL, MLS, Premier League, Champions League, LaLiga, Serie A, boxe et UFC.",
+        popularTeams: "Inter Miami, LA Galaxy, LAFC, Atlanta United, plus toutes les franchises NFL/NBA/NHL/MLB.",
+        devices: "Smart TV Samsung/LG, Roku, Amazon Fire TV Stick, Apple TV, Android TV, iPhone, iPad, Android, Windows, Mac, Nvidia Shield.",
+        faq: [
+          { q: "Quel est le meilleur service IPTV aux USA ?", a: "ATV Corner propose 66 000+ chaînes, la NFL, NBA, MLB, NHL et MLS en 4K/8K, avec un essai IPTV gratuit pour tester avant de payer. C'est l'une des meilleures options IPTV aux États-Unis." },
+          { q: "Puis-je regarder la NFL et la NBA sans câble ?", a: "Oui. L'IPTV ATV Corner diffuse la NFL, la NBA, la MLB et la NHL en direct, sans abonnement câble ni satellite." },
+          { q: "L'IPTV fonctionne-t-elle sur Roku et Fire Stick aux USA ?", a: "Oui, via une application IPTV (IPTV Smarters, TiviMate) ou un lien M3U sur Fire TV Stick, Roku, Apple TV et Android TV." },
+        ],
+      },
+      en: {
+        h1: "IPTV in the USA: live sports & TV",
+        metaTitle: "IPTV USA 2026 — Best IPTV Service in the United States",
+        metaDesc: "Best IPTV service in the USA: NFL, NBA, MLB, NHL, MLS, Premier League and 66,000+ 4K/8K channels. Free trial, no cable, from $16/month.",
+        intro: "Looking for the best IPTV service in the USA to watch sports and TV without cable? ATV Corner brings together the NFL, NBA, MLB, NHL, MLS and European soccer, plus 66,000+ international channels, in a single 4K/8K IPTV USA subscription.",
+        popularLeagues: "NFL, NBA, MLB, NHL, MLS, Premier League, Champions League, LaLiga, Serie A, boxing and UFC.",
+        popularTeams: "Inter Miami, LA Galaxy, LAFC, Atlanta United, plus every NFL/NBA/NHL/MLB franchise.",
+        devices: "Samsung/LG Smart TV, Roku, Amazon Fire TV Stick, Apple TV, Android TV, iPhone, iPad, Android, Windows, Mac, Nvidia Shield.",
+        faq: [
+          { q: "What is the best IPTV service in the USA?", a: "ATV Corner offers 66,000+ channels, plus NFL, NBA, MLB, NHL and MLS in 4K/8K, with a free IPTV trial so you can test before paying. It's one of the best IPTV options in the United States." },
+          { q: "Can I watch the NFL and NBA without cable?", a: "Yes. ATV Corner IPTV streams the NFL, NBA, MLB and NHL live, with no cable or satellite subscription." },
+          { q: "Does IPTV work on Roku and Fire Stick in the USA?", a: "Yes, via an IPTV app (IPTV Smarters, TiviMate) or M3U link on Fire TV Stick, Roku, Apple TV and Android TV." },
+        ],
+      },
+      de: {
+        h1: "IPTV in den USA: Live-Sport & TV",
+        metaTitle: "IPTV USA 2026 — Bester IPTV-Dienst in den USA",
+        metaDesc: "Bester IPTV-Dienst in den USA: NFL, NBA, MLB, NHL, MLS, Premier League und 66.000+ 4K/8K-Sender. Gratis-Test, ohne Kabel, ab 15€/Monat.",
+        intro: "Suchen Sie einen IPTV-Dienst in den USA, um Sport und TV ohne Kabel zu sehen? ATV Corner vereint NFL, NBA, MLB, NHL, MLS und europäischen Fußball plus 66.000+ internationale Sender in einem einzigen 4K/8K IPTV-USA-Abo.",
+        popularLeagues: "NFL, NBA, MLB, NHL, MLS, Premier League, Champions League, LaLiga, Serie A, Boxen und UFC.",
+        popularTeams: "Inter Miami, LA Galaxy, LAFC, Atlanta United, plus alle NFL/NBA/NHL/MLB-Franchises.",
+        devices: "Samsung/LG Smart TV, Roku, Amazon Fire TV Stick, Apple TV, Android TV, iPhone, iPad, Android, Windows, Mac, Nvidia Shield.",
+        faq: [
+          { q: "Was ist der beste IPTV-Dienst in den USA?", a: "ATV Corner bietet 66.000+ Sender plus NFL, NBA, MLB, NHL und MLS in 4K/8K, mit einem kostenlosen IPTV-Test zum Ausprobieren vor der Zahlung. Eine der besten IPTV-Optionen in den USA." },
+          { q: "Kann ich NFL und NBA ohne Kabel sehen?", a: "Ja. ATV Corner IPTV streamt NFL, NBA, MLB und NHL live, ohne Kabel- oder Satellitenabo." },
+          { q: "Funktioniert IPTV auf Roku und Fire Stick in den USA?", a: "Ja, über eine IPTV-App (IPTV Smarters, TiviMate) oder einen M3U-Link auf Fire TV Stick, Roku, Apple TV und Android TV." },
+        ],
+      },
+    },
+  },
+  {
+    slug: "canada",
+    name: "Canada",
+    flag: "🇨🇦",
+    topLeagues: ["NHL", "NBA", "MLS", "MLB", "Premier League", "Champions League"],
+    topTeams: ["Toronto FC", "CF Montréal", "Vancouver Whitecaps", "Toronto Raptors"],
+    language: "en",
+    i18n: {
+      fr: {
+        h1: "IPTV au Canada : sport et TV en direct",
+        metaTitle: "IPTV Canada 2026 — Meilleur Service IPTV au Canada",
+        metaDesc: "Meilleur service IPTV au Canada : NHL, NBA, MLS, MLB, Premier League et 66 000+ chaînes en 4K/8K. Essai gratuit, sans câble, à partir de 15€/mois.",
+        intro: "Vous cherchez un service IPTV au Canada pour regarder le hockey, le basket et le football sans câble ? ATV Corner réunit la NHL, la NBA, la MLS, la MLB et le football européen, plus 66 000+ chaînes internationales, dans un seul abonnement IPTV Canada en 4K/8K.",
+        popularLeagues: "NHL, NBA, MLS, MLB, Premier League, Champions League, LaLiga, Serie A, Ligue 1, boxe et UFC.",
+        popularTeams: "Toronto FC, CF Montréal, Vancouver Whitecaps, Toronto Raptors, Canadiens de Montréal, Maple Leafs.",
+        devices: "Smart TV Samsung/LG, Roku, Amazon Fire TV Stick, Apple TV, Android TV, iPhone, iPad, Android, Windows, Mac, Nvidia Shield.",
+        faq: [
+          { q: "Quel est le meilleur service IPTV au Canada ?", a: "ATV Corner propose 66 000+ chaînes, la NHL, NBA, MLS et MLB en 4K/8K, avec un essai IPTV gratuit pour tester avant de payer. C'est l'une des meilleures options IPTV au Canada." },
+          { q: "Puis-je regarder la NHL et la NBA sans câble ?", a: "Oui. L'IPTV ATV Corner diffuse la NHL, la NBA, la MLS et la MLB en direct, sans abonnement câble ni satellite." },
+          { q: "L'IPTV fonctionne-t-elle sur Fire Stick au Canada ?", a: "Oui, via une application IPTV (IPTV Smarters, TiviMate) ou un lien M3U sur Fire TV Stick, Roku, Apple TV et Android TV." },
+        ],
+      },
+      en: {
+        h1: "IPTV in Canada: live sports & TV",
+        metaTitle: "IPTV Canada 2026 — Best IPTV Service in Canada",
+        metaDesc: "Best IPTV service in Canada: NHL, NBA, MLS, MLB, Premier League and 66,000+ 4K/8K channels. Free trial, no cable, from $16/month.",
+        intro: "Looking for the best IPTV service in Canada to watch hockey, basketball and soccer without cable? ATV Corner brings together the NHL, NBA, MLS, MLB and European soccer, plus 66,000+ international channels, in a single 4K/8K IPTV Canada subscription.",
+        popularLeagues: "NHL, NBA, MLS, MLB, Premier League, Champions League, LaLiga, Serie A, Ligue 1, boxing and UFC.",
+        popularTeams: "Toronto FC, CF Montréal, Vancouver Whitecaps, Toronto Raptors, Montreal Canadiens, Maple Leafs.",
+        devices: "Samsung/LG Smart TV, Roku, Amazon Fire TV Stick, Apple TV, Android TV, iPhone, iPad, Android, Windows, Mac, Nvidia Shield.",
+        faq: [
+          { q: "What is the best IPTV service in Canada?", a: "ATV Corner offers 66,000+ channels, plus NHL, NBA, MLS and MLB in 4K/8K, with a free IPTV trial so you can test before paying. It's one of the best IPTV options in Canada." },
+          { q: "Can I watch the NHL and NBA without cable?", a: "Yes. ATV Corner IPTV streams the NHL, NBA, MLS and MLB live, with no cable or satellite subscription." },
+          { q: "Does IPTV work on Fire Stick in Canada?", a: "Yes, via an IPTV app (IPTV Smarters, TiviMate) or M3U link on Fire TV Stick, Roku, Apple TV and Android TV." },
+        ],
+      },
+      de: {
+        h1: "IPTV in Kanada: Live-Sport & TV",
+        metaTitle: "IPTV Kanada 2026 — Bester IPTV-Dienst in Kanada",
+        metaDesc: "Bester IPTV-Dienst in Kanada: NHL, NBA, MLS, MLB, Premier League und 66.000+ 4K/8K-Sender. Gratis-Test, ohne Kabel, ab 15€/Monat.",
+        intro: "Suchen Sie einen IPTV-Dienst in Kanada, um Hockey, Basketball und Fußball ohne Kabel zu sehen? ATV Corner vereint NHL, NBA, MLS, MLB und europäischen Fußball plus 66.000+ internationale Sender in einem einzigen 4K/8K IPTV-Kanada-Abo.",
+        popularLeagues: "NHL, NBA, MLS, MLB, Premier League, Champions League, LaLiga, Serie A, Ligue 1, Boxen und UFC.",
+        popularTeams: "Toronto FC, CF Montréal, Vancouver Whitecaps, Toronto Raptors, Montreal Canadiens, Maple Leafs.",
+        devices: "Samsung/LG Smart TV, Roku, Amazon Fire TV Stick, Apple TV, Android TV, iPhone, iPad, Android, Windows, Mac, Nvidia Shield.",
+        faq: [
+          { q: "Was ist der beste IPTV-Dienst in Kanada?", a: "ATV Corner bietet 66.000+ Sender plus NHL, NBA, MLS und MLB in 4K/8K, mit einem kostenlosen IPTV-Test zum Ausprobieren vor der Zahlung. Eine der besten IPTV-Optionen in Kanada." },
+          { q: "Kann ich NHL und NBA ohne Kabel sehen?", a: "Ja. ATV Corner IPTV streamt NHL, NBA, MLS und MLB live, ohne Kabel- oder Satellitenabo." },
+          { q: "Funktioniert IPTV auf Fire Stick in Kanada?", a: "Ja, über eine IPTV-App (IPTV Smarters, TiviMate) oder einen M3U-Link auf Fire TV Stick, Roku, Apple TV und Android TV." },
+        ],
       },
     },
   },
