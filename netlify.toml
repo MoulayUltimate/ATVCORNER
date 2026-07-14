@@ -1,0 +1,5 @@
+# Netlify auto-detects Next.js and injects @netlify/plugin-nextjs automatically.
+# This file only registers the local IndexNow plugin (runs onSuccess, after deploy).
+
+[[plugins]]
+  package = "/netlify/plugins/indexnow"
