@@ -35,7 +35,7 @@ Object.assign(content, {
   // ===========================================================================
   "iptv-premium": {
     fr: {
-      metaTitle: "Abonnement IPTV Premium — OTT 8K & Streaming Pro | ATV Corner",
+      metaTitle: "Abonnement IPTV Premium — OTT 8K & Streaming Pro",
       metaDesc:
         "Abonnement IPTV Premium ATV Corner : OTT 4K/8K Ultra HD, 66 000+ chaînes, sports, films, séries. Activation instantanée, anti-freeze, support 24/7.",
       eyebrow: "IPTV Premium · OTT 4K/8K",
@@ -71,7 +71,7 @@ Object.assign(content, {
       cta: "Regarder maintenant",
     },
     en: {
-      metaTitle: "Premium IPTV Subscription — 8K OTT Streaming | ATV Corner",
+      metaTitle: "Premium IPTV Subscription — 8K OTT Streaming",
       metaDesc:
         "ATV Corner Premium IPTV: 4K/8K Ultra HD OTT streaming, 66,000+ international channels, sports, movies, series. Instant activation, anti-freeze, 24/7 support.",
       eyebrow: "Premium IPTV · 4K/8K OTT",
@@ -107,7 +107,7 @@ Object.assign(content, {
       cta: "Watch now",
     },
     de: {
-      metaTitle: "Premium IPTV Abo — 8K OTT Streaming | ATV Corner",
+      metaTitle: "Premium IPTV Abo — 8K OTT Streaming",
       metaDesc:
         "ATV Corner Premium IPTV: 4K/8K Ultra HD OTT Streaming, 66.000+ internationale Sender, Sport, Filme, Serien. Sofortige Aktivierung, anti-freeze, 24/7 Support.",
       eyebrow: "Premium IPTV · 4K/8K OTT",
@@ -149,7 +149,7 @@ Object.assign(content, {
   // ===========================================================================
   "iptv-8k": {
     fr: {
-      metaTitle: "IPTV 8K Ultra HD — Streaming 8K VIP | ATV Corner",
+      metaTitle: "IPTV 8K Ultra HD — Streaming 8K VIP",
       metaDesc:
         "IPTV 8K Ultra HD ATV Corner : la résolution la plus élevée du marché, encodage HEVC, débit garanti. Sport en 8K, films 8K, serveurs premium.",
       eyebrow: "IPTV 8K Ultra HD · VIP Stream",
@@ -185,7 +185,7 @@ Object.assign(content, {
       cta: "Voir les plans 8K",
     },
     en: {
-      metaTitle: "8K IPTV — Ultra HD Streaming VIP | ATV Corner",
+      metaTitle: "8K IPTV — Ultra HD Streaming VIP",
       metaDesc:
         "ATV Corner 8K Ultra HD IPTV: the highest resolution on the market, HEVC encoding, guaranteed bitrate. 8K sports, 8K movies, premium servers.",
       eyebrow: "8K Ultra HD IPTV · VIP Stream",
@@ -221,7 +221,7 @@ Object.assign(content, {
       cta: "View 8K plans",
     },
     de: {
-      metaTitle: "8K IPTV — Ultra HD Streaming VIP | ATV Corner",
+      metaTitle: "8K IPTV — Ultra HD Streaming VIP",
       metaDesc:
         "ATV Corner 8K Ultra HD IPTV: höchste Auflösung am Markt, HEVC-Kodierung, garantierte Bitrate. 8K Sport, 8K Filme, Premium-Server.",
       eyebrow: "8K Ultra HD IPTV · VIP Stream",
@@ -263,7 +263,7 @@ Object.assign(content, {
   // ===========================================================================
   "iptv-4k": {
     fr: {
-      metaTitle: "IPTV 4K Live — Streaming Ultra HD 4K VIP | ATV Corner",
+      metaTitle: "IPTV 4K Live — Streaming Ultra HD 4K VIP",
       metaDesc:
         "IPTV 4K live ATV Corner : streaming Ultra HD 4K en direct, sports 4K, films 4K, séries 4K. Serveurs VIP, anti-freeze, activation immédiate.",
       eyebrow: "IPTV 4K Live · VIP Stream",
@@ -299,7 +299,7 @@ Object.assign(content, {
       cta: "Regarder maintenant",
     },
     en: {
-      metaTitle: "4K Live IPTV — Ultra HD 4K VIP Streaming | ATV Corner",
+      metaTitle: "4K Live IPTV — Ultra HD 4K VIP Streaming",
       metaDesc:
         "ATV Corner 4K live IPTV: Ultra HD 4K live streaming, 4K sports, 4K movies, 4K series. VIP servers, anti-freeze, instant activation.",
       eyebrow: "4K Live IPTV · VIP Stream",
@@ -335,7 +335,7 @@ Object.assign(content, {
       cta: "Watch now",
     },
     de: {
-      metaTitle: "4K Live IPTV — Ultra HD 4K VIP Streaming | ATV Corner",
+      metaTitle: "4K Live IPTV — Ultra HD 4K VIP Streaming",
       metaDesc:
         "ATV Corner 4K Live IPTV: Ultra HD 4K Live-Streaming, 4K Sport, 4K Filme, 4K Serien. VIP-Server, anti-freeze, sofortige Aktivierung.",
       eyebrow: "4K Live IPTV · VIP Stream",
@@ -377,7 +377,7 @@ Object.assign(content, {
   // ===========================================================================
   "m3u-playlist": {
     fr: {
-      metaTitle: "Playlist M3U IPTV — Configuration & Lecteurs | ATV Corner",
+      metaTitle: "Playlist M3U IPTV — Configuration & Lecteurs",
       metaDesc:
         "Playlist M3U ATV Corner : URL personnalisée, compatible VLC, TiviMate, IBO Player, Smarters Pro. Configuration en 3 étapes, support 24/7.",
       eyebrow: "Playlist M3U · Configuration IPTV",
@@ -413,7 +413,7 @@ Object.assign(content, {
       cta: "Recevoir ma playlist M3U",
     },
     en: {
-      metaTitle: "M3U IPTV Playlist — Setup & Players | ATV Corner",
+      metaTitle: "M3U IPTV Playlist — Setup & Players",
       metaDesc:
         "ATV Corner M3U playlist: personal URL, compatible with VLC, TiviMate, IBO Player, Smarters Pro. 3-step setup, 24/7 support.",
       eyebrow: "M3U Playlist · IPTV Setup",
@@ -449,7 +449,7 @@ Object.assign(content, {
       cta: "Get my M3U playlist",
     },
     de: {
-      metaTitle: "M3U IPTV-Playlist — Einrichtung & Player | ATV Corner",
+      metaTitle: "M3U IPTV-Playlist — Einrichtung & Player",
       metaDesc:
         "ATV Corner M3U-Playlist: persönliche URL, kompatibel mit VLC, TiviMate, IBO Player, Smarters Pro. Einrichtung in 3 Schritten, 24/7 Support.",
       eyebrow: "M3U-Playlist · IPTV-Einrichtung",
@@ -491,7 +491,7 @@ Object.assign(content, {
   // ===========================================================================
   "xtream-codes": {
     fr: {
-      metaTitle: "Compte Xtream Codes API — Identifiants IPTV | ATV Corner",
+      metaTitle: "Compte Xtream Codes API — Identifiants IPTV",
       metaDesc:
         "Compte Xtream Codes API ATV Corner : identifiants username/password sécurisés, compatible IPTV Smarters Pro, TiviMate, IBO Player. Activation immédiate.",
       eyebrow: "Xtream Codes · API IPTV",
@@ -527,7 +527,7 @@ Object.assign(content, {
       cta: "Obtenir mes identifiants Xtream",
     },
     en: {
-      metaTitle: "Xtream Codes API Account — IPTV Credentials | ATV Corner",
+      metaTitle: "Xtream Codes API Account — IPTV Credentials",
       metaDesc:
         "ATV Corner Xtream Codes API account: secure username/password credentials, compatible with IPTV Smarters Pro, TiviMate, IBO Player. Instant activation.",
       eyebrow: "Xtream Codes · IPTV API",
@@ -563,7 +563,7 @@ Object.assign(content, {
       cta: "Get my Xtream credentials",
     },
     de: {
-      metaTitle: "Xtream Codes API-Konto — IPTV-Zugangsdaten | ATV Corner",
+      metaTitle: "Xtream Codes API-Konto — IPTV-Zugangsdaten",
       metaDesc:
         "ATV Corner Xtream Codes API-Konto: sichere Username/Password-Zugangsdaten, kompatibel mit IPTV Smarters Pro, TiviMate, IBO Player.",
       eyebrow: "Xtream Codes · IPTV-API",
@@ -605,7 +605,7 @@ Object.assign(content, {
   // ===========================================================================
   "iptv-sport": {
     fr: {
-      metaTitle: "IPTV Sport en Direct — Live Streaming Premium | ATV Corner",
+      metaTitle: "IPTV Sport en Direct — Live Streaming Premium",
       metaDesc:
         "IPTV Sport ATV Corner : Premier League, Champions League, Ligue 1, La Liga, Serie A, Bundesliga, F1, NBA, UFC en live streaming 4K/8K. Zéro coupure.",
       eyebrow: "IPTV Sport · Live Streaming 4K",
@@ -641,7 +641,7 @@ Object.assign(content, {
       cta: "Voir les chaînes sport",
     },
     en: {
-      metaTitle: "Live Sports IPTV — Premium Live Streaming | ATV Corner",
+      metaTitle: "Live Sports IPTV — Premium Live Streaming",
       metaDesc:
         "ATV Corner Sports IPTV: Premier League, Champions League, La Liga, Serie A, Bundesliga, F1, NBA, UFC in 4K/8K live streaming. Zero downtime.",
       eyebrow: "Sports IPTV · 4K Live Streaming",
@@ -677,7 +677,7 @@ Object.assign(content, {
       cta: "View sports channels",
     },
     de: {
-      metaTitle: "Live-Sport IPTV — Premium Live-Streaming | ATV Corner",
+      metaTitle: "Live-Sport IPTV — Premium Live-Streaming",
       metaDesc:
         "ATV Corner Sport-IPTV: Premier League, Champions League, La Liga, Serie A, Bundesliga, F1, NBA, UFC im 4K/8K-Live-Streaming. Null Ausfälle.",
       eyebrow: "Sport-IPTV · 4K Live-Streaming",
@@ -723,7 +723,7 @@ Object.assign(content, {
 // ===========================================================================
 content["best-iptv-alternatives"] = {
   fr: {
-    metaTitle: "Meilleures Alternatives IPTV 2026 — Comparatif | ATV Corner",
+    metaTitle: "Meilleures Alternatives IPTV 2026 — Comparatif",
     metaDesc:
       "Comparatif 2026 des services IPTV : NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV. Pourquoi ATV Corner se démarque.",
     eyebrow: "Comparatif IPTV · Édition 2026",
@@ -765,7 +765,7 @@ content["best-iptv-alternatives"] = {
     cta: "Regarder maintenant",
   },
   en: {
-    metaTitle: "Best IPTV Alternatives 2026 — Comparison | ATV Corner",
+    metaTitle: "Best IPTV Alternatives 2026 — Comparison",
     metaDesc:
       "2026 IPTV comparison: NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV. Why ATV Corner stands out.",
     eyebrow: "IPTV Comparison · 2026 Edition",
@@ -807,7 +807,7 @@ content["best-iptv-alternatives"] = {
     cta: "Watch now",
   },
   de: {
-    metaTitle: "Beste IPTV-Alternativen 2026 — Vergleich | ATV Corner",
+    metaTitle: "Beste IPTV-Alternativen 2026 — Vergleich",
     metaDesc:
       "IPTV-Vergleich 2026: NigmaTV, SphereIPTV, SonixIPTV, AeroTV, WorldIPTV, Streamex, King365, TVnow, FooxTV, Smartiflix, 7IPTV. Warum ATV Corner heraussticht.",
     eyebrow: "IPTV-Vergleich · Ausgabe 2026",
@@ -857,7 +857,7 @@ content["best-iptv-alternatives"] = {
 // ===========================================================================
 content["iptv-free-trial"] = {
   fr: {
-    metaTitle: "Essai IPTV Gratuit 24h — Test IPTV Sans Engagement | ATV Corner",
+    metaTitle: "Essai IPTV Gratuit 24h — Test IPTV Sans Engagement",
     metaDesc:
       "Obtenez un essai IPTV gratuit chez ATV Corner : testez 66 000+ chaînes en 4K/8K pendant 24h, sans carte bancaire. Activation en 5 min par WhatsApp. Essai IPTV 2026 sans engagement.",
     eyebrow: "Essai IPTV Gratuit · Sans engagement",
@@ -895,7 +895,7 @@ content["iptv-free-trial"] = {
     cta: "Demander mon essai gratuit",
   },
   en: {
-    metaTitle: "Free IPTV Trial 24h — Test IPTV No Commitment | ATV Corner",
+    metaTitle: "Free IPTV Trial 24h — Test IPTV No Commitment",
     metaDesc:
       "Get a free IPTV trial at ATV Corner: test 66,000+ channels in 4K/8K for 24h, no credit card. Activated in 5 min via WhatsApp. Free IPTV trial 2026, no commitment.",
     eyebrow: "Free IPTV Trial · No commitment",
@@ -933,7 +933,7 @@ content["iptv-free-trial"] = {
     cta: "Request my free trial",
   },
   de: {
-    metaTitle: "Kostenloser IPTV Test 24h — IPTV testen ohne Vertrag | ATV Corner",
+    metaTitle: "Kostenloser IPTV Test 24h — IPTV testen ohne Vertrag",
     metaDesc:
       "Kostenloser IPTV Test bei ATV Corner: 66.000+ Sender in 4K/8K für 24h testen, ohne Kreditkarte. Aktivierung in 5 Min per WhatsApp. Gratis IPTV Test 2026, ohne Vertrag.",
     eyebrow: "Kostenloser IPTV Test · Ohne Vertrag",
@@ -980,7 +980,7 @@ content["iptv-free-trial"] = {
 // ===========================================================================
 content["best-iptv-service"] = {
   fr: {
-    metaTitle: "Meilleur Service IPTV 2026 — Fournisseur IPTV Premium | ATV Corner",
+    metaTitle: "Meilleur Service IPTV 2026 — Fournisseur IPTV Premium",
     metaDesc:
       "ATV Corner, meilleur service IPTV 2026 : 66 000+ chaînes 4K/8K, fournisseur IPTV fiable, activation instantanée, support 24/7. Comparez les fournisseurs IPTV et testez gratuitement.",
     eyebrow: "Meilleur Service IPTV · 2026",
@@ -1022,7 +1022,7 @@ content["best-iptv-service"] = {
     cta: "Tester le service gratuitement",
   },
   en: {
-    metaTitle: "Best IPTV Service 2026 — Premium IPTV Provider | ATV Corner",
+    metaTitle: "Best IPTV Service 2026 — Premium IPTV Provider",
     metaDesc:
       "ATV Corner, best IPTV service 2026: 66,000+ 4K/8K channels, reliable IPTV provider, instant activation, 24/7 support. Compare IPTV providers and try it free.",
     eyebrow: "Best IPTV Service · 2026",
@@ -1064,7 +1064,7 @@ content["best-iptv-service"] = {
     cta: "Try the service free",
   },
   de: {
-    metaTitle: "Bester IPTV Anbieter 2026 — Premium IPTV Service | ATV Corner",
+    metaTitle: "Bester IPTV Anbieter 2026 — Premium IPTV Service",
     metaDesc:
       "ATV Corner, bester IPTV Service 2026: 66.000+ 4K/8K-Sender, zuverlässiger IPTV Anbieter, sofortige Aktivierung, 24/7 Support. IPTV Anbieter vergleichen und gratis testen.",
     eyebrow: "Bester IPTV Service · 2026",

@@ -9,17 +9,17 @@ export async function generateStaticParams() {
 
 const meta = {
   fr: {
-    title: "Outils streaming football — Compatibilité, débit, comparatifs | ATV Corner",
+    title: "Outils streaming football — Compatibilité, débit, comparatifs",
     description:
       "Outils interactifs ATV Corner : vérificateur de compatibilité d'appareils, test de débit streaming, comparatif d'abonnements, guides par championnat et par pays.",
   },
   en: {
-    title: "Football Streaming Tools — Compatibility, Speed, Comparison | ATV Corner",
+    title: "Football Streaming Tools — Compatibility, Speed, Comparison",
     description:
       "ATV Corner interactive tools: device compatibility checker, streaming speed test, subscription comparison, league and country guides.",
   },
   de: {
-    title: "Fußball-Streaming-Tools — Kompatibilität, Speed, Vergleich | ATV Corner",
+    title: "Fußball-Streaming-Tools — Kompatibilität, Speed, Vergleich",
     description:
       "ATV-Corner-Tools: Gerätekompatibilität, Streaming-Speedtest, Abo-Vergleich, Liga- und Länder-Guides.",
   },

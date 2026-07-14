@@ -8,7 +8,7 @@ export const m3uPlaylistGuide: BlogPost = {
   i18n: {
     fr: {
       title: "Playlist M3U : guide complet pour configurer votre IPTV en 2026",
-      metaTitle: "Playlist M3U IPTV : guide d'installation 2026 (Smart TV, Android, iOS) | ATV Corner",
+      metaTitle: "Playlist M3U IPTV : guide d'installation 2026 (Smart TV, Android, iOS)",
       metaDesc:
         "Tout sur le format M3U : qu'est-ce qu'un fichier M3U, comment l'installer sur IBO Player, Smarters Pro, TiviMate, Smart TV, Android et iOS. Guide pas à pas.",
       excerpt:
@@ -68,7 +68,7 @@ export const m3uPlaylistGuide: BlogPost = {
     },
     en: {
       title: "M3U Playlist: complete IPTV setup guide for 2026",
-      metaTitle: "M3U Playlist IPTV: 2026 setup guide (Smart TV, Android, iOS) | ATV Corner",
+      metaTitle: "M3U Playlist IPTV: 2026 setup guide (Smart TV, Android, iOS)",
       metaDesc:
         "Everything about the M3U format: what an M3U file is, how to install it on IBO Player, Smarters Pro, TiviMate, Smart TV, Android and iOS. Step-by-step guide.",
       excerpt:
@@ -128,7 +128,7 @@ export const m3uPlaylistGuide: BlogPost = {
     },
     de: {
       title: "M3U-Playlist: kompletter IPTV-Einrichtungsleitfaden für 2026",
-      metaTitle: "M3U-Playlist IPTV: Anleitung 2026 (Smart TV, Android, iOS) | ATV Corner",
+      metaTitle: "M3U-Playlist IPTV: Anleitung 2026 (Smart TV, Android, iOS)",
       metaDesc:
         "Alles über das M3U-Format: Was eine M3U-Datei ist, wie man sie auf IBO Player, Smarters Pro, TiviMate, Smart TV, Android und iOS installiert. Schritt-für-Schritt-Anleitung.",
       excerpt:

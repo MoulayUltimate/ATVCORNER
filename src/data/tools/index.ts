@@ -56,9 +56,9 @@ export const tools: ToolMeta[] = [
       de: "Prüfen Sie, ob Ihre Verbindung 4K, HD oder SD für Live-Fußball unterstützt.",
     },
     metaTitle: {
-      fr: "Test de débit streaming football — 4K, HD, SD | ATV Corner",
-      en: "Football Streaming Speed Test — 4K, HD, SD | ATV Corner",
-      de: "Fußball-Streaming-Geschwindigkeitstest — 4K, HD, SD | ATV Corner",
+      fr: "Test de débit streaming football — 4K, HD, SD",
+      en: "Football Streaming Speed Test — 4K, HD, SD",
+      de: "Fußball-Streaming-Geschwindigkeitstest — 4K, HD, SD",
     },
     metaDesc: {
       fr: "Calculez si votre connexion internet supporte le football en 4K, HD ou SD. Recommandations de débit, dépannage, et conseils ATV Corner.",
@@ -81,9 +81,9 @@ export const tools: ToolMeta[] = [
       de: "60 Sekunden, um den passenden ATV-Corner-Plan zu finden.",
     },
     metaTitle: {
-      fr: "Quiz abonnement football — Trouvez le bon plan | ATV Corner",
-      en: "Football Subscription Quiz — Find Your Plan | ATV Corner",
-      de: "Fußball-Abo-Quiz — Finden Sie Ihren Plan | ATV Corner",
+      fr: "Quiz abonnement football — Trouvez le bon plan",
+      en: "Football Subscription Quiz — Find Your Plan",
+      de: "Fußball-Abo-Quiz — Finden Sie Ihren Plan",
     },
     metaDesc: {
       fr: "Répondez à 6 questions pour trouver l'abonnement football qui colle à vos clubs, ligues, appareils et budget.",
@@ -106,9 +106,9 @@ export const tools: ToolMeta[] = [
       de: "ATV Corner gegen DAZN, Sky, beIN, Canal+, Movistar. Vollständiger Vergleich.",
     },
     metaTitle: {
-      fr: "Comparatif abonnements football Europe 2026 | ATV Corner",
-      en: "Best Football Streaming Service Europe 2026 | ATV Corner",
-      de: "Bester Fußball-Streaming-Dienst Europa 2026 | ATV Corner",
+      fr: "Comparatif abonnements football Europe 2026",
+      en: "Best Football Streaming Service Europe 2026",
+      de: "Bester Fußball-Streaming-Dienst Europa 2026",
     },
     metaDesc: {
       fr: "Comparaison honnête : ATV Corner vs DAZN, Sky Sports, beIN, Canal+, Movistar+. Prix, ligues couvertes, qualité, appareils, pays.",

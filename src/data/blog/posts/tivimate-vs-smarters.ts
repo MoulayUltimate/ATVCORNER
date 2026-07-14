@@ -8,7 +8,7 @@ export const tivimateVsSmarters: BlogPost = {
   i18n: {
     fr: {
       title: "TiviMate vs Smarters Pro vs IBO Player : quel lecteur IPTV en 2026 ?",
-      metaTitle: "TiviMate vs Smarters Pro vs IBO Player : comparatif 2026 | ATV Corner",
+      metaTitle: "TiviMate vs Smarters Pro vs IBO Player : comparatif 2026",
       metaDesc:
         "Comparatif TiviMate, IPTV Smarters Pro et IBO Player : interface, EPG, performances, prix, compatibilité. Le meilleur lecteur IPTV selon votre matériel.",
       excerpt:
@@ -87,7 +87,7 @@ export const tivimateVsSmarters: BlogPost = {
     },
     en: {
       title: "TiviMate vs Smarters Pro vs IBO Player: which IPTV app in 2026?",
-      metaTitle: "TiviMate vs Smarters Pro vs IBO Player: 2026 comparison | ATV Corner",
+      metaTitle: "TiviMate vs Smarters Pro vs IBO Player: 2026 comparison",
       metaDesc:
         "Compare TiviMate, IPTV Smarters Pro and IBO Player: UI, EPG, performance, price, compatibility. The best IPTV player based on your hardware.",
       excerpt:
@@ -166,7 +166,7 @@ export const tivimateVsSmarters: BlogPost = {
     },
     de: {
       title: "TiviMate vs. Smarters Pro vs. IBO Player: welche IPTV-App 2026?",
-      metaTitle: "TiviMate vs. Smarters Pro vs. IBO Player: Vergleich 2026 | ATV Corner",
+      metaTitle: "TiviMate vs. Smarters Pro vs. IBO Player: Vergleich 2026",
       metaDesc:
         "Vergleich TiviMate, IPTV Smarters Pro und IBO Player: UI, EPG, Leistung, Preis, Kompatibilität. Bester IPTV-Player je nach Hardware. Inkl. TiviMate Premium.",
       excerpt:

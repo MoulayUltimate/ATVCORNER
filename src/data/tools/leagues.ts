@@ -15,7 +15,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder la Premier League en direct en Europe",
-        metaTitle: "Regarder la Premier League en direct 2026 — Stream HD/4K | ATV Corner",
+        metaTitle: "Regarder la Premier League en direct 2026 — Stream HD/4K",
         metaDesc: "Suivez la Premier League en direct toute la saison : 380 matchs, multi-cam, replay. Compatible Smart TV, Fire Stick, Android, iPhone. À partir de 15€/mois.",
         intro: "La Premier League reste le championnat le plus suivi au monde — 20 clubs, 380 matchs par saison, des derbies historiques (Manchester, Merseyside, North London). ATV Corner diffuse l'intégralité du championnat anglais en HD et 4K, avec commentaires multilingues et replays jusqu'à 7 jours.",
         benefits: [
@@ -37,7 +37,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch the Premier League live across Europe",
-        metaTitle: "Watch Premier League Live 2026 — HD/4K Streaming | ATV Corner",
+        metaTitle: "Watch Premier League Live 2026 — HD/4K Streaming",
         metaDesc: "Follow every Premier League match live: 380 fixtures, multi-cam, replays. Works on Smart TV, Fire Stick, Android, iPhone. From €15/month.",
         intro: "The Premier League is the most-watched league on earth — 20 clubs, 380 matches per season, historic derbies (Manchester, Merseyside, North London). ATV Corner streams the entire English championship in HD and 4K, with multi-language commentary and 7-day replay.",
         benefits: [
@@ -59,7 +59,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "Premier League live in Europa streamen",
-        metaTitle: "Premier League live 2026 — HD/4K-Streaming | ATV Corner",
+        metaTitle: "Premier League live 2026 — HD/4K-Streaming",
         metaDesc: "Alle Premier-League-Spiele live: 380 Partien, Multi-Cam, Replay. Smart TV, Fire Stick, Android, iPhone. Ab 15€/Monat.",
         intro: "Die Premier League ist die meistgesehene Liga weltweit — 20 Klubs, 380 Spiele pro Saison, historische Derbys (Manchester, Merseyside, North London). ATV Corner streamt die komplette englische Meisterschaft in HD und 4K, mit mehrsprachigem Kommentar und 7-Tage-Replay.",
         benefits: [
@@ -94,7 +94,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder la Ligue des Champions en direct",
-        metaTitle: "Ligue des Champions en direct 2026 — Tous les matchs UCL | ATV Corner",
+        metaTitle: "Ligue des Champions en direct 2026 — Tous les matchs UCL",
         metaDesc: "Tous les matchs de la Champions League en direct HD/4K, du nouveau format de phase de ligue à la finale. Multi-flux, replays, compatible toutes plateformes.",
         intro: "La Ligue des Champions UEFA — la compétition de clubs la plus prestigieuse au monde. Nouveau format depuis 2024/25 : 36 équipes, phase de ligue à 8 matchs, puis barrages, 8es, quarts, demis, finale. ATV Corner couvre les 189 matchs de la saison en direct.",
         benefits: [
@@ -115,7 +115,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch the Champions League live",
-        metaTitle: "Champions League Live 2026 — Every UCL Match | ATV Corner",
+        metaTitle: "Champions League Live 2026 — Every UCL Match",
         metaDesc: "Every Champions League match live in HD/4K, from the new league phase to the final. Multi-feed, replays, every platform supported.",
         intro: "The UEFA Champions League — the most prestigious club competition on the planet. New format since 2024/25: 36 teams, 8-match league phase, then play-offs, R16, QF, SF, final. ATV Corner streams all 189 fixtures live.",
         benefits: [
@@ -136,7 +136,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "Champions League live streamen",
-        metaTitle: "Champions League live 2026 — Alle UCL-Spiele | ATV Corner",
+        metaTitle: "Champions League live 2026 — Alle UCL-Spiele",
         metaDesc: "Jedes Champions-League-Spiel live in HD/4K, von der neuen Ligaphase bis zum Finale. Multi-Feed, Replays, alle Plattformen.",
         intro: "Die UEFA Champions League — der prestigeträchtigste Klubwettbewerb der Welt. Neues Format seit 2024/25: 36 Teams, 8-Spiel-Ligaphase, dann Playoffs, Achtel-, Viertel-, Halbfinale, Finale. ATV Corner streamt alle 189 Partien live.",
         benefits: [
@@ -170,7 +170,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder la Liga espagnole en direct",
-        metaTitle: "LaLiga en direct 2026 — Real, Barça, El Clasico | ATV Corner",
+        metaTitle: "LaLiga en direct 2026 — Real, Barça, El Clasico",
         metaDesc: "Tous les matchs de LaLiga en direct HD/4K. El Clasico, derby madrilène, Real Madrid, Barcelone — couverture complète des 380 matchs de la saison.",
         intro: "LaLiga — Real Madrid, Barcelone, Atlético, El Clasico. Le championnat espagnol allie technique, intensité et stars mondiales. ATV Corner diffuse l'intégralité des 380 matchs en direct, avec commentaires français, anglais, espagnol et arabe.",
         benefits: [
@@ -190,7 +190,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch LaLiga live across Europe",
-        metaTitle: "LaLiga Live 2026 — Real Madrid, Barça, El Clasico | ATV Corner",
+        metaTitle: "LaLiga Live 2026 — Real Madrid, Barça, El Clasico",
         metaDesc: "Every LaLiga match live in HD/4K. El Clasico, Madrid derby, Real Madrid, Barcelona — full coverage of all 380 season fixtures.",
         intro: "LaLiga — Real Madrid, Barcelona, Atlético, El Clasico. The Spanish championship blends technique, intensity and global superstars. ATV Corner streams all 380 matches live, with French, English, Spanish and Arabic commentary.",
         benefits: [
@@ -210,7 +210,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "LaLiga live in Europa streamen",
-        metaTitle: "LaLiga live 2026 — Real, Barça, El Clásico | ATV Corner",
+        metaTitle: "LaLiga live 2026 — Real, Barça, El Clásico",
         metaDesc: "Jedes LaLiga-Spiel live in HD/4K. El Clásico, Madrid-Derby, Real Madrid, Barcelona — komplette Abdeckung aller 380 Spiele.",
         intro: "LaLiga — Real Madrid, Barcelona, Atlético, El Clásico. Die spanische Meisterschaft vereint Technik, Intensität und Weltstars. ATV Corner streamt alle 380 Spiele live, mit Kommentar auf Deutsch, Englisch, Spanisch und Arabisch.",
         benefits: [
@@ -243,7 +243,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder la Serie A italienne en direct",
-        metaTitle: "Serie A en direct 2026 — Juve, Inter, Milan, Naples | ATV Corner",
+        metaTitle: "Serie A en direct 2026 — Juve, Inter, Milan, Naples",
         metaDesc: "Tous les matchs de Serie A en direct HD/4K. Derby della Madonnina, Derby d'Italia, Juventus, Inter, Milan, Napoli — 380 matchs par saison.",
         intro: "Serie A — Juve, Inter, Milan, Naples, Roma. Le football italien retrouve son lustre avec une nouvelle génération de clubs ambitieux. ATV Corner couvre l'intégralité du championnat en direct.",
         benefits: [
@@ -262,7 +262,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch Serie A live across Europe",
-        metaTitle: "Serie A Live 2026 — Juve, Inter, Milan, Napoli | ATV Corner",
+        metaTitle: "Serie A Live 2026 — Juve, Inter, Milan, Napoli",
         metaDesc: "Every Serie A match live in HD/4K. Derby della Madonnina, Derby d'Italia, Juventus, Inter, Milan, Napoli — 380 matches per season.",
         intro: "Serie A — Juve, Inter, Milan, Napoli, Roma. Italian football is reclaiming its prestige with a new generation of ambitious clubs. ATV Corner covers the entire championship live.",
         benefits: [
@@ -281,7 +281,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "Serie A live in Europa streamen",
-        metaTitle: "Serie A live 2026 — Juve, Inter, Milan, Napoli | ATV Corner",
+        metaTitle: "Serie A live 2026 — Juve, Inter, Milan, Napoli",
         metaDesc: "Jedes Serie-A-Spiel live in HD/4K. Derby della Madonnina, Derby d'Italia, Juventus, Inter, Milan, Napoli — 380 Spiele pro Saison.",
         intro: "Serie A — Juve, Inter, Milan, Napoli, Roma. Der italienische Fußball erlebt eine Renaissance mit einer neuen Generation ambitionierter Klubs. ATV Corner streamt die komplette Meisterschaft live.",
         benefits: [
@@ -313,7 +313,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder la Bundesliga allemande en direct",
-        metaTitle: "Bundesliga en direct 2026 — Bayern, Dortmund, Klassiker | ATV Corner",
+        metaTitle: "Bundesliga en direct 2026 — Bayern, Dortmund, Klassiker",
         metaDesc: "Tous les matchs de Bundesliga en direct HD/4K. Bayern, Dortmund, Der Klassiker, Revierderby — 306 matchs par saison.",
         intro: "Bundesliga — le championnat allemand, réputé pour ses stades pleins, son intensité et son football offensif. 18 clubs, 306 matchs, le Klassiker Bayern-Dortmund comme point d'orgue.",
         benefits: [
@@ -331,7 +331,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch the Bundesliga live across Europe",
-        metaTitle: "Bundesliga Live 2026 — Bayern, Dortmund, Klassiker | ATV Corner",
+        metaTitle: "Bundesliga Live 2026 — Bayern, Dortmund, Klassiker",
         metaDesc: "Every Bundesliga match live in HD/4K. Bayern, Dortmund, Der Klassiker, Revierderby — 306 matches per season.",
         intro: "Bundesliga — the German championship, famous for packed stadiums, intensity and attacking football. 18 clubs, 306 matches, Der Klassiker Bayern vs Dortmund as the showpiece.",
         benefits: [
@@ -349,7 +349,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "Bundesliga live in Europa streamen",
-        metaTitle: "Bundesliga live 2026 — Bayern, Dortmund, Klassiker | ATV Corner",
+        metaTitle: "Bundesliga live 2026 — Bayern, Dortmund, Klassiker",
         metaDesc: "Jedes Bundesliga-Spiel live in HD/4K. Bayern, Dortmund, Der Klassiker, Revierderby — 306 Spiele pro Saison.",
         intro: "Bundesliga — die deutsche Meisterschaft, berühmt für volle Stadien, Intensität und Offensivfußball. 18 Klubs, 306 Spiele, Der Klassiker Bayern–Dortmund als Höhepunkt.",
         benefits: [
@@ -380,7 +380,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder la Ligue 1 en direct",
-        metaTitle: "Ligue 1 en direct 2026 — PSG, OM, Le Classique | ATV Corner",
+        metaTitle: "Ligue 1 en direct 2026 — PSG, OM, Le Classique",
         metaDesc: "Tous les matchs de Ligue 1 en direct HD/4K. PSG, OM, Le Classique, Lyon, Monaco — 306 matchs par saison.",
         intro: "La Ligue 1 — PSG, Marseille, Lyon, Monaco, Lille. Le championnat français retrouve son éclat avec une nouvelle génération de talents. ATV Corner diffuse l'intégralité des 306 matchs.",
         benefits: [
@@ -399,7 +399,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch Ligue 1 live across Europe",
-        metaTitle: "Ligue 1 Live 2026 — PSG, OM, Le Classique | ATV Corner",
+        metaTitle: "Ligue 1 Live 2026 — PSG, OM, Le Classique",
         metaDesc: "Every Ligue 1 match live in HD/4K. PSG, OM, Le Classique, Lyon, Monaco — 306 matches per season.",
         intro: "Ligue 1 — PSG, Marseille, Lyon, Monaco, Lille. French football is reclaiming its shine with a new generation of talents. ATV Corner streams all 306 fixtures.",
         benefits: [
@@ -418,7 +418,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "Ligue 1 live in Europa streamen",
-        metaTitle: "Ligue 1 live 2026 — PSG, OM, Le Classique | ATV Corner",
+        metaTitle: "Ligue 1 live 2026 — PSG, OM, Le Classique",
         metaDesc: "Jedes Ligue-1-Spiel live in HD/4K. PSG, OM, Le Classique, Lyon, Monaco — 306 Spiele pro Saison.",
         intro: "Ligue 1 — PSG, Marseille, Lyon, Monaco, Lille. Der französische Fußball gewinnt mit einer neuen Talent-Generation an Glanz zurück. ATV Corner streamt alle 306 Partien.",
         benefits: [
@@ -450,7 +450,7 @@ export const leagues: LeagueData[] = [
     i18n: {
       fr: {
         h1: "Regarder l'Europa League en direct",
-        metaTitle: "Europa League en direct 2026 — Tous les matchs UEL | ATV Corner",
+        metaTitle: "Europa League en direct 2026 — Tous les matchs UEL",
         metaDesc: "Tous les matchs de l'Europa League en direct HD/4K. Nouveau format à 36 équipes, phase de ligue, finale — couverture complète européenne.",
         intro: "L'Europa League — la deuxième compétition européenne, avec son nouveau format à 36 équipes depuis 2024/25. Roma, Tottenham, Man United, Atalanta — les habitués s'y battent pour la qualification à la Champions League.",
         benefits: [
@@ -468,7 +468,7 @@ export const leagues: LeagueData[] = [
       },
       en: {
         h1: "Watch the Europa League live",
-        metaTitle: "Europa League Live 2026 — Every UEL Match | ATV Corner",
+        metaTitle: "Europa League Live 2026 — Every UEL Match",
         metaDesc: "Every Europa League match live in HD/4K. New 36-team format, league phase, final — full European coverage.",
         intro: "The Europa League — Europe's second-tier competition, with its new 36-team format since 2024/25. Roma, Tottenham, Man United, Atalanta — regulars fight for Champions League qualification.",
         benefits: [
@@ -486,7 +486,7 @@ export const leagues: LeagueData[] = [
       },
       de: {
         h1: "Europa League live streamen",
-        metaTitle: "Europa League live 2026 — Alle UEL-Spiele | ATV Corner",
+        metaTitle: "Europa League live 2026 — Alle UEL-Spiele",
         metaDesc: "Jedes Europa-League-Spiel live in HD/4K. Neues 36-Team-Format, Ligaphase, Finale — komplette europäische Abdeckung.",
         intro: "Die Europa League — Europas zweitrangiger Wettbewerb mit dem neuen 36-Team-Format seit 2024/25. Roma, Tottenham, Man United, Atalanta — Stammgäste kämpfen um die Champions-League-Qualifikation.",
         benefits: [

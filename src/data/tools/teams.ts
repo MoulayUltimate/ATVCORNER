@@ -15,7 +15,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder Real Madrid en direct ?",
-        metaTitle: "Regarder Real Madrid en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder Real Madrid en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs du Real Madrid en direct HD/4K : LaLiga, Champions League, Copa del Rey, El Clasico. Sans VPN, partout en Europe, à partir de 15€/mois.",
         intro: "15 fois champion d'Europe, 36 fois champion d'Espagne, le Real Madrid est le club le plus titré du football mondial. Suivez Mbappé, Vinicius, Bellingham et Rodrygo sur ATV Corner — LaLiga, Champions League, Coupe d'Espagne, tous les matchs en direct HD et 4K.",
         whyFollow: "Le Real Madrid joue environ 60 matchs par saison toutes compétitions confondues. ATV Corner couvre 100 % : LaLiga (38 matchs), Champions League (jusqu'à 17 si finaliste), Copa del Rey, Supercopa, et matchs amicaux.",
@@ -28,7 +28,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Real Madrid live",
-        metaTitle: "Watch Real Madrid Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Real Madrid Live 2026 — Every Match",
         metaDesc: "Every Real Madrid match live in HD/4K: LaLiga, Champions League, Copa del Rey, El Clasico. No VPN, Europe-wide, from €15/month.",
         intro: "15-time European champion, 36-time Spanish champion, Real Madrid is the most decorated club in world football. Follow Mbappé, Vinicius, Bellingham and Rodrygo on ATV Corner — LaLiga, Champions League, Copa del Rey, every match live in HD and 4K.",
         whyFollow: "Real Madrid plays around 60 matches per season across all competitions. ATV Corner covers 100 %: LaLiga (38 matches), Champions League (up to 17 if finalist), Copa del Rey, Supercopa, and friendlies.",
@@ -41,7 +41,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Real Madrid live anschauen?",
-        metaTitle: "Real Madrid live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Real Madrid live 2026 — Jedes Spiel",
         metaDesc: "Jedes Real-Madrid-Spiel live in HD/4K: LaLiga, Champions League, Copa del Rey, El Clásico. Kein VPN, europaweit, ab 15€/Monat.",
         intro: "15-facher Europameister, 36-facher spanischer Meister — Real Madrid ist der erfolgreichste Klub im Weltfußball. Folgen Sie Mbappé, Vinicius, Bellingham und Rodrygo auf ATV Corner — LaLiga, Champions League, Copa del Rey, jedes Spiel live in HD und 4K.",
         whyFollow: "Real Madrid spielt ca. 60 Saisonspiele über alle Wettbewerbe. ATV Corner deckt 100 %: LaLiga (38), Champions League (bis zu 17 als Finalist), Copa del Rey, Supercopa, Testspiele.",
@@ -66,7 +66,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder Manchester United en direct ?",
-        metaTitle: "Regarder Manchester United en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder Manchester United en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs de Manchester United en direct HD/4K : Premier League, FA Cup, Europa League. Sans VPN, à partir de 15€/mois.",
         intro: "20 fois champion d'Angleterre, 3 fois champion d'Europe, Manchester United reste l'un des clubs les plus suivis au monde — 1,1 milliard de fans. Suivez les Red Devils sur ATV Corner.",
         whyFollow: "Manchester United dispute environ 55 matchs par saison (Premier League, FA Cup, Carabao Cup, Europa League). ATV Corner couvre tout.",
@@ -78,7 +78,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Manchester United live",
-        metaTitle: "Watch Manchester United Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Manchester United Live 2026 — Every Match",
         metaDesc: "Every Manchester United match live in HD/4K: Premier League, FA Cup, Europa League. No VPN, from €15/month.",
         intro: "20-time English champion, 3-time European champion, Manchester United remains one of the most followed clubs on earth — 1.1 billion fans. Follow the Red Devils on ATV Corner.",
         whyFollow: "Manchester United plays around 55 matches per season (Premier League, FA Cup, Carabao Cup, Europa League). ATV Corner covers all of them.",
@@ -90,7 +90,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Manchester United live anschauen?",
-        metaTitle: "Manchester United live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Manchester United live 2026 — Jedes Spiel",
         metaDesc: "Jedes Manchester-United-Spiel live in HD/4K: Premier League, FA Cup, Europa League. Kein VPN, ab 15€/Monat.",
         intro: "20-facher englischer Meister, 3-facher Europameister — Manchester United bleibt einer der meistgefolgten Klubs der Welt, mit 1,1 Milliarden Fans. Folgen Sie den Red Devils auf ATV Corner.",
         whyFollow: "Manchester United spielt ca. 55 Saisonspiele (Premier League, FA Cup, Carabao Cup, Europa League). ATV Corner deckt alles ab.",
@@ -114,7 +114,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder le FC Barcelone en direct ?",
-        metaTitle: "Regarder FC Barcelone en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder FC Barcelone en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs du Barça en direct HD/4K : LaLiga, Champions League, El Clasico. Sans VPN, à partir de 15€/mois.",
         intro: "Le FC Barcelone — 5 fois champion d'Europe, 27 fois champion d'Espagne, identité « Més que un club ». Suivez Lamine Yamal, Pedri, Gavi et l'école de la Masia sur ATV Corner.",
         whyFollow: "Le Barça dispute environ 55 matchs par saison. ATV Corner couvre tout, El Clasico inclus.",
@@ -123,7 +123,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch FC Barcelona live",
-        metaTitle: "Watch FC Barcelona Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch FC Barcelona Live 2026 — Every Match",
         metaDesc: "Every Barça match live in HD/4K: LaLiga, Champions League, El Clasico. No VPN, from €15/month.",
         intro: "FC Barcelona — 5-time European champion, 27-time Spanish champion, the « Més que un club » identity. Follow Lamine Yamal, Pedri, Gavi and the Masia academy on ATV Corner.",
         whyFollow: "Barça plays around 55 matches per season. ATV Corner covers it all, including El Clasico.",
@@ -132,7 +132,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo FC Barcelona live anschauen?",
-        metaTitle: "FC Barcelona live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "FC Barcelona live 2026 — Jedes Spiel",
         metaDesc: "Jedes Barça-Spiel live in HD/4K: LaLiga, Champions League, El Clásico. Kein VPN, ab 15€/Monat.",
         intro: "FC Barcelona — 5-facher Europameister, 27-facher spanischer Meister, Identität „Més que un club\u201C. Folgen Sie Lamine Yamal, Pedri, Gavi und der Masia-Akademie auf ATV Corner.",
         whyFollow: "Barça spielt ca. 55 Saisonspiele. ATV Corner deckt alles ab, El Clásico inklusive.",
@@ -153,7 +153,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder Arsenal en direct ?",
-        metaTitle: "Regarder Arsenal en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder Arsenal en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs d'Arsenal en direct HD/4K : Premier League, FA Cup, Champions League. À partir de 15€/mois.",
         intro: "Les Gunners — 13 fois champions d'Angleterre, légende d'Highbury et de l'Emirates. Saka, Ødegaard, Saliba, Rice : Arsenal vise le titre depuis trois saisons.",
         whyFollow: "Arsenal dispute environ 55 matchs par saison. ATV Corner couvre 100 % (Premier League, Champions League, FA Cup, Carabao Cup).",
@@ -162,7 +162,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Arsenal live",
-        metaTitle: "Watch Arsenal Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Arsenal Live 2026 — Every Match",
         metaDesc: "Every Arsenal match live in HD/4K: Premier League, FA Cup, Champions League. From €15/month.",
         intro: "The Gunners — 13-time English champions, legend of Highbury and the Emirates. Saka, Ødegaard, Saliba, Rice: Arsenal has been title-chasing for three seasons.",
         whyFollow: "Arsenal plays around 55 matches per season. ATV Corner covers 100 % (Premier League, Champions League, FA Cup, Carabao Cup).",
@@ -171,7 +171,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Arsenal live anschauen?",
-        metaTitle: "Arsenal live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Arsenal live 2026 — Jedes Spiel",
         metaDesc: "Jedes Arsenal-Spiel live in HD/4K: Premier League, FA Cup, Champions League. Ab 15€/Monat.",
         intro: "Die Gunners — 13-facher englischer Meister, Legende von Highbury und dem Emirates. Saka, Ødegaard, Saliba, Rice: Arsenal jagt seit drei Saisons den Titel.",
         whyFollow: "Arsenal spielt ca. 55 Saisonspiele. ATV Corner deckt 100 % ab (Premier League, Champions League, FA Cup, Carabao Cup).",
@@ -192,7 +192,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder Liverpool en direct ?",
-        metaTitle: "Regarder Liverpool en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder Liverpool en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs de Liverpool en direct HD/4K : Premier League, FA Cup, Champions League. À partir de 15€/mois.",
         intro: "Liverpool FC — 6 fois champion d'Europe, 19 fois champion d'Angleterre, Anfield et You'll Never Walk Alone. Salah, Van Dijk, Mac Allister sur ATV Corner.",
         whyFollow: "Environ 55 matchs par saison. Couverture intégrale.",
@@ -201,7 +201,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Liverpool live",
-        metaTitle: "Watch Liverpool Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Liverpool Live 2026 — Every Match",
         metaDesc: "Every Liverpool match live in HD/4K: Premier League, FA Cup, Champions League. From €15/month.",
         intro: "Liverpool FC — 6-time European champion, 19-time English champion, Anfield and You'll Never Walk Alone. Salah, Van Dijk, Mac Allister on ATV Corner.",
         whyFollow: "Around 55 matches per season. Full coverage.",
@@ -210,7 +210,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Liverpool live anschauen?",
-        metaTitle: "Liverpool live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Liverpool live 2026 — Jedes Spiel",
         metaDesc: "Jedes Liverpool-Spiel live in HD/4K: Premier League, FA Cup, Champions League. Ab 15€/Monat.",
         intro: "Liverpool FC — 6-facher Europameister, 19-facher englischer Meister, Anfield und „You'll Never Walk Alone\u201C. Salah, Van Dijk, Mac Allister auf ATV Corner.",
         whyFollow: "Ca. 55 Saisonspiele. Komplette Abdeckung.",
@@ -231,7 +231,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder le PSG en direct ?",
-        metaTitle: "Regarder le PSG en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder le PSG en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs du Paris Saint-Germain en direct HD/4K : Ligue 1, Champions League, Coupe de France, Le Classique. À partir de 15€/mois.",
         intro: "Le PSG — 12 fois champion de France, dernier vainqueur de la Champions League en 2025. Dembélé, Doué, Hakimi, Vitinha sur ATV Corner.",
         whyFollow: "Environ 55 matchs par saison toutes compétitions. ATV Corner agrège DAZN, beIN, Canal+ pour 0 match manqué.",
@@ -243,7 +243,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch PSG live",
-        metaTitle: "Watch PSG Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch PSG Live 2026 — Every Match",
         metaDesc: "Every Paris Saint-Germain match live in HD/4K: Ligue 1, Champions League, Coupe de France, Le Classique. From €15/month.",
         intro: "PSG — 12-time French champion, 2025 Champions League winners. Dembélé, Doué, Hakimi, Vitinha on ATV Corner.",
         whyFollow: "Around 55 matches per season across all competitions. ATV Corner aggregates DAZN, beIN and Canal+ so you never miss a match.",
@@ -255,7 +255,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo PSG live anschauen?",
-        metaTitle: "PSG live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "PSG live 2026 — Jedes Spiel",
         metaDesc: "Jedes Paris-Saint-Germain-Spiel live in HD/4K: Ligue 1, Champions League, Coupe de France, Le Classique. Ab 15€/Monat.",
         intro: "PSG — 12-facher französischer Meister, Champions-League-Sieger 2025. Dembélé, Doué, Hakimi, Vitinha auf ATV Corner.",
         whyFollow: "Ca. 55 Saisonspiele über alle Wettbewerbe. ATV Corner bündelt DAZN, beIN, Canal+ — kein verpasstes Spiel.",
@@ -279,7 +279,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder le Bayern Munich en direct ?",
-        metaTitle: "Regarder le Bayern Munich en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder le Bayern Munich en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs du Bayern Munich en direct HD/4K : Bundesliga, Champions League, DFB-Pokal, Klassiker. À partir de 15€/mois.",
         intro: "Le Bayern Munich — 33 fois champion d'Allemagne, 6 fois champion d'Europe. Kane, Musiala, Kimmich, Davies sur ATV Corner.",
         whyFollow: "Environ 50 matchs par saison. ATV Corner agrège Sky et DAZN, partout en Europe.",
@@ -288,7 +288,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Bayern Munich live",
-        metaTitle: "Watch Bayern Munich Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Bayern Munich Live 2026 — Every Match",
         metaDesc: "Every Bayern Munich match live in HD/4K: Bundesliga, Champions League, DFB-Pokal, Klassiker. From €15/month.",
         intro: "Bayern Munich — 33-time German champion, 6-time European champion. Kane, Musiala, Kimmich, Davies on ATV Corner.",
         whyFollow: "Around 50 matches per season. ATV Corner aggregates Sky and DAZN, across all of Europe.",
@@ -297,7 +297,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Bayern München live anschauen?",
-        metaTitle: "Bayern München live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Bayern München live 2026 — Jedes Spiel",
         metaDesc: "Jedes Bayern-München-Spiel live in HD/4K: Bundesliga, Champions League, DFB-Pokal, Klassiker. Ab 15€/Monat.",
         intro: "Bayern München — 33-facher deutscher Meister, 6-facher Europameister. Kane, Musiala, Kimmich, Davies auf ATV Corner.",
         whyFollow: "Ca. 50 Saisonspiele. ATV Corner bündelt Sky und DAZN, europaweit.",
@@ -318,7 +318,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder le Borussia Dortmund en direct ?",
-        metaTitle: "Regarder le Borussia Dortmund en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder le Borussia Dortmund en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs du Borussia Dortmund en direct HD/4K : Bundesliga, Champions League, DFB-Pokal. À partir de 15€/mois.",
         intro: "Le Mur jaune — 81 000 spectateurs, l'une des ambiances les plus chaudes du foot mondial. ATV Corner couvre tous les matchs du BVB.",
         whyFollow: "Environ 50 matchs par saison.",
@@ -327,7 +327,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Borussia Dortmund live",
-        metaTitle: "Watch Borussia Dortmund Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Borussia Dortmund Live 2026 — Every Match",
         metaDesc: "Every Borussia Dortmund match live in HD/4K: Bundesliga, Champions League, DFB-Pokal. From €15/month.",
         intro: "The Yellow Wall — 81,000 spectators, one of football's most electrifying atmospheres. ATV Corner covers every BVB match.",
         whyFollow: "Around 50 matches per season.",
@@ -336,7 +336,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Borussia Dortmund live anschauen?",
-        metaTitle: "Borussia Dortmund live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Borussia Dortmund live 2026 — Jedes Spiel",
         metaDesc: "Jedes Borussia-Dortmund-Spiel live in HD/4K: Bundesliga, Champions League, DFB-Pokal. Ab 15€/Monat.",
         intro: "Die Gelbe Wand — 81.000 Zuschauer, eine der elektrischsten Atmosphären im Fußball. ATV Corner deckt jedes BVB-Spiel ab.",
         whyFollow: "Ca. 50 Saisonspiele.",
@@ -357,7 +357,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder la Juventus en direct ?",
-        metaTitle: "Regarder la Juventus en direct 2026 — Tous les matchs | ATV Corner",
+        metaTitle: "Regarder la Juventus en direct 2026 — Tous les matchs",
         metaDesc: "Tous les matchs de la Juventus en direct HD/4K : Serie A, Champions League, Coppa Italia, Derby d'Italia. À partir de 15€/mois.",
         intro: "La Vieille Dame — 36 fois champion d'Italie. ATV Corner agrège DAZN et Sky Italia pour couvrir 100 % des matchs Juve depuis l'étranger.",
         whyFollow: "Environ 50 matchs par saison.",
@@ -366,7 +366,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Juventus live",
-        metaTitle: "Watch Juventus Live 2026 — Every Match | ATV Corner",
+        metaTitle: "Watch Juventus Live 2026 — Every Match",
         metaDesc: "Every Juventus match live in HD/4K: Serie A, Champions League, Coppa Italia, Derby d'Italia. From €15/month.",
         intro: "The Old Lady — 36-time Italian champion. ATV Corner aggregates DAZN and Sky Italia to deliver 100 % Juve coverage from abroad.",
         whyFollow: "Around 50 matches per season.",
@@ -375,7 +375,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Juventus live anschauen?",
-        metaTitle: "Juventus live 2026 — Jedes Spiel | ATV Corner",
+        metaTitle: "Juventus live 2026 — Jedes Spiel",
         metaDesc: "Jedes Juventus-Spiel live in HD/4K: Serie A, Champions League, Coppa Italia, Derby d'Italia. Ab 15€/Monat.",
         intro: "Die Alte Dame — 36-facher italienischer Meister. ATV Corner bündelt DAZN und Sky Italia für 100 % Juve-Abdeckung aus dem Ausland.",
         whyFollow: "Ca. 50 Saisonspiele.",
@@ -396,7 +396,7 @@ export const teams: TeamData[] = [
     i18n: {
       fr: {
         h1: "Où regarder l'OM en direct ?",
-        metaTitle: "Regarder l'Olympique de Marseille en direct 2026 | ATV Corner",
+        metaTitle: "Regarder l'Olympique de Marseille en direct 2026",
         metaDesc: "Tous les matchs de l'OM en direct HD/4K : Ligue 1, Champions League, Coupe de France, Le Classique. À partir de 15€/mois.",
         intro: "Droit au but. L'OM — seul club français vainqueur de la C1 (1993), 9 fois champion de France. ATV Corner couvre Marseille toutes compétitions.",
         whyFollow: "Environ 50 matchs par saison.",
@@ -405,7 +405,7 @@ export const teams: TeamData[] = [
       },
       en: {
         h1: "Where to watch Olympique Marseille live",
-        metaTitle: "Watch Olympique de Marseille Live 2026 | ATV Corner",
+        metaTitle: "Watch Olympique de Marseille Live 2026",
         metaDesc: "Every OM match live in HD/4K: Ligue 1, Champions League, Coupe de France, Le Classique. From €15/month.",
         intro: "Droit au but. OM — the only French club to win the Champions League (1993), 9-time French champion. ATV Corner covers Marseille across every competition.",
         whyFollow: "Around 50 matches per season.",
@@ -414,7 +414,7 @@ export const teams: TeamData[] = [
       },
       de: {
         h1: "Wo Olympique Marseille live anschauen?",
-        metaTitle: "Olympique de Marseille live 2026 | ATV Corner",
+        metaTitle: "Olympique de Marseille live 2026",
         metaDesc: "Jedes OM-Spiel live in HD/4K: Ligue 1, Champions League, Coupe de France, Le Classique. Ab 15€/Monat.",
         intro: "Droit au but. OM — der einzige französische Klub mit Champions-League-Titel (1993), 9-facher französischer Meister. ATV Corner deckt Marseille in allen Wettbewerben ab.",
         whyFollow: "Ca. 50 Saisonspiele.",

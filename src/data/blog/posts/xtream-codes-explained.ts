@@ -8,7 +8,7 @@ export const xtreamCodesExplained: BlogPost = {
   i18n: {
     fr: {
       title: "Xtream Codes : tout comprendre en 2026 (API, sécurité, configuration)",
-      metaTitle: "Xtream Codes IPTV : guide complet 2026 (API, host, port, sécurité) | ATV Corner",
+      metaTitle: "Xtream Codes IPTV : guide complet 2026 (API, host, port, sécurité)",
       metaDesc:
         "Comprendre les Xtream Codes : structure host/username/password, différence avec M3U, configuration sur TiviMate, Smarters Pro, IBO Player. Guide expert.",
       excerpt:
@@ -70,7 +70,7 @@ export const xtreamCodesExplained: BlogPost = {
     },
     en: {
       title: "Xtream Codes: everything explained in 2026 (API, security, setup)",
-      metaTitle: "Xtream Codes IPTV: complete 2026 guide (API, host, port, security) | ATV Corner",
+      metaTitle: "Xtream Codes IPTV: complete 2026 guide (API, host, port, security)",
       metaDesc:
         "Understand Xtream Codes: host/username/password structure, vs M3U, setup on TiviMate, Smarters Pro, IBO Player. Expert guide.",
       excerpt:
@@ -132,7 +132,7 @@ export const xtreamCodesExplained: BlogPost = {
     },
     de: {
       title: "Xtream Codes 2026: alles erklärt (API, Sicherheit, Einrichtung)",
-      metaTitle: "Xtream Codes IPTV: komplette Anleitung 2026 (API, Host, Port, Sicherheit) | ATV Corner",
+      metaTitle: "Xtream Codes IPTV: komplette Anleitung 2026 (API, Host, Port, Sicherheit)",
       metaDesc:
         "Xtream Codes verstehen: Aufbau host/username/password, Unterschied zu M3U, Einrichtung auf TiviMate, Smarters Pro, IBO Player. Experten-Guide.",
       excerpt:

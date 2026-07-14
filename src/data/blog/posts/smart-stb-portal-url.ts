@@ -8,7 +8,7 @@ export const smartStbPortalUrl: BlogPost = {
   i18n: {
     fr: {
       title: "Smart STB Portal URL : configurer votre IPTV étape par étape",
-      metaTitle: "Smart STB Portal URL : guide configuration MAC + portal 2026 | ATV Corner",
+      metaTitle: "Smart STB Portal URL : guide configuration MAC + portal 2026",
       metaDesc:
         "Comment trouver votre adresse MAC Smart STB et configurer le Portal URL : Samsung, LG, MAG Box, Formuler. Guide visuel pas à pas.",
       excerpt:
@@ -63,7 +63,7 @@ export const smartStbPortalUrl: BlogPost = {
     },
     en: {
       title: "Smart STB Portal URL: configure your IPTV step by step",
-      metaTitle: "Smart STB Portal URL: MAC + portal setup guide 2026 | ATV Corner",
+      metaTitle: "Smart STB Portal URL: MAC + portal setup guide 2026",
       metaDesc:
         "How to find your Smart STB MAC address and configure the Portal URL: Samsung, LG, MAG Box, Formuler. Visual step-by-step guide.",
       excerpt:
@@ -118,7 +118,7 @@ export const smartStbPortalUrl: BlogPost = {
     },
     de: {
       title: "Smart STB Portal URL: IPTV Schritt für Schritt konfigurieren",
-      metaTitle: "Smart STB Portal URL: MAC + Portal-Einrichtung 2026 | ATV Corner",
+      metaTitle: "Smart STB Portal URL: MAC + Portal-Einrichtung 2026",
       metaDesc:
         "Smart-STB-MAC-Adresse finden und Portal URL konfigurieren: Samsung, LG, MAG Box, Formuler. Visueller Schritt-für-Schritt-Guide.",
       excerpt:

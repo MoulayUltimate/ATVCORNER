@@ -10,17 +10,17 @@ export async function generateStaticParams() {
 
 const meta = {
   fr: {
-    title: "Blog IPTV — Guides, comparatifs et tutoriels | ATV Corner",
+    title: "Blog IPTV — Guides, comparatifs et tutoriels",
     description:
       "Guides experts IPTV : M3U, Xtream Codes, 4K/8K, OTT premium, TiviMate, Smart STB. Tutoriels et comparatifs pour tirer le meilleur de votre abonnement.",
   },
   en: {
-    title: "IPTV Blog — Guides, comparisons and tutorials | ATV Corner",
+    title: "IPTV Blog — Guides, comparisons and tutorials",
     description:
       "Expert IPTV guides: M3U, Xtream Codes, 4K/8K, premium OTT, TiviMate, Smart STB. Tutorials and comparisons to get the most out of your subscription.",
   },
   de: {
-    title: "IPTV-Blog — Guides, Vergleiche und Tutorials | ATV Corner",
+    title: "IPTV-Blog — Guides, Vergleiche und Tutorials",
     description:
       "Experten-IPTV-Guides: M3U, Xtream Codes, 4K/8K, Premium-OTT, TiviMate, Smart STB. Tutorials und Vergleiche für das Beste aus Ihrem Abo.",
   },

@@ -8,7 +8,7 @@ export const fourKvsEightKIptv: BlogPost = {
   i18n: {
     fr: {
       title: "IPTV 4K vs 8K en 2026 : que choisir vraiment ?",
-      metaTitle: "IPTV 4K vs 8K : quelle qualité choisir en 2026 ? | ATV Corner",
+      metaTitle: "IPTV 4K vs 8K : quelle qualité choisir en 2026 ?",
       metaDesc:
         "Comparatif complet IPTV 4K vs 8K : bitrate, débit internet requis, TV compatibles, vrai bénéfice visuel. Notre verdict après 6 mois de tests.",
       excerpt:
@@ -60,7 +60,7 @@ export const fourKvsEightKIptv: BlogPost = {
     },
     en: {
       title: "4K vs 8K IPTV in 2026: what should you actually pick?",
-      metaTitle: "4K vs 8K IPTV: which quality to choose in 2026? | ATV Corner",
+      metaTitle: "4K vs 8K IPTV: which quality to choose in 2026?",
       metaDesc:
         "Full 4K vs 8K IPTV comparison: bitrate, internet speed required, compatible TVs, real visual benefit. Our verdict after 6 months of testing.",
       excerpt:
@@ -112,7 +112,7 @@ export const fourKvsEightKIptv: BlogPost = {
     },
     de: {
       title: "4K vs. 8K IPTV in 2026: Was sollten Sie wirklich wählen?",
-      metaTitle: "4K vs. 8K IPTV: welche Qualität in 2026 wählen? | ATV Corner",
+      metaTitle: "4K vs. 8K IPTV: welche Qualität in 2026 wählen?",
       metaDesc:
         "Kompletter Vergleich 4K vs. 8K IPTV: Bitrate, benötigte Internetgeschwindigkeit, kompatible TVs, echter visueller Nutzen. Unser Urteil nach 6 Monaten Tests.",
       excerpt:

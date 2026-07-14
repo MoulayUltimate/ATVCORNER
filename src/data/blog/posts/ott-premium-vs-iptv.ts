@@ -8,7 +8,7 @@ export const ottPremiumVsIptv: BlogPost = {
   i18n: {
     fr: {
       title: "OTT Premium vs IPTV : différences, avantages, lequel choisir",
-      metaTitle: "OTT Premium vs IPTV : guide complet 2026 (différences, prix, qualité) | ATV Corner",
+      metaTitle: "OTT Premium vs IPTV : guide complet 2026 (différences, prix, qualité)",
       metaDesc:
         "OTT Premium et IPTV : différences réelles, technologies, prix, qualité, légalité. Lequel choisir en 2026 selon votre usage. Guide objectif ATV Corner.",
       excerpt:
@@ -53,7 +53,7 @@ export const ottPremiumVsIptv: BlogPost = {
     },
     en: {
       title: "OTT Premium vs IPTV: differences, pros, which to choose",
-      metaTitle: "OTT Premium vs IPTV: complete 2026 guide (differences, price, quality) | ATV Corner",
+      metaTitle: "OTT Premium vs IPTV: complete 2026 guide (differences, price, quality)",
       metaDesc:
         "OTT Premium and IPTV: real differences, technologies, price, quality, legality. Which to choose in 2026 based on your use case. Objective ATV Corner guide.",
       excerpt:
@@ -98,7 +98,7 @@ export const ottPremiumVsIptv: BlogPost = {
     },
     de: {
       title: "OTT Premium vs. IPTV: Unterschiede, Vorteile, was wählen?",
-      metaTitle: "OTT Premium vs. IPTV: kompletter Guide 2026 (Unterschiede, Preis, Qualität) | ATV Corner",
+      metaTitle: "OTT Premium vs. IPTV: kompletter Guide 2026 (Unterschiede, Preis, Qualität)",
       metaDesc:
         "OTT Premium und IPTV: echte Unterschiede, Technologien, Preis, Qualität, Legalität. Was 2026 wählen je nach Nutzung. Objektiver ATV-Corner-Guide.",
       excerpt:
