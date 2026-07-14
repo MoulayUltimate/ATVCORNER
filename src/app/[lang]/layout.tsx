@@ -86,6 +86,11 @@ export async function generateMetadata({
       description,
     },
     robots: { index: true, follow: true, "max-image-preview": "large" },
+    verification: {
+      other: {
+        "msvalidate.01": "E787878C4C61DB82E63D0D8696A85A51",
+      },
+    },
   };
 }
 
