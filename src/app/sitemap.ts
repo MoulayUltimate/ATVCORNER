@@ -23,6 +23,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/xtream-codes", priority: 0.75, changeFrequency: "monthly" as const },
     { path: "/iptv-sport", priority: 0.85, changeFrequency: "weekly" as const },
     { path: "/best-iptv-alternatives", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/iptv-free-trial", priority: 0.9, changeFrequency: "weekly" as const },
+    { path: "/best-iptv-service", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/refund", priority: 0.3, changeFrequency: "yearly" as const },
