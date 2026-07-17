@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
@@ -41,6 +42,30 @@ const benefitIcons = {
     />
   ),
 } as const;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const dict = getDictionary(lang);
+  const title =
+    lang === "fr"
+      ? "Abonnement IPTV 2026 — Meilleur Service avec Essai Gratuit | ATV Corner"
+      : lang === "de"
+      ? "IPTV Abonnement 2026 — Bester Service mit Gratis-Test | ATV Corner"
+      : "IPTV Subscription 2026 — Best Service with Free Trial | ATV Corner";
+  return {
+    title: { absolute: title },
+    description: dict.meta.description,
+    alternates: {
+      canonical: `/${lang}`,
+      languages: { "fr-FR": "/fr", "en-US": "/en", "de-DE": "/de" },
+    },
+  };
+}
 
 export default async function HomePage({
   params,
@@ -472,6 +497,116 @@ const steps = [
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CABLE vs IPTV — comparison (snippet-bait, conversion block) */}
+      <section className="py-20 md:py-24 border-t border-white/5">
+        <div className="container-luxe">
+          <SectionHeading
+            eyebrow={
+              lang === "fr"
+                ? "Câble vs IPTV"
+                : lang === "de"
+                ? "Kabel vs IPTV"
+                : "Cable vs IPTV"
+            }
+            title={
+              lang === "fr" ? (
+                <>Pourquoi passer du câble à l'IPTV</>
+              ) : lang === "de" ? (
+                <>Warum von Kabel zu IPTV wechseln</>
+              ) : (
+                <>Why switch from cable to IPTV</>
+              )
+            }
+            description={
+              lang === "fr"
+                ? "Comparez un abonnement câble ou satellite classique avec l'abonnement IPTV ATV Corner. Plus de chaînes, meilleure qualité, sans engagement — pour une fraction du prix."
+                : lang === "de"
+                ? "Vergleichen Sie ein klassisches Kabel- oder Satelliten-Abo mit dem ATV Corner IPTV-Abo. Mehr Sender, bessere Qualität, ohne Vertragsbindung — zu einem Bruchteil des Preises."
+                : "Compare a traditional cable or satellite subscription with the ATV Corner IPTV subscription. More channels, better quality, no contract — for a fraction of the price."
+            }
+          />
+
+          <div className="mt-12 max-w-4xl mx-auto overflow-hidden rounded-3xl border border-white/10">
+            {/* header row */}
+            <div className="grid grid-cols-3 bg-white/[0.03] text-xs sm:text-sm font-semibold">
+              <div className="p-4 sm:p-5 text-zinc-400">
+                {lang === "fr" ? "Critère" : lang === "de" ? "Kriterium" : "Feature"}
+              </div>
+              <div className="p-4 sm:p-5 text-center text-zinc-400 border-l border-white/5">
+                {lang === "fr" ? "Câble / Satellite" : lang === "de" ? "Kabel / Satellit" : "Cable / Satellite"}
+              </div>
+              <div className="p-4 sm:p-5 text-center text-emerald-400 border-l border-white/5">
+                ATV Corner IPTV
+              </div>
+            </div>
+            {(lang === "fr"
+              ? [
+                  ["Prix mensuel", "40–100 € + installation", "Dès 5 €/mois, sans frais cachés"],
+                  ["Chaînes en direct", "80–200 chaînes", "66 000+ chaînes internationales"],
+                  ["Films & séries à la demande", "Location payante", "70 000+ titres inclus"],
+                  ["Qualité d'image", "HD, 4K limité", "4K / 8K Ultra HD"],
+                  ["Engagement", "12–24 mois", "Sans engagement, annulable"],
+                  ["Appareils", "Décodeur unique", "Smart TV, Firestick, mobile, tablette"],
+                  ["Installation", "Technicien, plusieurs jours", "5 minutes, à distance"],
+                  ["Sport & international", "Bouquets en supplément", "Toutes les ligues + chaînes du monde incluses"],
+                ]
+              : lang === "de"
+              ? [
+                  ["Monatspreis", "40–100 € + Installation", "Ab 5 €/Monat, keine versteckten Kosten"],
+                  ["Live-Sender", "80–200 Sender", "66.000+ internationale Sender"],
+                  ["Filme & Serien auf Abruf", "Kostenpflichtige Leihe", "70.000+ Titel inklusive"],
+                  ["Bildqualität", "HD, begrenztes 4K", "4K / 8K Ultra HD"],
+                  ["Vertragsbindung", "12–24 Monate", "Ohne Bindung, jederzeit kündbar"],
+                  ["Geräte", "Ein Receiver", "Smart TV, Firestick, Handy, Tablet"],
+                  ["Einrichtung", "Techniker, mehrere Tage", "5 Minuten, aus der Ferne"],
+                  ["Sport & International", "Kostenpflichtige Pakete", "Alle Ligen + Weltsender inklusive"],
+                ]
+              : [
+                  ["Monthly price", "$45–110 + install fee", "From $5/mo, no hidden fees"],
+                  ["Live channels", "80–200 channels", "66,000+ international channels"],
+                  ["On-demand movies & series", "Paid rental", "70,000+ titles included"],
+                  ["Picture quality", "HD, limited 4K", "4K / 8K Ultra HD"],
+                  ["Contract", "12–24 months", "No contract, cancel anytime"],
+                  ["Devices", "Single set-top box", "Smart TV, Firestick, mobile, tablet"],
+                  ["Setup", "Technician, several days", "5 minutes, remotely"],
+                  ["Sports & international", "Paid add-on packages", "Every league + world channels included"],
+                ]
+            ).map(([feature, cable, iptv], i) => (
+              <div
+                key={feature}
+                className={`grid grid-cols-3 text-xs sm:text-sm ${i % 2 === 1 ? "bg-white/[0.015]" : ""}`}
+              >
+                <div className="p-4 sm:p-5 font-medium text-zinc-300 border-t border-white/5">
+                  {feature}
+                </div>
+                <div className="p-4 sm:p-5 text-center text-zinc-500 border-t border-l border-white/5">
+                  {cable}
+                </div>
+                <div className="p-4 sm:p-5 text-center text-white border-t border-l border-white/5 flex items-start sm:items-center justify-center gap-1.5">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.4} className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5 sm:mt-0" aria-hidden>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m5 12 5 5L20 7" />
+                  </svg>
+                  <span>{iptv}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <a
+              href="#pricing"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-emerald-400 text-zinc-950 font-semibold hover:bg-emerald-300 transition-colors"
+            >
+              {lang === "fr"
+                ? "Voir les abonnements IPTV"
+                : lang === "de"
+                ? "IPTV-Abos ansehen"
+                : "See IPTV plans"}
+            </a>
           </div>
         </div>
       </section>

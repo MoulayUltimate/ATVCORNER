@@ -9,7 +9,7 @@ export function Footer({ lang, dict }: Props) {
   const year = new Date().getFullYear();
   return (
     <footer className="relative mt-24 border-t border-white/5 bg-[#050505]">
-      <div className="container-luxe py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div className="container-luxe py-16 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-10">
         <div className="md:col-span-2">
           <Logo size="lg" href={`/${lang}`} />
           <p className="mt-5 max-w-md text-zinc-400 leading-relaxed">
@@ -46,6 +46,21 @@ export function Footer({ lang, dict }: Props) {
             <li><Link href={`/${lang}/about`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.footer.about}</Link></li>
             <li><Link href={`/${lang}/contact`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.nav.contact}</Link></li>
             <li><Link href={`/${lang}#faq`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{dict.faq.eyebrow}</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-sm font-semibold uppercase tracking-widest text-white/90 mb-4">
+            {lang === "fr" ? "Guides IPTV" : lang === "de" ? "IPTV-Guides" : "IPTV Guides"}
+          </h4>
+          <ul className="space-y-3 text-sm">
+            <li><Link href={`/${lang}/iptv-subscription`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Abonnement IPTV" : lang === "de" ? "IPTV Abonnement" : "IPTV Subscription"}</Link></li>
+            <li><Link href={`/${lang}/iptv-firestick`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Firestick</Link></li>
+            <li><Link href={`/${lang}/iptv-smarters-pro`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Smarters Pro</Link></li>
+            <li><Link href={`/${lang}/cable-tv-alternative`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Alternative au câble" : lang === "de" ? "Kabel-Alternative" : "Cable TV Alternative"}</Link></li>
+            <li><Link href={`/${lang}/iptv-free-trial`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Essai gratuit" : lang === "de" ? "Gratis-Test" : "Free Trial"}</Link></li>
+            <li><Link href={`/${lang}/best-iptv-service`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Meilleur service IPTV" : lang === "de" ? "Bester IPTV Service" : "Best IPTV Service"}</Link></li>
+            <li><Link href={`/${lang}/iptv-sport`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Sport</Link></li>
           </ul>
         </div>
 

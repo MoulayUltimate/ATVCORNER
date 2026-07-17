@@ -25,7 +25,11 @@ type Page =
   | "iptv-sport"
   | "best-iptv-alternatives"
   | "iptv-free-trial"
-  | "best-iptv-service";
+  | "best-iptv-service"
+  | "iptv-subscription"
+  | "iptv-firestick"
+  | "iptv-smarters-pro"
+  | "cable-tv-alternative";
 
 const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
 
@@ -1107,6 +1111,486 @@ content["best-iptv-service"] = {
   },
 };
 
+// =============================================================================
+// /iptv-subscription — Targets "iptv subscription", "abonnement iptv", "iptv abo"
+// =============================================================================
+content["iptv-subscription"] = {
+  fr: {
+    metaTitle: "Abonnement IPTV — 66 000+ Chaînes, 4K/8K & Essai Gratuit",
+    metaDesc:
+      "Abonnement IPTV ATV Corner : 66 000+ chaînes, 70 000+ films et séries en 4K/8K. Dès 5 €/mois, activation en 5 minutes, essai gratuit et garantie 7 jours.",
+    eyebrow: "Abonnement IPTV · Dès 5 €/mois",
+    h1: "L'abonnement IPTV",
+    h1Accent: "sans compromis",
+    intro:
+      "Un abonnement IPTV ATV Corner vous donne accès à plus de 66 000 chaînes internationales et 70 000 films et séries en 4K/8K Ultra HD, sur tous vos écrans. Activation en moins de 5 minutes, sans engagement, à partir de 5 €/mois.",
+    features: [
+      { h: "66 000+ chaînes", p: "Sport, cinéma, séries, info, jeunesse et chaînes du monde entier réunies dans un seul abonnement." },
+      { h: "4K / 8K Ultra HD", p: "Encodage HEVC/H.265 et bitrate adaptatif pour une image nette, même sur le sport en direct." },
+      { h: "Dès 5 €/mois", p: "Formules 1, 3, 6 et 12 mois. Le plan annuel revient à 5 €/mois, sans frais cachés." },
+      { h: "Activation en 5 min", p: "Vos identifiants Xtream Codes ou lien M3U livrés par WhatsApp juste après le paiement." },
+    ],
+    sections: [
+      {
+        h: "Qu'est-ce qu'un abonnement IPTV ?",
+        p: "Un abonnement IPTV (Internet Protocol Television) permet de recevoir la télévision en direct et à la demande via votre connexion internet, sans antenne ni décodeur câble. Avec ATV Corner, un seul abonnement débloque 66 000+ chaînes et une bibliothèque de 70 000+ films et 18 000+ séries. Le flux arrive en temps réel sur votre Smart TV, Firestick, smartphone ou box, avec guide des programmes (EPG) intégré. C'est plus de contenu qu'un bouquet câble ou satellite, pour une fraction du prix.",
+      },
+      {
+        h: "Comment choisir la durée de son abonnement IPTV",
+        p: "ATV Corner propose quatre durées : 1 mois pour tester (15 €), 3 mois (30 €), 6 mois (50 €) et 12 mois (60 €, soit 5 €/mois). Plus la durée est longue, plus le coût mensuel baisse. Chaque formule inclut exactement le même catalogue, la même qualité 4K/8K et le même support 24/7 — vous ne payez pas plus cher pour une meilleure image. Vous pouvez commencer par un essai gratuit de 24h pour vérifier la stabilité avant de vous engager, puis passer à l'abonnement annuel pour le meilleur tarif.",
+      },
+      {
+        h: "Un abonnement, tous vos appareils",
+        p: "Votre abonnement IPTV ATV Corner fonctionne sur Smart TV Samsung, LG et Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS et Linux — via les applications TiviMate, IBO Player, IPTV Smarters Pro ou VLC. Vous pouvez regarder à la maison puis reprendre sur mobile, sans réinstallation. Le support technique vous accompagne par WhatsApp en moins de 5 minutes pour la configuration de chaque appareil.",
+      },
+    ],
+    faq: [
+      { q: "Combien coûte un abonnement IPTV ATV Corner ?", a: "Les abonnements démarrent à 15 € pour un mois et descendent à 5 €/mois avec la formule annuelle à 60 €. Toutes les formules incluent 66 000+ chaînes, la qualité 4K/8K et le support 24/7." },
+      { q: "L'abonnement est-il sans engagement ?", a: "Oui. Aucun engagement, aucune reconduction automatique. Vous choisissez la durée et vous renouvelez uniquement si vous le souhaitez, avec une garantie satisfait ou remboursé de 7 jours." },
+      { q: "Puis-je essayer avant de payer ?", a: "Oui, un essai gratuit de 24h est disponible sans carte bancaire. Vous testez l'accès complet, puis vous vous abonnez seulement si la qualité vous convainc." },
+      { q: "En combien de temps l'abonnement est-il actif ?", a: "En moins de 5 minutes. Après paiement, vous recevez vos identifiants Xtream Codes ou votre lien M3U par WhatsApp ou email, prêts à l'emploi." },
+      { q: "Sur quels appareils fonctionne l'abonnement ?", a: "Sur Smart TV, Fire TV Stick, Apple TV, smartphones, tablettes, MAG Box, Enigma2 et ordinateurs, via TiviMate, IBO Player, IPTV Smarters Pro ou VLC." },
+    ],
+    cta: "Démarrer mon abonnement",
+  },
+  en: {
+    metaTitle: "IPTV Subscription — 66,000+ Channels, 4K/8K & Free Trial",
+    metaDesc:
+      "ATV Corner IPTV subscription: 66,000+ channels, 70,000+ movies and series in 4K/8K. From $5/mo, 5-minute activation, free trial and 7-day money-back guarantee.",
+    eyebrow: "IPTV Subscription · From $5/mo",
+    h1: "The IPTV subscription",
+    h1Accent: "with no compromise",
+    intro:
+      "An ATV Corner IPTV subscription gives you 66,000+ international channels and 70,000+ movies and series in 4K/8K Ultra HD, on every screen. Activated in under 5 minutes, no contract, from $5/mo.",
+    features: [
+      { h: "66,000+ channels", p: "Sports, cinema, series, news, kids and channels from around the world in a single subscription." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 encoding and adaptive bitrate for a sharp picture, even on live sports." },
+      { h: "From $5/mo", p: "1, 3, 6 and 12-month plans. The annual plan works out to $5/mo, with no hidden fees." },
+      { h: "Active in 5 min", p: "Your Xtream Codes credentials or M3U link delivered via WhatsApp right after payment." },
+    ],
+    sections: [
+      {
+        h: "What is an IPTV subscription?",
+        p: "An IPTV (Internet Protocol Television) subscription delivers live and on-demand TV through your internet connection — no aerial, no cable box. With ATV Corner, one subscription unlocks 66,000+ channels plus a library of 70,000+ movies and 18,000+ series. The stream arrives in real time on your Smart TV, Firestick, phone or box, with a built-in program guide (EPG). That's more content than a cable or satellite package, for a fraction of the price.",
+      },
+      {
+        h: "How to choose your IPTV subscription length",
+        p: "ATV Corner offers four durations: 1 month to try ($16), 3 months ($33), 6 months ($55) and 12 months ($65, i.e. about $5/mo). The longer the term, the lower the monthly cost. Every plan includes the exact same catalog, the same 4K/8K quality and the same 24/7 support — you never pay more for better picture. You can start with a free 24-hour trial to check stability before committing, then move to the annual plan for the best rate.",
+      },
+      {
+        h: "One subscription, all your devices",
+        p: "Your ATV Corner IPTV subscription works on Samsung, LG and Android Smart TVs, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS and Linux — through the TiviMate, IBO Player, IPTV Smarters Pro or VLC apps. Watch at home, then pick up on mobile, with no reinstall. Technical support helps you set up each device via WhatsApp in under 5 minutes.",
+      },
+    ],
+    faq: [
+      { q: "How much is an ATV Corner IPTV subscription?", a: "Subscriptions start at $16 for one month and drop to about $5/mo on the annual $65 plan. Every plan includes 66,000+ channels, 4K/8K quality and 24/7 support." },
+      { q: "Is the subscription contract-free?", a: "Yes. No contract, no auto-renewal. You choose the length and renew only if you want to, backed by a 7-day money-back guarantee." },
+      { q: "Can I try before I pay?", a: "Yes, a free 24-hour trial is available with no credit card. You test full access, then subscribe only if the quality convinces you." },
+      { q: "How fast is the subscription activated?", a: "In under 5 minutes. After payment you receive your Xtream Codes credentials or M3U link by WhatsApp or email, ready to use." },
+      { q: "Which devices does the subscription work on?", a: "Smart TV, Fire TV Stick, Apple TV, phones, tablets, MAG Box, Enigma2 and computers, via TiviMate, IBO Player, IPTV Smarters Pro or VLC." },
+    ],
+    cta: "Start my subscription",
+  },
+  de: {
+    metaTitle: "IPTV Abonnement — 66.000+ Sender, 4K/8K & Gratis-Test",
+    metaDesc:
+      "ATV Corner IPTV Abonnement: 66.000+ Sender, 70.000+ Filme und Serien in 4K/8K. Ab 5 €/Monat, Aktivierung in 5 Minuten, Gratis-Test und 7-Tage-Garantie.",
+    eyebrow: "IPTV Abonnement · Ab 5 €/Monat",
+    h1: "Das IPTV Abonnement",
+    h1Accent: "ohne Kompromiss",
+    intro:
+      "Ein ATV Corner IPTV Abonnement bietet 66.000+ internationale Sender und 70.000+ Filme und Serien in 4K/8K Ultra HD, auf jedem Bildschirm. Aktiviert in unter 5 Minuten, ohne Vertragsbindung, ab 5 €/Monat.",
+    features: [
+      { h: "66.000+ Sender", p: "Sport, Kino, Serien, News, Kinder und Sender aus aller Welt in einem einzigen Abo." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265-Kodierung und adaptive Bitrate für ein scharfes Bild, auch bei Live-Sport." },
+      { h: "Ab 5 €/Monat", p: "Laufzeiten von 1, 3, 6 und 12 Monaten. Das Jahresabo entspricht 5 €/Monat, ohne versteckte Kosten." },
+      { h: "In 5 Min aktiv", p: "Ihre Xtream-Codes-Zugangsdaten oder Ihr M3U-Link per WhatsApp direkt nach der Zahlung." },
+    ],
+    sections: [
+      {
+        h: "Was ist ein IPTV Abonnement?",
+        p: "Ein IPTV-Abonnement (Internet Protocol Television) liefert Live- und Abruf-Fernsehen über Ihre Internetverbindung — ohne Antenne, ohne Kabelreceiver. Mit ATV Corner schaltet ein Abo 66.000+ Sender sowie eine Bibliothek mit 70.000+ Filmen und 18.000+ Serien frei. Der Stream kommt in Echtzeit auf Ihren Smart TV, Firestick, Ihr Handy oder Ihre Box, mit integriertem Programmführer (EPG). Das ist mehr Inhalt als ein Kabel- oder Satellitenpaket, zu einem Bruchteil des Preises.",
+      },
+      {
+        h: "So wählen Sie die Laufzeit Ihres IPTV-Abos",
+        p: "ATV Corner bietet vier Laufzeiten: 1 Monat zum Testen (15 €), 3 Monate (30 €), 6 Monate (50 €) und 12 Monate (60 €, also 5 €/Monat). Je länger die Laufzeit, desto niedriger der Monatspreis. Jedes Abo enthält genau denselben Katalog, dieselbe 4K/8K-Qualität und denselben 24/7-Support — Sie zahlen nie mehr für ein besseres Bild. Starten Sie mit einem kostenlosen 24h-Test, um die Stabilität zu prüfen, und wechseln Sie dann zum Jahresabo für den besten Preis.",
+      },
+      {
+        h: "Ein Abo, alle Ihre Geräte",
+        p: "Ihr ATV Corner IPTV-Abonnement funktioniert auf Samsung-, LG- und Android-Smart-TVs, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS und Linux — über die Apps TiviMate, IBO Player, IPTV Smarters Pro oder VLC. Schauen Sie zu Hause und setzen Sie unterwegs fort, ohne Neuinstallation. Der technische Support hilft per WhatsApp in unter 5 Minuten bei der Einrichtung jedes Geräts.",
+      },
+    ],
+    faq: [
+      { q: "Was kostet ein ATV Corner IPTV Abonnement?", a: "Abos beginnen bei 15 € für einen Monat und sinken auf 5 €/Monat beim Jahresabo für 60 €. Jedes Abo enthält 66.000+ Sender, 4K/8K-Qualität und 24/7-Support." },
+      { q: "Ist das Abo ohne Vertragsbindung?", a: "Ja. Keine Bindung, keine automatische Verlängerung. Sie wählen die Laufzeit und verlängern nur, wenn Sie möchten, abgesichert durch eine 7-tägige Geld-zurück-Garantie." },
+      { q: "Kann ich vor der Zahlung testen?", a: "Ja, ein kostenloser 24-Stunden-Test ist ohne Kreditkarte verfügbar. Sie testen den vollen Zugriff und abonnieren nur, wenn die Qualität Sie überzeugt." },
+      { q: "Wie schnell ist das Abo aktiv?", a: "In unter 5 Minuten. Nach der Zahlung erhalten Sie Ihre Xtream-Codes-Zugangsdaten oder Ihren M3U-Link per WhatsApp oder E-Mail, einsatzbereit." },
+      { q: "Auf welchen Geräten funktioniert das Abo?", a: "Smart TV, Fire TV Stick, Apple TV, Handys, Tablets, MAG Box, Enigma2 und Computer, über TiviMate, IBO Player, IPTV Smarters Pro oder VLC." },
+    ],
+    cta: "Abonnement starten",
+  },
+};
+
+// =============================================================================
+// /iptv-firestick — Targets "iptv firestick", "iptv fire stick", "firestick iptv"
+// =============================================================================
+content["iptv-firestick"] = {
+  fr: {
+    metaTitle: "IPTV Firestick — Installer & Regarder sur Amazon Fire TV Stick",
+    metaDesc:
+      "IPTV sur Firestick avec ATV Corner : 66 000+ chaînes en 4K sur votre Amazon Fire TV Stick. Installation en 5 minutes via IPTV Smarters Pro ou TiviMate, essai gratuit.",
+    eyebrow: "IPTV Firestick · Fire TV Stick",
+    h1: "IPTV sur",
+    h1Accent: "Firestick",
+    intro:
+      "L'Amazon Fire TV Stick est l'appareil le plus simple pour regarder l'IPTV sur votre téléviseur. Avec ATV Corner, installez 66 000+ chaînes en 4K sur votre Firestick en 5 minutes, via IPTV Smarters Pro ou TiviMate.",
+    features: [
+      { h: "Compatible tous Firestick", p: "Fire TV Stick Lite, 4K et 4K Max — l'abonnement fonctionne sur toutes les générations." },
+      { h: "Installation en 5 min", p: "Via l'application Downloader puis IPTV Smarters Pro ou TiviMate, sans PC ni manipulation complexe." },
+      { h: "Image 4K fluide", p: "Le Firestick 4K Max décode nos flux HEVC/H.265 sans coupure, même sur le sport en direct." },
+      { h: "Support pas à pas", p: "Notre équipe vous guide par WhatsApp pour l'installation sur Firestick en moins de 5 minutes." },
+    ],
+    sections: [
+      {
+        h: "Comment installer l'IPTV sur un Firestick",
+        p: "Sur votre Amazon Fire TV Stick, ouvrez l'Appstore et installez l'application Downloader. Autorisez les applications inconnues dans les paramètres du développeur, puis téléchargez IPTV Smarters Pro ou TiviMate. Ouvrez l'application et saisissez les identifiants Xtream Codes que ATV Corner vous envoie par WhatsApp après l'abonnement. Vos 66 000+ chaînes et 70 000+ films se chargent avec le guide des programmes. L'ensemble prend moins de 5 minutes et ne nécessite ni ordinateur ni compétence technique.",
+      },
+      {
+        h: "Quel Firestick choisir pour l'IPTV en 4K",
+        p: "Le Fire TV Stick Lite convient pour le HD et le 1080p. Pour profiter pleinement de nos flux 4K/8K Ultra HD, le Fire TV Stick 4K ou 4K Max est recommandé : son processeur plus puissant décode le HEVC/H.265 sans ralentissement et gère mieux les applications IPTV. Une connexion internet d'au moins 25 Mbps est conseillée pour le 4K. Quel que soit votre modèle, l'abonnement ATV Corner s'installe de la même façon.",
+      },
+      {
+        h: "IPTV Smarters Pro ou TiviMate sur Firestick ?",
+        p: "IPTV Smarters Pro est le plus simple : interface claire, EPG intégré, idéal pour débuter. TiviMate offre une expérience plus avancée avec un guide des programmes soigné et un enregistrement (version Premium), mais demande un peu plus de configuration. Les deux fonctionnent parfaitement avec ATV Corner sur Firestick via vos identifiants Xtream Codes. Vous pouvez tester les deux et garder celle que vous préférez — notre support vous aide à choisir.",
+      },
+    ],
+    faq: [
+      { q: "Comment installer l'IPTV sur mon Firestick ?", a: "Installez Downloader depuis l'Appstore, autorisez les applications inconnues, téléchargez IPTV Smarters Pro ou TiviMate, puis saisissez les identifiants Xtream Codes envoyés par ATV Corner. Comptez moins de 5 minutes." },
+      { q: "L'IPTV fonctionne-t-elle sur tous les Firestick ?", a: "Oui, sur Fire TV Stick Lite, 4K et 4K Max. Pour la qualité 4K/8K, les modèles 4K et 4K Max sont recommandés pour leur processeur plus rapide." },
+      { q: "Ai-je besoin d'un ordinateur pour installer l'IPTV sur Firestick ?", a: "Non. Tout se fait directement depuis le Firestick avec l'application Downloader et l'application IPTV de votre choix." },
+      { q: "Quelle connexion internet pour l'IPTV 4K sur Firestick ?", a: "Une connexion d'au moins 25 Mbps est recommandée pour le 4K stable. Le HD fonctionne dès 10 Mbps." },
+      { q: "Puis-je tester l'IPTV sur Firestick avant de payer ?", a: "Oui. ATV Corner propose un essai gratuit de 24h que vous pouvez installer sur votre Firestick avant de vous abonner." },
+    ],
+    cta: "Installer sur Firestick",
+  },
+  en: {
+    metaTitle: "IPTV Firestick — Install & Watch on Amazon Fire TV Stick",
+    metaDesc:
+      "IPTV on Firestick with ATV Corner: 66,000+ channels in 4K on your Amazon Fire TV Stick. 5-minute setup via IPTV Smarters Pro or TiviMate, free trial available.",
+    eyebrow: "IPTV Firestick · Fire TV Stick",
+    h1: "IPTV on",
+    h1Accent: "Firestick",
+    intro:
+      "The Amazon Fire TV Stick is the easiest device to watch IPTV on your TV. With ATV Corner, install 66,000+ channels in 4K on your Firestick in 5 minutes, via IPTV Smarters Pro or TiviMate.",
+    features: [
+      { h: "Every Firestick supported", p: "Fire TV Stick Lite, 4K and 4K Max — the subscription works on all generations." },
+      { h: "5-minute setup", p: "Via the Downloader app then IPTV Smarters Pro or TiviMate, no PC or complex steps." },
+      { h: "Smooth 4K picture", p: "The Firestick 4K Max decodes our HEVC/H.265 streams with no buffering, even on live sports." },
+      { h: "Step-by-step support", p: "Our team guides you via WhatsApp through the Firestick install in under 5 minutes." },
+    ],
+    sections: [
+      {
+        h: "How to install IPTV on a Firestick",
+        p: "On your Amazon Fire TV Stick, open the Appstore and install the Downloader app. Allow unknown apps in developer settings, then download IPTV Smarters Pro or TiviMate. Open the app and enter the Xtream Codes credentials ATV Corner sends via WhatsApp after you subscribe. Your 66,000+ channels and 70,000+ movies load with the program guide. The whole thing takes under 5 minutes and needs no computer or technical skill.",
+      },
+      {
+        h: "Which Firestick to choose for 4K IPTV",
+        p: "The Fire TV Stick Lite handles HD and 1080p. To get the most from our 4K/8K Ultra HD streams, the Fire TV Stick 4K or 4K Max is recommended: its faster processor decodes HEVC/H.265 without lag and runs IPTV apps more smoothly. An internet connection of at least 25 Mbps is advised for 4K. Whatever your model, the ATV Corner subscription installs the same way.",
+      },
+      {
+        h: "IPTV Smarters Pro or TiviMate on Firestick?",
+        p: "IPTV Smarters Pro is the simplest: clean interface, built-in EPG, ideal for beginners. TiviMate offers a more advanced experience with a polished program guide and recording (Premium version), but takes a little more setup. Both work perfectly with ATV Corner on Firestick using your Xtream Codes credentials. You can try both and keep the one you prefer — our support helps you choose.",
+      },
+    ],
+    faq: [
+      { q: "How do I install IPTV on my Firestick?", a: "Install Downloader from the Appstore, allow unknown apps, download IPTV Smarters Pro or TiviMate, then enter the Xtream Codes credentials sent by ATV Corner. It takes under 5 minutes." },
+      { q: "Does IPTV work on every Firestick?", a: "Yes, on Fire TV Stick Lite, 4K and 4K Max. For 4K/8K quality, the 4K and 4K Max models are recommended for their faster processor." },
+      { q: "Do I need a computer to install IPTV on Firestick?", a: "No. Everything is done directly from the Firestick using the Downloader app and the IPTV app of your choice." },
+      { q: "What internet speed for 4K IPTV on Firestick?", a: "At least 25 Mbps is recommended for stable 4K. HD works from 10 Mbps." },
+      { q: "Can I test IPTV on Firestick before paying?", a: "Yes. ATV Corner offers a free 24-hour trial you can install on your Firestick before subscribing." },
+    ],
+    cta: "Install on Firestick",
+  },
+  de: {
+    metaTitle: "IPTV Firestick — Auf Amazon Fire TV Stick installieren",
+    metaDesc:
+      "IPTV auf Firestick mit ATV Corner: 66.000+ Sender in 4K auf Ihrem Amazon Fire TV Stick. Einrichtung in 5 Minuten über IPTV Smarters Pro oder TiviMate, Gratis-Test.",
+    eyebrow: "IPTV Firestick · Fire TV Stick",
+    h1: "IPTV auf",
+    h1Accent: "Firestick",
+    intro:
+      "Der Amazon Fire TV Stick ist das einfachste Gerät, um IPTV auf Ihrem Fernseher zu schauen. Mit ATV Corner installieren Sie 66.000+ Sender in 4K in 5 Minuten auf Ihrem Firestick, über IPTV Smarters Pro oder TiviMate.",
+    features: [
+      { h: "Jeder Firestick unterstützt", p: "Fire TV Stick Lite, 4K und 4K Max — das Abo funktioniert auf allen Generationen." },
+      { h: "Einrichtung in 5 Min", p: "Über die Downloader-App, dann IPTV Smarters Pro oder TiviMate, ohne PC oder komplizierte Schritte." },
+      { h: "Flüssiges 4K-Bild", p: "Der Firestick 4K Max dekodiert unsere HEVC/H.265-Streams ohne Buffering, auch bei Live-Sport." },
+      { h: "Schritt-für-Schritt-Support", p: "Unser Team führt Sie per WhatsApp in unter 5 Minuten durch die Firestick-Installation." },
+    ],
+    sections: [
+      {
+        h: "So installieren Sie IPTV auf einem Firestick",
+        p: "Öffnen Sie auf Ihrem Amazon Fire TV Stick den Appstore und installieren Sie die Downloader-App. Erlauben Sie unbekannte Apps in den Entwicklereinstellungen, laden Sie dann IPTV Smarters Pro oder TiviMate herunter. Öffnen Sie die App und geben Sie die Xtream-Codes-Zugangsdaten ein, die ATV Corner nach dem Abo per WhatsApp sendet. Ihre 66.000+ Sender und 70.000+ Filme laden mit Programmführer. Das Ganze dauert unter 5 Minuten und braucht weder Computer noch technisches Wissen.",
+      },
+      {
+        h: "Welcher Firestick für 4K-IPTV",
+        p: "Der Fire TV Stick Lite eignet sich für HD und 1080p. Um unsere 4K/8K-Ultra-HD-Streams voll zu nutzen, wird der Fire TV Stick 4K oder 4K Max empfohlen: Sein schnellerer Prozessor dekodiert HEVC/H.265 ohne Ruckeln und führt IPTV-Apps flüssiger aus. Für 4K wird eine Internetverbindung von mindestens 25 Mbit/s empfohlen. Unabhängig vom Modell installiert sich das ATV-Corner-Abo auf dieselbe Weise.",
+      },
+      {
+        h: "IPTV Smarters Pro oder TiviMate auf Firestick?",
+        p: "IPTV Smarters Pro ist am einfachsten: klare Oberfläche, integrierter EPG, ideal für Einsteiger. TiviMate bietet ein fortgeschritteneres Erlebnis mit einem edlen Programmführer und Aufnahme (Premium-Version), erfordert aber etwas mehr Einrichtung. Beide funktionieren einwandfrei mit ATV Corner auf dem Firestick über Ihre Xtream-Codes-Zugangsdaten. Sie können beide testen und die bevorzugte behalten — unser Support hilft bei der Wahl.",
+      },
+    ],
+    faq: [
+      { q: "Wie installiere ich IPTV auf meinem Firestick?", a: "Installieren Sie Downloader aus dem Appstore, erlauben Sie unbekannte Apps, laden Sie IPTV Smarters Pro oder TiviMate herunter und geben Sie die von ATV Corner gesendeten Xtream-Codes-Zugangsdaten ein. Es dauert unter 5 Minuten." },
+      { q: "Funktioniert IPTV auf jedem Firestick?", a: "Ja, auf Fire TV Stick Lite, 4K und 4K Max. Für 4K/8K-Qualität werden die Modelle 4K und 4K Max wegen ihres schnelleren Prozessors empfohlen." },
+      { q: "Brauche ich einen Computer, um IPTV auf dem Firestick zu installieren?", a: "Nein. Alles wird direkt vom Firestick aus mit der Downloader-App und der IPTV-App Ihrer Wahl erledigt." },
+      { q: "Welche Internetgeschwindigkeit für 4K-IPTV auf dem Firestick?", a: "Für stabiles 4K werden mindestens 25 Mbit/s empfohlen. HD funktioniert ab 10 Mbit/s." },
+      { q: "Kann ich IPTV auf dem Firestick vor der Zahlung testen?", a: "Ja. ATV Corner bietet einen kostenlosen 24-Stunden-Test, den Sie vor dem Abo auf Ihrem Firestick installieren können." },
+    ],
+    cta: "Auf Firestick installieren",
+  },
+};
+
+// =============================================================================
+// /iptv-smarters-pro — Targets "iptv smarters pro", "iptv smarters"
+// =============================================================================
+content["iptv-smarters-pro"] = {
+  fr: {
+    metaTitle: "IPTV Smarters Pro — Configurer avec ATV Corner (Guide 2026)",
+    metaDesc:
+      "Utilisez IPTV Smarters Pro avec ATV Corner : 66 000+ chaînes en 4K via vos identifiants Xtream Codes. Configuration en 5 minutes sur Firestick, Android, iOS et Smart TV.",
+    eyebrow: "IPTV Smarters Pro · Xtream Codes",
+    h1: "IPTV Smarters Pro",
+    h1Accent: "avec ATV Corner",
+    intro:
+      "IPTV Smarters Pro est l'une des applications IPTV les plus populaires : interface claire, EPG intégré et lecture 4K fluide. Connectez ATV Corner en 5 minutes avec vos identifiants Xtream Codes et accédez à 66 000+ chaînes.",
+    features: [
+      { h: "Connexion Xtream Codes", p: "Saisissez l'URL, l'utilisateur et le mot de passe fournis par ATV Corner — aucune configuration manuelle des chaînes." },
+      { h: "EPG intégré", p: "Le guide des programmes se charge automatiquement, avec affiches, catégories et rappels." },
+      { h: "Multi-plateformes", p: "Disponible sur Firestick, Android, Android TV, iPhone, iPad et Smart TV compatibles." },
+      { h: "Lecture 4K/8K", p: "L'application gère nos flux HEVC/H.265 en 4K/8K sans coupure sur un appareil récent." },
+    ],
+    sections: [
+      {
+        h: "Comment configurer IPTV Smarters Pro",
+        p: "Téléchargez IPTV Smarters Pro depuis le store de votre appareil (ou via Downloader sur Firestick). À l'ouverture, choisissez « Login with Xtream Codes API », puis saisissez le nom, l'URL du serveur, l'utilisateur et le mot de passe que ATV Corner vous envoie par WhatsApp après l'abonnement. L'application importe automatiquement vos 66 000+ chaînes, 70 000+ films et le guide EPG. En moins de 5 minutes, tout est prêt — aucune liste M3U à gérer manuellement.",
+      },
+      {
+        h: "IPTV Smarters Pro sur tous vos appareils",
+        p: "IPTV Smarters Pro fonctionne sur Amazon Fire TV Stick, smartphones et tablettes Android, Android TV, iPhone, iPad et de nombreuses Smart TV. Vos identifiants ATV Corner sont valables sur plusieurs appareils : configurez-les une fois, puis reprenez la même expérience partout. L'interface reste identique d'un appareil à l'autre, ce qui simplifie la prise en main pour toute la famille.",
+      },
+      {
+        h: "Résoudre les problèmes courants",
+        p: "Si une chaîne ne se lance pas, vérifiez d'abord votre connexion internet (25 Mbps recommandés pour le 4K) et changez le format de décodage dans les réglages (Hardware/Software). Si l'EPG ne s'affiche pas, actualisez-le depuis les paramètres. En cas d'erreur de connexion, contrôlez que l'URL et les identifiants sont saisis exactement comme envoyés. Notre support ATV Corner règle la plupart des cas par WhatsApp en quelques minutes.",
+      },
+    ],
+    faq: [
+      { q: "IPTV Smarters Pro est-il gratuit ?", a: "L'application IPTV Smarters Pro est gratuite à télécharger. Vous avez besoin d'un abonnement IPTV comme ATV Corner pour y accéder au contenu via vos identifiants Xtream Codes." },
+      { q: "Comment connecter ATV Corner à IPTV Smarters Pro ?", a: "Choisissez « Login with Xtream Codes API » et saisissez l'URL, l'utilisateur et le mot de passe envoyés par ATV Corner. Les chaînes et l'EPG se chargent automatiquement." },
+      { q: "Sur quels appareils fonctionne IPTV Smarters Pro ?", a: "Sur Firestick, Android, Android TV, iPhone, iPad et de nombreuses Smart TV. Vos identifiants ATV Corner fonctionnent sur plusieurs appareils." },
+      { q: "Pourquoi une chaîne ne se lance pas ?", a: "Le plus souvent à cause de la connexion ou du format de décodage. Passez de Hardware à Software dans les réglages et vérifiez votre débit. Notre support vous aide si besoin." },
+      { q: "Puis-je utiliser IPTV Smarters Pro avec un essai gratuit ?", a: "Oui. L'essai gratuit de 24h d'ATV Corner s'utilise dans IPTV Smarters Pro exactement comme un abonnement complet." },
+    ],
+    cta: "Obtenir mes identifiants",
+  },
+  en: {
+    metaTitle: "IPTV Smarters Pro — Set Up with ATV Corner (2026 Guide)",
+    metaDesc:
+      "Use IPTV Smarters Pro with ATV Corner: 66,000+ channels in 4K via your Xtream Codes login. 5-minute setup on Firestick, Android, iOS and Smart TV.",
+    eyebrow: "IPTV Smarters Pro · Xtream Codes",
+    h1: "IPTV Smarters Pro",
+    h1Accent: "with ATV Corner",
+    intro:
+      "IPTV Smarters Pro is one of the most popular IPTV apps: clean interface, built-in EPG and smooth 4K playback. Connect ATV Corner in 5 minutes with your Xtream Codes login and access 66,000+ channels.",
+    features: [
+      { h: "Xtream Codes login", p: "Enter the URL, username and password from ATV Corner — no manual channel setup at all." },
+      { h: "Built-in EPG", p: "The program guide loads automatically, with posters, categories and reminders." },
+      { h: "Cross-platform", p: "Available on Firestick, Android, Android TV, iPhone, iPad and compatible Smart TVs." },
+      { h: "4K/8K playback", p: "The app handles our HEVC/H.265 streams in 4K/8K without buffering on a recent device." },
+    ],
+    sections: [
+      {
+        h: "How to set up IPTV Smarters Pro",
+        p: "Download IPTV Smarters Pro from your device's store (or via Downloader on Firestick). On opening, choose \u201cLogin with Xtream Codes API\u201d, then enter the name, server URL, username and password ATV Corner sends via WhatsApp after you subscribe. The app automatically imports your 66,000+ channels, 70,000+ movies and the EPG guide. In under 5 minutes everything is ready — no M3U playlist to manage by hand.",
+      },
+      {
+        h: "IPTV Smarters Pro on all your devices",
+        p: "IPTV Smarters Pro runs on Amazon Fire TV Stick, Android phones and tablets, Android TV, iPhone, iPad and many Smart TVs. Your ATV Corner credentials work across several devices: set them up once, then pick up the same experience everywhere. The interface stays identical from one device to the next, which makes it easy for the whole household.",
+      },
+      {
+        h: "Fixing common issues",
+        p: "If a channel won't play, first check your internet connection (25 Mbps recommended for 4K) and switch the decoder format in settings (Hardware/Software). If the EPG doesn't show, refresh it from settings. On a login error, confirm the URL and credentials are entered exactly as sent. ATV Corner support resolves most cases via WhatsApp in a few minutes.",
+      },
+    ],
+    faq: [
+      { q: "Is IPTV Smarters Pro free?", a: "The IPTV Smarters Pro app is free to download. You need an IPTV subscription like ATV Corner to access content through your Xtream Codes login." },
+      { q: "How do I connect ATV Corner to IPTV Smarters Pro?", a: "Choose \u201cLogin with Xtream Codes API\u201d and enter the URL, username and password sent by ATV Corner. Channels and EPG load automatically." },
+      { q: "Which devices run IPTV Smarters Pro?", a: "Firestick, Android, Android TV, iPhone, iPad and many Smart TVs. Your ATV Corner credentials work across several devices." },
+      { q: "Why won't a channel play?", a: "Usually the connection or decoder format. Switch from Hardware to Software in settings and check your speed. Our support helps if needed." },
+      { q: "Can I use IPTV Smarters Pro with a free trial?", a: "Yes. The ATV Corner 24-hour free trial works in IPTV Smarters Pro exactly like a full subscription." },
+    ],
+    cta: "Get my login",
+  },
+  de: {
+    metaTitle: "IPTV Smarters Pro — Mit ATV Corner einrichten (Guide 2026)",
+    metaDesc:
+      "Nutzen Sie IPTV Smarters Pro mit ATV Corner: 66.000+ Sender in 4K über Ihren Xtream-Codes-Login. Einrichtung in 5 Minuten auf Firestick, Android, iOS und Smart TV.",
+    eyebrow: "IPTV Smarters Pro · Xtream Codes",
+    h1: "IPTV Smarters Pro",
+    h1Accent: "mit ATV Corner",
+    intro:
+      "IPTV Smarters Pro ist eine der beliebtesten IPTV-Apps: klare Oberfläche, integrierter EPG und flüssige 4K-Wiedergabe. Verbinden Sie ATV Corner in 5 Minuten mit Ihrem Xtream-Codes-Login und greifen Sie auf 66.000+ Sender zu.",
+    features: [
+      { h: "Xtream-Codes-Login", p: "Geben Sie URL, Benutzername und Passwort von ATV Corner ein — keine manuelle Sendereinrichtung." },
+      { h: "Integrierter EPG", p: "Der Programmführer lädt automatisch, mit Postern, Kategorien und Erinnerungen." },
+      { h: "Plattformübergreifend", p: "Verfügbar auf Firestick, Android, Android TV, iPhone, iPad und kompatiblen Smart TVs." },
+      { h: "4K/8K-Wiedergabe", p: "Die App verarbeitet unsere HEVC/H.265-Streams in 4K/8K ohne Buffering auf einem aktuellen Gerät." },
+    ],
+    sections: [
+      {
+        h: "So richten Sie IPTV Smarters Pro ein",
+        p: "Laden Sie IPTV Smarters Pro aus dem Store Ihres Geräts herunter (oder über Downloader auf dem Firestick). Wählen Sie beim Öffnen \u201eLogin with Xtream Codes API\u201c und geben Sie Namen, Server-URL, Benutzername und Passwort ein, die ATV Corner nach dem Abo per WhatsApp sendet. Die App importiert automatisch Ihre 66.000+ Sender, 70.000+ Filme und den EPG-Guide. In unter 5 Minuten ist alles bereit — keine M3U-Playlist zum manuellen Verwalten.",
+      },
+      {
+        h: "IPTV Smarters Pro auf all Ihren Geräten",
+        p: "IPTV Smarters Pro läuft auf Amazon Fire TV Stick, Android-Handys und -Tablets, Android TV, iPhone, iPad und vielen Smart TVs. Ihre ATV-Corner-Zugangsdaten funktionieren auf mehreren Geräten: einmal einrichten, dann überall dieselbe Erfahrung. Die Oberfläche bleibt von Gerät zu Gerät identisch, was die Bedienung für die ganze Familie erleichtert.",
+      },
+      {
+        h: "Häufige Probleme beheben",
+        p: "Wenn ein Sender nicht startet, prüfen Sie zuerst Ihre Internetverbindung (25 Mbit/s für 4K empfohlen) und wechseln Sie das Dekoderformat in den Einstellungen (Hardware/Software). Zeigt der EPG nichts an, aktualisieren Sie ihn in den Einstellungen. Bei einem Login-Fehler prüfen Sie, ob URL und Zugangsdaten exakt wie gesendet eingegeben sind. Der ATV-Corner-Support löst die meisten Fälle per WhatsApp in wenigen Minuten.",
+      },
+    ],
+    faq: [
+      { q: "Ist IPTV Smarters Pro kostenlos?", a: "Die App IPTV Smarters Pro ist kostenlos herunterzuladen. Sie benötigen ein IPTV-Abo wie ATV Corner, um über Ihren Xtream-Codes-Login auf Inhalte zuzugreifen." },
+      { q: "Wie verbinde ich ATV Corner mit IPTV Smarters Pro?", a: "Wählen Sie \u201eLogin with Xtream Codes API\u201c und geben Sie die von ATV Corner gesendete URL, Benutzername und Passwort ein. Sender und EPG laden automatisch." },
+      { q: "Auf welchen Geräten läuft IPTV Smarters Pro?", a: "Firestick, Android, Android TV, iPhone, iPad und viele Smart TVs. Ihre ATV-Corner-Zugangsdaten funktionieren auf mehreren Geräten." },
+      { q: "Warum startet ein Sender nicht?", a: "Meist die Verbindung oder das Dekoderformat. Wechseln Sie in den Einstellungen von Hardware zu Software und prüfen Sie Ihre Geschwindigkeit. Unser Support hilft bei Bedarf." },
+      { q: "Kann ich IPTV Smarters Pro mit einem Gratis-Test nutzen?", a: "Ja. Der 24-Stunden-Gratis-Test von ATV Corner funktioniert in IPTV Smarters Pro genau wie ein vollständiges Abo." },
+    ],
+    cta: "Zugangsdaten erhalten",
+  },
+};
+
+// =============================================================================
+// /cable-tv-alternative — Targets "cable tv alternative", "cut the cord", "alternative to cable"
+// =============================================================================
+content["cable-tv-alternative"] = {
+  fr: {
+    metaTitle: "Alternative au Câble — Remplacez Votre Abonnement TV | IPTV",
+    metaDesc:
+      "La meilleure alternative au câble et au satellite : 66 000+ chaînes et 70 000+ films en 4K dès 5 €/mois, sans engagement. Coupez le cordon avec ATV Corner.",
+    eyebrow: "Alternative au câble · Sans engagement",
+    h1: "La meilleure alternative",
+    h1Accent: "au câble",
+    intro:
+      "Payez-vous 40 à 100 € par mois pour le câble ? ATV Corner est l'alternative moderne : 66 000+ chaînes et 70 000+ films en 4K/8K, sans engagement, dès 5 €/mois. Coupez le cordon sans rien perdre.",
+    features: [
+      { h: "Jusqu'à 90 % d'économie", p: "Le câble coûte 40 à 100 €/mois. ATV Corner démarre à 5 €/mois pour bien plus de contenu." },
+      { h: "Sans engagement", p: "Aucun contrat de 12 ou 24 mois, aucune reconduction. Vous annulez quand vous voulez." },
+      { h: "Plus de chaînes", p: "66 000+ chaînes internationales contre 80 à 200 pour un bouquet câble classique." },
+      { h: "Aucun matériel loué", p: "Pas de décodeur à louer ni de technicien. Vous utilisez la Smart TV ou le Firestick que vous avez déjà." },
+    ],
+    sections: [
+      {
+        h: "Pourquoi couper le cordon du câble",
+        p: "Les abonnements câble et satellite cumulent les défauts : prix élevés, contrats longs, location de décodeur, bouquets sport en supplément et catalogue limité. L'IPTV inverse le modèle. Pour une fraction du prix, ATV Corner réunit 66 000+ chaînes, 70 000+ films et 18 000+ séries en 4K/8K, sans engagement. Vous gardez vos chaînes préférées, le sport et l'international, mais vous supprimez le décodeur, le technicien et la facture à trois chiffres.",
+      },
+      {
+        h: "Ce que vous gardez en passant à l'IPTV",
+        p: "Passer du câble à l'IPTV ne veut pas dire perdre du contenu — au contraire. Vous conservez les chaînes de sport (Premier League, Ligue 1, Champions League, NBA, F1), l'info, le cinéma et la jeunesse, et vous ajoutez des milliers de chaînes internationales absentes des bouquets classiques. Le guide des programmes (EPG) reste intégré, et la bibliothèque VOD remplace la location payante à la demande. La qualité 4K/8K dépasse souvent celle du câble, limité en 4K.",
+      },
+      {
+        h: "Migrer sans coupure ni matériel",
+        p: "Vous n'avez besoin d'aucun nouvel équipement : votre Smart TV, un Fire TV Stick, un smartphone ou une box Android suffisent. Après l'abonnement, ATV Corner vous envoie vos identifiants par WhatsApp en moins de 5 minutes ; vous les saisissez dans TiviMate ou IPTV Smarters Pro et vous regardez immédiatement. Vous pouvez même tester gratuitement 24h en parallèle de votre câble actuel, puis résilier ce dernier une fois convaincu.",
+      },
+    ],
+    faq: [
+      { q: "L'IPTV est-elle une vraie alternative au câble ?", a: "Oui. ATV Corner offre 66 000+ chaînes et 70 000+ films en 4K/8K, soit bien plus qu'un bouquet câble, sans décodeur ni engagement, dès 5 €/mois." },
+      { q: "Combien puis-je économiser en quittant le câble ?", a: "Le câble coûte 40 à 100 €/mois. Avec ATV Corner à partir de 5 €/mois, l'économie peut atteindre 90 % tout en accédant à plus de contenu." },
+      { q: "Ai-je besoin de nouveau matériel ?", a: "Non. Une Smart TV, un Fire TV Stick, un smartphone ou une box Android suffisent. Aucun décodeur à louer ni technicien à faire venir." },
+      { q: "Vais-je perdre le sport et mes chaînes préférées ?", a: "Non. Vous gardez le sport, l'info, le cinéma et la jeunesse, et vous ajoutez des milliers de chaînes internationales, avec guide des programmes intégré." },
+      { q: "Puis-je tester avant de résilier mon câble ?", a: "Oui. Un essai gratuit de 24h vous permet de comparer ATV Corner à votre câble actuel avant de résilier." },
+    ],
+    cta: "Couper le cordon",
+  },
+  en: {
+    metaTitle: "Cable TV Alternative — Replace Your TV Package | IPTV",
+    metaDesc:
+      "The best alternative to cable and satellite: 66,000+ channels and 70,000+ movies in 4K from $5/mo, no contract. Cut the cord with ATV Corner IPTV.",
+    eyebrow: "Cable TV alternative · No contract",
+    h1: "The best alternative",
+    h1Accent: "to cable",
+    intro:
+      "Paying $45 to $110 a month for cable? ATV Corner is the modern alternative: 66,000+ channels and 70,000+ movies in 4K/8K, no contract, from $5/mo. Cut the cord without losing a thing.",
+    features: [
+      { h: "Up to 90% savings", p: "Cable runs $45–110/mo. ATV Corner starts at $5/mo for far more content." },
+      { h: "No contract", p: "No 12 or 24-month agreement, no auto-renewal. Cancel whenever you want." },
+      { h: "More channels", p: "66,000+ international channels versus 80–200 on a typical cable package." },
+      { h: "No rented hardware", p: "No box to rent, no technician. Use the Smart TV or Firestick you already own." },
+    ],
+    sections: [
+      {
+        h: "Why cut the cord on cable",
+        p: "Cable and satellite subscriptions stack up drawbacks: high prices, long contracts, rented set-top boxes, sports as a paid add-on and a limited catalog. IPTV flips the model. For a fraction of the price, ATV Corner brings together 66,000+ channels, 70,000+ movies and 18,000+ series in 4K/8K, with no contract. You keep your favorite channels, sports and international feeds — but drop the box, the technician and the three-figure bill.",
+      },
+      {
+        h: "What you keep when you switch to IPTV",
+        p: "Moving from cable to IPTV doesn't mean losing content — the opposite. You keep sports channels (Premier League, La Liga, Champions League, NBA, F1), news, cinema and kids, and you add thousands of international channels missing from standard packages. The program guide (EPG) stays built in, and the VOD library replaces paid on-demand rentals. The 4K/8K quality often beats cable, which is limited on 4K.",
+      },
+      {
+        h: "Switch with no downtime or hardware",
+        p: "You need no new equipment: your Smart TV, a Fire TV Stick, a phone or an Android box is enough. After you subscribe, ATV Corner sends your credentials via WhatsApp in under 5 minutes; you enter them in TiviMate or IPTV Smarters Pro and watch right away. You can even run a free 24-hour trial alongside your current cable, then cancel it once you're convinced.",
+      },
+    ],
+    faq: [
+      { q: "Is IPTV a real alternative to cable?", a: "Yes. ATV Corner offers 66,000+ channels and 70,000+ movies in 4K/8K — far more than a cable package, with no box or contract, from $5/mo." },
+      { q: "How much can I save by leaving cable?", a: "Cable costs $45–110/mo. With ATV Corner from $5/mo, savings can reach 90% while accessing more content." },
+      { q: "Do I need new hardware?", a: "No. A Smart TV, Fire TV Stick, phone or Android box is enough. No box to rent and no technician visit." },
+      { q: "Will I lose sports and my favorite channels?", a: "No. You keep sports, news, cinema and kids, and add thousands of international channels, with a built-in program guide." },
+      { q: "Can I test before cancelling my cable?", a: "Yes. A free 24-hour trial lets you compare ATV Corner to your current cable before cancelling." },
+    ],
+    cta: "Cut the cord",
+  },
+  de: {
+    metaTitle: "Kabel-TV-Alternative — Ersetzen Sie Ihr TV-Paket | IPTV",
+    metaDesc:
+      "Die beste Alternative zu Kabel und Satellit: 66.000+ Sender und 70.000+ Filme in 4K ab 5 €/Monat, ohne Vertrag. Schneiden Sie das Kabel mit ATV Corner.",
+    eyebrow: "Kabel-Alternative · Ohne Vertrag",
+    h1: "Die beste Alternative",
+    h1Accent: "zum Kabel",
+    intro:
+      "Zahlen Sie 40 bis 100 € im Monat für Kabel? ATV Corner ist die moderne Alternative: 66.000+ Sender und 70.000+ Filme in 4K/8K, ohne Vertrag, ab 5 €/Monat. Schneiden Sie das Kabel, ohne etwas zu verlieren.",
+    features: [
+      { h: "Bis zu 90 % Ersparnis", p: "Kabel kostet 40–100 €/Monat. ATV Corner beginnt bei 5 €/Monat für weit mehr Inhalt." },
+      { h: "Ohne Vertrag", p: "Kein 12- oder 24-Monats-Vertrag, keine automatische Verlängerung. Jederzeit kündbar." },
+      { h: "Mehr Sender", p: "66.000+ internationale Sender gegenüber 80–200 bei einem typischen Kabelpaket." },
+      { h: "Keine Mietgeräte", p: "Kein Receiver zu mieten, kein Techniker. Nutzen Sie den Smart TV oder Firestick, den Sie bereits haben." },
+    ],
+    sections: [
+      {
+        h: "Warum das Kabel kappen",
+        p: "Kabel- und Satelliten-Abos häufen Nachteile: hohe Preise, lange Verträge, gemietete Receiver, Sport als kostenpflichtiges Extra und ein begrenzter Katalog. IPTV dreht das Modell um. Für einen Bruchteil des Preises vereint ATV Corner 66.000+ Sender, 70.000+ Filme und 18.000+ Serien in 4K/8K, ohne Vertrag. Sie behalten Ihre Lieblingssender, Sport und internationale Feeds — aber lassen Receiver, Techniker und die dreistellige Rechnung hinter sich.",
+      },
+      {
+        h: "Was Sie beim Wechsel zu IPTV behalten",
+        p: "Der Wechsel von Kabel zu IPTV bedeutet keinen Inhaltsverlust — im Gegenteil. Sie behalten Sportsender (Premier League, La Liga, Champions League, NBA, F1), News, Kino und Kinderprogramm und fügen Tausende internationale Sender hinzu, die in Standardpaketen fehlen. Der Programmführer (EPG) bleibt integriert, und die VOD-Bibliothek ersetzt kostenpflichtige Abruf-Leihen. Die 4K/8K-Qualität übertrifft oft das im 4K begrenzte Kabel.",
+      },
+      {
+        h: "Wechseln ohne Ausfall oder Hardware",
+        p: "Sie brauchen keine neue Ausrüstung: Ihr Smart TV, ein Fire TV Stick, ein Handy oder eine Android-Box genügt. Nach dem Abo sendet ATV Corner Ihre Zugangsdaten per WhatsApp in unter 5 Minuten; Sie geben sie in TiviMate oder IPTV Smarters Pro ein und schauen sofort. Sie können sogar einen kostenlosen 24h-Test parallel zu Ihrem aktuellen Kabel laufen lassen und dieses kündigen, sobald Sie überzeugt sind.",
+      },
+    ],
+    faq: [
+      { q: "Ist IPTV eine echte Alternative zum Kabel?", a: "Ja. ATV Corner bietet 66.000+ Sender und 70.000+ Filme in 4K/8K — weit mehr als ein Kabelpaket, ohne Receiver oder Vertrag, ab 5 €/Monat." },
+      { q: "Wie viel kann ich beim Verlassen des Kabels sparen?", a: "Kabel kostet 40–100 €/Monat. Mit ATV Corner ab 5 €/Monat kann die Ersparnis 90 % erreichen, bei mehr Inhalt." },
+      { q: "Brauche ich neue Hardware?", a: "Nein. Ein Smart TV, Fire TV Stick, Handy oder eine Android-Box genügt. Kein Receiver zu mieten und kein Technikerbesuch." },
+      { q: "Verliere ich Sport und meine Lieblingssender?", a: "Nein. Sie behalten Sport, News, Kino und Kinderprogramm und fügen Tausende internationale Sender hinzu, mit integriertem Programmführer." },
+      { q: "Kann ich testen, bevor ich mein Kabel kündige?", a: "Ja. Ein kostenloser 24-Stunden-Test lässt Sie ATV Corner mit Ihrem aktuellen Kabel vergleichen, bevor Sie kündigen." },
+    ],
+    cta: "Kabel kappen",
+  },
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   return content[page][locale];
 }
@@ -1121,4 +1605,8 @@ export const seoPages: Page[] = [
   "best-iptv-alternatives",
   "iptv-free-trial",
   "best-iptv-service",
+  "iptv-subscription",
+  "iptv-firestick",
+  "iptv-smarters-pro",
+  "cable-tv-alternative",
 ];
