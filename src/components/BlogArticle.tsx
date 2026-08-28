@@ -140,7 +140,7 @@ export function BlogArticle({ post, lang, related }: Props) {
     mainEntityOfPage: `${siteConfig.url}/${lang}/blog/${post.slug}`,
     inLanguage: lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US",
     keywords: post.keywords.join(", "),
-    ...(post.cover ? { image: `${siteConfig.url}${post.cover}` } : {}),
+    ...((loc.cover ?? post.cover) ? { image: `${siteConfig.url}${loc.cover ?? post.cover}` } : {}),
   };
 
   const faqLd = {
@@ -200,10 +200,10 @@ export function BlogArticle({ post, lang, related }: Props) {
           </div>
         </header>
 
-        {post.cover && (
+        {(loc.cover ?? post.cover) && (
           <figure className="mb-10 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
             <Image
-              src={post.cover}
+              src={(loc.cover ?? post.cover) as string}
               alt={loc.title}
               width={1200}
               height={675}

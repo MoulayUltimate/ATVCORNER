@@ -22,6 +22,7 @@ export const wasIstIptv: BlogPost = {
         "IPTV bedeutet Fernsehen über das Internet statt über Kabel, Satellit oder Antenne. Dieser Guide erklärt in einfachen Worten, wie es funktioniert, was Sie brauchen und was es kostet.",
       category: "Grundlagen",
       readMinutes: 8,
+      cover: "/blog/was-ist-iptv-main-de.png",
       body: [
         { type: "p", text: "IPTV steht für „Internet Protocol Television“ — also Fernsehen, das über Ihre Internetverbindung ausgeliefert wird statt über ein Kabel, eine Satellitenschüssel oder eine Antenne. Statt eines festen Sendersignals empfängt Ihr Gerät einen Datenstrom, genau wie bei Netflix oder YouTube. Der Unterschied: IPTV bündelt Live-Fernsehen, Sport, Filme und Serien in einer einzigen App. Bei ATV Corner sind das 66.000+ Sender und 70.000+ Filme und Serien in 4K/8K." },
         { type: "h2", text: "Was bedeutet IPTV genau?" },
@@ -38,6 +39,7 @@ export const wasIstIptv: BlogPost = {
           "Einen Abo-Zugang: Ihre Xtream-Codes-Daten oder Ihren M3U-Link vom Anbieter.",
         ]},
         { type: "p", text: "Mehr ist nicht nötig. Sie brauchen keinen neuen Receiver und keinen Techniker — die Geräte, die Sie bereits besitzen, reichen aus." },
+        { type: "img", src: "/blog/was-ist-iptv-steps-de.png", alt: "IPTV in 3 Schritten einrichten: Abo abschließen, App öffnen, Zugangsdaten eingeben — 66.000+ Sender live.", caption: "IPTV ist in unter 5 Minuten startklar — auf jedem Gerät." },
         { type: "h2", text: "IPTV vs. Kabel und Satellit" },
         { type: "p", text: "Ein Kabel- oder Satelliten-Abo kostet oft 40 bis 100 € im Monat, bindet Sie für 12 bis 24 Monate und liefert 80 bis 200 Sender. IPTV kehrt das Verhältnis um: Bei ATV Corner beginnen die Abos bei 5 €/Monat, ohne Vertragsbindung, mit 66.000+ Sendern und 70.000+ Filmen und Serien. Sport, News, Kino und internationale Sender sind enthalten statt als teure Zusatzpakete." },
         { type: "quote", text: "IPTV ist die natürliche Weiterentwicklung des Fernsehens: mehr Inhalt, bessere Qualität, überall verfügbar — zu einem Bruchteil der Kabelkosten." },
@@ -64,6 +66,7 @@ export const wasIstIptv: BlogPost = {
         "IPTV means watching television over the internet instead of cable, satellite or an aerial. This guide explains in plain terms how it works, what you need and what it costs.",
       category: "Basics",
       readMinutes: 8,
+      cover: "/blog/was-ist-iptv-main-en.png",
       body: [
         { type: "p", text: "IPTV stands for “Internet Protocol Television” — television delivered over your internet connection instead of a cable, a satellite dish or an aerial. Rather than a fixed broadcast signal, your device receives a data stream, exactly like Netflix or YouTube. The difference: IPTV bundles live TV, sports, movies and series into a single app. With ATV Corner that means 66,000+ channels and 70,000+ movies and series in 4K/8K." },
         { type: "h2", text: "What does IPTV actually mean?" },
@@ -80,6 +83,7 @@ export const wasIstIptv: BlogPost = {
           "A subscription login: your Xtream Codes details or M3U link from the provider.",
         ]},
         { type: "p", text: "That's all. You need no new receiver and no technician — the devices you already own are enough." },
+        { type: "img", src: "/blog/was-ist-iptv-steps-en.png", alt: "Setting up IPTV in 3 steps: subscribe, open the app, enter your credentials — 66,000+ channels live.", caption: "IPTV is up and running in under 5 minutes — on every device." },
         { type: "h2", text: "IPTV vs cable and satellite" },
         { type: "p", text: "A cable or satellite package often costs $45 to $110 a month, ties you in for 12 to 24 months and delivers 80 to 200 channels. IPTV reverses that ratio: at ATV Corner plans start at $5/mo, with no contract, 66,000+ channels and 70,000+ movies and series. Sports, news, cinema and international channels are included rather than sold as expensive add-ons." },
         { type: "quote", text: "IPTV is the natural evolution of TV: more content, better quality, available anywhere — for a fraction of the cost of cable." },
@@ -106,6 +110,7 @@ export const wasIstIptv: BlogPost = {
         "L'IPTV, c'est regarder la télévision via internet plutôt que par câble, satellite ou antenne. Ce guide explique simplement comment ça fonctionne, ce qu'il vous faut et combien ça coûte.",
       category: "Bases",
       readMinutes: 8,
+      cover: "/blog/was-ist-iptv-main-fr.png",
       body: [
         { type: "p", text: "IPTV signifie « Internet Protocol Television » — la télévision livrée via votre connexion internet plutôt que par un câble, une parabole ou une antenne. Au lieu d'un signal de diffusion fixe, votre appareil reçoit un flux de données, exactement comme Netflix ou YouTube. La différence : l'IPTV réunit télévision en direct, sport, films et séries dans une seule application. Chez ATV Corner, cela représente 66 000+ chaînes et 70 000+ films et séries en 4K/8K." },
         { type: "h2", text: "Que signifie IPTV exactement ?" },
@@ -122,6 +127,7 @@ export const wasIstIptv: BlogPost = {
           "Un accès d'abonnement : vos identifiants Xtream Codes ou votre lien M3U fournis par le service.",
         ]},
         { type: "p", text: "Rien de plus. Aucun nouveau décodeur ni technicien nécessaire — les appareils que vous possédez déjà suffisent." },
+        { type: "img", src: "/blog/was-ist-iptv-steps-fr.png", alt: "Configurer l'IPTV en 3 étapes : s'abonner, ouvrir l'app, saisir ses identifiants — 66 000+ chaînes en direct.", caption: "L'IPTV est prête en moins de 5 minutes — sur chaque appareil." },
         { type: "h2", text: "IPTV vs câble et satellite" },
         { type: "p", text: "Un abonnement câble ou satellite coûte souvent 40 à 100 € par mois, vous engage sur 12 à 24 mois et propose 80 à 200 chaînes. L'IPTV inverse ce rapport : chez ATV Corner, les abonnements démarrent à 5 €/mois, sans engagement, avec 66 000+ chaînes et 70 000+ films et séries. Sport, info, cinéma et chaînes internationales sont inclus plutôt que vendus en bouquets coûteux." },
         { type: "quote", text: "L'IPTV est l'évolution naturelle de la télévision : plus de contenu, une meilleure qualité, accessible partout — pour une fraction du prix du câble." },

@@ -9,6 +9,8 @@ export type BlogPostLocale = {
   readMinutes: number;
   body: BlogBlock[];
   faq: { q: string; a: string }[];
+  /** Locale-specific featured/OG image (labels in this language). Falls back to BlogPost.cover. */
+  cover?: string;
 };
 
 export type BlogBlock =
