@@ -164,7 +164,7 @@ export function BlogArticle({ post, lang, related }: Props) {
 
   return (
     <>
-      <article className="container-luxe pt-24 pb-16 max-w-3xl">
+      <article className="container-luxe pt-8 sm:pt-12 pb-16 max-w-3xl">
         <div className="mb-6">
           <Link
             href={`/${lang}/blog`}
