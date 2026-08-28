@@ -3,7 +3,8 @@ import Script from "next/script";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { CheckIcon } from "@/components/CheckIcon";
 import { FaqAccordion } from "@/components/FaqAccordion";
-import type { SeoContent } from "@/lib/seo-content";
+import type { SeoContent, SeoPage } from "@/lib/seo-content";
+import { getRelatedPages, relatedHeading } from "@/lib/seo-links";
 import type { Locale } from "@/i18n";
 
 export function SeoLandingPage({
@@ -15,6 +16,7 @@ export function SeoLandingPage({
   lang: Locale;
   slug: string;
 }) {
+  const relatedLinks = getRelatedPages(slug as SeoPage, lang);
   const faqLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -109,6 +111,36 @@ export function SeoLandingPage({
           </div>
         </div>
       </section>
+
+      {relatedLinks.length > 0 && (
+        <section className="container-luxe pb-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-center text-2xl md:text-3xl font-display font-bold text-white">
+              {relatedHeading[lang]}
+            </h2>
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-5">
+              {relatedLinks.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${lang}/${r.slug}`}
+                  className="glass-card rounded-2xl p-6 hover:border-emerald-400/40 transition-colors group"
+                >
+                  <h3 className="text-base font-display font-semibold text-white group-hover:text-emerald-300 transition-colors">
+                    {r.label}
+                  </h3>
+                  <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
+                    {r.blurb}
+                  </p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm text-emerald-400 font-medium">
+                    {lang === "fr" ? "Découvrir" : lang === "de" ? "Ansehen" : "Read more"}
+                    <span aria-hidden className="transition-transform group-hover:translate-x-0.5">→</span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="container-luxe pb-24">
         <div className="glass-card rounded-3xl p-10 md:p-14 text-center">

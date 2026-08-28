@@ -16,7 +16,7 @@ export type SeoContent = {
   cta: string;
 };
 
-type Page =
+export type Page =
   | "iptv-premium"
   | "iptv-8k"
   | "iptv-4k"
@@ -1594,6 +1594,9 @@ content["cable-tv-alternative"] = {
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   return content[page][locale];
 }
+
+/** Public alias — the union of every SEO landing page slug. */
+export type SeoPage = Page;
 
 export const seoPages: Page[] = [
   "iptv-premium",
