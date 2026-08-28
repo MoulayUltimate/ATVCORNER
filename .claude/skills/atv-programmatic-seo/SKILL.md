@@ -120,8 +120,11 @@ generation — a real photo underneath, meaning drawn on top in SVG.
 Setup (once): `imagery.config.json` at repo root already mirrors our tokens
 (bg `#0c0e12`, accent `#25d366`, ink `#e2e2e8`, domain `atvcorner.com`).
 Requires `UNSPLASH_ACCESS_KEY` in `.env.local` and
-`npm i -D playwright-core && npx playwright install chromium`. Composites go to
-`public/blog/<slug>-main.png` and `public/blog/<slug>-<n>.png`; keyword-bearing
+`npm i -D playwright-core && npx playwright install chromium`. Composites are rendered as PNG then **converted to JPEG** before committing —
+a 1820x1024 PNG is ~1.8 MB, the JPEG ~300 KB with no visible loss on the text:
+`sips -s format jpeg -s formatOptions 88 x.png --out x.jpg && rm x.png`.
+Committing the PNGs put 68 MB in one commit and stalled the push. Final files go to
+`public/blog/<slug>-main-<loc>.jpg` and `public/blog/<slug>-steps-<loc>.jpg`; keyword-bearing
 filenames + descriptive, localized `alt`. Candidate frames stay in `tmp/`
 (gitignored, third-party licensed) — only the finished composite is committed.
 
