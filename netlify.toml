@@ -1,5 +1,14 @@
 # Netlify auto-detects Next.js and injects @netlify/plugin-nextjs automatically.
-# This file only registers the local IndexNow plugin (runs onSuccess, after deploy).
+# This file registers the local IndexNow plugin (runs onSuccess, after deploy)
+# and the security headers applied to every response.
 
 [[plugins]]
   package = "/netlify/plugins/indexnow"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

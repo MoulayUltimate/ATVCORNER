@@ -316,7 +316,7 @@
     "sections": [
       { "h": "Éditeur du site", "p": "Le site atvcorner.com est édité par ATV Corner. Pour toute correspondance, contactez-nous à l'adresse e-mail indiquée ci-dessous." },
       { "h": "Contact", "p": "E-mail : support@atvcorner.com — WhatsApp disponible 7j/7 via le bouton présent sur chaque page." },
-      { "h": "Hébergement", "p": "Le site est hébergé sur l'infrastructure de Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis." },
+      { "h": "Hébergement", "p": "Le site est hébergé sur l'infrastructure de Netlify, Inc., 512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis." },
       { "h": "Propriété intellectuelle", "p": "L'ensemble du contenu présent sur atvcorner.com (textes, logos, images, code) est protégé par le droit d'auteur. Toute reproduction sans accord écrit préalable est interdite." },
       { "h": "Responsabilité", "p": "ATV Corner s'efforce d'assurer l'exactitude des informations diffusées mais ne saurait être tenu responsable des erreurs ou omissions, ni des conséquences de leur utilisation." }
     ]

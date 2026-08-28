@@ -63,11 +63,30 @@ function detectLocale(request: NextRequest): Locale {
     return cookieLocale as Locale;
   }
 
-  // 2. Country code from CDN edge (Cloudflare / Vercel)
-  const country =
-    request.headers.get("cf-ipcountry") ??
-    request.headers.get("x-vercel-ip-country") ??
-    null;
+  // 2. Country code from CDN edge (Netlify / Cloudflare / Vercel)
+  let country =
+    request.headers.get("x-country") ?? // Netlify Edge
+    request.headers.get("cf-ipcountry") ?? // Cloudflare
+    request.headers.get("x-vercel-ip-country") ?? // Vercel
+    "";
+  if (!country) {
+    // Netlify packs richer geo into x-nf-geo as base64-encoded JSON.
+    const nfGeo = request.headers.get("x-nf-geo");
+    if (nfGeo) {
+      try {
+        const decoded = JSON.parse(
+          typeof atob === "function"
+            ? atob(nfGeo)
+            : Buffer.from(nfGeo, "base64").toString("utf8"),
+        );
+        if (typeof decoded?.country?.code === "string") {
+          country = decoded.country.code;
+        }
+      } catch {
+        /* ignore malformed geo header */
+      }
+    }
+  }
   if (country && countryToLocale[country.toUpperCase()]) {
     return countryToLocale[country.toUpperCase()];
   }
