@@ -10,6 +10,7 @@ import { smartStbPortalUrl } from "./posts/smart-stb-portal-url";
 import { wasIstIptv } from "./posts/was-ist-iptv";
 import { iptvRuckeltBeheben } from "./posts/iptv-ruckelt-beheben";
 import { kabelKuendigenIptv } from "./posts/kabel-kuendigen-iptv";
+import { kostenlosFernsehen } from "./posts/kostenlos-fernsehen";
 
 export type { BlogPost, BlogPostLocale, BlogBlock } from "./types";
 
@@ -23,6 +24,7 @@ export const blogPosts: BlogPost[] = [
   wasIstIptv,
   iptvRuckeltBeheben,
   kabelKuendigenIptv,
+  kostenlosFernsehen,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export const blogSlugs: string[] = blogPosts.map((p) => p.slug);
