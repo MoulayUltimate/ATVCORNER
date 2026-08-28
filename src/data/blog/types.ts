@@ -18,7 +18,8 @@ export type BlogBlock =
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string }
-  | { type: "cta"; text: string };
+  | { type: "cta"; text: string }
+  | { type: "img"; src: string; alt: string; caption?: string; width?: number; height?: number };
 
 export type BlogPost = {
   slug: string;

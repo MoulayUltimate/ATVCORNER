@@ -7,6 +7,7 @@ import { fourKvsEightKIptv } from "./posts/4k-vs-8k-iptv";
 import { ottPremiumVsIptv } from "./posts/ott-premium-vs-iptv";
 import { tivimateVsSmarters } from "./posts/tivimate-vs-smarters";
 import { smartStbPortalUrl } from "./posts/smart-stb-portal-url";
+import { wasIstIptv } from "./posts/was-ist-iptv";
 
 export type { BlogPost, BlogPostLocale, BlogBlock } from "./types";
 
@@ -17,6 +18,7 @@ export const blogPosts: BlogPost[] = [
   ottPremiumVsIptv,
   tivimateVsSmarters,
   smartStbPortalUrl,
+  wasIstIptv,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export const blogSlugs: string[] = blogPosts.map((p) => p.slug);

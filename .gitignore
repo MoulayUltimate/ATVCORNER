@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# page-imagery candidate frames (third-party licensed)
+tmp/

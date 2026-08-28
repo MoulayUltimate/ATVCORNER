@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Script from "next/script";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -93,6 +94,26 @@ function Block({ b }: { b: BlogBlock }) {
           <p className="text-emerald-200 font-semibold">{b.text}</p>
         </div>
       );
+    case "img":
+      return (
+        <figure className="mt-10">
+          <div className="overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
+            <Image
+              src={b.src}
+              alt={b.alt}
+              width={b.width ?? 1200}
+              height={b.height ?? 675}
+              sizes="(max-width: 768px) 100vw, 768px"
+              className="w-full h-auto"
+            />
+          </div>
+          {b.caption && (
+            <figcaption className="mt-3 text-center text-xs text-zinc-500">
+              {b.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
     default:
       return null;
   }
@@ -119,6 +140,7 @@ export function BlogArticle({ post, lang, related }: Props) {
     mainEntityOfPage: `${siteConfig.url}/${lang}/blog/${post.slug}`,
     inLanguage: lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US",
     keywords: post.keywords.join(", "),
+    ...(post.cover ? { image: `${siteConfig.url}${post.cover}` } : {}),
   };
 
   const faqLd = {
@@ -177,6 +199,20 @@ export function BlogArticle({ post, lang, related }: Props) {
             </span>
           </div>
         </header>
+
+        {post.cover && (
+          <figure className="mb-10 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
+            <Image
+              src={post.cover}
+              alt={loc.title}
+              width={1200}
+              height={675}
+              priority
+              sizes="(max-width: 768px) 100vw, 768px"
+              className="w-full h-auto"
+            />
+          </figure>
+        )}
 
         <div className="text-lg text-zinc-200 leading-relaxed border-l-2 border-emerald-400/40 pl-5 italic">
           {loc.excerpt}

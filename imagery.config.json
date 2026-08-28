@@ -1,0 +1,14 @@
+{
+  "domain": "atvcorner.com",
+  "colors": {
+    "primary": "#0c0e12",
+    "primaryLight": "#1a1c20",
+    "accent": "#25d366",
+    "accentSoft": "#128c7e",
+    "surface": "#111317",
+    "muted": "#b8c5be",
+    "ink": "#e2e2e8",
+    "inkSoft": "#9aa0a6",
+    "line": "rgba(255,255,255,0.12)"
+  }
+}
