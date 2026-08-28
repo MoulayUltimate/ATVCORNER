@@ -108,24 +108,6 @@ export function PricingGrid({ dict, lang }: Props) {
               >
                 {pricing.out_of_stock}
               </button>
-            ) : p.stripeLink ? (
-              <a
-                href={p.stripeLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-track-plan={p.id}
-                className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
-                  featured
-                    ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"
-                    : "bg-white text-zinc-950 hover:bg-zinc-100"
-                }`}
-              >
-                {lang === "fr"
-                  ? "Commencer"
-                  : lang === "de"
-                  ? "Loslegen"
-                  : "Get started"}
-              </a>
             ) : (
               <a
                 href={whatsappUrl(
@@ -139,10 +121,14 @@ export function PricingGrid({ dict, lang }: Props) {
                 className={`block text-center w-full py-3.5 rounded-full font-semibold transition-all ${
                   featured
                     ? "bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 hover:scale-[1.03] shadow-xl shadow-emerald-500/30"
-                    : "bg-white/5 text-white border border-white/15 hover:bg-white/10 hover:border-emerald-400/40"
+                    : "bg-white text-zinc-950 hover:bg-zinc-100"
                 }`}
               >
-                {pricing.cta}
+                {lang === "fr"
+                  ? "Commencer"
+                  : lang === "de"
+                  ? "Loslegen"
+                  : "Get started"}
               </a>
             )}
           </article>
