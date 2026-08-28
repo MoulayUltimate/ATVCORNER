@@ -48,6 +48,12 @@ export const wasIstIptv: BlogPost = {
         { type: "h2", text: "Wie schnell kann ich starten?" },
         { type: "p", text: "In unter 5 Minuten. Nach der Zahlung erhalten Sie Ihre Zugangsdaten per WhatsApp, geben sie in Ihre IPTV-App ein — und Ihre 66.000+ Sender laden mit vollständigem Programmführer. Wer erst testen möchte, startet mit einem kostenlosen 24-Stunden-Test ohne Kreditkarte." },
         { type: "cta", text: "Bereit, IPTV auszuprobieren? Starten Sie mit einem kostenlosen 24h-Test oder sichern Sie sich ein Abo ab 5 €/Monat — 66.000+ Sender, 4K/8K, Aktivierung in 5 Minuten." },
+        { type: "links", items: [
+          { href: "/iptv-subscription", label: "IPTV Abonnement", text: "Laufzeiten 1 bis 12 Monate, ab 5 €/Monat." },
+          { href: "/iptv-free-trial", label: "24h Gratis-Test", text: "Ohne Kreditkarte testen." },
+          { href: "/cable-tv-alternative", label: "Kabel-Alternative", text: "Was der Umstieg wirklich spart." },
+          { href: "/iptv-firestick", label: "IPTV auf Firestick", text: "Einrichtung in 5 Minuten." },
+        ]},
       ],
       faq: [
         { q: "Was ist IPTV einfach erklärt?", a: "IPTV ist Fernsehen über das Internet statt über Kabel, Satellit oder Antenne. Sie empfangen Live-Sender, Filme und Serien als Datenstrom in einer App — auf Smart TV, Handy, Tablet oder Firestick." },
@@ -92,6 +98,12 @@ export const wasIstIptv: BlogPost = {
         { type: "h2", text: "How fast can I start?" },
         { type: "p", text: "In under 5 minutes. After payment you receive your credentials via WhatsApp, enter them in your IPTV app — and your 66,000+ channels load with a full program guide. If you'd rather test first, start with a free 24-hour trial with no credit card." },
         { type: "cta", text: "Ready to try IPTV? Start with a free 24-hour trial or grab a plan from $5/mo — 66,000+ channels, 4K/8K, activated in 5 minutes." },
+        { type: "links", items: [
+          { href: "/iptv-subscription", label: "IPTV Subscription", text: "Plans from 1 to 12 months, from $5/mo." },
+          { href: "/iptv-free-trial", label: "24h free trial", text: "Test with no credit card." },
+          { href: "/cable-tv-alternative", label: "Cable TV alternative", text: "What switching actually saves." },
+          { href: "/iptv-firestick", label: "IPTV on Firestick", text: "Set up in 5 minutes." },
+        ]},
       ],
       faq: [
         { q: "What is IPTV in simple terms?", a: "IPTV is television over the internet instead of cable, satellite or an aerial. You receive live channels, movies and series as a data stream in an app — on Smart TV, phone, tablet or Firestick." },
@@ -136,6 +148,12 @@ export const wasIstIptv: BlogPost = {
         { type: "h2", text: "En combien de temps puis-je commencer ?" },
         { type: "p", text: "En moins de 5 minutes. Après le paiement, vous recevez vos identifiants par WhatsApp, vous les saisissez dans votre application IPTV — et vos 66 000+ chaînes se chargent avec le guide des programmes complet. Pour tester d'abord, commencez par un essai gratuit de 24 heures sans carte bancaire." },
         { type: "cta", text: "Prêt à essayer l'IPTV ? Commencez par un essai gratuit de 24h ou choisissez un abonnement dès 5 €/mois — 66 000+ chaînes, 4K/8K, activation en 5 minutes." },
+        { type: "links", items: [
+          { href: "/iptv-subscription", label: "Abonnement IPTV", text: "Formules 1 à 12 mois, dès 5 €/mois." },
+          { href: "/iptv-free-trial", label: "Essai gratuit 24h", text: "Testez sans carte bancaire." },
+          { href: "/cable-tv-alternative", label: "Alternative au câble", text: "Ce que le changement fait vraiment économiser." },
+          { href: "/iptv-firestick", label: "IPTV sur Firestick", text: "Installation en 5 minutes." },
+        ]},
       ],
       faq: [
         { q: "Qu'est-ce que l'IPTV en termes simples ?", a: "L'IPTV, c'est la télévision par internet au lieu du câble, du satellite ou de l'antenne. Vous recevez des chaînes en direct, des films et des séries en flux dans une application — sur Smart TV, téléphone, tablette ou Firestick." },

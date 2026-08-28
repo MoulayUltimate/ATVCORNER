@@ -45,7 +45,7 @@ const t = {
   },
 } as const;
 
-function Block({ b }: { b: BlogBlock }) {
+function Block({ b, lang }: { b: BlogBlock; lang: Locale }) {
   switch (b.type) {
     case "p":
       return <p className="text-zinc-300 leading-relaxed mt-5">{b.text}</p>;
@@ -113,6 +113,27 @@ function Block({ b }: { b: BlogBlock }) {
             </figcaption>
           )}
         </figure>
+      );
+    case "links":
+      return (
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {b.items.map((it) => (
+            <Link
+              key={it.href}
+              href={`/${lang}${it.href}`}
+              className="glass-card rounded-2xl p-5 hover:border-emerald-400/40 transition-colors group"
+            >
+              <span className="block text-sm font-display font-semibold text-white group-hover:text-emerald-300 transition-colors">
+                {it.label}
+              </span>
+              {it.text && (
+                <span className="mt-1.5 block text-sm text-zinc-400 leading-relaxed">
+                  {it.text}
+                </span>
+              )}
+            </Link>
+          ))}
+        </div>
       );
     default:
       return null;
@@ -220,7 +241,7 @@ export function BlogArticle({ post, lang, related }: Props) {
 
         <div className="mt-2">
           {loc.body.map((b, i) => (
-            <Block key={i} b={b} />
+            <Block key={i} b={b} lang={lang} />
           ))}
         </div>
 

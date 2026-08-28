@@ -21,7 +21,9 @@ export type BlogBlock =
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string }
   | { type: "cta"; text: string }
-  | { type: "img"; src: string; alt: string; caption?: string; width?: number; height?: number };
+  | { type: "img"; src: string; alt: string; caption?: string; width?: number; height?: number }
+  /** Internal links out to landing/tool pages. `href` is locale-relative, e.g. "/iptv-subscription". */
+  | { type: "links"; items: { href: string; label: string; text?: string }[] };
 
 export type BlogPost = {
   slug: string;
