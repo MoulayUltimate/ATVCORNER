@@ -39,7 +39,9 @@ export type Page =
   | "iptv-usa"
   | "iptv-apple-tv"
   | "iptv-android-tv"
-  | "iptv-mag-box";
+  | "iptv-mag-box"
+  | "iptv-canada"
+  | "iptv-uk";
 
 const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
 
@@ -2771,6 +2773,264 @@ content["iptv-mag-box"] = {
   },
 };
 
+// =============================================================================
+// /iptv-canada — "iptv canada" (27,100/mo, KD 14, +49% YoY) + "best iptv canada"
+// (4,400, KD 37) + "iptv subscription canada" (720, KD 10). Largest cluster found.
+// =============================================================================
+content["iptv-canada"] = {
+  en: {
+    metaTitle: "IPTV Canada — 66,000+ Channels, NHL & Bilingual, from $5/mo",
+    metaDesc:
+      "IPTV for Canada: Canadian and international channels, NHL, NBA, MLB and MLS, English and French programming in 4K/8K. No contract, active in 5 minutes, from $5/mo.",
+    eyebrow: "IPTV Canada · From $5/mo",
+    h1: "IPTV for",
+    h1Accent: "Canada",
+    intro:
+      "Canadian and international channels in one subscription, with NHL, NBA, MLB and MLS live, English and French programming, and 66,000+ channels in 4K/8K — delivered over the internet you already pay for. No cable contract, no rented box, activated in under 5 minutes from $5/mo.",
+    cover: "/blog/iptv-canada-main-en.jpg",
+    image: {
+      src: "/blog/iptv-canada-body-en.jpg",
+      alt: "What a Canadian household replaces with one IPTV subscription: cable package, box rental and paid sports add-ons.",
+      caption: "One subscription in place of a cable package and its sports tier.",
+    },
+    features: [
+      { h: "NHL, NBA, MLB, MLS", p: "Around 4,200 sport channels covering the leagues Canadians actually follow, plus international football." },
+      { h: "English and French", p: "Programming in both official languages, alongside channels from around the world." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 with adaptive bitrate, so fast motion on ice or court stays clean." },
+      { h: "From $5/mo", p: "1, 3, 6 and 12-month plans, no contract, with a 7-day money-back guarantee." },
+    ],
+    sections: [
+      { h: "Why Canadian households are leaving cable", p: "Canadian television has long been among the more expensive in the developed world once you total the base package, the box rental and the sports tier that carries the games you actually want. The commitment usually runs a year or two on top. IPTV changes the arithmetic rather than the living room: the same television, the same sofa, but the signal arrives over the internet connection already in the house. With ATV Corner that is 66,000+ channels and a library of 70,000+ films and 18,000+ series from $5/mo, with nothing mounted on the wall and no contract to escape later." },
+      { h: "Hockey, basketball and the rest of the sporting calendar", p: "Sport is the reason most Canadian households hesitate to cut the cord, because the leagues that matter tend to sit behind a premium tier sold separately. Around 4,200 sport channels are included here by default, covering NHL, NBA, MLB and MLS alongside international football — the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and the Champions League — plus UFC, Formula 1 and MotoGP. For anyone following a European league from Canada, that international layer is usually the part a domestic package cannot match at any price." },
+      { h: "Both official languages, and dozens more", p: "A Canadian channel list that ignores French is only half useful, and one that stops at English and French misses much of what the country actually watches. The catalogue carries programming in both official languages alongside channels from across Europe, the Middle East, Asia and Latin America. For bilingual households, and for families who want news or entertainment from where they grew up, that breadth is generally the deciding factor rather than the price — a domestic cable package simply does not carry it." },
+      { h: "Winter, bandwidth and why stability matters here", p: "An IPTV stream is continuous and real time, with no large buffer to smooth over a dip, so a steady connection matters more than a high headline speed. Plan on roughly 10 Mbps for HD and at least 25 Mbps for stable 4K, measured on the device you actually watch on rather than a laptop elsewhere in the house. A consistent 30 Mbps line will outperform an erratic 200 Mbps one. Where the device offers an ethernet port, use it — that single change removes most buffering complaints, and it matters most on a Saturday night when everyone is watching at once." },
+      { h: "Which devices work in a Canadian home", p: "Almost certainly one already in the house. Samsung and LG smart televisions, Sony, TCL and Hisense sets running Android TV or Google TV, the Amazon Fire TV Stick, Apple TV, MAG boxes, Enigma2 receivers, iPhones, iPads, Android phones and tablets, and computers on Windows, macOS and Linux all work. The playback app is your choice: TiviMate, IBO Player and IPTV Smarters Pro are the established options, and VLC handles a plain M3U link for a quick check." },
+      { h: "How activation works", p: "There is no technician and no appointment window to wait through. You choose a term, complete payment, and your credentials arrive on WhatsApp within five minutes — either an Xtream Codes trio of server URL, username and password, or an M3U link. You enter those once into your chosen app and it loads the full channel list, a multi-day programme guide and the film and series catalogue by itself. Most people are watching within ten minutes of deciding to subscribe, from anywhere with a stable connection." },
+      { h: "What it costs against a Canadian cable bill", p: "Total an honest month: the base package, the box rental, the HD fee, the sports tier, and a second box if another room needs one. Many households land well into three figures. An ATV Corner annual plan is $65 — for twelve months, not one. The monthly plan is $16, three months $33, six months $55. Every term carries the same catalogue, the same 4K/8K quality and the same 24/7 support; the only variable is the cost per month, which is why the annual plan works out cheapest by a wide margin." },
+      { h: "Test it before you cancel anything", p: "Because IPTV runs over your internet line rather than the cable outlet, it works in parallel with whatever you have now. That makes the sensible order obvious: start a free 24-hour trial, run it alongside your current service for a week or two — deliberately including prime time and a live game, since that is when server capacity reveals itself — and only then decide whether to cancel. No credit card is needed for the trial, and every paid plan carries a 7-day money-back guarantee on top of it." },
+    ],
+    faq: [
+      { q: "Does IPTV work across Canada?", a: "Yes. It runs over your internet connection rather than a cable line, so your province matters only insofar as your broadband is stable. Plan on 10 Mbps for HD and 25 Mbps for smooth 4K." },
+      { q: "Can I watch NHL and NBA games?", a: "Yes. Around 4,200 sport channels are included, covering NHL, NBA, MLB and MLS alongside international football — without the paid sports tier a cable package charges for." },
+      { q: "Are French-language channels included?", a: "Yes. The catalogue carries programming in both official languages, plus channels from Europe, the Middle East, Asia and Latin America." },
+      { q: "How much does IPTV cost in Canada?", a: "Plans start at $16 for one month and drop to about $5/mo on the annual $65 plan. Every plan includes 66,000+ channels, 4K/8K quality and 24/7 support." },
+      { q: "Can I try it before subscribing?", a: "Yes. A free 24-hour trial runs without a credit card and works alongside your existing service, so you can compare directly before cancelling anything." },
+    ],
+    cta: "Start my Canada subscription",
+  },
+  de: {
+    metaTitle: "IPTV Kanada — 66.000+ Sender, NHL & zweisprachig, ab 5 €/Monat",
+    metaDesc:
+      "IPTV für Kanada: kanadische und internationale Sender, NHL, NBA, MLB und MLS, Programme auf Englisch und Französisch in 4K/8K. Ohne Vertrag, in 5 Minuten aktiv.",
+    eyebrow: "IPTV Kanada · Ab 5 €/Monat",
+    h1: "IPTV für",
+    h1Accent: "Kanada",
+    intro:
+      "Kanadische und internationale Sender in einem Abo, mit NHL, NBA, MLB und MLS live, Programmen auf Englisch und Französisch sowie 66.000+ Sendern in 4K/8K — über die Internetleitung, die Sie ohnehin bezahlen. Ohne Kabelvertrag, ohne Mietreceiver, in unter 5 Minuten aktiv ab 5 €/Monat.",
+    cover: "/blog/iptv-canada-main-de.jpg",
+    image: {
+      src: "/blog/iptv-canada-body-de.jpg",
+      alt: "Was ein kanadischer Haushalt mit einem IPTV-Abo ersetzt: Kabelpaket, Receiver-Miete und kostenpflichtige Sportpakete.",
+      caption: "Ein Abo statt Kabelpaket und kostenpflichtiger Sportstufe.",
+    },
+    features: [
+      { h: "NHL, NBA, MLB, MLS", p: "Rund 4.200 Sportkanäle mit den Ligen, die in Kanada zählen, dazu internationaler Fußball." },
+      { h: "Englisch und Französisch", p: "Programme in beiden Amtssprachen, dazu Sender aus aller Welt." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 mit adaptiver Bitrate — schnelle Bewegungen auf Eis und Court bleiben sauber." },
+      { h: "Ab 5 €/Monat", p: "Laufzeiten von 1, 3, 6 und 12 Monaten, ohne Bindung, mit 7 Tagen Geld-zurück-Garantie." },
+    ],
+    sections: [
+      { h: "Warum kanadische Haushalte das Kabel verlassen", p: "Kanadisches Fernsehen gehört seit Langem zu den teureren weltweit, sobald man Grundpaket, Receiver-Miete und jene Sportstufe zusammenrechnet, die tatsächlich die gewünschten Spiele enthält. Dazu kommt meist eine Bindung über ein bis zwei Jahre. IPTV verändert nicht das Wohnzimmer, sondern die Rechnung: derselbe Fernseher, dasselbe Sofa, aber das Signal kommt über die Internetleitung, die im Haus ohnehin liegt. Bei ATV Corner sind das 66.000+ Sender und eine Bibliothek mit 70.000+ Filmen und 18.000+ Serien ab 5 €/Monat, ohne Wandmontage und ohne Vertrag, aus dem man später wieder herauskommen muss." },
+      { h: "Eishockey, Basketball und der restliche Sportkalender", p: "Sport ist der Grund, warum die meisten kanadischen Haushalte vor dem Wechsel zögern, denn ausgerechnet die entscheidenden Ligen liegen in einer separat verkauften Premiumstufe. Hier sind rund 4.200 Sportkanäle standardmäßig enthalten und decken NHL, NBA, MLB und MLS ab, dazu internationalen Fußball — Premier League, La Liga, Serie A, Bundesliga, Ligue 1 und Champions League — sowie UFC, Formel 1 und MotoGP. Wer aus Kanada eine europäische Liga verfolgt, findet genau in dieser internationalen Ebene das, was ein rein nationales Paket zu keinem Preis bietet." },
+      { h: "Beide Amtssprachen — und Dutzende weitere", p: "Eine kanadische Senderliste, die Französisch ignoriert, ist nur halb brauchbar, und eine, die bei Englisch und Französisch aufhört, verfehlt einen großen Teil dessen, was im Land tatsächlich geschaut wird. Der Katalog enthält Programme in beiden Amtssprachen sowie Sender aus Europa, dem Nahen Osten, Asien und Lateinamerika. Für zweisprachige Haushalte und für Familien, die Nachrichten oder Unterhaltung aus ihrer Herkunftsregion sehen möchten, ist diese Breite meist ausschlaggebender als der Preis — ein nationales Kabelpaket führt sie schlicht nicht." },
+      { h: "Winter, Bandbreite und warum Stabilität hier zählt", p: "Ein IPTV-Stream läuft kontinuierlich in Echtzeit und hat keinen großen Puffer, der einen Einbruch ausgleicht. Deshalb zählt eine gleichmäßige Verbindung mehr als eine hohe Zahl im Tarif. Rechnen Sie mit etwa 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen auf dem Gerät, auf dem Sie wirklich schauen, und nicht auf einem Notebook im Nebenzimmer. Eine konstante 30-Mbit-Leitung schlägt eine schwankende 200-Mbit-Leitung. Wo das Gerät einen Ethernet-Anschluss hat, nutzen Sie ihn — diese eine Änderung beseitigt die meisten Buffering-Beschwerden, und sie wirkt am stärksten am Samstagabend, wenn alle gleichzeitig schauen." },
+      { h: "Welche Geräte in einem kanadischen Haushalt funktionieren", p: "Mit hoher Wahrscheinlichkeit eines, das ohnehin im Haus steht. Smart TVs von Samsung und LG, Geräte von Sony, TCL und Hisense unter Android TV oder Google TV, der Amazon Fire TV Stick, Apple TV, MAG-Boxen, Enigma2-Receiver, iPhones, iPads, Android-Handys und -Tablets sowie Computer unter Windows, macOS und Linux funktionieren alle. Die Abspiel-App wählen Sie selbst: TiviMate, IBO Player und IPTV Smarters Pro sind etabliert, VLC verarbeitet für eine schnelle Prüfung einen einfachen M3U-Link." },
+      { h: "Wie die Aktivierung abläuft", p: "Es gibt keinen Techniker und kein Zeitfenster, auf das man warten müsste. Sie wählen eine Laufzeit, schließen die Zahlung ab, und Ihre Zugangsdaten kommen innerhalb von fünf Minuten per WhatsApp — entweder als Xtream-Codes-Trio aus Server-URL, Benutzername und Passwort oder als M3U-Link. Diese tragen Sie einmal in die gewünschte App ein, die daraufhin selbstständig die vollständige Senderliste, einen mehrtägigen Programmführer sowie den Film- und Serienkatalog lädt. Die meisten schauen zehn Minuten nach der Kaufentscheidung." },
+      { h: "Was es gegen eine kanadische Kabelrechnung kostet", p: "Rechnen Sie einen ehrlichen Monat zusammen: Grundpaket, Receiver-Miete, HD-Gebühr, Sportstufe und ein zweiter Receiver, falls ein weiteres Zimmer versorgt werden soll. Viele Haushalte landen deutlich im dreistelligen Bereich. Ein ATV Corner Jahresabo kostet 60 € — für zwölf Monate, nicht für einen. Der Monatstarif liegt bei 15 €, drei Monate bei 30 €, sechs Monate bei 50 €. Jede Laufzeit enthält denselben Katalog, dieselbe 4K/8K-Qualität und denselben 24/7-Support; die einzige Variable ist der Preis pro Monat." },
+      { h: "Testen, bevor Sie irgendetwas kündigen", p: "Weil IPTV über Ihre Internetleitung läuft und nicht über die Kabeldose, funktioniert es parallel zu dem, was Sie heute haben. Damit ist die sinnvolle Reihenfolge offensichtlich: Starten Sie einen kostenlosen 24-Stunden-Test, lassen Sie ihn ein bis zwei Wochen neben dem bestehenden Dienst laufen — bewusst inklusive Prime Time und eines Live-Spiels, denn dann zeigt sich die Serverkapazität — und entscheiden Sie erst danach über die Kündigung. Für den Test ist keine Kreditkarte nötig, und auf jedes bezahlte Abo kommt zusätzlich eine 7-tägige Geld-zurück-Garantie." },
+    ],
+    faq: [
+      { q: "Funktioniert IPTV in ganz Kanada?", a: "Ja. Es läuft über Ihre Internetverbindung statt über eine Kabelleitung; die Provinz spielt nur insofern eine Rolle, als Ihr Anschluss stabil sein muss. Rechnen Sie mit 10 Mbit/s für HD und 25 Mbit/s für flüssiges 4K." },
+      { q: "Kann ich NHL- und NBA-Spiele sehen?", a: "Ja. Rund 4.200 Sportkanäle sind enthalten und decken NHL, NBA, MLB und MLS sowie internationalen Fußball ab — ohne die kostenpflichtige Sportstufe eines Kabelpakets." },
+      { q: "Sind französischsprachige Sender enthalten?", a: "Ja. Der Katalog enthält Programme in beiden Amtssprachen sowie Sender aus Europa, dem Nahen Osten, Asien und Lateinamerika." },
+      { q: "Was kostet IPTV für Kanada?", a: "Die Abos starten bei 15 € für einen Monat und sinken auf etwa 5 €/Monat im Jahresabo für 60 €. Jedes Abo enthält 66.000+ Sender, 4K/8K-Qualität und 24/7-Support." },
+      { q: "Kann ich vor dem Abo testen?", a: "Ja. Ein kostenloser 24-Stunden-Test läuft ohne Kreditkarte und parallel zu Ihrem bestehenden Dienst, sodass Sie direkt vergleichen können, bevor Sie etwas kündigen." },
+    ],
+    cta: "Kanada-Abo starten",
+  },
+  fr: {
+    metaTitle: "IPTV Canada — 66 000+ chaînes, LNH & bilingue, dès 5 €/mois",
+    metaDesc:
+      "IPTV pour le Canada : chaînes canadiennes et internationales, LNH, NBA, MLB et MLS, programmes en anglais et en français en 4K/8K. Sans engagement, actif en 5 minutes.",
+    eyebrow: "IPTV Canada · Dès 5 €/mois",
+    h1: "L'IPTV pour le",
+    h1Accent: "Canada",
+    intro:
+      "Chaînes canadiennes et internationales dans un seul abonnement, avec la LNH, la NBA, la MLB et la MLS en direct, des programmes en anglais et en français, et 66 000+ chaînes en 4K/8K — via la connexion internet que vous payez déjà. Sans contrat câble, sans décodeur en location, actif en moins de 5 minutes dès 5 €/mois.",
+    cover: "/blog/iptv-canada-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-canada-body-fr.jpg",
+      alt: "Ce qu'un foyer canadien remplace avec un abonnement IPTV : bouquet câble, location de décodeur et options sport payantes.",
+      caption: "Un abonnement à la place d'un bouquet câble et de son option sport.",
+    },
+    features: [
+      { h: "LNH, NBA, MLB, MLS", p: "Environ 4 200 chaînes sport couvrant les ligues que suivent les Canadiens, plus le football international." },
+      { h: "Anglais et français", p: "Des programmes dans les deux langues officielles, aux côtés de chaînes du monde entier." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 avec bitrate adaptatif : les mouvements rapides sur glace ou sur parquet restent nets." },
+      { h: "Dès 5 €/mois", p: "Formules 1, 3, 6 et 12 mois, sans engagement, avec garantie satisfait ou remboursé 7 jours." },
+    ],
+    sections: [
+      { h: "Pourquoi les foyers canadiens quittent le câble", p: "La télévision canadienne compte depuis longtemps parmi les plus chères des pays développés, une fois additionnés le bouquet de base, la location du décodeur et l'option sport qui contient réellement les matchs souhaités. S'y ajoute généralement un engagement d'un à deux ans. L'IPTV ne change pas le salon mais le calcul : le même téléviseur, le même canapé, mais le signal arrive par la connexion internet déjà présente. Chez ATV Corner, cela représente 66 000+ chaînes et une bibliothèque de 70 000+ films et 18 000+ séries dès 5 €/mois, sans installation murale ni contrat dont il faudra sortir." },
+      { h: "Hockey, basketball et le reste du calendrier sportif", p: "Le sport est la raison pour laquelle la plupart des foyers canadiens hésitent à couper le câble, car les ligues qui comptent se trouvent dans une offre premium vendue séparément. Ici, environ 4 200 chaînes sport sont incluses par défaut et couvrent la LNH, la NBA, la MLB et la MLS, aux côtés du football international — Premier League, La Liga, Serie A, Bundesliga, Ligue 1 et Champions League — ainsi que l'UFC, la Formule 1 et le MotoGP. Pour qui suit un championnat européen depuis le Canada, cette couche internationale est précisément ce qu'un bouquet national ne propose à aucun prix." },
+      { h: "Les deux langues officielles — et des dizaines d'autres", p: "Une liste de chaînes canadienne qui ignore le français n'est qu'à moitié utile, et une qui s'arrête à l'anglais et au français manque une grande part de ce que le pays regarde réellement. Le catalogue propose des programmes dans les deux langues officielles ainsi que des chaînes d'Europe, du Moyen-Orient, d'Asie et d'Amérique latine. Pour les foyers bilingues, et pour les familles qui souhaitent de l'information ou du divertissement de leur région d'origine, cette ampleur pèse généralement plus que le prix — un bouquet câble national ne la propose tout simplement pas." },
+      { h: "Hiver, débit et pourquoi la stabilité compte ici", p: "Un flux IPTV est continu et en temps réel, sans gros tampon pour absorber un creux : une connexion régulière compte donc plus qu'un chiffre élevé dans l'offre. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'appareil où vous regardez vraiment et non sur un portable ailleurs dans la maison. Une ligne constante à 30 Mbps surpasse une ligne instable à 200 Mbps. Là où l'appareil dispose d'un port ethernet, utilisez-le : ce seul changement élimine la plupart des plaintes de buffering, et il pèse surtout le samedi soir." },
+      { h: "Quels appareils fonctionnent dans un foyer canadien", p: "Très probablement un qui se trouve déjà dans la maison. Les Smart TV Samsung et LG, les téléviseurs Sony, TCL et Hisense sous Android TV ou Google TV, l'Amazon Fire TV Stick, l'Apple TV, les MAG box, les récepteurs Enigma2, iPhone, iPad, téléphones et tablettes Android, ainsi que les ordinateurs sous Windows, macOS et Linux fonctionnent tous. L'application de lecture est votre choix : TiviMate, IBO Player et IPTV Smarters Pro sont établies, et VLC gère un simple lien M3U pour une vérification rapide." },
+      { h: "Comment se passe l'activation", p: "Aucun technicien, aucune plage horaire à attendre. Vous choisissez une durée, réglez le paiement, et vos identifiants arrivent en moins de cinq minutes par WhatsApp — soit un trio Xtream Codes composé de l'URL du serveur, d'un nom d'utilisateur et d'un mot de passe, soit un lien M3U. Vous les saisissez une fois dans l'application choisie, qui charge ensuite d'elle-même la liste complète des chaînes, un guide sur plusieurs jours et le catalogue de films et séries. La plupart des gens regardent dix minutes après avoir décidé." },
+      { h: "Ce que cela coûte face à une facture câble canadienne", p: "Additionnez un mois honnête : bouquet de base, location du décodeur, supplément HD, option sport et un second décodeur si une autre pièce doit être desservie. Beaucoup de foyers dépassent largement les trois chiffres. Un abonnement annuel ATV Corner coûte 60 € — pour douze mois, pas pour un. La formule mensuelle est à 15 €, trois mois à 30 €, six mois à 50 €. Chaque durée inclut le même catalogue, la même qualité 4K/8K et le même support 24/7 ; la seule variable est le coût mensuel." },
+      { h: "Testez avant de résilier quoi que ce soit", p: "Comme l'IPTV passe par votre ligne internet et non par la prise câble, elle fonctionne en parallèle de ce que vous avez aujourd'hui. L'ordre logique s'impose : lancez un essai gratuit de 24 heures, faites-le tourner une à deux semaines à côté de votre service actuel — en incluant délibérément les heures de pointe et un match en direct, car c'est là que la capacité serveur se révèle — puis décidez seulement ensuite de résilier. Aucune carte bancaire n'est requise pour l'essai, et chaque formule payante s'accompagne en plus d'une garantie de 7 jours." },
+    ],
+    faq: [
+      { q: "L'IPTV fonctionne-t-elle partout au Canada ?", a: "Oui. Elle passe par votre connexion internet plutôt que par une ligne câble ; votre province ne compte que dans la mesure où votre débit doit être stable. Prévoyez 10 Mbps pour la HD et 25 Mbps pour une 4K fluide." },
+      { q: "Puis-je regarder les matchs de LNH et de NBA ?", a: "Oui. Environ 4 200 chaînes sport sont incluses, couvrant LNH, NBA, MLB et MLS ainsi que le football international — sans l'option sport payante d'un bouquet câble." },
+      { q: "Les chaînes francophones sont-elles incluses ?", a: "Oui. Le catalogue propose des programmes dans les deux langues officielles, plus des chaînes d'Europe, du Moyen-Orient, d'Asie et d'Amérique latine." },
+      { q: "Combien coûte l'IPTV au Canada ?", a: "Les formules démarrent à 15 € pour un mois et descendent à environ 5 €/mois avec l'abonnement annuel à 60 €. Chaque formule inclut 66 000+ chaînes, la 4K/8K et le support 24/7." },
+      { q: "Puis-je essayer avant de m'abonner ?", a: "Oui. Un essai gratuit de 24 heures fonctionne sans carte bancaire et en parallèle de votre service existant, ce qui permet de comparer avant de résilier quoi que ce soit." },
+    ],
+    cta: "Démarrer mon abonnement Canada",
+  },
+};
+
+// =============================================================================
+// /iptv-uk — "iptv uk" (12,100/mo, KD 0) + "iptv subscription uk" (2,900, KD 2,
+// +21% YoY) + "best iptv uk" (2,400, KD 1, CPC $5.30). Lowest-difficulty cluster.
+// =============================================================================
+content["iptv-uk"] = {
+  en: {
+    metaTitle: "IPTV UK — 66,000+ Channels, Premier League & 4K from $5/mo",
+    metaDesc:
+      "IPTV for the UK: British and international channels, Premier League and Champions League, 66,000+ channels in 4K/8K. No contract, active in 5 minutes, from $5/mo.",
+    eyebrow: "IPTV UK · From $5/mo",
+    h1: "IPTV for the",
+    h1Accent: "United Kingdom",
+    intro:
+      "British and international channels in one subscription, with the Premier League, the Champions League and 66,000+ channels in 4K/8K — delivered over the broadband you already pay for. No aerial, no satellite dish, no contract, activated in under 5 minutes from $5/mo.",
+    cover: "/blog/iptv-uk-main-en.jpg",
+    image: {
+      src: "/blog/iptv-uk-body-en.jpg",
+      alt: "What a UK household replaces with one IPTV subscription: satellite package, box rental and paid sports channels.",
+      caption: "One subscription in place of a satellite package and its sports add-ons.",
+    },
+    features: [
+      { h: "Premier League & more", p: "Around 4,200 sport channels covering English football, European leagues, F1 and UFC." },
+      { h: "British + international", p: "UK programming alongside channels from across Europe, Asia, Africa and the Americas." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 with adaptive bitrate, so a fast counter-attack stays sharp." },
+      { h: "From $5/mo", p: "1, 3, 6 and 12-month plans, no contract, with a 7-day money-back guarantee." },
+    ],
+    sections: [
+      { h: "Why UK households are dropping satellite and cable", p: "A British television package rarely stops at its advertised price. Add the box rental, the HD upgrade and the sports channels that actually carry the matches, and many households pass three figures a month while locked into a twelve or eighteen month term. IPTV changes the delivery rather than the room: the same television, the same sofa, but the signal comes over the broadband already in the house. With ATV Corner that means 66,000+ channels and a library of 70,000+ films and 18,000+ series from $5/mo, with no dish on the wall and no contract to argue your way out of later." },
+      { h: "Football, and the rest of the sporting calendar", p: "Sport is the reason most British households hesitate, because the fixtures people care about are split across premium tiers sold separately — and following a full season often means paying two providers rather than one. Around 4,200 sport channels are included here by default, covering English football alongside La Liga, Serie A, Bundesliga, Ligue 1 and the Champions League, plus the NBA, NFL, UFC, Formula 1 and MotoGP. For anyone who follows more than one competition, that breadth is usually where the saving actually comes from." },
+      { h: "International channels a domestic package will not carry", p: "The UK is one of the most linguistically varied countries in Europe, and a channel list that stops at British programming misses much of what households actually watch. The catalogue carries channels from across Europe, the Middle East, Asia, Africa and the Americas alongside UK programming. For families who want news, drama or sport from where they or their parents grew up, that layer is generally the deciding factor rather than the monthly price, because no domestic package offers it at any tier." },
+      { h: "Broadband, and what stability really requires", p: "An IPTV stream is continuous and real time, with no large buffer to absorb a dip, so consistency matters more than the headline speed on your bill. Plan on roughly 10 Mbps for HD and at least 25 Mbps for stable 4K, measured on the device you actually watch on rather than a laptop upstairs. A steady 30 Mbps line will outperform an erratic 200 Mbps one. Where the device has an ethernet port, use it — that single change removes most buffering complaints, and it matters most at 3pm on a Saturday when the whole street is streaming." },
+      { h: "Which devices work in a British home", p: "Almost certainly one already in the house. Samsung and LG smart televisions, Sony, TCL and Hisense sets running Android TV or Google TV, the Amazon Fire TV Stick, Apple TV, MAG boxes, Enigma2 receivers, iPhones, iPads, Android phones and tablets, and computers on Windows, macOS and Linux all work. The playback app is your choice: TiviMate, IBO Player and IPTV Smarters Pro are the established options, and VLC handles a plain M3U link for a quick check." },
+      { h: "How activation works", p: "There is no engineer visit and no morning spent waiting for an appointment slot. You choose a term, complete payment, and your credentials arrive on WhatsApp within five minutes — either an Xtream Codes trio of server URL, username and password, or an M3U link. You enter those once into your chosen app and it loads the full channel list, a multi-day programme guide and the film and series catalogue by itself. Most people are watching within ten minutes of deciding to subscribe." },
+      { h: "What it costs against a UK TV bill", p: "Total an honest month: the base package, the box rental, the HD fee, the sports channels and a second box if another room needs one. Plenty of households find the real figure well above what they thought they were paying. An ATV Corner annual plan is $65 — for twelve months, not one. The monthly plan is $16, three months $33, six months $55. Every term carries the same catalogue, the same 4K/8K quality and the same 24/7 support, so the only variable is the cost per month." },
+      { h: "Test it before you cancel anything", p: "Because IPTV runs over your broadband rather than an aerial or a dish, it works in parallel with whatever you have now. That makes the order obvious: start a free 24-hour trial, run it alongside your current service for a week or two — deliberately including a Saturday afternoon and an evening fixture, since that is when server capacity reveals itself — and only then decide whether to cancel. No credit card is needed for the trial, and every paid plan carries a 7-day money-back guarantee on top." },
+    ],
+    faq: [
+      { q: "Does IPTV work across the UK?", a: "Yes. It runs over your broadband rather than an aerial or satellite dish, so location matters only insofar as your connection is stable. Plan on 10 Mbps for HD and 25 Mbps for smooth 4K." },
+      { q: "Can I watch Premier League matches?", a: "Around 4,200 sport channels are included, covering English football alongside the European leagues, the Champions League, NBA, NFL, UFC and Formula 1 — without separate premium sports tiers." },
+      { q: "Do I need a dish or an aerial?", a: "No. IPTV is delivered entirely over your internet connection. A Smart TV, Fire TV Stick, Apple TV, phone, tablet or computer is all the hardware required." },
+      { q: "How much does IPTV cost in the UK?", a: "Plans start at $16 for one month and drop to about $5/mo on the annual $65 plan. Every plan includes 66,000+ channels, 4K/8K quality and 24/7 support." },
+      { q: "Can I try it before subscribing?", a: "Yes. A free 24-hour trial runs without a credit card and works alongside your existing service, so you can compare directly before cancelling anything." },
+    ],
+    cta: "Start my UK subscription",
+  },
+  de: {
+    metaTitle: "IPTV UK — 66.000+ Sender, Premier League & 4K ab 5 €/Monat",
+    metaDesc:
+      "IPTV für Großbritannien: britische und internationale Sender, Premier League und Champions League, 66.000+ Sender in 4K/8K. Ohne Vertrag, in 5 Minuten aktiv.",
+    eyebrow: "IPTV UK · Ab 5 €/Monat",
+    h1: "IPTV für",
+    h1Accent: "Großbritannien",
+    intro:
+      "Britische und internationale Sender in einem Abo, mit Premier League, Champions League und 66.000+ Sendern in 4K/8K — über die Breitbandleitung, die Sie ohnehin bezahlen. Ohne Antenne, ohne Satellitenschüssel, ohne Vertrag, in unter 5 Minuten aktiv ab 5 €/Monat.",
+    cover: "/blog/iptv-uk-main-de.jpg",
+    image: {
+      src: "/blog/iptv-uk-body-de.jpg",
+      alt: "Was ein britischer Haushalt mit einem IPTV-Abo ersetzt: Satellitenpaket, Receiver-Miete und kostenpflichtige Sportsender.",
+      caption: "Ein Abo statt Satellitenpaket und kostenpflichtiger Sport-Zusätze.",
+    },
+    features: [
+      { h: "Premier League und mehr", p: "Rund 4.200 Sportkanäle mit englischem Fußball, europäischen Ligen, F1 und UFC." },
+      { h: "Britisch + international", p: "UK-Programme sowie Sender aus Europa, Asien, Afrika und Amerika." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 mit adaptiver Bitrate — auch ein schneller Konter bleibt scharf." },
+      { h: "Ab 5 €/Monat", p: "Laufzeiten von 1, 3, 6 und 12 Monaten, ohne Bindung, mit 7 Tagen Geld-zurück-Garantie." },
+    ],
+    sections: [
+      { h: "Warum britische Haushalte Satellit und Kabel verlassen", p: "Ein britisches Fernsehpaket bleibt selten beim beworbenen Preis. Rechnet man Receiver-Miete, HD-Aufschlag und die Sportsender hinzu, die tatsächlich die Spiele führen, überschreiten viele Haushalte den dreistelligen Bereich pro Monat — bei einer Bindung über zwölf oder achtzehn Monate. IPTV ändert nicht das Zimmer, sondern den Übertragungsweg: derselbe Fernseher, dasselbe Sofa, aber das Signal kommt über das Breitband, das im Haus ohnehin liegt. Bei ATV Corner sind das 66.000+ Sender und eine Bibliothek mit 70.000+ Filmen und 18.000+ Serien ab 5 €/Monat, ohne Schüssel an der Wand." },
+      { h: "Fußball und der restliche Sportkalender", p: "Sport ist der Grund, warum die meisten britischen Haushalte zögern, denn die Spiele, die zählen, verteilen sich auf separat verkaufte Premiumstufen — eine ganze Saison zu verfolgen bedeutet oft, zwei Anbieter zu bezahlen statt einen. Hier sind rund 4.200 Sportkanäle standardmäßig enthalten und decken englischen Fußball ebenso ab wie La Liga, Serie A, Bundesliga, Ligue 1 und Champions League, dazu NBA, NFL, UFC, Formel 1 und MotoGP. Wer mehr als einen Wettbewerb verfolgt, findet genau hier die tatsächliche Ersparnis." },
+      { h: "Internationale Sender, die kein nationales Paket führt", p: "Großbritannien gehört zu den sprachlich vielfältigsten Ländern Europas, und eine Senderliste, die bei britischen Programmen aufhört, verfehlt einen großen Teil dessen, was Haushalte wirklich schauen. Der Katalog enthält neben UK-Programmen Sender aus Europa, dem Nahen Osten, Asien, Afrika und Amerika. Für Familien, die Nachrichten, Serien oder Sport aus ihrer Herkunftsregion sehen möchten, ist diese Ebene meist ausschlaggebender als der Monatspreis, weil kein nationales Paket sie in irgendeiner Stufe anbietet." },
+      { h: "Breitband und was Stabilität wirklich verlangt", p: "Ein IPTV-Stream läuft kontinuierlich in Echtzeit und hat keinen großen Puffer, der einen Einbruch auffängt. Deshalb zählt Gleichmäßigkeit mehr als die Zahl auf Ihrer Rechnung. Rechnen Sie mit etwa 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen auf dem Gerät, auf dem Sie wirklich schauen, und nicht auf einem Notebook im Obergeschoss. Eine konstante 30-Mbit-Leitung schlägt eine schwankende 200-Mbit-Leitung. Wo das Gerät einen Ethernet-Anschluss hat, nutzen Sie ihn — das beseitigt die meisten Buffering-Beschwerden, gerade samstagnachmittags." },
+      { h: "Welche Geräte in einem britischen Haushalt funktionieren", p: "Mit hoher Wahrscheinlichkeit eines, das ohnehin im Haus steht. Smart TVs von Samsung und LG, Geräte von Sony, TCL und Hisense unter Android TV oder Google TV, der Amazon Fire TV Stick, Apple TV, MAG-Boxen, Enigma2-Receiver, iPhones, iPads, Android-Handys und -Tablets sowie Computer unter Windows, macOS und Linux funktionieren alle. Die Abspiel-App wählen Sie selbst: TiviMate, IBO Player und IPTV Smarters Pro sind etabliert, VLC verarbeitet einen einfachen M3U-Link." },
+      { h: "Wie die Aktivierung abläuft", p: "Es gibt keinen Technikerbesuch und keinen Vormittag, den man auf ein Zeitfenster verwendet. Sie wählen eine Laufzeit, schließen die Zahlung ab, und Ihre Zugangsdaten kommen innerhalb von fünf Minuten per WhatsApp — entweder als Xtream-Codes-Trio aus Server-URL, Benutzername und Passwort oder als M3U-Link. Diese tragen Sie einmal in die gewünschte App ein, die daraufhin selbstständig Senderliste, mehrtägigen Programmführer sowie Film- und Serienkatalog lädt. Die meisten schauen zehn Minuten nach der Entscheidung." },
+      { h: "Was es gegen eine britische TV-Rechnung kostet", p: "Rechnen Sie einen ehrlichen Monat zusammen: Grundpaket, Receiver-Miete, HD-Gebühr, Sportsender und ein zweiter Receiver, falls ein weiteres Zimmer versorgt werden soll. Viele Haushalte stellen fest, dass der reale Betrag deutlich über dem liegt, was sie zu zahlen glaubten. Ein ATV Corner Jahresabo kostet 60 € — für zwölf Monate, nicht für einen. Der Monatstarif liegt bei 15 €, drei Monate bei 30 €, sechs Monate bei 50 €. Jede Laufzeit enthält denselben Katalog und denselben Support." },
+      { h: "Testen, bevor Sie irgendetwas kündigen", p: "Weil IPTV über Ihr Breitband läuft und nicht über Antenne oder Schüssel, funktioniert es parallel zu dem, was Sie heute haben. Damit ist die Reihenfolge offensichtlich: Starten Sie einen kostenlosen 24-Stunden-Test, lassen Sie ihn ein bis zwei Wochen neben dem bestehenden Dienst laufen — bewusst inklusive eines Samstagnachmittags und eines Abendspiels, denn dann zeigt sich die Serverkapazität — und entscheiden Sie erst danach. Für den Test ist keine Kreditkarte nötig, dazu kommt eine 7-tägige Geld-zurück-Garantie." },
+      {
+        h: "Mehrere Geräte und Zimmer im selben Haushalt",
+        p: "Die Zugangsdaten sind an das Abo gebunden und nicht an ein einzelnes Gerät. Sie können sie also auf dem Fernseher im Wohnzimmer, auf einem zweiten Gerät im Schlafzimmer und auf Handy oder Tablet hinterlegen, ohne erneut zu kaufen. Beim Kabel wäre dafür ein zweiter Mietreceiver samt monatlicher Gebühr nötig. Zu beachten ist allein die Zahl gleichzeitiger Verbindungen, die Ihre Formel erlaubt: Wenn zwei Personen zur selben Zeit unterschiedliche Sender schauen möchten, brauchen Sie entsprechend mehr davon. Wie viele in Ihrem Haushalt sinnvoll sind, klären wir vor dem Kauf in einer kurzen Nachricht auf WhatsApp.",
+      },
+    ],
+    faq: [
+      { q: "Funktioniert IPTV in ganz Großbritannien?", a: "Ja. Es läuft über Ihr Breitband statt über Antenne oder Satellit; der Standort spielt nur insofern eine Rolle, als Ihre Verbindung stabil sein muss. Rechnen Sie mit 10 Mbit/s für HD und 25 Mbit/s für flüssiges 4K." },
+      { q: "Kann ich Premier-League-Spiele sehen?", a: "Rund 4.200 Sportkanäle sind enthalten und decken englischen Fußball sowie die europäischen Ligen, Champions League, NBA, NFL, UFC und Formel 1 ab — ohne separate Premium-Sportstufen." },
+      { q: "Brauche ich eine Schüssel oder Antenne?", a: "Nein. IPTV wird vollständig über Ihre Internetverbindung geliefert. Ein Smart TV, Fire TV Stick, Apple TV, Handy, Tablet oder Computer genügt als Hardware." },
+      { q: "Was kostet IPTV in Großbritannien?", a: "Die Abos starten bei 15 € für einen Monat und sinken auf etwa 5 €/Monat im Jahresabo für 60 €. Jedes Abo enthält 66.000+ Sender, 4K/8K und 24/7-Support." },
+      { q: "Kann ich vor dem Abo testen?", a: "Ja. Ein kostenloser 24-Stunden-Test läuft ohne Kreditkarte und parallel zu Ihrem bestehenden Dienst, sodass Sie vor einer Kündigung direkt vergleichen können." },
+    ],
+    cta: "UK-Abo starten",
+  },
+  fr: {
+    metaTitle: "IPTV Royaume-Uni — 66 000+ chaînes, Premier League dès 5 €/mois",
+    metaDesc:
+      "IPTV pour le Royaume-Uni : chaînes britanniques et internationales, Premier League et Champions League, 66 000+ chaînes en 4K/8K. Sans engagement, actif en 5 minutes.",
+    eyebrow: "IPTV Royaume-Uni · Dès 5 €/mois",
+    h1: "L'IPTV pour le",
+    h1Accent: "Royaume-Uni",
+    intro:
+      "Chaînes britanniques et internationales dans un seul abonnement, avec la Premier League, la Champions League et 66 000+ chaînes en 4K/8K — via la connexion que vous payez déjà. Sans antenne, sans parabole, sans engagement, actif en moins de 5 minutes dès 5 €/mois.",
+    cover: "/blog/iptv-uk-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-uk-body-fr.jpg",
+      alt: "Ce qu'un foyer britannique remplace avec un abonnement IPTV : bouquet satellite, location de décodeur et chaînes sport payantes.",
+      caption: "Un abonnement à la place d'un bouquet satellite et de ses options sport.",
+    },
+    features: [
+      { h: "Premier League et plus", p: "Environ 4 200 chaînes sport couvrant le football anglais, les ligues européennes, la F1 et l'UFC." },
+      { h: "Britannique + international", p: "Programmes du Royaume-Uni et chaînes d'Europe, d'Asie, d'Afrique et des Amériques." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 avec bitrate adaptatif : même une contre-attaque rapide reste nette." },
+      { h: "Dès 5 €/mois", p: "Formules 1, 3, 6 et 12 mois, sans engagement, avec garantie satisfait ou remboursé 7 jours." },
+    ],
+    sections: [
+      { h: "Pourquoi les foyers britanniques quittent le satellite et le câble", p: "Un bouquet télé britannique s'arrête rarement à son prix affiché. En ajoutant la location du décodeur, le supplément HD et les chaînes sport qui diffusent réellement les matchs, beaucoup de foyers dépassent les trois chiffres par mois, avec un engagement de douze ou dix-huit mois. L'IPTV ne change pas la pièce mais le mode de livraison : le même téléviseur, le même canapé, mais le signal arrive par la connexion déjà présente. Chez ATV Corner, cela représente 66 000+ chaînes et une bibliothèque de 70 000+ films et 18 000+ séries dès 5 €/mois, sans parabole au mur." },
+      { h: "Le football et le reste du calendrier sportif", p: "Le sport est la raison pour laquelle la plupart des foyers britanniques hésitent, car les rencontres qui comptent se répartissent entre des offres premium vendues séparément — suivre une saison complète impose souvent de payer deux fournisseurs au lieu d'un. Ici, environ 4 200 chaînes sport sont incluses par défaut et couvrent le football anglais comme La Liga, la Serie A, la Bundesliga, la Ligue 1 et la Champions League, ainsi que la NBA, la NFL, l'UFC, la Formule 1 et le MotoGP. Pour qui suit plusieurs compétitions, c'est précisément là que se situe l'économie." },
+      { h: "Des chaînes internationales qu'aucun bouquet national ne propose", p: "Le Royaume-Uni compte parmi les pays les plus divers d'Europe sur le plan linguistique, et une liste de chaînes qui s'arrête aux programmes britanniques manque une grande part de ce que les foyers regardent réellement. Le catalogue propose, à côté des programmes du Royaume-Uni, des chaînes d'Europe, du Moyen-Orient, d'Asie, d'Afrique et des Amériques. Pour les familles qui souhaitent information, fiction ou sport de leur région d'origine, cette couche pèse généralement plus que le prix mensuel, car aucun bouquet national ne la propose." },
+      { h: "Le débit et ce que la stabilité exige vraiment", p: "Un flux IPTV est continu et en temps réel, sans gros tampon pour absorber un creux : la régularité compte donc plus que le débit annoncé sur votre facture. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'appareil où vous regardez vraiment et non sur un portable à l'étage. Une ligne constante à 30 Mbps surpasse une ligne instable à 200 Mbps. Là où l'appareil dispose d'un port ethernet, utilisez-le : cela élimine la plupart des plaintes de buffering, surtout le samedi après-midi." },
+      { h: "Quels appareils fonctionnent dans un foyer britannique", p: "Très probablement un qui se trouve déjà dans la maison. Les Smart TV Samsung et LG, les téléviseurs Sony, TCL et Hisense sous Android TV ou Google TV, l'Amazon Fire TV Stick, l'Apple TV, les MAG box, les récepteurs Enigma2, iPhone, iPad, téléphones et tablettes Android, ainsi que les ordinateurs sous Windows, macOS et Linux fonctionnent tous. L'application de lecture est votre choix : TiviMate, IBO Player et IPTV Smarters Pro sont établies, et VLC gère un simple lien M3U." },
+      { h: "Comment se passe l'activation", p: "Aucune visite de technicien, aucune matinée passée à attendre un créneau. Vous choisissez une durée, réglez le paiement, et vos identifiants arrivent en moins de cinq minutes par WhatsApp — soit un trio Xtream Codes composé de l'URL du serveur, d'un nom d'utilisateur et d'un mot de passe, soit un lien M3U. Vous les saisissez une fois dans l'application choisie, qui charge ensuite d'elle-même la liste complète des chaînes, un guide sur plusieurs jours et le catalogue de films et séries." },
+      { h: "Ce que cela coûte face à une facture britannique", p: "Additionnez un mois honnête : bouquet de base, location du décodeur, supplément HD, chaînes sport et un second décodeur si une autre pièce doit être desservie. Beaucoup de foyers découvrent que le montant réel dépasse largement ce qu'ils pensaient payer. Un abonnement annuel ATV Corner coûte 60 € — pour douze mois, pas pour un. La formule mensuelle est à 15 €, trois mois à 30 €, six mois à 50 €. Chaque durée inclut le même catalogue et le même support." },
+      { h: "Testez avant de résilier quoi que ce soit", p: "Comme l'IPTV passe par votre connexion et non par une antenne ou une parabole, elle fonctionne en parallèle de ce que vous avez aujourd'hui. L'ordre s'impose : lancez un essai gratuit de 24 heures, faites-le tourner une à deux semaines à côté de votre service actuel — en incluant délibérément un samedi après-midi et un match en soirée, car c'est là que la capacité serveur se révèle — puis décidez seulement ensuite. Aucune carte bancaire n'est requise, et une garantie de 7 jours s'ajoute après l'achat." },
+    ],
+    faq: [
+      { q: "L'IPTV fonctionne-t-elle partout au Royaume-Uni ?", a: "Oui. Elle passe par votre connexion plutôt que par une antenne ou une parabole ; l'emplacement ne compte que dans la mesure où votre débit doit être stable. Prévoyez 10 Mbps pour la HD et 25 Mbps pour une 4K fluide." },
+      { q: "Puis-je regarder les matchs de Premier League ?", a: "Environ 4 200 chaînes sport sont incluses, couvrant le football anglais ainsi que les ligues européennes, la Champions League, la NBA, la NFL, l'UFC et la Formule 1 — sans offres sport premium séparées." },
+      { q: "Faut-il une parabole ou une antenne ?", a: "Non. L'IPTV est livrée entièrement via votre connexion internet. Une Smart TV, un Fire TV Stick, une Apple TV, un téléphone, une tablette ou un ordinateur suffit." },
+      { q: "Combien coûte l'IPTV au Royaume-Uni ?", a: "Les formules démarrent à 15 € pour un mois et descendent à environ 5 €/mois avec l'abonnement annuel à 60 €. Chaque formule inclut 66 000+ chaînes, la 4K/8K et le support 24/7." },
+      { q: "Puis-je essayer avant de m'abonner ?", a: "Oui. Un essai gratuit de 24 heures fonctionne sans carte bancaire et en parallèle de votre service existant, ce qui permet de comparer avant de résilier." },
+    ],
+    cta: "Démarrer mon abonnement UK",
+  },
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   return content[page][locale];
 }
@@ -2798,4 +3058,6 @@ export const seoPages: Page[] = [
   "iptv-apple-tv",
   "iptv-android-tv",
   "iptv-mag-box",
+  "iptv-canada",
+  "iptv-uk",
 ];

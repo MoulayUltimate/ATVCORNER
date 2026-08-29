@@ -98,6 +98,16 @@ const labels: Record<SeoPage, Record<Locale, LinkCopy>> = {
     en: { label: "IPTV for MAG Box", blurb: "Portal URL and MAC address, no app needed." },
     de: { label: "IPTV für MAG Box", blurb: "Portal-URL und MAC-Adresse, ohne App." },
   },
+  "iptv-canada": {
+    fr: { label: "IPTV Canada", blurb: "LNH, NBA et chaînes bilingues en direct." },
+    en: { label: "IPTV Canada", blurb: "NHL, NBA and bilingual channels live." },
+    de: { label: "IPTV Kanada", blurb: "NHL, NBA und zweisprachige Sender live." },
+  },
+  "iptv-uk": {
+    fr: { label: "IPTV Royaume-Uni", blurb: "Premier League et chaînes britanniques." },
+    en: { label: "IPTV UK", blurb: "Premier League and British channels." },
+    de: { label: "IPTV UK", blurb: "Premier League und britische Sender." },
+  },
   "best-iptv-alternatives": {
     fr: { label: "Alternatives IPTV", blurb: "Comparatif face aux autres services." },
     en: { label: "IPTV Alternatives", blurb: "How we compare to other services." },
@@ -126,10 +136,12 @@ const related: Record<SeoPage, SeoPage[]> = {
   "best-iptv-alternatives": ["best-iptv-service", "cable-tv-alternative", "iptv-subscription"],
   "iptv-deutschland": ["iptv-subscription", "iptv-sport", "iptv-free-trial"],
   "iptv-roku": ["iptv-firestick", "iptv-smarters-pro", "iptv-subscription"],
-  "iptv-usa": ["iptv-subscription", "iptv-sport", "cable-tv-alternative"],
+  "iptv-usa": ["iptv-canada", "iptv-sport", "iptv-subscription"],
   "iptv-apple-tv": ["iptv-android-tv", "iptv-smarters-pro", "iptv-subscription"],
   "iptv-android-tv": ["iptv-apple-tv", "iptv-firestick", "iptv-smarters-pro"],
   "iptv-mag-box": ["xtream-codes", "iptv-android-tv", "iptv-subscription"],
+  "iptv-canada": ["iptv-usa", "iptv-sport", "iptv-subscription"],
+  "iptv-uk": ["iptv-sport", "iptv-subscription", "cable-tv-alternative"],
 };
 
 export type RelatedLink = { slug: SeoPage; label: string; blurb: string };
