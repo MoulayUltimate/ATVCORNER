@@ -11,6 +11,8 @@ import { wasIstIptv } from "./posts/was-ist-iptv";
 import { iptvRuckeltBeheben } from "./posts/iptv-ruckelt-beheben";
 import { kabelKuendigenIptv } from "./posts/kabel-kuendigen-iptv";
 import { kostenlosFernsehen } from "./posts/kostenlos-fernsehen";
+import { istIptvLegal } from "./posts/ist-iptv-legal";
+import { watchNflWithoutCable } from "./posts/watch-nfl-without-cable";
 import { iptvAnbieterErkennen } from "./posts/iptv-anbieter-erkennen";
 import { iptvSmartTvEinrichten } from "./posts/iptv-smart-tv-einrichten";
 import { sportLiveStreamen } from "./posts/sport-live-streamen";
@@ -29,6 +31,8 @@ export const blogPosts: BlogPost[] = [
   iptvRuckeltBeheben,
   kabelKuendigenIptv,
   kostenlosFernsehen,
+  istIptvLegal,
+  watchNflWithoutCable,
   iptvAnbieterErkennen,
   iptvSmartTvEinrichten,
   sportLiveStreamen,
