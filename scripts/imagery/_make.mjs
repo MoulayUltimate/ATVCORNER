@@ -20,6 +20,17 @@ export async function make(spec) {
   }
   if (spec.pill && S.pill) body += pill(spec.pill.x, spec.pill.y, S.pill);
   if (S.cardTitle) {
+    // The render() audit checks TEXT fit, not the card rectangle — a card placed
+    // too low is silently clipped by the canvas edge. Catch it here.
+    const pad = 18, size = 12.5;
+    const cardH = pad + 12 + 26 + (size + 5) * ((S.lines || []).length) + pad - 4;
+    const canvasH = (H * 600) / W;
+    if (spec.card.y + cardH > canvasH) {
+      throw new Error(
+        `card overflows canvas: y=${spec.card.y} + h=${cardH.toFixed(1)} = ` +
+        `${(spec.card.y + cardH).toFixed(1)} > ${canvasH.toFixed(1)} (${locale}). Move the card up.`,
+      );
+    }
     body += card({
       x: spec.card.x, y: spec.card.y, w: spec.card.w,
       title: S.cardTitle,

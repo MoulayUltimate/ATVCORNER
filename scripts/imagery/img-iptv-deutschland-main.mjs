@@ -1,7 +1,7 @@
 // MAIN — /iptv-deutschland. Base: z1_N_3zs760 (Berlin TV tower, sphere at ~308,215).
 import { make } from "./_make.mjs";
 await make({
-  card: { x: 24, y: 240, w: 330 },
+  card: { x: 24, y: 54, w: 300 },
   marker: { x: 308, y: 214, from: [214, 214] },
   pill: { x: 168, y: 214 },
   grade: { slope: 1.05, intercept: -0.04, sat: 1.08 },

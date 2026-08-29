@@ -1630,6 +1630,30 @@ content["iptv-deutschland"] = {
         h: "Einrichtung, Geräte und Bandbreite",
         p: "Sie brauchen kein neues Gerät. IPTV läuft auf Smart TVs von Samsung und LG, auf Android TV und Google TV, auf dem Amazon Fire TV Stick, Apple TV, Handy, Tablet, MAG Box, Enigma2 sowie auf Windows, macOS und Linux — über TiviMate, IBO Player, IPTV Smarters Pro oder VLC. Für HD genügen 10 Mbit/s, für flüssiges 4K sind 25 Mbit/s empfehlenswert. Nach der Zahlung erhalten Sie Ihre Xtream-Codes-Zugangsdaten oder Ihren M3U-Link in unter 5 Minuten per WhatsApp.",
       },
+      {
+        h: "Ist IPTV in Deutschland legal?",
+        p: "Die Technik hinter IPTV ist in Deutschland völlig legal — sie beschreibt lediglich die Übertragung von Fernsehen über das Internetprotokoll statt über Kabel oder Satellit. Große deutsche Anbieter nutzen dieselbe Grundtechnik. Entscheidend ist nicht die Technologie, sondern die Seriosität des Dienstes, den Sie wählen: reguläre Zahlungswege statt anonymer Verfahren, eine verschlüsselte HTTPS-Auslieferung, ein erreichbarer Support und eine klar formulierte Rückerstattungsregel. ATV Corner erfüllt alle vier Punkte und lässt Sie vorab 24 Stunden kostenlos testen, damit Sie den Dienst beurteilen können, bevor Geld fließt. Zusätzlich gilt eine Geld-zurück-Garantie von sieben Tagen.",
+      },
+      {
+        h: "Welche Geräte deutsche Haushalte typischerweise nutzen",
+        p: "In den meisten deutschen Wohnzimmern steht bereits alles, was nötig ist. Smart TVs von Samsung mit Tizen und von LG mit webOS spielen IPTV über einen Player aus dem jeweiligen Store; Geräte von Sony, Philips, TCL und Hisense laufen meist unter Android TV oder Google TV und bieten damit die größte App-Auswahl. Dazu kommen der Amazon Fire TV Stick, Apple TV, MAG Box und Enigma2-Receiver sowie Handys, Tablets und Computer unter Windows, macOS und Linux. Als Player haben sich TiviMate, IBO Player und IPTV Smarters Pro etabliert; VLC funktioniert für einfache M3U-Listen.",
+      },
+      {
+        h: "Kabel, Satellit und IPTV im direkten Kostenvergleich",
+        p: "Rechnen Sie ehrlich nach, was ein klassischer Anschluss tatsächlich kostet: Grundgebühr, Receiver-Miete und die Sport- oder Filmpakete, die separat gebucht werden. Viele Haushalte kommen damit auf 60 bis 90 € im Monat, verteilt auf Posten, die einzeln harmlos wirken. Ein ATV Corner Jahresabo kostet 60 € — für zwölf Monate, nicht für einen. Selbst der Monatstarif von 15 € liegt deutlich darunter und enthält bereits Sport, Kino, Kinderprogramm und internationale Sender. Es entfallen zusätzlich der Technikertermin, die Vertragsbindung über 12 bis 24 Monate und die Rückgabe des Mietreceivers am Ende.",
+      },
+      {
+        h: "In fünf Minuten startklar",
+        p: "Der Ablauf ist bewusst kurz gehalten. Sie wählen eine Laufzeit, schließen die Zahlung ab und erhalten Ihre Zugangsdaten in unter fünf Minuten per WhatsApp — entweder als Xtream-Codes-Trio aus Server-URL, Benutzername und Passwort oder als M3U-Link. Diese Daten tragen Sie einmal in die App Ihrer Wahl ein. Der Player lädt daraufhin selbstständig die vollständige Senderliste, den Programmführer über mehrere Tage sowie den Film- und Serienkatalog. Danach lohnt sich ein einziger zusätzlicher Schritt: Legen Sie Favoriten an. Aus 66.000+ Sendern eine eigene Liste zu bauen, ist der Unterschied zwischen Unübersichtlichkeit und echtem Alltagsnutzen.",
+      },
+      {
+        h: "Was der Katalog neben Live-TV enthält",
+        p: "Neben dem linearen Fernsehen steht eine Mediathek bereit, die den Abruf-Teil vollständig abdeckt: rund 70.000 Filme und 18.000 Serien, jeweils mit Poster, Beschreibung und Staffel-Struktur. Damit entfällt die kostenpflichtige Einzelleihe, die bei Kabelanbietern üblich ist. Hinzu kommen etwa 320 Kinder- und Familienkanäle sowie rund 540 Nachrichten- und Dokumentationssender, sodass auch Haushalte mit unterschiedlichen Sehgewohnheiten abgedeckt sind. Die Inhalte werden in HEVC/H.265 mit adaptiver Bitrate ausgeliefert, was besonders bei schnellen Bewegungen im Sport den Unterschied zwischen einem sauberen Bild und sichtbaren Kompressionsartefakten ausmacht.",
+      },
+      {
+        h: "Stabilität zur Prime Time — worauf es ankommt",
+        p: "Der eigentliche Qualitätsunterschied zwischen Anbietern zeigt sich nicht am Dienstagnachmittag, sondern am Samstagabend und beim Anpfiff, wenn sehr viele Zuschauer gleichzeitig denselben Stream anfordern. Genau dann entscheidet die Serverkapazität darüber, ob das Bild sauber bleibt oder in Standbilder und Ladekreise zerfällt. Sehr günstige Angebote sparen fast immer an dieser Stelle, weil sie für den Kunden vor dem Kauf unsichtbar ist. ATV Corner betreibt deshalb eine redundante Tier-1-Infrastruktur in Europa, die auf ein Vielfaches der tatsächlichen Last ausgelegt ist. Prüfen lässt sich das am einfachsten selbst: Starten Sie den kostenlosen Test bewusst zur Anstoßzeit und nicht am Vormittag.",
+      },
     ],
     faq: [
       { q: "Sind alle deutschen Sender enthalten?", a: "Ja. Öffentlich-rechtliche und private Programme, Nachrichten-, Dokumentations-, Kinder- und Regionalsender sind Teil der 66.000+ Sender, dazu Tausende internationale Programme." },
@@ -1670,6 +1694,26 @@ content["iptv-deutschland"] = {
         h: "Setup, devices and bandwidth",
         p: "You need no new hardware. IPTV runs on Samsung and LG Smart TVs, on Android TV and Google TV, on the Amazon Fire TV Stick, Apple TV, phone, tablet, MAG Box, Enigma2 and on Windows, macOS and Linux — via TiviMate, IBO Player, IPTV Smarters Pro or VLC. HD needs 10 Mbps; 25 Mbps is advisable for smooth 4K. After payment your Xtream Codes credentials or M3U link arrive within 5 minutes on WhatsApp.",
       },
+      {
+        h: "Is IPTV legal in Germany?",
+        p: "The technology behind IPTV is entirely legal in Germany — it simply describes delivering television over the internet protocol rather than by cable or satellite. Major German providers use the same underlying technique. What matters is not the technology but the seriousness of the service you choose: regulated payment methods rather than anonymous ones, encrypted HTTPS delivery, reachable support and a clearly worded refund policy. ATV Corner meets all four and lets you test free for 24 hours beforehand, so you can judge the service before any money changes hands. A seven-day money-back guarantee applies on top of that.",
+      },
+      {
+        h: "The devices German households typically use",
+        p: "Most German living rooms already contain everything required. Samsung Smart TVs running Tizen and LG sets running webOS play IPTV through a player from their respective stores; Sony, Philips, TCL and Hisense sets generally run Android TV or Google TV and therefore offer the widest app selection. Add to that the Amazon Fire TV Stick, Apple TV, MAG Box and Enigma2 receivers, plus phones, tablets and computers on Windows, macOS and Linux. TiviMate, IBO Player and IPTV Smarters Pro have become the established players; VLC works for straightforward M3U lists.",
+      },
+      {
+        h: "Cable, satellite and IPTV compared on cost",
+        p: "Work out honestly what a traditional connection really costs: the base fee, the box rental and the sport or film packages booked separately. Plenty of households reach 60 to 90 € a month that way, split across line items that each look harmless. An ATV Corner annual plan is 60 € — for twelve months, not one. Even the monthly rate of 15 € sits well below that and already includes sport, cinema, children's programming and international channels. You also drop the technician appointment, the 12 to 24 month commitment, and returning the rented receiver at the end.",
+      },
+      {
+        h: "Up and running in five minutes",
+        p: "The process is deliberately short. You choose a term, complete payment, and receive your credentials within five minutes on WhatsApp — either an Xtream Codes trio of server URL, username and password, or an M3U link. You enter those once into the app of your choice. The player then loads the full channel list, a program guide covering several days, and the film and series catalogue on its own. After that, one further step is worth taking: build a favourites list. Curating your own selection out of 66,000+ channels is the difference between an unmanageable list and something genuinely useful day to day.",
+      },
+      {
+        h: "What the catalogue holds beyond live TV",
+        p: "Alongside linear television sits an on-demand library that covers the catch-up side completely: around 70,000 films and 18,000 series, each with artwork, a description and season structure. That removes the paid one-off rental common with cable providers. Add roughly 320 children's and family channels plus around 540 news and documentary channels, so households with differing viewing habits are covered too. Everything is delivered in HEVC/H.265 with adaptive bitrate, which during fast motion in sport is the difference between a clean picture and visible compression artefacts.",
+      },
     ],
     faq: [
       { q: "Are all German channels included?", a: "Yes. Public-service and commercial programmes, news, documentary, children's and regional channels are part of the 66,000+ lineup, alongside thousands of international ones." },
@@ -1709,6 +1753,26 @@ content["iptv-deutschland"] = {
       {
         h: "Installation, appareils et débit",
         p: "Aucun nouvel appareil n'est nécessaire. L'IPTV fonctionne sur les Smart TV Samsung et LG, sur Android TV et Google TV, sur l'Amazon Fire TV Stick, l'Apple TV, téléphone, tablette, MAG Box, Enigma2 ainsi que sur Windows, macOS et Linux — via TiviMate, IBO Player, IPTV Smarters Pro ou VLC. La HD demande 10 Mbps ; 25 Mbps sont conseillés pour une 4K fluide. Après paiement, vos identifiants Xtream Codes ou votre lien M3U arrivent en moins de 5 minutes par WhatsApp.",
+      },
+      {
+        h: "L'IPTV est-elle légale en Allemagne ?",
+        p: "La technologie derrière l'IPTV est parfaitement légale en Allemagne — elle décrit simplement la diffusion de la télévision via le protocole internet plutôt que par câble ou satellite. De grands fournisseurs allemands utilisent la même technique de base. Ce qui compte n'est pas la technologie mais le sérieux du service choisi : des moyens de paiement régulés plutôt qu'anonymes, une livraison chiffrée en HTTPS, un support joignable et une règle de remboursement clairement formulée. ATV Corner remplit ces quatre critères et vous laisse tester gratuitement 24 heures au préalable, afin de juger avant tout paiement. S'y ajoute une garantie satisfait ou remboursé de sept jours.",
+      },
+      {
+        h: "Les appareils que les foyers allemands utilisent",
+        p: "La plupart des salons allemands contiennent déjà tout le nécessaire. Les Smart TV Samsung sous Tizen et les téléviseurs LG sous webOS lisent l'IPTV via un lecteur de leur magasin respectif ; les appareils Sony, Philips, TCL et Hisense tournent généralement sous Android TV ou Google TV et offrent donc le plus large choix d'applications. S'y ajoutent l'Amazon Fire TV Stick, l'Apple TV, les MAG Box et récepteurs Enigma2, ainsi que téléphones, tablettes et ordinateurs sous Windows, macOS et Linux. TiviMate, IBO Player et IPTV Smarters Pro se sont imposés comme lecteurs ; VLC convient aux listes M3U simples.",
+      },
+      {
+        h: "Câble, satellite et IPTV : le comparatif des coûts",
+        p: "Calculez honnêtement ce que coûte réellement un abonnement classique : forfait de base, location du décodeur et bouquets sport ou cinéma souscrits séparément. Beaucoup de foyers atteignent ainsi 60 à 90 € par mois, répartis en lignes qui semblent anodines prises séparément. Un abonnement annuel ATV Corner coûte 60 € — pour douze mois, pas pour un. Même le tarif mensuel de 15 € reste nettement en dessous et inclut déjà sport, cinéma, programmes jeunesse et chaînes internationales. Vous supprimez également le rendez-vous technicien, l'engagement de 12 à 24 mois et le renvoi du décodeur en location.",
+      },
+      {
+        h: "Prêt en cinq minutes",
+        p: "Le déroulé est volontairement court. Vous choisissez une durée, réglez le paiement et recevez vos identifiants en moins de cinq minutes par WhatsApp — soit un trio Xtream Codes composé de l'URL du serveur, d'un nom d'utilisateur et d'un mot de passe, soit un lien M3U. Vous saisissez ces données une seule fois dans l'application de votre choix. Le lecteur charge ensuite de lui-même la liste complète des chaînes, un guide des programmes sur plusieurs jours et le catalogue de films et séries. Une étape supplémentaire mérite alors d'être faite : créer des favoris. Se constituer une sélection parmi 66 000+ chaînes fait toute la différence au quotidien.",
+      },
+      {
+        h: "Ce que contient le catalogue au-delà du direct",
+        p: "À côté de la télévision linéaire se trouve une médiathèque qui couvre entièrement la partie à la demande : environ 70 000 films et 18 000 séries, chacun avec affiche, description et structure par saisons. Cela supprime la location payante à l'unité, courante chez les câblo-opérateurs. S'y ajoutent environ 320 chaînes jeunesse et famille ainsi que quelque 540 chaînes d'information et de documentaires, de quoi couvrir des foyers aux habitudes différentes. Le tout est diffusé en HEVC/H.265 avec bitrate adaptatif, ce qui, lors des mouvements rapides du sport, fait la différence entre une image nette et des artefacts visibles.",
       },
     ],
     faq: [
@@ -1757,6 +1821,26 @@ content["iptv-roku"] = {
         h: "When a player isn't available",
         p: "Roku's store varies by region and its IPTV selection is narrower than Android's. If you can't find a suitable player, you have two dependable options. You can mirror or cast from a phone or tablet running IPTV Smarters Pro, which works but ties up the phone. Or you can add an HDMI device to the same television — an Amazon Fire TV Stick 4K, an Apple TV or an Android TV box gives you the full range of players and is the more comfortable long-term answer.",
       },
+      {
+        h: "Roku versus Fire TV Stick for IPTV",
+        p: "The honest comparison matters here because it decides how smooth your setup will be. A Fire TV Stick runs Fire OS, an Android derivative, so it accepts sideloaded players and gives you TiviMate, IBO Player and IPTV Smarters Pro directly. Roku deliberately does not allow that: everything installs from its own Channel Store, whose IPTV selection is narrower and varies by region. Roku wins on simplicity and on remote quality; Fire TV wins decisively on app choice. If you already own a Roku, the pages below get you running on it. If you are buying a device specifically for IPTV, a Fire TV Stick 4K is the less frustrating purchase.",
+      },
+      {
+        h: "Bandwidth, quality and your network",
+        p: "IPTV is a continuous real-time stream with no large buffer to absorb dips, so consistency matters more than headline speed. Plan for at least 10 Mbps for HD and 25 Mbps for stable 4K, measured on the Roku itself rather than on a laptop elsewhere in the house. Where your model has an ethernet port, use it: a wired connection removes the interference and congestion that cause most buffering complaints, and it matters most during live sport when everyone is watching at once. On Wi-Fi, prefer the 5 GHz band and keep the router in the open rather than inside a cabinet.",
+      },
+      {
+        h: "Fixing the problems that actually come up",
+        p: "Three issues account for most Roku support messages. If the channel list refuses to load, the cause is almost always a single wrong character in the server URL, username or password — the port included — so check the entry character by character against what we sent. If playback stutters on one channel but not others, restart the Roku before assuming a wider fault; background processes on older models are a common culprit. And if the guide shows no programme titles, refresh the EPG manually from the player's settings and give it a minute to populate rather than reinstalling.",
+      },
+      {
+        h: "What the subscription actually includes",
+        p: "The device is only the delivery mechanism; the catalogue is identical whichever hardware you use. That means 66,000+ live channels, around 4,200 of them sport, covering Premier League, Bundesliga, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formula 1 and MotoGP. Alongside those sit roughly 70,000 films and 18,000 series on demand, with artwork and season structure, plus around 320 children's channels and 540 news and documentary channels. Everything is encoded in HEVC/H.265 with adaptive bitrate, and the same login works across your other devices without buying anything again.",
+      },
+      {
+        h: "Support, guarantee and trying it first",
+        p: "Because Roku's app situation varies by region, this is a page where testing before paying is genuinely useful rather than a formality. A free 24-hour trial runs without a credit card, which lets you confirm that a suitable player exists in your own Channel Store before committing to a term. If it does not, our support will tell you plainly and point you to the HDMI route instead. Messages on WhatsApp are answered in under five minutes, including before purchase, and every plan carries a seven-day money-back guarantee on top of the trial.",
+      },
     ],
     faq: [
       { q: "Can I watch IPTV on a Roku?", a: "Yes, through an IPTV player from the Roku Channel Store that supports Xtream Codes or M3U. Roku is more closed than Android TV, so the selection is narrower, but the credentials work the same way." },
@@ -1797,6 +1881,26 @@ content["iptv-roku"] = {
         h: "Wenn kein Player verfügbar ist",
         p: "Das Roku-Angebot unterscheidet sich je nach Region, und die IPTV-Auswahl ist schmaler als bei Android. Finden Sie keinen passenden Player, haben Sie zwei verlässliche Wege. Sie können vom Handy oder Tablet mit IPTV Smarters Pro spiegeln beziehungsweise casten — das funktioniert, bindet aber das Handy. Oder Sie ergänzen ein HDMI-Gerät am selben Fernseher: Ein Amazon Fire TV Stick 4K, ein Apple TV oder eine Android-TV-Box bringt die volle Player-Auswahl mit und ist auf Dauer die bequemere Lösung.",
       },
+      {
+        h: "Roku im Vergleich zum Fire TV Stick",
+        p: "Der ehrliche Vergleich ist hier wichtig, weil er darüber entscheidet, wie reibungslos die Einrichtung verläuft. Ein Fire TV Stick läuft unter Fire OS, einem Android-Abkömmling, und akzeptiert daher per Sideloading installierte Player — TiviMate, IBO Player und IPTV Smarters Pro stehen direkt zur Verfügung. Roku lässt das bewusst nicht zu: Installiert wird ausschließlich aus dem eigenen Channel Store, dessen IPTV-Auswahl schmaler ist und sich je nach Region unterscheidet. Roku punktet bei der Einfachheit und der Fernbedienung, Fire TV eindeutig bei der App-Auswahl. Wer bereits einen Roku besitzt, kommt mit dieser Anleitung ans Ziel. Wer ein Gerät gezielt für IPTV kauft, fährt mit einem Fire TV Stick 4K entspannter.",
+      },
+      {
+        h: "Bandbreite, Qualität und Ihr Netzwerk",
+        p: "IPTV ist ein kontinuierlicher Echtzeit-Stream ohne großen Puffer, der Schwankungen ausgleichen könnte. Deshalb zählt Gleichmäßigkeit mehr als die maximale Geschwindigkeit im Tarif. Rechnen Sie mit mindestens 10 Mbit/s für HD und 25 Mbit/s für stabiles 4K — gemessen am Roku selbst und nicht am Notebook im Nebenzimmer. Hat Ihr Modell einen LAN-Anschluss, nutzen Sie ihn: Eine Kabelverbindung nimmt genau jene Störungen und Auslastungsspitzen heraus, die den größten Teil aller Buffering-Beschwerden verursachen, und das fällt bei Live-Sport am stärksten ins Gewicht. Im WLAN sollten Sie das 5-GHz-Band wählen und den Router frei aufstellen statt in einen Schrank.",
+      },
+      {
+        h: "Die Probleme beheben, die tatsächlich auftreten",
+        p: "Drei Fälle machen den Großteil aller Support-Anfragen zu Roku aus. Lädt die Senderliste nicht, liegt es fast immer an einem einzigen falschen Zeichen in Server-URL, Benutzername oder Passwort — den Port eingeschlossen. Prüfen Sie die Eingabe Zeichen für Zeichen gegen das, was wir Ihnen gesendet haben. Ruckelt die Wiedergabe nur bei einem Sender und nicht bei anderen, starten Sie den Roku neu, bevor Sie einen größeren Fehler vermuten; Hintergrundprozesse sind bei älteren Modellen eine häufige Ursache. Zeigt der Programmführer keine Sendungstitel, aktualisieren Sie den EPG manuell in den Einstellungen und geben Sie ihm eine Minute, statt neu zu installieren.",
+      },
+      {
+        h: "Was im Abo tatsächlich enthalten ist",
+        p: "Das Gerät ist nur der Weg zum Inhalt; der Katalog ist auf jeder Hardware identisch. Das bedeutet 66.000+ Live-Sender, davon rund 4.200 Sportkanäle mit Bundesliga, Premier League, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formel 1 und MotoGP. Daneben stehen etwa 70.000 Filme und 18.000 Serien auf Abruf bereit, mit Poster und Staffel-Struktur, dazu rund 320 Kinderkanäle sowie 540 Nachrichten- und Dokumentationssender. Alles wird in HEVC/H.265 mit adaptiver Bitrate ausgeliefert, und dieselben Zugangsdaten funktionieren auf Ihren übrigen Geräten, ohne dass Sie erneut etwas kaufen müssen.",
+      },
+      {
+        h: "Support, Garantie und der Test vorab",
+        p: "Weil die App-Lage bei Roku je nach Region schwankt, ist ein Test vor dem Kauf hier wirklich nützlich und keine Formsache. Der kostenlose 24-Stunden-Test läuft ohne Kreditkarte und erlaubt Ihnen, vorab zu prüfen, ob in Ihrem eigenen Channel Store ein passender Player verfügbar ist, bevor Sie sich auf eine Laufzeit festlegen. Ist das nicht der Fall, sagt Ihnen unser Support das offen und verweist auf den HDMI-Weg. Nachrichten auf WhatsApp werden in unter fünf Minuten beantwortet, auch schon vor dem Kauf, und zusätzlich zum Test gilt für jedes Abo eine siebentägige Geld-zurück-Garantie.",
+      },
     ],
     faq: [
       { q: "Kann ich IPTV auf einem Roku schauen?", a: "Ja, über einen IPTV-Player aus dem Roku Channel Store, der Xtream Codes oder M3U unterstützt. Roku ist geschlossener als Android TV, die Auswahl also schmaler — die Zugangsdaten funktionieren aber gleich." },
@@ -1836,6 +1940,26 @@ content["iptv-roku"] = {
       {
         h: "Quand aucun lecteur n'est disponible",
         p: "L'offre Roku varie selon les régions et son choix d'applications IPTV est plus restreint que sur Android. Si vous ne trouvez pas de lecteur adapté, deux solutions fiables s'offrent à vous. Vous pouvez diffuser depuis un téléphone ou une tablette avec IPTV Smarters Pro — cela fonctionne mais mobilise le téléphone. Ou vous ajoutez un appareil HDMI sur le même téléviseur : un Amazon Fire TV Stick 4K, une Apple TV ou une box Android TV offre tout le choix de lecteurs et reste la solution la plus confortable à long terme.",
+      },
+      {
+        h: "Roku face au Fire TV Stick pour l'IPTV",
+        p: "La comparaison honnête compte ici, car elle détermine la fluidité de votre installation. Un Fire TV Stick tourne sous Fire OS, un dérivé d'Android, et accepte donc les lecteurs installés manuellement : TiviMate, IBO Player et IPTV Smarters Pro sont directement accessibles. Roku ne l'autorise volontairement pas : tout s'installe depuis son propre Channel Store, dont la sélection IPTV est plus restreinte et varie selon les régions. Roku l'emporte sur la simplicité et la télécommande, Fire TV nettement sur le choix d'applications. Si vous possédez déjà un Roku, ce guide vous mène au but. Si vous achetez un appareil spécifiquement pour l'IPTV, un Fire TV Stick 4K sera moins frustrant.",
+      },
+      {
+        h: "Débit, qualité et votre réseau",
+        p: "L'IPTV est un flux continu en temps réel, sans gros tampon pour absorber les creux : la régularité compte donc davantage que la vitesse annoncée. Prévoyez au moins 10 Mbps pour la HD et 25 Mbps pour une 4K stable, mesurés sur le Roku lui-même et non sur un portable dans une autre pièce. Si votre modèle dispose d'un port ethernet, utilisez-le : une connexion filaire supprime précisément les interférences et les saturations à l'origine de la plupart des plaintes de buffering, ce qui pèse surtout lors du sport en direct. En Wi-Fi, privilégiez la bande 5 GHz et placez le routeur à découvert plutôt que dans un meuble.",
+      },
+      {
+        h: "Résoudre les problèmes qui surviennent vraiment",
+        p: "Trois cas représentent l'essentiel des demandes de support concernant Roku. Si la liste des chaînes refuse de charger, la cause est presque toujours un seul caractère erroné dans l'URL du serveur, le nom d'utilisateur ou le mot de passe — port compris. Vérifiez la saisie caractère par caractère face à ce que nous vous avons envoyé. Si la lecture saccade sur une chaîne mais pas sur les autres, redémarrez le Roku avant de supposer une panne plus large ; les processus en arrière-plan sont fréquents sur les modèles anciens. Si le guide n'affiche aucun titre, actualisez l'EPG manuellement dans les réglages et laissez-lui une minute plutôt que de réinstaller.",
+      },
+      {
+        h: "Ce que l'abonnement contient réellement",
+        p: "L'appareil n'est que le moyen d'accès ; le catalogue reste identique quel que soit le matériel. Cela représente 66 000+ chaînes en direct, dont environ 4 200 chaînes sport couvrant Ligue 1, Premier League, La Liga, Serie A, Bundesliga, Champions League, NBA, NFL, UFC, Formule 1 et MotoGP. S'y ajoutent quelque 70 000 films et 18 000 séries à la demande, avec affiches et structure par saisons, ainsi qu'environ 320 chaînes jeunesse et 540 chaînes d'information et de documentaires. Tout est encodé en HEVC/H.265 avec bitrate adaptatif, et les mêmes identifiants fonctionnent sur vos autres appareils sans nouvel achat.",
+      },
+      {
+        h: "Support, garantie et test préalable",
+        p: "Comme la disponibilité des applications Roku varie selon les régions, tester avant de payer est ici réellement utile et non une simple formalité. L'essai gratuit de 24 heures fonctionne sans carte bancaire et vous permet de vérifier qu'un lecteur adapté existe dans votre propre Channel Store avant de vous engager sur une durée. Si ce n'est pas le cas, notre support vous le dira franchement et vous orientera vers la solution HDMI. Les messages sur WhatsApp reçoivent une réponse en moins de cinq minutes, y compris avant l'achat, et chaque formule bénéficie en plus d'une garantie satisfait ou remboursé de sept jours.",
       },
     ],
     faq: [

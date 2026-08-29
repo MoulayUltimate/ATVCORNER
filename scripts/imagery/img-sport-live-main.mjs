@@ -1,7 +1,7 @@
 // MAIN — watching live sport. Base: B7FUVavJyfk (friends watching a game; TV x330-600 y25-180).
 import { make } from "./_make.mjs";
 await make({
-  card: { x: 24, y: 234, w: 320 },
+  card: { x: 24, y: 222, w: 320 },
   pill: null,
   grade: { slope: 1.08, intercept: -0.14, sat: 1.06 },
   str: {
