@@ -78,6 +78,26 @@ const labels: Record<SeoPage, Record<Locale, LinkCopy>> = {
     en: { label: "IPTV on Roku", blurb: "Set IPTV up on a Roku in 5 minutes." },
     de: { label: "IPTV auf Roku", blurb: "IPTV in 5 Minuten auf Roku einrichten." },
   },
+  "iptv-usa": {
+    fr: { label: "IPTV USA", blurb: "Chaînes américaines, NFL et NBA en direct." },
+    en: { label: "IPTV USA", blurb: "American networks, NFL and NBA live." },
+    de: { label: "IPTV USA", blurb: "US-Sender, NFL und NBA live." },
+  },
+  "iptv-apple-tv": {
+    fr: { label: "IPTV sur Apple TV", blurb: "Installation via l'App Store, sans jailbreak." },
+    en: { label: "IPTV on Apple TV", blurb: "Installs from the App Store, no jailbreak." },
+    de: { label: "IPTV auf Apple TV", blurb: "Installation über den App Store, ohne Jailbreak." },
+  },
+  "iptv-android-tv": {
+    fr: { label: "IPTV sur Android TV", blurb: "Box, Shield ou Smart TV — le plus large choix d'apps." },
+    en: { label: "IPTV on Android TV", blurb: "Box, Shield or Smart TV — the widest app choice." },
+    de: { label: "IPTV auf Android TV", blurb: "Box, Shield oder Smart TV — größte App-Auswahl." },
+  },
+  "iptv-mag-box": {
+    fr: { label: "IPTV pour MAG Box", blurb: "URL de portail et adresse MAC, sans application." },
+    en: { label: "IPTV for MAG Box", blurb: "Portal URL and MAC address, no app needed." },
+    de: { label: "IPTV für MAG Box", blurb: "Portal-URL und MAC-Adresse, ohne App." },
+  },
   "best-iptv-alternatives": {
     fr: { label: "Alternatives IPTV", blurb: "Comparatif face aux autres services." },
     en: { label: "IPTV Alternatives", blurb: "How we compare to other services." },
@@ -106,6 +126,10 @@ const related: Record<SeoPage, SeoPage[]> = {
   "best-iptv-alternatives": ["best-iptv-service", "cable-tv-alternative", "iptv-subscription"],
   "iptv-deutschland": ["iptv-subscription", "iptv-sport", "iptv-free-trial"],
   "iptv-roku": ["iptv-firestick", "iptv-smarters-pro", "iptv-subscription"],
+  "iptv-usa": ["iptv-subscription", "iptv-sport", "cable-tv-alternative"],
+  "iptv-apple-tv": ["iptv-android-tv", "iptv-smarters-pro", "iptv-subscription"],
+  "iptv-android-tv": ["iptv-apple-tv", "iptv-firestick", "iptv-smarters-pro"],
+  "iptv-mag-box": ["xtream-codes", "iptv-android-tv", "iptv-subscription"],
 };
 
 export type RelatedLink = { slug: SeoPage; label: string; blurb: string };

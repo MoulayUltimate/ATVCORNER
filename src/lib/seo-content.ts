@@ -35,7 +35,11 @@ export type Page =
   | "iptv-smarters-pro"
   | "cable-tv-alternative"
   | "iptv-deutschland"
-  | "iptv-roku";
+  | "iptv-roku"
+  | "iptv-usa"
+  | "iptv-apple-tv"
+  | "iptv-android-tv"
+  | "iptv-mag-box";
 
 const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
 
@@ -2251,6 +2255,522 @@ content["iptv-roku"] = {
   },
 };
 
+// =============================================================================
+// /iptv-usa — "iptv usa" (2,900/mo, KD 0, commercial, +24% YoY)
+// =============================================================================
+content["iptv-usa"] = {
+  en: {
+    metaTitle: "IPTV USA — 66,000+ Channels, NFL & NBA in 4K from $5/mo",
+    metaDesc:
+      "IPTV for the USA: every major American network, NFL, NBA, MLB and NHL, plus 66,000+ international channels in 4K/8K. No contract,active in 5 minutes, from $5/mo.",
+    eyebrow: "IPTV USA · From $5/mo",
+    h1: "IPTV for the",
+    h1Accent: "United States",
+    intro:
+      "American networks, live NFL, NBA, MLB and NHL, and 66,000+ international channels in one subscription — streamed over your existing internet connection in 4K/8K, with no cable contract and no rented box. Activated in under 5 minutes, from $5/mo.",
+    cover: "/blog/iptv-usa-main-en.jpg",
+    image: {
+      src: "/blog/iptv-usa-body-en.jpg",
+      alt: "What an IPTV subscription replaces in a US household: cable box, sports add-on packages and separate streaming services.",
+      caption: "One subscription in place of a cable package plus its paid sports add-ons.",
+    },
+    features: [
+      { h: "American networks", p: "National and regional channels, news, entertainment and kids, without a cable contract." },
+      { h: "NFL, NBA, MLB, NHL", p: "Around 4,200 sport channels covering the major US leagues plus MLS, UFC and Formula 1." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 with adaptive bitrate, so fast motion in sport stays clean." },
+      { h: "From $5/mo", p: "1, 3, 6 and 12-month plans, no contract and a 7-day money-back guarantee." },
+    ],
+    sections: [
+      { h: "Why American households are dropping cable", p: "A US cable or satellite package typically runs $45 to $110 a month once the box rental, the HD surcharge and the sports tier are added, and it usually locks you in for a year or two. IPTV inverts that arithmetic: the same living room, the same television, but the signal arrives over the internet connection you already pay for. At ATV Corner that means 66,000+ channels and a library of 70,000+ films and 18,000+ series from $5/mo, with nothing to install on the wall and no contract to exit later." },
+      { h: "Live sport without the add-on tiers", p: "Sport is where cable bills quietly inflate, because the leagues most people actually watch sit behind a premium tier that is sold separately. Around 4,200 sport channels are included here by default — NFL, NBA, MLB, NHL and MLS, alongside international coverage of the Premier League, La Liga, Serie A, Bundesliga, Ligue 1, the Champions League, UFC, Formula 1 and MotoGP. If you follow a league that plays overseas, that international layer is usually the part a domestic package cannot match at any price." },
+      { h: "Which devices work in a US home", p: "Almost certainly one you already own. Samsung and LG smart televisions, Sony, TCL and Hisense sets running Android TV or Google TV, the Amazon Fire TV Stick, Apple TV, MAG boxes, Enigma2 receivers, iPhones, iPads, Android phones and tablets, and computers on Windows, macOS and Linux all work. The playback app is your choice: TiviMate, IBO Player and IPTV Smarters Pro are the established options, and VLC handles a plain M3U link." },
+      { h: "The bandwidth you actually need", p: "This matters more than most providers admit, because an IPTV stream is continuous and real-time with no large buffer to smooth over dips. Plan on roughly 10 Mbps for HD and at least 25 Mbps for stable 4K, measured on the device you watch on rather than on a laptop in another room. Consistency beats peak speed: a steady 30 Mbps line delivers a better picture than an erratic 200 Mbps one, which is why a wired connection is worth using wherever the device offers a port." },
+      { h: "How activation works", p: "There is no technician and no appointment. You pick a term, complete payment, and your credentials arrive on WhatsApp within five minutes — either an Xtream Codes trio of server URL, username and password, or an M3U link. You enter those once into your chosen app, and it loads the full channel list, a multi-day programme guide and the film and series catalogue on its own. Most people are watching inside ten minutes of deciding to subscribe." },
+      { h: "Time zones, regional feeds and the guide", p: "The United States spans several time zones, and a channel list that ignores that is frustrating to live with. The programme guide arrives populated so you can see what is on now and later rather than scrolling blind, and the catalogue carries both national feeds and international channels for viewers who want programming from elsewhere. The single most useful thing you can do after setup is build a favourites list — curating your own selection out of 66,000+ channels is what turns a large catalogue into something usable every evening." },
+      { h: "What it costs against what you pay now", p: "Add up an honest month of cable: the base package, the box rental, the HD fee, the sports tier and any second box for another room. Plenty of American households land between $60 and $90. An ATV Corner annual plan is $65 — for twelve months, not one. The monthly plan is $16, three months $33, six months $55. Every term carries the same catalogue, the same 4K/8K quality and the same 24/7 support; the only variable is the cost per month." },
+      { h: "Test it before you cancel anything", p: "Because IPTV runs over your internet line rather than the coaxial socket, it works in parallel with whatever you have now. That makes the sensible order obvious: start a free 24-hour trial, run it alongside your current service for a week or two — deliberately including prime time and a live game, since that is when server capacity shows itself — and only then decide. No credit card is needed for the trial, and every paid plan carries a 7-day money-back guarantee on top." },
+    ],
+    faq: [
+      { q: "Does IPTV work anywhere in the USA?", a: "Yes. It runs over your internet connection rather than a cable line, so location only matters insofar as your broadband is stable. Plan on 10 Mbps for HD and 25 Mbps for smooth 4K." },
+      { q: "Can I watch NFL and NBA games?", a: "Yes. Around 4,200 sport channels are included, covering NFL, NBA, MLB, NHL and MLS alongside international leagues — without the paid sports tier a cable package would charge for." },
+      { q: "How much does IPTV cost in the USA?", a: "Plans start at $16 for one month and drop to about $5/mo on the annual $65 plan. Every plan includes 66,000+ channels, 4K/8K quality and 24/7 support." },
+      { q: "Do I need a cable box or a technician?", a: "Neither. A Smart TV, Fire TV Stick, Apple TV, phone, tablet or computer is enough, and setup is remote — your credentials arrive on WhatsApp in under 5 minutes." },
+      { q: "Can I try it before subscribing?", a: "Yes. A free 24-hour trial runs without a credit card and works alongside your existing service, so you can compare directly before cancelling anything." },
+    ],
+    cta: "Start my US subscription",
+  },
+  de: {
+    metaTitle: "IPTV USA — 66.000+ Sender, NFL & NBA in 4K ab 5 €/Monat",
+    metaDesc:
+      "IPTV für die USA: amerikanische Sender, NFL, NBA, MLB und NHL sowie 66.000+ internationale Programme in 4K/8K. Ohne Vertrag, in 5 Minuten aktiv, ab 5 €/Monat.",
+    eyebrow: "IPTV USA · Ab 5 €/Monat",
+    h1: "IPTV für die",
+    h1Accent: "USA",
+    intro:
+      "Amerikanische Sender, NFL, NBA, MLB und NHL live sowie 66.000+ internationale Programme in einem Abo — über Ihre bestehende Internetverbindung in 4K/8K, ohne Kabelvertrag und ohne Mietreceiver. In unter 5 Minuten aktiv, ab 5 €/Monat.",
+    cover: "/blog/iptv-usa-main-de.jpg",
+    image: {
+      src: "/blog/iptv-usa-body-de.jpg",
+      alt: "Was ein IPTV-Abo in einem US-Haushalt ersetzt: Kabelreceiver, kostenpflichtige Sportpakete und einzelne Streamingdienste.",
+      caption: "Ein Abo statt Kabelpaket plus kostenpflichtiger Sport-Zusatzpakete.",
+    },
+    features: [
+      { h: "Amerikanische Sender", p: "Nationale und regionale Programme, News, Unterhaltung und Kinderkanäle — ohne Kabelvertrag." },
+      { h: "NFL, NBA, MLB, NHL", p: "Rund 4.200 Sportkanäle mit den großen US-Ligen sowie MLS, UFC und Formel 1." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 mit adaptiver Bitrate — auch schnelle Bewegungen im Sport bleiben sauber." },
+      { h: "Ab 5 €/Monat", p: "Laufzeiten von 1, 3, 6 und 12 Monaten, ohne Vertragsbindung, mit 7 Tagen Geld-zurück-Garantie." },
+    ],
+    sections: [
+      { h: "Warum US-Haushalte das Kabel kündigen", p: "Ein amerikanisches Kabel- oder Satellitenpaket kostet mit Receiver-Miete, HD-Aufpreis und Sportstufe typischerweise 45 bis 110 Dollar im Monat und bindet meist für ein bis zwei Jahre. IPTV dreht diese Rechnung um: dasselbe Wohnzimmer, derselbe Fernseher, aber das Signal kommt über die Internetleitung, die Sie ohnehin bezahlen. Bei ATV Corner sind das 66.000+ Sender und eine Bibliothek mit 70.000+ Filmen und 18.000+ Serien ab 5 €/Monat — ohne Installation an der Wand und ohne Vertrag, aus dem man später wieder herauskommen muss." },
+      { h: "Live-Sport ohne kostenpflichtige Zusatzstufen", p: "Beim Sport wachsen Kabelrechnungen still an, weil ausgerechnet die Ligen, die die meisten wirklich schauen, in einer separat verkauften Premiumstufe liegen. Hier sind rund 4.200 Sportkanäle standardmäßig enthalten — NFL, NBA, MLB, NHL und MLS, dazu internationale Übertragungen von Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League, UFC, Formel 1 und MotoGP. Wer eine Liga verfolgt, die im Ausland spielt, findet genau in dieser internationalen Ebene das, was ein rein nationales Paket zu keinem Preis bietet." },
+      { h: "Welche Geräte in einem US-Haushalt funktionieren", p: "Mit hoher Wahrscheinlichkeit eines, das Sie schon besitzen. Smart TVs von Samsung und LG, Geräte von Sony, TCL und Hisense unter Android TV oder Google TV, der Amazon Fire TV Stick, Apple TV, MAG-Boxen, Enigma2-Receiver, iPhones, iPads, Android-Handys und -Tablets sowie Computer unter Windows, macOS und Linux funktionieren alle. Die Abspiel-App wählen Sie selbst: TiviMate, IBO Player und IPTV Smarters Pro sind die etablierten Optionen, VLC verarbeitet einen einfachen M3U-Link." },
+      { h: "Die Bandbreite, die Sie wirklich brauchen", p: "Dieser Punkt ist wichtiger, als die meisten Anbieter zugeben, denn ein IPTV-Stream läuft kontinuierlich in Echtzeit und hat keinen großen Puffer, der Einbrüche ausgleicht. Rechnen Sie mit etwa 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen auf dem Gerät, auf dem Sie schauen, und nicht auf einem Notebook im Nebenzimmer. Gleichmäßigkeit schlägt Spitzengeschwindigkeit: Eine stabile 30-Mbit-Leitung liefert ein besseres Bild als eine schwankende 200-Mbit-Leitung — weshalb sich eine Kabelverbindung überall dort lohnt, wo das Gerät einen Anschluss bietet." },
+      { h: "Wie die Aktivierung abläuft", p: "Es gibt keinen Techniker und keinen Termin. Sie wählen eine Laufzeit, schließen die Zahlung ab, und Ihre Zugangsdaten kommen innerhalb von fünf Minuten per WhatsApp — entweder als Xtream-Codes-Trio aus Server-URL, Benutzername und Passwort oder als M3U-Link. Diese tragen Sie einmal in die gewünschte App ein, die daraufhin selbstständig die vollständige Senderliste, einen mehrtägigen Programmführer sowie den Film- und Serienkatalog lädt. Die meisten schauen zehn Minuten nach der Kaufentscheidung." },
+      { h: "Zeitzonen, Regionalsender und der Programmführer", p: "Die USA erstrecken sich über mehrere Zeitzonen, und eine Senderliste, die das ignoriert, ist im Alltag mühsam. Der Programmführer kommt gefüllt an, sodass Sie sehen, was jetzt und später läuft, statt blind zu scrollen. Der Katalog enthält sowohl nationale Feeds als auch internationale Sender für alle, die Programme von anderswo sehen möchten. Das Nützlichste nach der Einrichtung ist eine Favoritenliste — aus 66.000+ Sendern eine eigene Auswahl zu bauen, macht aus einem großen Katalog etwas, das man jeden Abend gern benutzt." },
+      { h: "Was es kostet — gegen das, was Sie heute zahlen", p: "Rechnen Sie einen ehrlichen Kabelmonat zusammen: Grundpaket, Receiver-Miete, HD-Gebühr, Sportstufe und ein etwaiger Zweitreceiver für ein anderes Zimmer. Viele amerikanische Haushalte landen zwischen 60 und 90 Dollar. Ein ATV Corner Jahresabo kostet 60 € — für zwölf Monate, nicht für einen. Der Monatstarif liegt bei 15 €, drei Monate bei 30 €, sechs Monate bei 50 €. Jede Laufzeit enthält denselben Katalog, dieselbe 4K/8K-Qualität und denselben 24/7-Support; die einzige Variable ist der Preis pro Monat." },
+      { h: "Testen, bevor Sie irgendetwas kündigen", p: "Weil IPTV über Ihre Internetleitung läuft und nicht über die Koaxdose, funktioniert es parallel zu dem, was Sie heute haben. Damit ist die sinnvolle Reihenfolge offensichtlich: Starten Sie einen kostenlosen 24-Stunden-Test, lassen Sie ihn ein bis zwei Wochen neben dem bestehenden Dienst laufen — bewusst inklusive Prime Time und eines Live-Spiels, denn dann zeigt sich die Serverkapazität — und entscheiden Sie erst danach. Für den Test ist keine Kreditkarte nötig, und auf jedes bezahlte Abo kommt zusätzlich eine 7-tägige Geld-zurück-Garantie." },
+    ],
+    faq: [
+      { q: "Funktioniert IPTV überall in den USA?", a: "Ja. Es läuft über Ihre Internetverbindung statt über eine Kabelleitung; der Standort spielt nur insofern eine Rolle, als Ihr Anschluss stabil sein muss. Rechnen Sie mit 10 Mbit/s für HD und 25 Mbit/s für flüssiges 4K." },
+      { q: "Kann ich NFL- und NBA-Spiele sehen?", a: "Ja. Rund 4.200 Sportkanäle sind enthalten und decken NFL, NBA, MLB, NHL und MLS sowie internationale Ligen ab — ohne die kostenpflichtige Sportstufe, die ein Kabelpaket berechnen würde." },
+      { q: "Was kostet IPTV für die USA?", a: "Die Abos starten bei 15 € für einen Monat und sinken auf etwa 5 €/Monat im Jahresabo für 60 €. Jedes Abo enthält 66.000+ Sender, 4K/8K-Qualität und 24/7-Support." },
+      { q: "Brauche ich einen Kabelreceiver oder einen Techniker?", a: "Weder noch. Ein Smart TV, Fire TV Stick, Apple TV, Handy, Tablet oder Computer genügt, und die Einrichtung erfolgt aus der Ferne — die Zugangsdaten kommen in unter 5 Minuten per WhatsApp." },
+      { q: "Kann ich vor dem Abo testen?", a: "Ja. Ein kostenloser 24-Stunden-Test läuft ohne Kreditkarte und funktioniert parallel zu Ihrem bestehenden Dienst, sodass Sie direkt vergleichen können, bevor Sie etwas kündigen." },
+    ],
+    cta: "US-Abo starten",
+  },
+  fr: {
+    metaTitle: "IPTV USA — 66 000+ chaînes, NFL & NBA en 4K dès 5 €/mois",
+    metaDesc:
+      "IPTV pour les États-Unis : chaînes américaines, NFL, NBA, MLB et NHL, plus 66 000+ chaînes internationales en 4K/8K. Sans engagement, actif en 5 minutes, dès 5 €/mois.",
+    eyebrow: "IPTV USA · Dès 5 €/mois",
+    h1: "L'IPTV pour les",
+    h1Accent: "États-Unis",
+    intro:
+      "Les chaînes américaines, la NFL, la NBA, la MLB et la NHL en direct, et 66 000+ chaînes internationales dans un seul abonnement — diffusées via votre connexion internet existante en 4K/8K, sans contrat câble ni décodeur en location. Actif en moins de 5 minutes, dès 5 €/mois.",
+    cover: "/blog/iptv-usa-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-usa-body-fr.jpg",
+      alt: "Ce qu'un abonnement IPTV remplace dans un foyer américain : décodeur câble, bouquets sport payants et services de streaming séparés.",
+      caption: "Un abonnement à la place d'un bouquet câble et de ses options sport payantes.",
+    },
+    features: [
+      { h: "Chaînes américaines", p: "Programmes nationaux et régionaux, info, divertissement et jeunesse — sans contrat câble." },
+      { h: "NFL, NBA, MLB, NHL", p: "Environ 4 200 chaînes sport couvrant les grandes ligues US ainsi que MLS, UFC et Formule 1." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 avec bitrate adaptatif : les mouvements rapides du sport restent nets." },
+      { h: "Dès 5 €/mois", p: "Formules 1, 3, 6 et 12 mois, sans engagement, avec garantie satisfait ou remboursé 7 jours." },
+    ],
+    sections: [
+      { h: "Pourquoi les foyers américains quittent le câble", p: "Un bouquet câble ou satellite américain revient généralement à 45 à 110 dollars par mois une fois ajoutés la location du décodeur, le supplément HD et l'option sport, et il engage le plus souvent sur un à deux ans. L'IPTV renverse ce calcul : le même salon, le même téléviseur, mais le signal arrive par la connexion internet que vous payez déjà. Chez ATV Corner, cela représente 66 000+ chaînes et une bibliothèque de 70 000+ films et 18 000+ séries dès 5 €/mois, sans installation murale ni contrat dont il faudra sortir plus tard." },
+      { h: "Le sport en direct sans options payantes", p: "C'est sur le sport que les factures câble gonflent discrètement, car les ligues que la plupart des gens regardent vraiment se trouvent dans une offre premium vendue séparément. Ici, environ 4 200 chaînes sport sont incluses par défaut — NFL, NBA, MLB, NHL et MLS, aux côtés des retransmissions internationales de Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League, UFC, Formule 1 et MotoGP. Si vous suivez un championnat joué à l'étranger, cette couche internationale est précisément ce qu'un bouquet national ne propose à aucun prix." },
+      { h: "Quels appareils fonctionnent dans un foyer américain", p: "Très probablement un que vous possédez déjà. Les Smart TV Samsung et LG, les téléviseurs Sony, TCL et Hisense sous Android TV ou Google TV, l'Amazon Fire TV Stick, l'Apple TV, les MAG box, les récepteurs Enigma2, iPhone, iPad, téléphones et tablettes Android, ainsi que les ordinateurs sous Windows, macOS et Linux fonctionnent tous. L'application de lecture est votre choix : TiviMate, IBO Player et IPTV Smarters Pro sont les options établies, et VLC gère un simple lien M3U." },
+      { h: "Le débit réellement nécessaire", p: "Ce point compte plus que la plupart des fournisseurs ne l'admettent, car un flux IPTV est continu et en temps réel, sans gros tampon pour absorber les creux. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'appareil où vous regardez et non sur un portable dans une autre pièce. La régularité prime sur la vitesse de pointe : une ligne stable à 30 Mbps donne une meilleure image qu'une ligne instable à 200 Mbps, d'où l'intérêt d'une connexion filaire partout où l'appareil dispose d'un port." },
+      { h: "Comment se passe l'activation", p: "Aucun technicien, aucun rendez-vous. Vous choisissez une durée, réglez le paiement, et vos identifiants arrivent en moins de cinq minutes par WhatsApp — soit un trio Xtream Codes composé de l'URL du serveur, d'un nom d'utilisateur et d'un mot de passe, soit un lien M3U. Vous les saisissez une seule fois dans l'application choisie, qui charge ensuite d'elle-même la liste complète des chaînes, un guide des programmes sur plusieurs jours et le catalogue de films et séries. La plupart des gens regardent dix minutes après avoir décidé." },
+      { h: "Fuseaux horaires, chaînes régionales et guide", p: "Les États-Unis s'étendent sur plusieurs fuseaux horaires, et une liste de chaînes qui l'ignore devient pénible au quotidien. Le guide des programmes arrive rempli, ce qui vous permet de voir ce qui passe maintenant et plus tard plutôt que de faire défiler à l'aveugle. Le catalogue comprend à la fois des flux nationaux et des chaînes internationales pour ceux qui veulent des programmes d'ailleurs. La chose la plus utile après l'installation reste de créer une liste de favoris : se constituer une sélection parmi 66 000+ chaînes transforme un grand catalogue en quelque chose d'agréable chaque soir." },
+      { h: "Ce que cela coûte face à ce que vous payez", p: "Additionnez honnêtement un mois de câble : bouquet de base, location du décodeur, supplément HD, option sport et éventuel second décodeur pour une autre pièce. Beaucoup de foyers américains se situent entre 60 et 90 dollars. Un abonnement annuel ATV Corner coûte 60 € — pour douze mois, pas pour un. La formule mensuelle est à 15 €, trois mois à 30 €, six mois à 50 €. Chaque durée inclut le même catalogue, la même qualité 4K/8K et le même support 24/7 ; la seule variable est le coût mensuel." },
+      { h: "Testez avant de résilier quoi que ce soit", p: "Comme l'IPTV passe par votre ligne internet et non par la prise coaxiale, elle fonctionne en parallèle de ce que vous avez aujourd'hui. L'ordre logique s'impose donc : lancez un essai gratuit de 24 heures, faites-le tourner une à deux semaines à côté de votre service actuel — en incluant délibérément les heures de pointe et un match en direct, car c'est là que la capacité serveur se révèle — puis décidez seulement ensuite. Aucune carte bancaire n'est requise pour l'essai, et chaque formule payante s'accompagne en plus d'une garantie de 7 jours." },
+    ],
+    faq: [
+      { q: "L'IPTV fonctionne-t-elle partout aux États-Unis ?", a: "Oui. Elle passe par votre connexion internet plutôt que par une ligne câble ; l'emplacement ne compte que dans la mesure où votre débit doit être stable. Prévoyez 10 Mbps pour la HD et 25 Mbps pour une 4K fluide." },
+      { q: "Puis-je regarder les matchs de NFL et de NBA ?", a: "Oui. Environ 4 200 chaînes sport sont incluses, couvrant NFL, NBA, MLB, NHL et MLS ainsi que les championnats internationaux — sans l'option sport payante qu'un bouquet câble facturerait." },
+      { q: "Combien coûte l'IPTV pour les États-Unis ?", a: "Les formules démarrent à 15 € pour un mois et descendent à environ 5 €/mois avec l'abonnement annuel à 60 €. Chaque formule inclut 66 000+ chaînes, la qualité 4K/8K et le support 24/7." },
+      { q: "Faut-il un décodeur câble ou un technicien ?", a: "Ni l'un ni l'autre. Une Smart TV, un Fire TV Stick, une Apple TV, un téléphone, une tablette ou un ordinateur suffit, et l'installation se fait à distance — vos identifiants arrivent en moins de 5 minutes par WhatsApp." },
+      { q: "Puis-je essayer avant de m'abonner ?", a: "Oui. Un essai gratuit de 24 heures fonctionne sans carte bancaire et en parallèle de votre service existant, ce qui permet de comparer directement avant de résilier quoi que ce soit." },
+    ],
+    cta: "Démarrer mon abonnement US",
+  },
+};
+
+// =============================================================================
+// /iptv-apple-tv — "iptv apple tv" (DE 170/mo KD 1, commercial)
+// =============================================================================
+content["iptv-apple-tv"] = {
+  de: {
+    metaTitle: "IPTV auf Apple TV — Einrichten in 5 Minuten, 66.000+ Sender",
+    metaDesc:
+      "IPTV auf Apple TV: 66.000+ Sender in 4K/8K über eine App aus dem App Store. Einrichtung in 5 Minuten mit Xtream Codes, ohne Jailbreak, ab 5 €/Monat.",
+    eyebrow: "IPTV Apple TV · Ab 5 €/Monat",
+    h1: "IPTV auf",
+    h1Accent: "Apple TV",
+    intro:
+      "Das Apple TV ist eines der stabilsten Geräte für IPTV: genug Rechenleistung für 4K in HEVC, ein Ethernet-Anschluss an den größeren Modellen und Apps direkt aus dem App Store — kein Sideloading nötig. Einrichtung in unter 5 Minuten, ab 5 €/Monat.",
+    cover: "/blog/iptv-apple-tv-main-de.jpg",
+    image: {
+      src: "/blog/iptv-apple-tv-body-de.jpg",
+      alt: "IPTV auf Apple TV einrichten: App installieren, Xtream-Codes-Daten eingeben, Senderliste lädt automatisch.",
+      caption: "Drei Schritte vom App Store bis zur vollständigen Senderliste.",
+    },
+    features: [
+      { h: "Apps aus dem App Store", p: "Kein Sideloading, kein Jailbreak — der Player wird regulär installiert." },
+      { h: "4K ohne Ruckeln", p: "Der Apple-Chip dekodiert HEVC/H.265 souverän, auch bei schnellem Sport." },
+      { h: "Ethernet möglich", p: "Die größeren Modelle haben einen LAN-Anschluss — die stabilste Verbindung überhaupt." },
+      { h: "In 5 Minuten aktiv", p: "Xtream-Codes-Daten per WhatsApp, einmal eingeben, fertig." },
+    ],
+    sections: [
+      { h: "Warum Apple TV für IPTV gut funktioniert", p: "Viele Streaming-Geräte scheitern nicht am Netzwerk, sondern an der Rechenleistung: Sobald 4K-Material in HEVC/H.265 ankommt, geraten schwache Prozessoren ins Stocken. Genau hier liegt die Stärke des Apple TV. Der verbaute Chip dekodiert diesen Codec ohne Mühe, auch wenn im Hintergrund noch andere Apps laufen. Dazu kommt ein Vorteil, den die meisten Sticks nicht bieten: Die größeren Modelle besitzen einen Ethernet-Anschluss, und eine Kabelverbindung beseitigt genau jene Störungen, die den größten Teil aller Buffering-Beschwerden verursachen." },
+      { h: "Die Einrichtung Schritt für Schritt", p: "Öffnen Sie den App Store auf dem Apple TV und installieren Sie einen IPTV-Player — IPTV Smarters Pro und IBO Player sind dort regulär verfügbar. Beim ersten Start wählen Sie die Anmeldung über die Xtream Codes API und tragen Server-URL, Benutzername und Passwort ein, die wir Ihnen nach dem Abo per WhatsApp senden. Die App lädt daraufhin selbstständig die Senderliste, den Programmführer über mehrere Tage sowie den Film- und Serienkatalog. Ein Computer wird zu keinem Zeitpunkt gebraucht, und es ist kein Jailbreak nötig." },
+      { h: "Kein Sideloading — der entscheidende Unterschied", p: "Auf einem Fire TV Stick installiert man Player über den Umweg Downloader und muss dafür die Installation unbekannter Apps erlauben. Auf dem Apple TV entfällt dieser Schritt vollständig: Die Player liegen im offiziellen App Store und aktualisieren sich wie jede andere App. Das macht die Einrichtung nicht nur schneller, sondern auch dauerhaft wartungsärmer, weil nach einem Systemupdate nichts erneut freigeschaltet werden muss. Für Haushalte, in denen nicht jeder technisch versiert ist, ist das der praktisch wichtigste Unterschied." },
+      { h: "Netzwerk: Kabel schlägt WLAN", p: "Wenn Ihr Modell einen LAN-Anschluss hat, nutzen Sie ihn. Ein IPTV-Stream läuft kontinuierlich in Echtzeit und hat keinen großen Puffer, der Schwankungen ausgleicht — deshalb zählt Gleichmäßigkeit mehr als die Höchstgeschwindigkeit im Tarif. Rechnen Sie mit rund 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen am Apple TV selbst und nicht am Notebook im Nebenzimmer. Bleiben Sie im WLAN, wählen Sie das 5-GHz-Band und stellen Sie den Router frei auf, nicht in einen Schrank oder hinter den Fernseher." },
+      { h: "Welche App auf dem Apple TV", p: "IPTV Smarters Pro ist der unkomplizierteste Einstieg: klare Oberfläche, integrierter Programmführer, Anmeldung über Xtream Codes in unter einer Minute. IBO Player ist schlanker und für manche übersichtlicher. Beide funktionieren mit denselben Zugangsdaten, sodass Sie ohne Zusatzkosten wechseln können, wenn Ihnen eine Bedienung besser gefällt. VLC spielt zwar M3U-Listen ab, bietet aber weder EPG noch Kategorien und eignet sich daher eher zum schnellen Prüfen als zum täglichen Schauen." },
+      { h: "Was im Zugang enthalten ist", p: "Das Gerät bestimmt nur, wie Sie schauen — der Katalog bleibt derselbe. Das sind 66.000+ Live-Sender, davon rund 4.200 Sportkanäle mit Bundesliga, Premier League, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formel 1 und MotoGP. Dazu kommen etwa 70.000 Filme und 18.000 Serien auf Abruf mit Poster und Staffel-Struktur, rund 320 Kinderkanäle und 540 Nachrichten- und Dokumentationssender. Dieselben Zugangsdaten funktionieren parallel auf Ihren anderen Geräten." },
+      { h: "Wenn ein Sender nicht startet", p: "Bleibt ein einzelner Sender schwarz, während andere laufen, liegt es fast nie am Zugang. Prüfen Sie zuerst die Dekoder-Einstellung in der App und wechseln Sie testweise zwischen Hardware und Software. Startet danach nichts, testen Sie denselben Sender auf einem zweiten Gerät: Läuft er dort, liegt es am Apple TV; läuft er nirgends, schreiben Sie uns. Der Support antwortet auf WhatsApp in unter fünf Minuten und prüft den Sender direkt, statt Sie auf ein Ticketsystem zu verweisen." },
+      { h: "Erst testen, dann abonnieren", p: "Sie müssen nichts kündigen und nichts riskieren, um zu sehen, ob es passt. Der kostenlose 24-Stunden-Test läuft ohne Kreditkarte und lässt sich parallel zu einem bestehenden Anschluss auf demselben Apple TV einrichten. Achten Sie dabei auf drei Dinge: ob Ihre Sender vorhanden sind, ob der Programmführer korrekt gefüllt ist und ob das Bild zur Prime Time flüssig bleibt. Überzeugt das Ergebnis, gilt nach dem Kauf zusätzlich eine Geld-zurück-Garantie von sieben Tagen." },
+      {
+        h: "Mehrere Apple-Geräte im Haushalt",
+        p: "Weil die Zugangsdaten an das Abo und nicht an ein Gerät gebunden sind, richten Sie dieselben Daten auf dem Apple TV im Wohnzimmer, auf dem iPhone und auf dem iPad ein und schauen dort jeweils weiter, ohne erneut zu kaufen. Auf iPhone und iPad installieren Sie denselben Player aus dem App Store und melden sich identisch an. Zu beachten ist allein die Zahl gleichzeitiger Verbindungen, die Ihre Formel erlaubt: Wenn zwei Personen zur selben Zeit unterschiedliche Sender sehen möchten, brauchen Sie entsprechend mehr davon. Wie viele in Ihrem Haushalt sinnvoll sind, klären wir vor dem Kauf in einer kurzen Nachricht.",
+      },
+    ],
+    faq: [
+      { q: "Wie richte ich IPTV auf dem Apple TV ein?", a: "Installieren Sie IPTV Smarters Pro oder IBO Player aus dem App Store, wählen Sie die Anmeldung über Xtream Codes und tragen Sie die per WhatsApp gesendeten Daten ein. Es dauert unter fünf Minuten." },
+      { q: "Brauche ich einen Jailbreak für IPTV auf Apple TV?", a: "Nein. Die Player sind regulär im App Store verfügbar. Weder Jailbreak noch Sideloading sind nötig, anders als beim Fire TV Stick." },
+      { q: "Welche Internetgeschwindigkeit braucht das Apple TV?", a: "Etwa 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K. Wenn Ihr Modell einen LAN-Anschluss hat, ist eine Kabelverbindung deutlich zuverlässiger als WLAN." },
+      { q: "Funktioniert IPTV auf allen Apple-TV-Generationen?", a: "Auf allen Modellen mit tvOS und App-Store-Zugang. Für flüssiges 4K empfiehlt sich ein neueres Modell, ältere Geräte eignen sich gut für HD." },
+      { q: "Kann ich dasselbe Abo auf iPhone und iPad nutzen?", a: "Ja. Die Zugangsdaten sind an das Abo gebunden, nicht an ein Gerät. Beachten Sie lediglich die Zahl gleichzeitiger Verbindungen Ihrer Formel." },
+    ],
+    cta: "Auf Apple TV starten",
+  },
+  en: {
+    metaTitle: "IPTV on Apple TV — Set Up in 5 Minutes, 66,000+ Channels",
+    metaDesc:
+      "IPTV on Apple TV: 66,000+ channels in 4K/8K through an App Store player. Five-minute setup with Xtream Codes, no jailbreak, no sideloading, from $5/mo.",
+    eyebrow: "IPTV Apple TV · From $5/mo",
+    h1: "IPTV on",
+    h1Accent: "Apple TV",
+    intro:
+      "Apple TV is one of the most reliable devices for IPTV: enough processing power for 4K in HEVC, an ethernet port on the larger models, and players available directly from the App Store — no sideloading required. Set up in under 5 minutes, from $5/mo.",
+    cover: "/blog/iptv-apple-tv-main-en.jpg",
+    image: {
+      src: "/blog/iptv-apple-tv-body-en.jpg",
+      alt: "Setting up IPTV on Apple TV: install the app, enter Xtream Codes details, the channel list loads automatically.",
+      caption: "Three steps from the App Store to a full channel list.",
+    },
+    features: [
+      { h: "Players from the App Store", p: "No sideloading and no jailbreak — the player installs normally." },
+      { h: "4K without stutter", p: "Apple's chip decodes HEVC/H.265 comfortably, even during fast sport." },
+      { h: "Ethernet available", p: "The larger models have a LAN port — the most stable connection there is." },
+      { h: "Active in 5 minutes", p: "Xtream Codes details by WhatsApp, entered once, done." },
+    ],
+    sections: [
+      { h: "Why Apple TV works well for IPTV", p: "Most streaming devices fail on processing power rather than networking: as soon as 4K material in HEVC/H.265 arrives, weaker processors start to stumble. This is precisely where Apple TV is strong. Its chip decodes that codec without effort, even with other apps running in the background. On top of that comes an advantage most sticks lack: the larger models include an ethernet port, and a wired connection eliminates exactly the interference that causes the bulk of buffering complaints." },
+      { h: "Setting it up, step by step", p: "Open the App Store on your Apple TV and install an IPTV player — IPTV Smarters Pro and IBO Player are both available there normally. On first launch, choose to log in through the Xtream Codes API and enter the server URL, username and password we send on WhatsApp after you subscribe. The app then loads the channel list, a multi-day programme guide and the film and series catalogue on its own. No computer is needed at any point, and there is no jailbreak involved." },
+      { h: "No sideloading — the difference that matters", p: "On a Fire TV Stick you install players by way of Downloader and have to permit installation from unknown sources first. On Apple TV that step disappears entirely: the players sit in the official App Store and update like any other app. That makes setup faster and, more importantly, lower-maintenance over time, because nothing needs re-enabling after a system update. In a household where not everyone is technical, this is the practical difference that counts most." },
+      { h: "Networking: wired beats wireless", p: "If your model has a LAN port, use it. An IPTV stream runs continuously in real time with no large buffer to smooth over dips, so consistency matters more than the peak speed in your tariff. Plan on around 10 Mbps for HD and at least 25 Mbps for stable 4K, measured on the Apple TV itself rather than a laptop in another room. If you stay wireless, choose the 5 GHz band and put the router in the open, not inside a cabinet or behind the television." },
+      { h: "Which app to use on Apple TV", p: "IPTV Smarters Pro is the most straightforward starting point: clear interface, built-in programme guide, Xtream Codes login in under a minute. IBO Player is leaner and some find it easier to navigate. Both work with the same credentials, so you can switch at no extra cost if one suits you better. VLC will play M3U lists but offers neither an EPG nor categories, which makes it better for quickly checking a feed than for daily viewing." },
+      { h: "What the access includes", p: "The device only determines how you watch — the catalogue stays the same. That means 66,000+ live channels, around 4,200 of them sport, covering Premier League, Bundesliga, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formula 1 and MotoGP. Alongside sit roughly 70,000 films and 18,000 series on demand with artwork and season structure, plus around 320 children's channels and 540 news and documentary channels. The same credentials work in parallel on your other devices." },
+      { h: "When a channel won't start", p: "If one channel stays black while others play, the cause is almost never your login. Check the decoder setting in the app first and switch between hardware and software as a test. If nothing plays after that, try the same channel on a second device: if it works there, the Apple TV is the issue; if it works nowhere, message us. Support replies on WhatsApp in under five minutes and checks the channel directly rather than routing you into a ticket queue." },
+      { h: "Test first, subscribe second", p: "You needn't cancel anything or take a risk to find out whether this fits. The free 24-hour trial runs without a credit card and can be set up on the same Apple TV alongside an existing service. Watch three things while you have it: whether your channels are present, whether the programme guide is populated correctly, and whether the picture stays smooth at prime time. If the result convinces you, a seven-day money-back guarantee applies after purchase as well." },
+    ],
+    faq: [
+      { q: "How do I set up IPTV on Apple TV?", a: "Install IPTV Smarters Pro or IBO Player from the App Store, choose the Xtream Codes login, and enter the details sent on WhatsApp. It takes under five minutes." },
+      { q: "Do I need a jailbreak for IPTV on Apple TV?", a: "No. The players are available normally in the App Store. Neither jailbreaking nor sideloading is required, unlike on the Fire TV Stick." },
+      { q: "What internet speed does Apple TV need?", a: "Around 10 Mbps for HD and at least 25 Mbps for stable 4K. If your model has a LAN port, a wired connection is considerably more reliable than Wi-Fi." },
+      { q: "Does IPTV work on every Apple TV generation?", a: "On any model running tvOS with App Store access. For smooth 4K a newer model is advisable; older units handle HD well." },
+      { q: "Can I use the same subscription on iPhone and iPad?", a: "Yes. Credentials are tied to the subscription rather than a device. Just keep the number of simultaneous connections your plan allows in mind." },
+    ],
+    cta: "Start on Apple TV",
+  },
+  fr: {
+    metaTitle: "IPTV sur Apple TV — installation en 5 min, 66 000+ chaînes",
+    metaDesc:
+      "IPTV sur Apple TV : 66 000+ chaînes en 4K/8K via une application de l'App Store. Installation en 5 minutes avec Xtream Codes, sans jailbreak, dès 5 €/mois.",
+    eyebrow: "IPTV Apple TV · Dès 5 €/mois",
+    h1: "L'IPTV sur",
+    h1Accent: "Apple TV",
+    intro:
+      "L'Apple TV est l'un des appareils les plus fiables pour l'IPTV : assez de puissance pour la 4K en HEVC, un port ethernet sur les modèles les plus grands, et des lecteurs disponibles directement dans l'App Store — sans installation manuelle. Prêt en moins de 5 minutes, dès 5 €/mois.",
+    cover: "/blog/iptv-apple-tv-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-apple-tv-body-fr.jpg",
+      alt: "Installer l'IPTV sur Apple TV : installer l'application, saisir les identifiants Xtream Codes, la liste des chaînes se charge automatiquement.",
+      caption: "Trois étapes de l'App Store à la liste complète des chaînes.",
+    },
+    features: [
+      { h: "Lecteurs depuis l'App Store", p: "Aucune installation manuelle, aucun jailbreak — le lecteur s'installe normalement." },
+      { h: "4K sans saccades", p: "La puce Apple décode le HEVC/H.265 sans effort, même sur du sport rapide." },
+      { h: "Ethernet disponible", p: "Les modèles les plus grands ont un port LAN — la connexion la plus stable qui soit." },
+      { h: "Actif en 5 minutes", p: "Identifiants Xtream Codes par WhatsApp, saisis une fois, terminé." },
+    ],
+    sections: [
+      { h: "Pourquoi l'Apple TV convient bien à l'IPTV", p: "La plupart des appareils de streaming échouent sur la puissance de calcul plutôt que sur le réseau : dès que du contenu 4K en HEVC/H.265 arrive, les processeurs faibles commencent à trébucher. C'est précisément là que l'Apple TV excelle. Sa puce décode ce codec sans effort, même avec d'autres applications ouvertes en arrière-plan. S'y ajoute un avantage que la plupart des clés n'offrent pas : les modèles les plus grands intègrent un port ethernet, et une connexion filaire élimine exactement les interférences à l'origine de l'essentiel des plaintes de buffering." },
+      { h: "L'installation étape par étape", p: "Ouvrez l'App Store sur votre Apple TV et installez un lecteur IPTV — IPTV Smarters Pro et IBO Player y sont disponibles normalement. Au premier lancement, choisissez la connexion via l'API Xtream Codes et saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe que nous envoyons par WhatsApp après l'abonnement. L'application charge ensuite d'elle-même la liste des chaînes, un guide des programmes sur plusieurs jours et le catalogue de films et séries. Aucun ordinateur n'est nécessaire, et aucun jailbreak n'entre en jeu." },
+      { h: "Pas d'installation manuelle : la différence qui compte", p: "Sur un Fire TV Stick, on installe les lecteurs en passant par Downloader et il faut d'abord autoriser les applications de sources inconnues. Sur l'Apple TV, cette étape disparaît totalement : les lecteurs se trouvent dans l'App Store officiel et se mettent à jour comme n'importe quelle application. Cela rend l'installation plus rapide et, surtout, moins exigeante dans la durée, car rien n'a besoin d'être réautorisé après une mise à jour système. Dans un foyer où tout le monde n'est pas technicien, c'est la différence la plus concrète." },
+      { h: "Réseau : le câble bat le Wi-Fi", p: "Si votre modèle dispose d'un port LAN, utilisez-le. Un flux IPTV est continu et en temps réel, sans gros tampon pour absorber les creux : la régularité compte donc plus que le débit maximal de votre offre. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'Apple TV lui-même plutôt que sur un portable dans une autre pièce. En sans-fil, choisissez la bande 5 GHz et placez le routeur à découvert, pas dans un meuble ni derrière le téléviseur." },
+      { h: "Quelle application sur l'Apple TV", p: "IPTV Smarters Pro est le point de départ le plus simple : interface claire, guide intégré, connexion Xtream Codes en moins d'une minute. IBO Player est plus léger et certains le trouvent plus lisible. Les deux fonctionnent avec les mêmes identifiants, vous pouvez donc changer sans coût si l'un vous convient mieux. VLC lit les listes M3U mais n'offre ni EPG ni catégories, ce qui le destine davantage à une vérification rapide qu'à un usage quotidien." },
+      { h: "Ce que l'accès comprend", p: "L'appareil détermine seulement comment vous regardez — le catalogue reste identique. Cela représente 66 000+ chaînes en direct, dont environ 4 200 chaînes sport couvrant Ligue 1, Premier League, La Liga, Serie A, Bundesliga, Champions League, NBA, NFL, UFC, Formule 1 et MotoGP. S'y ajoutent quelque 70 000 films et 18 000 séries à la demande avec affiches et structure par saisons, ainsi qu'environ 320 chaînes jeunesse et 540 chaînes d'information et de documentaires. Les mêmes identifiants fonctionnent en parallèle sur vos autres appareils." },
+      { h: "Quand une chaîne ne démarre pas", p: "Si une chaîne reste noire alors que les autres fonctionnent, la cause n'est presque jamais vos identifiants. Vérifiez d'abord le réglage de décodage dans l'application et alternez entre matériel et logiciel pour tester. Si rien ne démarre ensuite, essayez la même chaîne sur un second appareil : si elle fonctionne là-bas, l'Apple TV est en cause ; si elle ne fonctionne nulle part, écrivez-nous. Le support répond sur WhatsApp en moins de cinq minutes et vérifie la chaîne directement." },
+      { h: "Tester d'abord, s'abonner ensuite", p: "Vous n'avez rien à résilier ni aucun risque à prendre pour savoir si cela convient. L'essai gratuit de 24 heures fonctionne sans carte bancaire et peut s'installer sur le même Apple TV à côté d'un service existant. Surveillez trois choses : la présence de vos chaînes, le bon remplissage du guide, et la fluidité de l'image aux heures de pointe. Si le résultat convainc, une garantie satisfait ou remboursé de sept jours s'ajoute après l'achat." },
+    ],
+    faq: [
+      { q: "Comment installer l'IPTV sur Apple TV ?", a: "Installez IPTV Smarters Pro ou IBO Player depuis l'App Store, choisissez la connexion Xtream Codes et saisissez les identifiants envoyés par WhatsApp. Cela prend moins de cinq minutes." },
+      { q: "Faut-il un jailbreak pour l'IPTV sur Apple TV ?", a: "Non. Les lecteurs sont disponibles normalement dans l'App Store. Ni jailbreak ni installation manuelle ne sont nécessaires, contrairement au Fire TV Stick." },
+      { q: "Quel débit internet faut-il pour l'Apple TV ?", a: "Environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable. Si votre modèle a un port LAN, le filaire est nettement plus fiable que le Wi-Fi." },
+      { q: "L'IPTV fonctionne-t-elle sur toutes les générations d'Apple TV ?", a: "Sur tout modèle sous tvOS avec accès à l'App Store. Pour une 4K fluide, un modèle récent est conseillé ; les anciens conviennent bien à la HD." },
+      { q: "Puis-je utiliser le même abonnement sur iPhone et iPad ?", a: "Oui. Les identifiants sont liés à l'abonnement et non à un appareil. Tenez seulement compte du nombre de connexions simultanées permis par votre formule." },
+    ],
+    cta: "Démarrer sur Apple TV",
+  },
+};
+
+// =============================================================================
+// /iptv-android-tv — "iptv android box" (DE 480/mo KD 0) + "iptv android tv" (US 170 KD 13, +21%)
+// =============================================================================
+content["iptv-android-tv"] = {
+  de: {
+    metaTitle: "IPTV auf Android TV & Android Box — 66.000+ Sender in 4K",
+    metaDesc:
+      "IPTV auf Android TV, Google TV, Android-Box und Nvidia Shield: 66.000+ Sender in 4K/8K mit TiviMate oder Smarters Pro. Einrichtung in 5 Minuten, ab 5 €/Monat.",
+    eyebrow: "IPTV Android TV · Ab 5 €/Monat",
+    h1: "IPTV auf",
+    h1Accent: "Android TV",
+    intro:
+      "Android TV bietet die größte App-Auswahl aller Streaming-Plattformen — TiviMate, IBO Player und IPTV Smarters Pro laufen alle darauf. Ob Android-Box, Google TV, Nvidia Shield oder Smart TV von Sony, Philips oder TCL: 66.000+ Sender in 4K/8K, aktiv in unter 5 Minuten.",
+    cover: "/blog/iptv-android-tv-main-de.jpg",
+    image: {
+      src: "/blog/iptv-android-tv-body-de.jpg",
+      alt: "IPTV auf Android TV einrichten: Player aus dem Play Store, Xtream-Codes-Login, Favoritenliste anlegen.",
+      caption: "Vom Play Store zur fertigen Favoritenliste in drei Schritten.",
+    },
+    features: [
+      { h: "Größte App-Auswahl", p: "TiviMate, IBO Player und IPTV Smarters Pro sind alle über den Play Store verfügbar." },
+      { h: "Box, Shield oder Smart TV", p: "Android-Boxen, Nvidia Shield, Google TV und Sony-, Philips- oder TCL-Geräte funktionieren gleich." },
+      { h: "Oft mit LAN-Anschluss", p: "Die meisten Boxen haben Ethernet — die stabilste Verbindung für Live-Sport." },
+      { h: "4K / 8K in HEVC", p: "Adaptive Bitrate hält das Bild sauber, auch bei schnellen Bewegungen." },
+    ],
+    sections: [
+      { h: "Warum Android TV die flexibelste Plattform ist", p: "Der entscheidende Unterschied zu anderen Systemen liegt nicht in der Hardware, sondern in der Offenheit. Auf Android TV und Google TV steht der Play Store zur Verfügung, und damit praktisch jeder ernsthafte IPTV-Player: TiviMate, IBO Player und IPTV Smarters Pro lassen sich regulär installieren. Roku erlaubt das nicht, und auf dem Fire TV Stick führt der Weg über Downloader und die Freigabe unbekannter Apps. Wer die Wahl zwischen mehreren Playern behalten möchte, ohne Umwege zu gehen, fährt mit Android TV am unkompliziertesten." },
+      { h: "Box, Stick, Shield oder Smart TV — was passt", p: "Alle vier funktionieren mit denselben Zugangsdaten, unterscheiden sich aber in der Leistung. Eine günstige Android-Box reicht für HD und meist auch für 1080p, gerät bei 4K in HEVC aber an ihre Grenzen. Die Nvidia Shield liegt am oberen Ende und dekodiert 4K souverän. Smart TVs von Sony, Philips, TCL und Hisense mit Android TV oder Google TV brauchen gar kein Zusatzgerät. Ein praktischer Vorteil vieler Boxen gegenüber Sticks: Sie besitzen einen Ethernet-Anschluss." },
+      { h: "Die Einrichtung in wenigen Minuten", p: "Öffnen Sie den Play Store auf dem Gerät und installieren Sie den gewünschten Player. Beim ersten Start wählen Sie die Anmeldung über die Xtream Codes API und tragen Server-URL, Benutzername und Passwort ein, die wir nach dem Abo per WhatsApp senden. Die App lädt daraufhin Senderliste, Programmführer und den Film- und Serienkatalog automatisch. Anschließend lohnen sich zwei Handgriffe: Favoriten anlegen und ungenutzte Kategorien ausblenden — aus 66.000+ Sendern wird dadurch eine Liste, die man täglich gern benutzt." },
+      { h: "TiviMate oder Smarters Pro auf Android TV", p: "TiviMate gilt vielen als das ausgereifteste Programm speziell für Android TV: Der Programmführer ist übersichtlicher und die Bedienung mit der Fernbedienung schneller, dafür ist die Einrichtung etwas aufwendiger und der volle Funktionsumfang kostenpflichtig. IPTV Smarters Pro ist der schnellere Einstieg mit klarer Oberfläche. IBO Player ist am schlanksten und läuft auch auf schwächeren Boxen flüssig. Alle drei nutzen dieselben Zugangsdaten, sodass Sie ohne Zusatzkosten ausprobieren können, welche Bedienung Ihnen liegt." },
+      { h: "Netzwerk und Bandbreite", p: "Hat Ihre Box einen LAN-Anschluss, nutzen Sie ihn — das ist die wirksamste Einzelmaßnahme gegen Ruckeln. Ein IPTV-Stream läuft kontinuierlich in Echtzeit ohne großen Puffer, weshalb Gleichmäßigkeit mehr zählt als die Höchstgeschwindigkeit im Tarif. Rechnen Sie mit rund 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen am Gerät selbst. Bleiben Sie im WLAN, wählen Sie das 5-GHz-Band und stellen Sie den Router frei auf statt in einen Schrank." },
+      { h: "Leistung im Blick behalten", p: "Günstige Android-Boxen haben oft wenig Arbeitsspeicher, und IPTV-Player legen Senderlisten, EPG-Daten und Vorschaubilder lokal ab. Wird dieser Zwischenspeicher zu groß, äußert sich das als Hängen beim Umschalten oder als langsamer App-Start. Leeren Sie den Cache gelegentlich in den App-Einstellungen und deinstallieren Sie, was Sie nicht nutzen. Ein Neustart vor längeren Sitzungen — besonders vor einem Spiel — beendet Hintergrundprozesse und hilft spürbar mehr, als die meisten erwarten." },
+      { h: "Was der Zugang enthält", p: "Das Gerät bestimmt nur den Weg zum Inhalt; der Katalog ist überall derselbe. Das sind 66.000+ Live-Sender, davon rund 4.200 Sportkanäle mit Bundesliga, Premier League, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formel 1 und MotoGP. Dazu etwa 70.000 Filme und 18.000 Serien auf Abruf, rund 320 Kinderkanäle sowie 540 Nachrichten- und Dokumentationssender. Dieselben Zugangsdaten funktionieren parallel auf Handy, Tablet und einem zweiten Fernseher." },
+      { h: "Vor dem Kauf testen", p: "Weil der Play Store und die Player kostenlos sind, kostet ein Test nur Ihre Zeit. Der kostenlose 24-Stunden-Zugang läuft ohne Kreditkarte und lässt sich auf derselben Box neben einem bestehenden Anschluss einrichten. Starten Sie ihn bewusst zur Prime Time oder zur Anstoßzeit, nicht am Vormittag — nur dann zeigt sich, ob die Serverkapazität hält. Überzeugt das Ergebnis, gilt nach dem Kauf zusätzlich eine Geld-zurück-Garantie von sieben Tagen." },
+      {
+        h: "Google TV und Android TV — der Unterschied",
+        p: "Beide Bezeichnungen tauchen auf Verpackungen auf und stiften regelmäßig Verwirrung. Technisch ist Google TV lediglich eine neuere Oberfläche, die auf Android TV aufsetzt: Der darunterliegende Unterbau, der Play Store und die Kompatibilität mit IPTV-Playern sind identisch. Für die Einrichtung bedeutet das, dass Sie in beiden Fällen exakt gleich vorgehen und dieselben Apps verwenden können. Unterschiede gibt es nur an der Oberfläche, etwa bei der Startseite und den Empfehlungen. Wenn auf Ihrem Fernseher oder Ihrer Box eines von beidem steht, funktioniert alles in dieser Anleitung Beschriebene unverändert.",
+      },
+    ],
+    faq: [
+      { q: "Welche App ist die beste für Android TV?", a: "TiviMate gilt als die ausgereifteste für Android TV, IPTV Smarters Pro ist der schnellere Einstieg und IBO Player der schlankeste. Alle drei laufen mit denselben Zugangsdaten." },
+      { q: "Funktioniert IPTV auf jeder Android-Box?", a: "Ja, sofern der Play Store oder eine Installation der App möglich ist. Für flüssiges 4K in HEVC ist eine leistungsfähigere Box oder eine Nvidia Shield empfehlenswert." },
+      { q: "Brauche ich eine Box, wenn mein Fernseher Android TV hat?", a: "Nein. Sony-, Philips-, TCL- und Hisense-Geräte mit Android TV oder Google TV installieren den Player direkt — ein Zusatzgerät ist nicht nötig." },
+      { q: "Welche Internetgeschwindigkeit brauche ich?", a: "Etwa 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen am Gerät. Hat die Box einen LAN-Anschluss, ist Kabel deutlich zuverlässiger als WLAN." },
+      { q: "Warum ruckelt es auf meiner Android-Box?", a: "Meist wegen zu wenig Rechenleistung oder einem vollen Cache. Leeren Sie den Cache, starten Sie das Gerät neu und wechseln Sie in den App-Einstellungen zwischen Hardware- und Software-Dekodierung." },
+    ],
+    cta: "Auf Android TV starten",
+  },
+  en: {
+    metaTitle: "IPTV on Android TV & Android Box — 66,000+ Channels in 4K",
+    metaDesc:
+      "IPTV on Android TV, Google TV, Android boxes and Nvidia Shield: 66,000+ channels in 4K/8K with TiviMate or Smarters Pro. Five-minute setup, from $5/mo.",
+    eyebrow: "IPTV Android TV · From $5/mo",
+    h1: "IPTV on",
+    h1Accent: "Android TV",
+    intro:
+      "Android TV offers the widest app selection of any streaming platform — TiviMate, IBO Player and IPTV Smarters Pro all run on it. Whether you use an Android box, Google TV, an Nvidia Shield or a Sony, Philips or TCL set: 66,000+ channels in 4K/8K, active in under 5 minutes.",
+    cover: "/blog/iptv-android-tv-main-en.jpg",
+    image: {
+      src: "/blog/iptv-android-tv-body-en.jpg",
+      alt: "Setting up IPTV on Android TV: install a player from the Play Store, log in with Xtream Codes, build a favourites list.",
+      caption: "From the Play Store to a finished favourites list in three steps.",
+    },
+    features: [
+      { h: "Widest app selection", p: "TiviMate, IBO Player and IPTV Smarters Pro are all available through the Play Store." },
+      { h: "Box, Shield or Smart TV", p: "Android boxes, Nvidia Shield, Google TV and Sony, Philips or TCL sets all work the same way." },
+      { h: "Often has ethernet", p: "Most boxes include a LAN port — the most stable connection for live sport." },
+      { h: "4K / 8K in HEVC", p: "Adaptive bitrate keeps the picture clean, even during fast motion." },
+    ],
+    sections: [
+      { h: "Why Android TV is the most flexible platform", p: "The decisive difference from other systems is openness rather than hardware. Android TV and Google TV give you the Play Store, and with it practically every serious IPTV player: TiviMate, IBO Player and IPTV Smarters Pro all install normally. Roku does not permit that, and on the Fire TV Stick the route runs through Downloader and enabling unknown apps. If you want to keep a choice of players without workarounds, Android TV is the least complicated platform to be on." },
+      { h: "Box, stick, Shield or Smart TV — what suits", p: "All four work with the same credentials but differ in performance. A budget Android box is fine for HD and usually 1080p, but reaches its limits with 4K in HEVC. The Nvidia Shield sits at the top end and decodes 4K comfortably. Sony, Philips, TCL and Hisense sets running Android TV or Google TV need no extra device at all. One practical advantage many boxes hold over sticks: they include an ethernet port." },
+      { h: "Setting it up in a few minutes", p: "Open the Play Store on the device and install your chosen player. On first launch, select the Xtream Codes API login and enter the server URL, username and password we send on WhatsApp after you subscribe. The app then loads the channel list, programme guide and film and series catalogue automatically. Two follow-up steps are worth the effort: build favourites and hide categories you never use — that is what turns 66,000+ channels into a list you are happy to use daily." },
+      { h: "TiviMate or Smarters Pro on Android TV", p: "Many consider TiviMate the most polished program built specifically for Android TV: the guide is clearer and remote navigation faster, though setup takes more effort and full functionality is paid. IPTV Smarters Pro is the quicker start with a clean interface. IBO Player is the leanest and runs smoothly even on weaker boxes. All three use the same credentials, so you can try them at no extra cost and keep whichever suits how you navigate." },
+      { h: "Networking and bandwidth", p: "If your box has a LAN port, use it — it is the single most effective change against stuttering. An IPTV stream runs continuously in real time with no large buffer, so consistency matters more than the peak speed in your tariff. Plan on around 10 Mbps for HD and at least 25 Mbps for stable 4K, measured on the device itself. If you stay wireless, choose the 5 GHz band and place the router in the open rather than inside a cabinet." },
+      { h: "Keeping an eye on performance", p: "Budget Android boxes often have little memory, and IPTV players cache channel lists, EPG data and thumbnails locally. When that cache grows too large it shows up as hanging when changing channels or slow app startup. Clear the cache occasionally in the app settings and uninstall what you don't use. Restarting before longer sessions — especially before a match — ends background processes and helps noticeably more than most people expect." },
+      { h: "What the access includes", p: "The device only determines the route to the content; the catalogue is the same everywhere. That means 66,000+ live channels, around 4,200 of them sport, covering Premier League, Bundesliga, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formula 1 and MotoGP. Alongside sit roughly 70,000 films and 18,000 series on demand, around 320 children's channels and 540 news and documentary channels. The same credentials work in parallel on a phone, a tablet and a second television." },
+      { h: "Test before you buy", p: "Because the Play Store and the players are free, a test costs only your time. The free 24-hour access runs without a credit card and can be set up on the same box alongside an existing service. Start it deliberately at prime time or kick-off rather than mid-morning — only then does it show whether server capacity holds. If the result convinces you, a seven-day money-back guarantee applies after purchase as well." },
+    ],
+    faq: [
+      { q: "Which app is best for Android TV?", a: "TiviMate is considered the most polished for Android TV, IPTV Smarters Pro is the quicker start, and IBO Player is the leanest. All three run with the same credentials." },
+      { q: "Does IPTV work on any Android box?", a: "Yes, provided the Play Store or app installation is available. For smooth 4K in HEVC, a more capable box or an Nvidia Shield is advisable." },
+      { q: "Do I need a box if my TV already runs Android TV?", a: "No. Sony, Philips, TCL and Hisense sets running Android TV or Google TV install the player directly — no extra device is required." },
+      { q: "What internet speed do I need?", a: "Around 10 Mbps for HD and at least 25 Mbps for stable 4K, measured at the device. If the box has a LAN port, wired is considerably more reliable than Wi-Fi." },
+      { q: "Why does my Android box stutter?", a: "Usually too little processing power or a full cache. Clear the cache, restart the device, and switch between hardware and software decoding in the app settings." },
+    ],
+    cta: "Start on Android TV",
+  },
+  fr: {
+    metaTitle: "IPTV sur Android TV & box Android — 66 000+ chaînes en 4K",
+    metaDesc:
+      "IPTV sur Android TV, Google TV, box Android et Nvidia Shield : 66 000+ chaînes en 4K/8K avec TiviMate ou Smarters Pro. Installation en 5 minutes, dès 5 €/mois.",
+    eyebrow: "IPTV Android TV · Dès 5 €/mois",
+    h1: "L'IPTV sur",
+    h1Accent: "Android TV",
+    intro:
+      "Android TV offre le plus large choix d'applications de toutes les plateformes de streaming — TiviMate, IBO Player et IPTV Smarters Pro y fonctionnent tous. Box Android, Google TV, Nvidia Shield ou téléviseur Sony, Philips ou TCL : 66 000+ chaînes en 4K/8K, actives en moins de 5 minutes.",
+    cover: "/blog/iptv-android-tv-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-android-tv-body-fr.jpg",
+      alt: "Installer l'IPTV sur Android TV : lecteur depuis le Play Store, connexion Xtream Codes, création des favoris.",
+      caption: "Du Play Store à une liste de favoris terminée en trois étapes.",
+    },
+    features: [
+      { h: "Le plus large choix d'apps", p: "TiviMate, IBO Player et IPTV Smarters Pro sont tous disponibles via le Play Store." },
+      { h: "Box, Shield ou Smart TV", p: "Box Android, Nvidia Shield, Google TV et appareils Sony, Philips ou TCL fonctionnent de la même façon." },
+      { h: "Souvent un port ethernet", p: "La plupart des box ont un port LAN — la connexion la plus stable pour le sport en direct." },
+      { h: "4K / 8K en HEVC", p: "Le bitrate adaptatif garde l'image nette, même sur les mouvements rapides." },
+    ],
+    sections: [
+      { h: "Pourquoi Android TV est la plateforme la plus souple", p: "La différence décisive avec les autres systèmes tient à l'ouverture plutôt qu'au matériel. Android TV et Google TV donnent accès au Play Store, et donc à pratiquement tous les lecteurs IPTV sérieux : TiviMate, IBO Player et IPTV Smarters Pro s'installent normalement. Roku ne l'autorise pas, et sur le Fire TV Stick le chemin passe par Downloader et l'autorisation des applications inconnues. Si vous voulez conserver le choix entre plusieurs lecteurs sans détour, Android TV est la plateforme la moins compliquée." },
+      { h: "Box, clé, Shield ou Smart TV — que choisir", p: "Les quatre fonctionnent avec les mêmes identifiants mais diffèrent en performance. Une box Android d'entrée de gamme convient à la HD et généralement au 1080p, mais atteint ses limites en 4K HEVC. La Nvidia Shield se situe en haut de gamme et décode la 4K sans difficulté. Les téléviseurs Sony, Philips, TCL et Hisense sous Android TV ou Google TV n'ont besoin d'aucun appareil supplémentaire. Un avantage pratique de nombreuses box sur les clés : elles disposent d'un port ethernet." },
+      { h: "L'installation en quelques minutes", p: "Ouvrez le Play Store sur l'appareil et installez le lecteur de votre choix. Au premier lancement, sélectionnez la connexion via l'API Xtream Codes et saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe envoyés par WhatsApp après l'abonnement. L'application charge ensuite automatiquement la liste des chaînes, le guide et le catalogue de films et séries. Deux étapes valent l'effort ensuite : créer des favoris et masquer les catégories inutilisées — c'est ce qui transforme 66 000+ chaînes en une liste agréable au quotidien." },
+      { h: "TiviMate ou Smarters Pro sur Android TV", p: "Beaucoup considèrent TiviMate comme le programme le plus abouti conçu spécifiquement pour Android TV : le guide est plus lisible et la navigation à la télécommande plus rapide, mais l'installation demande plus d'efforts et les fonctions complètes sont payantes. IPTV Smarters Pro offre un démarrage plus rapide avec une interface claire. IBO Player est le plus léger et reste fluide même sur les box modestes. Les trois utilisent les mêmes identifiants." },
+      { h: "Réseau et débit", p: "Si votre box a un port LAN, utilisez-le — c'est la mesure la plus efficace contre les saccades. Un flux IPTV est continu et en temps réel, sans gros tampon : la régularité compte donc plus que le débit maximal de votre offre. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'appareil lui-même. En sans-fil, choisissez la bande 5 GHz et placez le routeur à découvert plutôt que dans un meuble." },
+      { h: "Surveiller les performances", p: "Les box Android bon marché disposent souvent de peu de mémoire, et les lecteurs IPTV stockent localement listes de chaînes, données EPG et vignettes. Quand ce cache devient trop volumineux, cela se traduit par des blocages au changement de chaîne ou un démarrage lent. Videz le cache de temps en temps et désinstallez ce que vous n'utilisez pas. Redémarrer avant une longue session — surtout avant un match — met fin aux processus d'arrière-plan et aide nettement plus qu'on ne l'imagine." },
+      { h: "Ce que l'accès comprend", p: "L'appareil ne détermine que le chemin vers le contenu ; le catalogue reste identique partout. Cela représente 66 000+ chaînes en direct, dont environ 4 200 chaînes sport couvrant Ligue 1, Premier League, La Liga, Serie A, Bundesliga, Champions League, NBA, NFL, UFC, Formule 1 et MotoGP. S'y ajoutent quelque 70 000 films et 18 000 séries à la demande, environ 320 chaînes jeunesse et 540 chaînes d'information et de documentaires." },
+      { h: "Tester avant d'acheter", p: "Comme le Play Store et les lecteurs sont gratuits, un test ne coûte que votre temps. L'accès gratuit de 24 heures fonctionne sans carte bancaire et peut s'installer sur la même box à côté d'un service existant. Lancez-le délibérément aux heures de pointe ou au coup d'envoi plutôt qu'en matinée — ce n'est qu'alors que l'on voit si la capacité serveur tient. Si le résultat convainc, une garantie de sept jours s'ajoute après l'achat." },
+    ],
+    faq: [
+      { q: "Quelle application est la meilleure pour Android TV ?", a: "TiviMate est considérée comme la plus aboutie sur Android TV, IPTV Smarters Pro offre le démarrage le plus rapide et IBO Player est la plus légère. Les trois fonctionnent avec les mêmes identifiants." },
+      { q: "L'IPTV fonctionne-t-elle sur toutes les box Android ?", a: "Oui, dès lors que le Play Store ou l'installation de l'application est possible. Pour une 4K HEVC fluide, une box plus puissante ou une Nvidia Shield est conseillée." },
+      { q: "Faut-il une box si mon téléviseur est déjà sous Android TV ?", a: "Non. Les appareils Sony, Philips, TCL et Hisense sous Android TV ou Google TV installent le lecteur directement — aucun appareil supplémentaire n'est nécessaire." },
+      { q: "Quel débit internet faut-il ?", a: "Environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'appareil. Si la box a un port LAN, le filaire est nettement plus fiable que le Wi-Fi." },
+      { q: "Pourquoi ma box Android saccade-t-elle ?", a: "Le plus souvent par manque de puissance ou à cause d'un cache plein. Videz le cache, redémarrez l'appareil et alternez entre décodage matériel et logiciel dans les réglages." },
+    ],
+    cta: "Démarrer sur Android TV",
+  },
+};
+
+// =============================================================================
+// /iptv-mag-box — "iptv mag box" (US 320/mo KD 15, DE 70 KD 0, transactional)
+// =============================================================================
+content["iptv-mag-box"] = {
+  de: {
+    metaTitle: "IPTV für MAG Box — Portal-URL einrichten, 66.000+ Sender",
+    metaDesc:
+      "IPTV auf der MAG Box: Portal-URL eintragen, MAC-Adresse hinterlegen, 66.000+ Sender in 4K. Einrichtung in wenigen Minuten ohne Zusatz-App, ab 5 €/Monat.",
+    eyebrow: "IPTV MAG Box · Ab 5 €/Monat",
+    h1: "IPTV für die",
+    h1Accent: "MAG Box",
+    intro:
+      "Die MAG Box braucht keine zusätzliche App: Sie tragen eine Portal-URL ein, wir hinterlegen Ihre MAC-Adresse, und die Senderliste erscheint direkt auf der Oberfläche. 66.000+ Sender, eingerichtet in wenigen Minuten, ab 5 €/Monat.",
+    cover: "/blog/iptv-mag-box-main-de.jpg",
+    image: {
+      src: "/blog/iptv-mag-box-body-de.jpg",
+      alt: "MAG Box für IPTV einrichten: MAC-Adresse auslesen, Portal-URL in den Systemeinstellungen eintragen, Box neu starten.",
+      caption: "MAC auslesen, Portal eintragen, neu starten — mehr ist es nicht.",
+    },
+    features: [
+      { h: "Keine App nötig", p: "Die Box arbeitet nativ mit einer Portal-URL — kein Player, kein Sideloading." },
+      { h: "MAC-basierter Zugang", p: "Wir hinterlegen Ihre MAC-Adresse; die Box meldet sich danach selbstständig an." },
+      { h: "Stabiles Ethernet", p: "MAG-Boxen haben einen LAN-Anschluss — ideal für unterbrechungsfreien Live-Sport." },
+      { h: "Sofort startklar", p: "Nach dem Neustart lädt die Box Senderliste und Programmführer automatisch." },
+    ],
+    sections: [
+      { h: "Wie sich die MAG Box von anderen Geräten unterscheidet", p: "Auf einem Fire TV Stick oder einer Android-Box installieren Sie zuerst einen Player und tragen dort Zugangsdaten ein. Die MAG Box geht einen anderen Weg: Sie ist von Haus aus ein IPTV-Empfänger und arbeitet mit einem sogenannten Portal. Sie hinterlegen eine URL in den Systemeinstellungen, wir verknüpfen Ihre MAC-Adresse damit, und nach einem Neustart erscheint die Senderliste direkt auf der Oberfläche. Es gibt keine App zu aktualisieren und keine unbekannten Quellen freizugeben — für viele ist genau das der Reiz." },
+      { h: "MAC-Adresse und Portal-URL", p: "Zwei Angaben genügen. Die MAC-Adresse Ihrer Box finden Sie in den Systemeinstellungen unter den Geräteinformationen; sie hat das Format 00:1A:79:XX:XX:XX. Diese schicken Sie uns per WhatsApp, wir verknüpfen sie mit Ihrem Abo und senden Ihnen die passende Portal-URL zurück. Die tragen Sie unter Einstellungen, Systemeinstellungen, Server, Portale ein und starten die Box neu. Wichtig ist die exakte Schreibweise: Ein einziges falsches Zeichen in der URL führt dazu, dass das Portal nicht lädt." },
+      { h: "Die Einrichtung Schritt für Schritt", p: "Rufen Sie im Hauptmenü die Einstellungen auf und öffnen Sie die Systemeinstellungen. Unter Servern finden Sie den Punkt Portale. Tragen Sie im ersten Feld einen frei wählbaren Namen ein und in das zweite die von uns gesendete URL. Speichern Sie mit der entsprechenden Farbtaste der Fernbedienung und starten Sie die Box anschließend neu — dieser Neustart ist nicht optional, ohne ihn übernimmt die Box das Portal nicht. Nach dem Hochfahren lädt sie Senderliste, Programmführer und Kategorien selbstständig." },
+      { h: "Welche MAG-Modelle funktionieren", p: "Die Portal-Methode ist über die Modellreihen hinweg gleich geblieben, weshalb sowohl ältere als auch aktuelle Boxen damit arbeiten. Der praktische Unterschied liegt in der Leistung: Ältere Modelle sind für HD und 1080p ausgelegt und stoßen bei 4K-Material in HEVC an ihre Grenzen, während neuere Geräte 4K sauber wiedergeben. Wenn Sie unsicher sind, welches Modell Sie besitzen, steht die Bezeichnung in denselben Geräteinformationen wie die MAC-Adresse — schicken Sie sie uns einfach mit, dann sagen wir Ihnen, was zu erwarten ist." },
+      { h: "Ethernet nutzen, wenn möglich", p: "MAG-Boxen besitzen einen LAN-Anschluss, und den sollten Sie verwenden. Ein IPTV-Stream läuft kontinuierlich in Echtzeit und hat keinen großen Puffer, der Schwankungen ausgleicht — deshalb zählt eine gleichmäßige Verbindung mehr als eine hohe Maximalgeschwindigkeit. Rechnen Sie mit rund 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K. Wo ein Kabel nicht möglich ist, hilft ein Powerline-Adapter oft mehr als WLAN, weil er die typischen Störungen und Auslastungsspitzen umgeht." },
+      { h: "Wenn das Portal nicht lädt", p: "Drei Ursachen decken fast alle Fälle ab. Erstens ein Tippfehler in der Portal-URL — prüfen Sie sie Zeichen für Zeichen gegen das, was wir gesendet haben. Zweitens eine nicht übermittelte oder falsch notierte MAC-Adresse; sie muss exakt mit der auf der Box übereinstimmen. Drittens ein ausgelassener Neustart, ohne den die Box die neue Einstellung nicht übernimmt. Bleibt es dabei, schreiben Sie uns: Der Support antwortet auf WhatsApp in unter fünf Minuten und prüft die Verknüpfung direkt auf unserer Seite." },
+      { h: "Was im Zugang enthalten ist", p: "Der Katalog ist unabhängig vom Gerät identisch. Das sind 66.000+ Live-Sender, davon rund 4.200 Sportkanäle mit Bundesliga, Premier League, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formel 1 und MotoGP. Dazu kommen etwa 70.000 Filme und 18.000 Serien auf Abruf, rund 320 Kinderkanäle sowie 540 Nachrichten- und Dokumentationssender. Wenn Sie zusätzlich auf Handy oder Tablet schauen möchten, senden wir Ihnen für dieselbe Laufzeit auch Xtream-Codes-Daten." },
+      { h: "Vorab testen", p: "Auch mit einer MAG Box können Sie vor dem Kauf prüfen, ob alles läuft. Schicken Sie uns Ihre MAC-Adresse für den kostenlosen 24-Stunden-Test; wir verknüpfen sie ohne Zahlungsdaten und senden die Portal-URL. Achten Sie beim Test auf drei Punkte: ob Ihre Sender in der Liste stehen, ob der Programmführer gefüllt ist und ob das Bild zur Prime Time stabil bleibt. Überzeugt das Ergebnis, gilt nach dem Kauf zusätzlich eine Geld-zurück-Garantie von sieben Tagen." },
+      {
+        h: "MAG Box oder moderner Player — was passt besser",
+        p: "Die MAG Box hat einen klaren Vorzug: Sie tut genau eine Sache und tut sie zuverlässig, ohne Apps, Updates oder Berechtigungen. Wer ein Gerät sucht, das nach der Einrichtung einfach jahrelang läuft, fährt damit gut. Die Kehrseite ist die Oberfläche, die im Vergleich zu modernen Playern wie TiviMate schlichter wirkt, sowie die begrenzte Leistung älterer Modelle bei 4K-Material. Wenn Sie Wert auf einen komfortablen Programmführer, Aufnahmefunktionen oder eine schnelle Suche legen, ist eine Android-TV-Box mit TiviMate die flexiblere Wahl — mit denselben Zugangsdaten, die wir Ihnen ohnehin senden.",
+      },
+    ],
+    faq: [
+      { q: "Wie richte ich IPTV auf einer MAG Box ein?", a: "Schicken Sie uns Ihre MAC-Adresse, tragen Sie die zurückgesendete Portal-URL unter Einstellungen, Systemeinstellungen, Server, Portale ein und starten Sie die Box neu. Danach lädt die Senderliste automatisch." },
+      { q: "Wo finde ich die MAC-Adresse meiner MAG Box?", a: "In den Systemeinstellungen unter den Geräteinformationen. Sie hat das Format 00:1A:79:XX:XX:XX und steht meist auch auf einem Aufkleber an der Unterseite der Box." },
+      { q: "Brauche ich eine App für die MAG Box?", a: "Nein. Die Box ist ein nativer IPTV-Empfänger und arbeitet direkt mit einer Portal-URL — kein Player, kein Sideloading, keine App-Updates." },
+      { q: "Warum lädt mein Portal nicht?", a: "Fast immer ein Tippfehler in der URL, eine falsch übermittelte MAC-Adresse oder ein ausgelassener Neustart. Prüfen Sie alle drei Punkte; unser Support kontrolliert die Verknüpfung auf Wunsch direkt." },
+      { q: "Kann ich dasselbe Abo auf dem Handy nutzen?", a: "Ja. Wir senden Ihnen für dieselbe Laufzeit zusätzlich Xtream-Codes-Daten, mit denen Sie auf Handy, Tablet oder einem zweiten Gerät schauen können." },
+    ],
+    cta: "MAG Box aktivieren",
+  },
+  en: {
+    metaTitle: "IPTV for MAG Box — Set the Portal URL, 66,000+ Channels",
+    metaDesc:
+      "IPTV on a MAG box: enter a portal URL, register your MAC address, get 66,000+ channels in 4K. Set up in minutes with no extra app, from $5/mo.",
+    eyebrow: "IPTV MAG Box · From $5/mo",
+    h1: "IPTV for the",
+    h1Accent: "MAG Box",
+    intro:
+      "A MAG box needs no additional app: you enter a portal URL, we register your MAC address, and the channel list appears directly in the interface. 66,000+ channels, set up in minutes, from $5/mo.",
+    cover: "/blog/iptv-mag-box-main-en.jpg",
+    image: {
+      src: "/blog/iptv-mag-box-body-en.jpg",
+      alt: "Setting up a MAG box for IPTV: read the MAC address, enter the portal URL in system settings, reboot the box.",
+      caption: "Read the MAC, enter the portal, reboot — that is the whole process.",
+    },
+    features: [
+      { h: "No app required", p: "The box works natively with a portal URL — no player, no sideloading." },
+      { h: "MAC-based access", p: "We register your MAC address and the box then signs in on its own." },
+      { h: "Stable ethernet", p: "MAG boxes include a LAN port — ideal for uninterrupted live sport." },
+      { h: "Ready straight away", p: "After the reboot the box loads the channel list and guide automatically." },
+    ],
+    sections: [
+      { h: "How a MAG box differs from other devices", p: "On a Fire TV Stick or an Android box you first install a player and enter credentials into it. The MAG box takes a different route: it is an IPTV receiver by design and works with what is called a portal. You store a URL in the system settings, we link your MAC address to it, and after a reboot the channel list appears directly in the interface. There is no app to update and no unknown sources to permit — for many people that is precisely the appeal." },
+      { h: "MAC address and portal URL", p: "Two pieces of information are all it takes. Your box's MAC address sits in the system settings under device information, in the format 00:1A:79:XX:XX:XX. You send that to us on WhatsApp, we link it to your subscription and send the matching portal URL back. You enter that under Settings, System Settings, Servers, Portals, then restart the box. Exact spelling matters here: a single wrong character in the URL will stop the portal loading." },
+      { h: "Setting it up, step by step", p: "From the main menu open Settings and go to System Settings. Under Servers you will find Portals. Put any name you like in the first field and the URL we sent in the second. Save using the corresponding colour key on the remote, then reboot the box — that reboot is not optional; without it the box will not adopt the portal. Once it comes back up, it loads the channel list, programme guide and categories on its own." },
+      { h: "Which MAG models work", p: "The portal method has stayed consistent across model generations, which is why both older and current boxes work with it. The practical difference is performance: older models are built for HD and 1080p and reach their limits with 4K material in HEVC, while newer units handle 4K cleanly. If you are unsure which model you have, the designation sits in the same device information screen as the MAC address — send it along and we will tell you what to expect." },
+      { h: "Use ethernet where you can", p: "MAG boxes include a LAN port, and you should use it. An IPTV stream runs continuously in real time with no large buffer to absorb dips, so a steady connection matters more than a high maximum speed. Plan on around 10 Mbps for HD and at least 25 Mbps for stable 4K. Where a cable is impossible, a powerline adapter often helps more than Wi-Fi, because it sidesteps the interference and congestion that cause most complaints." },
+      { h: "When the portal won't load", p: "Three causes account for nearly every case. First, a typo in the portal URL — check it character by character against what we sent. Second, a MAC address that was never sent or was noted down incorrectly; it must match the one on the box exactly. Third, a skipped reboot, without which the box does not adopt the new setting. If it still fails, message us: support replies on WhatsApp in under five minutes and checks the link on our side directly." },
+      { h: "What the access includes", p: "The catalogue is identical regardless of device. That means 66,000+ live channels, around 4,200 of them sport, covering Premier League, Bundesliga, La Liga, Serie A, Ligue 1, Champions League, NBA, NFL, UFC, Formula 1 and MotoGP. Alongside sit roughly 70,000 films and 18,000 series on demand, around 320 children's channels and 540 news and documentary channels. If you also want to watch on a phone or tablet, we send Xtream Codes details for the same term as well." },
+      { h: "Test it first", p: "Even with a MAG box you can confirm everything works before buying. Send us your MAC address for the free 24-hour trial; we link it without any payment details and send the portal URL. Watch three things during the trial: whether your channels are in the list, whether the guide is populated, and whether the picture stays stable at prime time. If the result convinces you, a seven-day money-back guarantee applies after purchase too." },
+    ],
+    faq: [
+      { q: "How do I set up IPTV on a MAG box?", a: "Send us your MAC address, enter the portal URL we return under Settings, System Settings, Servers, Portals, and reboot the box. The channel list then loads automatically." },
+      { q: "Where do I find my MAG box's MAC address?", a: "In the system settings under device information. It uses the format 00:1A:79:XX:XX:XX and is usually printed on a sticker underneath the box as well." },
+      { q: "Do I need an app for a MAG box?", a: "No. The box is a native IPTV receiver and works directly with a portal URL — no player, no sideloading, no app updates." },
+      { q: "Why won't my portal load?", a: "Almost always a typo in the URL, an incorrectly supplied MAC address, or a skipped reboot. Check all three; our support will verify the link on our side if you ask." },
+      { q: "Can I use the same subscription on my phone?", a: "Yes. We also send Xtream Codes details for the same term, which let you watch on a phone, tablet or a second device." },
+    ],
+    cta: "Activate my MAG box",
+  },
+  fr: {
+    metaTitle: "IPTV pour MAG Box — configurer l'URL du portail, 66 000+ chaînes",
+    metaDesc:
+      "IPTV sur MAG box : saisir une URL de portail, enregistrer l'adresse MAC, 66 000+ chaînes en 4K. Installation en quelques minutes sans application, dès 5 €/mois.",
+    eyebrow: "IPTV MAG Box · Dès 5 €/mois",
+    h1: "L'IPTV pour la",
+    h1Accent: "MAG Box",
+    intro:
+      "La MAG box n'a besoin d'aucune application supplémentaire : vous saisissez une URL de portail, nous enregistrons votre adresse MAC, et la liste des chaînes apparaît directement dans l'interface. 66 000+ chaînes, installées en quelques minutes, dès 5 €/mois.",
+    cover: "/blog/iptv-mag-box-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-mag-box-body-fr.jpg",
+      alt: "Configurer une MAG box pour l'IPTV : relever l'adresse MAC, saisir l'URL du portail dans les réglages système, redémarrer la box.",
+      caption: "Relever la MAC, saisir le portail, redémarrer — c'est toute la procédure.",
+    },
+    features: [
+      { h: "Aucune application requise", p: "La box fonctionne nativement avec une URL de portail — sans lecteur ni installation manuelle." },
+      { h: "Accès par adresse MAC", p: "Nous enregistrons votre adresse MAC et la box se connecte ensuite d'elle-même." },
+      { h: "Ethernet stable", p: "Les MAG box ont un port LAN — idéal pour du sport en direct sans interruption." },
+      { h: "Prêt immédiatement", p: "Après le redémarrage, la box charge automatiquement la liste et le guide." },
+    ],
+    sections: [
+      { h: "En quoi la MAG box diffère des autres appareils", p: "Sur un Fire TV Stick ou une box Android, vous installez d'abord un lecteur puis y saisissez des identifiants. La MAG box emprunte une autre voie : c'est un récepteur IPTV par conception, qui fonctionne avec ce qu'on appelle un portail. Vous enregistrez une URL dans les réglages système, nous y associons votre adresse MAC, et après un redémarrage la liste des chaînes apparaît directement dans l'interface. Aucune application à mettre à jour, aucune source inconnue à autoriser — pour beaucoup, c'est précisément l'attrait." },
+      { h: "Adresse MAC et URL de portail", p: "Deux informations suffisent. L'adresse MAC de votre box se trouve dans les réglages système, rubrique informations de l'appareil, au format 00:1A:79:XX:XX:XX. Vous nous l'envoyez par WhatsApp, nous l'associons à votre abonnement et vous renvoyons l'URL de portail correspondante. Vous la saisissez sous Réglages, Réglages système, Serveurs, Portails, puis redémarrez la box. L'exactitude compte ici : un seul caractère erroné dans l'URL empêche le portail de charger." },
+      { h: "L'installation étape par étape", p: "Depuis le menu principal, ouvrez les Réglages puis les Réglages système. Sous Serveurs se trouve la rubrique Portails. Indiquez le nom de votre choix dans le premier champ et l'URL que nous avons envoyée dans le second. Enregistrez avec la touche de couleur correspondante de la télécommande, puis redémarrez la box — ce redémarrage n'est pas facultatif : sans lui, la box n'adopte pas le portail. Une fois relancée, elle charge d'elle-même la liste des chaînes, le guide et les catégories." },
+      { h: "Quels modèles MAG fonctionnent", p: "La méthode du portail est restée constante d'une génération à l'autre, si bien que les box anciennes comme récentes fonctionnent. La différence pratique tient à la puissance : les modèles anciens sont conçus pour la HD et le 1080p et atteignent leurs limites sur du contenu 4K en HEVC, tandis que les plus récents gèrent la 4K proprement. Si vous ignorez quel modèle vous possédez, sa désignation figure sur le même écran d'informations que l'adresse MAC — transmettez-la et nous vous dirons à quoi vous attendre." },
+      { h: "Utiliser l'ethernet quand c'est possible", p: "Les MAG box disposent d'un port LAN, et il faut l'utiliser. Un flux IPTV est continu et en temps réel, sans gros tampon pour absorber les creux : une connexion régulière compte donc davantage qu'une vitesse maximale élevée. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable. Là où le câble est impossible, un adaptateur CPL aide souvent plus que le Wi-Fi, car il contourne les interférences et les saturations à l'origine de la plupart des plaintes." },
+      { h: "Quand le portail ne charge pas", p: "Trois causes couvrent presque tous les cas. D'abord une faute de frappe dans l'URL du portail — vérifiez-la caractère par caractère face à ce que nous avons envoyé. Ensuite une adresse MAC non transmise ou mal recopiée ; elle doit correspondre exactement à celle de la box. Enfin un redémarrage omis, sans lequel la box n'applique pas le nouveau réglage. Si le problème persiste, écrivez-nous : le support répond sur WhatsApp en moins de cinq minutes et vérifie l'association de notre côté." },
+      { h: "Ce que l'accès comprend", p: "Le catalogue est identique quel que soit l'appareil. Cela représente 66 000+ chaînes en direct, dont environ 4 200 chaînes sport couvrant Ligue 1, Premier League, La Liga, Serie A, Bundesliga, Champions League, NBA, NFL, UFC, Formule 1 et MotoGP. S'y ajoutent quelque 70 000 films et 18 000 séries à la demande, environ 320 chaînes jeunesse et 540 chaînes d'information et de documentaires. Si vous souhaitez aussi regarder sur téléphone ou tablette, nous envoyons également des identifiants Xtream Codes pour la même durée." },
+      { h: "Tester au préalable", p: "Même avec une MAG box, vous pouvez vérifier que tout fonctionne avant d'acheter. Envoyez-nous votre adresse MAC pour l'essai gratuit de 24 heures ; nous l'associons sans aucune donnée de paiement et vous transmettons l'URL du portail. Pendant l'essai, surveillez trois points : la présence de vos chaînes dans la liste, le remplissage du guide, et la stabilité de l'image aux heures de pointe. Si le résultat convainc, une garantie de sept jours s'ajoute après l'achat." },
+    ],
+    faq: [
+      { q: "Comment installer l'IPTV sur une MAG box ?", a: "Envoyez-nous votre adresse MAC, saisissez l'URL de portail renvoyée sous Réglages, Réglages système, Serveurs, Portails, puis redémarrez la box. La liste des chaînes se charge ensuite automatiquement." },
+      { q: "Où trouver l'adresse MAC de ma MAG box ?", a: "Dans les réglages système, rubrique informations de l'appareil. Elle utilise le format 00:1A:79:XX:XX:XX et figure généralement aussi sur une étiquette sous la box." },
+      { q: "Faut-il une application pour la MAG box ?", a: "Non. La box est un récepteur IPTV natif qui fonctionne directement avec une URL de portail — sans lecteur, sans installation manuelle, sans mises à jour d'application." },
+      { q: "Pourquoi mon portail ne charge-t-il pas ?", a: "Presque toujours une faute de frappe dans l'URL, une adresse MAC mal transmise, ou un redémarrage omis. Vérifiez ces trois points ; notre support contrôle l'association de son côté sur demande." },
+      { q: "Puis-je utiliser le même abonnement sur mon téléphone ?", a: "Oui. Nous envoyons également des identifiants Xtream Codes pour la même durée, qui permettent de regarder sur téléphone, tablette ou un second appareil." },
+    ],
+    cta: "Activer ma MAG Box",
+  },
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   return content[page][locale];
 }
@@ -2274,4 +2794,8 @@ export const seoPages: Page[] = [
   "cable-tv-alternative",
   "iptv-deutschland",
   "iptv-roku",
+  "iptv-usa",
+  "iptv-apple-tv",
+  "iptv-android-tv",
+  "iptv-mag-box",
 ];

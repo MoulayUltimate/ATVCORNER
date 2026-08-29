@@ -28,6 +28,10 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV Firestick](https://atvcorner.com/fr/iptv-firestick): Installer l'IPTV sur Amazon Fire TV Stick en 5 min via Smarters/TiviMate
 - [IPTV Smarters Pro](https://atvcorner.com/fr/iptv-smarters-pro): Configurer Smarters Pro avec identifiants Xtream Codes
 - [Alternative au câble](https://atvcorner.com/fr/cable-tv-alternative): Remplacer câble/satellite, jusqu'à 90 % d'économie, sans engagement
+- [IPTV USA](https://atvcorner.com/fr/iptv-usa): Chaînes américaines, NFL, NBA, MLB, NHL en 4K
+- [IPTV sur Apple TV](https://atvcorner.com/fr/iptv-apple-tv): Installation App Store, sans jailbreak
+- [IPTV sur Android TV](https://atvcorner.com/fr/iptv-android-tv): Box, Nvidia Shield, Google TV, TiviMate
+- [IPTV pour MAG Box](https://atvcorner.com/fr/iptv-mag-box): URL de portail et adresse MAC, sans application
 - [IPTV Allemagne](https://atvcorner.com/fr/iptv-deutschland): Chaînes allemandes, Bundesliga, 4K/8K dès 5 €/mois
 - [IPTV sur Roku](https://atvcorner.com/fr/iptv-roku): Installer l'IPTV sur un Roku, lecteurs et recours HDMI
 
