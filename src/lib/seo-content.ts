@@ -1149,6 +1149,26 @@ content["iptv-subscription"] = {
         h: "Un abonnement, tous vos appareils",
         p: "Votre abonnement IPTV ATV Corner fonctionne sur Smart TV Samsung, LG et Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS et Linux — via les applications TiviMate, IBO Player, IPTV Smarters Pro ou VLC. Vous pouvez regarder à la maison puis reprendre sur mobile, sans réinstallation. Le support technique vous accompagne par WhatsApp en moins de 5 minutes pour la configuration de chaque appareil.",
       },
+      {
+        h: "Quelle durée convient à qui",
+        p: "Les quatre durées incluent le même catalogue, la même qualité 4K/8K et le même support — la seule différence est le coût mensuel. La formule mensuelle à 15 € a du sens si vous souhaitez d'abord suivre le service sur une saison ou un tournoi. Trois mois à 30 € reviennent à 10 €/mois et couvrent typiquement une demi-saison sportive. Six mois à 50 € situent le coût autour de 8,30 €/mois. L'abonnement annuel à 60 € ramène le tarif à 5 €/mois, de loin l'option la moins chère. Comme rien ne se reconduit automatiquement, choisir une durée longue ne comporte aucun risque de prélèvement non souhaité.",
+      },
+      {
+        h: "Ce que vous recevez après le paiement",
+        p: "Vos identifiants arrivent par WhatsApp en moins de cinq minutes. Selon le format souhaité, il s'agit soit d'un trio Xtream Codes composé de l'URL du serveur, d'un nom d'utilisateur et d'un mot de passe, soit d'un lien M3U. Xtream Codes est l'option la plus moderne : le lecteur charge la liste des chaînes, le guide, les films et les séries de façon dynamique et à la demande, ce qui est nettement plus rapide sur un gros catalogue. Le M3U est une simple URL de playlist, adaptée à VLC ou Kodi. Les deux livrent exactement le même contenu.",
+      },
+      {
+        h: "Plusieurs appareils dans le même foyer",
+        p: "Un abonnement est lié à vos identifiants, pas à un appareil unique. Vous pouvez donc saisir les mêmes informations sur le téléviseur du salon, sur un téléphone et sur une tablette, et reprendre sur chacun sans racheter quoi que ce soit. Le seul point à surveiller est le nombre de connexions simultanées autorisées par votre formule : plusieurs personnes souhaitant regarder des chaînes différentes au même moment en nécessitent davantage. Le nombre réellement utile dépend du foyer ; en cas de doute, demandez avant l'achat et nous réglons cela en un message.",
+      },
+      {
+        h: "Résiliation, reconduction et remboursement",
+        p: "Rien ne se reconduit automatiquement. Votre accès expire simplement à la fin de la durée achetée, et vous décidez activement de racheter ou non. Cela supprime les frictions habituelles liées aux préavis, formulaires et échéances manquées propres aux contrats câble et satellite. Durant les sept premiers jours s'applique en outre une garantie satisfait ou remboursé : si la qualité ou la stabilité ne convainc pas, nous remboursons intégralement. Comme vous pouvez tester gratuitement 24 heures au préalable, ce cas devrait rester rare — la garantie couvre le reste.",
+      },
+      {
+        h: "Comment savoir avant d'acheter si cela convient",
+        p: "Le test le plus fiable prend un quart d'heure et ne coûte rien. Lancez l'accès gratuit de 24 heures délibérément à un moment où vous regardez habituellement la télévision — pour le sport, au coup d'envoi et non le matin. Vérifiez alors trois points : que les chaînes que vous regardez vraiment figurent dans la liste et fonctionnent de façon stable ; que le guide des programmes est correctement rempli ; et que l'image reste fluide sur votre appareil précis. Si l'un de ces points échoue, écrivez-nous — il s'agit le plus souvent d'un réglage corrigeable en deux minutes.",
+      },
     ],
     faq: [
       { q: "Combien coûte un abonnement IPTV ATV Corner ?", a: "Les abonnements démarrent à 15 € pour un mois et descendent à 5 €/mois avec la formule annuelle à 60 €. Toutes les formules incluent 66 000+ chaînes, la qualité 4K/8K et le support 24/7." },
@@ -1187,6 +1207,26 @@ content["iptv-subscription"] = {
         h: "One subscription, all your devices",
         p: "Your ATV Corner IPTV subscription works on Samsung, LG and Android Smart TVs, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS and Linux — through the TiviMate, IBO Player, IPTV Smarters Pro or VLC apps. Watch at home, then pick up on mobile, with no reinstall. Technical support helps you set up each device via WhatsApp in under 5 minutes.",
       },
+      {
+        h: "Which term makes sense for whom",
+        p: "All four terms include the same catalogue, the same 4K/8K quality and the same support — the only difference is the cost per month. The monthly plan at $16 makes sense if you want to follow the service through a single season or tournament first. Three months at $33 works out to $11/mo and typically covers half a sporting season. Six months at $55 lands near $9/mo. The annual plan at $65 brings the cost down to roughly $5/mo, making it by far the cheapest option. Because nothing auto-renews, choosing a longer term carries no risk of an unwanted follow-on charge.",
+      },
+      {
+        h: "What you receive after payment",
+        p: "Your credentials arrive on WhatsApp within five minutes. Depending on the format you want, that is either an Xtream Codes trio of server URL, username and password, or an M3U link. Xtream Codes is the more modern option: the player loads the channel list, guide, films and series dynamically and only as needed, which is noticeably faster with a large catalogue. M3U is a single playlist URL suited to VLC or Kodi. Both deliver exactly the same content. If you are unsure which format suits your device, support will tell you in a message beforehand.",
+      },
+      {
+        h: "Several devices in the same household",
+        p: "A subscription is tied to your credentials, not to one device. You can therefore enter the same details on the living-room television, on a phone and on a tablet, and pick up where you left off on each without buying anything again. The one thing to keep in mind is the number of simultaneous connections your plan allows — several people wanting different channels at the same moment need more of them. How many you actually need depends on the household; if you are unsure, ask before buying and we will sort it out in a message.",
+      },
+      {
+        h: "Cancelling, renewing and refunds",
+        p: "Nothing renews automatically. Your access simply expires at the end of the term you bought, and you actively decide whether to buy again. That removes the familiar friction of notice periods, forms and missed deadlines that comes with cable and satellite contracts. Within the first seven days a money-back guarantee also applies: if the quality or stability does not convince you, we refund in full. Because you can test free for 24 hours beforehand, that should rarely be necessary — the guarantee exists for the remainder.",
+      },
+      {
+        h: "How to tell before buying whether it fits",
+        p: "The most reliable test takes fifteen minutes and costs nothing. Start the free 24-hour access deliberately at a time you normally watch — for sport that means kick-off, not the morning. Check three things while you are there: whether the channels you actually watch are in the list and run stably; whether the programme guide is populated correctly; and whether the picture stays smooth on your specific device. If any of those falls short, message us — usually it is a setting that takes two minutes to correct.",
+      },
     ],
     faq: [
       { q: "How much is an ATV Corner IPTV subscription?", a: "Subscriptions start at $16 for one month and drop to about $5/mo on the annual $65 plan. Every plan includes 66,000+ channels, 4K/8K quality and 24/7 support." },
@@ -1224,6 +1264,26 @@ content["iptv-subscription"] = {
       {
         h: "Ein Abo, alle Ihre Geräte",
         p: "Ihr ATV Corner IPTV-Abonnement funktioniert auf Samsung-, LG- und Android-Smart-TVs, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS und Linux — über die Apps TiviMate, IBO Player, IPTV Smarters Pro oder VLC. Schauen Sie zu Hause und setzen Sie unterwegs fort, ohne Neuinstallation. Der technische Support hilft per WhatsApp in unter 5 Minuten bei der Einrichtung jedes Geräts.",
+      },
+      {
+        h: "Welche Laufzeit sich für wen lohnt",
+        p: "Alle vier Laufzeiten enthalten denselben Katalog, dieselbe 4K/8K-Qualität und denselben Support — der einzige Unterschied ist der Preis pro Monat. Der Monatstarif zu 15 € ist sinnvoll, wenn Sie den Dienst zunächst über eine Saison oder ein einzelnes Turnier begleiten möchten. Drei Monate zu 30 € entsprechen 10 €/Monat und decken typischerweise eine halbe Sportsaison ab. Sechs Monate zu 50 € landen bei etwa 8,30 €/Monat. Das Jahresabo zu 60 € senkt die Kosten auf 5 €/Monat und ist damit die mit Abstand günstigste Variante. Weil keine automatische Verlängerung greift, entsteht durch die längere Laufzeit kein Risiko einer ungewollten Folgebuchung.",
+      },
+      {
+        h: "Was Sie nach der Zahlung erhalten",
+        p: "Innerhalb von fünf Minuten kommen Ihre Zugangsdaten per WhatsApp. Je nach gewünschtem Format ist das entweder ein Xtream-Codes-Trio aus Server-URL, Benutzername und Passwort oder ein M3U-Link. Xtream Codes ist die modernere Variante: Der Player lädt Senderliste, Programmführer, Filme und Serien dynamisch und nur bei Bedarf, was besonders bei großen Katalogen spürbar schneller ist. M3U ist eine einzelne Playlist-URL und eignet sich für VLC oder Kodi. Beide liefern exakt denselben Inhalt. Wenn Sie unsicher sind, welches Format zu Ihrem Gerät passt, sagt Ihnen der Support das vorab in einer Nachricht.",
+      },
+      {
+        h: "Mehrere Geräte im selben Haushalt",
+        p: "Ein Abo ist an Ihre Zugangsdaten gebunden, nicht an ein einzelnes Gerät. Sie können dieselben Daten also auf dem Fernseher im Wohnzimmer, auf dem Handy und auf dem Tablet hinterlegen und dort jeweils weiterschauen, ohne etwas neu zu kaufen. Zu beachten ist lediglich die Zahl gleichzeitiger Verbindungen, die Ihre Formel erlaubt — mehrere Personen, die zur selben Zeit unterschiedliche Sender schauen möchten, benötigen entsprechend mehr davon. Wie viele Sie tatsächlich brauchen, hängt vom Haushalt ab; fragen Sie im Zweifel vor dem Kauf kurz nach, dann klären wir das in einer Nachricht.",
+      },
+      {
+        h: "Kündigung, Verlängerung und Rückerstattung",
+        p: "Es gibt keine automatische Verlängerung. Ihr Zugang läuft am Ende der gebuchten Laufzeit einfach aus, und Sie entscheiden aktiv, ob Sie erneut buchen. Damit entfällt der übliche Ärger mit Kündigungsfristen, Formularen und Fristversäumnissen, den Kabel- und Satellitenverträge mit sich bringen. Innerhalb der ersten sieben Tage gilt zusätzlich eine Geld-zurück-Garantie: Wenn Qualität oder Stabilität nicht überzeugen, erstatten wir den Betrag vollständig. Weil Sie zuvor bereits 24 Stunden kostenlos testen können, sollte dieser Fall selten eintreten — die Garantie existiert für den Rest.",
+      },
+      {
+        h: "Woran Sie vor dem Kauf erkennen, ob es passt",
+        p: "Der zuverlässigste Test dauert eine Viertelstunde und kostet nichts. Starten Sie den kostenlosen 24-Stunden-Zugang bewusst zu einer Zeit, in der Sie üblicherweise fernsehen — bei Sport also zur Anstoßzeit, nicht am Vormittag. Prüfen Sie dabei drei Dinge: ob die Sender, die Sie wirklich schauen, in der Liste stehen und stabil laufen; ob der Programmführer korrekt gefüllt ist; und ob das Bild auf Ihrem konkreten Gerät flüssig bleibt. Fällt einer dieser Punkte durch, schreiben Sie uns — meist liegt es an einer Einstellung, die sich in zwei Minuten korrigieren lässt.",
       },
     ],
     faq: [
@@ -1269,6 +1329,30 @@ content["iptv-firestick"] = {
         h: "IPTV Smarters Pro ou TiviMate sur Firestick ?",
         p: "IPTV Smarters Pro est le plus simple : interface claire, EPG intégré, idéal pour débuter. TiviMate offre une expérience plus avancée avec un guide des programmes soigné et un enregistrement (version Premium), mais demande un peu plus de configuration. Les deux fonctionnent parfaitement avec ATV Corner sur Firestick via vos identifiants Xtream Codes. Vous pouvez tester les deux et garder celle que vous préférez — notre support vous aide à choisir.",
       },
+      {
+        h: "Quel Fire TV Stick pour quelle qualité",
+        p: "Le Fire TV Stick Lite suffit pour la HD et le 1080p et reste l'option la moins chère, mais atteint ses limites sur du contenu 4K en HEVC/H.265. Les Fire TV Stick 4K et 4K Max disposent d'un processeur nettement plus rapide, décodent le HEVC sans saccades et lancent les applications IPTV sensiblement plus vite — le 4K Max ajoute un Wi-Fi plus rapide, utile dans les immeubles saturés de réseaux. Pour une 4K durablement fluide, l'un de ces deux modèles est le choix raisonnable. Quel que soit le modèle, l'installation est identique et les mêmes identifiants fonctionnent sur toutes les générations.",
+      },
+      {
+        h: "Configurer Downloader et les applications inconnues",
+        p: "Avant d'installer un lecteur, deux réglages sont nécessaires. Ouvrez d'abord l'Appstore et installez Downloader. Rendez-vous ensuite dans les Paramètres, puis Mon Fire TV, Options de développeur, et autorisez l'installation d'applications inconnues pour Downloader. Sans cette étape, l'installation échoue sans message, ce qui constitue de loin l'obstacle le plus fréquent. Saisissez ensuite dans Downloader l'adresse du lecteur souhaité et confirmez l'installation. L'ensemble se fait à la télécommande ; aucun ordinateur n'est nécessaire à aucun moment.",
+      },
+      {
+        h: "Après l'installation : les trois réglages qui comptent",
+        p: "Une fois le lecteur configuré, trois ajustements méritent d'être faits. D'abord le mode de décodage : si l'image n'est pas nette, passez de matériel à logiciel dans les réglages, ou l'inverse — cela corrige la plupart des saccades sur les clés anciennes. Ensuite le guide des programmes : rechargez l'EPG une fois manuellement pour que titres et horaires s'affichent correctement. Enfin la liste de favoris : se constituer une sélection parmi 66 000+ chaînes transforme une liste ingérable en un appareil qu'on utilise volontiers chaque jour. Les trois prennent moins de cinq minutes.",
+      },
+      {
+        h: "Surveiller l'espace de stockage et les performances",
+        p: "Le Fire TV Stick dispose de peu de mémoire interne, et les lecteurs IPTV stockent localement listes de chaînes, données EPG et vignettes. Quand ce cache devient trop volumineux, cela se manifeste par des blocages au changement de chaîne ou un démarrage lent. Videz le cache de temps en temps dans les réglages et désinstallez les applications inutilisées. Redémarrer la clé avant une longue session — surtout avant un match — aide également plus qu'on ne le croit, car cela met fin aux processus d'arrière-plan qui consomment puissance de calcul et bande passante.",
+      },
+      {
+        h: "Le réseau : là où la plupart échouent",
+        p: "Le Fire TV Stick n'a pas de port ethernet et fonctionne donc en Wi-Fi par défaut — or c'est précisément là que naissent la plupart des problèmes de buffering. Trois mesures aident de façon fiable. Passez sur la bande 5 GHz, bien moins encombrée que le 2,4 GHz. Placez le routeur à découvert plutôt que dans un meuble ou juste derrière le téléviseur, dont la face arrière métallique atténue le signal. Et si cela ne suffit pas, un adaptateur ethernet pour le port micro-USB de la clé coûte quelques euros et stabilise la connexion. Comptez 10 Mbps pour la HD et 25 Mbps pour la 4K.",
+      },
+      {
+        h: "Quand la clé atteint ses limites",
+        p: "Les Fire TV Stick des premières générations fonctionnent encore, mais peinent visiblement sur du contenu 4K en HEVC — surtout avec d'autres applications actives en arrière-plan. Avant d'acheter du matériel neuf, testez en HD : si la même chaîne passe correctement à une résolution inférieure, la cause est la puissance de calcul et non votre connexion ou notre serveur. Dans ce cas, un Fire TV Stick 4K ou 4K Max apporte le gain le plus net pour un coût modéré. Le même accès fonctionne aussi tel quel sur une Apple TV ou une box Android TV récente.",
+      },
     ],
     faq: [
       { q: "Comment installer l'IPTV sur mon Firestick ?", a: "Installez Downloader depuis l'Appstore, autorisez les applications inconnues, téléchargez IPTV Smarters Pro ou TiviMate, puis saisissez les identifiants Xtream Codes envoyés par ATV Corner. Comptez moins de 5 minutes." },
@@ -1307,6 +1391,30 @@ content["iptv-firestick"] = {
         h: "IPTV Smarters Pro or TiviMate on Firestick?",
         p: "IPTV Smarters Pro is the simplest: clean interface, built-in EPG, ideal for beginners. TiviMate offers a more advanced experience with a polished program guide and recording (Premium version), but takes a little more setup. Both work perfectly with ATV Corner on Firestick using your Xtream Codes credentials. You can try both and keep the one you prefer — our support helps you choose.",
       },
+      {
+        h: "Which Fire TV Stick for which quality",
+        p: "The Fire TV Stick Lite handles HD and 1080p and is the cheapest option, but reaches its limits with 4K material in HEVC/H.265. The Fire TV Stick 4K and 4K Max have a considerably faster processor, decode HEVC without stuttering and launch IPTV apps noticeably quicker — the 4K Max adds faster Wi-Fi on top, which helps in flats crowded with networks. For consistently smooth 4K, one of those two is the sensible choice. Whichever model you have, the setup is identical and the same credentials work across every generation.",
+      },
+      {
+        h: "Setting up Downloader and unknown apps correctly",
+        p: "Before installing a player you need two settings in place. First open the Appstore and install Downloader. Then go to Settings, My Fire TV, Developer Options, and allow installation of unknown apps for Downloader. Without that step the install fails silently, which is the single most common stumbling block. After that, enter the address of your chosen player in Downloader and confirm the installation. The whole process runs from the remote; a computer is never required at any point.",
+      },
+      {
+        h: "After installing: the three settings that matter",
+        p: "Once the player is set up, three adjustments are worth making. First the decoder mode: if the picture isn't clean, switch from hardware to software in settings, or the reverse — that fixes most stuttering on older sticks. Second the programme guide: reload the EPG once manually so titles and times appear correctly. Third the favourites list: curating your own selection out of 66,000+ channels turns an unmanageable list into a device you are happy to use daily. All three together take under five minutes.",
+      },
+      {
+        h: "Keeping an eye on storage and performance",
+        p: "The Fire TV Stick has comparatively little internal storage, and IPTV players cache channel lists, EPG data and thumbnails locally. When that cache grows too large it shows up as hanging when changing channels or as slow app startup. Clear the cache occasionally in the app settings and uninstall apps you don't use. Restarting the stick before longer sessions — especially before a match — also helps more than people expect, because it ends background processes that would otherwise consume both processing power and bandwidth.",
+      },
+      {
+        h: "Networking: where most people come unstuck",
+        p: "The Fire TV Stick has no ethernet port, so it sits on Wi-Fi by default — and that is exactly where most buffering problems originate. Three measures reliably help. Move to the 5 GHz band, which is far less congested than 2.4 GHz. Place the router in the open rather than in a cabinet or directly behind the television, whose metal backing dampens the signal. And if neither is enough, an ethernet adapter for the stick's micro-USB port costs very little and stabilises the connection. Plan for 10 Mbps for HD and 25 Mbps for 4K.",
+      },
+      {
+        h: "When the stick reaches its limits",
+        p: "Early-generation Fire TV Sticks still run, but visibly struggle with 4K material in HEVC — particularly with other apps active in the background. Before buying new hardware, it is worth testing in HD: if the same channel plays cleanly at a lower resolution, the cause is processing power rather than your connection or our server. In that case a Fire TV Stick 4K or 4K Max delivers the largest noticeable improvement for comparatively little money. Alternatively, the same login works unchanged on an Apple TV or a current Android TV box.",
+      },
     ],
     faq: [
       { q: "How do I install IPTV on my Firestick?", a: "Install Downloader from the Appstore, allow unknown apps, download IPTV Smarters Pro or TiviMate, then enter the Xtream Codes credentials sent by ATV Corner. It takes under 5 minutes." },
@@ -1344,6 +1452,30 @@ content["iptv-firestick"] = {
       {
         h: "IPTV Smarters Pro oder TiviMate auf Firestick?",
         p: "IPTV Smarters Pro ist am einfachsten: klare Oberfläche, integrierter EPG, ideal für Einsteiger. TiviMate bietet ein fortgeschritteneres Erlebnis mit einem edlen Programmführer und Aufnahme (Premium-Version), erfordert aber etwas mehr Einrichtung. Beide funktionieren einwandfrei mit ATV Corner auf dem Firestick über Ihre Xtream-Codes-Zugangsdaten. Sie können beide testen und die bevorzugte behalten — unser Support hilft bei der Wahl.",
+      },
+      {
+        h: "Welcher Fire TV Stick für welche Qualität",
+        p: "Der Fire TV Stick Lite reicht für HD und 1080p und ist die günstigste Variante, stößt bei 4K-Material mit HEVC/H.265 aber an seine Grenzen. Der Fire TV Stick 4K und der 4K Max haben den deutlich schnelleren Prozessor, dekodieren HEVC ohne Ruckeln und starten IPTV-Apps merklich zügiger — beim 4K Max kommt zusätzlich schnelleres WLAN hinzu, was in Wohnungen mit vielen Netzwerken hilft. Für dauerhaft flüssiges 4K ist eines dieser beiden Modelle die vernünftige Wahl. Unabhängig vom Modell bleibt die Einrichtung identisch, und dieselben Zugangsdaten funktionieren auf allen Generationen.",
+      },
+      {
+        h: "Downloader und unbekannte Apps richtig einstellen",
+        p: "Bevor Sie einen Player installieren, brauchen Sie zwei Einstellungen. Öffnen Sie zuerst den Appstore und installieren Sie Downloader. Gehen Sie anschließend in die Einstellungen, dort zu Mein Fire TV, weiter zu Entwickleroptionen, und erlauben Sie die Installation unbekannter Apps für Downloader. Ohne diesen Schritt bricht die Installation kommentarlos ab, was die häufigste Stolperstelle überhaupt ist. Danach geben Sie in Downloader die Adresse des gewünschten Players ein und bestätigen die Installation. Der gesamte Vorgang läuft mit der Fernbedienung ab; ein Computer wird zu keinem Zeitpunkt benötigt.",
+      },
+      {
+        h: "Nach der Installation: die drei Einstellungen, die zählen",
+        p: "Ist der Player eingerichtet, lohnen sich drei Anpassungen. Erstens der Dekoder-Modus: Läuft das Bild nicht sauber, wechseln Sie in den Einstellungen von Hardware auf Software oder umgekehrt — das behebt die meisten Ruckler auf älteren Sticks. Zweitens der Programmführer: Laden Sie den EPG einmal manuell neu, damit Sendungsnamen und Zeiten korrekt erscheinen. Drittens die Favoritenliste: Aus 66.000+ Sendern eine eigene Auswahl zu bauen, macht aus einer unübersichtlichen Liste ein Gerät, das man täglich gern benutzt. Alle drei Schritte dauern zusammen keine fünf Minuten.",
+      },
+      {
+        h: "Speicherplatz und Leistung im Blick behalten",
+        p: "Der Fire TV Stick hat vergleichsweise wenig internen Speicher, und IPTV-Player legen Senderlisten, EPG-Daten und Vorschaubilder lokal ab. Wird dieser Zwischenspeicher zu groß, äußert sich das als Hängen beim Umschalten oder als langsamer App-Start. Leeren Sie den Cache gelegentlich in den App-Einstellungen und deinstallieren Sie Apps, die Sie nicht nutzen. Ein Neustart des Sticks vor längeren Sitzungen — besonders vor einem Spiel — hilft ebenfalls mehr, als man vermutet, weil er Hintergrundprozesse beendet, die sonst Rechenleistung und Bandbreite beanspruchen.",
+      },
+      {
+        h: "Netzwerk: der Punkt, an dem die meisten scheitern",
+        p: "Der Fire TV Stick hat keinen LAN-Anschluss, hängt also standardmäßig am WLAN — und genau dort entstehen die meisten Buffering-Probleme. Drei Maßnahmen helfen zuverlässig. Wechseln Sie auf das 5-GHz-Band, das deutlich weniger überfüllt ist als 2,4 GHz. Stellen Sie den Router frei auf und nicht in einen Schrank oder direkt hinter den Fernseher, dessen Metallrückwand das Signal dämpft. Und wenn beides nicht reicht, gibt es für wenige Euro einen Ethernet-Adapter für den Micro-USB-Anschluss des Sticks, der die Verbindung stabilisiert. Rechnen Sie mit 10 Mbit/s für HD und 25 Mbit/s für 4K.",
+      },
+      {
+        h: "Wenn der Stick an seine Grenzen kommt",
+        p: "Ältere Fire TV Sticks der ersten Generationen laufen zwar weiterhin, tun sich mit 4K-Material in HEVC aber sichtbar schwer — vor allem, wenn im Hintergrund noch andere Apps aktiv sind. Bevor Sie ein neues Gerät kaufen, lohnt sich ein Test in HD: Läuft derselbe Sender in niedrigerer Auflösung sauber, ist die Ursache die Rechenleistung und nicht Ihre Leitung oder unser Server. In dem Fall bringt ein Fire TV Stick 4K oder 4K Max für vergleichsweise wenig Geld den größten spürbaren Sprung. Alternativ funktioniert derselbe Zugang unverändert auf einem Apple TV oder einer aktuellen Android-TV-Box.",
       },
     ],
     faq: [
@@ -1389,6 +1521,30 @@ content["iptv-smarters-pro"] = {
         h: "Résoudre les problèmes courants",
         p: "Si une chaîne ne se lance pas, vérifiez d'abord votre connexion internet (25 Mbps recommandés pour le 4K) et changez le format de décodage dans les réglages (Hardware/Software). Si l'EPG ne s'affiche pas, actualisez-le depuis les paramètres. En cas d'erreur de connexion, contrôlez que l'URL et les identifiants sont saisis exactement comme envoyés. Notre support ATV Corner règle la plupart des cas par WhatsApp en quelques minutes.",
       },
+      {
+        h: "Xtream Codes ou M3U — quel format choisir",
+        p: "Au premier lancement, l'application propose deux voies. La connexion via l'API Xtream Codes est le meilleur choix dans presque tous les cas : le lecteur charge chaînes, guide, films et séries séparément et à la demande, ce qui garde un démarrage rapide même sur un gros catalogue et présente des catégories bien triées. La voie M3U charge à l'inverse une playlist unique en entier et convient quand votre fournisseur ne propose pas de trio Xtream. Comme ATV Corner fournit les deux formats, nous recommandons Xtream Codes et n'envoyons le lien M3U que sur demande.",
+      },
+      {
+        h: "Configurer l'interface avant de commencer",
+        p: "Juste après l'import, trois réglages rapides rendent l'usage quotidien nettement plus agréable. Créez d'abord des favoris : se constituer une liste parmi 66 000+ chaînes est l'étape la plus utile, car elle transforme le changement de chaîne d'une recherche en un simple choix. Masquez ensuite les catégories que vous n'utilisez jamais — cela raccourcit chaque navigation. Réglez enfin l'écran d'accueil pour qu'il ouvre directement sur le direct ou sur vos favoris plutôt que sur la vue d'ensemble. Ces trois options se trouvent dans les réglages de l'application.",
+      },
+      {
+        h: "EPG, enregistrement et profils multiples",
+        p: "Le guide des programmes arrive automatiquement via Xtream Codes et couvre généralement plusieurs jours. S'il n'affiche aucun titre, une actualisation manuelle dans les réglages suffit presque toujours ; réinstaller l'application n'est jamais nécessaire pour cela. La fonction d'enregistrement écrit sur le stockage local de l'appareil : elle atteint donc vite ses limites sur un Fire TV Stick peu spacieux, alors qu'elle reste praticable sur un appareil Android TV doté d'un stockage USB. Plusieurs profils peuvent être créés si le foyer souhaite des listes de favoris distinctes.",
+      },
+      {
+        h: "Quand une chaîne ne démarre pas",
+        p: "Si une seule chaîne reste noire alors que les autres fonctionnent, la cause n'est presque jamais vos identifiants. Vérifiez d'abord le mode de décodage dans les réglages et passez de matériel à logiciel ou l'inverse — nos flux sont en HEVC/H.265, et certains appareils décodent mal ce codec en matériel. Si rien ne démarre ensuite, testez la même chaîne sur un second appareil. Si elle fonctionne là-bas, le premier appareil est en cause ; si elle ne fonctionne nulle part, écrivez-nous sur WhatsApp — nous répondons en moins de cinq minutes et vérifions la chaîne directement.",
+      },
+      {
+        h: "Sur quels appareils l'application fonctionne",
+        p: "IPTV Smarters Pro est volontairement très répandue : Amazon Fire TV Stick de toutes générations, téléphones et tablettes Android, Android TV et Google TV, iPhone et iPad, ainsi que de nombreuses Smart TV. Comme vos identifiants sont liés à l'abonnement et non à un appareil, vous configurez l'application une fois puis répétez l'opération sur les autres appareils en deux minutes chacun. L'interface reste identique partout, ce qui facilite la prise en main pour tout le foyer. Le seul point à surveiller est le nombre de connexions simultanées permis par votre formule.",
+      },
+      {
+        h: "Alternatives si l'application ne vous convient pas",
+        p: "IPTV Smarters Pro n'est pas la seule option, et selon les goûts une autre application conviendra mieux. Beaucoup considèrent TiviMate comme le programme le plus abouti sur Android TV : le guide est plus lisible et la navigation à la télécommande plus rapide, mais l'installation demande un peu plus d'efforts et les fonctions complètes sont payantes. IBO Player est plus léger et reste fluide sur les appareils modestes. VLC, enfin, lit les listes M3U mais n'offre ni EPG ni catégories. Les quatre fonctionnent avec les mêmes identifiants ATV Corner, sans coût supplémentaire.",
+      },
     ],
     faq: [
       { q: "IPTV Smarters Pro est-il gratuit ?", a: "L'application IPTV Smarters Pro est gratuite à télécharger. Vous avez besoin d'un abonnement IPTV comme ATV Corner pour y accéder au contenu via vos identifiants Xtream Codes." },
@@ -1427,6 +1583,30 @@ content["iptv-smarters-pro"] = {
         h: "Fixing common issues",
         p: "If a channel won't play, first check your internet connection (25 Mbps recommended for 4K) and switch the decoder format in settings (Hardware/Software). If the EPG doesn't show, refresh it from settings. On a login error, confirm the URL and credentials are entered exactly as sent. ATV Corner support resolves most cases via WhatsApp in a few minutes.",
       },
+      {
+        h: "Xtream Codes or M3U — which format to choose",
+        p: "On first launch the app offers two routes. Logging in through the Xtream Codes API is the better choice in almost every case: the player loads channels, guide, films and series separately and only as needed, which keeps startup fast even with a large catalogue and gives you cleanly sorted categories. The M3U route instead loads a single playlist in full and suits situations where your provider offers no Xtream trio. Since ATV Corner supplies both formats, we recommend Xtream Codes and send the M3U link only on request.",
+      },
+      {
+        h: "Setting up the interface before you start",
+        p: "Straight after the import, three quick adjustments make daily use considerably more pleasant. Build favourites first: curating your own list out of 66,000+ channels is the single most valuable step, because it turns channel changing from searching into choosing. Second, hide categories you never use — that shortens every navigation. Third, set the start screen to open directly on live TV or on your favourites rather than the overview. All three live in the app settings under their respective headings.",
+      },
+      {
+        h: "EPG, recording and multiple profiles",
+        p: "The programme guide comes automatically over Xtream Codes and usually covers several days. If it shows no titles, a manual refresh in settings almost always fixes it; reinstalling the app is never necessary for that. The recording function writes to the device's local storage, so it hits limits quickly on a Fire TV Stick with little space — on an Android TV device with USB storage it is far more practical. Multiple profiles can be created where different people in the household want separate favourites lists.",
+      },
+      {
+        h: "When a channel won't start",
+        p: "If a single channel stays black while others play, the cause is almost never your login. Check the decoder mode in settings first and switch from hardware to software or the reverse — our streams run in HEVC/H.265, and some devices decode that codec imperfectly in hardware. If nothing plays after that, test the same channel on a second device. If it works there, the first device is the cause; if it works nowhere, message us on WhatsApp — we reply in under five minutes and check the channel directly.",
+      },
+      {
+        h: "Which devices run the app",
+        p: "IPTV Smarters Pro is deliberately widely available: Amazon Fire TV Stick in every generation, Android phones and tablets, Android TV and Google TV, iPhone and iPad, plus many Smart TVs. Because your credentials are tied to the subscription rather than to a device, you set the app up once and repeat the process on further devices in about two minutes each. The interface stays identical throughout, which makes it easier for everyone in the household to learn. The only thing to watch is the number of simultaneous connections your plan allows.",
+      },
+      {
+        h: "Alternatives if the app doesn't suit you",
+        p: "IPTV Smarters Pro is not the only option, and depending on taste another app may suit you better. Many consider TiviMate the most polished program for Android TV: the guide is clearer and remote navigation faster, though setup takes a little more effort and full functionality is paid. IBO Player is leaner and runs smoothly on weaker devices. VLC, finally, plays M3U lists but offers neither EPG nor categories. All four work with the same ATV Corner credentials, so you can switch between them at no extra cost.",
+      },
     ],
     faq: [
       { q: "Is IPTV Smarters Pro free?", a: "The IPTV Smarters Pro app is free to download. You need an IPTV subscription like ATV Corner to access content through your Xtream Codes login." },
@@ -1464,6 +1644,30 @@ content["iptv-smarters-pro"] = {
       {
         h: "Häufige Probleme beheben",
         p: "Wenn ein Sender nicht startet, prüfen Sie zuerst Ihre Internetverbindung (25 Mbit/s für 4K empfohlen) und wechseln Sie das Dekoderformat in den Einstellungen (Hardware/Software). Zeigt der EPG nichts an, aktualisieren Sie ihn in den Einstellungen. Bei einem Login-Fehler prüfen Sie, ob URL und Zugangsdaten exakt wie gesendet eingegeben sind. Der ATV-Corner-Support löst die meisten Fälle per WhatsApp in wenigen Minuten.",
+      },
+      {
+        h: "Xtream Codes oder M3U — welches Format wählen",
+        p: "Beim ersten Start bietet die App zwei Wege an. Die Anmeldung über die Xtream Codes API ist in fast allen Fällen die bessere Wahl: Der Player lädt Sender, Programmführer, Filme und Serien getrennt und nur bei Bedarf, wodurch der Start auch bei großen Katalogen schnell bleibt und Kategorien sauber sortiert erscheinen. Der M3U-Weg lädt stattdessen eine einzelne Playlist komplett und eignet sich, wenn Ihr Anbieter kein Xtream-Trio liefert. Da ATV Corner beide Formate bereitstellt, empfehlen wir Xtream Codes und schicken den M3U-Link nur auf Wunsch mit.",
+      },
+      {
+        h: "Die Oberfläche einrichten, bevor Sie loslegen",
+        p: "Direkt nach dem Import lohnen sich drei Handgriffe, die den Alltag deutlich angenehmer machen. Legen Sie zuerst Favoriten an: Aus 66.000+ Sendern eine eigene Liste zu bauen, ist der wichtigste Schritt überhaupt, weil er das Umschalten von Suchen in Auswählen verwandelt. Blenden Sie zweitens Kategorien aus, die Sie nie nutzen — das verkürzt jede Navigation. Stellen Sie drittens die Startseite so ein, dass sie direkt bei Live-TV oder bei Ihren Favoriten öffnet, statt bei der Übersicht. Alle drei Einstellungen finden Sie in den App-Einstellungen unter der jeweiligen Rubrik.",
+      },
+      {
+        h: "EPG, Aufnahme und Mehrfachprofile",
+        p: "Der Programmführer wird über Xtream Codes automatisch mitgeliefert und deckt in der Regel mehrere Tage ab. Zeigt er keine Titel, hilft ein manuelles Neuladen in den Einstellungen fast immer; ein Neuinstallieren der App ist dafür nie nötig. Die Aufnahmefunktion schreibt auf den lokalen Speicher des Geräts, weshalb sie auf einem Fire TV Stick mit wenig Platz schnell an Grenzen stößt — auf einem Android-TV-Gerät mit USB-Speicher ist sie praktikabler. Mehrere Profile lassen sich anlegen, wenn im Haushalt unterschiedliche Favoritenlisten gewünscht sind.",
+      },
+      {
+        h: "Wenn ein Sender nicht startet",
+        p: "Bleibt ein einzelner Sender schwarz, während andere laufen, liegt es fast nie am Zugang. Prüfen Sie zuerst den Dekoder-Modus in den Einstellungen und wechseln Sie von Hardware auf Software oder umgekehrt — unsere Streams laufen in HEVC/H.265, und manche Geräte dekodieren diesen Codec in Hardware fehlerhaft. Startet danach immer noch nichts, testen Sie denselben Sender auf einem zweiten Gerät. Läuft er dort, ist das erste Gerät die Ursache; läuft er nirgends, schreiben Sie uns kurz auf WhatsApp — wir antworten in unter fünf Minuten und prüfen den Sender direkt.",
+      },
+      {
+        h: "Auf welchen Geräten die App läuft",
+        p: "IPTV Smarters Pro ist bewusst breit verfügbar: Amazon Fire TV Stick in allen Generationen, Android-Smartphones und -Tablets, Android TV und Google TV, iPhone und iPad sowie viele Smart TVs. Weil Ihre Zugangsdaten an das Abo und nicht an ein Gerät gebunden sind, richten Sie die App einmal ein und wiederholen den Vorgang auf weiteren Geräten in jeweils zwei Minuten. Die Oberfläche bleibt dabei überall gleich, was die Einarbeitung für alle im Haushalt vereinfacht. Zu beachten ist lediglich die Zahl gleichzeitiger Verbindungen Ihrer Formel.",
+      },
+      {
+        h: "Alternativen, falls die App nicht passt",
+        p: "IPTV Smarters Pro ist nicht die einzige Option, und je nach Geschmack ist eine andere App die bessere. TiviMate gilt vielen als das ausgereifteste Programm für Android TV: Der Programmführer ist übersichtlicher und die Bedienung mit der Fernbedienung schneller, dafür ist die Einrichtung etwas aufwendiger und die volle Funktionalität kostenpflichtig. IBO Player ist schlanker und läuft auch auf schwächeren Geräten flüssig. VLC schließlich spielt M3U-Listen ab, bietet aber weder EPG noch Kategorien. Alle vier funktionieren mit denselben ATV-Corner-Zugangsdaten, sodass Sie ohne Zusatzkosten wechseln können.",
       },
     ],
     faq: [
@@ -1509,6 +1713,30 @@ content["cable-tv-alternative"] = {
         h: "Migrer sans coupure ni matériel",
         p: "Vous n'avez besoin d'aucun nouvel équipement : votre Smart TV, un Fire TV Stick, un smartphone ou une box Android suffisent. Après l'abonnement, ATV Corner vous envoie vos identifiants par WhatsApp en moins de 5 minutes ; vous les saisissez dans TiviMate ou IPTV Smarters Pro et vous regardez immédiatement. Vous pouvez même tester gratuitement 24h en parallèle de votre câble actuel, puis résilier ce dernier une fois convaincu.",
       },
+      {
+        h: "Les postes cachés d'une facture câble",
+        p: "Le prix affiché est rarement ce qui rend une facture câble coûteuse. S'y ajoutent généralement la location du décodeur, un supplément HD, des bouquets sport ou cinéma, parfois un second décodeur pour une autre pièce, et des frais de mise en service. Chaque poste paraît anodin isolément ; ensemble, beaucoup de foyers atteignent 60 à 90 € par mois. Il vaut la peine de reprendre une facture réelle ligne par ligne et de multiplier le total par douze — cette étape est presque toujours omise, et c'est précisément pourquoi le montant annuel surprend. Un abonnement annuel ATV Corner coûte 60 € pour douze mois.",
+      },
+      {
+        h: "Ce que vous conservez réellement en changeant",
+        p: "La crainte la plus fréquente lors d'un changement est de perdre des contenus familiers, et elle est généralement infondée. Le sport en direct est intégralement conservé — environ 4 200 chaînes sport couvrent Ligue 1, Premier League, La Liga, Serie A, Bundesliga, Champions League, Europa League, NBA, NFL, UFC, Formule 1 et MotoGP. Information, documentaires, programmes jeunesse et chaînes régionales sont également inclus, aux côtés de milliers de chaînes internationales qu'aucun bouquet câble ne propose. Le guide des programmes reste, et une médiathèque de 70 000+ films et 18 000+ séries remplace la location payante à l'unité.",
+      },
+      {
+        h: "Changer sans un seul jour sans télévision",
+        p: "Comme l'IPTV passe par votre ligne internet et non par la prise câble, les deux systèmes fonctionnent en parallèle. C'est la clé d'un changement sans coupure. Lancez d'abord le nouvel accès et faites-le tourner une à deux semaines à côté de votre abonnement existant — de préférence sur une période incluant les heures de pointe et du sport en direct, car la stabilité ne se révèle que là. Ce n'est qu'une fois certain que vous résiliez par écrit, et vous renvoyez le décodeur en location après la fin effective du contrat, pas avant.",
+      },
+      {
+        h: "Aucun technicien, aucun rendez-vous, aucun engagement",
+        p: "Avec le câble, l'attente d'un rendez-vous technicien, une prise installée à demeure et un engagement de 12 à 24 mois font partie du lot. Rien de tout cela ne s'applique ici. Aucun matériel neuf n'est nécessaire : une Smart TV, un Fire TV Stick, une Apple TV, un téléphone ou une box Android suffisent, et la plupart des foyers en possèdent déjà un. L'installation se fait à distance en quelques minutes, et comme le téléviseur n'est plus rattaché à une prise précise, vous pouvez le placer librement ou utiliser l'abonnement dans une seconde pièce.",
+      },
+      {
+        h: "Pour qui le changement est moins intéressant",
+        p: "Honnêtement, l'IPTV ne convient pas à toutes les situations. Si votre connexion internet reste durablement sous 10 Mbps ou fluctue fortement, le câble ou le satellite demeure le choix le plus fiable, car il fonctionne indépendamment de votre ligne de données. De même, qui ne regarde que deux ou trois chaînes classiques et dispose déjà d'un tarif de base très bas économisera peu. Le changement est le plus rentable là où plusieurs options payantes sont souscrites, où des chaînes internationales manquent, ou lorsque plusieurs appareils du foyer doivent être desservis.",
+      },
+      {
+        h: "Vérifier d'abord, décider ensuite",
+        p: "Le chemin le plus simple vers une décision solide passe par un test plutôt que par un tableau. L'accès gratuit de 24 heures fonctionne sans carte bancaire et s'utilise sans difficulté en parallèle de votre contrat actuel. Surveillez trois points pendant ce temps : la présence et la stabilité des chaînes que vous regardez vraiment ; le bon remplissage du guide des programmes ; et la fluidité de l'image sur votre appareil aux heures de pointe. Si le test est concluant, une garantie satisfait ou remboursé de sept jours s'ajoute après l'achat.",
+      },
     ],
     faq: [
       { q: "L'IPTV est-elle une vraie alternative au câble ?", a: "Oui. ATV Corner offre 66 000+ chaînes et 70 000+ films en 4K/8K, soit bien plus qu'un bouquet câble, sans décodeur ni engagement, dès 5 €/mois." },
@@ -1547,6 +1775,30 @@ content["cable-tv-alternative"] = {
         h: "Switch with no downtime or hardware",
         p: "You need no new equipment: your Smart TV, a Fire TV Stick, a phone or an Android box is enough. After you subscribe, ATV Corner sends your credentials via WhatsApp in under 5 minutes; you enter them in TiviMate or IPTV Smarters Pro and watch right away. You can even run a free 24-hour trial alongside your current cable, then cancel it once you're convinced.",
       },
+      {
+        h: "The hidden line items on a cable bill",
+        p: "The headline price is rarely what makes a cable bill expensive. Added to it you typically find box rental, an HD surcharge, sport or film packages, sometimes a second box for another room, and one-off connection fees. Each item looks harmless alone; together many households reach $60 to $90 a month. It is worth going through a real bill line by line and multiplying the total by twelve — that step is almost always skipped, which is precisely why the annual figure comes as a surprise. An ATV Corner annual plan is $65 for twelve months.",
+      },
+      {
+        h: "What you actually keep when you switch",
+        p: "The most common worry about switching is losing familiar content, and it is usually unfounded. Live sport survives in full — around 4,200 sport channels cover Premier League, Bundesliga, La Liga, Serie A, Ligue 1, Champions League, Europa League, NBA, NFL, UFC, Formula 1 and MotoGP. News, documentaries, children's programming and regional channels are included too, alongside thousands of international channels no cable package carries. The programme guide stays, and an on-demand library of 70,000+ films and 18,000+ series replaces the paid one-off rental.",
+      },
+      {
+        h: "Switching without a day without television",
+        p: "Because IPTV runs over your internet line rather than the cable socket, both systems work in parallel. That is the key to a switch with no gap. Start the new access first and run it alongside your existing service for a week or two — ideally across a period that includes prime time and live sport, since stability only reveals itself there. Only once you are sure do you cancel in writing, and you return the rented box after the contract has genuinely ended, not before.",
+      },
+      {
+        h: "No technician, no appointment, no lock-in",
+        p: "With cable, waiting for a technician's appointment, a fixed installed socket and a 12 to 24 month commitment come with the package. None of that applies here. You need no new hardware: a Smart TV, a Fire TV Stick, an Apple TV, a phone or an Android box is enough, and most households already own one. Setup happens remotely in a few minutes, and because the television is no longer tethered to a particular socket you can place it freely or use the subscription in a second room.",
+      },
+      {
+        h: "Who benefits less from switching",
+        p: "Honestly, IPTV does not suit every situation. If your internet connection sits permanently below 10 Mbps or fluctuates heavily, cable or satellite remains the more dependable choice because it works independently of your data line. Equally, someone who watches only two or three traditional channels and already has a very cheap basic tariff saves little. The switch pays off most clearly where several add-on packages are booked, where international channels are missing, or where multiple devices in the household need serving.",
+      },
+      {
+        h: "Check first, then decide",
+        p: "The simplest route to a sound decision runs through a test rather than a spreadsheet. The free 24-hour access runs without a credit card and works comfortably alongside your existing contract. Watch three things while you have it: whether the channels you genuinely watch are present and stable; whether the programme guide is populated correctly; and whether the picture stays smooth on your device at prime time. If the test goes well, a seven-day money-back guarantee applies after purchase on top of it.",
+      },
     ],
     faq: [
       { q: "Is IPTV a real alternative to cable?", a: "Yes. ATV Corner offers 66,000+ channels and 70,000+ movies in 4K/8K — far more than a cable package, with no box or contract, from $5/mo." },
@@ -1584,6 +1836,30 @@ content["cable-tv-alternative"] = {
       {
         h: "Wechseln ohne Ausfall oder Hardware",
         p: "Sie brauchen keine neue Ausrüstung: Ihr Smart TV, ein Fire TV Stick, ein Handy oder eine Android-Box genügt. Nach dem Abo sendet ATV Corner Ihre Zugangsdaten per WhatsApp in unter 5 Minuten; Sie geben sie in TiviMate oder IPTV Smarters Pro ein und schauen sofort. Sie können sogar einen kostenlosen 24h-Test parallel zu Ihrem aktuellen Kabel laufen lassen und dieses kündigen, sobald Sie überzeugt sind.",
+      },
+      {
+        h: "Die versteckten Posten einer Kabelrechnung",
+        p: "Der Grundpreis ist selten das, was eine Kabelrechnung teuer macht. Dazu kommen üblicherweise die Receiver-Miete, ein HD-Aufpreis, Sport- oder Filmpakete, gelegentlich eine zweite Box für ein weiteres Zimmer und einmalige Anschlussgebühren. Jeder Posten wirkt für sich harmlos, in Summe landen viele Haushalte bei 60 bis 90 € im Monat. Es lohnt sich, eine reale Rechnung Zeile für Zeile durchzugehen und die Summe auf zwölf Monate hochzurechnen — genau dieser Schritt wird fast immer übersprungen, und genau deshalb überrascht der Jahresbetrag. Ein Jahresabo bei ATV Corner kostet 60 € für zwölf Monate.",
+      },
+      {
+        h: "Was Sie beim Wechsel tatsächlich behalten",
+        p: "Die häufigste Sorge beim Umstieg ist der Verlust vertrauter Inhalte, und sie ist meist unbegründet. Live-Sport bleibt vollständig erhalten — rund 4.200 Sportkanäle decken Bundesliga, Premier League, La Liga, Serie A, Ligue 1, Champions League, Europa League, NBA, NFL, UFC, Formel 1 und MotoGP ab. Nachrichten, Dokumentationen, Kinderprogramm und Regionalsender sind ebenfalls dabei, ergänzt um Tausende internationale Sender, die in keinem Kabelpaket enthalten sind. Der Programmführer bleibt, und die Mediathek mit 70.000+ Filmen und 18.000+ Serien ersetzt die kostenpflichtige Einzelleihe.",
+      },
+      {
+        h: "Der Umstieg ohne einen Tag ohne Fernsehen",
+        p: "Weil IPTV über Ihre Internetleitung läuft und nicht über die Kabeldose, funktionieren beide Systeme parallel. Genau das ist der Schlüssel zu einem Wechsel ohne Lücke. Starten Sie den neuen Zugang zuerst und lassen Sie ihn ein bis zwei Wochen neben dem bestehenden Anschluss laufen — bevorzugt über eine Zeit, die auch Prime Time und Live-Sport einschließt, weil sich Stabilität nur dort wirklich zeigt. Erst wenn Sie sicher sind, kündigen Sie schriftlich und schicken den Mietreceiver zurück, nachdem der Vertrag tatsächlich beendet ist, nicht vorher.",
+      },
+      {
+        h: "Kein Techniker, kein Termin, keine Bindung",
+        p: "Beim Kabelanschluss gehören Wartezeit auf einen Technikertermin, ein fest verlegter Anschluss und eine Bindung über 12 bis 24 Monate zum Paket. Nichts davon gilt hier. Sie brauchen kein neues Gerät: Ein Smart TV, ein Fire TV Stick, ein Apple TV, ein Handy oder eine Android-Box genügt, und die meisten Haushalte besitzen bereits eines davon. Die Einrichtung erfolgt aus der Ferne in wenigen Minuten, und weil der Fernseher nicht mehr an einer bestimmten Dose hängt, können Sie ihn frei im Raum platzieren oder das Abo im Zweitzimmer mitnutzen.",
+      },
+      {
+        h: "Für wen sich der Wechsel weniger lohnt",
+        p: "Ehrlicherweise passt IPTV nicht in jedem Fall. Wenn Ihre Internetverbindung dauerhaft unter 10 Mbit/s liegt oder stark schwankt, bleibt ein Kabel- oder Satellitenanschluss die zuverlässigere Wahl, weil er unabhängig von der Datenleitung funktioniert. Auch wer ausschließlich zwei oder drei klassische Sender schaut und ohnehin einen sehr günstigen Basistarif hat, spart wenig. Der Wechsel lohnt sich dort am deutlichsten, wo mehrere Zusatzpakete gebucht sind, wo internationale Sender fehlen oder wo mehrere Geräte im Haushalt versorgt werden sollen.",
+      },
+      {
+        h: "Erst prüfen, dann entscheiden",
+        p: "Der einfachste Weg zu einer belastbaren Entscheidung führt über einen Test statt über eine Tabelle. Der kostenlose 24-Stunden-Zugang läuft ohne Kreditkarte und lässt sich problemlos parallel zum bestehenden Vertrag nutzen. Achten Sie dabei auf drei Punkte: ob die Sender, die Sie tatsächlich schauen, vorhanden und stabil sind; ob der Programmführer korrekt gefüllt ist; und ob das Bild auf Ihrem Gerät zur Prime Time flüssig bleibt. Fällt der Test positiv aus, gilt nach dem Kauf zusätzlich eine Geld-zurück-Garantie von sieben Tagen.",
       },
     ],
     faq: [
