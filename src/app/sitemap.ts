@@ -29,6 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/iptv-firestick", priority: 0.85, changeFrequency: "weekly" as const },
     { path: "/iptv-smarters-pro", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/cable-tv-alternative", priority: 0.85, changeFrequency: "monthly" as const },
+    { path: "/iptv-deutschland", priority: 0.9, changeFrequency: "weekly" as const },
+    { path: "/iptv-roku", priority: 0.85, changeFrequency: "monthly" as const },
     { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/refund", priority: 0.3, changeFrequency: "yearly" as const },

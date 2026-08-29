@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Script from "next/script";
 import { whatsappUrl, siteConfig } from "@/lib/site";
 import { CheckIcon } from "@/components/CheckIcon";
@@ -62,6 +63,22 @@ export function SeoLandingPage({
         </div>
       </section>
 
+      {content.cover && (
+        <section className="container-luxe -mt-4">
+          <figure className="max-w-4xl mx-auto overflow-hidden rounded-3xl border border-white/10 bg-zinc-900">
+            <Image
+              src={content.cover}
+              alt={`${content.h1} ${content.h1Accent}`}
+              width={1200}
+              height={675}
+              priority
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              className="w-full h-auto"
+            />
+          </figure>
+        </section>
+      )}
+
       <section className="container-luxe py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {content.features.map((f) => (
@@ -93,6 +110,28 @@ export function SeoLandingPage({
           ))}
         </div>
       </section>
+
+      {content.image && (
+        <section className="container-luxe pb-4">
+          <figure className="max-w-4xl mx-auto">
+            <div className="overflow-hidden rounded-3xl border border-white/10 bg-zinc-900">
+              <Image
+                src={content.image.src}
+                alt={content.image.alt}
+                width={1200}
+                height={675}
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                className="w-full h-auto"
+              />
+            </div>
+            {content.image.caption && (
+              <figcaption className="mt-3 text-center text-xs text-zinc-500">
+                {content.image.caption}
+              </figcaption>
+            )}
+          </figure>
+        </section>
+      )}
 
       <section className="container-luxe py-16">
         <div className="max-w-3xl mx-auto">

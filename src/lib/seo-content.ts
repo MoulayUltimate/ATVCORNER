@@ -14,6 +14,10 @@ export type SeoContent = {
   sections: { h: string; p: string }[];
   faq: { q: string; a: string }[];
   cta: string;
+  /** Hero/OG image (stock photo + vector labels), locale-specific. */
+  cover?: string;
+  /** In-body descriptive image, rendered between the sections. */
+  image?: { src: string; alt: string; caption?: string };
 };
 
 export type Page =
@@ -29,7 +33,9 @@ export type Page =
   | "iptv-subscription"
   | "iptv-firestick"
   | "iptv-smarters-pro"
-  | "cable-tv-alternative";
+  | "cable-tv-alternative"
+  | "iptv-deutschland"
+  | "iptv-roku";
 
 const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
 
@@ -1591,6 +1597,260 @@ content["cable-tv-alternative"] = {
   },
 };
 
+// =============================================================================
+// /iptv-deutschland — DE market page. The /tools/in/germany page is football-only,
+// so the German market had no general IPTV landing page.
+// =============================================================================
+content["iptv-deutschland"] = {
+  de: {
+    metaTitle: "IPTV Deutschland — 66.000+ Sender, Bundesliga & 4K ab 5 €/Monat",
+    metaDesc:
+      "IPTV in Deutschland: 66.000+ Sender inklusive aller deutschen Programme, Bundesliga und Champions League in 4K/8K. Ab 5 €/Monat, Aktivierung in 5 Minuten.",
+    eyebrow: "IPTV Deutschland · Ab 5 €/Monat",
+    h1: "IPTV für",
+    h1Accent: "Deutschland",
+    intro:
+      "Alle deutschen Sender, die Bundesliga und über 66.000 internationale Programme in einem Zugang — in 4K/8K, ohne Kabelvertrag und ohne Receiver. Aktiviert in unter 5 Minuten, ab 5 €/Monat.",
+    features: [
+      { h: "Deutsche Sender komplett", p: "Öffentlich-rechtliche und private Programme, dazu Regionalsender und Spartenkanäle." },
+      { h: "Bundesliga & Champions League", p: "Rund 4.200 Sportkanäle — Bundesliga, DFB-Pokal, Champions League, Formel 1 und NBA." },
+      { h: "Server in Europa", p: "Redundante Tier-1-Infrastruktur, dimensioniert für ein Vielfaches der tatsächlichen Last." },
+      { h: "Ohne Vertragsbindung", p: "1, 3, 6 oder 12 Monate. Keine automatische Verlängerung, 7 Tage Geld-zurück-Garantie." },
+    ],
+    sections: [
+      {
+        h: "Warum IPTV in Deutschland?",
+        p: "Ein klassischer Kabel- oder Satellitenanschluss kostet in Deutschland meist 40 bis 100 € im Monat, bindet über 12 bis 24 Monate und liefert 80 bis 200 Sender. IPTV kehrt dieses Verhältnis um: Mit ATV Corner erhalten Sie 66.000+ Sender, 70.000+ Filme und 18.000+ Serien in 4K/8K ab 5 €/Monat — über Ihre bestehende Internetleitung, ohne Techniker, ohne Kabeldose und ohne Mietreceiver. Sport, Kino und internationale Programme sind enthalten statt als kostenpflichtige Zusatzpakete.",
+      },
+      {
+        h: "Deutsche Programme und Bundesliga live",
+        p: "Für deutsche Haushalte zählt vor allem, dass die gewohnten Sender vollständig da sind: öffentlich-rechtliche Programme, private Vollprogramme, Nachrichten-, Dokumentations- und Kindersender sowie regionale Angebote. Dazu kommen rund 4.200 Sportkanäle mit Bundesliga, DFB-Pokal, Champions League, Europa League, Formel 1, MotoGP und NBA. Weil dieselbe Partie oft auch international übertragen wird, gibt es meist mehrere Wege zu einem Spiel.",
+      },
+      {
+        h: "Einrichtung, Geräte und Bandbreite",
+        p: "Sie brauchen kein neues Gerät. IPTV läuft auf Smart TVs von Samsung und LG, auf Android TV und Google TV, auf dem Amazon Fire TV Stick, Apple TV, Handy, Tablet, MAG Box, Enigma2 sowie auf Windows, macOS und Linux — über TiviMate, IBO Player, IPTV Smarters Pro oder VLC. Für HD genügen 10 Mbit/s, für flüssiges 4K sind 25 Mbit/s empfehlenswert. Nach der Zahlung erhalten Sie Ihre Xtream-Codes-Zugangsdaten oder Ihren M3U-Link in unter 5 Minuten per WhatsApp.",
+      },
+    ],
+    faq: [
+      { q: "Sind alle deutschen Sender enthalten?", a: "Ja. Öffentlich-rechtliche und private Programme, Nachrichten-, Dokumentations-, Kinder- und Regionalsender sind Teil der 66.000+ Sender, dazu Tausende internationale Programme." },
+      { q: "Kann ich die Bundesliga über IPTV schauen?", a: "Ja. Rund 4.200 Sportkanäle decken Bundesliga, DFB-Pokal, Champions League, Europa League, Formel 1, MotoGP und NBA ab — ohne kostenpflichtige Zusatzpakete." },
+      { q: "Was kostet IPTV in Deutschland?", a: "Die Abos starten bei 15 € für einen Monat und sinken auf 5 €/Monat im Jahresabo für 60 €. Jede Laufzeit enthält denselben Katalog und dieselbe 4K/8K-Qualität." },
+      { q: "Brauche ich einen neuen Fernseher oder Receiver?", a: "Nein. Ein Smart TV, Fire TV Stick, Apple TV, Handy, Tablet oder eine Android-Box genügt. Kein Mietreceiver und kein Technikertermin." },
+      { q: "Welche Internetgeschwindigkeit brauche ich?", a: "Rund 10 Mbit/s für HD und mindestens 25 Mbit/s für flüssiges 4K. Eine stabile Verbindung ist wichtiger als eine hohe Maximalgeschwindigkeit." },
+    ],
+    cta: "Jetzt in Deutschland starten",
+    cover: "/blog/iptv-deutschland-main-de.jpg",
+    image: { src: "/blog/iptv-deutschland-body-de.jpg", alt: "Was IPTV in Deutschland abdeckt: öffentlich-rechtliche und private Sender, 4.200 Sportkanäle mit Bundesliga und Champions League, 70.000+ Filme in 4K/8K.", caption: "Deutsche Sender, Sport und Katalog in einem Zugang." },
+  },
+  en: {
+    metaTitle: "IPTV Germany — 66,000+ Channels, Bundesliga & 4K from $5/mo",
+    metaDesc:
+      "IPTV in Germany: 66,000+ channels including every German programme, Bundesliga and Champions League in 4K/8K. From $5/mo, activated in 5 minutes.",
+    eyebrow: "IPTV Germany · From $5/mo",
+    h1: "IPTV for",
+    h1Accent: "Germany",
+    intro:
+      "Every German channel, the Bundesliga and over 66,000 international programmes in one login — in 4K/8K, with no cable contract and no receiver. Active in under 5 minutes, from $5/mo.",
+    features: [
+      { h: "German channels in full", p: "Public-service and commercial programmes, plus regional and special-interest channels." },
+      { h: "Bundesliga & Champions League", p: "Around 4,200 sport channels — Bundesliga, DFB-Pokal, Champions League, Formula 1 and NBA." },
+      { h: "Servers in Europe", p: "Redundant Tier 1 infrastructure, sized for a multiple of actual load." },
+      { h: "No contract", p: "1, 3, 6 or 12 months. No auto-renewal, 7-day money-back guarantee." },
+    ],
+    sections: [
+      {
+        h: "Why IPTV in Germany?",
+        p: "A traditional cable or satellite connection in Germany typically costs $45 to $110 a month, ties you in for 12 to 24 months and delivers 80 to 200 channels. IPTV reverses that ratio: with ATV Corner you get 66,000+ channels, 70,000+ movies and 18,000+ series in 4K/8K from $5/mo — over your existing internet line, with no technician, no cable socket and no rented receiver. Sport, cinema and international programming are included rather than sold as paid add-ons.",
+      },
+      {
+        h: "German programming and Bundesliga live",
+        p: "What matters most for German households is that the familiar channels are all there: public-service broadcasters, commercial networks, news, documentary and children's channels, plus regional output. On top of that come around 4,200 sport channels carrying Bundesliga, DFB-Pokal, Champions League, Europa League, Formula 1, MotoGP and NBA. Because the same fixture is often broadcast internationally too, there's usually more than one route to a given match.",
+      },
+      {
+        h: "Setup, devices and bandwidth",
+        p: "You need no new hardware. IPTV runs on Samsung and LG Smart TVs, on Android TV and Google TV, on the Amazon Fire TV Stick, Apple TV, phone, tablet, MAG Box, Enigma2 and on Windows, macOS and Linux — via TiviMate, IBO Player, IPTV Smarters Pro or VLC. HD needs 10 Mbps; 25 Mbps is advisable for smooth 4K. After payment your Xtream Codes credentials or M3U link arrive within 5 minutes on WhatsApp.",
+      },
+    ],
+    faq: [
+      { q: "Are all German channels included?", a: "Yes. Public-service and commercial programmes, news, documentary, children's and regional channels are part of the 66,000+ lineup, alongside thousands of international ones." },
+      { q: "Can I watch the Bundesliga over IPTV?", a: "Yes. Around 4,200 sport channels cover Bundesliga, DFB-Pokal, Champions League, Europa League, Formula 1, MotoGP and NBA — with no paid add-on packages." },
+      { q: "What does IPTV cost in Germany?", a: "Plans start at $16 for one month and drop to about $5/mo on the annual plan. Every term includes the same catalogue and the same 4K/8K quality." },
+      { q: "Do I need a new TV or receiver?", a: "No. A Smart TV, Fire TV Stick, Apple TV, phone, tablet or Android box is enough. No rented receiver and no technician visit." },
+      { q: "What internet speed do I need?", a: "Around 10 Mbps for HD and at least 25 Mbps for smooth 4K. A stable connection matters more than a high peak speed." },
+    ],
+    cta: "Start in Germany",
+    cover: "/blog/iptv-deutschland-main-en.jpg",
+    image: { src: "/blog/iptv-deutschland-body-en.jpg", alt: "What IPTV covers in Germany: public-service and commercial channels, 4,200 sport channels with Bundesliga and Champions League, 70,000+ films in 4K/8K.", caption: "German channels, sport and catalogue in one login." },
+  },
+  fr: {
+    metaTitle: "IPTV Allemagne — 66 000+ chaînes, Bundesliga & 4K dès 5 €/mois",
+    metaDesc:
+      "IPTV en Allemagne : 66 000+ chaînes dont tous les programmes allemands, Bundesliga et Champions League en 4K/8K. Dès 5 €/mois, activation en 5 minutes.",
+    eyebrow: "IPTV Allemagne · Dès 5 €/mois",
+    h1: "L'IPTV pour",
+    h1Accent: "l'Allemagne",
+    intro:
+      "Toutes les chaînes allemandes, la Bundesliga et plus de 66 000 programmes internationaux dans un seul accès — en 4K/8K, sans contrat câble ni décodeur. Actif en moins de 5 minutes, dès 5 €/mois.",
+    features: [
+      { h: "Chaînes allemandes complètes", p: "Programmes publics et privés, plus les chaînes régionales et thématiques." },
+      { h: "Bundesliga & Champions League", p: "Environ 4 200 chaînes sport — Bundesliga, DFB-Pokal, Champions League, F1 et NBA." },
+      { h: "Serveurs en Europe", p: "Infrastructure Tier 1 redondante, dimensionnée pour plusieurs fois la charge réelle." },
+      { h: "Sans engagement", p: "1, 3, 6 ou 12 mois. Aucune reconduction, garantie satisfait ou remboursé 7 jours." },
+    ],
+    sections: [
+      {
+        h: "Pourquoi l'IPTV en Allemagne ?",
+        p: "Un abonnement câble ou satellite classique coûte en Allemagne 40 à 100 € par mois, engage sur 12 à 24 mois et propose 80 à 200 chaînes. L'IPTV inverse ce rapport : avec ATV Corner, vous obtenez 66 000+ chaînes, 70 000+ films et 18 000+ séries en 4K/8K dès 5 €/mois — via votre connexion internet existante, sans technicien, sans prise câble et sans décodeur en location. Sport, cinéma et programmes internationaux sont inclus au lieu d'être vendus en options payantes.",
+      },
+      {
+        h: "Programmes allemands et Bundesliga en direct",
+        p: "Pour un foyer allemand, l'essentiel est que les chaînes habituelles soient toutes présentes : programmes du service public, chaînes privées, information, documentaires, jeunesse et offres régionales. S'y ajoutent environ 4 200 chaînes sport diffusant Bundesliga, DFB-Pokal, Champions League, Europa League, Formule 1, MotoGP et NBA. Comme une même rencontre est souvent diffusée aussi à l'international, il existe généralement plusieurs chemins vers un match.",
+      },
+      {
+        h: "Installation, appareils et débit",
+        p: "Aucun nouvel appareil n'est nécessaire. L'IPTV fonctionne sur les Smart TV Samsung et LG, sur Android TV et Google TV, sur l'Amazon Fire TV Stick, l'Apple TV, téléphone, tablette, MAG Box, Enigma2 ainsi que sur Windows, macOS et Linux — via TiviMate, IBO Player, IPTV Smarters Pro ou VLC. La HD demande 10 Mbps ; 25 Mbps sont conseillés pour une 4K fluide. Après paiement, vos identifiants Xtream Codes ou votre lien M3U arrivent en moins de 5 minutes par WhatsApp.",
+      },
+    ],
+    faq: [
+      { q: "Toutes les chaînes allemandes sont-elles incluses ?", a: "Oui. Les programmes publics et privés, l'information, les documentaires, la jeunesse et les chaînes régionales font partie des 66 000+ chaînes, aux côtés de milliers de programmes internationaux." },
+      { q: "Puis-je regarder la Bundesliga via l'IPTV ?", a: "Oui. Environ 4 200 chaînes sport couvrent Bundesliga, DFB-Pokal, Champions League, Europa League, Formule 1, MotoGP et NBA — sans bouquets payants supplémentaires." },
+      { q: "Combien coûte l'IPTV en Allemagne ?", a: "Les abonnements démarrent à 15 € pour un mois et descendent à 5 €/mois en formule annuelle à 60 €. Chaque durée inclut le même catalogue et la même qualité 4K/8K." },
+      { q: "Faut-il un nouveau téléviseur ou décodeur ?", a: "Non. Une Smart TV, un Fire TV Stick, une Apple TV, un téléphone, une tablette ou une box Android suffisent. Aucun décodeur en location, aucun technicien." },
+      { q: "Quelle vitesse internet faut-il ?", a: "Environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K fluide. Une connexion stable compte plus qu'un débit maximal élevé." },
+    ],
+    cta: "Démarrer en Allemagne",
+    cover: "/blog/iptv-deutschland-main-fr.jpg",
+    image: { src: "/blog/iptv-deutschland-body-fr.jpg", alt: "Ce que couvre l'IPTV en Allemagne : chaînes publiques et privées, 4 200 chaînes sport avec Bundesliga et Champions League, 70 000+ films en 4K/8K.", caption: "Chaînes allemandes, sport et catalogue en un accès." },
+  },
+};
+
+// =============================================================================
+// /iptv-roku — device gap. DataForSEO: "roku streaming stick hd" 27,100/mo, KD 16.
+// We had /iptv-firestick but nothing for Roku.
+// =============================================================================
+content["iptv-roku"] = {
+  en: {
+    metaTitle: "IPTV on Roku — How to Set It Up (2026 Guide)",
+    metaDesc:
+      "How to watch IPTV on a Roku: which players work, the step-by-step setup, and what to do when an app isn't in the Roku Channel Store. 66,000+ channels in 4K.",
+    eyebrow: "IPTV on Roku · Setup guide",
+    h1: "IPTV on your",
+    h1Accent: "Roku",
+    intro:
+      "Roku is one of the most common streaming devices in the US — and it handles IPTV, though not the same way a Fire TV Stick does. Here's exactly how to set it up, and the reliable fallback when a player isn't in the Channel Store.",
+    features: [
+      { h: "Works on current Roku models", p: "Streaming Stick, Streambar, Roku Express and Roku TV sets all play IPTV via a compatible player." },
+      { h: "Xtream Codes or M3U", p: "Enter the credentials we send, or load your M3U link — the channel list and EPG build themselves." },
+      { h: "Screen mirroring fallback", p: "If a player isn't in the Channel Store, cast from a phone or use an HDMI stick instead." },
+      { h: "4K where the model supports it", p: "Roku 4K models handle our HEVC/H.265 streams; 25 Mbps is the practical minimum." },
+    ],
+    sections: [
+      {
+        h: "How IPTV works on Roku",
+        p: "Roku is a more closed platform than Android TV or Fire OS: you install from the Roku Channel Store rather than sideloading freely. That means IPTV works through whichever compatible player is available in the store in your region, into which you enter your Xtream Codes details (server URL, username, password) or your M3U link. Once entered, the player pulls the full channel list, the program guide and the film and series catalogue — the same 66,000+ channels you'd get on any other device.",
+      },
+      {
+        h: "Setting it up step by step",
+        p: "Connect the Roku to your network, ideally by ethernet where the model has a port. Open the Channel Store and install an IPTV player that supports Xtream Codes or M3U. Launch it and enter the credentials ATV Corner sends on WhatsApp within 5 minutes of payment. Give the guide a moment to populate, then build a favourites list — out of 66,000+ channels, a curated list is what makes the device usable day to day.",
+      },
+      {
+        h: "When a player isn't available",
+        p: "Roku's store varies by region and its IPTV selection is narrower than Android's. If you can't find a suitable player, you have two dependable options. You can mirror or cast from a phone or tablet running IPTV Smarters Pro, which works but ties up the phone. Or you can add an HDMI device to the same television — an Amazon Fire TV Stick 4K, an Apple TV or an Android TV box gives you the full range of players and is the more comfortable long-term answer.",
+      },
+    ],
+    faq: [
+      { q: "Can I watch IPTV on a Roku?", a: "Yes, through an IPTV player from the Roku Channel Store that supports Xtream Codes or M3U. Roku is more closed than Android TV, so the selection is narrower, but the credentials work the same way." },
+      { q: "How do I set up IPTV on Roku?", a: "Install a compatible IPTV player from the Channel Store, open it and enter the server URL, username and password ATV Corner sends you — or your M3U link. Channels and the guide load automatically." },
+      { q: "What if the IPTV app isn't in the Roku Channel Store?", a: "Either cast from a phone running IPTV Smarters Pro, or plug a Fire TV Stick, Apple TV or Android box into the same television for the full choice of players." },
+      { q: "Does IPTV work in 4K on Roku?", a: "On 4K-capable Roku models, yes. Our streams are HEVC/H.265, and around 25 Mbps is the practical minimum for smooth 4K." },
+      { q: "Is ethernet better than Wi-Fi on Roku?", a: "Yes where the model has a port. A wired connection removes the fluctuation that causes buffering, which matters most during live sport." },
+    ],
+    cta: "Get my Roku login",
+    cover: "/blog/iptv-roku-main-en.jpg",
+    image: { src: "/blog/iptv-roku-body-en.jpg", alt: "Setting up IPTV on a Roku in three steps: install a compatible player, enter your Xtream Codes login, build favourites from 66,000+ channels.", caption: "The same three steps on any Roku model." },
+  },
+  de: {
+    metaTitle: "IPTV auf Roku einrichten — Anleitung 2026",
+    metaDesc:
+      "IPTV auf einem Roku schauen: welche Player funktionieren, die Einrichtung Schritt für Schritt und die Lösung, wenn eine App im Channel Store fehlt.",
+    eyebrow: "IPTV auf Roku · Anleitung",
+    h1: "IPTV auf Ihrem",
+    h1Accent: "Roku",
+    intro:
+      "Roku gehört zu den verbreitetsten Streaming-Geräten — und spielt IPTV ab, allerdings anders als ein Fire TV Stick. Hier steht, wie die Einrichtung läuft und was Sie tun, wenn ein Player nicht im Channel Store ist.",
+    features: [
+      { h: "Für aktuelle Roku-Modelle", p: "Streaming Stick, Streambar, Roku Express und Roku-TVs spielen IPTV über einen passenden Player ab." },
+      { h: "Xtream Codes oder M3U", p: "Zugangsdaten eingeben oder M3U-Link laden — Senderliste und EPG bauen sich selbst auf." },
+      { h: "Screen Mirroring als Ausweg", p: "Fehlt ein Player im Store, casten Sie vom Handy oder nutzen einen HDMI-Stick." },
+      { h: "4K je nach Modell", p: "4K-fähige Roku-Geräte verarbeiten unsere HEVC/H.265-Streams; 25 Mbit/s sind das praktische Minimum." },
+    ],
+    sections: [
+      {
+        h: "Wie IPTV auf Roku funktioniert",
+        p: "Roku ist eine geschlossenere Plattform als Android TV oder Fire OS: Installiert wird aus dem Roku Channel Store, nicht per freiem Sideloading. IPTV läuft daher über den jeweils verfügbaren kompatiblen Player, in den Sie Ihre Xtream-Codes-Daten (Server-URL, Benutzername, Passwort) oder Ihren M3U-Link eintragen. Danach lädt der Player die vollständige Senderliste, den Programmführer sowie den Film- und Serienkatalog — dieselben 66.000+ Sender wie auf jedem anderen Gerät.",
+      },
+      {
+        h: "Die Einrichtung Schritt für Schritt",
+        p: "Verbinden Sie den Roku mit dem Netzwerk, bei Modellen mit LAN-Anschluss möglichst per Kabel. Öffnen Sie den Channel Store und installieren Sie einen IPTV-Player mit Xtream-Codes- oder M3U-Unterstützung. Starten Sie ihn und geben Sie die Zugangsdaten ein, die ATV Corner innerhalb von 5 Minuten nach der Zahlung per WhatsApp sendet. Lassen Sie den Programmführer kurz laden und legen Sie anschließend Favoriten an — bei 66.000+ Sendern ist eine eigene Liste das, was das Gerät alltagstauglich macht.",
+      },
+      {
+        h: "Wenn kein Player verfügbar ist",
+        p: "Das Roku-Angebot unterscheidet sich je nach Region, und die IPTV-Auswahl ist schmaler als bei Android. Finden Sie keinen passenden Player, haben Sie zwei verlässliche Wege. Sie können vom Handy oder Tablet mit IPTV Smarters Pro spiegeln beziehungsweise casten — das funktioniert, bindet aber das Handy. Oder Sie ergänzen ein HDMI-Gerät am selben Fernseher: Ein Amazon Fire TV Stick 4K, ein Apple TV oder eine Android-TV-Box bringt die volle Player-Auswahl mit und ist auf Dauer die bequemere Lösung.",
+      },
+    ],
+    faq: [
+      { q: "Kann ich IPTV auf einem Roku schauen?", a: "Ja, über einen IPTV-Player aus dem Roku Channel Store, der Xtream Codes oder M3U unterstützt. Roku ist geschlossener als Android TV, die Auswahl also schmaler — die Zugangsdaten funktionieren aber gleich." },
+      { q: "Wie richte ich IPTV auf Roku ein?", a: "Installieren Sie einen kompatiblen IPTV-Player aus dem Channel Store, öffnen Sie ihn und geben Sie Server-URL, Benutzername und Passwort von ATV Corner ein — oder Ihren M3U-Link. Sender und Guide laden automatisch." },
+      { q: "Was tun, wenn die IPTV-App nicht im Roku Store ist?", a: "Entweder vom Handy mit IPTV Smarters Pro casten, oder einen Fire TV Stick, Apple TV oder eine Android-Box an denselben Fernseher anschließen." },
+      { q: "Funktioniert IPTV in 4K auf Roku?", a: "Auf 4K-fähigen Roku-Modellen ja. Unsere Streams laufen in HEVC/H.265, rund 25 Mbit/s sind das praktische Minimum für flüssiges 4K." },
+      { q: "Ist LAN besser als WLAN am Roku?", a: "Ja, sofern das Modell einen Anschluss hat. Eine Kabelverbindung nimmt die Schwankungen heraus, die Buffering verursachen — besonders relevant bei Live-Sport." },
+    ],
+    cta: "Zugangsdaten für Roku holen",
+    cover: "/blog/iptv-roku-main-de.jpg",
+    image: { src: "/blog/iptv-roku-body-de.jpg", alt: "IPTV auf einem Roku in drei Schritten einrichten: kompatiblen Player installieren, Xtream-Codes-Daten eingeben, Favoriten aus 66.000+ Sendern anlegen.", caption: "Dieselben drei Schritte auf jedem Roku-Modell." },
+  },
+  fr: {
+    metaTitle: "IPTV sur Roku — comment l'installer (guide 2026)",
+    metaDesc:
+      "Regarder l'IPTV sur un Roku : quels lecteurs fonctionnent, l'installation pas à pas et la solution quand une application manque au Channel Store.",
+    eyebrow: "IPTV sur Roku · Guide",
+    h1: "L'IPTV sur votre",
+    h1Accent: "Roku",
+    intro:
+      "Le Roku est l'un des appareils de streaming les plus répandus — et il lit l'IPTV, mais pas de la même façon qu'un Fire TV Stick. Voici comment l'installer, et la solution fiable quand un lecteur manque au Channel Store.",
+    features: [
+      { h: "Compatible modèles récents", p: "Streaming Stick, Streambar, Roku Express et téléviseurs Roku lisent l'IPTV via un lecteur compatible." },
+      { h: "Xtream Codes ou M3U", p: "Saisissez les identifiants envoyés ou chargez votre lien M3U — chaînes et EPG se construisent seuls." },
+      { h: "Recours par recopie d'écran", p: "Si aucun lecteur n'est disponible, diffusez depuis un téléphone ou ajoutez une clé HDMI." },
+      { h: "4K selon le modèle", p: "Les Roku 4K gèrent nos flux HEVC/H.265 ; 25 Mbps constituent le minimum pratique." },
+    ],
+    sections: [
+      {
+        h: "Comment l'IPTV fonctionne sur Roku",
+        p: "Roku est une plateforme plus fermée qu'Android TV ou Fire OS : on installe depuis le Roku Channel Store, sans sideloading libre. L'IPTV passe donc par le lecteur compatible disponible dans votre région, dans lequel vous saisissez vos identifiants Xtream Codes (URL du serveur, nom d'utilisateur, mot de passe) ou votre lien M3U. Le lecteur récupère ensuite la liste complète des chaînes, le guide des programmes et le catalogue de films et séries — les mêmes 66 000+ chaînes que sur n'importe quel autre appareil.",
+      },
+      {
+        h: "L'installation pas à pas",
+        p: "Reliez le Roku au réseau, de préférence par câble sur les modèles dotés d'un port. Ouvrez le Channel Store et installez un lecteur IPTV compatible Xtream Codes ou M3U. Lancez-le et saisissez les identifiants qu'ATV Corner envoie par WhatsApp dans les 5 minutes suivant le paiement. Laissez le guide se charger, puis créez une liste de favoris — parmi 66 000+ chaînes, c'est ce qui rend l'appareil utilisable au quotidien.",
+      },
+      {
+        h: "Quand aucun lecteur n'est disponible",
+        p: "L'offre Roku varie selon les régions et son choix d'applications IPTV est plus restreint que sur Android. Si vous ne trouvez pas de lecteur adapté, deux solutions fiables s'offrent à vous. Vous pouvez diffuser depuis un téléphone ou une tablette avec IPTV Smarters Pro — cela fonctionne mais mobilise le téléphone. Ou vous ajoutez un appareil HDMI sur le même téléviseur : un Amazon Fire TV Stick 4K, une Apple TV ou une box Android TV offre tout le choix de lecteurs et reste la solution la plus confortable à long terme.",
+      },
+    ],
+    faq: [
+      { q: "Puis-je regarder l'IPTV sur un Roku ?", a: "Oui, via un lecteur IPTV du Roku Channel Store compatible Xtream Codes ou M3U. Roku étant plus fermé qu'Android TV, le choix est plus restreint, mais les identifiants fonctionnent de la même façon." },
+      { q: "Comment installer l'IPTV sur Roku ?", a: "Installez un lecteur IPTV compatible depuis le Channel Store, ouvrez-le et saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe envoyés par ATV Corner — ou votre lien M3U." },
+      { q: "Que faire si l'application IPTV n'est pas dans le Channel Store ?", a: "Diffusez depuis un téléphone avec IPTV Smarters Pro, ou branchez un Fire TV Stick, une Apple TV ou une box Android sur le même téléviseur." },
+      { q: "L'IPTV fonctionne-t-elle en 4K sur Roku ?", a: "Sur les modèles Roku compatibles 4K, oui. Nos flux sont en HEVC/H.265 et environ 25 Mbps constituent le minimum pratique pour une 4K fluide." },
+      { q: "Le câble est-il préférable au Wi-Fi sur Roku ?", a: "Oui lorsque le modèle dispose d'un port. Une connexion filaire supprime les variations à l'origine du buffering, ce qui compte surtout pour le sport en direct." },
+    ],
+    cta: "Obtenir mes identifiants Roku",
+    cover: "/blog/iptv-roku-main-fr.jpg",
+    image: { src: "/blog/iptv-roku-body-fr.jpg", alt: "Installer l'IPTV sur un Roku en trois étapes : installer un lecteur compatible, saisir vos identifiants Xtream Codes, créer des favoris parmi 66 000+ chaînes.", caption: "Les mêmes trois étapes sur tout modèle Roku." },
+  },
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   return content[page][locale];
 }
@@ -1612,4 +1872,6 @@ export const seoPages: Page[] = [
   "iptv-firestick",
   "iptv-smarters-pro",
   "cable-tv-alternative",
+  "iptv-deutschland",
+  "iptv-roku",
 ];

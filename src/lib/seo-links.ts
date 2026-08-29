@@ -68,6 +68,16 @@ const labels: Record<SeoPage, Record<Locale, LinkCopy>> = {
     en: { label: "IPTV Sport", blurb: "Every league live, every weekend." },
     de: { label: "IPTV Sport", blurb: "Alle Ligen live, jedes Wochenende." },
   },
+  "iptv-deutschland": {
+    fr: { label: "IPTV Allemagne", blurb: "Chaînes allemandes et Bundesliga en direct." },
+    en: { label: "IPTV Germany", blurb: "German channels and Bundesliga live." },
+    de: { label: "IPTV Deutschland", blurb: "Deutsche Sender und Bundesliga live." },
+  },
+  "iptv-roku": {
+    fr: { label: "IPTV sur Roku", blurb: "Installer l'IPTV sur un Roku en 5 minutes." },
+    en: { label: "IPTV on Roku", blurb: "Set IPTV up on a Roku in 5 minutes." },
+    de: { label: "IPTV auf Roku", blurb: "IPTV in 5 Minuten auf Roku einrichten." },
+  },
   "best-iptv-alternatives": {
     fr: { label: "Alternatives IPTV", blurb: "Comparatif face aux autres services." },
     en: { label: "IPTV Alternatives", blurb: "How we compare to other services." },
@@ -85,15 +95,17 @@ const related: Record<SeoPage, SeoPage[]> = {
   "best-iptv-service": ["iptv-subscription", "best-iptv-alternatives", "iptv-free-trial"],
   "iptv-free-trial": ["iptv-subscription", "best-iptv-service", "iptv-premium"],
   "cable-tv-alternative": ["iptv-subscription", "iptv-sport", "best-iptv-service"],
-  "iptv-firestick": ["iptv-smarters-pro", "xtream-codes", "iptv-subscription"],
+  "iptv-firestick": ["iptv-roku", "iptv-smarters-pro", "iptv-subscription"],
   "iptv-smarters-pro": ["iptv-firestick", "xtream-codes", "m3u-playlist"],
   "xtream-codes": ["m3u-playlist", "iptv-smarters-pro", "iptv-firestick"],
   "m3u-playlist": ["xtream-codes", "iptv-smarters-pro", "iptv-subscription"],
   "iptv-premium": ["iptv-4k", "iptv-8k", "best-iptv-service"],
   "iptv-4k": ["iptv-8k", "iptv-premium", "iptv-sport"],
   "iptv-8k": ["iptv-4k", "iptv-premium", "iptv-subscription"],
-  "iptv-sport": ["iptv-4k", "cable-tv-alternative", "iptv-subscription"],
+  "iptv-sport": ["iptv-4k", "iptv-deutschland", "iptv-subscription"],
   "best-iptv-alternatives": ["best-iptv-service", "cable-tv-alternative", "iptv-subscription"],
+  "iptv-deutschland": ["iptv-subscription", "iptv-sport", "iptv-free-trial"],
+  "iptv-roku": ["iptv-firestick", "iptv-smarters-pro", "iptv-subscription"],
 };
 
 export type RelatedLink = { slug: SeoPage; label: string; blurb: string };
