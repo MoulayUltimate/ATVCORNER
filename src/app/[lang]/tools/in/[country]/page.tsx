@@ -5,6 +5,7 @@ import { CountryPage } from "@/components/tools/CountryPage";
 import { getCountry, countrySlugs } from "@/data/tools";
 import { getCountryExtras } from "@/data/tools/seoExtras";
 import { hasLocale, locales } from "@/i18n";
+import { BuyBandSection } from "@/components/BuyBand";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => countrySlugs.map((country) => ({ lang, country })));
@@ -72,6 +73,7 @@ export default async function Page({
       <Script id={`ld-faq-${country}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Script id={`ld-bc-${country}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <CountryPage lang={lang} country={data} />
+      <BuyBandSection lang={lang} source="country-page" />
     </>
   );
 }

@@ -4,6 +4,7 @@ import Script from "next/script";
 import { ComparisonTable } from "@/components/tools/ComparisonTable";
 import { comparisonProviders, tools } from "@/data/tools";
 import { hasLocale, locales } from "@/i18n";
+import { BuyBandSection } from "@/components/BuyBand";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -56,6 +57,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }}
       />
       <ComparisonTable lang={lang} providers={comparisonProviders} />
+      <BuyBandSection lang={lang} source="tool-comparison" />
     </>
   );
 }

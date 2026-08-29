@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { BlogIndex } from "@/components/BlogIndex";
 import { blogPosts } from "@/data/blog";
 import { hasLocale, locales } from "@/i18n";
+import { BuyBandSection } from "@/components/BuyBand";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -61,5 +62,10 @@ export default async function Page({
 }) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
-  return <BlogIndex posts={blogPosts} lang={lang} />;
+  return (
+    <>
+      <BlogIndex posts={blogPosts} lang={lang} />
+      <BuyBandSection lang={lang} source="blog-index" />
+    </>
+  );
 }

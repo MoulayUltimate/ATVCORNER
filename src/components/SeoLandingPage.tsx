@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
-import { whatsappUrl, siteConfig } from "@/lib/site";
+import { siteConfig } from "@/lib/site";
 import { CheckIcon } from "@/components/CheckIcon";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import type { SeoContent, SeoPage } from "@/lib/seo-content";
 import { getRelatedPages, relatedHeading } from "@/lib/seo-links";
+import { BuyBand } from "@/components/BuyBand";
 import type { Locale } from "@/i18n";
 
 const t = {
@@ -34,36 +35,6 @@ const t = {
     faqTitle: "Häufige Fragen",
   },
 } as const;
-
-function BuyBand({ lang, label, source }: { lang: Locale; label: string; source: string }) {
-  const tr = t[lang];
-  return (
-    <div className="mt-10 glass-card rounded-2xl p-6 sm:p-7 border-emerald-400/30 bg-emerald-400/5">
-      <p className="text-emerald-100 font-semibold leading-relaxed">{tr.ctaLead}</p>
-      <div className="mt-5 flex flex-wrap gap-3">
-        <a
-          href={whatsappUrl(undefined, lang)}
-          target="_blank"
-          rel="noopener noreferrer"
-          data-wa-source={source}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-400 to-emerald-600 text-zinc-950 font-bold gold-glow transition-transform whitespace-nowrap"
-        >
-          <svg viewBox="0 0 32 32" fill="currentColor" className="w-4 h-4 shrink-0" aria-hidden>
-            <path d="M16 .4C7.4.4.4 7.4.4 16c0 2.7.7 5.4 2.1 7.7L.3 31.7l8.2-2.1A15.5 15.5 0 0 0 16 31.6C24.6 31.6 31.6 24.6 31.6 16 31.6 7.4 24.6.4 16 .4Zm0 28.4a13 13 0 0 1-6.6-1.8l-.5-.3-4.9 1.3 1.3-4.7-.3-.5A12.8 12.8 0 1 1 16 28.8Z" />
-          </svg>
-          {label}
-        </a>
-        <Link
-          href={`/${lang}/pricing`}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/15 text-zinc-200 font-semibold hover:bg-white/10 hover:border-emerald-400/40 transition-colors whitespace-nowrap"
-        >
-          {tr.seePlans}
-        </Link>
-      </div>
-      <p className="mt-4 text-xs text-zinc-400">{tr.ctaTrust}</p>
-    </div>
-  );
-}
 
 export function SeoLandingPage({
   content,

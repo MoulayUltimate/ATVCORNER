@@ -5,6 +5,7 @@ import { LeaguePage } from "@/components/tools/LeaguePage";
 import { getLeague, leagueSlugs } from "@/data/tools";
 import { getLeagueExtras } from "@/data/tools/seoExtras";
 import { hasLocale, locales } from "@/i18n";
+import { BuyBandSection } from "@/components/BuyBand";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => leagueSlugs.map((league) => ({ lang, league })));
@@ -72,6 +73,7 @@ export default async function Page({
       <Script id={`ld-faq-${league}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <Script id={`ld-bc-${league}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <LeaguePage lang={lang} league={data} />
+      <BuyBandSection lang={lang} source="league-page" />
     </>
   );
 }

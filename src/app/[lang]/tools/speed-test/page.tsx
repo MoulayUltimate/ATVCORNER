@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { SpeedTest } from "@/components/tools/SpeedTest";
 import { tools } from "@/data/tools";
 import { hasLocale, locales } from "@/i18n";
+import { BuyBandSection } from "@/components/BuyBand";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -26,5 +27,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
-  return <SpeedTest lang={lang} />;
+  return (
+    <>
+      <SpeedTest lang={lang} />
+      <BuyBandSection lang={lang} source="tool-speed-test" />
+    </>
+  );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ToolsHub } from "@/components/tools/ToolsHub";
 import { hasLocale, locales } from "@/i18n";
+import { BuyBandSection } from "@/components/BuyBand";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -51,5 +52,10 @@ export async function generateMetadata({
 export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
-  return <ToolsHub lang={lang} />;
+  return (
+    <>
+      <ToolsHub lang={lang} />
+      <BuyBandSection lang={lang} source="tools-hub" />
+    </>
+  );
 }
