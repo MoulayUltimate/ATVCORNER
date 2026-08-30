@@ -20,5 +20,15 @@ await make({
       cardTitle: "Quatre voies, quatre lacunes",
       lines: ["1  Antenne — matchs nationaux", "2  Forfait streaming — 70-100 $/mois", "3  Pack hors marché — en plus", "4  IPTV — ~4 200 chaînes sport"],
     },
+    es: {
+      title: "Qué cubre cada vía",
+      cardTitle: "Cuatro vías, un hueco cada una",
+      lines: ["1  Antena — solo partidos nacionales", "2  Paquete streaming — 70-100 $/mes", "3  Paquete fuera de zona — aparte", "4  IPTV — ~4.200 canales de deporte"],
+    },
+    it: {
+      title: "Cosa copre ogni via",
+      cardTitle: "Quattro vie, un vuoto ciascuna",
+      lines: ["1  Antenna — solo partite nazionali", "2  Pacchetto streaming — 70-100 $/mese", "3  Pacchetto fuori zona — a parte", "4  IPTV — ~4.200 canali sport"],
+    },
   },
 });

@@ -23,5 +23,17 @@ await make({
       cardTitle: "Aucun pack n'a tous les matchs",
       lines: ["Droits répartis : national, hors marché", "et semaine — planifiez avant de payer."],
     },
+    es: {
+      title: "Ver la NFL sin cable",
+      pill: "Ningún servicio solo",
+      cardTitle: "Ningún paquete los tiene todos",
+      lines: ["Derechos repartidos entre nacional, fuera de", "zona y noches entre semana — planifica antes."],
+    },
+    it: {
+      title: "Guardare la NFL senza cavo",
+      pill: "Nessun servizio da solo",
+      cardTitle: "Nessun pacchetto li ha tutti",
+      lines: ["Diritti divisi tra nazionale, fuori zona", "e serate infrasettimanali — pianifica prima."],
+    },
   },
 });
