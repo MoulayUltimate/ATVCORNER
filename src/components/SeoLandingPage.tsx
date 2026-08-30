@@ -35,6 +35,22 @@ const t = {
     ctaLead: "Bereit loszulegen? Ihre Zugangsdaten kommen in unter 5 Minuten per WhatsApp.",
     faqTitle: "Häufige Fragen",
   },
+  es: {
+    keyFacts: "Lo esencial",
+    buyNow: "Comprar por WhatsApp",
+    seePlans: "Ver precios",
+    ctaTrust: "Activo en 5 minutos · Garantía de devolución de 7 días · Sin permanencia",
+    ctaLead: "¿Listo para empezar? Tus credenciales llegan por WhatsApp en menos de 5 minutos.",
+    faqTitle: "Preguntas frecuentes",
+  },
+  it: {
+    keyFacts: "L'essenziale",
+    buyNow: "Acquista su WhatsApp",
+    seePlans: "Vedi i prezzi",
+    ctaTrust: "Attivo in 5 minuti · Garanzia di rimborso di 7 giorni · Senza vincoli",
+    ctaLead: "Pronto a iniziare? Le credenziali arrivano su WhatsApp in meno di 5 minuti.",
+    faqTitle: "Domande frequenti",
+  },
 };
 
 export function SeoLandingPage({
@@ -187,7 +203,7 @@ export function SeoLandingPage({
                 </h3>
                 <p className="mt-2 text-sm text-zinc-400 leading-relaxed">{r.blurb}</p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-sm text-emerald-400 font-medium">
-                  {lang === "fr" ? "Découvrir" : lang === "de" ? "Ansehen" : "Read more"}
+                  {lang === "fr" ? "Découvrir" : lang === "de" ? "Ansehen" : lang === "es" ? "Descubrir" : lang === "it" ? "Scopri" : "Read more"}
                   <span aria-hidden className="transition-transform group-hover:translate-x-0.5">→</span>
                 </span>
               </Link>

@@ -22,6 +22,18 @@ const copy = {
     plans: "Preise ansehen",
     trust: "In 5 Minuten aktiv · 7 Tage Geld-zurück-Garantie · Ohne Vertragsbindung",
   },
+  es: {
+    lead: "¿Listo para empezar? Tus credenciales llegan por WhatsApp en menos de 5 minutos.",
+    buy: "Iniciar mi suscripción",
+    plans: "Ver precios",
+    trust: "Activo en 5 minutos · Garantía de devolución de 7 días · Sin permanencia",
+  },
+  it: {
+    lead: "Pronto a iniziare? Le credenziali arrivano su WhatsApp in meno di 5 minuti.",
+    buy: "Avvia il mio abbonamento",
+    plans: "Vedi i prezzi",
+    trust: "Attivo in 5 minuti · Garanzia di rimborso di 7 giorni · Senza vincoli",
+  },
 };
 
 /**

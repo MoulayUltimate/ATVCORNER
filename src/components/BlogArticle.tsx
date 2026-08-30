@@ -55,6 +55,32 @@ const t = {
     seePlans: "Preise ansehen",
     ctaTrust: "In 5 Minuten aktiv · 7 Tage Geld-zurück-Garantie · Ohne Vertragsbindung",
   },
+  es: {
+    back: "← Todos los artículos",
+    cta: "Activar mi suscripción",
+    faqTitle: "Preguntas frecuentes",
+    relatedTitle: "Sigue leyendo",
+    by: "por",
+    updated: "Actualizado",
+    published: "Publicado",
+    readMin: "min de lectura",
+    buyNow: "Comprar por WhatsApp",
+    seePlans: "Ver precios",
+    ctaTrust: "Activo en 5 minutos · Garantía de devolución de 7 días · Sin permanencia",
+  },
+  it: {
+    back: "← Tutti gli articoli",
+    cta: "Attiva il mio abbonamento",
+    faqTitle: "Domande frequenti",
+    relatedTitle: "Continua a leggere",
+    by: "di",
+    updated: "Aggiornato",
+    published: "Pubblicato",
+    readMin: "min di lettura",
+    buyNow: "Acquista su WhatsApp",
+    seePlans: "Vedi i prezzi",
+    ctaTrust: "Attivo in 5 minuti · Garanzia di rimborso di 7 giorni · Senza vincoli",
+  },
 };
 
 function Block({ b, lang }: { b: BlogBlock; lang: Locale }) {
@@ -155,7 +181,7 @@ function Block({ b, lang }: { b: BlogBlock; lang: Locale }) {
 export function BlogArticle({ post, lang, related }: Props) {
   const tr = pick(t, lang);
   const loc = localeOf(post, lang);
-  const dateLocale = lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US";
+  const dateLocale = lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : lang === "es" ? "es-ES" : lang === "it" ? "it-IT" : "en-US";
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -171,7 +197,7 @@ export function BlogArticle({ post, lang, related }: Props) {
       logo: { "@type": "ImageObject", url: `${siteConfig.url}/logo.png` },
     },
     mainEntityOfPage: `${siteConfig.url}/${lang}/blog/${post.slug}`,
-    inLanguage: lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US",
+    inLanguage: lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : lang === "es" ? "es-ES" : lang === "it" ? "it-IT" : "en-US",
     keywords: post.keywords.join(", "),
     ...((loc.cover ?? post.cover) ? { image: `${siteConfig.url}${loc.cover ?? post.cover}` } : {}),
   };
