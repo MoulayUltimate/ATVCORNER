@@ -4528,6 +4528,79 @@ content["iptv-android-tv"].it = {
   cta: "Attiva su Android TV",
 };
 
+// --- es/it for /iptv-mag-box ------------------------------------------------
+content["iptv-mag-box"].es = {
+  metaTitle: "IPTV para MAG Box — URL de portal y MAC, sin aplicaciones",
+  metaDesc:
+    "Configura tu MAG Box con URL de portal y dirección MAC: 66.000+ canales sin instalar nada. Compatible con MAG 250, 254, 322, 324, 420 y 524.",
+  eyebrow: "MAG Box · Portal y MAC",
+  h1: "IPTV para MAG Box",
+  h1Accent: "sin instalar nada",
+  intro:
+    "El MAG no necesita aplicaciones: se configura con una URL de portal y tu dirección MAC, y arranca directamente en la televisión. Con ATV Corner accedes a 66.000+ canales desde 5 €/mes, listo en cinco minutos.",
+  features: [
+    { h: "Sin aplicaciones", p: "El portal se carga solo al encender: nada que instalar ni actualizar." },
+    { h: "Modelos compatibles", p: "MAG 250, 254, 256, 322, 324, 349, 420 y 524, entre otros." },
+    { h: "Arranque directo", p: "Enciendes y estás en la televisión, sin pasar por un menú." },
+    { h: "Ethernet integrado", p: "Todos los modelos incluyen puerto de red: máxima estabilidad." },
+  ],
+  sections: [
+    { h: "Por qué el MAG funciona distinto", p: "Un MAG no es un aparato de propósito general como un Fire Stick o un box Android: es un descodificador dedicado exclusivamente a la televisión. No instala aplicaciones ni tiene tienda. En su lugar, carga un portal remoto —una interfaz que vive en el servidor— y la muestra a pantalla completa al encender. Eso lo hace más limitado en posibilidades, pero también notablemente más estable y predecible, que es exactamente lo que mucha gente busca en un aparato de salón." },
+    { h: "Qué necesitamos de ti", p: "Tu dirección MAC. Es un identificador único del aparato, con formato de seis pares de caracteres separados por dos puntos, y la encuentras en la pegatina de la parte inferior del MAG o en el menú de información del sistema. Nos la envías por WhatsApp, la damos de alta en el servidor y te devolvemos la URL del portal. Ese vínculo entre MAC y servidor es lo que sustituye al usuario y la contraseña de otras plataformas." },
+    { h: "Configurar el portal", p: "Enciende el MAG y entra en el menú de sistema, normalmente pulsando el botón de ajustes del mando durante el arranque. Busca la sección de portales, introduce el nombre que quieras y pega la URL que te hemos enviado en el campo de dirección. Guarda y reinicia el aparato. Al volver a arrancar, el portal se carga solo y aparecen los canales organizados por categorías, con la guía de programación ya incorporada." },
+    { h: "Qué modelos son compatibles", p: "Funcionan los MAG 250, 254 y 256 de la generación clásica, así como los 322, 324 y 349, y los modelos más recientes 420 y 524 con soporte 4K. Los aparatos antiguos se limitan a HD, lo que sigue bastando para la mayoría de los usos, y su ventaja es que son extremadamente estables. Si vas a comprar uno ahora y tienes televisor 4K, elige un 420 o un 524, porque decodifican HEVC/H.265 por hardware." },
+    { h: "La ventaja del Ethernet", p: "Todos los MAG incluyen puerto de red, y esa es probablemente su mejor característica. Conectado por cable, un MAG es uno de los aparatos más fiables que existen para ver televisión en directo, porque elimina de raíz la variable que más problemas causa en el resto de las plataformas. Si tu router está lejos, un cable largo o un adaptador PLC sigue siendo mejor solución que recurrir al Wi-Fi con un adaptador USB." },
+    { h: "Qué conexión necesitas", p: "Unos 10 Mbps estables para HD y 25 Mbps para 4K en los modelos que lo admiten, medidos en el propio aparato. Como el MAG va casi siempre por cable, la estabilidad suele estar garantizada y los problemas que aparecen son más habitualmente del lado del servidor o de la configuración que de la red doméstica. Eso hace que diagnosticar sea más sencillo que en un aparato conectado por Wi-Fi." },
+    { h: "Cambiar de aparato o de MAC", p: "Como el acceso está vinculado a la dirección MAC, si cambias de MAG hay que actualizar el registro en el servidor. Escríbenos con la MAC nueva y lo ajustamos, normalmente en unos minutos y sin coste. Es también el motivo por el que no conviene compartir tu URL de portal: está asociada a tu aparato y a tus conexiones simultáneas, y un uso ajeno degrada tu propia experiencia." },
+    { h: "Problemas frecuentes", p: "Si el portal no carga, comprueba primero que la URL esté escrita sin espacios y que el aparato tenga IP: en el menú de red debe aparecer una dirección asignada. Si carga pero sale un error de autorización, casi siempre es que la MAC registrada no coincide con la del aparato, cosa habitual tras cambiar de equipo. Si los canales van pero la guía está vacía, un reinicio del portal suele resolverlo. Y si todo falla, un reinicio de fábrica y volver a introducir la URL es más rápido que seguir tocando ajustes." },
+    { h: "Probarlo antes de comprar", p: "Podemos dar de alta tu MAC para la prueba gratuita de 24 horas sin tarjeta de crédito, así que puedes comprobar el funcionamiento en tu propio MAG antes de pagar nada. Actívala en horario punta y verifica que tus canales estén, que la guía se rellene y que la imagen aguante. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Qué necesitáis para configurar mi MAG?", a: "Solo la dirección MAC del aparato, que está en la pegatina inferior o en el menú de información del sistema. Con ella damos de alta el acceso y te enviamos la URL del portal." },
+    { q: "¿Hay que instalar alguna aplicación?", a: "No. El MAG carga un portal remoto al encender y muestra los canales directamente. No hay tienda, ni instalaciones, ni actualizaciones que gestionar." },
+    { q: "¿Qué modelos son compatibles?", a: "MAG 250, 254, 256, 322, 324, 349, 420 y 524, entre otros. Los modelos 420 y 524 admiten 4K con decodificación HEVC por hardware." },
+    { q: "¿Por qué sale un error de autorización?", a: "Casi siempre porque la MAC registrada no coincide con la del aparato, algo habitual tras cambiar de equipo. Escríbenos con la MAC nueva y lo actualizamos en minutos." },
+    { q: "¿Conviene conectarlo por cable?", a: "Sí. Todos los MAG incluyen puerto Ethernet y por cable son de los aparatos más fiables que existen para televisión en directo." },
+  ],
+  cta: "Registrar mi MAG",
+};
+
+content["iptv-mag-box"].it = {
+  metaTitle: "IPTV per MAG Box — URL del portale e MAC, senza app",
+  metaDesc:
+    "Configura il tuo MAG Box con URL del portale e indirizzo MAC: 66.000+ canali senza installare nulla. Compatibile con MAG 250, 254, 322, 324, 420 e 524.",
+  eyebrow: "MAG Box · Portale e MAC",
+  h1: "IPTV per MAG Box",
+  h1Accent: "senza installare nulla",
+  intro:
+    "Il MAG non ha bisogno di app: si configura con un URL di portale e il tuo indirizzo MAC, e si avvia direttamente sulla televisione. Con ATV Corner accedi a 66.000+ canali da 5 €/mese, pronto in cinque minuti.",
+  features: [
+    { h: "Senza app", p: "Il portale si carica da solo all'accensione: nulla da installare o aggiornare." },
+    { h: "Modelli compatibili", p: "MAG 250, 254, 256, 322, 324, 349, 420 e 524, tra gli altri." },
+    { h: "Avvio diretto", p: "Accendi e sei sulla televisione, senza passare da un menu." },
+    { h: "Ethernet integrata", p: "Tutti i modelli hanno una porta di rete: massima stabilità." },
+  ],
+  sections: [
+    { h: "Perché il MAG funziona diversamente", p: "Un MAG non è un apparecchio generalista come un Fire Stick o un box Android: è un decoder dedicato esclusivamente alla televisione. Non installa app e non ha uno store. Al suo posto carica un portale remoto — un'interfaccia che risiede sul server — e lo mostra a schermo intero all'accensione. Questo lo rende più limitato nelle possibilità, ma anche nettamente più stabile e prevedibile, che è esattamente ciò che molte persone cercano in un apparecchio da salotto." },
+    { h: "Cosa ci serve da te", p: "Il tuo indirizzo MAC. È un identificativo unico dell'apparecchio, nel formato di sei coppie di caratteri separate da due punti, e lo trovi sull'etichetta nella parte inferiore del MAG o nel menu delle informazioni di sistema. Ce lo invii su WhatsApp, lo registriamo sul server e ti restituiamo l'URL del portale. Quel legame tra MAC e server è ciò che sostituisce nome utente e password delle altre piattaforme." },
+    { h: "Configurare il portale", p: "Accendi il MAG ed entra nel menu di sistema, di norma premendo il tasto impostazioni del telecomando durante l'avvio. Cerca la sezione dei portali, inserisci il nome che preferisci e incolla l'URL che ti abbiamo inviato nel campo dell'indirizzo. Salva e riavvia l'apparecchio. Al nuovo avvio il portale si carica da solo e compaiono i canali organizzati per categorie, con la guida ai programmi già integrata." },
+    { h: "Quali modelli sono compatibili", p: "Funzionano i MAG 250, 254 e 256 della generazione classica, così come i 322, 324 e 349, e i modelli più recenti 420 e 524 con supporto 4K. Gli apparecchi datati si limitano all'HD, il che resta sufficiente per la maggior parte degli usi, e il loro pregio è di essere estremamente stabili. Se stai comprando adesso e hai un televisore 4K, scegli un 420 o un 524, perché decodificano l'HEVC/H.265 via hardware." },
+    { h: "Il vantaggio dell'Ethernet", p: "Tutti i MAG includono una porta di rete, ed è probabilmente la loro caratteristica migliore. Collegato via cavo, un MAG è uno degli apparecchi più affidabili che esistano per guardare la televisione in diretta, perché elimina alla radice la variabile che causa più problemi su tutte le altre piattaforme. Se il router è lontano, un cavo lungo o un adattatore PLC resta una soluzione migliore che ricorrere al Wi-Fi con un adattatore USB." },
+    { h: "Quale connessione serve", p: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K sui modelli che lo supportano, misurati sull'apparecchio stesso. Poiché il MAG va quasi sempre via cavo, la stabilità è di norma garantita e i problemi che compaiono riguardano più spesso il lato server o la configurazione che non la rete domestica. Questo rende la diagnosi più semplice rispetto a un apparecchio collegato in Wi-Fi." },
+    { h: "Cambiare apparecchio o MAC", p: "Poiché l'accesso è legato all'indirizzo MAC, se cambi MAG occorre aggiornare la registrazione sul server. Scrivici con il MAC nuovo e lo sistemiamo, di norma in pochi minuti e senza costi. È anche il motivo per cui non conviene condividere il tuo URL di portale: è associato al tuo apparecchio e alle tue connessioni simultanee, e un uso da parte di altri peggiora la tua stessa esperienza." },
+    { h: "Problemi frequenti", p: "Se il portale non si carica, verifica prima che l'URL sia scritto senza spazi e che l'apparecchio abbia un IP: nel menu di rete deve comparire un indirizzo assegnato. Se si carica ma appare un errore di autorizzazione, quasi sempre il MAC registrato non coincide con quello dell'apparecchio, cosa comune dopo un cambio di dispositivo. Se i canali funzionano ma la guida è vuota, un riavvio del portale di norma risolve. E se tutto fallisce, un ripristino di fabbrica e il reinserimento dell'URL è più rapido che continuare a modificare impostazioni." },
+    { h: "Provarlo prima di comprare", p: "Possiamo registrare il tuo MAC per la prova gratuita di 24 ore senza carta di credito, così puoi verificare il funzionamento sul tuo MAG prima di pagare qualsiasi cosa. Attivala in orario di punta e controlla che i tuoi canali ci siano, che la guida si popoli e che l'immagine regga. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+  ],
+  faq: [
+    { q: "Cosa vi serve per configurare il mio MAG?", a: "Solo l'indirizzo MAC dell'apparecchio, che si trova sull'etichetta inferiore o nel menu delle informazioni di sistema. Con quello registriamo l'accesso e ti inviamo l'URL del portale." },
+    { q: "Devo installare qualche app?", a: "No. Il MAG carica un portale remoto all'accensione e mostra i canali direttamente. Non c'è uno store, né installazioni, né aggiornamenti da gestire." },
+    { q: "Quali modelli sono compatibili?", a: "MAG 250, 254, 256, 322, 324, 349, 420 e 524, tra gli altri. I modelli 420 e 524 supportano il 4K con decodifica HEVC via hardware." },
+    { q: "Perché compare un errore di autorizzazione?", a: "Quasi sempre perché il MAC registrato non coincide con quello dell'apparecchio, cosa comune dopo un cambio di dispositivo. Scrivici con il MAC nuovo e lo aggiorniamo in pochi minuti." },
+    { q: "Conviene collegarlo via cavo?", a: "Sì. Tutti i MAG hanno una porta Ethernet e via cavo sono tra gli apparecchi più affidabili che esistano per la televisione in diretta." },
+  ],
+  cta: "Registra il mio MAG",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
