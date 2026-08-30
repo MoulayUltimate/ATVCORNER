@@ -23,5 +23,17 @@ await make({
       cardTitle: "Replay, streaming ou IPTV",
       lines: ["Les trois utilisent la même ligne —", "mais s'arrêtent à des endroits différents."],
     },
+    es: {
+      title: "La TV por internet — las tres vías",
+      pill: "Una sola línea",
+      cardTitle: "A la carta, streaming o IPTV",
+      lines: ["Las tres usan la misma línea —", "pero cada una se detiene en un punto."],
+    },
+    it: {
+      title: "La TV via internet — le tre vie",
+      pill: "Una sola linea",
+      cardTitle: "On demand, streaming o IPTV",
+      lines: ["Tutte e tre usano la stessa linea —", "ma ognuna si ferma in un punto diverso."],
+    },
   },
 });

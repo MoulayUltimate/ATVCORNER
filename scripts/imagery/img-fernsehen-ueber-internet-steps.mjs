@@ -19,5 +19,15 @@ await make({
       cardTitle: "La limite des trois voies",
       lines: ["1  Replay — expire après un délai", "2  Streaming — pas de TV linéaire", "3  IPTV — exige une ligne stable"],
     },
+    es: {
+      title: "Dónde se detiene cada vía",
+      cardTitle: "El límite de las tres vías",
+      lines: ["1  A la carta — caduca con el tiempo", "2  Streaming — sin TV lineal", "3  IPTV — exige línea estable"],
+    },
+    it: {
+      title: "Dove si ferma ogni via",
+      cardTitle: "Il limite delle tre vie",
+      lines: ["1  On demand — scade col tempo", "2  Streaming — niente TV lineare", "3  IPTV — richiede linea stabile"],
+    },
   },
 });
