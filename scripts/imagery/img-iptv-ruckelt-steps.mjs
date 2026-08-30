@@ -1,14 +1,14 @@
 /**
  * DESCRIPTIVE in-body image for "IPTV ruckelt?" — the four fastest fixes.
  * Base: Unsplash uWaRsN-CqY0 (network cabling). Left third is dark → card sits there.
- *   node scripts/imagery/img-iptv-ruckelt-steps.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-iptv-ruckelt-steps.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -28,6 +28,18 @@ const STR = {
     cardTitle: "À vérifier dans cet ordre",
     lines: ["1  Mesurer le débit sur l'appareil", "2  Tester le câble au lieu du Wi-Fi", "3  Passer sur la bande 5 GHz", "4  Décodage en mode logiciel"],
     pill: "Réglé en quelques minutes",
+  },
+  es: {
+    title: "Cortes de IPTV: los 4 pasos rápidos",
+    cardTitle: "Comprueba en este orden",
+    lines: ["1  Mide el ancho de banda en el aparato", "2  Prueba cable en lugar de wifi", "3  Pasa a la banda de 5 GHz", "4  Pon la decodificación en software"],
+    pill: "Suele resolverse en minutos",
+  },
+  it: {
+    title: "Blocchi IPTV: i 4 passi rapidi",
+    cardTitle: "Verifica in quest'ordine",
+    lines: ["1  Misura la banda sull'apparecchio", "2  Prova il cavo invece del wifi", "3  Passa alla banda 5 GHz", "4  Imposta la decodifica su software"],
+    pill: "Di solito si risolve in minuti",
   },
 }[locale];
 

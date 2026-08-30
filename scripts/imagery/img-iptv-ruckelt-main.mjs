@@ -1,14 +1,14 @@
 /**
  * MAIN / cover for "IPTV ruckelt?" — router close-up, LEDs called out.
  * Base: Unsplash 43ak6tfF4Ss (wireless router antennas, status LEDs bottom-centre).
- *   node scripts/imagery/img-iptv-ruckelt-main.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-iptv-ruckelt-main.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, leader, marker, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -28,6 +28,18 @@ const STR = {
     pill: "La ligne d'abord",
     cardTitle: "9 fois sur 10 : connexion ou application",
     lines: ["10 Mbps pour la HD, 25 Mbps pour la 4K —", "mesurés sur l'appareil, pas sur le contrat."],
+  },
+  es: {
+    title: "¿Se corta tu IPTV? Empieza aquí",
+    pill: "Comprueba la línea primero",
+    cardTitle: "9 de cada 10 veces: conexión o app",
+    lines: ["10 Mbps para HD, 25 Mbps para 4K —", "medidos en el aparato, no en el contrato."],
+  },
+  it: {
+    title: "L'IPTV si blocca? Inizia da qui",
+    pill: "Controlla prima la linea",
+    cardTitle: "9 volte su 10: connessione o app",
+    lines: ["10 Mbps per l'HD, 25 Mbps per il 4K —", "misurati sull'apparecchio, non sul contratto."],
   },
 }[locale];
 
