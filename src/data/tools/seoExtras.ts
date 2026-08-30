@@ -1,5 +1,6 @@
 import "server-only";
 import type { Locale } from "@/i18n";
+import { toolLocaleOf } from "./locale";
 
 export type SeoSection = { h2: string; body: string };
 export type SeoFaq = { q: string; a: string };
@@ -872,7 +873,11 @@ leagueExtras["europa-league"] = {
 };
 
 export function getLeagueExtras(slug: string, lang: Locale): SeoExtras | undefined {
-  return leagueExtras[slug]?.[lang];
+  const byLocale = leagueExtras[slug];
+  if (!byLocale) return undefined;
+  // Fall back rather than returning undefined: a missing locale used to blank
+  // the whole extras block instead of degrading to a sibling language.
+  return toolLocaleOf(byLocale, lang);
 }
 
 // ============================================================
@@ -1158,7 +1163,11 @@ export const countryExtras: Record<string, LocalizedExtras> = {
 };
 
 export function getCountryExtras(slug: string, lang: Locale): SeoExtras | undefined {
-  return countryExtras[slug]?.[lang];
+  const byLocale = countryExtras[slug];
+  if (!byLocale) return undefined;
+  // Fall back rather than returning undefined: a missing locale used to blank
+  // the whole extras block instead of degrading to a sibling language.
+  return toolLocaleOf(byLocale, lang);
 }
 
 // ============================================================
@@ -1439,5 +1448,9 @@ export const teamExtras: Record<string, LocalizedExtras> = {
 };
 
 export function getTeamExtras(slug: string, lang: Locale): SeoExtras | undefined {
-  return teamExtras[slug]?.[lang];
+  const byLocale = teamExtras[slug];
+  if (!byLocale) return undefined;
+  // Fall back rather than returning undefined: a missing locale used to blank
+  // the whole extras block instead of degrading to a sibling language.
+  return toolLocaleOf(byLocale, lang);
 }
