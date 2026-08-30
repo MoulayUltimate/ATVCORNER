@@ -19,6 +19,8 @@ export const comparisonProviders: ComparisonProvider[] = [
       fr: "Tout-en-un, sans VPN, à un prix imbattable",
       en: "All-in-one, no VPN, unbeatable price",
       de: "Alles-in-einem, kein VPN, unschlagbarer Preis",
+      es: "Todo en uno, sin VPN y a un precio imbatible",
+      it: "Tutto in uno, senza VPN e a un prezzo imbattibile",
     },
   },
   {
