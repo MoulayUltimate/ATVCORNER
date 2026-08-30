@@ -4308,6 +4308,79 @@ content["iptv-smarters-pro"].it = {
   cta: "Ricevi le mie credenziali",
 };
 
+// --- es/it for /iptv-roku ---------------------------------------------------
+content["iptv-roku"].es = {
+  metaTitle: "IPTV en Roku — qué funciona de verdad y qué no",
+  metaDesc:
+    "IPTV en Roku sin rodeos: qué reproductores existen, sus límites reales y las alternativas HDMI que funcionan mejor. 66.000+ canales desde 5 €/mes.",
+  eyebrow: "Roku · Guía honesta",
+  h1: "IPTV en Roku",
+  h1Accent: "lo que funciona de verdad",
+  intro:
+    "Roku es la plataforma más cerrada del mercado y eso condiciona el IPTV. Te contamos qué reproductores existen realmente, dónde están sus límites y qué alternativa recomendamos si quieres la mejor experiencia con 66.000+ canales.",
+  features: [
+    { h: "Reproductores disponibles", p: "Existen opciones en la tienda de Roku, con funciones recortadas." },
+    { h: "Compatible con M3U", p: "El formato clásico es el que mejor admiten estos reproductores." },
+    { h: "Alternativa HDMI", p: "Un Fire TV Stick en otra entrada da una experiencia bastante mejor." },
+    { h: "Mismo catálogo", p: "66.000+ canales y 70.000 películas, sea cual sea el dispositivo." },
+  ],
+  sections: [
+    { h: "Por qué Roku es un caso aparte", p: "Roku no permite instalar aplicaciones fuera de su tienda oficial, a diferencia de Android TV o Fire TV. Eso significa que no puedes instalar TiviMate ni IPTV Smarters Pro, que son las dos aplicaciones que dan la mejor experiencia IPTV. Solo puedes usar los reproductores que Roku haya aprobado, y esos son notablemente más limitados. No es un problema de tu suscripción ni de nuestro servicio: es una decisión de plataforma que afecta a todos los proveedores por igual." },
+    { h: "Qué reproductores existen", p: "En la tienda de Roku hay varios reproductores capaces de leer una lista M3U. Funcionan y sirven para ver canales, pero conviene saber de antemano qué se pierde: la guía de programación suele ser básica o inexistente, la videoteca de películas y series rara vez aparece con carátulas, y la gestión de favoritos es rudimentaria comparada con TiviMate. Para un uso sencillo de zapeo bastan; para un uso diario exigente, se quedan cortos." },
+    { h: "Configurar la lista M3U", p: "El procedimiento es el mismo en casi todos ellos: abrir el reproductor, elegir añadir una lista y pegar la URL M3U que te enviamos por WhatsApp. Escribir una dirección larga con el mando de Roku es la parte más tediosa, así que la aplicación de Roku para móvil, que incluye teclado, ahorra bastante tiempo. Tras cargar la lista, los canales aparecen agrupados por categorías y ya puedes empezar a ver." },
+    { h: "La alternativa que recomendamos", p: "Si quieres la mejor experiencia, la solución más práctica no es pelearse con las limitaciones de Roku sino añadir un Fire TV Stick en otra entrada HDMI del televisor. Cuesta poco, no exige renunciar a Roku para lo que ya usas, y te da acceso a TiviMate y a IPTV Smarters Pro con guía completa, videoteca con carátulas y zapeo rápido. Cambias de fuente con el mando del televisor según lo que quieras ver, y cada plataforma hace lo que mejor sabe." },
+    { h: "Otras vías: duplicar pantalla", p: "Roku admite duplicación de pantalla desde Android y Windows, así que técnicamente puedes reproducir en el móvil y enviar la imagen al televisor. Funciona para una emisión puntual, pero no lo recomendamos como solución habitual: consume batería, la calidad depende del Wi-Fi en ambos extremos, cualquier notificación aparece en pantalla y la latencia hace incómodo el zapeo. Como recurso de emergencia está bien; como forma de ver un partido entero, no." },
+    { h: "Qué conexión necesitas", p: "Las mismas cifras que en cualquier otro dispositivo: unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el televisor y no en el router. Los modelos Roku más antiguos y los de gama baja tienen antenas Wi-Fi modestas, así que si el televisor está lejos del router notarás cortes que no son culpa del servicio. Los modelos con puerto Ethernet resuelven el problema de raíz; en los que no lo tienen, acercar el router es la mejora más eficaz." },
+    { h: "Problemas frecuentes", p: "Si la lista no carga, comprueba que has pegado la URL completa: con el teclado del mando es fácil perder caracteres al final. Si los canales cortan pero tu conexión es buena, el cuello de botella suele ser el Wi-Fi del propio Roku. Si el reproductor se cierra al abrir ciertos canales, prueba otro reproductor de la tienda, porque el soporte de códecs varía bastante entre ellos. Y si la guía aparece vacía, es probable que ese reproductor simplemente no admita EPG." },
+    { h: "Qué modelo de Roku tienes", p: "El comportamiento varía bastante según el aparato. Los Roku Express y los televisores con Roku integrado de gama de entrada tienen poca memoria, así que una lista de decenas de miles de canales tarda en cargar y el reproductor puede cerrarse solo. Los Roku Ultra y los modelos con puerto Ethernet van claramente mejor y además eliminan la variable del Wi-Fi. Si tu televisor lleva Roku integrado y es de hace varios años, es precisamente el escenario donde más compensa la solución del Fire TV Stick en otra entrada HDMI." },
+    { h: "Probarlo antes de comprar", p: "La prueba gratuita de 24 horas incluye una URL M3U completa sin tarjeta de crédito, así que puedes comprobar en tu propio Roku si el resultado te convence antes de pagar. Es especialmente recomendable en este caso, porque la experiencia depende mucho del reproductor concreto y del modelo de Roku que tengas. Si decides continuar, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Se puede usar IPTV en Roku?", a: "Sí, mediante los reproductores compatibles con M3U de su tienda. Roku no permite instalar aplicaciones externas, así que TiviMate e IPTV Smarters Pro no están disponibles." },
+    { q: "¿Por qué es peor la experiencia en Roku?", a: "Porque la plataforma es cerrada y solo admite reproductores aprobados. Suelen tener guía de programación básica o ausente, sin videoteca con carátulas y con favoritos rudimentarios." },
+    { q: "¿Cuál es la mejor alternativa?", a: "Añadir un Fire TV Stick en otra entrada HDMI. Cuesta poco, conservas Roku para lo que ya usas y obtienes TiviMate o Smarters con guía completa y videoteca." },
+    { q: "¿Sirve duplicar la pantalla desde el móvil?", a: "Para una emisión puntual sí, pero no como solución habitual: consume batería, la calidad depende del Wi-Fi en ambos extremos y la latencia hace incómodo el zapeo." },
+    { q: "¿Necesito una suscripción distinta para Roku?", a: "No. Las mismas credenciales funcionan en cualquier dispositivo. Para Roku conviene el formato M3U, que te enviamos si nos lo pides." },
+  ],
+  cta: "Probar en mi Roku",
+};
+
+content["iptv-roku"].it = {
+  metaTitle: "IPTV su Roku — cosa funziona davvero e cosa no",
+  metaDesc:
+    "IPTV su Roku senza giri di parole: quali lettori esistono, i loro limiti reali e le alternative HDMI che funzionano meglio. 66.000+ canali da 5 €/mese.",
+  eyebrow: "Roku · Guida onesta",
+  h1: "IPTV su Roku",
+  h1Accent: "cosa funziona davvero",
+  intro:
+    "Roku è la piattaforma più chiusa del mercato e questo condiziona l'IPTV. Ti diciamo quali lettori esistono davvero, dove stanno i loro limiti e quale alternativa consigliamo se vuoi la migliore esperienza con 66.000+ canali.",
+  features: [
+    { h: "Lettori disponibili", p: "Esistono opzioni nello store Roku, con funzioni ridotte." },
+    { h: "Compatibile con M3U", p: "Il formato classico è quello meglio supportato da questi lettori." },
+    { h: "Alternativa HDMI", p: "Un Fire TV Stick su un'altra porta dà un'esperienza nettamente migliore." },
+    { h: "Stesso catalogo", p: "66.000+ canali e 70.000 film, qualunque sia il dispositivo." },
+  ],
+  sections: [
+    { h: "Perché Roku è un caso a parte", p: "Roku non consente di installare app al di fuori del suo store ufficiale, a differenza di Android TV o Fire TV. Questo significa che non puoi installare TiviMate né IPTV Smarters Pro, le due app che offrono la migliore esperienza IPTV. Puoi usare soltanto i lettori approvati da Roku, e quelli sono nettamente più limitati. Non è un problema del tuo abbonamento né del nostro servizio: è una scelta di piattaforma che riguarda tutti i fornitori allo stesso modo." },
+    { h: "Quali lettori esistono", p: "Nello store Roku ci sono diversi lettori capaci di leggere una playlist M3U. Funzionano e servono a guardare i canali, ma conviene sapere in anticipo cosa si perde: la guida ai programmi è di norma basilare o assente, la videoteca di film e serie compare raramente con le copertine, e la gestione dei preferiti è rudimentale rispetto a TiviMate. Per un uso semplice di zapping bastano; per un uso quotidiano esigente, restano indietro." },
+    { h: "Configurare la playlist M3U", p: "La procedura è la stessa in quasi tutti: aprire il lettore, scegliere di aggiungere una playlist e incollare l'URL M3U che ti inviamo su WhatsApp. Digitare un indirizzo lungo con il telecomando Roku è la parte più noiosa, quindi l'app Roku per telefono, che include una tastiera, fa risparmiare parecchio tempo. Dopo il caricamento della playlist, i canali compaiono raggruppati per categorie e puoi iniziare a guardare." },
+    { h: "L'alternativa che consigliamo", p: "Se vuoi la migliore esperienza, la soluzione più pratica non è combattere con i limiti di Roku ma aggiungere un Fire TV Stick su un'altra porta HDMI del televisore. Costa poco, non ti obbliga a rinunciare a Roku per ciò che già usi, e ti dà accesso a TiviMate e IPTV Smarters Pro con guida completa, videoteca con copertine e zapping rapido. Cambi sorgente con il telecomando del televisore a seconda di cosa vuoi guardare, e ogni piattaforma fa ciò che sa fare meglio." },
+    { h: "Altre vie: duplicare lo schermo", p: "Roku supporta la duplicazione dello schermo da Android e Windows, quindi tecnicamente puoi riprodurre sul telefono e inviare l'immagine al televisore. Funziona per una trasmissione occasionale, ma non lo consigliamo come soluzione abituale: consuma batteria, la qualità dipende dal Wi-Fi su entrambi i lati, qualsiasi notifica compare sullo schermo e la latenza rende scomodo lo zapping. Come rimedio d'emergenza va bene; come modo per guardare una partita intera, no." },
+    { h: "Quale connessione serve", p: "Le stesse cifre di qualsiasi altro dispositivo: circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul televisore e non sul router. I modelli Roku più datati e quelli di fascia bassa hanno antenne Wi-Fi modeste, quindi se il televisore è lontano dal router noterai interruzioni che non dipendono dal servizio. I modelli con porta Ethernet risolvono il problema alla radice; su quelli che non ce l'hanno, avvicinare il router è il miglioramento più efficace." },
+    { h: "Problemi frequenti", p: "Se la playlist non si carica, verifica di aver incollato l'URL completo: con la tastiera del telecomando è facile perdere caratteri in fondo. Se i canali si interrompono ma la connessione è buona, il collo di bottiglia è di solito il Wi-Fi del Roku stesso. Se il lettore si chiude all'apertura di certi canali, prova un altro lettore dello store, perché il supporto ai codec varia parecchio tra loro. E se la guida risulta vuota, è probabile che quel lettore semplicemente non supporti l'EPG." },
+    { h: "Quale modello di Roku possiedi", p: "Il comportamento varia parecchio a seconda dell'apparecchio. I Roku Express e i televisori con Roku integrato di fascia d'ingresso hanno poca memoria, quindi un elenco di decine di migliaia di canali impiega tempo a caricarsi e il lettore può chiudersi da solo. I Roku Ultra e i modelli con porta Ethernet vanno nettamente meglio ed eliminano anche la variabile Wi-Fi. Se il tuo televisore ha Roku integrato ed è di qualche anno fa, è proprio lo scenario in cui conviene di più la soluzione del Fire TV Stick su un'altra porta HDMI." },
+    { h: "Provarlo prima di comprare", p: "La prova gratuita di 24 ore include un URL M3U completo senza carta di credito, così puoi verificare sul tuo Roku se il risultato ti convince prima di pagare. È particolarmente consigliabile in questo caso, perché l'esperienza dipende molto dal lettore specifico e dal modello di Roku che possiedi. Se decidi di continuare, l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+  ],
+  faq: [
+    { q: "Si può usare l'IPTV su Roku?", a: "Sì, tramite i lettori compatibili con M3U del suo store. Roku non consente di installare app esterne, quindi TiviMate e IPTV Smarters Pro non sono disponibili." },
+    { q: "Perché l'esperienza su Roku è peggiore?", a: "Perché la piattaforma è chiusa e ammette solo lettori approvati. Di norma hanno guida ai programmi basilare o assente, nessuna videoteca con copertine e preferiti rudimentali." },
+    { q: "Qual è la migliore alternativa?", a: "Aggiungere un Fire TV Stick su un'altra porta HDMI. Costa poco, mantieni Roku per ciò che già usi e ottieni TiviMate o Smarters con guida completa e videoteca." },
+    { q: "Serve duplicare lo schermo dal telefono?", a: "Per una trasmissione occasionale sì, ma non come soluzione abituale: consuma batteria, la qualità dipende dal Wi-Fi su entrambi i lati e la latenza rende scomodo lo zapping." },
+    { q: "Mi serve un abbonamento diverso per Roku?", a: "No. Le stesse credenziali funzionano su qualsiasi dispositivo. Per Roku conviene il formato M3U, che ti inviamo se ce lo chiedi." },
+  ],
+  cta: "Prova sul mio Roku",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
