@@ -336,6 +336,46 @@ leagueExtras["la-liga"] = {
       { label: "Abo-Vergleich", href: "/tools/comparison" },
     ],
   },
+  es: {
+    intro: "Seguir LaLiga desde Francia, Alemania, Bélgica o Suiza obliga a acumular varias suscripciones oficiales bloqueadas geográficamente (beIN Sports en Francia, DAZN en Alemania, Sky en Italia), y todas incompletas. ATV Corner agrega Movistar LaLiga, beIN, DAZN y Sky para ofrecer los 380 partidos de la temporada española en HD/4K sin VPN.",
+    sections: [
+      { h2: "El Clásico entre Real Madrid y FC Barcelona: la cumbre mundial", body: "El Clásico es el partido de fútbol más visto del planeta, con más de 600 millones de espectadores por edición. Se disputa dos veces por temporada, en ida y vuelta, y enfrenta al Real Madrid (Bernabéu, 81.000 asientos) con el FC Barcelona (Camp Nou, 99.000). ATV Corner emite El Clásico sistemáticamente en 4K HDR con Dolby Vision, multicámara de ocho ángulos y comentarios en español, inglés, francés y árabe." },
+      { h2: "Los cinco grandes clubes de LaLiga que hay que seguir", body: "Real Madrid (35 títulos de LaLiga, con Mbappé, Vinícius y Bellingham), FC Barcelona (27 títulos, con Yamal, Pedri y Lewandowski), Atlético de Madrid (Diego Simeone y Griezmann), Real Sociedad, Athletic Club, Real Betis, Sevilla y Villarreal. ATV Corner cubre los 380 partidos con repetición durante 7 días." },
+      { h2: "LaLiga desde el extranjero sin Movistar+ ni VPN", body: "Movistar+ posee los derechos de LaLiga solo dentro de España. Fuera del país necesitarías una VPN española de pago y una tarjeta bancaria española, algo complicado y frágil. ATV Corner agrega las señales europeas, accesibles desde Francia, Alemania, Italia o Reino Unido sin VPN ni restricción geográfica." },
+    ],
+    extraFaq: [
+      { q: "¿Puedo ver LaLiga con comentarios en inglés?", a: "Sí, con comentarios en inglés a través de las señales de Premier Sports UK o ESPN agregadas por ATV Corner." },
+      { q: "¿Están todos los partidos del Real Madrid en 4K?", a: "Todos los partidos del Real en casa, en el Bernabéu, se emiten en 4K HDR. Los de fuera dependen de la emisora anfitriona." },
+      { q: "¿Incluye ATV Corner la Copa del Rey?", a: "Sí, la Copa del Rey está incluida, con la final en 4K." },
+      { q: "¿Hay comentarios en árabe para El Clásico?", a: "Sí, mediante beIN Sports MENA, con comentarios en árabe en los grandes partidos de LaLiga." },
+    ],
+    related: [
+      { label: "Ver al Real Madrid", href: "/tools/team/real-madrid" },
+      { label: "Ver al Barcelona", href: "/tools/team/barcelona" },
+      { label: "Fútbol en España", href: "/tools/in/spain" },
+      { label: "Comparativa de suscripciones", href: "/tools/comparison" },
+    ],
+  },
+  it: {
+    intro: "Seguire LaLiga dalla Francia, dalla Germania, dal Belgio o dalla Svizzera obbliga ad accumulare più abbonamenti ufficiali bloccati geograficamente (beIN Sports in Francia, DAZN in Germania, Sky in Italia), tutti incompleti. ATV Corner aggrega Movistar LaLiga, beIN, DAZN e Sky per offrire tutte le 380 partite della stagione spagnola in HD/4K senza VPN.",
+    sections: [
+      { h2: "Il Clásico tra Real Madrid e FC Barcellona: il vertice mondiale", body: "Il Clásico è la partita di calcio più seguita del pianeta, con oltre 600 milioni di spettatori per edizione. Si disputa due volte a stagione, andata e ritorno, e mette di fronte il Real Madrid (Bernabéu, 81.000 posti) e il FC Barcellona (Camp Nou, 99.000). ATV Corner trasmette il Clásico sistematicamente in 4K HDR con Dolby Vision, multicamera a otto angolazioni e telecronaca in italiano, spagnolo, inglese e arabo." },
+      { h2: "I cinque grandi club di LaLiga da seguire", body: "Real Madrid (35 titoli di LaLiga, con Mbappé, Vinícius e Bellingham), FC Barcellona (27 titoli, con Yamal, Pedri e Lewandowski), Atlético Madrid (Diego Simeone e Griezmann), Real Sociedad, Athletic Bilbao, Real Betis, Siviglia e Villarreal. ATV Corner copre tutte le 380 partite con replay per 7 giorni." },
+      { h2: "LaLiga dall'estero senza Movistar+ né VPN", body: "Movistar+ possiede i diritti di LaLiga solo all'interno della Spagna. Fuori dal paese servirebbero una VPN spagnola a pagamento e una carta bancaria spagnola, soluzione complicata e fragile. ATV Corner aggrega i segnali europei, accessibili da Italia, Francia, Germania o Regno Unito senza VPN né restrizioni geografiche." },
+    ],
+    extraFaq: [
+      { q: "Posso guardare LaLiga con telecronaca in inglese?", a: "Sì, con telecronaca in inglese tramite i segnali di Premier Sports UK o ESPN aggregati da ATV Corner." },
+      { q: "Tutte le partite del Real Madrid sono in 4K?", a: "Tutte le partite casalinghe del Real, al Bernabéu, vanno in onda in 4K HDR. Quelle in trasferta dipendono dall'emittente ospitante." },
+      { q: "ATV Corner include la Copa del Rey?", a: "Sì, la Copa del Rey è inclusa, con la finale in 4K." },
+      { q: "È disponibile la telecronaca in arabo per il Clásico?", a: "Sì, tramite beIN Sports MENA, con telecronaca in arabo sulle partite di cartello di LaLiga." },
+    ],
+    related: [
+      { label: "Guarda il Real Madrid", href: "/tools/team/real-madrid" },
+      { label: "Guarda il Barcellona", href: "/tools/team/barcelona" },
+      { label: "Calcio in Spagna", href: "/tools/in/spain" },
+      { label: "Confronto abbonamenti", href: "/tools/comparison" },
+    ],
+  },
 };
 
 // ---------- Serie A ----------
@@ -392,6 +432,42 @@ leagueExtras["serie-a"] = {
       { label: "Juventus live", href: "/tools/team/juventus" },
       { label: "Fu\u00dfball in Italien", href: "/tools/in/italy" },
       { label: "Abo-Vergleich", href: "/tools/comparison" },
+    ],
+  },
+  es: {
+    intro: "La Serie A recupera su prestigio con el Inter, el Milan, la Juve, el Nápoles y la Atalanta en Europa. DAZN tiene la exclusiva italiana desde 2021, pero sigue bloqueada geográficamente. ATV Corner abre el acceso a DAZN Italia, Sky Italia, beIN Sports y otras emisoras para los 380 partidos de la temporada en HD/4K.",
+    sections: [
+      { h2: "Derbi de la Madonnina, Derbi de Italia y Derbi de la Capital", body: "La Serie A ofrece los derbis más apasionados del fútbol: Inter contra Milan (Derbi de la Madonnina), Juventus contra Inter (Derbi de Italia) y Roma contra Lazio (Derbi de la Capital). ATV Corner emite todos los derbis en 4K HDR con Dolby Vision, multicámara y comentarios en italiano, español, inglés, francés y árabe." },
+      { h2: "Las estrellas de la Serie A 2025/2026", body: "Lautaro Martínez (Inter), Khvicha Kvaratskhelia (Nápoles), Rafael Leão (Milan), Dušan Vlahović (Juventus), Romelu Lukaku (Nápoles), Federico Chiesa (Liverpool, ex Juve) y Ademola Lookman (Atalanta). ATV Corner sigue a cada estrella con primeros planos en multicámara." },
+      { h2: "Copa Italia y Supercopa de Italia incluidas", body: "Más allá de los 380 partidos de liga, ATV Corner emite la Copa Italia (desde octavos hasta la final), la Supercopa de Italia (formato de cuatro equipos, en Arabia Saudí o en Italia) y las campañas europeas de los clubes italianos en Champions, Europa League y Conference League." },
+    ],
+    extraFaq: [
+      { q: "¿Se puede acceder a DAZN Italia desde el extranjero con ATV Corner?", a: "Sí, las señales de DAZN Italia están agregadas y son accesibles desde España, Francia, Alemania o Bélgica sin VPN." },
+      { q: "¿El Derbi de la Madonnina en 4K?", a: "Sí, el Inter contra el Milan se emite en 4K HDR con Dolby Vision y multicámara." },
+      { q: "¿Hay comentarios en inglés para la Serie A?", a: "Sí, mediante las señales de Paramount+ y CBS Sports agregadas para la cobertura de la Serie A en inglés." },
+    ],
+    related: [
+      { label: "Ver a la Juventus", href: "/tools/team/juventus" },
+      { label: "Fútbol en Italia", href: "/tools/in/italy" },
+      { label: "Comparativa de suscripciones", href: "/tools/comparison" },
+    ],
+  },
+  it: {
+    intro: "La Serie A si sta riprendendo il suo prestigio con Inter, Milan, Juve, Napoli e Atalanta in Europa. DAZN detiene l'esclusiva italiana dal 2021, ma resta bloccata geograficamente. ATV Corner apre l'accesso a DAZN Italia, Sky Italia, beIN Sports e altre emittenti per tutte le 380 partite della stagione in HD/4K.",
+    sections: [
+      { h2: "Derby della Madonnina, Derby d'Italia e Derby della Capitale", body: "La Serie A offre i derby più appassionati del calcio: Inter contro Milan (Derby della Madonnina), Juventus contro Inter (Derby d'Italia) e Roma contro Lazio (Derby della Capitale). ATV Corner trasmette tutti i derby in 4K HDR con Dolby Vision, multicamera e telecronaca in italiano, inglese, francese, tedesco e arabo." },
+      { h2: "Le stelle della Serie A 2025/2026", body: "Lautaro Martínez (Inter), Khvicha Kvaratskhelia (Napoli), Rafael Leão (Milan), Dušan Vlahović (Juventus), Romelu Lukaku (Napoli), Federico Chiesa (Liverpool, ex Juve) e Ademola Lookman (Atalanta). ATV Corner segue ogni stella con primi piani in multicamera." },
+      { h2: "Coppa Italia e Supercoppa Italiana incluse", body: "Oltre alle 380 partite di campionato, ATV Corner trasmette la Coppa Italia (dagli ottavi alla finale), la Supercoppa Italiana (formato a quattro squadre, in Arabia Saudita o in Italia) e le campagne europee dei club italiani in Champions, Europa League e Conference League." },
+    ],
+    extraFaq: [
+      { q: "Si può accedere a DAZN Italia dall'estero con ATV Corner?", a: "Sì, i segnali di DAZN Italia sono aggregati e accessibili da Francia, Germania o Belgio senza VPN." },
+      { q: "Il Derby della Madonnina in 4K?", a: "Sì, Inter contro Milan va in onda in 4K HDR con Dolby Vision e multicamera." },
+      { q: "È disponibile la telecronaca in inglese per la Serie A?", a: "Sì, tramite i segnali di Paramount+ e CBS Sports aggregati per la copertura della Serie A in lingua inglese." },
+    ],
+    related: [
+      { label: "Guarda la Juventus", href: "/tools/team/juventus" },
+      { label: "Calcio in Italia", href: "/tools/in/italy" },
+      { label: "Confronto abbonamenti", href: "/tools/comparison" },
     ],
   },
 };
