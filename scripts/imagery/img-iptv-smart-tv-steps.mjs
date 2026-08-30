@@ -12,5 +12,15 @@ await make({
       lines: ["1  Install an IPTV player", "2  Enter your Xtream Codes login", "3  Channels and EPG load automatically"] },
     fr: { title: "Installation en 3 étapes", cardTitle: "Identique sur chaque système",
       lines: ["1  Installer un lecteur IPTV", "2  Saisir les identifiants Xtream Codes", "3  Chaînes et EPG se chargent seuls"] },
+    es: {
+      title: "Instalación en 3 pasos",
+      cardTitle: "Igual en cualquier sistema",
+      lines: ["1  Instalar un reproductor IPTV", "2  Introducir las credenciales Xtream", "3  Canales y guía se cargan solos"],
+    },
+    it: {
+      title: "Installazione in 3 passi",
+      cardTitle: "Uguale su ogni sistema",
+      lines: ["1  Installare un lettore IPTV", "2  Inserire le credenziali Xtream", "3  Canali e guida si caricano da soli"],
+    },
   },
 });

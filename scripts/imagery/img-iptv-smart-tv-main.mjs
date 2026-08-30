@@ -12,5 +12,15 @@ await make({
       lines: ["Samsung, LG and Android TV play IPTV", "directly with the right app."] },
     fr: { title: "L'IPTV directement sur Smart TV", cardTitle: "Aucun boîtier nécessaire",
       lines: ["Samsung, LG et Android TV lisent l'IPTV", "directement avec la bonne application."] },
+    es: {
+      title: "IPTV directamente en tu Smart TV",
+      cardTitle: "Sin ningún aparato adicional",
+      lines: ["Samsung, LG y Android TV reproducen IPTV", "directamente con la aplicación adecuada."],
+    },
+    it: {
+      title: "IPTV direttamente sulla tua Smart TV",
+      cardTitle: "Senza alcun apparecchio aggiuntivo",
+      lines: ["Samsung, LG e Android TV riproducono l'IPTV", "direttamente con l'app giusta."],
+    },
   },
 });
