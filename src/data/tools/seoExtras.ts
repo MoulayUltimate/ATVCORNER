@@ -362,6 +362,48 @@ leagueExtras["champions-league"] = {
       { label: "4K-Streaming-Speedtest", href: "/tools/speed-test" },
     ],
   },
+  es: {
+    intro: "La UEFA Champions League se ha vuelto imposible de seguir por completo con una sola suscripción. Canal+ tiene los derechos franceses, BT/TNT Sports los británicos, Sky Italia los italianos, Movistar los españoles, Amazon Prime Video los partidos del martes y beIN los de MENA: los 189 encuentros del nuevo formato de 36 equipos están dispersos. ATV Corner unifica todas las emisoras europeas de la Champions —fase de liga, play-offs, octavos, cuartos, semifinales y final— en una sola aplicación en 4K HDR.",
+    sections: [
+      { h2: "Nuevo formato de la Champions 2024/2025: 189 partidos y 36 equipos", body: "Desde la reforma, la Champions League reúne a 36 clubes en lugar de 32. Cada equipo juega 8 partidos de fase de liga (4 en casa y 4 fuera) contra 8 rivales distintos. Los ocho primeros se clasifican directamente para octavos y los puestos del 9 al 24 disputan un play-off. ATV Corner cubre los 144 partidos de la fase de liga más los 45 de eliminatorias, es decir 189 encuentros en directo." },
+      { h2: "Real Madrid, Manchester City, Bayern y PSG: sigue a los favoritos", body: "Real Madrid (15 títulos, récord absoluto), Bayern de Múnich (6), Liverpool (6), Manchester City (uno reciente), PSG (campeón en 2025), Barcelona, Inter y Borussia Dortmund. ATV Corner emite todos los partidos de estos favoritos en HD 1080p como mínimo y en 4K HDR en los grandes choques. Comentarios en varios idiomas: español (Movistar), inglés (BT/TNT), francés (Canal+) y alemán (DAZN/Prime)." },
+      { h2: "La final de la Champions en 4K HDR con Dolby Vision", body: "La final se disputa cada mayo o junio en un estadio de prestigio (Wembley, Estambul, Múnich). ATV Corner garantiza la emisión en 4K HDR con Dolby Vision y sonido Dolby Atmos en los dispositivos compatibles (Apple TV 4K, Fire TV Stick 4K Max, Samsung QLED y LG OLED)." },
+      { h2: "Modo mosaico para las noches de Champions", body: "Las noches de Champions programan 8 partidos simultáneos a las 21:00 hora central europea. La multivisión de ATV Corner (Fire TV Stick, Android TV y navegador) permite seguir 4 partidos en paralelo en un mosaico de cuatro cuadrantes con audio seleccionable. Perfecto para quien sigue a varios clubes europeos." },
+    ],
+    extraFaq: [
+      { q: "¿Están incluidos los 189 partidos de la Champions League?", a: "Sí, ATV Corner agrega Canal+, RMC, BT/TNT Sports, Sky Italia, Movistar y Amazon Prime: cobertura del 100 % de los 189 encuentros de la temporada." },
+      { q: "¿Se emite la final de la Champions en 4K?", a: "Sí, la final y las semifinales en 4K HDR con Dolby Vision en los dispositivos compatibles." },
+      { q: "¿Puedo ver 4 partidos de Champions a la vez?", a: "Sí, mediante la multivisión disponible en Fire TV Stick, Android TV, NVIDIA Shield y navegador web." },
+      { q: "¿Qué idiomas de comentarios hay disponibles?", a: "Español (Movistar), inglés (BT/TNT Sport), francés (Canal+, RMC), alemán (DAZN, Amazon), italiano (Sky Italia) y árabe (beIN)." },
+    ],
+    related: [
+      { label: "Ver al Real Madrid", href: "/tools/team/real-madrid" },
+      { label: "Ver al Bayern de Múnich", href: "/tools/team/bayern-munich" },
+      { label: "Comparativa de suscripciones", href: "/tools/comparison" },
+      { label: "Test de velocidad 4K", href: "/tools/speed-test" },
+    ],
+  },
+  it: {
+    intro: "La UEFA Champions League è diventata impossibile da seguire per intero con un solo abbonamento. Canal+ detiene i diritti francesi, BT/TNT Sports quelli britannici, Sky Italia quelli italiani, Movistar quelli spagnoli, Amazon Prime Video le partite del martedì e beIN quelle MENA: tutti i 189 incontri del nuovo formato a 36 squadre sono dispersi. ATV Corner unifica tutte le emittenti europee della Champions — fase campionato, play-off, ottavi, quarti, semifinali e finale — in un'unica applicazione in 4K HDR.",
+    sections: [
+      { h2: "Nuovo formato della Champions 2024/2025: 189 partite e 36 squadre", body: "Dopo la riforma, la Champions League riunisce 36 club invece di 32. Ogni squadra gioca 8 partite di fase campionato (4 in casa e 4 in trasferta) contro 8 avversarie diverse. Le prime otto si qualificano direttamente per gli ottavi, mentre dal nono al ventiquattresimo posto si disputa un play-off. ATV Corner copre le 144 partite della fase campionato più le 45 a eliminazione diretta, cioè 189 incontri in diretta." },
+      { h2: "Real Madrid, Manchester City, Bayern e PSG: segui le favorite", body: "Real Madrid (15 titoli, record assoluto), Bayern Monaco (6), Liverpool (6), Manchester City (uno recente), PSG (campione nel 2025), Barcellona, Inter e Borussia Dortmund. ATV Corner trasmette tutte le partite di queste favorite in HD 1080p come minimo e in 4K HDR sugli scontri di cartello. Telecronaca in più lingue: italiano (Sky Italia), inglese (BT/TNT), francese (Canal+), tedesco (DAZN/Prime) e spagnolo (Movistar)." },
+      { h2: "La finale di Champions in 4K HDR con Dolby Vision", body: "La finale si disputa ogni maggio o giugno in uno stadio prestigioso (Wembley, Istanbul, Monaco). ATV Corner garantisce la trasmissione in 4K HDR con Dolby Vision e audio Dolby Atmos sui dispositivi compatibili (Apple TV 4K, Fire TV Stick 4K Max, Samsung QLED e LG OLED)." },
+      { h2: "Modalità mosaico per le serate di Champions", body: "Le serate di Champions programmano 8 partite in contemporanea alle 21:00 ora dell'Europa centrale. La multivisione di ATV Corner (Fire TV Stick, Android TV e browser) permette di seguire 4 partite in parallelo in un mosaico a quattro quadranti con audio selezionabile. Perfetto per chi segue più club europei." },
+    ],
+    extraFaq: [
+      { q: "Sono incluse tutte le 189 partite di Champions League?", a: "Sì, ATV Corner aggrega Canal+, RMC, BT/TNT Sports, Sky Italia, Movistar e Amazon Prime: copertura del 100 % dei 189 incontri della stagione." },
+      { q: "La finale di Champions viene trasmessa in 4K?", a: "Sì, finale e semifinali in 4K HDR con Dolby Vision sui dispositivi compatibili." },
+      { q: "Posso guardare 4 partite di Champions insieme?", a: "Sì, tramite la multivisione disponibile su Fire TV Stick, Android TV, NVIDIA Shield e browser web." },
+      { q: "Quali lingue di telecronaca sono disponibili?", a: "Italiano (Sky Italia), inglese (BT/TNT Sport), francese (Canal+, RMC), tedesco (DAZN, Amazon), spagnolo (Movistar) e arabo (beIN)." },
+    ],
+    related: [
+      { label: "Guarda il Real Madrid", href: "/tools/team/real-madrid" },
+      { label: "Guarda il Bayern Monaco", href: "/tools/team/bayern-munich" },
+      { label: "Confronto abbonamenti", href: "/tools/comparison" },
+      { label: "Test di velocità 4K", href: "/tools/speed-test" },
+    ],
+  },
 };
 
 // ---------- LaLiga ----------
@@ -616,6 +658,42 @@ leagueExtras["bundesliga"] = {
       { label: "Bayern M\u00fcnchen live", href: "/tools/team/bayern-munich" },
       { label: "Borussia Dortmund live", href: "/tools/team/borussia-dortmund" },
       { label: "Fu\u00dfball in Deutschland", href: "/tools/in/germany" },
+    ],
+  },
+  es: {
+    intro: "La Bundesliga, el mítico campeonato alemán, está repartida entre Sky Deutschland y DAZN dentro de Alemania. Fuera del país la emiten parcialmente beIN Sports en Francia, ESPN+ en Estados Unidos, Movistar en España y Sky en Italia. ATV Corner unifica todas las señales para los 306 partidos anuales en HD/4K.",
+    sections: [
+      { h2: "Der Klassiker: Bayern de Múnich contra Borussia Dortmund", body: "Der Klassiker entre el Bayern y el Dortmund es el gran partido de la Bundesliga y se disputa dos veces por temporada. El Allianz Arena (75.000 espectadores) y el Signal Iduna Park (Westfalenstadion, 81.000, con el mayor aforo de pie de Europa). ATV Corner emite Der Klassiker en 4K HDR con el Muro Amarillo de la Südtribüne captado en multicámara." },
+      { h2: "Bundesliga-Konferenz: cinco partidos simultáneos", body: "El formato propio de la Bundesliga: cinco partidos el sábado a las 15:30, emitidos como un multiplex llamado Konferenz. ATV Corner retransmite la Bundesliga-Konferenz de Sky Deutschland con salto automático al gol, además de las señales individuales de cada partido completo en paralelo." },
+      { h2: "Clubes de referencia: Bayern, Dortmund, Leipzig y Leverkusen", body: "Bayern de Múnich (33 títulos), Borussia Dortmund (8), RB Leipzig (ascenso fulgurante), Bayer Leverkusen (campeón en 2024 con Xabi Alonso), Eintracht Frankfurt, Borussia Mönchengladbach y VfB Stuttgart. 18 clubes, 306 partidos y la Konferenz del sábado como extra." },
+    ],
+    extraFaq: [
+      { q: "¿Se emite Der Klassiker en 4K HDR?", a: "Sí, el Bayern contra el Dortmund se emite habitualmente en 4K HDR con multicámara y comentarios en español, alemán, inglés y francés." },
+      { q: "¿Puedo ver la Bundesliga-Konferenz desde el extranjero?", a: "Sí, ATV Corner agrega Sky Deutschland y emite la Konferenz del sábado a las 15:30, accesible desde cualquier país europeo sin VPN." },
+      { q: "¿Cuántos partidos tiene la Bundesliga por temporada?", a: "306 partidos: 18 clubes, 34 jornadas y cada equipo juega 17 encuentros en casa y 17 fuera." },
+    ],
+    related: [
+      { label: "Ver al Bayern de Múnich", href: "/tools/team/bayern-munich" },
+      { label: "Ver al Borussia Dortmund", href: "/tools/team/borussia-dortmund" },
+      { label: "Fútbol en Alemania", href: "/tools/in/germany" },
+    ],
+  },
+  it: {
+    intro: "La Bundesliga, il mitico campionato tedesco, è divisa tra Sky Deutschland e DAZN all'interno della Germania. Fuori dal paese la trasmettono parzialmente beIN Sports in Francia, ESPN+ negli Stati Uniti, Movistar in Spagna e Sky in Italia. ATV Corner unifica tutti i segnali per le 306 partite annuali in HD/4K.",
+    sections: [
+      { h2: "Der Klassiker: Bayern Monaco contro Borussia Dortmund", body: "Der Klassiker tra Bayern e Dortmund è la partita simbolo della Bundesliga e si disputa due volte a stagione. L'Allianz Arena (75.000 spettatori) e il Signal Iduna Park (Westfalenstadion, 81.000, con la più grande capienza in piedi d'Europa). ATV Corner trasmette Der Klassiker in 4K HDR con il Muro Giallo della Südtribüne ripreso in multicamera." },
+      { h2: "Bundesliga-Konferenz: cinque partite in contemporanea", body: "Il formato tipico della Bundesliga: cinque partite il sabato alle 15:30, trasmesse come multiplex chiamato Konferenz. ATV Corner ritrasmette la Bundesliga-Konferenz di Sky Deutschland con salto automatico sul gol, oltre ai segnali individuali di ogni partita intera in parallelo." },
+      { h2: "Club di riferimento: Bayern, Dortmund, Lipsia e Leverkusen", body: "Bayern Monaco (33 titoli), Borussia Dortmund (8), RB Lipsia (ascesa fulminea), Bayer Leverkusen (campione nel 2024 con Xabi Alonso), Eintracht Francoforte, Borussia Mönchengladbach e VfB Stoccarda. 18 club, 306 partite e la Konferenz del sabato come extra." },
+    ],
+    extraFaq: [
+      { q: "Der Klassiker viene trasmesso in 4K HDR?", a: "Sì, Bayern contro Dortmund va in onda abitualmente in 4K HDR con multicamera e telecronaca in italiano, tedesco, inglese e francese." },
+      { q: "Posso guardare la Bundesliga-Konferenz dall'estero?", a: "Sì, ATV Corner aggrega Sky Deutschland e trasmette la Konferenz del sabato alle 15:30, accessibile da qualsiasi paese europeo senza VPN." },
+      { q: "Quante partite ha la Bundesliga per stagione?", a: "306 partite: 18 club, 34 giornate e ogni squadra gioca 17 incontri in casa e 17 in trasferta." },
+    ],
+    related: [
+      { label: "Guarda il Bayern Monaco", href: "/tools/team/bayern-munich" },
+      { label: "Guarda il Borussia Dortmund", href: "/tools/team/borussia-dortmund" },
+      { label: "Calcio in Germania", href: "/tools/in/germany" },
     ],
   },
 };
