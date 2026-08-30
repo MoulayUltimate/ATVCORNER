@@ -44,6 +44,9 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV qui rame ? 9 solutions](https://atvcorner.com/fr/blog/iptv-ruckelt-beheben): Dépannage buffering — débit, Wi-Fi, décodage, serveurs
 - [Résilier le câble et passer à l'IPTV](https://atvcorner.com/fr/blog/kabel-kuendigen-iptv): Guide sans coupure — préavis, ordre, économies
 - [TV gratuite : options légales](https://atvcorner.com/fr/blog/kostenlos-fernsehen): TNT, replay, streaming pub — et leurs limites
+- [L'IPTV est-elle légale ?](https://atvcorner.com/fr/blog/ist-iptv-legal): Cadre, limites et six critères de vérification
+- [Regarder la NFL sans câble](https://atvcorner.com/fr/blog/watch-nfl-without-cable): Toutes les options comparées
+- [La TV par internet](https://atvcorner.com/fr/blog/fernsehen-ueber-internet): Replay, streaming et IPTV comparés
 - [L'IPTV est-elle légale ?](https://atvcorner.com/fr/blog/ist-iptv-legal): Cadre, limites et 6 vérifications avant d'acheter
 - [Regarder la NFL sans câble](https://atvcorner.com/fr/blog/watch-nfl-without-cable): Antenne, forfaits et IPTV comparés
 - [Repérer un fournisseur IPTV douteux](https://atvcorner.com/fr/blog/iptv-anbieter-erkennen): 9 signaux d'alarme à vérifier avant de payer
@@ -100,6 +103,9 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV Buffering? 9 Fixes](https://atvcorner.com/en/blog/iptv-ruckelt-beheben): Troubleshooting — bandwidth, Wi-Fi, decoder, servers
 - [Cancel Cable and Switch to IPTV](https://atvcorner.com/en/blog/kabel-kuendigen-iptv): No-gap migration — notice periods, order, savings
 - [Free TV: Every Legal Option](https://atvcorner.com/en/blog/kostenlos-fernsehen): Aerial, catch-up, ad-supported — and their limits
+- [Is IPTV Legal?](https://atvcorner.com/en/blog/ist-iptv-legal): The rules, the limits and six checks
+- [Watch the NFL Without Cable](https://atvcorner.com/en/blog/watch-nfl-without-cable): Every option compared
+- [TV Over the Internet](https://atvcorner.com/en/blog/fernsehen-ueber-internet): Catch-up, streaming and IPTV compared
 - [Is IPTV Legal?](https://atvcorner.com/en/blog/ist-iptv-legal): The rules, the limits and 6 checks before buying
 - [How to Watch the NFL Without Cable](https://atvcorner.com/en/blog/watch-nfl-without-cable): Aerial, bundles and IPTV compared
 - [Spotting a Bad IPTV Provider](https://atvcorner.com/en/blog/iptv-anbieter-erkennen): 9 warning signs to check before paying
@@ -156,6 +162,9 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV ruckelt? 9 Lösungen](https://atvcorner.com/de/blog/iptv-ruckelt-beheben): Fehlerbehebung — Bandbreite, WLAN, Dekoder, Server
 - [Kabel kündigen & zu IPTV wechseln](https://atvcorner.com/de/blog/kabel-kuendigen-iptv): Umstieg ohne Lücke — Fristen, Reihenfolge, Ersparnis
 - [Kostenlos fernsehen: legale Wege](https://atvcorner.com/de/blog/kostenlos-fernsehen): DVB-T2, Mediatheken, Werbe-Streaming — und ihre Grenzen
+- [Ist IPTV legal?](https://atvcorner.com/de/blog/ist-iptv-legal): Rechtslage, Grenzen und sechs Prüfpunkte
+- [NFL ohne Kabel schauen](https://atvcorner.com/de/blog/watch-nfl-without-cable): Alle Optionen im Vergleich
+- [Fernsehen über Internet](https://atvcorner.com/de/blog/fernsehen-ueber-internet): Mediathek, Streaming und IPTV im Vergleich
 - [Ist IPTV legal?](https://atvcorner.com/de/blog/ist-iptv-legal): Rechtslage, Grenzen und 6 Prüfpunkte vor dem Kauf
 - [NFL ohne Kabel schauen](https://atvcorner.com/de/blog/watch-nfl-without-cable): Antenne, Streaming-Pakete und IPTV im Vergleich
 - [Unseriöse IPTV-Anbieter erkennen](https://atvcorner.com/de/blog/iptv-anbieter-erkennen): 9 Warnsignale vor dem Kauf
