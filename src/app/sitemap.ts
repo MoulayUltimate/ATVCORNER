@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/iptv-mag-box", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/iptv-canada", priority: 0.95, changeFrequency: "weekly" as const },
     { path: "/iptv-uk", priority: 0.95, changeFrequency: "weekly" as const },
+    { path: "/iptv-france", priority: 0.95, changeFrequency: "weekly" as const },
     { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
     { path: "/refund", priority: 0.3, changeFrequency: "yearly" as const },

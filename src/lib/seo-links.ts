@@ -108,6 +108,11 @@ const labels: Record<SeoPage, Record<Locale, LinkCopy>> = {
     en: { label: "IPTV UK", blurb: "Premier League and British channels." },
     de: { label: "IPTV UK", blurb: "Premier League und britische Sender." },
   },
+  "iptv-france": {
+    fr: { label: "IPTV France", blurb: "Ligue 1, chaînes françaises et monde." },
+    en: { label: "IPTV France", blurb: "Ligue 1 and French channels live." },
+    de: { label: "IPTV Frankreich", blurb: "Ligue 1 und französische Sender." },
+  },
   "best-iptv-alternatives": {
     fr: { label: "Alternatives IPTV", blurb: "Comparatif face aux autres services." },
     en: { label: "IPTV Alternatives", blurb: "How we compare to other services." },
@@ -142,6 +147,7 @@ const related: Record<SeoPage, SeoPage[]> = {
   "iptv-mag-box": ["xtream-codes", "iptv-android-tv", "iptv-subscription"],
   "iptv-canada": ["iptv-usa", "iptv-sport", "iptv-subscription"],
   "iptv-uk": ["iptv-sport", "iptv-subscription", "cable-tv-alternative"],
+  "iptv-france": ["iptv-sport", "iptv-subscription", "iptv-deutschland"],
 };
 
 export type RelatedLink = { slug: SeoPage; label: string; blurb: string };

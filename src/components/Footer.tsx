@@ -60,6 +60,7 @@ export function Footer({ lang, dict }: Props) {
             <li><Link href={`/${lang}/cable-tv-alternative`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Alternative au câble" : lang === "de" ? "Kabel-Alternative" : "Cable TV Alternative"}</Link></li>
             <li><Link href={`/${lang}/iptv-free-trial`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Essai gratuit" : lang === "de" ? "Gratis-Test" : "Free Trial"}</Link></li>
             <li><Link href={`/${lang}/best-iptv-service`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "Meilleur service IPTV" : lang === "de" ? "Bester IPTV Service" : "Best IPTV Service"}</Link></li>
+            <li><Link href={`/${lang}/iptv-france`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV France</Link></li>
             <li><Link href={`/${lang}/iptv-canada`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Canada</Link></li>
             <li><Link href={`/${lang}/iptv-uk`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV UK</Link></li>
             <li><Link href={`/${lang}/iptv-usa`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV USA</Link></li>

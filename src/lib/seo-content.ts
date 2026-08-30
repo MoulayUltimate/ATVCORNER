@@ -41,7 +41,8 @@ export type Page =
   | "iptv-android-tv"
   | "iptv-mag-box"
   | "iptv-canada"
-  | "iptv-uk";
+  | "iptv-uk"
+  | "iptv-france";
 
 const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
 
@@ -3031,6 +3032,150 @@ content["iptv-uk"] = {
   },
 };
 
+// =============================================================================
+// /iptv-france — "iptv france" (9,900/mo, commercial, CPC 1.60 €). Sits beside
+// "abonnement iptv" (22,200) and "meilleur iptv" (8,100), which /iptv-subscription
+// and /best-iptv-service already own — this page takes the geo intent only.
+// =============================================================================
+content["iptv-france"] = {
+  fr: {
+    metaTitle: "IPTV France — 66 000+ chaînes, Ligue 1 & 4K dès 5 €/mois",
+    metaDesc:
+      "IPTV pour la France : chaînes françaises et internationales, Ligue 1 et Champions League, 66 000+ chaînes en 4K/8K. Sans engagement, actif en 5 minutes, dès 5 €/mois.",
+    eyebrow: "IPTV France · Dès 5 €/mois",
+    h1: "L'IPTV pour la",
+    h1Accent: "France",
+    intro:
+      "Les chaînes françaises et internationales dans un seul abonnement, avec la Ligue 1, la Champions League et 66 000+ chaînes en 4K/8K — via la connexion internet que vous payez déjà. Sans box en location, sans engagement, actif en moins de 5 minutes dès 5 €/mois.",
+    cover: "/blog/iptv-france-main-fr.jpg",
+    image: {
+      src: "/blog/iptv-france-body-fr.jpg",
+      alt: "Ce qu'un foyer français remplace avec un abonnement IPTV : bouquet opérateur, location de box et options sport payantes.",
+      caption: "Un abonnement à la place d'un bouquet opérateur et de ses options.",
+    },
+    features: [
+      { h: "Ligue 1 et Champions League", p: "Environ 4 200 chaînes sport couvrant le football français et européen, la F1 et l'UFC." },
+      { h: "Chaînes françaises + monde", p: "Programmes nationaux et régionaux, aux côtés de chaînes d'Europe, du Maghreb, d'Afrique et d'Amérique." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 avec bitrate adaptatif : une contre-attaque rapide reste nette." },
+      { h: "Dès 5 €/mois", p: "Formules 1, 3, 6 et 12 mois, sans engagement, garantie satisfait ou remboursé 7 jours." },
+    ],
+    sections: [
+      { h: "Pourquoi les foyers français changent", p: "Un bouquet opérateur français s'arrête rarement à son prix affiché. En ajoutant la location de la box, les options sport et les services de streaming souscrits à côté, beaucoup de foyers dépassent 40 à 100 € par mois sans jamais le voir comme une facture unique. L'IPTV ne change pas le salon mais le mode de livraison : le même téléviseur, mais le signal arrive par la connexion déjà présente. Chez ATV Corner, cela représente 66 000+ chaînes et une bibliothèque de 70 000+ films et 18 000+ séries dès 5 €/mois, sans matériel loué ni engagement." },
+      { h: "Le football, et le reste du calendrier", p: "C'est sur le sport que les factures gonflent, car les rencontres qui comptent se répartissent entre des offres vendues séparément — suivre une saison complète impose souvent deux abonnements. Ici, environ 4 200 chaînes sport sont incluses par défaut : Ligue 1, Ligue 2, Coupe de France, Champions League et Europa League, aux côtés de la Premier League, La Liga, Serie A et Bundesliga, ainsi que la NBA, la NFL, l'UFC, la Formule 1 et le MotoGP. Pour qui suit plus d'une compétition, c'est précisément là que se situe l'économie." },
+      { h: "Les chaînes internationales qu'aucun bouquet ne propose", p: "La France est l'un des pays les plus divers d'Europe, et une liste de chaînes qui s'arrête aux programmes nationaux manque une grande part de ce que les foyers regardent réellement. Le catalogue propose, à côté des chaînes françaises, des programmes d'Europe, du Maghreb, du Moyen-Orient, d'Afrique subsaharienne et d'Amérique latine. Pour les familles qui souhaitent de l'information ou du divertissement de leur région d'origine, cette couche pèse généralement plus que le prix mensuel, car aucun bouquet national ne la propose à aucun palier." },
+      { h: "Fibre, ADSL et ce qu'exige la stabilité", p: "Un flux IPTV est continu et en temps réel, sans gros tampon pour absorber un creux : la régularité compte donc plus que le débit annoncé. Prévoyez environ 10 Mbps pour la HD et au moins 25 Mbps pour une 4K stable, mesurés sur l'appareil où vous regardez et non sur un portable ailleurs. En fibre, la marge est confortable ; en ADSL, la HD reste tout à fait jouable mais la 4K devient exigeante. Là où l'appareil dispose d'un port ethernet, utilisez-le : cela élimine la plupart des plaintes de buffering, surtout en soirée." },
+      { h: "Quels appareils fonctionnent en France", p: "Très probablement un que vous possédez déjà. Les Smart TV Samsung et LG, les téléviseurs Sony, TCL et Hisense sous Android TV ou Google TV, l'Amazon Fire TV Stick, l'Apple TV, les MAG box, les récepteurs Enigma2, iPhone, iPad, téléphones et tablettes Android, ainsi que les ordinateurs sous Windows, macOS et Linux fonctionnent tous. L'application est votre choix : TiviMate, IBO Player et IPTV Smarters Pro sont les options établies, et VLC gère un lien M3U pour une vérification rapide." },
+      { h: "Comment se passe l'activation", p: "Aucun technicien, aucun créneau à attendre. Vous choisissez une durée, réglez le paiement, et vos identifiants arrivent en moins de cinq minutes par WhatsApp — soit un trio Xtream Codes composé de l'URL du serveur, d'un nom d'utilisateur et d'un mot de passe, soit un lien M3U. Vous les saisissez une fois dans l'application choisie, qui charge ensuite d'elle-même la liste complète des chaînes, un guide sur plusieurs jours et le catalogue de films et séries. La plupart des gens regardent dix minutes après avoir décidé." },
+      { h: "Ce que cela coûte face à une facture française", p: "Additionnez un mois honnête : abonnement de base, location de la box, options sport, et les services de streaming souscrits en parallèle. Beaucoup de foyers découvrent un total nettement supérieur à ce qu'ils pensaient payer. Un abonnement annuel ATV Corner coûte 60 € — pour douze mois, pas pour un. La formule mensuelle est à 15 €, trois mois à 30 €, six mois à 50 €. Chaque durée inclut le même catalogue, la même qualité 4K/8K et le même support 24/7 ; la seule variable est le coût mensuel." },
+      { h: "Testez avant de résilier quoi que ce soit", p: "Comme l'IPTV passe par votre connexion et non par la prise opérateur, elle fonctionne en parallèle de ce que vous avez aujourd'hui. L'ordre logique s'impose : lancez un essai gratuit de 24 heures, faites-le tourner une à deux semaines à côté de votre offre actuelle — en incluant délibérément un soir de match, car c'est là que la capacité serveur se révèle — puis décidez seulement ensuite. Aucune carte bancaire n'est requise pour l'essai, et chaque formule payante s'accompagne d'une garantie de 7 jours." },
+    ],
+    faq: [
+      { q: "L'IPTV fonctionne-t-elle partout en France ?", a: "Oui. Elle passe par votre connexion internet plutôt que par une prise opérateur ; votre région ne compte que dans la mesure où votre débit doit être stable. Prévoyez 10 Mbps pour la HD et 25 Mbps pour une 4K fluide." },
+      { q: "Puis-je regarder la Ligue 1 et la Champions League ?", a: "Oui. Environ 4 200 chaînes sport sont incluses, couvrant le football français et européen ainsi que la NBA, la NFL, l'UFC et la Formule 1 — sans options sport payantes séparées." },
+      { q: "Faut-il une box ou un technicien ?", a: "Ni l'un ni l'autre. Une Smart TV, un Fire TV Stick, une Apple TV, un téléphone, une tablette ou un ordinateur suffit, et l'installation se fait à distance en moins de 5 minutes." },
+      { q: "Combien coûte l'IPTV en France ?", a: "Les formules démarrent à 15 € pour un mois et descendent à 5 €/mois avec l'abonnement annuel à 60 €. Chaque formule inclut 66 000+ chaînes, la 4K/8K et le support 24/7." },
+      { q: "L'ADSL suffit-il pour l'IPTV ?", a: "Pour la HD, oui, dès environ 10 Mbps stables. Pour une 4K fluide, 25 Mbps sont recommandés, ce qui est plus confortable en fibre. La régularité compte plus que le débit maximal." },
+    ],
+    cta: "Démarrer mon abonnement France",
+  },
+  de: {
+    metaTitle: "IPTV Frankreich — 66.000+ Sender, Ligue 1 & 4K ab 5 €/Monat",
+    metaDesc:
+      "IPTV für Frankreich: französische und internationale Sender, Ligue 1 und Champions League, 66.000+ Sender in 4K/8K. Ohne Vertrag, in 5 Minuten aktiv, ab 5 €/Monat.",
+    eyebrow: "IPTV Frankreich · Ab 5 €/Monat",
+    h1: "IPTV für",
+    h1Accent: "Frankreich",
+    intro:
+      "Französische und internationale Sender in einem Abo, mit Ligue 1, Champions League und 66.000+ Sendern in 4K/8K — über die Internetleitung, die Sie ohnehin bezahlen. Ohne Mietbox, ohne Vertragsbindung, in unter 5 Minuten aktiv ab 5 €/Monat.",
+    cover: "/blog/iptv-france-main-de.jpg",
+    image: {
+      src: "/blog/iptv-france-body-de.jpg",
+      alt: "Was ein französischer Haushalt mit einem IPTV-Abo ersetzt: Anbieter-Paket, Box-Miete und kostenpflichtige Sportoptionen.",
+      caption: "Ein Abo statt Anbieter-Paket und dessen Zusatzoptionen.",
+    },
+    features: [
+      { h: "Ligue 1 und Champions League", p: "Rund 4.200 Sportkanäle mit französischem und europäischem Fußball, F1 und UFC." },
+      { h: "Französisch + international", p: "Nationale und regionale Programme, dazu Sender aus Europa, dem Maghreb, Afrika und Amerika." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 mit adaptiver Bitrate — auch ein schneller Konter bleibt scharf." },
+      { h: "Ab 5 €/Monat", p: "Laufzeiten 1, 3, 6 und 12 Monate, ohne Bindung, mit 7 Tagen Geld-zurück-Garantie." },
+    ],
+    sections: [
+      { h: "Warum französische Haushalte wechseln", p: "Ein französisches Anbieter-Paket bleibt selten beim beworbenen Preis. Rechnet man Box-Miete, Sportoptionen und die parallel gebuchten Streamingdienste hinzu, überschreiten viele Haushalte 40 bis 100 € im Monat, ohne das je als eine Rechnung zu sehen. IPTV ändert nicht das Wohnzimmer, sondern den Übertragungsweg: derselbe Fernseher, aber das Signal kommt über die vorhandene Leitung. Bei ATV Corner sind das 66.000+ Sender und eine Bibliothek mit 70.000+ Filmen und 18.000+ Serien ab 5 €/Monat, ohne Mietgerät und ohne Bindung." },
+      { h: "Fußball und der restliche Kalender", p: "Beim Sport wachsen die Rechnungen, weil die entscheidenden Spiele auf separat verkaufte Angebote verteilt sind — eine ganze Saison zu verfolgen bedeutet oft zwei Abos. Hier sind rund 4.200 Sportkanäle standardmäßig enthalten: Ligue 1, Ligue 2, Coupe de France, Champions League und Europa League, dazu Premier League, La Liga, Serie A und Bundesliga sowie NBA, NFL, UFC, Formel 1 und MotoGP. Wer mehr als einen Wettbewerb verfolgt, findet genau hier die Ersparnis." },
+      { h: "Internationale Sender, die kein Paket führt", p: "Frankreich gehört zu den vielfältigsten Ländern Europas, und eine Senderliste, die bei nationalen Programmen aufhört, verfehlt einen großen Teil dessen, was Haushalte wirklich schauen. Der Katalog enthält neben französischen Sendern Programme aus Europa, dem Maghreb, dem Nahen Osten, Subsahara-Afrika und Lateinamerika. Für Familien, die Nachrichten oder Unterhaltung aus ihrer Herkunftsregion sehen möchten, wiegt diese Ebene meist schwerer als der Monatspreis." },
+      { h: "Glasfaser, ADSL und was Stabilität verlangt", p: "Ein IPTV-Stream läuft kontinuierlich in Echtzeit ohne großen Puffer — deshalb zählt Gleichmäßigkeit mehr als der beworbene Wert. Rechnen Sie mit etwa 10 Mbit/s für HD und mindestens 25 Mbit/s für stabiles 4K, gemessen am Gerät, auf dem Sie schauen. Mit Glasfaser ist die Reserve komfortabel; über ADSL bleibt HD gut machbar, 4K wird anspruchsvoll. Wo das Gerät einen Ethernet-Anschluss hat, nutzen Sie ihn — das beseitigt die meisten Buffering-Beschwerden, gerade abends." },
+      { h: "Welche Geräte funktionieren", p: "Mit hoher Wahrscheinlichkeit eines, das Sie schon besitzen. Smart TVs von Samsung und LG, Geräte von Sony, TCL und Hisense unter Android TV oder Google TV, der Amazon Fire TV Stick, Apple TV, MAG-Boxen, Enigma2-Receiver, iPhones, iPads, Android-Geräte und Computer unter Windows, macOS und Linux funktionieren alle. Die App wählen Sie selbst: TiviMate, IBO Player und IPTV Smarters Pro sind etabliert, VLC verarbeitet einen M3U-Link." },
+      { h: "Wie die Aktivierung abläuft", p: "Kein Techniker, kein Zeitfenster. Sie wählen eine Laufzeit, schließen die Zahlung ab, und Ihre Zugangsdaten kommen innerhalb von fünf Minuten per WhatsApp — entweder als Xtream-Codes-Trio oder als M3U-Link. Diese tragen Sie einmal in die App ein, die daraufhin selbstständig Senderliste, mehrtägigen Programmführer sowie Film- und Serienkatalog lädt. Die meisten schauen zehn Minuten nach der Entscheidung." },
+      { h: "Was es gegen eine französische Rechnung kostet", p: "Rechnen Sie einen ehrlichen Monat zusammen: Grundabo, Box-Miete, Sportoptionen und die parallel laufenden Streamingdienste. Viele Haushalte stellen fest, dass der reale Betrag deutlich über dem liegt, was sie zu zahlen glaubten. Ein ATV Corner Jahresabo kostet 60 € — für zwölf Monate. Der Monatstarif liegt bei 15 €, drei Monate bei 30 €, sechs Monate bei 50 €. Jede Laufzeit enthält denselben Katalog und denselben Support." },
+      { h: "Testen, bevor Sie kündigen", p: "Weil IPTV über Ihre Leitung läuft und nicht über die Anbieter-Dose, funktioniert es parallel zu dem, was Sie heute haben. Die Reihenfolge ist damit klar: Starten Sie einen kostenlosen 24-Stunden-Test, lassen Sie ihn ein bis zwei Wochen neben dem bestehenden Angebot laufen — bewusst inklusive eines Spielabends — und entscheiden Sie erst danach. Für den Test ist keine Kreditkarte nötig, dazu kommt eine 7-tägige Geld-zurück-Garantie." },
+      {
+        h: "Mehrere Geräte und Zimmer",
+        p: "Die Zugangsdaten sind an das Abo gebunden und nicht an ein Gerät. Sie hinterlegen sie also auf dem Fernseher im Wohnzimmer, auf einem zweiten Gerät im Schlafzimmer und auf Handy oder Tablet, ohne erneut zu kaufen. Bei einem Anbieter-Paket wäre dafür eine zweite Mietbox samt monatlicher Gebühr fällig. Zu beachten ist allein die Zahl gleichzeitiger Verbindungen: Wenn zwei Personen zur selben Zeit unterschiedliche Sender schauen möchten, brauchen Sie entsprechend mehr davon. Was in Ihrem Haushalt sinnvoll ist, klären wir vor dem Kauf in einer kurzen Nachricht.",
+      },
+      {
+        h: "Wenn Sie im Ausland leben",
+        p: "Ein Fall, der in französischen Vergleichen fast nie vorkommt: Wer außerhalb Frankreichs lebt und französische Programme sehen möchte, findet dafür bei nationalen Anbietern selten eine Lösung, weil deren Angebote an den heimischen Anschluss gebunden sind. Weil IPTV ausschließlich über die Internetverbindung läuft, entfällt diese Bindung — dieselben Zugangsdaten funktionieren dort, wo Sie gerade sind, solange die Leitung stabil ist. Für Auslandsfranzosen und für Haushalte, die ohnehin zwischen zwei Ländern pendeln, ist das häufig der eigentliche Grund für den Wechsel.",
+      },
+    ],
+    faq: [
+      { q: "Funktioniert IPTV in ganz Frankreich?", a: "Ja. Es läuft über Ihre Internetverbindung statt über eine Anbieter-Dose; die Region spielt nur insofern eine Rolle, als Ihr Anschluss stabil sein muss. Rechnen Sie mit 10 Mbit/s für HD und 25 Mbit/s für flüssiges 4K." },
+      { q: "Kann ich Ligue 1 und Champions League sehen?", a: "Ja. Rund 4.200 Sportkanäle sind enthalten und decken französischen und europäischen Fußball sowie NBA, NFL, UFC und Formel 1 ab — ohne separate Sportoptionen." },
+      { q: "Brauche ich eine Box oder einen Techniker?", a: "Weder noch. Ein Smart TV, Fire TV Stick, Apple TV, Handy, Tablet oder Computer genügt, und die Einrichtung erfolgt aus der Ferne in unter 5 Minuten." },
+      { q: "Was kostet IPTV in Frankreich?", a: "Die Abos starten bei 15 € für einen Monat und sinken auf 5 €/Monat im Jahresabo für 60 €. Jedes Abo enthält 66.000+ Sender, 4K/8K und 24/7-Support." },
+      { q: "Reicht ADSL für IPTV?", a: "Für HD ja, ab etwa 10 stabilen Mbit/s. Für flüssiges 4K werden 25 Mbit/s empfohlen, was mit Glasfaser komfortabler ist. Gleichmäßigkeit zählt mehr als der Maximalwert." },
+    ],
+    cta: "Frankreich-Abo starten",
+  },
+  en: {
+    metaTitle: "IPTV France — 66,000+ Channels, Ligue 1 & 4K from $5/mo",
+    metaDesc:
+      "IPTV for France: French and international channels, Ligue 1 and Champions League, 66,000+ channels in 4K/8K. No contract, active in 5 minutes, from $5/mo.",
+    eyebrow: "IPTV France · From $5/mo",
+    h1: "IPTV for",
+    h1Accent: "France",
+    intro:
+      "French and international channels in one subscription, with Ligue 1, the Champions League and 66,000+ channels in 4K/8K — over the broadband you already pay for. No rented box, no contract, activated in under 5 minutes from $5/mo.",
+    cover: "/blog/iptv-france-main-en.jpg",
+    image: {
+      src: "/blog/iptv-france-body-en.jpg",
+      alt: "What a French household replaces with one IPTV subscription: operator package, box rental and paid sport options.",
+      caption: "One subscription in place of an operator package and its add-ons.",
+    },
+    features: [
+      { h: "Ligue 1 and Champions League", p: "Around 4,200 sport channels covering French and European football, F1 and UFC." },
+      { h: "French + international", p: "National and regional programming alongside channels from Europe, North Africa and the Americas." },
+      { h: "4K / 8K Ultra HD", p: "HEVC/H.265 with adaptive bitrate, so a fast counter-attack stays sharp." },
+      { h: "From $5/mo", p: "1, 3, 6 and 12-month plans, no contract, with a 7-day money-back guarantee." },
+    ],
+    sections: [
+      { h: "Why French households are switching", p: "A French operator package rarely stops at its advertised price. Add the box rental, the sport options and the streaming services subscribed alongside, and many households pass $45 to $110 a month without ever seeing it as one bill. IPTV changes the delivery rather than the room: the same television, but the signal arrives over the line already in the house. With ATV Corner that means 66,000+ channels and a library of 70,000+ films and 18,000+ series from $5/mo, with no rented hardware and no lock-in." },
+      { h: "Football, and the rest of the calendar", p: "Sport is where bills inflate, because the fixtures that matter are split across separately sold offerings — following a full season often means two subscriptions. Here around 4,200 sport channels are included by default: Ligue 1, Ligue 2, Coupe de France, Champions League and Europa League, alongside the Premier League, La Liga, Serie A and Bundesliga, plus the NBA, NFL, UFC, Formula 1 and MotoGP. For anyone following more than one competition, that is exactly where the saving sits." },
+      { h: "International channels no package carries", p: "France is among the most diverse countries in Europe, and a channel list that stops at national programming misses much of what households actually watch. Alongside French channels the catalogue carries programming from across Europe, North Africa, the Middle East, sub-Saharan Africa and Latin America. For families who want news or entertainment from where they grew up, that layer generally weighs more than the monthly price." },
+      { h: "Fibre, ADSL and what stability requires", p: "An IPTV stream runs continuously in real time with no large buffer, so consistency matters more than the advertised figure. Plan on around 10 Mbps for HD and at least 25 Mbps for stable 4K, measured on the device you watch on. On fibre the headroom is comfortable; over ADSL, HD remains perfectly workable while 4K becomes demanding. Where the device has an ethernet port, use it — that removes most buffering complaints, especially in the evening." },
+      { h: "Which devices work", p: "Almost certainly one you already own. Samsung and LG smart televisions, Sony, TCL and Hisense sets on Android TV or Google TV, the Amazon Fire TV Stick, Apple TV, MAG boxes, Enigma2 receivers, iPhones, iPads, Android devices and computers on Windows, macOS and Linux all work. The app is your choice: TiviMate, IBO Player and IPTV Smarters Pro are the established options, and VLC handles an M3U link." },
+      { h: "How activation works", p: "No technician and no appointment window. You choose a term, complete payment, and your credentials arrive on WhatsApp within five minutes — either an Xtream Codes trio or an M3U link. You enter those once into your app, which then loads the channel list, a multi-day guide and the film and series catalogue on its own. Most people are watching ten minutes after deciding." },
+      { h: "What it costs against a French bill", p: "Total an honest month: the base subscription, the box rental, the sport options and the streaming services running alongside. Many households find the real figure well above what they thought they paid. An ATV Corner annual plan is $65 — for twelve months. The monthly plan is $16, three months $33, six months $55. Every term carries the same catalogue and the same support." },
+      { h: "Test before cancelling anything", p: "Because IPTV runs over your line rather than the operator socket, it works in parallel with what you have now. The order is therefore clear: start a free 24-hour trial, run it alongside your current offering for a week or two — deliberately including a match night — and only then decide. No credit card is needed for the trial, and a 7-day money-back guarantee applies on top." },
+      {
+        h: "Several devices and rooms",
+        p: "Credentials are tied to the subscription rather than to a device. You can therefore enter them on the living-room television, a second set in the bedroom and a phone or tablet, without buying anything again. With an operator package that would mean a second rented box and a monthly fee. The only thing to watch is the number of simultaneous connections: if two people want different channels at the same moment, you need more of them. What makes sense for your household we settle before purchase in a short message.",
+      },
+      {
+        h: "If you live outside France",
+        p: "A case that almost never appears in French comparisons: anyone living outside France who wants French programming rarely finds a solution with domestic providers, because their offerings are tied to a home connection. Since IPTV runs purely over the internet, that tie disappears — the same credentials work wherever you are, as long as the line is stable. For French expatriates, and for households that split time between two countries, this is frequently the actual reason for switching.",
+      },
+    ],
+    faq: [
+      { q: "Does IPTV work across France?", a: "Yes. It runs over your internet connection rather than an operator socket, so your region matters only insofar as your line is stable. Plan on 10 Mbps for HD and 25 Mbps for smooth 4K." },
+      { q: "Can I watch Ligue 1 and the Champions League?", a: "Yes. Around 4,200 sport channels are included, covering French and European football plus the NBA, NFL, UFC and Formula 1 — with no separate paid sport options." },
+      { q: "Do I need a box or a technician?", a: "Neither. A Smart TV, Fire TV Stick, Apple TV, phone, tablet or computer is enough, and setup is remote in under 5 minutes." },
+      { q: "How much does IPTV cost in France?", a: "Plans start at $16 for one month and drop to about $5/mo on the annual $65 plan. Every plan includes 66,000+ channels, 4K/8K and 24/7 support." },
+      { q: "Is ADSL enough for IPTV?", a: "For HD yes, from around 10 stable Mbps. For smooth 4K, 25 Mbps is recommended, which is more comfortable on fibre. Consistency matters more than the maximum figure." },
+    ],
+    cta: "Start my France subscription",
+  },
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   return content[page][locale];
 }
@@ -3060,4 +3205,5 @@ export const seoPages: Page[] = [
   "iptv-mag-box",
   "iptv-canada",
   "iptv-uk",
+  "iptv-france",
 ];

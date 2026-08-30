@@ -34,6 +34,7 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV pour MAG Box](https://atvcorner.com/fr/iptv-mag-box): URL de portail et adresse MAC, sans application
 - [IPTV Canada](https://atvcorner.com/fr/iptv-canada): LNH, NBA, MLB, MLS et chaînes bilingues en 4K
 - [IPTV Royaume-Uni](https://atvcorner.com/fr/iptv-uk): Premier League, chaînes britanniques et internationales
+- [IPTV France](https://atvcorner.com/fr/iptv-france): Ligue 1, chaînes françaises et internationales en 4K
 - [IPTV Allemagne](https://atvcorner.com/fr/iptv-deutschland): Chaînes allemandes, Bundesliga, 4K/8K dès 5 €/mois
 - [IPTV sur Roku](https://atvcorner.com/fr/iptv-roku): Installer l'IPTV sur un Roku, lecteurs et recours HDMI
 
