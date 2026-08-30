@@ -4899,6 +4899,83 @@ content["iptv-france"].it = {
   cta: "Inizia in Francia",
 };
 
+// --- es/it for /iptv-deutschland --------------------------------------------
+content["iptv-deutschland"].es = {
+  metaTitle: "IPTV Alemania — Bundesliga y canales alemanes en 4K",
+  metaDesc:
+    "IPTV en Alemania: Bundesliga, DFB-Pokal, canales públicos y privados en 4K, más 70.000 películas. Sin permanencia ni receptor, desde 5 €/mes.",
+  eyebrow: "IPTV Alemania · Bundesliga",
+  h1: "IPTV en Alemania",
+  h1Accent: "Bundesliga y canales alemanes",
+  intro:
+    "Canales públicos y privados alemanes, la Bundesliga, la DFB-Pokal y las competiciones europeas en un solo acceso, con 70.000 películas y 18.000 series en 4K. Sin permanencia, desde 5 €/mes.",
+  features: [
+    { h: "Públicos y privados", p: "Generalistas, regionales, informativos 24 h y temáticos." },
+    { h: "Bundesliga", p: "Más DFB-Pokal, Champions League y grandes ligas europeas." },
+    { h: "Sin permanencia", p: "Ni contrato de 12 o 24 meses ni preaviso que recordar." },
+    { h: "En toda Alemania", p: "Llega por internet: no depende del cable de tu edificio." },
+  ],
+  sections: [
+    { h: "Qué cubre el IPTV en Alemania", p: "El panorama alemán combina un sistema público muy sólido con cadenas privadas y una fuerte presencia regional, y los derechos deportivos están repartidos entre varias plataformas de pago. Una suscripción de ATV Corner reúne los canales generalistas públicos y privados, los informativos de veinticuatro horas, la programación regional y los canales temáticos junto a más de 66.000 canales internacionales, en un único acceso." },
+    { h: "La Bundesliga y el fútbol europeo", p: "La Bundesliga y la 2. Bundesliga, la DFB-Pokal y las competiciones europeas de clubes con la Champions League y la Europa League. A eso se suman las grandes ligas del continente, que en la oferta alemana tradicional suelen requerir una plataforma adicional. Nuestros 4.200 canales deportivos están incluidos en cualquier plan, en lugar de venderse como opción deportiva facturada por separado." },
+    { h: "Lo que pagas hoy", p: "Un hogar alemán que quiere fútbol completo y cine paga habitualmente varias decenas de euros al mes, sumando el paquete del operador, una o dos plataformas deportivas para cubrir los partidos repartidos entre emisores distintos, y el alquiler del receptor. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido y sin equipo que devolver al darse de baja." },
+    { h: "El canon de radiodifusión", p: "Conviene ser claro porque genera dudas. El Rundfunkbeitrag es una tasa obligatoria por vivienda, establecida por ley e independiente de qué servicios de televisión contrates o de si ves o no la televisión pública. Cambiar de proveedor no altera esa obligación en ningún sentido, y cualquiera que insinúe lo contrario te está desinformando. Es un asunto que corresponde a la autoridad competente, no a nosotros." },
+    { h: "Canales internacionales, el punto fuerte", p: "Alemania tiene una de las poblaciones de origen extranjero más grandes de Europa, y ahí es donde un catálogo internacional amplio marca la diferencia real frente a un operador nacional. En el mismo acceso conviven canales turcos, árabes, polacos, rusos, italianos, españoles y de muchos otros países, junto a los alemanes. Es exactamente el terreno donde los paquetes convencionales se quedan cortos o cobran suplementos por cada idioma añadido." },
+    { h: "Qué conexión necesitas", p: "Unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el televisor donde vas a ver y no en el router. La cobertura de fibra en Alemania sigue siendo desigual y muchas zonas dependen todavía de VDSL, así que conviene medir antes de contratar nada. Si tu línea va justa, quédate en HD en lugar de forzar 4K, y conecta el televisor por cable Ethernet siempre que sea posible." },
+    { h: "En qué dispositivos funciona", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2 y ordenadores con Windows, macOS o Linux. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IPTV Smarters Pro por su facilidad de configuración, IBO Player y VLC. Tus credenciales no están vinculadas a un aparato concreto." },
+    { h: "Ver canales alemanes desde fuera", p: "Las mismas credenciales funcionan desde cualquier país con conexión a internet. Es un uso habitual entre alemanes que viven o trabajan en el extranjero y quieren seguir los informativos y la Bundesliga en su idioma, sin depender de qué operador local tenga acuerdos con las cadenas alemanas. No hace falta cambiar de plan ni pagar un suplemento por verlo fuera de Alemania." },
+    { h: "Dejar tu proveedor sin quedarte sin nada", p: "El orden importa, porque los contratos alemanes suelen incluir un plazo mínimo y un preaviso formal. Activa primero la prueba gratuita de 24 horas y compruébala durante una jornada de Bundesliga, no un martes por la mañana. Si convence, contrata un mes y convive unas semanas con tu servicio actual. Solo entonces cursa la baja por escrito, respetando el preaviso y devolviendo el receptor dentro del plazo para evitar cargos." },
+    { h: "Cómo comprobarlo antes de pagar", p: "La prueba gratuita de 24 horas no pide tarjeta de crédito y da acceso al catálogo completo. El momento en que la actives decide lo que vale: elige deliberadamente una tarde de Bundesliga o una noche de Champions, porque es entonces cuando miles de espectadores piden el mismo flujo y la capacidad de los servidores se pone realmente a prueba. Comprueba que tus canales habituales estén y funcionen, que la guía de programación aparezca rellenada varios días y que la imagen aguante diez minutos seguidos de juego. Si esas tres comprobaciones salen bien en el peor momento posible, saldrán bien el resto del tiempo." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes. Los cuatro planes incluyen el mismo catálogo de 66.000+ canales, 4.200 deportivos, 70.000 películas y 18.000 series en 4K/8K, con soporte 24/7. Sin permanencia y sin renovación automática: el acceso caduca solo. Garantía de devolución de 7 días desde la compra." },
+  ],
+  faq: [
+    { q: "¿Puedo ver la Bundesliga?", a: "Sí. Los 4.200 canales deportivos cubren la Bundesliga, la 2. Bundesliga, la DFB-Pokal y las competiciones europeas de clubes, incluidos en cualquier plan sin coste adicional." },
+    { q: "¿Tengo que pagar el Rundfunkbeitrag igualmente?", a: "El canon de radiodifusión es una tasa obligatoria por vivienda, establecida por ley e independiente de los servicios de televisión que contrates. Cambiar de proveedor no altera esa obligación." },
+    { q: "¿Hay canales en otros idiomas?", a: "Sí, y es uno de los puntos fuertes: canales turcos, árabes, polacos, rusos, italianos, españoles y de muchos otros países conviven con los alemanes en el mismo acceso." },
+    { q: "¿Funciona con VDSL?", a: "Sí, en HD, que necesita unos 10 Mbps estables. Para 4K hacen falta 25 Mbps, así que con una línea justa conviene quedarse en HD." },
+    { q: "¿Puedo ver canales alemanes desde el extranjero?", a: "Sí. Las mismas credenciales funcionan desde cualquier país con conexión, sin cambiar de plan ni pagar un suplemento." },
+  ],
+  cta: "Empezar en Alemania",
+};
+
+content["iptv-deutschland"].it = {
+  metaTitle: "IPTV Germania — Bundesliga e canali tedeschi in 4K",
+  metaDesc:
+    "IPTV in Germania: Bundesliga, DFB-Pokal, canali pubblici e privati in 4K, più 70.000 film. Senza vincoli né ricevitore, da 5 €/mese.",
+  eyebrow: "IPTV Germania · Bundesliga",
+  h1: "IPTV in Germania",
+  h1Accent: "Bundesliga e canali tedeschi",
+  intro:
+    "Canali pubblici e privati tedeschi, la Bundesliga, la DFB-Pokal e le competizioni europee in un solo accesso, con 70.000 film e 18.000 serie in 4K. Senza vincoli, da 5 €/mese.",
+  features: [
+    { h: "Pubblici e privati", p: "Generalisti, regionali, informazione 24 h e tematici." },
+    { h: "Bundesliga", p: "Più DFB-Pokal, Champions League e grandi campionati europei." },
+    { h: "Senza vincoli", p: "Né contratto da 12 o 24 mesi né preavviso da ricordare." },
+    { h: "In tutta la Germania", p: "Arriva via internet: non dipende dal cavo del tuo edificio." },
+  ],
+  sections: [
+    { h: "Cosa copre l'IPTV in Germania", p: "Il panorama tedesco combina un sistema pubblico molto solido con emittenti private e una forte presenza regionale, e i diritti sportivi sono divisi tra più piattaforme a pagamento. Un abbonamento ATV Corner riunisce i canali generalisti pubblici e privati, l'informazione ventiquattr'ore, la programmazione regionale e i canali tematici insieme a oltre 66.000 canali internazionali, in un unico accesso." },
+    { h: "La Bundesliga e il calcio europeo", p: "La Bundesliga e la 2. Bundesliga, la DFB-Pokal e le competizioni europee per club con Champions League ed Europa League. A questi si aggiungono i maggiori campionati continentali, che nell'offerta tedesca tradizionale richiedono di norma una piattaforma aggiuntiva. I nostri 4.200 canali sportivi sono inclusi in qualsiasi piano, invece di essere venduti come opzione sport fatturata separatamente." },
+    { h: "Quanto paghi oggi", p: "Una famiglia tedesca che vuole il calcio completo e il cinema paga abitualmente diverse decine di euro al mese, sommando il pacchetto dell'operatore, una o due piattaforme sportive per coprire le partite distribuite tra emittenti diverse, e il noleggio del ricevitore. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso e nessun apparecchio da restituire alla disdetta." },
+    { h: "Il canone di radiodiffusione", p: "Conviene essere chiari perché genera dubbi. Il Rundfunkbeitrag è un contributo obbligatorio per abitazione, stabilito per legge e indipendente da quali servizi televisivi sottoscrivi o dal fatto che tu guardi o meno la televisione pubblica. Cambiare fornitore non modifica quell'obbligo in alcun senso, e chiunque lasci intendere il contrario ti sta disinformando. È una materia che compete all'autorità competente, non a noi." },
+    { h: "Canali internazionali, il punto di forza", p: "La Germania ha una delle popolazioni di origine straniera più numerose d'Europa, ed è lì che un catalogo internazionale ampio fa la differenza reale rispetto a un operatore nazionale. Nello stesso accesso convivono canali turchi, arabi, polacchi, russi, italiani, spagnoli e di molti altri paesi, accanto a quelli tedeschi. È esattamente il terreno su cui i pacchetti convenzionali restano indietro o applicano supplementi per ogni lingua aggiunta." },
+    { h: "Quale connessione serve", p: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul televisore su cui guarderai e non sul router. La copertura in fibra in Germania resta disomogenea e molte zone dipendono ancora dal VDSL, quindi conviene misurare prima di sottoscrivere qualsiasi cosa. Se la tua linea è al limite, resta in HD invece di forzare il 4K, e collega il televisore via cavo Ethernet ogni volta che è possibile." },
+    { h: "Su quali dispositivi funziona", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2 e computer con Windows, macOS o Linux. Le app consigliate sono TiviMate per l'interfaccia da televisore, IPTV Smarters Pro per la facilità di configurazione, IBO Player e VLC. Le tue credenziali non sono legate a un apparecchio specifico." },
+    { h: "Guardare canali tedeschi dall'estero", p: "Le stesse credenziali funzionano da qualsiasi paese con una connessione internet. È un uso abituale tra tedeschi che vivono o lavorano all'estero e vogliono seguire i telegiornali e la Bundesliga nella propria lingua, senza dipendere da quale operatore locale abbia accordi con le emittenti tedesche. Non serve cambiare piano né pagare un supplemento per guardarlo fuori dalla Germania." },
+    { h: "Lasciare il fornitore senza restare senza nulla", p: "L'ordine conta, perché i contratti tedeschi prevedono di norma una durata minima e un preavviso formale. Attiva prima la prova gratuita di 24 ore e verificala durante una giornata di Bundesliga, non un martedì mattina. Se convince, acquista un mese e convivi qualche settimana con il servizio attuale. Solo allora invia la disdetta per iscritto, rispettando il preavviso e restituendo il ricevitore entro i termini per evitare addebiti." },
+    { h: "Come verificarlo prima di pagare", p: "La prova gratuita di 24 ore non richiede carta di credito e dà accesso al catalogo completo. Il momento in cui la attivi decide quanto vale: scegli deliberatamente un pomeriggio di Bundesliga o una serata di Champions, perché è allora che migliaia di spettatori richiedono lo stesso flusso e la capacità dei server viene messa davvero alla prova. Verifica che i tuoi canali abituali ci siano e funzionino, che la guida ai programmi risulti popolata su più giorni e che l'immagine regga dieci minuti consecutivi di gioco. Se queste tre verifiche passano nel momento peggiore possibile, passeranno anche nel resto del tempo." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese. Tutti e quattro i piani includono lo stesso catalogo di 66.000+ canali, 4.200 sportivi, 70.000 film e 18.000 serie in 4K/8K, con assistenza 24/7. Senza vincoli e senza rinnovo automatico: l'accesso scade da solo. Garanzia di rimborso di 7 giorni dall'acquisto." },
+  ],
+  faq: [
+    { q: "Posso guardare la Bundesliga?", a: "Sì. I 4.200 canali sportivi coprono Bundesliga, 2. Bundesliga, DFB-Pokal e competizioni europee per club, inclusi in qualsiasi piano senza costi aggiuntivi." },
+    { q: "Devo pagare comunque il Rundfunkbeitrag?", a: "Il canone di radiodiffusione è un contributo obbligatorio per abitazione, stabilito per legge e indipendente dai servizi televisivi che sottoscrivi. Cambiare fornitore non modifica quell'obbligo." },
+    { q: "Ci sono canali in altre lingue?", a: "Sì, ed è uno dei punti di forza: canali turchi, arabi, polacchi, russi, italiani, spagnoli e di molti altri paesi convivono con quelli tedeschi nello stesso accesso." },
+    { q: "Funziona con il VDSL?", a: "Sì, in HD, che richiede circa 10 Mbps stabili. Per il 4K servono 25 Mbps, quindi con una linea al limite conviene restare in HD." },
+    { q: "Posso guardare canali tedeschi dall'estero?", a: "Sì. Le stesse credenziali funzionano da qualsiasi paese con una connessione, senza cambiare piano né pagare un supplemento." },
+  ],
+  cta: "Inizia in Germania",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
