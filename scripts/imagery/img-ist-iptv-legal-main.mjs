@@ -23,5 +23,17 @@ await make({
       cardTitle: "La technologie n'est pas en cause",
       lines: ["Ce qui compte est le fournisseur,", "pas le mode de diffusion."],
     },
+    es: {
+      title: "¿Es legal el IPTV? En breve",
+      pill: "Tecnología: sí",
+      cardTitle: "La tecnología no está en duda",
+      lines: ["Lo que cuenta es el proveedor,", "no el modo de difusión."],
+    },
+    it: {
+      title: "L'IPTV è legale? In breve",
+      pill: "Tecnologia: sì",
+      cardTitle: "La tecnologia non è in discussione",
+      lines: ["Ciò che conta è il fornitore,", "non il modo di diffusione."],
+    },
   },
 });

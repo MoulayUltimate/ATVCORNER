@@ -23,5 +23,17 @@ await make({
       cardTitle: "Comment repérer le sérieux",
       lines: ["1  Paiements régulés", "2  HTTPS, pas non sécurisé", "3  Support joignable", "4  Essai avant achat"],
     },
+    es: {
+      title: "Seis comprobaciones antes de comprar",
+      pill: "Comprobable en 10 min",
+      cardTitle: "Cómo reconocer la seriedad",
+      lines: ["1  Pagos regulados", "2  HTTPS, no sin cifrar", "3  Soporte localizable", "4  Prueba antes de comprar"],
+    },
+    it: {
+      title: "Sei verifiche prima di comprare",
+      pill: "Verificabile in 10 min",
+      cardTitle: "Come riconoscere la serietà",
+      lines: ["1  Pagamenti regolamentati", "2  HTTPS, non in chiaro", "3  Assistenza raggiungibile", "4  Prova prima dell'acquisto"],
+    },
   },
 });
