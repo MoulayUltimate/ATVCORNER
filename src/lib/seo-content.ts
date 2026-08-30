@@ -5146,6 +5146,92 @@ content["iptv-espana"].de = {
   cta: "In Spanien starten",
 };
 
+content["iptv-italia"].fr = {
+  metaTitle: "IPTV Italie — 66 000 chaînes, Serie A et 4K dès 5 €/mois",
+  metaDesc:
+    "IPTV en Italie avec 66 000+ chaînes : Serie A, Champions League, chaînes italiennes et 70 000 films en 4K. Activation en 5 minutes, essai gratuit 24 h.",
+  eyebrow: "IPTV Italie · Dès 5 €/mois",
+  h1: "IPTV en Italie",
+  h1Accent: "chaînes et football en 4K",
+  intro:
+    "Chaînes italiennes, Serie A et compétitions européennes, plus 70 000 films et 18 000 séries en 4K, sur un seul accès. Sans engagement, sans installateur et sans décodeur : activé sur WhatsApp en moins de cinq minutes, dès 5 €/mois.",
+  features: [
+    { h: "Chaînes italiennes", p: "Généralistes, information, jeunesse, sport et thématiques." },
+    { h: "Serie A et Champions", p: "4 200 chaînes sport avec le football national et européen." },
+    { h: "Sans engagement", p: "Aucun contrat de 12 ou 24 mois, aucun préavis à retenir." },
+    { h: "Actif en 5 minutes", p: "Identifiants sur WhatsApp, sur le matériel que vous avez déjà." },
+  ],
+  cover: "/blog/iptv-italia-main-en.jpg",
+  image: {
+    src: "/blog/iptv-italia-body-en.jpg",
+    alt: "Ce que couvre l'IPTV en Italie : chaînes généralistes et thématiques, 4 200 chaînes sport avec la Serie A et la Champions League, et 70 000 films en 4K/8K.",
+    caption: "Chaînes italiennes, sport et vidéothèque en un seul accès.",
+  },
+  sections: [
+    { h: "Ce que couvre l'IPTV en Italie", p: "Un abonnement ATV Corner rassemble dans une seule liste ce que le marché italien répartit habituellement entre plusieurs contrats. On y trouve les chaînes généralistes en clair, l'information en continu, les programmes jeunesse et une large offre thématique de documentaires, de cinéma et de séries. S'y ajoutent plus de 66 000 chaînes internationales : vous suivez donc la télévision d'autres pays sur le même accès, un terrain qu'aucun opérateur national ne couvre vraiment bien." },
+    { h: "Football : Serie A et compétitions européennes", p: "Le football est la raison pour laquelle la plupart des foyers italiens paient la télévision, et c'est aussi ce qui alourdit la facture, car les droits sont répartis entre opérateurs et suivre un championnat entier réclame souvent deux abonnements. Nos 4 200 chaînes sport comprennent la Serie A, la Champions League, l'Europa League, la Coppa Italia et les grands championnats européens, avec la Premier League, LaLiga, la Bundesliga et la Ligue 1." },
+    { h: "Ce que vous payez aujourd'hui et ce que vous paieriez", p: "Sur le marché italien, suivre le football en entier tout en ayant le cinéma et les séries revient généralement à cumuler plusieurs abonnements, pour un total de plusieurs dizaines d'euros par mois, souvent avec la location du décodeur en plus et un tarif promotionnel qui augmente après la première année. Une formule annuelle ATV Corner coûte 60 €, soit 5 €/mois, sport inclus et sans matériel à louer." },
+    { h: "Là où la télévision traditionnelle passe mal", p: "L'IPTV transite par internet : elle ne dépend donc ni de l'orientation d'une parabole ni de la couverture de la TNT dans votre zone. Cela compte surtout en montagne et dans les petites communes, où la réception terrestre a toujours été plus irrégulière, ainsi que pour les Italiens vivant à l'étranger : les mêmes identifiants donnent accès aux chaînes italiennes depuis n'importe quel pays." },
+    { h: "Quelle connexion en Italie", p: "La règle pratique est de 10 Mbps stables pour la HD et 25 Mbps pour la 4K, mesurés sur l'appareil où vous regardez et non sur la box. La couverture fibre italienne a beaucoup progressé mais reste inégale : mieux vaut donc mesurer avant de souscrire. Quand des problèmes apparaissent, la cause est presque toujours le wifi et non le débit souscrit ; si le téléviseur est loin de la box, un câble Ethernet règle plus de choses que n'importe quel réglage." },
+    { h: "Sur quels appareils cela fonctionne", p: "Smart TV Samsung, LG et Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, récepteurs Enigma2 et ordinateurs sous Windows, macOS ou Linux. Les applications recommandées sont TiviMate pour son interface télé, IPTV Smarters Pro pour sa simplicité de configuration, IBO Player et VLC. Les identifiants ne sont pas liés à un appareil : vous pouvez commencer un match au salon et le finir sur le téléphone." },
+    { h: "Quitter son opérateur sans se retrouver sans télévision", p: "L'ordre compte, car les contrats italiens prévoient généralement un préavis et parfois un engagement encore actif. Activez d'abord l'essai gratuit de 24 heures et testez-le aux heures de pointe ou pendant un match. Si cela convainc, prenez un mois d'IPTV et faites cohabiter les deux services quelques semaines. Ce n'est qu'ensuite qu'il faut résilier, après avoir vérifié les conditions du contrat pour éviter les pénalités." },
+    { h: "Comment vérifier avant de payer", p: "Demandez l'essai gratuit de 24 heures, qui ne réclame aucune carte bancaire, et lancez-le délibérément au moment où vous regardez vraiment la télévision : à l'heure du match, pas un mardi matin. Vérifiez que vos chaînes habituelles sont présentes et fonctionnelles, que le guide des programmes est rempli sur plusieurs jours et que l'image tient dix minutes d'affilée de football. Ensuite, l'abonnement coûte à partir de 15 € par mois ou 5 €/mois en formule annuelle." },
+    { h: "Tarifs et conditions", p: "Quatre durées : 15 € pour un mois, 30 € pour trois, 50 € pour six et 60 € pour douze. Les quatre formules comprennent exactement le même catalogue de 66 000+ chaînes, la même qualité 4K/8K et le même support 24/7 ; seul le coût mensuel change. Il n'y a pas de reconduction automatique : l'accès expire de lui-même et c'est vous qui décidez de revenir. La note moyenne du service est de 4,9/5 sur plus de 2 800 avis, pour 12 000 abonnés." },
+  ],
+  faq: [
+    { q: "L'IPTV fonctionne-t-elle en Italie ?", a: "Oui. Elle passe par votre connexion internet et fonctionne donc dans toute l'Italie sans parabole ni décodeur, y compris dans les zones où la TNT est mal reçue. 10 Mbps stables suffisent pour la HD et 25 Mbps pour la 4K." },
+    { q: "Puis-je regarder la Serie A et la Champions League ?", a: "Oui. Les 4 200 chaînes sport comprennent la Serie A, la Champions League, l'Europa League, la Coppa Italia et les grands championnats européens, sans coût supplémentaire sur la formule choisie." },
+    { q: "Combien coûte l'IPTV en Italie ?", a: "De 15 € pour un mois à 60 € pour douze, soit 5 €/mois en formule annuelle. Le sport est inclus au lieu d'être facturé à part comme c'est l'usage." },
+    { q: "Puis-je regarder les chaînes italiennes depuis l'étranger ?", a: "Oui. Les mêmes identifiants fonctionnent depuis n'importe quel pays disposant d'une connexion internet, sans changer d'abonnement." },
+    { q: "Y a-t-il un engagement ou des frais de résiliation ?", a: "Non. Aucun engagement et aucune reconduction automatique : l'accès expire seul. Les sept premiers jours sont couverts par une garantie satisfait ou remboursé intégrale." },
+  ],
+  cta: "Démarrer en Italie",
+};
+
+content["iptv-italia"].de = {
+  metaTitle: "IPTV Italien — 66.000 Sender, Serie A und 4K ab 5 €/Monat",
+  metaDesc:
+    "IPTV in Italien mit 66.000+ Sendern: Serie A, Champions League, italienische Sender und 70.000 Filme in 4K. Aktivierung in 5 Minuten, 24-Stunden-Gratistest.",
+  eyebrow: "IPTV Italien · Ab 5 €/Monat",
+  h1: "IPTV in Italien",
+  h1Accent: "Sender und Fußball in 4K",
+  intro:
+    "Italienische Sender, Serie A und europäische Wettbewerbe, dazu 70.000 Filme und 18.000 Serien in 4K, über einen einzigen Zugang. Ohne Vertragsbindung, ohne Techniker und ohne Receiver: in unter fünf Minuten per WhatsApp aktiviert, ab 5 €/Monat.",
+  features: [
+    { h: "Italienische Sender", p: "Vollprogramme, Nachrichten, Kinder, Sport und Spartenkanäle." },
+    { h: "Serie A und Champions", p: "4.200 Sportsender mit nationalem und europäischem Fußball." },
+    { h: "Ohne Bindung", p: "Kein 12- oder 24-Monats-Vertrag, keine Kündigungsfrist im Kalender." },
+    { h: "In 5 Minuten aktiv", p: "Zugangsdaten per WhatsApp, auf Geräten, die Sie schon besitzen." },
+  ],
+  cover: "/blog/iptv-italia-main-en.jpg",
+  image: {
+    src: "/blog/iptv-italia-body-en.jpg",
+    alt: "Was IPTV in Italien abdeckt: Vollprogramme und Spartenkanäle, 4.200 Sportkanäle mit Serie A und Champions League sowie 70.000 Filme in 4K/8K.",
+    caption: "Italienische Sender, Sport und Mediathek in einem Zugang.",
+  },
+  sections: [
+    { h: "Was IPTV in Italien abdeckt", p: "Ein ATV-Corner-Abo bündelt in einer Liste, was der italienische Markt üblicherweise auf mehrere Verträge verteilt. Dazu gehören die frei empfangbaren Vollprogramme, Nachrichtensender rund um die Uhr, Kinderprogramme und ein breites Spartenangebot aus Dokumentationen, Kino und Serien. Hinzu kommen über 66.000 internationale Sender: Sie verfolgen Fernsehen aus anderen Ländern über denselben Zugang, ein Feld, das kein nationaler Anbieter wirklich gut abdeckt." },
+    { h: "Fußball: Serie A und europäische Wettbewerbe", p: "Fußball ist der Grund, warum die meisten italienischen Haushalte für Fernsehen zahlen, und zugleich das, was die Rechnung nach oben treibt: Die Rechte sind auf verschiedene Anbieter verteilt, und eine ganze Saison zu verfolgen erfordert oft zwei Abos. Unsere 4.200 Sportsender umfassen Serie A, Champions League, Europa League, Coppa Italia sowie die großen europäischen Ligen mit Premier League, LaLiga, Bundesliga und Ligue 1." },
+    { h: "Was Sie heute zahlen und was Sie zahlen würden", p: "Auf dem italienischen Markt bedeutet vollständiger Fußball plus Kino und Serien in der Regel, mehrere Abos zu stapeln, mit einer Summe im Bereich mehrerer Dutzend Euro pro Monat, oft zuzüglich Receiver-Miete und mit einem Aktionspreis, der nach dem ersten Jahr steigt. Ein Jahrestarif von ATV Corner kostet 60 €, also 5 €/Monat, inklusive Sport und ohne Mietgerät." },
+    { h: "Wo klassisches Fernsehen schlecht ankommt", p: "IPTV läuft über das Internet und hängt damit weder von der Ausrichtung einer Satellitenschüssel noch von der DVB-T-Abdeckung in Ihrer Gegend ab. Das zählt vor allem in Bergregionen und kleineren Orten, wo der terrestrische Empfang seit jeher unzuverlässiger ist, und für Italiener im Ausland: Dieselben Zugangsdaten öffnen italienische Sender aus jedem Land." },
+    { h: "Welche Verbindung Sie in Italien brauchen", p: "Als Faustregel gelten 10 Mbit/s stabil für HD und 25 Mbit/s für 4K, gemessen an dem Gerät, an dem Sie schauen, nicht am Router. Die italienische Glasfaserabdeckung ist in den letzten Jahren stark gewachsen, bleibt aber uneinheitlich — messen lohnt sich also vor dem Kauf. Treten Probleme auf, liegt die Ursache fast immer am WLAN und nicht an der gebuchten Bandbreite." },
+    { h: "Auf welchen Geräten es läuft", p: "Smart TVs von Samsung, LG und Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2-Receiver sowie Computer unter Windows, macOS oder Linux. Empfohlene Apps sind TiviMate für die TV-Oberfläche, IPTV Smarters Pro für die einfache Einrichtung, IBO Player und VLC. Die Zugangsdaten sind nicht an ein Gerät gebunden: Sie können ein Spiel im Wohnzimmer beginnen und am Telefon beenden." },
+    { h: "Den Anbieter wechseln, ohne ohne Fernsehen dazustehen", p: "Die Reihenfolge zählt, denn italienische Verträge sehen meist eine Kündigungsfrist und mitunter eine noch laufende Bindung vor. Starten Sie zuerst den kostenlosen 24-Stunden-Test und prüfen Sie ihn zur Hauptsendezeit oder während eines Spiels. Überzeugt er, buchen Sie einen Monat IPTV und lassen beide Dienste einige Wochen nebeneinander laufen. Erst danach kündigen Sie, nach Prüfung der Vertragsbedingungen." },
+    { h: "Mehrere Geräte im selben Haushalt", p: "Ein Abo hängt an Ihren Zugangsdaten, nicht an einem bestimmten Gerät. Sie können dieselben Daten am Fernseher im Wohnzimmer, an einem Telefon und an einem Tablet eintragen und auf jedem davon weiterschauen, ohne etwas nachzukaufen. Zu bedenken ist allein die Zahl gleichzeitiger Verbindungen: Wollen mehrere Personen zur selben Zeit unterschiedliche Sender sehen, brauchen Sie entsprechend mehr. Fragen Sie im Zweifel vor dem Kauf, dann klären wir das in einer Nachricht." },
+    { h: "Wie Sie es vor dem Kauf prüfen", p: "Fordern Sie den kostenlosen 24-Stunden-Test an, der keine Kreditkarte verlangt, und starten Sie ihn bewusst dann, wenn Sie wirklich fernsehen: zur Anstoßzeit, nicht an einem Dienstagvormittag. Prüfen Sie, ob Ihre gewohnten Sender vorhanden sind und laufen, ob die Programmzeitschrift über mehrere Tage gefüllt ist und ob das Bild zehn Minuten Fußball am Stück durchhält. Danach kostet das Abo ab 15 € im Monat oder 5 €/Monat im Jahrestarif." },
+    { h: "Was Sie behalten und was wegfällt", p: "Sie behalten die Sender, die Programmzeitschrift, das Umschalten und die Mediathek und gewinnen ein internationales Angebot dazu, das kein nationaler Anbieter erreicht. Nicht mit umziehen lassen sich die Funktionen, die an der Hardware des Anbieters hängen: die Aufnahme auf der Festplatte des Receivers und einige proprietäre Eigenheiten seiner Oberfläche. Viele IPTV-Apps bieten Alternativen, aber das sollte man vor dem Wechsel wissen statt danach. Für die meisten Haushalte ist es kein Hindernis; wer viel aufzeichnet, sollte es einplanen." },
+    { h: "Preise und Konditionen", p: "Vier Laufzeiten: 15 € für einen Monat, 30 € für drei, 50 € für sechs und 60 € für zwölf. Alle vier enthalten exakt denselben Katalog mit 66.000+ Sendern, dieselbe 4K/8K-Qualität und denselben Support rund um die Uhr; nur die monatlichen Kosten unterscheiden sich. Es gibt keine automatische Verlängerung: Der Zugang läuft von selbst aus. Die Durchschnittsbewertung liegt bei 4,9/5 aus über 2.800 Bewertungen, bei 12.000 Abonnenten." },
+  ],
+  faq: [
+    { q: "Funktioniert IPTV in Italien?", a: "Ja. Es läuft über Ihre Internetverbindung und funktioniert damit in ganz Italien ohne Satellitenschüssel oder Receiver, auch dort, wo DVB-T schlecht ankommt. 10 Mbit/s stabil genügen für HD, 25 Mbit/s für 4K." },
+    { q: "Kann ich die Serie A und die Champions League sehen?", a: "Ja. Die 4.200 Sportsender umfassen Serie A, Champions League, Europa League, Coppa Italia und die großen europäischen Ligen, ohne Aufpreis auf den gewählten Tarif." },
+    { q: "Was kostet IPTV in Italien?", a: "Von 15 € für einen Monat bis 60 € für zwölf, also 5 €/Monat im Jahrestarif. Sport ist enthalten statt separat berechnet, wie sonst üblich." },
+    { q: "Kann ich italienische Sender aus dem Ausland sehen?", a: "Ja. Dieselben Zugangsdaten funktionieren aus jedem Land mit Internetverbindung, ohne Abowechsel und ohne Abhängigkeit vom lokalen Anbieter." },
+    { q: "Gibt es eine Bindung oder Kündigungsgebühren?", a: "Nein. Keine Bindung und keine automatische Verlängerung: Der Zugang läuft von selbst aus. Die ersten sieben Tage deckt eine vollständige Geld-zurück-Garantie ab." },
+  ],
+  cta: "In Italien starten",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
