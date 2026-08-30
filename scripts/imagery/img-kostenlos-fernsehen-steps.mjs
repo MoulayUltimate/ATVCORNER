@@ -2,14 +2,14 @@
  * DESCRIPTIVE in-body image for "Kostenlos fernsehen" — the three free routes
  * and the gap they share. Base: Unsplash qyMLSH9DMmo (aerial + dish, open sky).
  * Aerial mast sits at ~x 95, y 120; dish at ~x 250, y 130 in 600-space.
- *   node scripts/imagery/img-kostenlos-fernsehen-steps.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-kostenlos-fernsehen-steps.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, leader, marker, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -29,6 +29,18 @@ const STR = {
     cardTitle: "Ce que couvre chaque option",
     lines: ["1  Antenne TNT — sans internet", "2  Replay — durée limitée", "3  Streaming pub — coupures imposées", "✕  Sport en direct : dans aucune"],
     pill: "Antenne = gratuit",
+  },
+  es: {
+    title: "Las tres vías gratuitas",
+    cardTitle: "Qué cubre cada opción",
+    lines: ["1  TDT — sin internet", "2  Plataformas a la carta — con caducidad", "3  TV con anuncios — no se saltan", "✕  Deporte en directo: en ninguna"],
+    pill: "TDT = gratis",
+  },
+  it: {
+    title: "Le tre vie gratuite",
+    cardTitle: "Cosa copre ogni opzione",
+    lines: ["1  Digitale terrestre — senza internet", "2  On demand — con scadenza", "3  TV con pubblicità — non saltabile", "✕  Sport in diretta: in nessuna"],
+    pill: "Terrestre = gratis",
   },
 }[locale];
 

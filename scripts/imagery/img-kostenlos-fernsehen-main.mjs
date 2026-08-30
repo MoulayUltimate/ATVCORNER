@@ -1,14 +1,14 @@
 /**
  * MAIN / cover for "Kostenlos fernsehen".
  * Base: Unsplash G0hS-5j0sT0 (person watching on a laptop on the sofa).
- *   node scripts/imagery/img-kostenlos-fernsehen-main.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-kostenlos-fernsehen-main.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -28,6 +28,18 @@ const STR = {
     pill: "Légal & gratuit",
     cardTitle: "Le gratuit couvre beaucoup, pas tout",
     lines: ["Antenne, replay et streaming publicitaire :", "le sport en direct manque aux trois."],
+  },
+  es: {
+    title: "TV gratis — qué funciona de verdad",
+    pill: "Legal y gratis",
+    cardTitle: "Lo gratis cubre mucho, pero no todo",
+    lines: ["TDT, plataformas a la carta y TV con anuncios:", "a las tres les falta el deporte en directo."],
+  },
+  it: {
+    title: "TV gratis — cosa funziona davvero",
+    pill: "Legale e gratis",
+    cardTitle: "Il gratis copre molto, ma non tutto",
+    lines: ["Digitale terrestre, on demand e TV con pubblicità:", "a tutte e tre manca lo sport in diretta."],
   },
 }[locale];
 
