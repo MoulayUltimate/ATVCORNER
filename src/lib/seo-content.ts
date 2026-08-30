@@ -44,7 +44,8 @@ export type Page =
   | "iptv-uk"
   | "iptv-france";
 
-const content: Record<Page, Record<Locale, SeoContent>> = {} as Record<Page, Record<Locale, SeoContent>>;
+const content: Record<Page, Partial<Record<Locale, SeoContent>>> =
+  {} as Record<Page, Partial<Record<Locale, SeoContent>>>;
 
 Object.assign(content, {
   // ===========================================================================
@@ -3176,8 +3177,28 @@ content["iptv-france"] = {
   },
 };
 
+/**
+ * Locales fall back when a translation has not landed yet, so adding a locale
+ * never breaks the build or 500s a page. es/it fall back to English.
+ */
+const FALLBACK: Record<Locale, Locale[]> = {
+  fr: ["en"],
+  en: ["fr"],
+  de: ["en", "fr"],
+  es: ["en", "fr"],
+  it: ["en", "fr"],
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
-  return content[page][locale];
+  const byLocale = content[page];
+  const hit = byLocale[locale];
+  if (hit) return hit;
+  for (const alt of FALLBACK[locale] ?? []) {
+    const f = byLocale[alt];
+    if (f) return f;
+  }
+  // Every page is authored in at least one locale; this is unreachable in practice.
+  return Object.values(byLocale)[0] as SeoContent;
 }
 
 /** Public alias — the union of every SEO landing page slug. */

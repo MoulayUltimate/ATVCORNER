@@ -23,6 +23,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/terms",
         "en-US": "/en/terms",
         "de-DE": "/de/terms",
+        "es-ES": "/es/terms",
+        "it-IT": "/it/terms",
       },
     },
   };

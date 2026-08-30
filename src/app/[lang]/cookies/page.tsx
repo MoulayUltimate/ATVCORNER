@@ -24,6 +24,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/cookies",
         "en-US": "/en/cookies",
         "de-DE": "/de/cookies",
+        "es-ES": "/es/cookies",
+        "it-IT": "/it/cookies",
       },
     },
   };

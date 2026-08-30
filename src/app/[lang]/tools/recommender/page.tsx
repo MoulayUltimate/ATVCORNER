@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: t.metaDesc[lang],
     alternates: {
       canonical: `/${lang}/tools/recommender`,
-      languages: { "fr-FR": "/fr/tools/recommender", "en-US": "/en/tools/recommender", "de-DE": "/de/tools/recommender" },
+      languages: { "fr-FR": "/fr/tools/recommender", "en-US": "/en/tools/recommender", "de-DE": "/de/tools/recommender" , "es-ES": "/es/tools/recommender", "it-IT": "/it/tools/recommender" },
     },
     openGraph: { title: t.metaTitle[lang], description: t.metaDesc[lang], url: `/${lang}/tools/recommender`, type: "website" },
   };

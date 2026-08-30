@@ -24,6 +24,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/refund",
         "en-US": "/en/refund",
         "de-DE": "/de/refund",
+        "es-ES": "/es/refund",
+        "it-IT": "/it/refund",
       },
     },
   };

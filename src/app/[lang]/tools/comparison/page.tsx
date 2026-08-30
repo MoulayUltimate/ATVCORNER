@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: t.metaDesc[lang],
     alternates: {
       canonical: `/${lang}/tools/comparison`,
-      languages: { "fr-FR": "/fr/tools/comparison", "en-US": "/en/tools/comparison", "de-DE": "/de/tools/comparison" },
+      languages: { "fr-FR": "/fr/tools/comparison", "en-US": "/en/tools/comparison", "de-DE": "/de/tools/comparison" , "es-ES": "/es/tools/comparison", "it-IT": "/it/tools/comparison" },
     },
     openGraph: { title: t.metaTitle[lang], description: t.metaDesc[lang], url: `/${lang}/tools/comparison`, type: "website" },
   };

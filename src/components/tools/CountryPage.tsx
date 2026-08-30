@@ -4,15 +4,17 @@ import type { CountryData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
 import { getCountryExtras } from "@/data/tools/seoExtras";
 import { SeoSections } from "./SeoSections";
+import { toolLocaleOf } from "@/data/tools/types";
+import { pick } from "@/i18n/pick";
 
 export function CountryPage({ lang, country }: { lang: Locale; country: CountryData }) {
-  const t = country.i18n[lang];
+  const t = toolLocaleOf(country.i18n, lang);
   const extras = getCountryExtras(country.slug, lang);
-  const labels = {
+  const labels = pick({
     fr: { leagues: "Championnats les plus populaires", teams: "Équipes locales", devices: "Appareils compatibles", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils" },
     en: { leagues: "Most popular leagues", teams: "Local teams", devices: "Supported devices", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools" },
     de: { leagues: "Beliebteste Ligen", teams: "Lokale Vereine", devices: "Unterstützte Geräte", faq: "Häufige Fragen", cta: "Abo aktivieren", crumb: "Tools" },
-  }[lang];
+  }, lang);
 
   return (
     <div className="min-h-screen bg-[#0b0d11] text-white">

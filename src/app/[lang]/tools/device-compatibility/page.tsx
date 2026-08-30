@@ -22,6 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         "fr-FR": "/fr/tools/device-compatibility",
         "en-US": "/en/tools/device-compatibility",
         "de-DE": "/de/tools/device-compatibility",
+        "es-ES": "/es/tools/esvice-compatibility",
+        "it-IT": "/it/tools/itvice-compatibility",
       },
     },
     openGraph: { title: t.metaTitle[lang], description: t.metaDesc[lang], url: `/${lang}/tools/device-compatibility`, type: "website" },

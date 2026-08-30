@@ -4,15 +4,17 @@ import type { TeamData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
 import { getTeamExtras } from "@/data/tools/seoExtras";
 import { SeoSections } from "./SeoSections";
+import { toolLocaleOf } from "@/data/tools/types";
+import { pick } from "@/i18n/pick";
 
 export function TeamPage({ lang, team }: { lang: Locale; team: TeamData }) {
-  const t = team.i18n[lang];
+  const t = toolLocaleOf(team.i18n, lang);
   const extras = getTeamExtras(team.slug, lang);
-  const labels = {
+  const labels = pick({
     fr: { whyFollow: "Pourquoi suivre", whereToWatch: "Où regarder", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils", founded: "Fondé", stadium: "Stade", competitions: "Compétitions" },
     en: { whyFollow: "Why follow", whereToWatch: "Where to watch", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools", founded: "Founded", stadium: "Stadium", competitions: "Competitions" },
     de: { whyFollow: "Warum verfolgen", whereToWatch: "Wo schauen", faq: "Häufige Fragen", cta: "Abo aktivieren", crumb: "Tools", founded: "Gegründet", stadium: "Stadion", competitions: "Wettbewerbe" },
-  }[lang];
+  }, lang);
 
   return (
     <div className="min-h-screen bg-[#0b0d11] text-white">

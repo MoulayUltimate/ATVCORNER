@@ -4,15 +4,17 @@ import type { LeagueData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
 import { getLeagueExtras } from "@/data/tools/seoExtras";
 import { SeoSections } from "./SeoSections";
+import { toolLocaleOf } from "@/data/tools/types";
+import { pick } from "@/i18n/pick";
 
 export function LeaguePage({ lang, league }: { lang: Locale; league: LeagueData }) {
-  const t = league.i18n[lang];
+  const t = toolLocaleOf(league.i18n, lang);
   const extras = getLeagueExtras(league.slug, lang);
-  const labels = {
+  const labels = pick({
     fr: { benefits: "Ce que vous obtenez", whyAtv: "Pourquoi ATV Corner", devices: "Appareils compatibles", countries: "Disponibilité par pays", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils" },
     en: { benefits: "What you get", whyAtv: "Why ATV Corner", devices: "Supported devices", countries: "Country availability", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools" },
     de: { benefits: "Was Sie bekommen", whyAtv: "Warum ATV Corner", devices: "Unterstützte Geräte", countries: "Länderverfügbarkeit", faq: "Häufige Fragen", cta: "Abo aktivieren", crumb: "Tools" },
-  }[lang];
+  }, lang);
 
   return (
     <div className="min-h-screen bg-[#0b0d11] text-white">

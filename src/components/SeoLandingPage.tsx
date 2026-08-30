@@ -8,6 +8,7 @@ import type { SeoContent, SeoPage } from "@/lib/seo-content";
 import { getRelatedPages, relatedHeading } from "@/lib/seo-links";
 import { BuyBand } from "@/components/BuyBand";
 import type { Locale } from "@/i18n";
+import { pick } from "@/i18n/pick";
 
 const t = {
   fr: {
@@ -34,7 +35,7 @@ const t = {
     ctaLead: "Bereit loszulegen? Ihre Zugangsdaten kommen in unter 5 Minuten per WhatsApp.",
     faqTitle: "Häufige Fragen",
   },
-} as const;
+};
 
 export function SeoLandingPage({
   content,
@@ -45,7 +46,7 @@ export function SeoLandingPage({
   lang: Locale;
   slug: string;
 }) {
-  const tr = t[lang];
+  const tr = pick(t, lang);
   const relatedLinks = getRelatedPages(slug as SeoPage, lang);
   const faqLd = {
     "@context": "https://schema.org",
@@ -172,7 +173,7 @@ export function SeoLandingPage({
       {relatedLinks.length > 0 && (
         <section className="container-luxe pb-24 max-w-5xl">
           <h2 className="text-2xl md:text-3xl font-display font-bold text-white mb-8">
-            {relatedHeading[lang]}
+            {pick(relatedHeading, lang)}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {relatedLinks.map((r) => (

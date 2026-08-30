@@ -6,6 +6,7 @@ import { getCountry, countrySlugs } from "@/data/tools";
 import { getCountryExtras } from "@/data/tools/seoExtras";
 import { hasLocale, locales } from "@/i18n";
 import { BuyBandSection } from "@/components/BuyBand";
+import { toolLocaleOf } from "@/data/tools/types";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => countrySlugs.map((country) => ({ lang, country })));
@@ -20,7 +21,7 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
   const data = getCountry(country);
   if (!data) return {};
-  const t = data.i18n[lang];
+  const t = toolLocaleOf(data.i18n, lang);
   return {
     title: t.metaTitle,
     description: t.metaDesc,
@@ -30,6 +31,8 @@ export async function generateMetadata({
         "fr-FR": `/fr/tools/in/${country}`,
         "en-US": `/en/tools/in/${country}`,
         "de-DE": `/de/tools/in/${country}`,
+        "es-ES": `/es/tools/in/${country}`,
+        "it-IT": `/it/tools/in/${country}`,
       },
     },
     openGraph: { title: t.metaTitle, description: t.metaDesc, url: `/${lang}/tools/in/${country}`, type: "website" },
@@ -45,7 +48,7 @@ export default async function Page({
   if (!hasLocale(lang)) notFound();
   const data = getCountry(country);
   if (!data) notFound();
-  const t = data.i18n[lang];
+  const t = toolLocaleOf(data.i18n, lang);
   const extras = getCountryExtras(country, lang);
   const allFaq = [...t.faq, ...(extras?.extraFaq ?? [])];
 

@@ -1,9 +1,9 @@
 import "server-only";
 import type { Locale } from "@/i18n";
 
-export type LocalizedString = Record<Locale, string>;
-export type LocalizedStrings = Record<Locale, string[]>;
-export type LocalizedFaq = Record<Locale, { q: string; a: string }[]>;
+export type LocalizedString = Partial<Record<Locale, string>>;
+export type LocalizedStrings = Partial<Record<Locale, string[]>>;
+export type LocalizedFaq = Partial<Record<Locale, { q: string; a: string }[]>>;
 
 export type ToolMeta = {
   slug: string;
@@ -25,7 +25,7 @@ export type LeagueData = {
   startMonth: string;
   endMonth: string;
   flagship: string[];
-  i18n: Record<
+  i18n: Partial<Record<
     Locale,
     {
       h1: string;
@@ -38,7 +38,7 @@ export type LeagueData = {
       countries: string;
       faq: { q: string; a: string }[];
     }
-  >;
+  >>;
 };
 
 export type CountryData = {
@@ -48,7 +48,7 @@ export type CountryData = {
   topLeagues: string[];
   topTeams: string[];
   language: string;
-  i18n: Record<
+  i18n: Partial<Record<
     Locale,
     {
       h1: string;
@@ -60,7 +60,7 @@ export type CountryData = {
       devices: string;
       faq: { q: string; a: string }[];
     }
-  >;
+  >>;
 };
 
 export type TeamData = {
@@ -72,7 +72,7 @@ export type TeamData = {
   competitions: string[];
   founded: number;
   stadium: string;
-  i18n: Record<
+  i18n: Partial<Record<
     Locale,
     {
       h1: string;
@@ -83,7 +83,7 @@ export type TeamData = {
       whereToWatch: string;
       faq: { q: string; a: string }[];
     }
-  >;
+  >>;
 };
 
 export type DeviceCategory = {
@@ -93,7 +93,7 @@ export type DeviceCategory = {
   compatible: boolean;
   apps: string[];
   setupSlug?: string;
-  i18n: Record<
+  i18n: Partial<Record<
     Locale,
     {
       summary: string;
@@ -101,7 +101,7 @@ export type DeviceCategory = {
       pros: string[];
       cons?: string[];
     }
-  >;
+  >>;
 };
 
 export type ComparisonProvider = {
@@ -119,3 +119,23 @@ export type ComparisonProvider = {
   support: string;
   highlight?: LocalizedString;
 };
+
+/** Fallback chain used when a locale's translation has not landed yet. */
+const TOOL_FALLBACK: Record<Locale, Locale[]> = {
+  fr: ["en"],
+  en: ["fr"],
+  de: ["en", "fr"],
+  es: ["en", "fr"],
+  it: ["en", "fr"],
+};
+
+/** Resolve `.i18n[locale]` for any tools record, falling back rather than throwing. */
+export function toolLocaleOf<T>(i18n: Partial<Record<Locale, T>>, locale: Locale): T {
+  const hit = i18n[locale];
+  if (hit) return hit;
+  for (const alt of TOOL_FALLBACK[locale] ?? []) {
+    const f = i18n[alt];
+    if (f) return f;
+  }
+  return Object.values(i18n)[0] as T;
+}

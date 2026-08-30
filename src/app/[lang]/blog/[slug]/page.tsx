@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BlogArticle } from "@/components/BlogArticle";
-import { blogPosts, blogSlugs, getBlogPost } from "@/data/blog";
+import { blogPosts, blogSlugs, getBlogPost, localeOf } from "@/data/blog";
 import { hasLocale, locales } from "@/i18n";
 
 export async function generateStaticParams() {
@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
   const post = getBlogPost(slug);
   if (!post) return {};
-  const loc = post.i18n[lang];
+  const loc = localeOf(post, lang);
   return {
     title: loc.metaTitle,
     description: loc.metaDesc,
@@ -34,6 +34,8 @@ export async function generateMetadata({
         "fr-FR": `/fr/blog/${slug}`,
         "en-US": `/en/blog/${slug}`,
         "de-DE": `/de/blog/${slug}`,
+        "es-ES": `/es/blog/${slug}`,
+        "it-IT": `/it/blog/${slug}`,
       },
     },
     openGraph: {

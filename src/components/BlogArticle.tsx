@@ -5,7 +5,9 @@ import { whatsappUrl, siteConfig } from "@/lib/site";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { BuyBand } from "@/components/BuyBand";
 import type { BlogPost, BlogBlock } from "@/data/blog";
+import { localeOf } from "@/data/blog";
 import type { Locale } from "@/i18n";
+import { pick } from "@/i18n/pick";
 
 type Props = {
   post: BlogPost;
@@ -53,7 +55,7 @@ const t = {
     seePlans: "Preise ansehen",
     ctaTrust: "In 5 Minuten aktiv · 7 Tage Geld-zurück-Garantie · Ohne Vertragsbindung",
   },
-} as const;
+};
 
 function Block({ b, lang }: { b: BlogBlock; lang: Locale }) {
   switch (b.type) {
@@ -151,8 +153,8 @@ function Block({ b, lang }: { b: BlogBlock; lang: Locale }) {
 }
 
 export function BlogArticle({ post, lang, related }: Props) {
-  const tr = t[lang];
-  const loc = post.i18n[lang];
+  const tr = pick(t, lang);
+  const loc = localeOf(post, lang);
   const dateLocale = lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US";
 
   const articleLd = {
@@ -307,7 +309,7 @@ export function BlogArticle({ post, lang, related }: Props) {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {related.map((p) => {
-              const rloc = p.i18n[lang];
+              const rloc = localeOf(p, lang);
               return (
                 <Link
                   key={p.slug}

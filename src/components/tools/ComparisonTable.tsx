@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Locale } from "@/i18n";
 import type { ComparisonProvider } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
+import { pick } from "@/i18n/pick";
 
 const COPY = {
   fr: {
@@ -49,10 +50,10 @@ const COPY = {
       { q: "Was ist der Unterschied zwischen IPTV und Premium-OTT?", a: "Premium-OTT meint Dienste wie Netflix/DAZN mit offiziellen Apps. IPTV ist das Streaming-Protokoll, das mehrere Quellen bündeln kann. ATV Corner kombiniert beides: OTT-Qualität plus IPTV-Abdeckung." },
     ],
   },
-} as const;
+};
 
 export function ComparisonTable({ lang, providers }: { lang: Locale; providers: ComparisonProvider[] }) {
-  const c = COPY[lang];
+  const c = pick(COPY, lang);
   return (
     <div className="min-h-screen bg-[#0b0d11] text-white">
       <section className="hero-gradient pt-32 pb-12 sm:pt-40 sm:pb-16">
@@ -88,7 +89,7 @@ export function ComparisonTable({ lang, providers }: { lang: Locale; providers: 
                   <td className="py-4 pr-4">
                     <div className="font-bold">{p.name}</div>
                     {p.isAtv && p.highlight && (
-                      <div className="text-xs text-emerald-300 mt-0.5">{p.highlight[lang]}</div>
+                      <div className="text-xs text-emerald-300 mt-0.5">{pick(p.highlight, lang)}</div>
                     )}
                   </td>
                   <td className="py-4 pr-4 font-bold text-emerald-300 whitespace-nowrap">

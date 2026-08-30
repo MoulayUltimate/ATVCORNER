@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { whatsappUrl } from "@/lib/site";
 import type { Locale } from "@/i18n";
+import { pick } from "@/i18n/pick";
 
 const copy = {
   fr: {
@@ -21,7 +22,7 @@ const copy = {
     plans: "Preise ansehen",
     trust: "In 5 Minuten aktiv · 7 Tage Geld-zurück-Garantie · Ohne Vertragsbindung",
   },
-} as const;
+};
 
 /**
  * The standard conversion band. Every content page ends with one so no page is
@@ -42,7 +43,7 @@ export function BuyBand({
   lead?: string;
   className?: string;
 }) {
-  const c = copy[lang];
+  const c = pick(copy, lang);
   return (
     <div
       className={`glass-card rounded-2xl p-6 sm:p-7 border-emerald-400/30 bg-emerald-400/5 ${className}`}

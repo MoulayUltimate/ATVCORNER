@@ -14,7 +14,7 @@ export type SeoExtras = {
   related: RelatedLink[];
 };
 
-export type LocalizedExtras = Record<Locale, SeoExtras>;
+export type LocalizedExtras = Partial<Record<Locale, SeoExtras>>;
 
 // ============================================================
 // LEAGUE EXTRAS

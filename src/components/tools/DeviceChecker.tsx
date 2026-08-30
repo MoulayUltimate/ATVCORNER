@@ -5,6 +5,8 @@ import Link from "next/link";
 import type { Locale } from "@/i18n";
 import type { DeviceCategory } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
+import { toolLocaleOf } from "@/data/tools/types";
+import { pick } from "@/i18n/pick";
 
 type Copy = {
   h1: string;
@@ -19,7 +21,7 @@ type Copy = {
   faqItems: { q: string; a: string }[];
 };
 
-const COPY: Record<Locale, Copy> = {
+const COPY: Partial<Record<Locale, Copy>> = {
   fr: {
     h1: "Vérificateur de compatibilité — Puis-je utiliser ATV Corner ?",
     intro: "Choisissez votre appareil. Vous obtenez le guide d'installation exact, les apps recommandées, et une estimation du temps de mise en route.",
@@ -74,7 +76,7 @@ const COPY: Record<Locale, Copy> = {
 };
 
 export function DeviceChecker({ lang, devices }: { lang: Locale; devices: DeviceCategory[] }) {
-  const c = COPY[lang];
+  const c = pick(COPY, lang);
   const [selected, setSelected] = useState<DeviceCategory | null>(null);
 
   return (
@@ -103,7 +105,7 @@ export function DeviceChecker({ lang, devices }: { lang: Locale; devices: Device
                     : "bg-white/[0.02] ring-white/10 hover:ring-emerald-400/30"
                 }`}
               >
-                <div className="font-bold text-sm">{d.name[lang]}</div>
+                <div className="font-bold text-sm">{pick(d.name, lang)}</div>
                 <div className="text-xs text-zinc-400 mt-1">{d.os}</div>
               </button>
             ))}
@@ -115,13 +117,13 @@ export function DeviceChecker({ lang, devices }: { lang: Locale; devices: Device
                 <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-400/15 text-emerald-300 text-xs font-bold">
                   ✓ {c.result}
                 </span>
-                <span className="text-zinc-400 text-sm">{selected.name[lang]}</span>
+                <span className="text-zinc-400 text-sm">{pick(selected.name, lang)}</span>
               </div>
-              <p className="text-zinc-200 leading-relaxed">{selected.i18n[lang].summary}</p>
+              <p className="text-zinc-200 leading-relaxed">{toolLocaleOf(selected.i18n, lang).summary}</p>
 
               <h3 className="mt-6 mb-3 text-lg font-bold">{c.steps}</h3>
               <ol className="space-y-2">
-                {selected.i18n[lang].steps.map((s, i) => (
+                {toolLocaleOf(selected.i18n, lang).steps.map((s, i) => (
                   <li key={i} className="flex gap-3">
                     <span className="flex-none w-6 h-6 rounded-full bg-emerald-400/20 text-emerald-300 text-xs font-bold inline-flex items-center justify-center">
                       {i + 1}
@@ -135,16 +137,16 @@ export function DeviceChecker({ lang, devices }: { lang: Locale; devices: Device
                 <div>
                   <h3 className="text-sm font-bold text-emerald-300 mb-2">{c.pros}</h3>
                   <ul className="space-y-1.5">
-                    {selected.i18n[lang].pros.map((p, i) => (
+                    {toolLocaleOf(selected.i18n, lang).pros.map((p, i) => (
                       <li key={i} className="text-sm text-zinc-300">• {p}</li>
                     ))}
                   </ul>
                 </div>
-                {selected.i18n[lang].cons && (
+                {toolLocaleOf(selected.i18n, lang).cons && (
                   <div>
                     <h3 className="text-sm font-bold text-amber-300 mb-2">{c.cons}</h3>
                     <ul className="space-y-1.5">
-                      {selected.i18n[lang].cons!.map((p, i) => (
+                      {toolLocaleOf(selected.i18n, lang).cons!.map((p, i) => (
                         <li key={i} className="text-sm text-zinc-300">• {p}</li>
                       ))}
                     </ul>

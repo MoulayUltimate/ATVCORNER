@@ -23,7 +23,7 @@ export async function generateMetadata({
     description: c.metaDesc,
     alternates: {
       canonical: `/${lang}/${SLUG}`,
-      languages: { "fr-FR": `/fr/${SLUG}`, "en-US": `/en/${SLUG}`, "de-DE": `/de/${SLUG}` },
+      languages: { "fr-FR": `/fr/${SLUG}`, "en-US": `/en/${SLUG}`, "de-DE": `/de/${SLUG}` , "es-ES": `/es/${SLUG}`, "it-IT": `/it/${SLUG}` },
     },
   };
 }

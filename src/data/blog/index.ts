@@ -22,6 +22,7 @@ import { iptvKaufenRatgeber } from "./posts/iptv-kaufen-ratgeber";
 import { fussballOhneAbo } from "./posts/fussball-ohne-abo-schauen";
 
 export type { BlogPost, BlogPostLocale, BlogBlock } from "./types";
+export { localeOf } from "./types";
 
 export const blogPosts: BlogPost[] = [
   m3uPlaylistGuide,

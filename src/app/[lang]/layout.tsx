@@ -35,6 +35,8 @@ const ogLocaleMap: Record<Locale, string> = {
   fr: "fr_FR",
   en: "en_US",
   de: "de_DE",
+  es: "es_ES",
+  it: "it_IT",
 };
 
 export async function generateStaticParams() {
@@ -69,6 +71,8 @@ export async function generateMetadata({
         "fr-FR": "/fr",
         "en-US": "/en",
         "de-DE": "/de",
+        "es-ES": "/es",
+        "it-IT": "/it",
         "x-default": "/fr",
       },
     },

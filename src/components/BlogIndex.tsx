@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { BlogPost } from "@/data/blog";
+import { localeOf } from "@/data/blog";
 import type { Locale } from "@/i18n";
+import { pick } from "@/i18n/pick";
 
 type Props = {
   posts: BlogPost[];
@@ -35,10 +37,10 @@ const t = {
     readMin: "Min. Lesezeit",
     readMore: "Artikel lesen",
   },
-} as const;
+};
 
 export function BlogIndex({ posts, lang }: Props) {
-  const tr = t[lang];
+  const tr = pick(t, lang);
   const dateLocale = lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US";
 
   return (
@@ -63,7 +65,7 @@ export function BlogIndex({ posts, lang }: Props) {
       <section className="container-luxe pb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {posts.map((post) => {
-            const loc = post.i18n[lang];
+            const loc = localeOf(post, lang);
             return (
               <Link
                 key={post.slug}

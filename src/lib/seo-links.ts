@@ -7,7 +7,7 @@ import type { SeoPage } from "./seo-content";
 
 type LinkCopy = { label: string; blurb: string };
 
-const labels: Record<SeoPage, Record<Locale, LinkCopy>> = {
+const labels: Record<SeoPage, Partial<Record<Locale, LinkCopy>>> = {
   "iptv-subscription": {
     fr: { label: "Abonnement IPTV", blurb: "Formules 1 à 12 mois, dès 5 €/mois." },
     en: { label: "IPTV Subscription", blurb: "Plans from 1 to 12 months, from $5/mo." },
@@ -153,14 +153,14 @@ const related: Record<SeoPage, SeoPage[]> = {
 export type RelatedLink = { slug: SeoPage; label: string; blurb: string };
 
 export function getRelatedPages(page: SeoPage, locale: Locale): RelatedLink[] {
-  return (related[page] ?? []).map((slug) => ({
-    slug,
-    label: labels[slug][locale].label,
-    blurb: labels[slug][locale].blurb,
-  }));
+  return (related[page] ?? []).map((slug) => {
+    const byLocale = labels[slug];
+    const copy = byLocale[locale] ?? byLocale.en ?? byLocale.fr ?? Object.values(byLocale)[0]!;
+    return { slug, label: copy.label, blurb: copy.blurb };
+  });
 }
 
-export const relatedHeading: Record<Locale, string> = {
+export const relatedHeading: Partial<Record<Locale, string>> = {
   fr: "À découvrir aussi",
   en: "Explore next",
   de: "Das könnte Sie auch interessieren",

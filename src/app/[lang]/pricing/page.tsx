@@ -28,6 +28,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/pricing",
         "en-US": "/en/pricing",
         "de-DE": "/de/pricing",
+        "es-ES": "/es/pricing",
+        "it-IT": "/it/pricing",
       },
     },
   };

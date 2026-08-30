@@ -29,6 +29,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/channels",
         "en-US": "/en/channels",
         "de-DE": "/de/channels",
+        "es-ES": "/es/channels",
+        "it-IT": "/it/channels",
       },
     },
   };

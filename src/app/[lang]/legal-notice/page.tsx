@@ -24,6 +24,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/legal-notice",
         "en-US": "/en/legal-notice",
         "de-DE": "/de/legal-notice",
+        "es-ES": "/es/legal-notice",
+        "it-IT": "/it/legal-notice",
       },
     },
   };

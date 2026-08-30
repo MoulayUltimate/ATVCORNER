@@ -27,6 +27,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/setup",
         "en-US": "/en/setup",
         "de-DE": "/de/setup",
+        "es-ES": "/es/setup",
+        "it-IT": "/it/setup",
       },
     },
   };

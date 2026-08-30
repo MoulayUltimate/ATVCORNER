@@ -24,6 +24,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/dmca",
         "en-US": "/en/dmca",
         "de-DE": "/de/dmca",
+        "es-ES": "/es/dmca",
+        "it-IT": "/it/dmca",
       },
     },
   };

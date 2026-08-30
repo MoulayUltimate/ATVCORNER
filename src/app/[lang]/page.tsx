@@ -62,7 +62,7 @@ export async function generateMetadata({
     description: dict.meta.description,
     alternates: {
       canonical: `/${lang}`,
-      languages: { "fr-FR": "/fr", "en-US": "/en", "de-DE": "/de" },
+      languages: { "fr-FR": "/fr", "en-US": "/en", "de-DE": "/de" , "es-ES": "/es", "it-IT": "/it" },
     },
   };
 }

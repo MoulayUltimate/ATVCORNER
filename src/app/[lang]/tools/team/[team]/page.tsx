@@ -6,6 +6,7 @@ import { getTeam, teamSlugs } from "@/data/tools";
 import { getTeamExtras } from "@/data/tools/seoExtras";
 import { hasLocale, locales } from "@/i18n";
 import { BuyBandSection } from "@/components/BuyBand";
+import { toolLocaleOf } from "@/data/tools/types";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => teamSlugs.map((team) => ({ lang, team })));
@@ -20,7 +21,7 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
   const data = getTeam(team);
   if (!data) return {};
-  const t = data.i18n[lang];
+  const t = toolLocaleOf(data.i18n, lang);
   return {
     title: t.metaTitle,
     description: t.metaDesc,
@@ -30,6 +31,8 @@ export async function generateMetadata({
         "fr-FR": `/fr/tools/team/${team}`,
         "en-US": `/en/tools/team/${team}`,
         "de-DE": `/de/tools/team/${team}`,
+        "es-ES": `/es/tools/team/${team}`,
+        "it-IT": `/it/tools/team/${team}`,
       },
     },
     openGraph: { title: t.metaTitle, description: t.metaDesc, url: `/${lang}/tools/team/${team}`, type: "website" },
@@ -45,7 +48,7 @@ export default async function Page({
   if (!hasLocale(lang)) notFound();
   const data = getTeam(team);
   if (!data) notFound();
-  const t = data.i18n[lang];
+  const t = toolLocaleOf(data.i18n, lang);
   const extras = getTeamExtras(team, lang);
   const allFaq = [...t.faq, ...(extras?.extraFaq ?? [])];
 

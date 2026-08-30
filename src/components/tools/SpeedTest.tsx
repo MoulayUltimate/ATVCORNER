@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Locale } from "@/i18n";
 import { whatsappUrl } from "@/lib/site";
+import { pick } from "@/i18n/pick";
 
 type Copy = {
   h1: string;
@@ -20,7 +21,7 @@ type Copy = {
   faqItems: { q: string; a: string }[];
 };
 
-const COPY: Record<Locale, Copy> = {
+const COPY: Partial<Record<Locale, Copy>> = {
   fr: {
     h1: "Test de débit pour le football en direct",
     intro: "Entrez votre vitesse de connexion (en Mbps). Le calculateur vous dit en quelle qualité vous pouvez streamer le football, et combien de flux votre ligne peut tenir.",
@@ -120,7 +121,7 @@ const COPY: Record<Locale, Copy> = {
 };
 
 export function SpeedTest({ lang }: { lang: Locale }) {
-  const c = COPY[lang];
+  const c = pick(COPY, lang);
   const [speed, setSpeed] = useState(50);
   const [streams, setStreams] = useState(1);
 

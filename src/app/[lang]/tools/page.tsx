@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ToolsHub } from "@/components/tools/ToolsHub";
 import { hasLocale, locales } from "@/i18n";
 import { BuyBandSection } from "@/components/BuyBand";
+import { pick } from "@/i18n/pick";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -24,7 +25,7 @@ const meta = {
     description:
       "ATV-Corner-Tools: Gerätekompatibilität, Streaming-Speedtest, Abo-Vergleich, Liga- und Länder-Guides.",
   },
-} as const;
+};
 
 export async function generateMetadata({
   params,
@@ -33,7 +34,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
-  const m = meta[lang];
+  const m = pick(meta, lang);
   return {
     title: m.title,
     description: m.description,
@@ -43,6 +44,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/tools",
         "en-US": "/en/tools",
         "de-DE": "/de/tools",
+        "es-ES": "/es/tools",
+        "it-IT": "/it/tools",
       },
     },
     openGraph: { title: m.title, description: m.description, url: `/${lang}/tools`, type: "website" },

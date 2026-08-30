@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import type { Locale } from "@/i18n";
 import { whatsappUrl } from "@/lib/site";
+import { pick } from "@/i18n/pick";
 
 type Option = { id: string; label: string; weight?: number };
 type Question = { id: string; question: string; options: Option[] };
@@ -24,7 +25,7 @@ type Copy = {
   cta: string;
 };
 
-const COPY: Record<Locale, Copy> = {
+const COPY: Partial<Record<Locale, Copy>> = {
   fr: {
     h1: "Trouvez votre abonnement football idéal",
     intro: "Répondez à 6 questions. On vous recommande le plan ATV Corner qui colle exactement à vos besoins.",
@@ -247,7 +248,7 @@ const COPY: Record<Locale, Copy> = {
 };
 
 export function RecommenderQuiz({ lang }: { lang: Locale }) {
-  const c = COPY[lang];
+  const c = pick(COPY, lang);
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [done, setDone] = useState(false);

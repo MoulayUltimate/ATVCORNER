@@ -32,5 +32,25 @@ export type BlogPost = {
   author: string;
   keywords: string[];
   cover?: string;
-  i18n: Record<Locale, BlogPostLocale>;
+  i18n: Partial<Record<Locale, BlogPostLocale>>;
 };
+
+/** Fallback chain used when a locale's translation has not landed yet. */
+const FALLBACK: Record<Locale, Locale[]> = {
+  fr: ["en"],
+  en: ["fr"],
+  de: ["en", "fr"],
+  es: ["en", "fr"],
+  it: ["en", "fr"],
+};
+
+/** Resolve a post's copy for a locale, falling back rather than throwing. */
+export function localeOf(post: BlogPost, locale: Locale): BlogPostLocale {
+  const hit = post.i18n[locale];
+  if (hit) return hit;
+  for (const alt of FALLBACK[locale] ?? []) {
+    const f = post.i18n[alt];
+    if (f) return f;
+  }
+  return Object.values(post.i18n)[0] as BlogPostLocale;
+}

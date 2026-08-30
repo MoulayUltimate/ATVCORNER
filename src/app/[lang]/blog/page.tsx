@@ -4,6 +4,7 @@ import { BlogIndex } from "@/components/BlogIndex";
 import { blogPosts } from "@/data/blog";
 import { hasLocale, locales } from "@/i18n";
 import { BuyBandSection } from "@/components/BuyBand";
+import { pick } from "@/i18n/pick";
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -25,7 +26,7 @@ const meta = {
     description:
       "Experten-IPTV-Guides: M3U, Xtream Codes, 4K/8K, Premium-OTT, TiviMate, Smart STB. Tutorials und Vergleiche für das Beste aus Ihrem Abo.",
   },
-} as const;
+};
 
 export async function generateMetadata({
   params,
@@ -34,7 +35,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
-  const m = meta[lang];
+  const m = pick(meta, lang);
   return {
     title: m.title,
     description: m.description,
@@ -44,6 +45,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/blog",
         "en-US": "/en/blog",
         "de-DE": "/de/blog",
+        "es-ES": "/es/blog",
+        "it-IT": "/it/blog",
       },
     },
     openGraph: {

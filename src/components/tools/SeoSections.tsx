@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { SeoExtras } from "@/data/tools/seoExtras";
 import type { Locale } from "@/i18n";
+import { pick } from "@/i18n/pick";
 
 type LabelMap = {
   related: string;
@@ -10,7 +11,7 @@ type LabelMap = {
   th: { provider: string; coverage: string; price: string; note: string };
 };
 
-const LABELS: Record<Locale, LabelMap> = {
+const LABELS: Partial<Record<Locale, LabelMap>> = {
   fr: {
     related: "À voir aussi",
     broadcasters: "Diffuseurs et alternatives",
@@ -43,7 +44,7 @@ export function SeoSections({
   extras: SeoExtras;
   langPrefix?: string;
 }) {
-  const labels = LABELS[lang];
+  const labels = pick(LABELS, lang);
 
   return (
     <>

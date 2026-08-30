@@ -1,11 +1,18 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-const locales = ["fr", "en", "de"] as const;
+const locales = ["fr", "en", "de", "es", "it"] as const;
 type Locale = (typeof locales)[number];
 const defaultLocale: Locale = "fr";
 
 // IP-based country → language fallback. French is the default for everyone else.
 const countryToLocale: Record<string, Locale> = {
+  ES: "es",
+  MX: "es",
+  AR: "es",
+  CO: "es",
+  CL: "es",
+  PE: "es",
+  IT: "it",
   // German-speaking
   DE: "de",
   AT: "de",

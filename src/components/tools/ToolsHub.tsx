@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n";
 import { tools, leagues, countries, teams } from "@/data/tools";
+import { pick } from "@/i18n/pick";
 
 const copy = {
   fr: {
@@ -78,10 +79,10 @@ const copy = {
       { q: "Gibt es eine Geld-zur\u00fcck-Garantie?", a: "Ja, 7-Tage-Geld-zur\u00fcck-Garantie. Kostenloser 24-Stunden-Test via WhatsApp verf\u00fcgbar, um die Streaming-Qualit\u00e4t von Ihrer Verbindung vor dem Kauf zu pr\u00fcfen." },
     ],
   },
-} as const;
+};
 
 export function ToolsHub({ lang }: { lang: Locale }) {
-  const c = copy[lang];
+  const c = pick(copy, lang);
   return (
     <div className="min-h-screen bg-[#0b0d11] text-white">
       <section className="hero-gradient pt-32 pb-16 sm:pt-40 sm:pb-20">
@@ -115,9 +116,9 @@ export function ToolsHub({ lang }: { lang: Locale }) {
                   <ToolIcon name={t.icon} />
                 </div>
                 <h3 className="text-lg font-bold leading-tight mb-2 group-hover:text-emerald-300 transition-colors">
-                  {t.title[lang]}
+                  {pick(t.title, lang)}
                 </h3>
-                <p className="text-sm text-zinc-400">{t.description[lang]}</p>
+                <p className="text-sm text-zinc-400">{pick(t.description, lang)}</p>
                 <span className="mt-4 inline-block text-emerald-400 text-sm font-semibold">
                   {c.open} →
                 </span>

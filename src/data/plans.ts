@@ -68,6 +68,8 @@ export const plans: Plan[] = [
 const currencyByLocale: Record<string, Currency> = {
   fr: "EUR",
   de: "EUR",
+  es: "EUR",
+  it: "EUR",
   en: "USD",
 };
 
@@ -111,7 +113,7 @@ export function formatPerMonth(plan: Plan, lang: string): string {
       ? perMonth.toFixed(exact ? 0 : 2).replace(".", ",")
       : perMonth.toFixed(exact ? 0 : 2);
   const suffix =
-    lang === "fr" ? "/mois" : lang === "de" ? "/Monat" : "/mo";
+    lang === "fr" ? "/mois" : lang === "de" ? "/Monat" : lang === "es" ? "/mes" : lang === "it" ? "/mese" : "/mo";
   const prefix = exact ? "" : "≈ ";
   return currency === "EUR"
     ? `${prefix}${localeNum} €${suffix}`

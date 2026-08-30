@@ -24,6 +24,8 @@ export async function generateMetadata({
         "fr-FR": "/fr/privacy",
         "en-US": "/en/privacy",
         "de-DE": "/de/privacy",
+        "es-ES": "/es/privacy",
+        "it-IT": "/it/privacy",
       },
     },
   };
