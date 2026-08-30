@@ -3479,6 +3479,79 @@ content["iptv-sport"].it = {
   cta: "Guarda lo sport senza interruzioni",
 };
 
+// --- es/it for /cable-tv-alternative ----------------------------------------
+content["cable-tv-alternative"].es = {
+  metaTitle: "Alternativa al cable y satélite — 66.000 canales por 5 €/mes",
+  metaDesc:
+    "Deja el cable o el satélite sin perder canales: 66.000+ canales y 70.000 películas por 5 €/mes, sin permanencia, sin instalador y sin descodificador.",
+  eyebrow: "Alternativa al cable · Desde 5 €/mes",
+  h1: "La alternativa",
+  h1Accent: "al cable y al satélite",
+  intro:
+    "Más canales que un paquete premium de cable, por una fracción del precio y sin contrato de dos años: 66.000+ canales y 70.000 películas desde 5 €/mes, activados en cinco minutos sin técnico ni antena.",
+  features: [
+    { h: "Sin permanencia", p: "Ningún contrato de 12 o 24 meses, ningún preaviso que recordar." },
+    { h: "Sin instalación", p: "Nada de técnico, antena, cableado ni descodificador alquilado." },
+    { h: "Desde 5 €/mes", p: "Frente a los 40-80 € mensuales habituales de un paquete premium." },
+    { h: "Más contenido", p: "66.000+ canales y 70.000 películas, frente a unos cientos de canales." },
+  ],
+  sections: [
+    { h: "Qué pagas realmente con el cable", p: "Una factura de cable o satélite rara vez es solo el precio del paquete. Suele incluir el alquiler del descodificador, un suplemento por cada televisor adicional, opciones deportivas facturadas aparte y, muy a menudo, una tarifa promocional que sube automáticamente al cabo de doce meses. Sumado todo, un hogar que quiere deporte y cine paga con frecuencia entre 40 y 80 € al mes. La comparación honesta no es con el precio de la oferta de entrada sino con lo que aparece en la factura el decimotercer mes." },
+    { h: "Lo que cambia al pasarte a IPTV", p: "Desaparecen tres cosas a la vez: el hardware, el contrato y el instalador. No hay descodificador que devolver, ni antena que orientar, ni cita con un técnico. Tu suscripción llega como unas credenciales por WhatsApp y funciona sobre el equipo que ya tienes: Smart TV, Fire TV Stick, Apple TV, móvil, tableta u ordenador. La configuración inicial son unos cinco minutos, y a partir de ahí el uso diario se parece bastante a la televisión de siempre, con su guía de programación y su zapeo." },
+    { h: "El catálogo comparado", p: "Un paquete premium de cable ofrece típicamente entre 150 y 300 canales, con un servicio de vídeo bajo demanda limitado y a menudo de pago adicional. ATV Corner incluye más de 66.000 canales en directo, entre ellos 4.200 deportivos, además de 70.000 películas y 18.000 series accesibles sin coste extra. La diferencia más visible está en los canales internacionales: seguir un campeonato extranjero o ver canales en tu idioma de origen es exactamente el terreno donde los operadores nacionales se quedan cortos." },
+    { h: "El punto débil real: la conexión", p: "Sería deshonesto no señalarlo. El cable y el satélite llegan por una infraestructura dedicada que no depende de tu ancho de banda; el IPTV usa tu conexión a internet. Si tu línea es inestable o compartida entre muchos dispositivos, lo notarás. La regla práctica son 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el aparato donde vas a ver. Si tu conexión cumple eso, el cambio es transparente; si no, conviene comprobarlo con la prueba gratuita antes de cancelar nada." },
+    { h: "Cancelar el cable sin quedarte sin nada", p: "El orden recomendado es sencillo y evita el hueco incómodo entre un servicio y otro. Primero activa la prueba gratuita de 24 horas y compruébala en horario punta. Si convence, contrata un mes de IPTV y convive unas semanas con los dos servicios. Solo entonces envía la baja del cable, respetando el preaviso que figura en tu contrato, que suele ser de uno a tres meses. De ese modo nunca te quedas sin televisión y decides con la experiencia hecha, no con una promesa." },
+    { h: "Varios televisores en casa", p: "Aquí la diferencia económica es especialmente marcada. Los operadores clásicos facturan cada terminal adicional, con lo que un hogar con tres televisores paga tres alquileres de descodificador. Con IPTV, tus credenciales funcionan en cualquier dispositivo sin coste por aparato; lo único que hay que dimensionar es el número de conexiones simultáneas, que solo importa si varias personas quieren ver canales distintos al mismo tiempo. Si tienes dudas sobre cuántas necesitas, pregúntanos antes de comprar." },
+    { h: "Qué se pierde y qué no", p: "Conservas los canales, la guía de programación, el zapeo y el vídeo bajo demanda, y ganas un catálogo internacional que ningún operador nacional iguala. Lo que no se traslada son las funciones ligadas al hardware del operador: la grabación en el disco del descodificador y algunas prestaciones propietarias de su interfaz. Muchas aplicaciones IPTV ofrecen alternativas, pero conviene saberlo antes de dar el paso en lugar de descubrirlo después. Para la mayoría de los hogares no es un obstáculo; para quien graba mucho, sí es un punto a valorar." },
+    { h: "Cuánto ahorras al año", p: "Con un paquete premium en torno a 50 € al mes, el gasto anual ronda los 600 €. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, e incluye el deporte que en el cable suele ser una opción facturada aparte. Aun contando con un margen amplio, el ahorro se sitúa en varios cientos de euros al año. Y como no hay renovación automática ni permanencia, ese cálculo no depende de que recuerdes cancelar en una fecha concreta." },
+    { h: "Cómo probarlo sin riesgo", p: "La prueba gratuita de 24 horas no pide tarjeta de crédito y da acceso al catálogo completo. Actívala en el momento en que sueles ver la televisión, no por la mañana, y comprueba tres cosas: que tus canales habituales estén, que la guía esté rellenada y que la imagen aguante en tu televisor concreto. Si decides continuar, la garantía de devolución de 7 días cubre además los primeros días de la suscripción, de modo que el riesgo económico real es prácticamente nulo." },
+  ],
+  faq: [
+    { q: "¿Es el IPTV una alternativa real al cable?", a: "Sí, si tu conexión es estable. Ofrece muchos más canales y películas por una fracción del precio, sin contrato ni hardware, pero depende de tu ancho de banda mientras que el cable no." },
+    { q: "¿Cuánto ahorro al dejar el cable?", a: "Un paquete premium ronda los 600 € al año. El plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido en lugar de facturado aparte." },
+    { q: "¿Tengo que devolver el descodificador?", a: "El de tu operador sí, según sus condiciones. El IPTV no necesita hardware propio: funciona en tu Smart TV, Fire TV Stick, Apple TV, móvil, tableta u ordenador." },
+    { q: "¿Cuándo debo cancelar el cable?", a: "Después de probar, no antes. Activa la prueba gratuita, contrata un mes, convive unas semanas con ambos servicios y envía la baja respetando el preaviso de tu contrato." },
+    { q: "¿Qué conexión necesito?", a: "10 Mbps estables para HD y 25 Mbps para 4K, medidos en el dispositivo de visionado. La estabilidad importa más que la velocidad máxima anunciada." },
+  ],
+  cta: "Probar la alternativa gratis",
+};
+
+content["cable-tv-alternative"].it = {
+  metaTitle: "Alternativa a cavo e satellite — 66.000 canali a 5 €/mese",
+  metaDesc:
+    "Lascia il cavo o il satellite senza perdere canali: 66.000+ canali e 70.000 film a 5 €/mese, senza vincoli, senza installatore e senza decoder.",
+  eyebrow: "Alternativa al cavo · Da 5 €/mese",
+  h1: "L'alternativa",
+  h1Accent: "a cavo e satellite",
+  intro:
+    "Più canali di un pacchetto premium via cavo, a una frazione del prezzo e senza contratto biennale: 66.000+ canali e 70.000 film da 5 €/mese, attivi in cinque minuti senza tecnico né antenna.",
+  features: [
+    { h: "Senza vincoli", p: "Nessun contratto da 12 o 24 mesi, nessun preavviso da ricordare." },
+    { h: "Senza installazione", p: "Niente tecnico, antenna, cablaggio o decoder a noleggio." },
+    { h: "Da 5 €/mese", p: "Contro i 40-80 € mensili tipici di un pacchetto premium." },
+    { h: "Più contenuti", p: "66.000+ canali e 70.000 film, contro qualche centinaio di canali." },
+  ],
+  sections: [
+    { h: "Cosa paghi davvero con il cavo", p: "Una bolletta via cavo o satellitare raramente è solo il prezzo del pacchetto. Di norma include il noleggio del decoder, un supplemento per ogni televisore aggiuntivo, opzioni sportive fatturate a parte e, molto spesso, una tariffa promozionale che sale automaticamente dopo dodici mesi. Sommando tutto, una famiglia che vuole sport e cinema paga spesso tra i 40 e gli 80 € al mese. Il confronto onesto non è con il prezzo dell'offerta d'ingresso ma con quello che compare in bolletta al tredicesimo mese." },
+    { h: "Cosa cambia passando all'IPTV", p: "Spariscono tre cose insieme: l'hardware, il contratto e l'installatore. Non c'è alcun decoder da restituire, nessuna antenna da orientare, nessun appuntamento con un tecnico. Il tuo abbonamento arriva come credenziali su WhatsApp e funziona sull'apparecchio che già possiedi: Smart TV, Fire TV Stick, Apple TV, telefono, tablet o computer. La configurazione iniziale richiede circa cinque minuti, e da lì in poi l'uso quotidiano somiglia molto alla televisione di sempre, con la sua guida ai programmi e il suo zapping." },
+    { h: "Il catalogo a confronto", p: "Un pacchetto premium via cavo offre tipicamente tra 150 e 300 canali, con un servizio on demand limitato e spesso a pagamento aggiuntivo. ATV Corner include oltre 66.000 canali in diretta, di cui 4.200 sportivi, oltre a 70.000 film e 18.000 serie accessibili senza costi extra. La differenza più evidente riguarda i canali internazionali: seguire un campionato estero o guardare canali nella tua lingua d'origine è esattamente il terreno su cui gli operatori nazionali restano indietro." },
+    { h: "Il vero punto debole: la connessione", p: "Sarebbe disonesto non segnalarlo. Cavo e satellite arrivano da un'infrastruttura dedicata che non dipende dalla tua banda; l'IPTV usa la tua connessione internet. Se la tua linea è instabile o condivisa tra molti dispositivi, lo noterai. La regola pratica sono 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sull'apparecchio su cui guarderai. Se la tua connessione rispetta questi valori il passaggio è trasparente; altrimenti conviene verificarlo con la prova gratuita prima di disdire qualsiasi cosa." },
+    { h: "Disdire il cavo senza restare senza nulla", p: "L'ordine consigliato è semplice ed evita il fastidioso vuoto tra un servizio e l'altro. Prima attiva la prova gratuita di 24 ore e verificala in orario di punta. Se convince, acquista un mese di IPTV e convivi qualche settimana con entrambi i servizi. Solo allora invia la disdetta del cavo, rispettando il preavviso indicato nel contratto, di norma da uno a tre mesi. In questo modo non resti mai senza televisione e decidi sulla base dell'esperienza, non di una promessa." },
+    { h: "Più televisori in casa", p: "Qui la differenza economica è particolarmente marcata. Gli operatori classici fatturano ogni terminale aggiuntivo, quindi una famiglia con tre televisori paga tre noleggi di decoder. Con l'IPTV le tue credenziali funzionano su qualsiasi dispositivo senza costi per apparecchio; l'unica cosa da dimensionare è il numero di connessioni simultanee, che conta solo se più persone vogliono guardare canali diversi nello stesso momento. Se hai dubbi su quante ne servono, chiedi prima dell'acquisto." },
+    { h: "Cosa si perde e cosa no", p: "Conservi i canali, la guida ai programmi, lo zapping e il video on demand, e guadagni un catalogo internazionale che nessun operatore nazionale eguaglia. Ciò che non si trasferisce sono le funzioni legate all'hardware dell'operatore: la registrazione sul disco del decoder e alcune funzionalità proprietarie della sua interfaccia. Molte app IPTV offrono alternative, ma è meglio saperlo prima di fare il passo che scoprirlo dopo. Per la maggior parte delle famiglie non è un ostacolo; per chi registra molto, è un punto da valutare." },
+    { h: "Quanto risparmi in un anno", p: "Con un pacchetto premium intorno ai 50 € al mese, la spesa annua si aggira sui 600 €. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, e include lo sport che via cavo è di solito un'opzione fatturata a parte. Anche considerando un margine ampio, il risparmio si colloca su diverse centinaia di euro all'anno. E poiché non ci sono rinnovo automatico né vincoli, quel calcolo non dipende dal fatto che tu ricordi di disdire entro una data precisa." },
+    { h: "Come provarlo senza rischi", p: "La prova gratuita di 24 ore non richiede carta di credito e dà accesso al catalogo completo. Attivala nel momento in cui guardi di solito la televisione, non di mattina, e verifica tre cose: che i tuoi canali abituali ci siano, che la guida sia popolata e che l'immagine regga sul tuo televisore specifico. Se decidi di continuare, la garanzia di rimborso di 7 giorni copre inoltre i primi giorni dell'abbonamento, così il rischio economico reale è praticamente nullo." },
+  ],
+  faq: [
+    { q: "L'IPTV è una vera alternativa al cavo?", a: "Sì, se la tua connessione è stabile. Offre molti più canali e film a una frazione del prezzo, senza contratto né hardware, ma dipende dalla tua banda mentre il cavo no." },
+    { q: "Quanto risparmio lasciando il cavo?", a: "Un pacchetto premium si aggira sui 600 € all'anno. Il piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso invece che fatturato a parte." },
+    { q: "Devo restituire il decoder?", a: "Quello del tuo operatore sì, secondo le sue condizioni. L'IPTV non richiede hardware proprio: funziona su Smart TV, Fire TV Stick, Apple TV, telefono, tablet o computer." },
+    { q: "Quando devo disdire il cavo?", a: "Dopo aver provato, non prima. Attiva la prova gratuita, acquista un mese, convivi qualche settimana con entrambi i servizi e invia la disdetta rispettando il preavviso del contratto." },
+    { q: "Quale connessione mi serve?", a: "10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul dispositivo di visione. La stabilità conta più della velocità massima dichiarata." },
+  ],
+  cta: "Prova l'alternativa gratis",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
