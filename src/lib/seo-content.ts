@@ -3333,6 +3333,152 @@ content["iptv-free-trial"].it = {
   cta: "Richiedi la prova gratuita",
 };
 
+// --- es/it for /best-iptv-service -------------------------------------------
+content["best-iptv-service"].es = {
+  metaTitle: "El mejor servicio IPTV en 2026 — cómo elegir sin equivocarte",
+  metaDesc:
+    "Qué distingue a un buen servicio IPTV: estabilidad en directo, catálogo real, guía completa y soporte. Criterios verificables y prueba gratis de 24 h.",
+  eyebrow: "Guía de compra · Actualizada 2026",
+  h1: "El mejor servicio IPTV",
+  h1Accent: "y cómo reconocerlo",
+  intro:
+    "No existe un «mejor servicio IPTV» universal: existe el que aguanta la hora del partido con tu conexión y tiene tus canales. Estos son los criterios que puedes verificar tú mismo, y cómo los cumple ATV Corner con 66.000+ canales desde 5 €/mes.",
+  features: [
+    { h: "Estabilidad en directo", p: "Lo único que de verdad separa a los proveedores: aguantar en horario punta." },
+    { h: "Catálogo verificable", p: "66.000+ canales, 70.000 películas y 18.000 series, comprobables en la prueba." },
+    { h: "Soporte real", p: "Respuesta por WhatsApp en menos de 5 minutos, no un formulario sin respuesta." },
+    { h: "Prueba antes de pagar", p: "24 horas de acceso completo sin tarjeta, y garantía de 7 días después." },
+  ],
+  sections: [
+    { h: "Por qué las listas de «mejores servicios» sirven de poco", p: "La mayoría de las clasificaciones que encontrarás comparan cifras de catálogo y precios, que son precisamente los dos datos más fáciles de inflar y los que menos predicen tu experiencia. Un proveedor puede anunciar 100.000 canales contando duplicados, versiones regionales y emisiones muertas. Lo que decide si estarás contento dentro de tres meses es algo que ninguna lista puede medir por ti: si el flujo aguanta en tu casa, con tu conexión, a la hora en la que tú ves la televisión." },
+    { h: "Criterio 1 — Estabilidad en horario punta", p: "Este es el criterio que realmente separa a los proveedores, y el único que hay que probar activamente. Entre las 20 y las 23 horas, y sobre todo durante un partido muy seguido, miles de espectadores piden el mismo flujo al mismo tiempo. Un servidor infradimensionado se nota justo ahí: microcortes, caída de resolución o congelación en el momento del gol. Cualquier proveedor va bien un martes por la mañana, así que una prueba matinal no demuestra absolutamente nada." },
+    { h: "Criterio 2 — Tus canales, no el número total", p: "Ignora la cifra global y haz una lista de los ocho o diez canales que ves de verdad. Después comprueba, uno a uno, que estén presentes y funcionen. Un servicio con 30.000 canales que incluye los tuyos es infinitamente mejor para ti que uno con 100.000 que no los tiene. Presta atención también a las versiones: un canal deportivo puede existir en la lista pero solo en un idioma que no entiendes o en una versión regional sin los derechos que te interesan." },
+    { h: "Criterio 3 — La guía de programación", p: "La EPG es el detalle que separa un servicio utilizable a diario de una lista de enlaces. Sin guía tienes que recordar qué se emite y cuándo, saltar de canal a ciegas y renunciar a cualquier función de grabación programada. Una buena guía cubre varios días, se corresponde con el canal correcto y está en el idioma adecuado. Es también un buen indicador de seriedad: mantener la EPG cuesta trabajo, así que un proveedor que la cuida suele cuidar el resto." },
+    { h: "Criterio 4 — Calidad de imagen real", p: "«4K» en una página de precios no significa que todo el catálogo esté en 4K, y ningún proveedor honesto lo pretendería: la resolución depende de la fuente. Lo que sí puedes exigir es codificación HEVC/H.265 y bitrate adaptativo, que permiten mantener la imagen fluida cuando tu conexión fluctúa en lugar de congelar la reproducción. Compruébalo en la prueba mirando un canal en movimiento rápido, como fútbol o motor: ahí es donde la compresión mala se hace visible al instante." },
+    { h: "Criterio 5 — Soporte que responde", p: "Antes o después necesitarás ayuda: un dispositivo nuevo, una aplicación actualizada, un ajuste que se ha perdido. Lo relevante no es que exista una página de contacto sino cuánto tarda una respuesta útil. Pruébalo antes de comprar: escribe una pregunta técnica concreta durante la prueba gratuita y mide el tiempo. Nuestro soporte responde por WhatsApp en menos de cinco minutos, y esa es una promesa que puedes verificar antes de pagar nada." },
+    { h: "Criterio 6 — Condiciones sin trampas", p: "Lee qué pasa al final del periodo contratado. Los servicios que renuevan automáticamente y esconden la cancelación detrás de un formulario cuentan con tu olvido. En ATV Corner no hay renovación automática: el acceso simplemente caduca y decides tú si vuelves. Añade a eso una garantía de devolución de 7 días desde la compra, y el riesgo económico de equivocarte se reduce prácticamente a cero." },
+    { h: "Cómo puntúa ATV Corner en estos criterios", p: "Más de 66.000 canales en directo, entre ellos 4.200 deportivos, con 70.000 películas y 18.000 series en 4K/8K. Guía de programación integrada de varios días. Codificación HEVC/H.265 con bitrate adaptativo. Activación en menos de cinco minutos con credenciales por WhatsApp. Soporte 24/7 con respuesta bajo cinco minutos. Precios de 15 € a 60 €, es decir 5 €/mes en el plan anual, sin permanencia. La valoración media es de 4,9/5 sobre más de 2.800 reseñas, con 12.000 suscriptores." },
+    { h: "El método de prueba en un cuarto de hora", p: "Pide la prueba gratuita de 24 horas y actívala deliberadamente en horario punta. Con la lista de tus canales delante, comprueba los ocho o diez que realmente ves. Abre la guía de programación y confirma que está rellenada varios días. Mira diez minutos seguidos de un contenido con movimiento rápido. Escribe una pregunta al soporte y cronometra. Si esas cuatro comprobaciones salen bien, has verificado más sobre el servicio que cualquier clasificación que puedas leer." },
+  ],
+  faq: [
+    { q: "¿Cuál es el mejor servicio IPTV?", a: "El que aguanta en horario punta con tu conexión y tiene tus canales. Ninguna clasificación puede medir eso por ti: solo lo demuestra una prueba en tu propio televisor a la hora en que ves la televisión." },
+    { q: "¿Sirve de algo comparar el número de canales?", a: "Poco. Las cifras se inflan con duplicados y versiones regionales. Es más útil listar los ocho o diez canales que ves de verdad y comprobarlos uno a uno durante la prueba." },
+    { q: "¿Cuánto debería costar un buen servicio IPTV?", a: "En ATV Corner, de 15 € por un mes a 60 € por doce, es decir 5 €/mes. Un precio mucho más bajo suele implicar servidores infradimensionados que fallan en horario punta." },
+    { q: "¿Cómo pruebo la estabilidad antes de comprar?", a: "Activa la prueba gratuita de 24 horas entre las 20 y las 23 horas o durante un partido concurrido, y mira diez minutos seguidos. Por la mañana casi cualquier servicio funciona bien." },
+    { q: "¿Qué garantías ofrece ATV Corner?", a: "Prueba gratuita de 24 horas sin tarjeta, garantía de devolución de 7 días desde la compra, sin permanencia y sin renovación automática." },
+  ],
+  cta: "Probar el servicio gratis",
+};
+
+content["best-iptv-service"].it = {
+  metaTitle: "Il miglior servizio IPTV nel 2026 — come scegliere senza sbagliare",
+  metaDesc:
+    "Cosa distingue un buon servizio IPTV: stabilità in diretta, catalogo reale, guida completa e assistenza. Criteri verificabili e prova gratuita di 24 h.",
+  eyebrow: "Guida all'acquisto · Aggiornata 2026",
+  h1: "Il miglior servizio IPTV",
+  h1Accent: "e come riconoscerlo",
+  intro:
+    "Non esiste un «miglior servizio IPTV» universale: esiste quello che regge l'ora della partita con la tua connessione e ha i tuoi canali. Ecco i criteri che puoi verificare da solo, e come li soddisfa ATV Corner con 66.000+ canali da 5 €/mese.",
+  features: [
+    { h: "Stabilità in diretta", p: "L'unica cosa che davvero separa i fornitori: reggere nelle ore di punta." },
+    { h: "Catalogo verificabile", p: "66.000+ canali, 70.000 film e 18.000 serie, controllabili durante la prova." },
+    { h: "Assistenza reale", p: "Risposta su WhatsApp in meno di 5 minuti, non un modulo senza risposta." },
+    { h: "Prova prima di pagare", p: "24 ore di accesso completo senza carta, e garanzia di 7 giorni dopo." },
+  ],
+  sections: [
+    { h: "Perché le classifiche dei «migliori servizi» servono a poco", p: "La maggior parte delle classifiche che troverai confronta numeri di catalogo e prezzi, cioè proprio i due dati più facili da gonfiare e quelli che meno prevedono la tua esperienza. Un fornitore può dichiarare 100.000 canali contando duplicati, versioni regionali e trasmissioni ormai morte. Ciò che decide se sarai soddisfatto fra tre mesi è qualcosa che nessuna classifica può misurare al posto tuo: se il flusso regge a casa tua, con la tua connessione, nell'orario in cui guardi la televisione." },
+    { h: "Criterio 1 — Stabilità nelle ore di punta", p: "È il criterio che davvero separa i fornitori, e l'unico da testare attivamente. Tra le 20 e le 23, e soprattutto durante una partita molto seguita, migliaia di spettatori richiedono lo stesso flusso nello stesso momento. Un server sottodimensionato si vede esattamente lì: microinterruzioni, calo di risoluzione o blocco proprio sul gol. Qualsiasi fornitore funziona bene un martedì mattina, quindi una prova mattutina non dimostra assolutamente nulla." },
+    { h: "Criterio 2 — I tuoi canali, non il numero totale", p: "Ignora la cifra complessiva e scrivi un elenco degli otto o dieci canali che guardi davvero. Poi verifica, uno a uno, che siano presenti e funzionino. Un servizio con 30.000 canali che include i tuoi è infinitamente migliore, per te, di uno con 100.000 che non li ha. Fai attenzione anche alle versioni: un canale sportivo può esistere nell'elenco ma solo in una lingua che non capisci o in una versione regionale priva dei diritti che ti interessano." },
+    { h: "Criterio 3 — La guida ai programmi", p: "L'EPG è il dettaglio che separa un servizio usabile ogni giorno da un semplice elenco di link. Senza guida devi ricordare cosa va in onda e quando, saltare da un canale all'altro alla cieca e rinunciare a qualsiasi funzione di registrazione programmata. Una buona guida copre più giorni, corrisponde al canale corretto ed è nella lingua giusta. È anche un buon indicatore di serietà: mantenere l'EPG costa lavoro, quindi un fornitore che se ne occupa di solito cura anche il resto." },
+    { h: "Criterio 4 — Qualità dell'immagine reale", p: "«4K» su una pagina prezzi non significa che l'intero catalogo sia in 4K, e nessun fornitore onesto lo sosterrebbe: la risoluzione dipende dalla sorgente. Ciò che puoi invece pretendere è la codifica HEVC/H.265 e il bitrate adattivo, che permettono di mantenere l'immagine fluida quando la connessione oscilla anziché bloccare la riproduzione. Verificalo durante la prova guardando un canale con movimento rapido, come calcio o motori: è lì che una compressione scadente diventa subito visibile." },
+    { h: "Criterio 5 — Assistenza che risponde", p: "Prima o poi ti servirà aiuto: un dispositivo nuovo, un'app aggiornata, un'impostazione andata persa. Ciò che conta non è l'esistenza di una pagina contatti ma quanto tempo passa prima di una risposta utile. Mettila alla prova prima di comprare: scrivi una domanda tecnica precisa durante la prova gratuita e misura il tempo. La nostra assistenza risponde su WhatsApp in meno di cinque minuti, ed è una promessa che puoi verificare prima di pagare qualsiasi cosa." },
+    { h: "Criterio 6 — Condizioni senza trappole", p: "Leggi cosa succede alla fine del periodo acquistato. I servizi che si rinnovano automaticamente e nascondono la disdetta dietro un modulo contano sulla tua dimenticanza. In ATV Corner non c'è rinnovo automatico: l'accesso semplicemente scade e sei tu a decidere se tornare. Aggiungi una garanzia di rimborso di 7 giorni dall'acquisto, e il rischio economico di sbagliare si riduce praticamente a zero." },
+    { h: "Come si posiziona ATV Corner su questi criteri", p: "Oltre 66.000 canali in diretta, di cui 4.200 sportivi, con 70.000 film e 18.000 serie in 4K/8K. Guida ai programmi integrata su più giorni. Codifica HEVC/H.265 con bitrate adattivo. Attivazione in meno di cinque minuti con credenziali su WhatsApp. Assistenza 24/7 con risposta sotto i cinque minuti. Prezzi da 15 € a 60 €, cioè 5 €/mese sul piano annuale, senza vincoli. La valutazione media è di 4,9/5 su oltre 2.800 recensioni, con 12.000 abbonati." },
+    { h: "Il metodo di verifica in un quarto d'ora", p: "Richiedi la prova gratuita di 24 ore e attivala deliberatamente in orario di punta. Con l'elenco dei tuoi canali davanti, controlla gli otto o dieci che guardi davvero. Apri la guida ai programmi e conferma che sia popolata su più giorni. Guarda dieci minuti consecutivi di un contenuto con movimento rapido. Scrivi una domanda all'assistenza e cronometra. Se queste quattro verifiche vanno a buon fine, hai accertato sul servizio più di quanto ti dirà qualsiasi classifica." },
+  ],
+  faq: [
+    { q: "Qual è il miglior servizio IPTV?", a: "Quello che regge nelle ore di punta con la tua connessione e ha i tuoi canali. Nessuna classifica può misurarlo al posto tuo: lo dimostra solo una prova sul tuo televisore nell'orario in cui guardi la TV." },
+    { q: "Serve confrontare il numero di canali?", a: "Poco. Le cifre si gonfiano con duplicati e versioni regionali. È più utile elencare gli otto o dieci canali che guardi davvero e verificarli uno a uno durante la prova." },
+    { q: "Quanto dovrebbe costare un buon servizio IPTV?", a: "In ATV Corner, da 15 € per un mese a 60 € per dodici, cioè 5 €/mese. Un prezzo molto più basso di solito implica server sottodimensionati che cedono nelle ore di punta." },
+    { q: "Come verifico la stabilità prima di comprare?", a: "Attiva la prova gratuita di 24 ore tra le 20 e le 23 o durante una partita molto seguita, e guarda dieci minuti consecutivi. Di mattina quasi ogni servizio funziona bene." },
+    { q: "Quali garanzie offre ATV Corner?", a: "Prova gratuita di 24 ore senza carta, garanzia di rimborso di 7 giorni dall'acquisto, senza vincoli e senza rinnovo automatico." },
+  ],
+  cta: "Prova il servizio gratis",
+};
+
+// --- es/it for /iptv-sport --------------------------------------------------
+content["iptv-sport"].es = {
+  metaTitle: "IPTV deportes — 4.200 canales, fútbol, F1 y boxeo en 4K",
+  metaDesc:
+    "IPTV deportes con 4.200 canales: LaLiga, Champions, Premier League, F1, MotoGP, NBA y boxeo en 4K sin cortes. Desde 5 €/mes, prueba gratis de 24 h.",
+  eyebrow: "4.200 canales deportivos · 4K",
+  h1: "IPTV deportes",
+  h1Accent: "sin cortes",
+  intro:
+    "4.200 canales deportivos en una sola suscripción: LaLiga, Champions League, Premier League, Serie A, Fórmula 1, MotoGP, NBA, tenis y boxeo, en 4K y sin los cortes que arruinan un gol. Desde 5 €/mes.",
+  features: [
+    { h: "4.200 canales de deporte", p: "Fútbol, motor, baloncesto, tenis, rugby, boxeo y deportes de combate." },
+    { h: "Directo estable en punta", p: "Servidores dimensionados para los grandes partidos, cuando más se nota." },
+    { h: "4K con HEVC/H.265", p: "Bitrate adaptativo: la imagen se mantiene fluida en las jugadas rápidas." },
+    { h: "Multideporte simultáneo", p: "Cambia entre partidos al instante en lugar de elegir uno solo." },
+  ],
+  sections: [
+    { h: "Todo el deporte en una suscripción", p: "El problema del deporte hoy no es la falta de contenido sino su fragmentación: los derechos están repartidos entre operadores distintos, y seguir todas las competiciones que te interesan suele implicar tres o cuatro abonos. Una suscripción IPTV de ATV Corner reúne 4.200 canales deportivos en un mismo acceso: fútbol nacional e internacional, motor, baloncesto, tenis, rugby, ciclismo y deportes de combate, sin sumar facturas ni saltar de aplicación en aplicación." },
+    { h: "Fútbol: ligas y competiciones europeas", p: "LaLiga, Premier League, Serie A, Bundesliga y Ligue 1, junto a la Champions League, la Europa League y las competiciones de selecciones. También encontrarás ligas menos cubiertas por los operadores clásicos, desde la Eredivisie y la Liga Portugal hasta campeonatos sudamericanos. Los canales están disponibles en varias versiones de idioma cuando la fuente lo permite, lo que resulta útil si prefieres los comentarios en el idioma original." },
+    { h: "Motor: Fórmula 1, MotoGP y resistencia", p: "El deporte de motor es la prueba de fuego de cualquier servicio de streaming, porque el movimiento rápido y los travellings a alta velocidad dejan al descubierto de inmediato una compresión deficiente. Nuestra codificación HEVC/H.265 con bitrate adaptativo está pensada precisamente para eso. Encontrarás la Fórmula 1 con sus sesiones de entrenamientos y clasificación, MotoGP, Fórmula E, WRC y las carreras de resistencia como las 24 Horas de Le Mans." },
+    { h: "Baloncesto, tenis y deportes de combate", p: "La NBA con la temporada regular y los playoffs, la EuroLeague y las ligas nacionales. En tenis, los cuatro Grand Slams, los Masters 1000 y los torneos ATP y WTA, incluidas las pistas secundarias que rara vez llegan a la televisión abierta. En deportes de combate, boxeo internacional, UFC y las principales veladas de artes marciales mixtas, que suelen emitirse de madrugada y son justo donde una guía de programación fiable marca la diferencia." },
+    { h: "Por qué la estabilidad importa más en deporte", p: "En una película, un microcorte de dos segundos es una molestia menor: rebobinas. En un directo deportivo, esos dos segundos pueden ser el gol, la adelantada o el nocaut, y no hay forma de recuperarlos. Además, el deporte concentra la demanda: miles de espectadores piden exactamente el mismo flujo en el mismo minuto. Por eso el único momento útil para evaluar un servicio deportivo es durante un partido concurrido, nunca un martes por la mañana." },
+    { h: "Seguir varios partidos a la vez", p: "En una jornada de liga con partidos simultáneos, o durante una fase de grupos, el cambio rápido entre canales pesa más que la resolución. Con credenciales Xtream Codes el reproductor carga los canales de forma dinámica, así que saltar de un encuentro a otro es prácticamente instantáneo en lugar de exigir una recarga completa de la lista. Aplicaciones como TiviMate permiten además crear un grupo de favoritos solo con los canales deportivos, lo que evita recorrer 66.000 entradas en pleno partido." },
+    { h: "Qué conexión necesitas", p: "Para deporte en HD basta con unos 10 Mbps estables; para 4K conviene contar con 25 Mbps, medidos en el aparato donde vas a ver y no en el router. La palabra clave es estables: una conexión que promedia 50 Mbps pero cae a 5 cada pocos minutos dará peor resultado que una de 20 Mbps constante. Si puedes, conecta el televisor por cable Ethernet para los partidos importantes; es la mejora más barata y eficaz que existe." },
+    { h: "En qué pantalla ver el deporte", p: "El televisor del salón sigue siendo la mejor opción para un partido completo, y ahí un Fire TV Stick 4K o un Android TV con TiviMate dan el resultado más fluido. Para las competiciones que se solapan, muchos espectadores dejan el partido principal en el televisor y siguen el segundo en una tableta con la misma suscripción, ya que las credenciales no están atadas a un dispositivo concreto. Para el deporte de madrugada, el móvil con auriculares evita despertar a la casa. Lo único que conviene planificar de antemano es el número de conexiones simultáneas que necesitas." },
+    { h: "Cómo verificarlo antes de pagar", p: "Pide la prueba gratuita de 24 horas y actívala deliberadamente a la hora de un partido importante. Comprueba que las competiciones que sigues estén presentes, que la guía muestre correctamente los horarios y que la imagen aguante diez minutos seguidos de juego. Si esas tres cosas se cumplen en el peor momento posible, se cumplirán el resto del tiempo. La suscripción cuesta desde 15 € al mes, o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Cuántos canales de deporte incluye?", a: "4.200 canales deportivos, con fútbol, motor, baloncesto, tenis, rugby, ciclismo y deportes de combate, incluidos en cualquier plan sin coste adicional." },
+    { q: "¿Puedo ver LaLiga y la Champions League?", a: "Sí, junto a la Premier League, la Serie A, la Bundesliga, la Ligue 1 y la Europa League, en varias versiones de idioma cuando la fuente lo permite." },
+    { q: "¿Aguanta la calidad durante los grandes partidos?", a: "Los servidores están dimensionados para los picos de demanda y la codificación HEVC/H.265 con bitrate adaptativo mantiene la imagen fluida. Compruébalo tú mismo con la prueba gratuita durante un partido." },
+    { q: "¿Qué velocidad de conexión necesito?", a: "Unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el dispositivo de visionado. La estabilidad importa más que el pico máximo." },
+    { q: "¿Puedo cambiar rápido entre partidos simultáneos?", a: "Sí. Con Xtream Codes los canales se cargan de forma dinámica y el cambio es casi instantáneo. En TiviMate puedes crear un grupo de favoritos solo con canales deportivos." },
+  ],
+  cta: "Ver el deporte sin cortes",
+};
+
+content["iptv-sport"].it = {
+  metaTitle: "IPTV sport — 4.200 canali, calcio, F1 e boxe in 4K",
+  metaDesc:
+    "IPTV sport con 4.200 canali: Serie A, Champions, Premier League, F1, MotoGP, NBA e boxe in 4K senza interruzioni. Da 5 €/mese, prova gratuita di 24 h.",
+  eyebrow: "4.200 canali sportivi · 4K",
+  h1: "IPTV sport",
+  h1Accent: "senza interruzioni",
+  intro:
+    "4.200 canali sportivi in un solo abbonamento: Serie A, Champions League, Premier League, LaLiga, Formula 1, MotoGP, NBA, tennis e boxe, in 4K e senza le interruzioni che rovinano un gol. Da 5 €/mese.",
+  features: [
+    { h: "4.200 canali sportivi", p: "Calcio, motori, basket, tennis, rugby, boxe e sport da combattimento." },
+    { h: "Diretta stabile nei picchi", p: "Server dimensionati per le partite importanti, quando si nota di più." },
+    { h: "4K con HEVC/H.265", p: "Bitrate adattivo: l'immagine resta fluida nelle azioni veloci." },
+    { h: "Più sport in contemporanea", p: "Passa da una partita all'altra all'istante invece di sceglierne una sola." },
+  ],
+  sections: [
+    { h: "Tutto lo sport in un abbonamento", p: "Il problema dello sport oggi non è la mancanza di contenuti ma la loro frammentazione: i diritti sono distribuiti tra operatori diversi, e seguire tutte le competizioni che ti interessano richiede spesso tre o quattro abbonamenti. Un abbonamento IPTV di ATV Corner riunisce 4.200 canali sportivi in un unico accesso: calcio nazionale e internazionale, motori, basket, tennis, rugby, ciclismo e sport da combattimento, senza sommare fatture né saltare da un'app all'altra." },
+    { h: "Calcio: campionati e competizioni europee", p: "Serie A, Premier League, LaLiga, Bundesliga e Ligue 1, insieme a Champions League, Europa League e alle competizioni per nazionali. Troverai anche campionati meno coperti dagli operatori classici, dall'Eredivisie alla Liga Portugal fino ai tornei sudamericani. I canali sono disponibili in più versioni linguistiche quando la sorgente lo consente, il che è utile se preferisci la telecronaca in lingua originale." },
+    { h: "Motori: Formula 1, MotoGP e endurance", p: "Il motorsport è la prova del nove per qualsiasi servizio di streaming, perché il movimento rapido e le riprese ad alta velocità mettono subito a nudo una compressione scadente. La nostra codifica HEVC/H.265 con bitrate adattivo è pensata esattamente per questo. Trovi la Formula 1 con prove libere e qualifiche, la MotoGP, la Formula E, il WRC e le gare di durata come la 24 Ore di Le Mans." },
+    { h: "Basket, tennis e sport da combattimento", p: "L'NBA con stagione regolare e playoff, l'EuroLeague e i campionati nazionali. Nel tennis, i quattro Slam, i Masters 1000 e i tornei ATP e WTA, compresi i campi secondari che raramente arrivano sulla TV generalista. Negli sport da combattimento, boxe internazionale, UFC e le principali serate di arti marziali miste, che spesso vanno in onda nel cuore della notte ed è proprio lì che una guida ai programmi affidabile fa la differenza." },
+    { h: "Perché nello sport la stabilità conta di più", p: "In un film, una microinterruzione di due secondi è un fastidio minore: riavvolgi. In una diretta sportiva, quei due secondi possono essere il gol, il sorpasso o il knockout, e non c'è modo di recuperarli. Inoltre lo sport concentra la domanda: migliaia di spettatori richiedono esattamente lo stesso flusso nello stesso minuto. Per questo l'unico momento utile per valutare un servizio sportivo è durante una partita molto seguita, mai un martedì mattina." },
+    { h: "Seguire più partite contemporaneamente", p: "In una giornata di campionato con partite in contemporanea, o durante una fase a gironi, il cambio rapido tra canali pesa più della risoluzione. Con credenziali Xtream Codes il lettore carica i canali in modo dinamico, quindi passare da un incontro all'altro è praticamente istantaneo invece di richiedere una ricarica completa dell'elenco. App come TiviMate permettono inoltre di creare un gruppo di preferiti con i soli canali sportivi, evitando di scorrere 66.000 voci in piena partita." },
+    { h: "Quale connessione ti serve", p: "Per lo sport in HD bastano circa 10 Mbps stabili; per il 4K conviene disporre di 25 Mbps, misurati sull'apparecchio su cui guarderai e non sul router. La parola chiave è stabili: una connessione che in media fa 50 Mbps ma scende a 5 ogni pochi minuti darà un risultato peggiore di una da 20 Mbps costante. Se puoi, collega il televisore via cavo Ethernet per le partite importanti; è il miglioramento più economico ed efficace che esista." },
+    { h: "Su quale schermo guardare lo sport", p: "Il televisore del salotto resta la scelta migliore per una partita intera, e lì un Fire TV Stick 4K o un Android TV con TiviMate danno il risultato più fluido. Per le competizioni che si sovrappongono, molti spettatori lasciano la partita principale sul televisore e seguono la seconda su un tablet con lo stesso abbonamento, dato che le credenziali non sono legate a un singolo dispositivo. Per lo sport notturno, il telefono con le cuffie evita di svegliare la casa. L'unica cosa da pianificare in anticipo è il numero di connessioni simultanee che ti servono." },
+    { h: "Come verificarlo prima di pagare", p: "Richiedi la prova gratuita di 24 ore e attivala deliberatamente all'ora di una partita importante. Verifica che le competizioni che segui siano presenti, che la guida mostri correttamente gli orari e che l'immagine regga dieci minuti consecutivi di gioco. Se queste tre condizioni si verificano nel momento peggiore possibile, si verificheranno anche nel resto del tempo. L'abbonamento costa da 15 € al mese, oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+  ],
+  faq: [
+    { q: "Quanti canali sportivi sono inclusi?", a: "4.200 canali sportivi, con calcio, motori, basket, tennis, rugby, ciclismo e sport da combattimento, inclusi in qualsiasi piano senza costi aggiuntivi." },
+    { q: "Posso guardare la Serie A e la Champions League?", a: "Sì, insieme a Premier League, LaLiga, Bundesliga, Ligue 1 ed Europa League, in più versioni linguistiche quando la sorgente lo consente." },
+    { q: "La qualità regge durante le partite importanti?", a: "I server sono dimensionati per i picchi di domanda e la codifica HEVC/H.265 con bitrate adattivo mantiene l'immagine fluida. Verificalo tu stesso con la prova gratuita durante una partita." },
+    { q: "Che velocità di connessione mi serve?", a: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul dispositivo di visione. La stabilità conta più del picco massimo." },
+    { q: "Posso passare rapidamente tra partite in contemporanea?", a: "Sì. Con Xtream Codes i canali si caricano in modo dinamico e il cambio è quasi istantaneo. In TiviMate puoi creare un gruppo di preferiti con i soli canali sportivi." },
+  ],
+  cta: "Guarda lo sport senza interruzioni",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
