@@ -19,5 +19,15 @@ await make({
       cardTitle: "Les trois niveaux",
       lines: ["Gratuit — résumés et coupe", "Payant — le championnat régulier", "Groupé — tout en un accès"],
     },
+    es: {
+      title: "Gratis, de pago, agrupado",
+      cardTitle: "Los tres niveles",
+      lines: ["Gratis — resúmenes y copa", "De pago — la liga regular", "Agrupado — todo en un acceso"],
+    },
+    it: {
+      title: "Gratis, a pagamento, riunito",
+      cardTitle: "I tre livelli",
+      lines: ["Gratis — sintesi e coppa", "A pagamento — il campionato regolare", "Riunito — tutto in un accesso"],
+    },
   },
 });
