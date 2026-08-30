@@ -11,5 +11,15 @@ await make({
       lines: ["1  Is there a trial, no card?", "2  Does support reply up front?", "3  Is the price realistic?", "4  Is there a refund policy?"] },
     fr: { title: "Vérifier avant de payer", cardTitle: "Quatre questions, cinq minutes",
       lines: ["1  Un essai sans carte ?", "2  Le support répond-il avant ?", "3  Le prix est-il réaliste ?", "4  Y a-t-il un remboursement ?"] },
+    es: {
+      title: "Comprobar antes de pagar",
+      cardTitle: "Cuatro preguntas, cinco minutos",
+      lines: ["1  ¿Hay prueba sin tarjeta?", "2  ¿Responde el soporte antes?", "3  ¿Es realista el precio?", "4  ¿Hay política de reembolso?"],
+    },
+    it: {
+      title: "Verificare prima di pagare",
+      cardTitle: "Quattro domande, cinque minuti",
+      lines: ["1  C'è una prova senza carta?", "2  L'assistenza risponde prima?", "3  Il prezzo è realistico?", "4  C'è una politica di rimborso?"],
+    },
   },
 });

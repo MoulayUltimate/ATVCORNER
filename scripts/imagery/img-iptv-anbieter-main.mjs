@@ -9,5 +9,13 @@ await make({
     de: { title: "9 Warnsignale vor dem IPTV-Kauf", pill: "Vorher prüfen" },
     en: { title: "9 warning signs before you buy IPTV", pill: "Check first" },
     fr: { title: "9 signaux avant d'acheter une IPTV", pill: "Vérifier avant" },
+    es: {
+      title: "9 señales antes de contratar un IPTV",
+      pill: "Comprueba antes",
+    },
+    it: {
+      title: "9 segnali prima di comprare un IPTV",
+      pill: "Verifica prima",
+    },
   },
 });
