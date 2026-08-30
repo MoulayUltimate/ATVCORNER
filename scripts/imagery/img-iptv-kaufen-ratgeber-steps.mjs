@@ -19,5 +19,15 @@ await make({
       cardTitle: "Dans cet ordre",
       lines: ["1  Paiements et mentions légales", "2  Écrire au support, chronométrer", "3  Lire la règle de remboursement", "4  Tester gratuitement, puis payer"],
     },
+    es: {
+      title: "La lista antes de comprar",
+      cardTitle: "En este orden",
+      lines: ["1  Pagos y datos de empresa", "2  Escribir al soporte y cronometrar", "3  Leer la política de reembolso", "4  Probar gratis y después pagar"],
+    },
+    it: {
+      title: "La lista prima di comprare",
+      cardTitle: "In quest'ordine",
+      lines: ["1  Pagamenti e dati aziendali", "2  Scrivere all'assistenza e cronometrare", "3  Leggere la politica di rimborso", "4  Provare gratis e poi pagare"],
+    },
   },
 });

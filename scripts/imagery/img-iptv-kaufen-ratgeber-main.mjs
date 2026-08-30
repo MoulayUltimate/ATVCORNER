@@ -23,5 +23,17 @@ await make({
       cardTitle: "7 points avant de payer",
       lines: ["Le réaliste : 5 à 15 €/mois.", "Bien en dessous, on économise ailleurs."],
     },
+    es: {
+      title: "Comprar IPTV: comprobar y luego pagar",
+      pill: "10 minutos",
+      cardTitle: "7 comprobaciones antes de pagar",
+      lines: ["Lo realista son 5 a 15 € al mes.", "Muy por debajo, algo se está recortando."],
+    },
+    it: {
+      title: "Comprare IPTV: verificare e poi pagare",
+      pill: "10 minuti",
+      cardTitle: "7 verifiche prima di pagare",
+      lines: ["Il realistico è 5-15 € al mese.", "Molto sotto, qualcosa viene tagliato."],
+    },
   },
 });
