@@ -4601,6 +4601,80 @@ content["iptv-mag-box"].it = {
   cta: "Registra il mio MAG",
 };
 
+// --- es/it for /iptv-usa ----------------------------------------------------
+content["iptv-usa"].es = {
+  metaTitle: "IPTV USA — canales americanos, NFL, NBA y MLB en 4K",
+  metaDesc:
+    "IPTV con canales estadounidenses: NFL, NBA, MLB, NHL, cadenas nacionales y locales en 4K. Sin contrato ni descodificador, desde 5 €/mes con prueba gratis.",
+  eyebrow: "IPTV USA · Deporte americano",
+  h1: "IPTV Estados Unidos",
+  h1Accent: "todo el deporte americano",
+  intro:
+    "Cadenas estadounidenses, NFL, NBA, MLB y NHL en un solo acceso, con 70.000 películas y 18.000 series en 4K. Sin contrato de dos años ni descodificador alquilado: activado en cinco minutos desde 5 €/mes.",
+  features: [
+    { h: "Deporte americano", p: "NFL, NBA, MLB, NHL, universitario y combate, sin paquetes aparte." },
+    { h: "Cadenas nacionales", p: "Generalistas, informativos 24 h, entretenimiento y locales." },
+    { h: "Sin contrato", p: "Ni permanencia ni renovación automática ni alquiler de equipo." },
+    { h: "Desde el extranjero", p: "Las mismas credenciales funcionan desde cualquier país." },
+  ],
+  sections: [
+    { h: "Qué cubre el IPTV en Estados Unidos", p: "El mercado estadounidense es el más fragmentado del mundo: los derechos deportivos están repartidos entre cadenas nacionales, redes regionales y servicios de streaming, y seguir un solo deporte durante toda la temporada suele exigir tres o cuatro suscripciones. Una suscripción de ATV Corner reúne las cadenas generalistas, los informativos de veinticuatro horas, el entretenimiento y una amplia cobertura de canales locales en un mismo acceso, junto a más de 66.000 canales internacionales." },
+    { h: "Los cuatro grandes deportes", p: "La NFL con la temporada regular y los playoffs, la NBA con sus partidos nocturnos y la postemporada, la MLB a lo largo de una temporada larguísima y la NHL de octubre a junio. A eso se añade el deporte universitario, que en Estados Unidos mueve audiencias comparables a las profesionales, y el boxeo y las artes marciales mixtas. Los 4.200 canales deportivos están incluidos en cualquier plan, no como una opción facturada aparte." },
+    { h: "El problema de los blackouts regionales", p: "Conviene explicarlo porque es la particularidad más confusa del mercado estadounidense. Las redes deportivas regionales aplican restricciones geográficas: un partido de tu equipo local puede estar bloqueado precisamente en tu zona para proteger la asistencia al estadio o los acuerdos con la cadena local. Es una decisión de los titulares de los derechos, no de un proveedor concreto, y afecta a los servicios tradicionales igual que a cualquier otro. Con un catálogo internacional amplio suele haber versiones alternativas del mismo encuentro." },
+    { h: "Qué pagas hoy con el cable", p: "Un paquete de cable estadounidense con deporte se sitúa habitualmente entre los 80 y los 150 dólares mensuales una vez sumados el alquiler del descodificador, los cargos por televisor adicional, las tasas de emisión regional y el fin de la tarifa promocional. Sobre doce meses eso supone más de mil dólares. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido y sin equipo que devolver al darse de baja." },
+    { h: "Ver canales americanos desde fuera", p: "Es uno de los usos más frecuentes de nuestro servicio. Los expatriados estadounidenses y los aficionados al deporte americano en Europa y Latinoamérica encuentran en el IPTV la vía más directa para seguir la NFL o la NBA en horario europeo, sin depender de qué operador local haya comprado los derechos ese año. Las mismas credenciales funcionan desde cualquier país con conexión a internet, sin cambiar de suscripción ni pagar un extra." },
+    { h: "Qué conexión necesitas", p: "Unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el dispositivo donde vas a ver y no en el router. La cobertura de banda ancha en Estados Unidos es muy desigual según el estado y el proveedor, así que conviene medir antes de contratar nada. Si el televisor está lejos del router, un cable Ethernet resuelve más problemas que cualquier ajuste de la aplicación, sobre todo en partidos nocturnos cuando la red del barrio va cargada." },
+    { h: "En qué dispositivos funciona", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2 y ordenadores. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IPTV Smarters Pro por su sencillez, IBO Player y VLC para uso puntual. Como las credenciales no están atadas a un aparato, puedes empezar un partido en el salón y terminarlo en el móvil sin volver a configurar nada." },
+    { h: "Dejar el cable sin quedarte sin deporte", p: "El orden recomendado evita el hueco incómodo entre servicios. Activa primero la prueba gratuita de 24 horas y compruébala durante un partido, no un martes por la mañana. Si convence, contrata un mes y convive unas semanas con tu proveedor actual, idealmente cubriendo un fin de semana deportivo completo. Solo entonces cursa la baja, revisando las condiciones de tu contrato y devolviendo el equipo alquilado dentro del plazo para evitar cargos." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes. Los cuatro planes incluyen el mismo catálogo de 66.000+ canales, 4.200 deportivos, 70.000 películas y 18.000 series en 4K/8K, con soporte 24/7. Sin permanencia y sin renovación automática: el acceso caduca solo. Los siete primeros días están cubiertos por una garantía de devolución íntegra." },
+  ],
+  faq: [
+    { q: "¿Puedo ver la NFL y la NBA?", a: "Sí. Los 4.200 canales deportivos cubren NFL, NBA, MLB, NHL, deporte universitario, boxeo y artes marciales mixtas, incluidos en cualquier plan sin coste adicional." },
+    { q: "¿Qué pasa con los blackouts regionales?", a: "Las redes deportivas regionales aplican restricciones geográficas fijadas por los titulares de los derechos, no por el proveedor. Con un catálogo internacional amplio suele haber versiones alternativas del mismo partido." },
+    { q: "¿Cuánto ahorro frente al cable?", a: "Un paquete estadounidense con deporte ronda los 80-150 dólares al mes, más de mil al año. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido." },
+    { q: "¿Puedo ver canales americanos desde Europa?", a: "Sí. Las mismas credenciales funcionan desde cualquier país con conexión a internet, sin cambiar de suscripción ni depender del operador local." },
+    { q: "¿Hay que devolver algún equipo?", a: "No hay equipo nuestro que devolver: el IPTV funciona en el aparato que ya tienes. El descodificador de tu operador anterior sí, según sus condiciones." },
+  ],
+  cta: "Empezar con IPTV USA",
+};
+
+content["iptv-usa"].it = {
+  metaTitle: "IPTV USA — canali americani, NFL, NBA e MLB in 4K",
+  metaDesc:
+    "IPTV con canali statunitensi: NFL, NBA, MLB, NHL, reti nazionali e locali in 4K. Senza contratto né decoder, da 5 €/mese con prova gratuita.",
+  eyebrow: "IPTV USA · Sport americano",
+  h1: "IPTV Stati Uniti",
+  h1Accent: "tutto lo sport americano",
+  intro:
+    "Reti statunitensi, NFL, NBA, MLB e NHL in un solo accesso, con 70.000 film e 18.000 serie in 4K. Senza contratto biennale né decoder a noleggio: attivo in cinque minuti da 5 €/mese.",
+  features: [
+    { h: "Sport americano", p: "NFL, NBA, MLB, NHL, universitario e combattimento, senza pacchetti a parte." },
+    { h: "Reti nazionali", p: "Generaliste, informazione 24 h, intrattenimento e locali." },
+    { h: "Senza contratto", p: "Né vincoli né rinnovo automatico né noleggio di apparecchi." },
+    { h: "Dall'estero", p: "Le stesse credenziali funzionano da qualsiasi paese." },
+  ],
+  sections: [
+    { h: "Cosa copre l'IPTV negli Stati Uniti", p: "Il mercato statunitense è il più frammentato al mondo: i diritti sportivi sono divisi tra reti nazionali, network regionali e servizi di streaming, e seguire un solo sport per un'intera stagione richiede spesso tre o quattro abbonamenti. Un abbonamento ATV Corner riunisce le reti generaliste, l'informazione ventiquattr'ore, l'intrattenimento e un'ampia copertura di canali locali in un unico accesso, insieme a oltre 66.000 canali internazionali." },
+    { h: "I quattro grandi sport", p: "La NFL con stagione regolare e playoff, l'NBA con le partite notturne e la postseason, la MLB lungo una stagione lunghissima e l'NHL da ottobre a giugno. A questi si aggiunge lo sport universitario, che negli Stati Uniti muove ascolti paragonabili a quelli professionistici, insieme alla boxe e alle arti marziali miste. I 4.200 canali sportivi sono inclusi in qualsiasi piano, non come opzione fatturata a parte." },
+    { h: "Il problema dei blackout regionali", p: "Conviene spiegarlo perché è la particolarità più confusa del mercato statunitense. I network sportivi regionali applicano restrizioni geografiche: una partita della tua squadra locale può essere bloccata proprio nella tua zona, per proteggere l'affluenza allo stadio o gli accordi con l'emittente locale. È una decisione dei titolari dei diritti, non di un fornitore specifico, e riguarda i servizi tradizionali quanto qualsiasi altro. Con un catalogo internazionale ampio di norma esistono versioni alternative dello stesso incontro." },
+    { h: "Quanto paghi oggi con il cavo", p: "Un pacchetto via cavo statunitense con lo sport si colloca abitualmente tra gli 80 e i 150 dollari al mese, una volta sommati il noleggio del decoder, i costi per televisore aggiuntivo, le tasse di trasmissione regionale e la fine della tariffa promozionale. Su dodici mesi questo supera i mille dollari. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso e nessun apparecchio da restituire alla disdetta." },
+    { h: "Guardare canali americani dall'estero", p: "È uno degli usi più frequenti del nostro servizio. Gli statunitensi espatriati e gli appassionati di sport americano in Europa trovano nell'IPTV la via più diretta per seguire la NFL o l'NBA in orario europeo, senza dipendere da quale operatore locale abbia acquistato i diritti quell'anno. Le stesse credenziali funzionano da qualsiasi paese con una connessione internet, senza cambiare abbonamento né pagare un extra." },
+    { h: "Quale connessione serve", p: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul dispositivo su cui guarderai e non sul router. La copertura a banda larga negli Stati Uniti è molto disomogenea a seconda dello stato e del fornitore, quindi conviene misurare prima di sottoscrivere qualsiasi cosa. Se il televisore è lontano dal router, un cavo Ethernet risolve più problemi di qualsiasi impostazione dell'app, soprattutto nelle partite notturne quando la rete di quartiere è carica." },
+    { h: "Su quali dispositivi funziona", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2 e computer. Le app consigliate sono TiviMate per l'interfaccia da televisore, IPTV Smarters Pro per la semplicità, IBO Player e VLC per un uso occasionale. Poiché le credenziali non sono legate a un apparecchio, puoi iniziare una partita in salotto e finirla sul telefono senza riconfigurare nulla." },
+    { h: "Lasciare il cavo senza restare senza sport", p: "L'ordine consigliato evita il fastidioso vuoto tra servizi. Attiva prima la prova gratuita di 24 ore e verificala durante una partita, non un martedì mattina. Se convince, acquista un mese e convivi qualche settimana con il fornitore attuale, coprendo idealmente un intero fine settimana sportivo. Solo allora invia la disdetta, controllando le condizioni del contratto e restituendo l'apparecchio noleggiato entro i termini per evitare addebiti." },
+    { h: "Il fuso orario e come organizzarsi", p: "Seguire lo sport americano dall'Europa significa fare i conti con sei o nove ore di differenza: una partita NFL della domenica pomeriggio negli Stati Uniti va in onda in serata da noi, mentre il grosso dell'NBA cade nel cuore della notte. È qui che una guida ai programmi affidabile smette di essere un dettaglio e diventa lo strumento principale, perché ti permette di sapere in anticipo cosa parte e quando senza dover convertire fusi a mente. Vale la pena creare un gruppo di preferiti con le sole reti che segui davvero, così alle due di notte non ti trovi a scorrere decine di migliaia di voci." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese. Tutti e quattro i piani includono lo stesso catalogo di 66.000+ canali, 4.200 sportivi, 70.000 film e 18.000 serie in 4K/8K, con assistenza 24/7. Senza vincoli e senza rinnovo automatico: l'accesso scade da solo. I primi sette giorni sono coperti da una garanzia di rimborso integrale." },
+  ],
+  faq: [
+    { q: "Posso guardare la NFL e l'NBA?", a: "Sì. I 4.200 canali sportivi coprono NFL, NBA, MLB, NHL, sport universitario, boxe e arti marziali miste, inclusi in qualsiasi piano senza costi aggiuntivi." },
+    { q: "Come funzionano i blackout regionali?", a: "I network sportivi regionali applicano restrizioni geografiche stabilite dai titolari dei diritti, non dal fornitore. Con un catalogo internazionale ampio di norma esistono versioni alternative della stessa partita." },
+    { q: "Quanto risparmio rispetto al cavo?", a: "Un pacchetto statunitense con lo sport si aggira sugli 80-150 dollari al mese, oltre mille all'anno. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso." },
+    { q: "Posso guardare canali americani dall'Europa?", a: "Sì. Le stesse credenziali funzionano da qualsiasi paese con una connessione internet, senza cambiare abbonamento né dipendere dall'operatore locale." },
+    { q: "Devo restituire qualche apparecchio?", a: "Non c'è alcun apparecchio nostro da restituire: l'IPTV funziona su quello che già possiedi. Il decoder del tuo operatore precedente sì, secondo le sue condizioni." },
+  ],
+  cta: "Inizia con IPTV USA",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
