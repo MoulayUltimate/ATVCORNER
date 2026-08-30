@@ -3189,6 +3189,150 @@ const FALLBACK: Record<Locale, Locale[]> = {
   it: ["en", "fr"],
 };
 
+// --- es/it for /iptv-subscription -------------------------------------------
+content["iptv-subscription"].es = {
+  metaTitle: "Suscripción IPTV — 66.000+ canales, 4K/8K y prueba gratis",
+  metaDesc:
+    "Suscripción IPTV de ATV Corner: 66.000+ canales, 70.000+ películas y series en 4K/8K. Desde 5 €/mes, activación en 5 minutos, prueba gratuita y garantía de 7 días.",
+  eyebrow: "Suscripción IPTV · Desde 5 €/mes",
+  h1: "La suscripción IPTV",
+  h1Accent: "sin concesiones",
+  intro:
+    "Una suscripción IPTV de ATV Corner te da acceso a más de 66.000 canales internacionales y a 70.000 películas y series en 4K/8K Ultra HD, en cualquier pantalla. Activada en menos de 5 minutos, sin permanencia, desde 5 €/mes.",
+  features: [
+    { h: "66.000+ canales", p: "Deporte, cine, series, informativos, infantil y canales de todo el mundo en una sola suscripción." },
+    { h: "4K / 8K Ultra HD", p: "Codificación HEVC/H.265 y bitrate adaptativo para una imagen nítida, incluso en deporte en directo." },
+    { h: "Desde 5 €/mes", p: "Planes de 1, 3, 6 y 12 meses. El plan anual sale a 5 €/mes, sin costes ocultos." },
+    { h: "Activa en 5 min", p: "Tus credenciales Xtream Codes o tu enlace M3U llegan por WhatsApp justo después del pago." },
+  ],
+  sections: [
+    { h: "¿Qué es una suscripción IPTV?", p: "Una suscripción IPTV (Internet Protocol Television) entrega televisión en directo y bajo demanda a través de tu conexión a internet, sin antena ni descodificador de cable. Con ATV Corner, una sola suscripción desbloquea más de 66.000 canales y una biblioteca de 70.000 películas y 18.000 series. La emisión llega en tiempo real a tu Smart TV, Firestick, móvil o box, con guía de programación (EPG) integrada. Es más contenido que un paquete de cable o satélite, por una fracción del precio." },
+    { h: "Cómo elegir la duración de tu suscripción", p: "ATV Corner ofrece cuatro duraciones: 1 mes para probar (15 €), 3 meses (30 €), 6 meses (50 €) y 12 meses (60 €, es decir 5 €/mes). Cuanto más larga es la duración, menor es el coste mensual. Todos los planes incluyen exactamente el mismo catálogo, la misma calidad 4K/8K y el mismo soporte 24/7: no pagas más por mejor imagen. Puedes empezar con una prueba gratuita de 24 horas para comprobar la estabilidad antes de comprometerte y pasar después al plan anual, que es el más económico." },
+    { h: "Una suscripción, todos tus dispositivos", p: "Tu suscripción IPTV de ATV Corner funciona en Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS y Linux, mediante las aplicaciones TiviMate, IBO Player, IPTV Smarters Pro o VLC. Puedes ver en casa y continuar en el móvil sin reinstalar nada. El soporte técnico te acompaña por WhatsApp en menos de 5 minutos para configurar cada dispositivo." },
+    { h: "Qué duración conviene a quién", p: "Los cuatro planes incluyen el mismo catálogo, la misma calidad y el mismo soporte; la única diferencia es el coste por mes. El plan mensual de 15 € tiene sentido si quieres seguir el servicio durante una temporada o un torneo concreto. Tres meses por 30 € equivalen a 10 €/mes y cubren normalmente media temporada deportiva. Seis meses por 50 € se sitúan en torno a 8,30 €/mes. El plan anual de 60 € baja el coste a 5 €/mes, con diferencia el más barato. Como no hay renovación automática, elegir una duración larga no conlleva ningún riesgo." },
+    { h: "Qué recibes después del pago", p: "Tus credenciales llegan por WhatsApp en menos de cinco minutos. Según el formato que prefieras, será un trío Xtream Codes con URL del servidor, usuario y contraseña, o un enlace M3U. Xtream Codes es la opción más moderna: el reproductor carga canales, guía, películas y series de forma dinámica y solo cuando hace falta, lo que resulta notablemente más rápido con un catálogo grande. El M3U es una única URL de lista, adecuada para VLC o Kodi. Ambos entregan exactamente el mismo contenido." },
+    { h: "Varios dispositivos en el mismo hogar", p: "Una suscripción está vinculada a tus credenciales, no a un dispositivo concreto. Puedes introducir los mismos datos en el televisor del salón, en un móvil y en una tableta, y retomar la reproducción en cada uno sin volver a comprar nada. Lo único a tener en cuenta es el número de conexiones simultáneas que permite tu plan: si varias personas quieren ver canales distintos al mismo tiempo, necesitarás más. Cuántas te convienen depende del hogar; si tienes dudas, pregúntanos antes de comprar y lo resolvemos en un mensaje." },
+    { h: "Cancelación, renovación y reembolso", p: "No hay renovación automática. Tu acceso simplemente caduca al final de la duración contratada y decides activamente si vuelves a contratar. Eso elimina las fricciones habituales de preavisos, formularios y plazos incumplidos propias de los contratos de cable y satélite. Durante los siete primeros días se aplica además una garantía de devolución: si la calidad o la estabilidad no te convencen, reembolsamos el importe íntegro. Como puedes probar gratis 24 horas antes, ese caso debería ser raro." },
+    { h: "Cómo saber antes de comprar si te encaja", p: "La prueba más fiable dura un cuarto de hora y no cuesta nada. Inicia el acceso gratuito de 24 horas deliberadamente en un momento en el que sueles ver la televisión: para el deporte, a la hora del partido y no por la mañana. Comprueba tres cosas: que los canales que ves realmente estén en la lista y funcionen de forma estable, que la guía de programación esté correctamente cargada y que la imagen se mantenga fluida en tu dispositivo concreto. Si algo falla, escríbenos: casi siempre es un ajuste que se corrige en dos minutos." },
+  ],
+  faq: [
+    { q: "¿Cuánto cuesta una suscripción IPTV de ATV Corner?", a: "Las suscripciones empiezan en 15 € por un mes y bajan a 5 €/mes con el plan anual de 60 €. Todos los planes incluyen 66.000+ canales, calidad 4K/8K y soporte 24/7." },
+    { q: "¿La suscripción tiene permanencia?", a: "No. Sin permanencia y sin renovación automática. Tú eliges la duración y renuevas solo si quieres, con una garantía de devolución de 7 días." },
+    { q: "¿Puedo probar antes de pagar?", a: "Sí, hay una prueba gratuita de 24 horas sin tarjeta de crédito. Pruebas el acceso completo y te suscribes solo si la calidad te convence." },
+    { q: "¿En cuánto tiempo se activa la suscripción?", a: "En menos de 5 minutos. Tras el pago recibes tus credenciales Xtream Codes o tu enlace M3U por WhatsApp o correo, listos para usar." },
+    { q: "¿En qué dispositivos funciona la suscripción?", a: "En Smart TV, Fire TV Stick, Apple TV, móviles, tabletas, MAG Box, Enigma2 y ordenadores, mediante TiviMate, IBO Player, IPTV Smarters Pro o VLC." },
+  ],
+  cta: "Iniciar mi suscripción",
+};
+
+content["iptv-subscription"].it = {
+  metaTitle: "Abbonamento IPTV — 66.000+ canali, 4K/8K e prova gratuita",
+  metaDesc:
+    "Abbonamento IPTV di ATV Corner: 66.000+ canali, 70.000+ film e serie in 4K/8K. Da 5 €/mese, attivazione in 5 minuti, prova gratuita e garanzia di 7 giorni.",
+  eyebrow: "Abbonamento IPTV · Da 5 €/mese",
+  h1: "L'abbonamento IPTV",
+  h1Accent: "senza compromessi",
+  intro:
+    "Un abbonamento IPTV di ATV Corner ti dà accesso a oltre 66.000 canali internazionali e a 70.000 film e serie in 4K/8K Ultra HD, su ogni schermo. Attivo in meno di 5 minuti, senza vincoli, da 5 €/mese.",
+  features: [
+    { h: "66.000+ canali", p: "Sport, cinema, serie, informazione, bambini e canali da tutto il mondo in un solo abbonamento." },
+    { h: "4K / 8K Ultra HD", p: "Codifica HEVC/H.265 e bitrate adattivo per un'immagine nitida, anche sullo sport in diretta." },
+    { h: "Da 5 €/mese", p: "Piani da 1, 3, 6 e 12 mesi. Il piano annuale equivale a 5 €/mese, senza costi nascosti." },
+    { h: "Attivo in 5 min", p: "Le credenziali Xtream Codes o il link M3U arrivano su WhatsApp subito dopo il pagamento." },
+  ],
+  sections: [
+    { h: "Che cos'è un abbonamento IPTV?", p: "Un abbonamento IPTV (Internet Protocol Television) porta la televisione in diretta e on demand attraverso la tua connessione internet, senza antenna né decoder via cavo. Con ATV Corner, un solo abbonamento sblocca oltre 66.000 canali e una libreria di 70.000 film e 18.000 serie. Il flusso arriva in tempo reale sulla tua Smart TV, sul Firestick, sul telefono o sulla box, con guida ai programmi (EPG) integrata. È più contenuto di un pacchetto via cavo o satellitare, a una frazione del prezzo." },
+    { h: "Come scegliere la durata dell'abbonamento", p: "ATV Corner propone quattro durate: 1 mese per provare (15 €), 3 mesi (30 €), 6 mesi (50 €) e 12 mesi (60 €, cioè 5 €/mese). Più lunga è la durata, più basso è il costo mensile. Tutti i piani includono esattamente lo stesso catalogo, la stessa qualità 4K/8K e la stessa assistenza 24/7: non paghi di più per un'immagine migliore. Puoi iniziare con una prova gratuita di 24 ore per verificare la stabilità prima di impegnarti e passare poi al piano annuale, il più conveniente." },
+    { h: "Un abbonamento, tutti i tuoi dispositivi", p: "Il tuo abbonamento IPTV ATV Corner funziona su Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2, Windows, macOS e Linux, tramite le app TiviMate, IBO Player, IPTV Smarters Pro o VLC. Puoi guardare a casa e riprendere sul telefono senza reinstallare nulla. L'assistenza tecnica ti segue su WhatsApp in meno di 5 minuti per configurare ogni dispositivo." },
+    { h: "Quale durata conviene a chi", p: "I quattro piani includono lo stesso catalogo, la stessa qualità e la stessa assistenza; l'unica differenza è il costo mensile. Il piano mensile da 15 € ha senso se vuoi seguire il servizio per una stagione o un torneo specifico. Tre mesi a 30 € equivalgono a 10 €/mese e coprono di norma metà stagione sportiva. Sei mesi a 50 € si attestano intorno a 8,30 €/mese. Il piano annuale a 60 € abbassa il costo a 5 €/mese, di gran lunga il più economico. Poiché non c'è rinnovo automatico, scegliere una durata lunga non comporta alcun rischio." },
+    { h: "Cosa ricevi dopo il pagamento", p: "Le credenziali arrivano su WhatsApp in meno di cinque minuti. A seconda del formato che preferisci, sarà un trio Xtream Codes con URL del server, nome utente e password, oppure un link M3U. Xtream Codes è l'opzione più moderna: il lettore carica canali, guida, film e serie in modo dinamico e solo quando serve, il che risulta molto più rapido con un catalogo ampio. L'M3U è un singolo URL di playlist, adatto a VLC o Kodi. Entrambi forniscono esattamente lo stesso contenuto." },
+    { h: "Più dispositivi nella stessa casa", p: "Un abbonamento è legato alle tue credenziali, non a un singolo dispositivo. Puoi inserire gli stessi dati sul televisore del salotto, su un telefono e su un tablet, e riprendere la visione su ciascuno senza acquistare nulla di nuovo. L'unico aspetto da considerare è il numero di connessioni simultanee consentite dal tuo piano: se più persone vogliono guardare canali diversi nello stesso momento, ne servono di più. Quante ne occorrono dipende dalla famiglia; in caso di dubbio chiedi prima dell'acquisto e lo risolviamo in un messaggio." },
+    { h: "Disdetta, rinnovo e rimborso", p: "Non c'è rinnovo automatico. Il tuo accesso scade semplicemente al termine della durata acquistata e sei tu a decidere attivamente se acquistare di nuovo. Questo elimina le solite seccature di preavvisi, moduli e scadenze mancate tipiche dei contratti via cavo e satellitari. Nei primi sette giorni si applica inoltre una garanzia di rimborso: se qualità o stabilità non convincono, rimborsiamo l'intero importo. Poiché puoi provare gratuitamente per 24 ore prima, questo caso dovrebbe essere raro." },
+    { h: "Come capire prima dell'acquisto se fa per te", p: "La verifica più affidabile dura un quarto d'ora e non costa nulla. Avvia l'accesso gratuito di 24 ore deliberatamente in un momento in cui guardi di solito la televisione: per lo sport, all'ora della partita e non di mattina. Controlla tre cose: che i canali che guardi davvero siano nell'elenco e funzionino in modo stabile, che la guida ai programmi sia caricata correttamente e che l'immagine resti fluida sul tuo dispositivo specifico. Se qualcosa non va, scrivici: quasi sempre è un'impostazione che si corregge in due minuti." },
+  ],
+  faq: [
+    { q: "Quanto costa un abbonamento IPTV di ATV Corner?", a: "Gli abbonamenti partono da 15 € per un mese e scendono a 5 €/mese con il piano annuale da 60 €. Tutti i piani includono 66.000+ canali, qualità 4K/8K e assistenza 24/7." },
+    { q: "L'abbonamento è senza vincoli?", a: "Sì. Nessun vincolo e nessun rinnovo automatico. Scegli tu la durata e rinnovi solo se vuoi, con una garanzia di rimborso di 7 giorni." },
+    { q: "Posso provare prima di pagare?", a: "Sì, è disponibile una prova gratuita di 24 ore senza carta di credito. Provi l'accesso completo e ti abboni solo se la qualità ti convince." },
+    { q: "In quanto tempo si attiva l'abbonamento?", a: "In meno di 5 minuti. Dopo il pagamento ricevi le credenziali Xtream Codes o il link M3U via WhatsApp o email, pronti all'uso." },
+    { q: "Su quali dispositivi funziona l'abbonamento?", a: "Su Smart TV, Fire TV Stick, Apple TV, telefoni, tablet, MAG Box, Enigma2 e computer, tramite TiviMate, IBO Player, IPTV Smarters Pro o VLC." },
+  ],
+  cta: "Avvia il mio abbonamento",
+};
+
+// --- es/it for /iptv-free-trial ---------------------------------------------
+content["iptv-free-trial"].es = {
+  metaTitle: "Prueba IPTV gratis 24 h — sin tarjeta, activa en 5 minutos",
+  metaDesc:
+    "Prueba IPTV gratuita de 24 horas sin tarjeta de crédito: 66.000+ canales en 4K/8K, activación por WhatsApp en 5 minutos. Compruébalo antes de pagar nada.",
+  eyebrow: "Prueba gratis 24 h · Sin tarjeta",
+  h1: "Prueba IPTV",
+  h1Accent: "gratis 24 horas",
+  intro:
+    "Comprueba el servicio en tu propio televisor antes de pagar nada: 24 horas de acceso completo a más de 66.000 canales en 4K/8K, sin tarjeta de crédito y activado por WhatsApp en menos de 5 minutos.",
+  features: [
+    { h: "Sin tarjeta de crédito", p: "No pedimos datos de pago para la prueba. Solo un mensaje de WhatsApp." },
+    { h: "Acceso completo", p: "La prueba incluye el catálogo entero, no una selección reducida." },
+    { h: "Activa en 5 minutos", p: "Recibes credenciales Xtream Codes o un enlace M3U listos para usar." },
+    { h: "Sin compromiso", p: "Si no te convence, no haces nada: la prueba caduca sola." },
+  ],
+  sections: [
+    { h: "Por qué probar antes de pagar", p: "Ninguna reseña te dice si un servicio funciona en tu casa, con tu conexión y en tu televisor. Eso solo lo demuestra una prueba. Por eso ofrecemos 24 horas de acceso completo sin pedir datos de pago: si el servicio no convence, no has arriesgado nada, y si convence, has comprobado exactamente lo que vas a comprar. Un proveedor que te deja verificar primero y pagar después tiene menos incentivos para ocultar nada." },
+    { h: "Cómo funciona la prueba", p: "Escríbenos por WhatsApp indicando qué dispositivo usas. Te devolvemos unas credenciales Xtream Codes (URL del servidor, usuario y contraseña) o un enlace M3U, junto con la aplicación recomendada para tu equipo. Las introduces una vez y el reproductor carga la lista completa de canales, la guía de programación de varios días y el catálogo de películas y series. Todo el proceso suele durar menos de cinco minutos y no requiere conocimientos técnicos." },
+    { h: "Qué comprobar durante las 24 horas", p: "Tres cosas, y en este orden. Primero, que los canales que realmente ves estén en la lista: no te fijes en el número total, busca los tuyos. Segundo, que la guía de programación aparezca correctamente rellenada, porque una guía vacía hace incómodo el uso diario. Tercero, y más importante, que la imagen se mantenga estable en horario de máxima audiencia o a la hora de un partido: por la mañana casi cualquier servicio funciona bien, así que probar entonces no demuestra nada." },
+    { h: "El momento adecuado para probar", p: "Este punto decide el valor de toda la prueba. La capacidad de servidor de un proveedor solo se revela cuando muchos espectadores piden el mismo flujo a la vez, es decir entre las 20 y las 23 horas o durante un partido concurrido. Si inicias la prueba un martes por la mañana, obtendrás un resultado excelente que no te dice nada sobre cómo se comportará el servicio cuando de verdad lo necesites. Elige deliberadamente el peor momento posible." },
+    { h: "Qué necesitas", p: "Una conexión estable desde 10 Mbps para HD o 25 Mbps para 4K fluido, medidos en el aparato donde vas a ver, y un dispositivo que probablemente ya tengas: Smart TV, Fire TV Stick, Apple TV, móvil, tableta, MAG Box o un ordenador. La aplicación la eliges tú entre TiviMate, IBO Player, IPTV Smarters Pro o VLC. No hace falta comprar nada ni instalar equipos adicionales." },
+    { h: "Qué pasa cuando termina la prueba", p: "Nada automático. El acceso simplemente caduca y decides tú si quieres suscribirte. No guardamos datos de pago porque nunca los pedimos, así que no hay ningún cobro que cancelar ni ninguna suscripción que interrumpir. Si decides continuar, eliges una duración —desde 15 € por un mes hasta 60 € por doce, es decir 5 €/mes— y a partir de la compra se aplica además una garantía de devolución de 7 días." },
+    { h: "Cómo se compara con una prueba de cable o satélite", p: "Los operadores clásicos también ofrecen ofertas de entrada, pero casi siempre exigen tarjeta, un contrato de doce o veinticuatro meses y un plazo de preaviso que hay que recordar. La promoción es barata; lo caro llega después, cuando el precio sube automáticamente y ya estás dentro de la permanencia. Nuestra prueba invierte esa lógica: no hay contrato que empiece, ningún precio que suba y nada que cancelar a tiempo. Terminas las 24 horas exactamente en la misma posición en la que empezaste, salvo que ahora sabes si el servicio funciona en tu casa." },
+    { h: "Errores frecuentes que arruinan una prueba", p: "El más común es probar sobre Wi-Fi débil y culpar al proveedor de los cortes. Si puedes, conecta el televisor por cable durante la prueba, o al menos sitúate cerca del router. El segundo error es juzgar el servicio por un único canal: si un canal concreto falla y los demás van perfectos, el problema es de esa fuente y no del servidor. El tercero es instalar tres aplicaciones a la vez y confundirse con ajustes distintos; empieza con una sola, la que te recomendemos para tu dispositivo, y añade otras después si quieres comparar." },
+    { h: "Si algo no funciona durante la prueba", p: "Escríbenos en ese mismo momento en lugar de descartar el servicio. La mayoría de los problemas durante una prueba no son del servicio sino de la configuración: un modo de decodificación equivocado en la aplicación, una conexión Wi-Fi saturada o una guía que necesita recargarse. Nuestro soporte responde por WhatsApp en menos de cinco minutos y revisa el ajuste contigo. Si aun así no funciona, lo sabrás con certeza y no habrás pagado nada." },
+  ],
+  faq: [
+    { q: "¿La prueba IPTV es realmente gratuita?", a: "Sí. 24 horas de acceso completo sin tarjeta de crédito y sin datos de pago. La prueba caduca sola, no hay nada que cancelar." },
+    { q: "¿Qué incluye la prueba?", a: "El catálogo completo: más de 66.000 canales, 70.000 películas y 18.000 series en 4K/8K, con guía de programación. No es una selección reducida." },
+    { q: "¿Cuándo conviene hacer la prueba?", a: "En horario de máxima audiencia o a la hora de un partido. Por la mañana casi cualquier servicio va bien, así que probar entonces no demuestra nada sobre la capacidad del servidor." },
+    { q: "¿Qué necesito para probar?", a: "Una conexión desde 10 Mbps para HD o 25 Mbps para 4K, y un dispositivo que ya tengas: Smart TV, Fire TV Stick, Apple TV, móvil, tableta u ordenador." },
+    { q: "¿Qué pasa al terminar las 24 horas?", a: "El acceso caduca y decides tú si te suscribes. No hay cobros automáticos porque nunca pedimos datos de pago para la prueba." },
+  ],
+  cta: "Solicitar mi prueba gratis",
+};
+
+content["iptv-free-trial"].it = {
+  metaTitle: "Prova IPTV gratuita 24 h — senza carta, attiva in 5 minuti",
+  metaDesc:
+    "Prova IPTV gratuita di 24 ore senza carta di credito: 66.000+ canali in 4K/8K, attivazione via WhatsApp in 5 minuti. Verifica prima di pagare qualsiasi cosa.",
+  eyebrow: "Prova gratuita 24 h · Senza carta",
+  h1: "Prova IPTV",
+  h1Accent: "gratuita 24 ore",
+  intro:
+    "Verifica il servizio sul tuo televisore prima di pagare qualsiasi cosa: 24 ore di accesso completo a oltre 66.000 canali in 4K/8K, senza carta di credito e attivato su WhatsApp in meno di 5 minuti.",
+  features: [
+    { h: "Senza carta di credito", p: "Non chiediamo dati di pagamento per la prova. Basta un messaggio WhatsApp." },
+    { h: "Accesso completo", p: "La prova include l'intero catalogo, non una selezione ridotta." },
+    { h: "Attiva in 5 minuti", p: "Ricevi credenziali Xtream Codes o un link M3U pronti all'uso." },
+    { h: "Nessun impegno", p: "Se non convince, non fai nulla: la prova scade da sola." },
+  ],
+  sections: [
+    { h: "Perché provare prima di pagare", p: "Nessuna recensione può dirti se un servizio funziona a casa tua, con la tua connessione e sul tuo televisore. Solo una prova lo dimostra. Per questo offriamo 24 ore di accesso completo senza chiedere dati di pagamento: se il servizio non convince non hai rischiato nulla, e se convince hai verificato esattamente ciò che stai per acquistare. Un fornitore che ti lascia controllare prima e pagare dopo ha meno interesse a nascondere qualcosa." },
+    { h: "Come funziona la prova", p: "Scrivici su WhatsApp indicando quale dispositivo usi. Ti rispondiamo con credenziali Xtream Codes (URL del server, nome utente e password) o un link M3U, insieme all'app consigliata per il tuo apparecchio. Le inserisci una volta e il lettore carica l'elenco completo dei canali, la guida ai programmi di più giorni e il catalogo di film e serie. L'intera procedura dura di norma meno di cinque minuti e non richiede conoscenze tecniche." },
+    { h: "Cosa verificare nelle 24 ore", p: "Tre cose, e in quest'ordine. Primo, che i canali che guardi davvero siano nell'elenco: non guardare il numero totale, cerca i tuoi. Secondo, che la guida ai programmi risulti correttamente popolata, perché una guida vuota rende scomodo l'uso quotidiano. Terzo, e più importante, che l'immagine resti stabile in prima serata o all'ora di una partita: di mattina quasi ogni servizio funziona bene, quindi provare allora non dimostra nulla." },
+    { h: "Il momento giusto per provare", p: "Questo punto decide il valore dell'intera prova. La capacità server di un fornitore si rivela solo quando molti spettatori richiedono lo stesso flusso contemporaneamente, cioè tra le 20 e le 23 o durante una partita molto seguita. Se avvii la prova un martedì mattina otterrai un risultato eccellente che non dice nulla su come si comporterà il servizio quando ti servirà davvero. Scegli deliberatamente il momento peggiore possibile." },
+    { h: "Cosa ti serve", p: "Una connessione stabile da 10 Mbps per l'HD o 25 Mbps per un 4K fluido, misurati sull'apparecchio su cui guarderai, e un dispositivo che probabilmente possiedi già: Smart TV, Fire TV Stick, Apple TV, telefono, tablet, MAG Box o un computer. L'app la scegli tu tra TiviMate, IBO Player, IPTV Smarters Pro o VLC. Non serve acquistare né installare hardware aggiuntivo." },
+    { h: "Cosa succede quando la prova finisce", p: "Nulla di automatico. L'accesso semplicemente scade e sei tu a decidere se abbonarti. Non conserviamo dati di pagamento perché non li chiediamo mai, quindi non c'è alcun addebito da annullare né alcun abbonamento da interrompere. Se decidi di continuare, scegli una durata — da 15 € per un mese fino a 60 € per dodici, cioè 5 €/mese — e dall'acquisto si applica inoltre una garanzia di rimborso di 7 giorni." },
+    { h: "Come si confronta con una prova via cavo o satellitare", p: "Gli operatori classici propongono anch'essi offerte d'ingresso, ma quasi sempre richiedono una carta, un contratto di dodici o ventiquattro mesi e un termine di disdetta da ricordare. La promozione costa poco; il costo vero arriva dopo, quando il prezzo sale automaticamente e sei già dentro il vincolo. La nostra prova ribalta questa logica: non c'è alcun contratto che parte, nessun prezzo che sale e nulla da disdire in tempo. Finisci le 24 ore esattamente nella posizione in cui hai iniziato, con in più la certezza di sapere se il servizio funziona a casa tua." },
+    { h: "Errori frequenti che rovinano una prova", p: "Il più comune è provare su un Wi-Fi debole e attribuire al fornitore le interruzioni. Se possibile, collega il televisore via cavo durante la prova, o almeno sistemati vicino al router. Il secondo errore è giudicare il servizio da un solo canale: se un canale specifico si blocca e gli altri vanno perfettamente, il problema è di quella sorgente e non del server. Il terzo è installare tre app contemporaneamente e confondersi tra impostazioni diverse; parti da una sola, quella che ti consigliamo per il tuo dispositivo, e aggiungine altre dopo se vuoi confrontare." },
+    { h: "Se qualcosa non funziona durante la prova", p: "Scrivici in quel momento invece di scartare il servizio. La maggior parte dei problemi durante una prova non riguarda il servizio ma la configurazione: una modalità di decodifica sbagliata nell'app, una connessione Wi-Fi satura o una guida da ricaricare. La nostra assistenza risponde su WhatsApp in meno di cinque minuti e verifica l'impostazione con te. Se comunque non funziona, lo saprai con certezza e non avrai pagato nulla." },
+  ],
+  faq: [
+    { q: "La prova IPTV è davvero gratuita?", a: "Sì. 24 ore di accesso completo senza carta di credito e senza dati di pagamento. La prova scade da sola, non c'è nulla da disdire." },
+    { q: "Cosa include la prova?", a: "Il catalogo completo: oltre 66.000 canali, 70.000 film e 18.000 serie in 4K/8K, con guida ai programmi. Non è una selezione ridotta." },
+    { q: "Quando conviene fare la prova?", a: "In prima serata o all'ora di una partita. Di mattina quasi ogni servizio funziona bene, quindi provare allora non dimostra nulla sulla capacità del server." },
+    { q: "Cosa mi serve per provare?", a: "Una connessione da 10 Mbps per l'HD o 25 Mbps per il 4K, e un dispositivo che già possiedi: Smart TV, Fire TV Stick, Apple TV, telefono, tablet o computer." },
+    { q: "Cosa succede dopo le 24 ore?", a: "L'accesso scade e decidi tu se abbonarti. Non ci sono addebiti automatici perché non chiediamo mai dati di pagamento per la prova." },
+  ],
+  cta: "Richiedi la prova gratuita",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];

@@ -228,7 +228,16 @@ export function SeoLandingPage({
             "@type": "Article",
             headline: content.metaTitle,
             description: content.metaDesc,
-            inLanguage: lang === "fr" ? "fr-FR" : lang === "de" ? "de-DE" : "en-US",
+            inLanguage:
+              lang === "fr"
+                ? "fr-FR"
+                : lang === "de"
+                  ? "de-DE"
+                  : lang === "es"
+                    ? "es-ES"
+                    : lang === "it"
+                      ? "it-IT"
+                      : "en-US",
             mainEntityOfPage: `${siteConfig.url}/${lang}/${slug}`,
             publisher: {
               "@type": "Organization",
