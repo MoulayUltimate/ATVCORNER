@@ -754,6 +754,42 @@ leagueExtras["ligue-1"] = {
       { label: "Fu\u00dfball in Frankreich", href: "/tools/in/france" },
     ],
   },
+  es: {
+    intro: "Desde que los derechos de la Ligue 1 se fragmentaron entre DAZN (8 de cada 9 partidos), beIN Sports (1 partido) y Canal+ Foot (resúmenes), seguir el campeonato francés al completo se ha vuelto caro y disperso. ATV Corner reúne todas las señales de la Ligue 1 en una sola suscripción desde 15 € al mes.",
+    sections: [
+      { h2: "Le Classique entre el PSG y el Olympique de Marsella", body: "Le Classique entre el PSG y el Marsella es el gran derbi del fútbol francés y se disputa dos veces por temporada. El Parque de los Príncipes (48.000 espectadores, París) contra el Estadio Vélodrome (67.000, Marsella). ATV Corner emite Le Classique en 4K HDR con Dolby Vision, multicámara y comentarios en español, francés, inglés y árabe." },
+      { h2: "Las estrellas de la Ligue 1 2025/2026", body: "Désiré Doué, Bradley Barcola, João Neves y Vitinha (PSG), Pierre-Emerick Aubameyang y Mason Greenwood (Marsella), Alexandre Lacazette (Lyon), Aleksandr Golovin (Mónaco) y Jonathan David (Lille). ATV Corner sigue a cada estrella con multicámara." },
+      { h2: "Copa de Francia y Trofeo de Campeones incluidos", body: "Más allá de los 306 partidos de la Ligue 1, ATV Corner emite la Copa de Francia (desde dieciseisavos hasta la final), el Trofeo de Campeones que abre la temporada y las campañas europeas de los clubes franceses en Champions, Europa League y Conference League." },
+    ],
+    extraFaq: [
+      { q: "¿Está incluida la Ligue 1 de DAZN en ATV Corner?", a: "Sí, los 8 partidos de DAZN por jornada están agregados, además del partido de beIN Sports y los resúmenes de Canal+ Foot." },
+      { q: "¿Se emite Le Classique entre el PSG y el Marsella en 4K?", a: "Sí, en 4K HDR con Dolby Vision, ocho ángulos de cámara y cuatro idiomas de comentarios." },
+      { q: "¿Puedo ver al Marsella desde el extranjero?", a: "Sí, ATV Corner agrega las señales francesas de la Ligue 1, accesibles desde España, Alemania, Italia o Reino Unido sin VPN." },
+    ],
+    related: [
+      { label: "Ver al PSG", href: "/tools/team/psg" },
+      { label: "Ver al Olympique de Marsella", href: "/tools/team/olympique-marseille" },
+      { label: "Fútbol en Francia", href: "/tools/in/france" },
+    ],
+  },
+  it: {
+    intro: "Da quando i diritti della Ligue 1 si sono frammentati tra DAZN (8 partite su 9), beIN Sports (1 partita) e Canal+ Foot (sintesi), seguire per intero il campionato francese è diventato costoso e dispersivo. ATV Corner riunisce tutti i segnali della Ligue 1 in un solo abbonamento da 15 € al mese.",
+    sections: [
+      { h2: "Le Classique tra PSG e Olympique Marsiglia", body: "Le Classique tra PSG e Marsiglia è il grande derby del calcio francese e si disputa due volte a stagione. Il Parco dei Principi (48.000 spettatori, Parigi) contro lo Stade Vélodrome (67.000, Marsiglia). ATV Corner trasmette Le Classique in 4K HDR con Dolby Vision, multicamera e telecronaca in italiano, francese, inglese e arabo." },
+      { h2: "Le stelle della Ligue 1 2025/2026", body: "Désiré Doué, Bradley Barcola, João Neves e Vitinha (PSG), Pierre-Emerick Aubameyang e Mason Greenwood (Marsiglia), Alexandre Lacazette (Lione), Aleksandr Golovin (Monaco) e Jonathan David (Lille). ATV Corner segue ogni stella con la multicamera." },
+      { h2: "Coppa di Francia e Trofeo dei Campioni inclusi", body: "Oltre alle 306 partite di Ligue 1, ATV Corner trasmette la Coppa di Francia (dai sedicesimi alla finale), il Trofeo dei Campioni che apre la stagione e le campagne europee dei club francesi in Champions, Europa League e Conference League." },
+    ],
+    extraFaq: [
+      { q: "La Ligue 1 di DAZN è inclusa in ATV Corner?", a: "Sì, le 8 partite DAZN a giornata sono aggregate, oltre alla partita di beIN Sports e alle sintesi di Canal+ Foot." },
+      { q: "Le Classique tra PSG e Marsiglia viene trasmesso in 4K?", a: "Sì, in 4K HDR con Dolby Vision, otto angolazioni di camera e quattro lingue di telecronaca." },
+      { q: "Posso guardare il Marsiglia dall'estero?", a: "Sì, ATV Corner aggrega i segnali francesi della Ligue 1, accessibili da Italia, Germania, Spagna o Regno Unito senza VPN." },
+    ],
+    related: [
+      { label: "Guarda il PSG", href: "/tools/team/psg" },
+      { label: "Guarda l'Olympique Marsiglia", href: "/tools/team/olympique-marseille" },
+      { label: "Calcio in Francia", href: "/tools/in/france" },
+    ],
+  },
 };
 
 // ---------- Europa League ----------
@@ -801,6 +837,36 @@ leagueExtras["europa-league"] = {
     related: [
       { label: "Champions League live", href: "/tools/watch/champions-league" },
       { label: "Abo-Vergleich", href: "/tools/comparison" },
+    ],
+  },
+  es: {
+    intro: "La UEFA Europa League, la segunda competición continental, estrena un formato de 36 equipos desde 2024/25. Los derechos están repartidos entre BT/TNT Sports en el Reino Unido, Canal+ y RMC Sport en Francia, RTL/Nitro en Alemania, Sky en Italia y Movistar en España. ATV Corner reúne todas las señales en una sola aplicación.",
+    sections: [
+      { h2: "El nuevo formato de 36 equipos de la Europa League", body: "Ocho partidos de fase de liga por equipo en lugar de grupos, una única clasificación, los ocho primeros directos a octavos, del noveno al vigésimo cuarto un play-off, y los 16 equipos restantes en eliminatoria directa hasta la final. ATV Corner cubre los 144 partidos de fase de liga más las eliminatorias y la final, alrededor de 200 encuentros." },
+      { h2: "Clubes habituales: Roma, Tottenham, Atalanta y Leverkusen", body: "AS Roma (finalista en la era Mourinho), Tottenham, Manchester United (campeón en 2017), Atalanta, Bayer Leverkusen (finalista en 2024 frente al Atalanta), Ajax, FC Oporto, Sporting de Lisboa y Galatasaray. ATV Corner emite todos los partidos en HD 1080p y en 4K HDR en los grandes choques." },
+    ],
+    extraFaq: [
+      { q: "¿Hay partidos de la Europa League en inglés?", a: "Sí, con comentarios en inglés mediante las señales de BT/TNT Sports agregadas por ATV Corner." },
+      { q: "¿Se emite la final de la Europa League en 4K?", a: "Sí, de forma habitual en 4K HDR con Dolby Vision." },
+    ],
+    related: [
+      { label: "Champions League en directo", href: "/tools/watch/champions-league" },
+      { label: "Comparativa de suscripciones", href: "/tools/comparison" },
+    ],
+  },
+  it: {
+    intro: "La UEFA Europa League, la seconda competizione continentale, adotta un formato a 36 squadre dal 2024/25. I diritti sono divisi tra BT/TNT Sports nel Regno Unito, Canal+ e RMC Sport in Francia, RTL/Nitro in Germania, Sky in Italia e Movistar in Spagna. ATV Corner riunisce tutti i segnali in un'unica applicazione.",
+    sections: [
+      { h2: "Il nuovo formato a 36 squadre dell'Europa League", body: "Otto partite di fase campionato per squadra invece dei gironi, una sola classifica, le prime otto direttamente agli ottavi, dalla nona alla ventiquattresima un play-off, e le 16 squadre restanti a eliminazione diretta fino alla finale. ATV Corner copre le 144 partite di fase campionato più gli spareggi e la finale, circa 200 incontri." },
+      { h2: "Club abituali: Roma, Tottenham, Atalanta e Leverkusen", body: "AS Roma (finalista nell'era Mourinho), Tottenham, Manchester United (campione nel 2017), Atalanta, Bayer Leverkusen (finalista nel 2024 contro l'Atalanta), Ajax, FC Porto, Sporting Lisbona e Galatasaray. ATV Corner trasmette tutte le partite in HD 1080p e in 4K HDR sugli scontri di cartello." },
+    ],
+    extraFaq: [
+      { q: "Ci sono partite di Europa League in inglese?", a: "Sì, con telecronaca in inglese tramite i segnali di BT/TNT Sports aggregati da ATV Corner." },
+      { q: "La finale di Europa League viene trasmessa in 4K?", a: "Sì, abitualmente in 4K HDR con Dolby Vision." },
+    ],
+    related: [
+      { label: "Champions League in diretta", href: "/tools/watch/champions-league" },
+      { label: "Confronto abbonamenti", href: "/tools/comparison" },
     ],
   },
 };
@@ -874,6 +940,46 @@ export const countryExtras: Record<string, LocalizedExtras> = {
         { label: "Abo-Vergleich", href: "/tools/comparison" },
       ],
     },
+    es: {
+      intro: "Ver fútbol en Francia nunca ha sido tan complicado: la Ligue 1 en DAZN y beIN Sports, la Premier League en Canal+, la Champions League en Canal+, LaLiga en beIN, la Bundesliga en beIN y la Serie A en RMC. Para seguir todas las competiciones, un aficionado francés necesitaba entre cuatro y cinco suscripciones oficiales por más de 100 € al mes. ATV Corner reúne DAZN, Canal+, beIN, RMC y Prime Video Ligue 1 en una sola suscripción desde 15 € al mes.",
+      sections: [
+        { h2: "Todas las ligas accesibles desde Francia", body: "Ligue 1 McDonald's (PSG, Marsella, Lyon, Mónaco: 306 partidos), Premier League inglesa (380), LaLiga española (380, con El Clásico), Serie A italiana (380), Bundesliga alemana (306), Liga portuguesa, Eredivisie neerlandesa, Champions League (189), Europa League y Conference League." },
+        { h2: "Copas nacionales e internacionales desde Francia", body: "Copa de Francia, Trofeo de Campeones, Mundial de la FIFA, Eurocopa, Copa América, Liga de Naciones y clasificatorios del Mundial. ATV Corner cubre todas las competiciones internacionales desde cualquier región francesa." },
+        { h2: "Fútbol en streaming desde París, Lyon, Marsella o Toulouse", body: "ATV Corner funciona en toda la Francia metropolitana y en los territorios de ultramar (Guadalupe, Martinica, Reunión, Mayotte y Guayana), con fibra de Free, Orange, SFR o Bouygues recomendada para el 4K. Compatible con Smart TV Samsung, LG y Sony y con los descodificadores de los operadores (Freebox, Livebox, SFR Box y Bbox)." },
+      ],
+      extraFaq: [
+        { q: "¿Es legal ATV Corner en Francia?", a: "ATV Corner agrega señales europeas con licencia. Los usuarios son responsables del uso privado personal conforme a la legislación francesa." },
+        { q: "¿Puedo ver al PSG en Freebox con ATV Corner?", a: "Sí, mediante la aplicación Smarters Pro disponible en Free Player o a través del navegador de la Freebox." },
+        { q: "¿Están incluidos todos los canales de Canal+ Foot?", a: "Sí: Canal+ Sport, Canal+ Foot y Canal+ Décalé para los partidos de Premier League, Champions League y Ligue 1." },
+      ],
+      related: [
+        { label: "Ver la Ligue 1", href: "/tools/watch/ligue-1" },
+        { label: "Ver la Premier League", href: "/tools/watch/premier-league" },
+        { label: "Ver al PSG", href: "/tools/team/psg" },
+        { label: "Ver al Olympique de Marsella", href: "/tools/team/olympique-marseille" },
+        { label: "Comparativa de suscripciones", href: "/tools/comparison" },
+      ],
+    },
+    it: {
+      intro: "Guardare il calcio in Francia non è mai stato così complicato: la Ligue 1 su DAZN e beIN Sports, la Premier League su Canal+, la Champions League su Canal+, LaLiga su beIN, la Bundesliga su beIN e la Serie A su RMC. Per seguire tutte le competizioni, un tifoso francese aveva bisogno di quattro o cinque abbonamenti ufficiali per oltre 100 € al mese. ATV Corner riunisce DAZN, Canal+, beIN, RMC e Prime Video Ligue 1 in un solo abbonamento da 15 € al mese.",
+      sections: [
+        { h2: "Tutti i campionati accessibili dalla Francia", body: "Ligue 1 McDonald's (PSG, Marsiglia, Lione, Monaco: 306 partite), Premier League inglese (380), LaLiga spagnola (380, con il Clásico), Serie A italiana (380), Bundesliga tedesca (306), Liga portoghese, Eredivisie olandese, Champions League (189), Europa League e Conference League." },
+        { h2: "Coppe nazionali e internazionali dalla Francia", body: "Coppa di Francia, Trofeo dei Campioni, Mondiale FIFA, Europei, Copa América, Nations League e qualificazioni mondiali. ATV Corner copre tutte le competizioni internazionali da qualsiasi regione francese." },
+        { h2: "Calcio in streaming da Parigi, Lione, Marsiglia o Tolosa", body: "ATV Corner funziona in tutta la Francia metropolitana e nei territori d'oltremare (Guadalupa, Martinica, Riunione, Mayotte e Guyana), con fibra Free, Orange, SFR o Bouygues consigliata per il 4K. Compatibile con Smart TV Samsung, LG e Sony e con i decoder degli operatori (Freebox, Livebox, SFR Box e Bbox)." },
+      ],
+      extraFaq: [
+        { q: "ATV Corner è legale in Francia?", a: "ATV Corner aggrega segnali europei con licenza. Gli utenti sono responsabili dell'uso privato personale secondo la legislazione francese." },
+        { q: "Posso guardare il PSG su Freebox con ATV Corner?", a: "Sì, tramite l'app Smarters Pro disponibile su Free Player o attraverso il browser della Freebox." },
+        { q: "Sono inclusi tutti i canali di Canal+ Foot?", a: "Sì: Canal+ Sport, Canal+ Foot e Canal+ Décalé per le partite di Premier League, Champions League e Ligue 1." },
+      ],
+      related: [
+        { label: "Guarda la Ligue 1", href: "/tools/watch/ligue-1" },
+        { label: "Guarda la Premier League", href: "/tools/watch/premier-league" },
+        { label: "Guarda il PSG", href: "/tools/team/psg" },
+        { label: "Guarda l'Olympique Marsiglia", href: "/tools/team/olympique-marseille" },
+        { label: "Confronto abbonamenti", href: "/tools/comparison" },
+      ],
+    },
   },
   germany: {
     fr: {
@@ -927,6 +1033,42 @@ export const countryExtras: Record<string, LocalizedExtras> = {
         { label: "Bundesliga live", href: "/tools/watch/bundesliga" },
         { label: "Bayern M\u00fcnchen live", href: "/tools/team/bayern-munich" },
         { label: "Borussia Dortmund live", href: "/tools/team/borussia-dortmund" },
+        { label: "Champions League", href: "/tools/watch/champions-league" },
+      ],
+    },
+    es: {
+      intro: "En Alemania el fútbol está repartido entre Sky Deutschland (Bundesliga, Premier League y F1), DAZN (Champions League, Bundesliga, LaLiga y Serie A), RTL/Nitro (Europa League) y Amazon Prime (Champions del martes). Para seguir la Bundesliga, la Champions y la Premier desde Alemania hay que contar con más de 80 € al mes. ATV Corner lo agrega todo por 15 € al mes.",
+      sections: [
+        { h2: "Bundesliga, Champions League y más desde Alemania", body: "Bundesliga (Bayern, Dortmund, Leipzig y Leverkusen: 306 partidos, con la Konferenz incluida), 2. Bundesliga, DFB-Pokal, Champions League (martes en Prime y miércoles en DAZN), Europa League en RTL/Nitro, Premier League en Sky, y Serie A, LaLiga y Ligue 1 en DAZN." },
+        { h2: "La Bundesliga-Konferenz y los grandes derbis", body: "La Konferenz del sábado a las 15:30 ofrece cinco partidos simultáneos en multiplex. Der Klassiker entre Bayern y Dortmund, el derbi del Ruhr entre Dortmund y Schalke, el Bayern contra el Leverkusen y el RB Leipzig contra el Union Berlín. ATV Corner retransmite la Konferenz y cada partido como señal independiente." },
+        { h2: "Streaming desde Berlín, Múnich, Hamburgo o Colonia", body: "ATV Corner funciona en toda Alemania, Austria y la Suiza de habla alemana. Compatible con Smart TV Samsung, LG y Sony, Apple TV, Fire TV Stick, el descodificador MagentaTV, Vodafone GigaTV y Telekom Magenta. Se recomiendan 8 Mbps como mínimo para HD y 25 Mbps para 4K HDR." },
+      ],
+      extraFaq: [
+        { q: "¿Están incluidos todos los canales de Sky Bundesliga?", a: "Sí: Sky Sport Bundesliga del 1 al 7, Sky Sport Top Event y Sky Sport UHD para los partidos en 4K HDR." },
+        { q: "¿Se puede acceder a DAZN Alemania con ATV Corner?", a: "Sí, las señales de DAZN Alemania (Bundesliga del viernes, sábado a las 18:30 y domingo, y Champions del miércoles) están agregadas." },
+      ],
+      related: [
+        { label: "Ver la Bundesliga", href: "/tools/watch/bundesliga" },
+        { label: "Ver al Bayern de Múnich", href: "/tools/team/bayern-munich" },
+        { label: "Ver al Borussia Dortmund", href: "/tools/team/borussia-dortmund" },
+        { label: "Champions League", href: "/tools/watch/champions-league" },
+      ],
+    },
+    it: {
+      intro: "In Germania il calcio è diviso tra Sky Deutschland (Bundesliga, Premier League e F1), DAZN (Champions League, Bundesliga, LaLiga e Serie A), RTL/Nitro (Europa League) e Amazon Prime (Champions del martedì). Per seguire Bundesliga, Champions e Premier dalla Germania bisogna mettere in conto oltre 80 € al mese. ATV Corner aggrega tutto per 15 € al mese.",
+      sections: [
+        { h2: "Bundesliga, Champions League e altro dalla Germania", body: "Bundesliga (Bayern, Dortmund, Lipsia e Leverkusen: 306 partite, con la Konferenz inclusa), 2. Bundesliga, DFB-Pokal, Champions League (martedì su Prime e mercoledì su DAZN), Europa League su RTL/Nitro, Premier League su Sky, e Serie A, LaLiga e Ligue 1 su DAZN." },
+        { h2: "La Bundesliga-Konferenz e i grandi derby", body: "La Konferenz del sabato alle 15:30 offre cinque partite in contemporanea in multiplex. Der Klassiker tra Bayern e Dortmund, il derby della Ruhr tra Dortmund e Schalke, Bayern contro Leverkusen e RB Lipsia contro Union Berlino. ATV Corner ritrasmette la Konferenz e ogni partita come segnale separato." },
+        { h2: "Streaming da Berlino, Monaco, Amburgo o Colonia", body: "ATV Corner funziona in tutta la Germania, in Austria e nella Svizzera di lingua tedesca. Compatibile con Smart TV Samsung, LG e Sony, Apple TV, Fire TV Stick, il decoder MagentaTV, Vodafone GigaTV e Telekom Magenta. Si consigliano almeno 8 Mbps per l'HD e 25 Mbps per il 4K HDR." },
+      ],
+      extraFaq: [
+        { q: "Sono inclusi tutti i canali Sky Bundesliga?", a: "Sì: Sky Sport Bundesliga dall'1 al 7, Sky Sport Top Event e Sky Sport UHD per le partite in 4K HDR." },
+        { q: "Si può accedere a DAZN Germania con ATV Corner?", a: "Sì, i segnali di DAZN Germania (Bundesliga del venerdì, sabato alle 18:30 e domenica, e Champions del mercoledì) sono aggregati." },
+      ],
+      related: [
+        { label: "Guarda la Bundesliga", href: "/tools/watch/bundesliga" },
+        { label: "Guarda il Bayern Monaco", href: "/tools/team/bayern-munich" },
+        { label: "Guarda il Borussia Dortmund", href: "/tools/team/borussia-dortmund" },
         { label: "Champions League", href: "/tools/watch/champions-league" },
       ],
     },
