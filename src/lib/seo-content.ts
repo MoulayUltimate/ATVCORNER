@@ -3943,6 +3943,152 @@ content["iptv-italia"].en = {
   cta: "Get started in Italy",
 };
 
+// --- es/it for /xtream-codes ------------------------------------------------
+content["xtream-codes"].es = {
+  metaTitle: "Xtream Codes IPTV — credenciales listas, 66.000 canales",
+  metaDesc:
+    "Credenciales Xtream Codes listas para usar: URL, usuario y contraseña para 66.000+ canales con EPG y VOD. Compatible con TiviMate y Smarters, desde 5 €/mes.",
+  eyebrow: "Xtream Codes · API",
+  h1: "Xtream Codes",
+  h1Accent: "rápido y con VOD",
+  intro:
+    "Tres datos —URL del servidor, usuario y contraseña— abren 66.000+ canales, la guía de programación y una videoteca de 70.000 películas. Más rápido que una lista M3U y entregado por WhatsApp en menos de cinco minutos.",
+  features: [
+    { h: "Carga dinámica", p: "Los canales se piden solo cuando hacen falta: apertura casi instantánea." },
+    { h: "Videoteca incluida", p: "70.000 películas y 18.000 series navegables por carátulas." },
+    { h: "EPG integrada", p: "La guía llega con las credenciales, sin URL adicional." },
+    { h: "TiviMate y Smarters", p: "Compatible con las principales aplicaciones IPTV." },
+  ],
+  sections: [
+    { h: "Qué es Xtream Codes", p: "Xtream Codes no es una aplicación sino un protocolo de comunicación entre tu reproductor y el servidor. En lugar de descargar una lista completa de canales, la aplicación consulta al servidor solo lo que necesita en cada momento: la lista de categorías al abrir, los canales de una categoría al entrar en ella, la guía de un canal al seleccionarlo. Esa forma de trabajar es la que explica su ventaja principal frente al formato M3U clásico." },
+    { h: "Los tres datos que recibes", p: "Tras el pago te enviamos por WhatsApp una URL de servidor, un nombre de usuario y una contraseña. Es todo lo que necesitas. En la aplicación eliges añadir una cuenta de tipo «Xtream Codes» o «Xtream Codes API» y rellenas los tres campos. Un error frecuente es incluir una barra final en la URL o confundir el puerto: copia y pega exactamente lo que te enviamos, sin añadir ni quitar nada, y funcionará a la primera." },
+    { h: "Por qué es más rápido que M3U", p: "Una lista M3U de 66.000 entradas es un archivo de texto considerable que la aplicación debe descargar y analizar entero antes de mostrar nada. Con catálogos grandes eso puede suponer una espera perceptible cada vez que abres el reproductor. Xtream Codes evita ese trabajo: pide solo el fragmento que vas a ver. En la práctica notarás una apertura mucho más rápida y un cambio de canal más ágil, sobre todo en dispositivos modestos como un Fire TV Stick." },
+    { h: "La videoteca, la diferencia real", p: "Esta es la ventaja que más se aprecia en el uso diario. Con M3U, las películas y series aparecen como canales más dentro de una lista interminable. Con Xtream Codes, la aplicación recibe metadatos: carátulas, sinopsis, año, duración y categorías. El resultado es una interfaz de videoteca navegable, parecida a la de un servicio de streaming, donde puedes explorar por género en lugar de desplazarte por miles de líneas de texto buscando un título." },
+    { h: "Configurarlo en tu aplicación", p: "En TiviMate elige «Añadir lista de reproducción» y después «Xtream Codes». En IPTV Smarters Pro selecciona «Login with Xtream Codes API». En IBO Player introduce los datos en la sección de cuenta. El procedimiento es el mismo en todas: pegar los tres campos y esperar a que se cargue el catálogo, algo que suele tardar menos de un minuto. Si te ayuda, la aplicación de Fire TV en el móvil incluye un teclado que evita escribir con el mando." },
+    { h: "Cuándo conviene usar M3U en su lugar", p: "Xtream Codes es mejor casi siempre, pero no siempre está disponible. Algunos reproductores antiguos, ciertos receptores Enigma2 y VLC solo entienden listas M3U. En esos casos el formato clásico sigue siendo la opción correcta y da acceso exactamente al mismo contenido, aunque sin la interfaz de videoteca y con una carga inicial más lenta. Puedes pedirnos ambos formatos: son dos maneras de acceder a la misma suscripción, no dos productos distintos." },
+    { h: "Errores frecuentes y solución", p: "Si la aplicación responde «credenciales inválidas», revisa que no se haya colado un espacio al final del usuario, cosa habitual al pegar desde WhatsApp. Si conecta pero no aparece ningún canal, casi siempre es que la carga del catálogo se interrumpió: fuerza una actualización desde los ajustes de la aplicación. Si los canales van bien pero la videoteca está vacía, comprueba que tu reproductor admite realmente la API y no solo el M3U disfrazado." },
+    { h: "Seguridad de tus credenciales", p: "Tus datos de Xtream Codes son una contraseña de acceso: no los publiques ni los compartas. Quien los tenga consume tus conexiones simultáneas, lo que degrada tu propia experiencia y puede llegar a bloquear la sesión en pleno partido. Si sospechas que se han filtrado, escríbenos y generamos credenciales nuevas sin coste. Conviene además no dejarlas configuradas en dispositivos que ya no usas, porque algunas aplicaciones siguen conectándose en segundo plano." },
+    { h: "Probarlo antes de comprar", p: "La prueba gratuita de 24 horas entrega credenciales Xtream Codes completas, sin tarjeta de crédito. Es la forma directa de comprobar que tu aplicación las acepta, que la videoteca se carga con carátulas y que la guía aparece rellenada. Actívala en horario punta para que la prueba diga algo útil. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Qué son las credenciales Xtream Codes?", a: "Una URL de servidor, un usuario y una contraseña. Con esos tres datos tu aplicación accede a los canales, la guía de programación y la videoteca, sin necesidad de una URL de lista separada." },
+    { q: "¿Es mejor que una lista M3U?", a: "En general sí. Carga los canales de forma dinámica, así que abre más rápido, y muestra películas y series como una videoteca con carátulas en lugar de líneas de texto. El M3U gana solo en compatibilidad con reproductores antiguos." },
+    { q: "¿Qué aplicaciones lo admiten?", a: "TiviMate, IPTV Smarters Pro, IBO Player y la mayoría de las aplicaciones IPTV modernas, en Android TV, Fire TV, iOS y Windows. VLC y algunos Enigma2 antiguos solo aceptan M3U." },
+    { q: "¿Por qué dice «credenciales inválidas»?", a: "Casi siempre por un espacio de más al pegar desde WhatsApp o por una barra final añadida a la URL. Copia y pega exactamente lo que te enviamos, sin modificar nada." },
+    { q: "¿Puedo pedir los dos formatos?", a: "Sí. Xtream Codes y M3U son dos formas de acceder a la misma suscripción, no dos productos. Pídenos el que te falte y te lo enviamos." },
+  ],
+  cta: "Recibir mis credenciales",
+};
+
+content["xtream-codes"].it = {
+  metaTitle: "Xtream Codes IPTV — credenziali pronte, 66.000 canali",
+  metaDesc:
+    "Credenziali Xtream Codes pronte all'uso: URL, utente e password per 66.000+ canali con EPG e VOD. Compatibili con TiviMate e Smarters, da 5 €/mese.",
+  eyebrow: "Xtream Codes · API",
+  h1: "Xtream Codes",
+  h1Accent: "veloce e con VOD",
+  intro:
+    "Tre dati — URL del server, nome utente e password — aprono 66.000+ canali, la guida ai programmi e una videoteca di 70.000 film. Più rapido di una playlist M3U e consegnato su WhatsApp in meno di cinque minuti.",
+  features: [
+    { h: "Caricamento dinamico", p: "I canali si richiedono solo quando servono: apertura quasi istantanea." },
+    { h: "Videoteca inclusa", p: "70.000 film e 18.000 serie sfogliabili per copertine." },
+    { h: "EPG integrata", p: "La guida arriva con le credenziali, senza URL aggiuntivo." },
+    { h: "TiviMate e Smarters", p: "Compatibile con le principali app IPTV." },
+  ],
+  sections: [
+    { h: "Che cos'è Xtream Codes", p: "Xtream Codes non è un'applicazione ma un protocollo di comunicazione tra il lettore e il server. Invece di scaricare un elenco completo di canali, l'app chiede al server solo ciò che le serve in quel momento: l'elenco delle categorie all'apertura, i canali di una categoria quando ci entri, la guida di un canale quando lo selezioni. È questo modo di lavorare a spiegare il suo vantaggio principale rispetto al formato M3U classico." },
+    { h: "I tre dati che ricevi", p: "Dopo il pagamento ti inviamo su WhatsApp un URL del server, un nome utente e una password. È tutto ciò che serve. Nell'app scegli di aggiungere un account di tipo «Xtream Codes» o «Xtream Codes API» e compili i tre campi. Un errore frequente è includere una barra finale nell'URL o sbagliare la porta: copia e incolla esattamente ciò che ti inviamo, senza aggiungere né togliere nulla, e funzionerà al primo tentativo." },
+    { h: "Perché è più veloce dell'M3U", p: "Una playlist M3U da 66.000 voci è un file di testo consistente che l'app deve scaricare e analizzare per intero prima di mostrare qualcosa. Con cataloghi grandi questo può comportare un'attesa percepibile ogni volta che apri il lettore. Xtream Codes evita quel lavoro: richiede solo il frammento che stai per guardare. In pratica noterai un'apertura molto più rapida e un cambio canale più agile, soprattutto su dispositivi modesti come un Fire TV Stick." },
+    { h: "La videoteca, la vera differenza", p: "È il vantaggio che si apprezza di più nell'uso quotidiano. Con l'M3U, film e serie compaiono come canali qualsiasi dentro un elenco interminabile. Con Xtream Codes l'app riceve i metadati: copertine, trame, anno, durata e categorie. Il risultato è un'interfaccia da videoteca navigabile, simile a quella di un servizio di streaming, dove puoi esplorare per genere invece di scorrere migliaia di righe di testo alla ricerca di un titolo." },
+    { h: "Configurarlo nella tua app", p: "In TiviMate scegli «Aggiungi playlist» e poi «Xtream Codes». In IPTV Smarters Pro seleziona «Login with Xtream Codes API». In IBO Player inserisci i dati nella sezione account. La procedura è la stessa ovunque: incollare i tre campi e attendere il caricamento del catalogo, di norma meno di un minuto. Se ti è utile, l'app Fire TV per telefono include una tastiera che evita di digitare con il telecomando." },
+    { h: "Quando conviene usare l'M3U", p: "Xtream Codes è migliore quasi sempre, ma non è sempre disponibile. Alcuni lettori datati, certi ricevitori Enigma2 e VLC comprendono soltanto playlist M3U. In quei casi il formato classico resta la scelta corretta e dà accesso esattamente allo stesso contenuto, pur senza l'interfaccia da videoteca e con un caricamento iniziale più lento. Puoi chiederci entrambi i formati: sono due modi di accedere allo stesso abbonamento, non due prodotti diversi." },
+    { h: "Errori frequenti e soluzioni", p: "Se l'app risponde «credenziali non valide», controlla che non si sia infilato uno spazio in fondo al nome utente, cosa comune incollando da WhatsApp. Se si collega ma non compare alcun canale, quasi sempre il caricamento del catalogo si è interrotto: forza un aggiornamento dalle impostazioni dell'app. Se i canali funzionano ma la videoteca è vuota, verifica che il tuo lettore supporti davvero l'API e non solo l'M3U mascherato." },
+    { h: "Sicurezza delle credenziali", p: "I tuoi dati Xtream Codes sono una password di accesso: non pubblicarli e non condividerli. Chi li possiede consuma le tue connessioni simultanee, il che peggiora la tua esperienza e può arrivare a bloccare la sessione in piena partita. Se sospetti che siano trapelati, scrivici e generiamo credenziali nuove senza costi. Conviene inoltre non lasciarle configurate su dispositivi che non usi più, perché alcune app continuano a collegarsi in background." },
+    { h: "Provarlo prima di comprare", p: "La prova gratuita di 24 ore fornisce credenziali Xtream Codes complete, senza carta di credito. È il modo diretto per verificare che la tua app le accetti, che la videoteca si carichi con le copertine e che la guida risulti popolata. Attivala in orario di punta perché la prova dica qualcosa di utile. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+  ],
+  faq: [
+    { q: "Cosa sono le credenziali Xtream Codes?", a: "Un URL del server, un nome utente e una password. Con questi tre dati la tua app accede ai canali, alla guida ai programmi e alla videoteca, senza bisogno di un URL di playlist separato." },
+    { q: "È meglio di una playlist M3U?", a: "In generale sì. Carica i canali in modo dinamico, quindi apre più in fretta, e mostra film e serie come una videoteca con copertine invece che righe di testo. L'M3U vince solo sulla compatibilità con lettori datati." },
+    { q: "Quali app lo supportano?", a: "TiviMate, IPTV Smarters Pro, IBO Player e la maggior parte delle app IPTV moderne, su Android TV, Fire TV, iOS e Windows. VLC e alcuni Enigma2 datati accettano solo l'M3U." },
+    { q: "Perché dice «credenziali non valide»?", a: "Quasi sempre per uno spazio di troppo incollando da WhatsApp o per una barra finale aggiunta all'URL. Copia e incolla esattamente ciò che ti inviamo, senza modificare nulla." },
+    { q: "Posso chiedere entrambi i formati?", a: "Sì. Xtream Codes e M3U sono due modi di accedere allo stesso abbonamento, non due prodotti. Chiedici quello che ti manca e te lo inviamo." },
+  ],
+  cta: "Ricevi le mie credenziali",
+};
+
+// --- es/it for /best-iptv-alternatives --------------------------------------
+content["best-iptv-alternatives"].es = {
+  metaTitle: "Alternativas al IPTV — comparativa honesta 2026",
+  metaDesc:
+    "Cable, satélite, TDT, streaming y IPTV comparados sin adornos: qué gana cada uno, qué pierde y cuál te conviene según lo que ves y lo que pagas.",
+  eyebrow: "Comparativa · Actualizada 2026",
+  h1: "Alternativas al IPTV",
+  h1Accent: "comparadas sin adornos",
+  intro:
+    "Cable, satélite, TDT, plataformas de streaming e IPTV resuelven problemas distintos. Esta comparativa dice qué gana y qué pierde cada opción, incluida la nuestra, para que elijas por lo que ves y no por lo que promete un anuncio.",
+  features: [
+    { h: "Cinco opciones reales", p: "Cable, satélite, TDT, streaming e IPTV, con sus límites." },
+    { h: "Coste anual comparado", p: "Lo que pagas de verdad al año, no el precio de la oferta." },
+    { h: "Dónde falla cada una", p: "Incluida la nuestra: el IPTV depende de tu conexión." },
+    { h: "Cuál elegir", p: "Recomendación según lo que ves y cuánta gente hay en casa." },
+  ],
+  sections: [
+    { h: "Televisión digital terrestre (TDT)", p: "Es la opción gratuita y sigue siendo la mejor para quien solo quiere las cadenas generalistas. No paga cuota, no depende de internet y funciona durante un apagón de red. A cambio, el catálogo se limita a unas decenas de canales nacionales y autonómicos, no hay vídeo bajo demanda, y el deporte de pago sencillamente no está. Si lo que ves cabe en la TDT, cualquier otra opción de esta lista es dinero mal gastado." },
+    { h: "Cable y fibra del operador", p: "La ventaja real del cable es la fiabilidad: llega por una infraestructura dedicada, así que no compite con el resto del tráfico de tu casa ni se degrada porque alguien esté descargando. Es la opción más estable que existe. El precio es el problema: paquetes de 150 a 300 canales por varias decenas de euros al mes, con alquiler de descodificador, deporte facturado aparte y una tarifa promocional que sube al cabo del primer año. Añade contrato de doce o veinticuatro meses y preaviso para darse de baja." },
+    { h: "Satélite", p: "Cubre donde no llega la fibra, que sigue siendo su mejor argumento en zonas rurales y de montaña. La señal es estable salvo con lluvia o nieve intensas, situación en la que puede degradarse justo cuando más se nota. Requiere antena parabólica orientada e instalación, lo que descarta de entrada a quien vive de alquiler o en una comunidad que no lo permita. El coste y las condiciones contractuales se parecen bastante a los del cable." },
+    { h: "Plataformas de streaming", p: "Insuperables en series y películas originales, con interfaz cuidada y recomendaciones. El problema es la fragmentación: los catálogos están repartidos y seguir lo que te interesa suele exigir tres o cuatro suscripciones, cuyo total supera con facilidad al de un paquete de cable. Además apenas cubren televisión en directo: informativos, canales generalistas y deporte quedan fuera casi siempre, o llegan como un servicio adicional facturado por separado." },
+    { h: "IPTV", p: "Reúne en un acceso lo que las demás opciones reparten: 66.000+ canales en directo, 4.200 deportivos, 70.000 películas y 18.000 series, por 5 €/mes en el plan anual y sin permanencia. Es la opción con más contenido por euro y la única que cubre bien la televisión internacional. Su punto débil es real y conviene decirlo: depende de tu conexión a internet, así que con una línea inestable la experiencia empeora, mientras que el cable seguiría funcionando igual." },
+    { h: "El coste anual comparado", p: "La comparación útil es a doce meses, porque las ofertas de entrada distorsionan cualquier otra. Un paquete de cable con deporte ronda los 600 € al año una vez pasada la promoción. Tres o cuatro plataformas de streaming suman con facilidad entre 300 y 500 €, sin televisión en directo. El satélite se sitúa cerca del cable. La TDT cuesta cero. Un plan anual de ATV Corner cuesta 60 €, con el deporte incluido en lugar de sumado aparte." },
+    { h: "Cuál elegir según lo que ves", p: "Si solo ves cadenas generalistas, quédate en la TDT y no pagues nada. Si tu prioridad son las series originales y no te importa la televisión en directo, una o dos plataformas de streaming bastan. Si tu conexión es inestable y el deporte en directo es innegociable, el cable sigue siendo la apuesta segura pese al precio. Si quieres deporte, cine y canales internacionales por el menor coste posible y tu línea es decente, el IPTV es la opción con más sentido." },
+    { h: "Combinaciones que funcionan", p: "No hay obligación de elegir una sola. La combinación más eficiente que vemos entre nuestros clientes es TDT o IPTV para el directo y una única plataforma de streaming para las series originales, rotándola según lo que se estrene. Eso cubre prácticamente todo por menos de lo que cuesta un paquete premium de cable. Lo que casi nunca compensa es acumular tres plataformas de streaming y además un paquete de operador: ahí se paga dos veces por el mismo cine." },
+    { h: "Cómo decidir sin arriesgar dinero", p: "Antes de cambiar nada, mide tu conexión en el televisor donde ves, no en el router: necesitas 10 Mbps estables para HD y 25 para 4K. Después activa la prueba gratuita de 24 horas en horario punta y comprueba si tus canales están y si la imagen aguanta. Si funciona, contrata un mes y convive unas semanas con tu servicio actual antes de darte de baja. Así decides con datos propios y no con una comparativa, esta incluida." },
+  ],
+  faq: [
+    { q: "¿Cuál es la mejor alternativa al cable?", a: "Depende de tu conexión. Con una línea estable, el IPTV da mucho más contenido por bastante menos dinero. Con una línea irregular, el cable sigue siendo más fiable porque no depende de tu ancho de banda." },
+    { q: "¿Sale más barato el streaming que el IPTV?", a: "Rara vez. Tres o cuatro plataformas suman entre 300 y 500 € al año y aun así no cubren televisión en directo ni deporte. Un plan anual de IPTV cuesta 60 € con el deporte incluido." },
+    { q: "¿Merece la pena la TDT?", a: "Si solo ves cadenas generalistas, es la mejor opción y es gratuita. No tiene sentido pagar por nada de esta lista si tu consumo cabe en los canales en abierto." },
+    { q: "¿Cuál es el punto débil del IPTV?", a: "Depende de tu conexión a internet. Con menos de 10 Mbps estables la experiencia empeora, mientras que el cable o el satélite seguirían funcionando igual porque usan infraestructura dedicada." },
+    { q: "¿Puedo combinar varias opciones?", a: "Sí, y suele ser lo más eficiente: IPTV o TDT para el directo y una sola plataforma de streaming para las series, rotándola según los estrenos." },
+  ],
+  cta: "Probar la opción IPTV",
+};
+
+content["best-iptv-alternatives"].it = {
+  metaTitle: "Alternative all'IPTV — confronto onesto 2026",
+  metaDesc:
+    "Cavo, satellite, digitale terrestre, streaming e IPTV a confronto senza fronzoli: cosa guadagna ciascuno, cosa perde e quale conviene a te.",
+  eyebrow: "Confronto · Aggiornato 2026",
+  h1: "Alternative all'IPTV",
+  h1Accent: "a confronto senza fronzoli",
+  intro:
+    "Cavo, satellite, digitale terrestre, piattaforme di streaming e IPTV risolvono problemi diversi. Questo confronto dice cosa guadagna e cosa perde ogni opzione, la nostra compresa, perché tu scelga in base a ciò che guardi e non a ciò che promette una pubblicità.",
+  features: [
+    { h: "Cinque opzioni reali", p: "Cavo, satellite, digitale terrestre, streaming e IPTV, con i loro limiti." },
+    { h: "Costo annuo a confronto", p: "Quello che paghi davvero in un anno, non il prezzo dell'offerta." },
+    { h: "Dove ciascuna cede", p: "La nostra inclusa: l'IPTV dipende dalla tua connessione." },
+    { h: "Quale scegliere", p: "Consiglio in base a cosa guardi e quante persone ci sono in casa." },
+  ],
+  sections: [
+    { h: "Digitale terrestre", p: "È l'opzione gratuita e resta la migliore per chi vuole soltanto i canali generalisti. Non paghi un canone, non dipendi da internet e funziona anche durante un guasto alla rete. In cambio, il catalogo si limita a qualche decina di canali nazionali e locali, non c'è video on demand e lo sport a pagamento semplicemente non c'è. Se ciò che guardi sta nel digitale terrestre, qualsiasi altra opzione di questo elenco è denaro speso male." },
+    { h: "Cavo e fibra dell'operatore", p: "Il vero vantaggio del cavo è l'affidabilità: arriva da un'infrastruttura dedicata, quindi non compete con il resto del traffico di casa né si degrada perché qualcuno sta scaricando. È l'opzione più stabile che esista. Il prezzo è il problema: pacchetti da 150 a 300 canali per diverse decine di euro al mese, con noleggio del decoder, sport fatturato a parte e una tariffa promozionale che sale dopo il primo anno. Aggiungi un contratto da dodici o ventiquattro mesi e il preavviso per disdire." },
+    { h: "Satellite", p: "Copre dove la fibra non arriva, e resta questo il suo argomento migliore nelle zone rurali e di montagna. Il segnale è stabile salvo pioggia o neve intense, situazione in cui può degradarsi proprio quando si nota di più. Richiede una parabola orientata e l'installazione, il che esclude in partenza chi vive in affitto o in un condominio che non lo consente. Costo e condizioni contrattuali somigliano parecchio a quelli del cavo." },
+    { h: "Piattaforme di streaming", p: "Imbattibili su serie e film originali, con interfacce curate e raccomandazioni. Il problema è la frammentazione: i cataloghi sono divisi e seguire ciò che ti interessa richiede spesso tre o quattro abbonamenti, il cui totale supera facilmente quello di un pacchetto via cavo. Inoltre coprono a malapena la televisione in diretta: informazione, canali generalisti e sport restano quasi sempre fuori, o arrivano come servizio aggiuntivo fatturato separatamente." },
+    { h: "IPTV", p: "Riunisce in un accesso ciò che le altre opzioni dividono: 66.000+ canali in diretta, 4.200 sportivi, 70.000 film e 18.000 serie, a 5 €/mese sul piano annuale e senza vincoli. È l'opzione con più contenuti per euro e l'unica che copre bene la televisione internazionale. Il suo punto debole è reale ed è giusto dirlo: dipende dalla tua connessione internet, quindi con una linea instabile l'esperienza peggiora, mentre il cavo continuerebbe a funzionare uguale." },
+    { h: "Il costo annuo a confronto", p: "Il confronto utile è su dodici mesi, perché le offerte d'ingresso distorcono qualsiasi altro calcolo. Un pacchetto via cavo con lo sport si aggira sui 600 € l'anno una volta finita la promozione. Tre o quattro piattaforme di streaming sommano facilmente tra i 300 e i 500 €, senza televisione in diretta. Il satellite si colloca vicino al cavo. Il digitale terrestre costa zero. Un piano annuale ATV Corner costa 60 €, con lo sport incluso invece che aggiunto a parte." },
+    { h: "Quale scegliere in base a cosa guardi", p: "Se guardi solo canali generalisti, resta sul digitale terrestre e non pagare nulla. Se la tua priorità sono le serie originali e la diretta non ti interessa, una o due piattaforme di streaming bastano. Se la tua connessione è instabile e lo sport in diretta è irrinunciabile, il cavo resta la scelta sicura nonostante il prezzo. Se vuoi sport, cinema e canali internazionali al minor costo possibile e la tua linea è discreta, l'IPTV è l'opzione più sensata." },
+    { h: "Combinazioni che funzionano", p: "Non c'è obbligo di sceglierne una sola. La combinazione più efficiente che vediamo tra i nostri clienti è digitale terrestre o IPTV per la diretta e una singola piattaforma di streaming per le serie originali, ruotandola in base alle uscite. Questo copre praticamente tutto per meno di quanto costi un pacchetto premium via cavo. Ciò che quasi mai conviene è accumulare tre piattaforme di streaming più un pacchetto d'operatore: lì si paga due volte lo stesso cinema." },
+    { h: "Come decidere senza rischiare soldi", p: "Prima di cambiare qualsiasi cosa, misura la connessione sul televisore su cui guardi, non sul router: servono 10 Mbps stabili per l'HD e 25 per il 4K. Poi attiva la prova gratuita di 24 ore in orario di punta e verifica se i tuoi canali ci sono e se l'immagine regge. Se funziona, acquista un mese e convivi qualche settimana con il servizio attuale prima di disdire. Così decidi con dati tuoi e non con un confronto, questo incluso." },
+  ],
+  faq: [
+    { q: "Qual è la migliore alternativa al cavo?", a: "Dipende dalla tua connessione. Con una linea stabile, l'IPTV dà molti più contenuti a parecchio meno. Con una linea irregolare, il cavo resta più affidabile perché non dipende dalla tua banda." },
+    { q: "Lo streaming costa meno dell'IPTV?", a: "Raramente. Tre o quattro piattaforme sommano tra i 300 e i 500 € l'anno e comunque non coprono la diretta né lo sport. Un piano annuale IPTV costa 60 € con lo sport incluso." },
+    { q: "Vale la pena il digitale terrestre?", a: "Se guardi solo canali generalisti, è la scelta migliore ed è gratuita. Non ha senso pagare per nulla di questo elenco se i tuoi consumi stanno nei canali in chiaro." },
+    { q: "Qual è il punto debole dell'IPTV?", a: "Dipende dalla connessione internet. Sotto i 10 Mbps stabili l'esperienza peggiora, mentre cavo o satellite continuerebbero a funzionare uguale perché usano infrastruttura dedicata." },
+    { q: "Posso combinare più opzioni?", a: "Sì, ed è spesso la scelta più efficiente: IPTV o digitale terrestre per la diretta e una sola piattaforma di streaming per le serie, ruotandola in base alle uscite." },
+  ],
+  cta: "Prova l'opzione IPTV",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
