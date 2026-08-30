@@ -18,6 +18,8 @@ import { iptvSmartTvEinrichten } from "./posts/iptv-smart-tv-einrichten";
 import { sportLiveStreamen } from "./posts/sport-live-streamen";
 import { streamingAbosBuendeln } from "./posts/streaming-abos-buendeln";
 import { fernsehenUeberInternet } from "./posts/fernsehen-ueber-internet";
+import { iptvKaufenRatgeber } from "./posts/iptv-kaufen-ratgeber";
+import { fussballOhneAbo } from "./posts/fussball-ohne-abo-schauen";
 
 export type { BlogPost, BlogPostLocale, BlogBlock } from "./types";
 
@@ -39,6 +41,8 @@ export const blogPosts: BlogPost[] = [
   sportLiveStreamen,
   streamingAbosBuendeln,
   fernsehenUeberInternet,
+  iptvKaufenRatgeber,
+  fussballOhneAbo,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export const blogSlugs: string[] = blogPosts.map((p) => p.slug);

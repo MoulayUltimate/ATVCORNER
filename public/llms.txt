@@ -47,6 +47,8 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [L'IPTV est-elle légale ?](https://atvcorner.com/fr/blog/ist-iptv-legal): Cadre, limites et six critères de vérification
 - [Regarder la NFL sans câble](https://atvcorner.com/fr/blog/watch-nfl-without-cable): Toutes les options comparées
 - [La TV par internet](https://atvcorner.com/fr/blog/fernsehen-ueber-internet): Replay, streaming et IPTV comparés
+- [Acheter une IPTV : le guide](https://atvcorner.com/fr/blog/iptv-kaufen-ratgeber): Prix, 7 vérifications et quelle formule
+- [Regarder le foot sans abonnement](https://atvcorner.com/fr/blog/fussball-ohne-abo-schauen): Gratuit, payant et groupé comparés
 - [Repérer un fournisseur IPTV douteux](https://atvcorner.com/fr/blog/iptv-anbieter-erkennen): 9 signaux d'alarme à vérifier avant de payer
 - [Configurer l'IPTV sur Smart TV](https://atvcorner.com/fr/blog/iptv-smart-tv-einrichten): Samsung, LG, Android TV — en 5 minutes
 - [Regarder le sport en direct](https://atvcorner.com/fr/blog/sport-live-streamen): Abos, bouquets et IPTV comparés
@@ -104,6 +106,8 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [Is IPTV Legal?](https://atvcorner.com/en/blog/ist-iptv-legal): The rules, the limits and six checks
 - [Watch the NFL Without Cable](https://atvcorner.com/en/blog/watch-nfl-without-cable): Every option compared
 - [TV Over the Internet](https://atvcorner.com/en/blog/fernsehen-ueber-internet): Catch-up, streaming and IPTV compared
+- [Buying IPTV: The Guide](https://atvcorner.com/en/blog/iptv-kaufen-ratgeber): Prices, 7 checks and which plan
+- [Watch Football Without a Subscription](https://atvcorner.com/en/blog/fussball-ohne-abo-schauen): Free, paid and bundled compared
 - [Spotting a Bad IPTV Provider](https://atvcorner.com/en/blog/iptv-anbieter-erkennen): 9 warning signs to check before paying
 - [Set Up IPTV on a Smart TV](https://atvcorner.com/en/blog/iptv-smart-tv-einrichten): Samsung, LG, Android TV — in 5 minutes
 - [Streaming Live Sport](https://atvcorner.com/en/blog/sport-live-streamen): Subscriptions, packages and IPTV compared
@@ -161,6 +165,8 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [Ist IPTV legal?](https://atvcorner.com/de/blog/ist-iptv-legal): Rechtslage, Grenzen und sechs Prüfpunkte
 - [NFL ohne Kabel schauen](https://atvcorner.com/de/blog/watch-nfl-without-cable): Alle Optionen im Vergleich
 - [Fernsehen über Internet](https://atvcorner.com/de/blog/fernsehen-ueber-internet): Mediathek, Streaming und IPTV im Vergleich
+- [IPTV kaufen: der Ratgeber](https://atvcorner.com/de/blog/iptv-kaufen-ratgeber): Preise, 7 Prüfpunkte und welche Laufzeit
+- [Fußball ohne Abo schauen](https://atvcorner.com/de/blog/fussball-ohne-abo-schauen): Frei, kostenpflichtig und gebündelt im Vergleich
 - [Unseriöse IPTV-Anbieter erkennen](https://atvcorner.com/de/blog/iptv-anbieter-erkennen): 9 Warnsignale vor dem Kauf
 - [IPTV auf Smart TV einrichten](https://atvcorner.com/de/blog/iptv-smart-tv-einrichten): Samsung, LG, Android TV — in 5 Minuten
 - [Sport live streamen](https://atvcorner.com/de/blog/sport-live-streamen): Einzelabos, Sportpakete und IPTV im Vergleich
