@@ -11,5 +11,15 @@ await make({
       lines: ["1  Statement: what do I really pay?", "2  Sort by actual usage", "3  Cancel the unused immediately", "4  Consolidate the rest onto one"] },
     fr: { title: "De la pile à une seule facture", cardTitle: "Le tri en 4 étapes",
       lines: ["1  Relevé : combien je paie vraiment ?", "2  Trier selon l'usage réel", "3  Résilier les inutilisés", "4  Regrouper le reste sur un accès"] },
+    es: {
+      title: "De la pila a una sola factura",
+      cardTitle: "La limpieza en 4 pasos",
+      lines: ["1  Extracto: ¿cuánto pago de verdad?", "2  Ordenar según el uso real", "3  Cancelar lo que no se usa", "4  Reunir el resto en un acceso"],
+    },
+    it: {
+      title: "Dalla pila a un'unica bolletta",
+      cardTitle: "La pulizia in 4 passi",
+      lines: ["1  Estratto: quanto pago davvero?", "2  Ordinare secondo l'uso reale", "3  Disdire ciò che non si usa", "4  Riunire il resto in un accesso"],
+    },
   },
 });
