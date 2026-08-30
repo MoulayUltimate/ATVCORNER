@@ -736,6 +736,38 @@ export const countryExtras: Record<string, LocalizedExtras> = {
         { label: "Barcelona live", href: "/tools/team/barcelona" },
       ],
     },
+    es: {
+      intro: "En España, Movistar+ tiene los derechos de LaLiga y de la Champions League hasta 2027, y DAZN ofrece una opción más barata pero incompleta. Seguir oficialmente todo el fútbol español cuesta más de 90 € al mes. ATV Corner agrega Movistar, DAZN, beIN MENA, Sky y Canal+ por 15 € al mes.",
+      sections: [
+        { h2: "LaLiga, Copa del Rey y Champions League en España", body: "LaLiga EA Sports (Real Madrid, Barcelona, Atlético: 380 partidos), LaLiga 2 Hypermotion, Copa del Rey (desde dieciseisavos hasta la final), Supercopa de España (cuatro equipos, en Arabia Saudí), Champions League, Europa League, Premier League, Serie A, Bundesliga y Ligue 1." },
+        { h2: "El Clásico entre Real Madrid y Barça desde Madrid, Barcelona, Valencia o Sevilla", body: "El Clásico es el acontecimiento futbolístico más visto de España. ATV Corner lo emite en 4K HDR con Dolby Vision desde Madrid (Real Madrid), Barcelona (FC Barcelona), Valencia (Valencia CF), Sevilla (Sevilla FC y Real Betis), Bilbao (Athletic) y San Sebastián (Real Sociedad)." },
+      ],
+      extraFaq: [
+        { q: "¿Están incluidas las señales de Movistar LaLiga?", a: "Sí, las señales de Movistar LaLiga (canales LaLiga TV y M+ LaLiga 4K) están agregadas y son accesibles." },
+        { q: "¿La Copa del Rey en 4K?", a: "Las semifinales y la final de la Copa del Rey se emiten en 4K HDR en ATV Corner." },
+      ],
+      related: [
+        { label: "Ver LaLiga", href: "/tools/watch/la-liga" },
+        { label: "Ver al Real Madrid", href: "/tools/team/real-madrid" },
+        { label: "Ver al Barcelona", href: "/tools/team/barcelona" },
+      ],
+    },
+    it: {
+      intro: "In Spagna, Movistar+ detiene i diritti di LaLiga e della Champions League fino al 2027, mentre DAZN offre un'opzione più economica ma incompleta. Seguire ufficialmente tutto il calcio spagnolo costa oltre 90 € al mese. ATV Corner aggrega Movistar, DAZN, beIN MENA, Sky e Canal+ per 15 € al mese.",
+      sections: [
+        { h2: "LaLiga, Copa del Rey e Champions League in Spagna", body: "LaLiga EA Sports (Real Madrid, Barcellona, Atlético: 380 partite), LaLiga 2 Hypermotion, Copa del Rey (dai sedicesimi alla finale), Supercopa de España (quattro squadre, in Arabia Saudita), Champions League, Europa League, Premier League, Serie A, Bundesliga e Ligue 1." },
+        { h2: "Il Clásico tra Real Madrid e Barça da Madrid, Barcellona, Valencia o Siviglia", body: "Il Clásico è l'evento calcistico più seguito di Spagna. ATV Corner lo trasmette in 4K HDR con Dolby Vision da Madrid (Real Madrid), Barcellona (FC Barcellona), Valencia (Valencia CF), Siviglia (Siviglia FC e Real Betis), Bilbao (Athletic) e San Sebastián (Real Sociedad)." },
+      ],
+      extraFaq: [
+        { q: "Sono inclusi i segnali di Movistar LaLiga?", a: "Sì, i segnali di Movistar LaLiga (canali LaLiga TV e M+ LaLiga 4K) sono aggregati e accessibili." },
+        { q: "La Copa del Rey in 4K?", a: "Semifinali e finale della Copa del Rey vengono trasmesse in 4K HDR su ATV Corner." },
+      ],
+      related: [
+        { label: "Guarda LaLiga", href: "/tools/watch/la-liga" },
+        { label: "Guarda il Real Madrid", href: "/tools/team/real-madrid" },
+        { label: "Guarda il Barcellona", href: "/tools/team/barcelona" },
+      ],
+    },
   },
 };
 
