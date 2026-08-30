@@ -64,6 +64,8 @@ export function Footer({ lang, dict }: Props) {
             <li><Link href={`/${lang}/iptv-canada`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Canada</Link></li>
             <li><Link href={`/${lang}/iptv-uk`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV UK</Link></li>
             <li><Link href={`/${lang}/iptv-usa`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV USA</Link></li>
+            <li><Link href={`/${lang}/iptv-espana`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "es" ? "IPTV España" : lang === "fr" ? "IPTV Espagne" : lang === "de" ? "IPTV Spanien" : "IPTV Spain"}</Link></li>
+            <li><Link href={`/${lang}/iptv-italia`} className="text-zinc-400 hover:text-emerald-400 transition-colors">{lang === "fr" ? "IPTV Italie" : lang === "de" ? "IPTV Italien" : "IPTV Italia"}</Link></li>
             <li><Link href={`/${lang}/iptv-apple-tv`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Apple TV</Link></li>
             <li><Link href={`/${lang}/iptv-android-tv`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Android TV</Link></li>
             <li><Link href={`/${lang}/iptv-sport`} className="text-zinc-400 hover:text-emerald-400 transition-colors">IPTV Sport</Link></li>

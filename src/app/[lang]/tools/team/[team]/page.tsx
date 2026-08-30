@@ -6,7 +6,7 @@ import { getTeam, teamSlugs } from "@/data/tools";
 import { getTeamExtras } from "@/data/tools/seoExtras";
 import { hasLocale, locales } from "@/i18n";
 import { BuyBandSection } from "@/components/BuyBand";
-import { toolLocaleOf } from "@/data/tools/types";
+import { toolLocaleOf } from "@/data/tools/locale";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => teamSlugs.map((team) => ({ lang, team })));

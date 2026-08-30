@@ -36,6 +36,8 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [IPTV Royaume-Uni](https://atvcorner.com/fr/iptv-uk): Premier League, chaînes britanniques et internationales
 - [IPTV France](https://atvcorner.com/fr/iptv-france): Ligue 1, chaînes françaises et internationales en 4K
 - [IPTV Allemagne](https://atvcorner.com/fr/iptv-deutschland): Chaînes allemandes, Bundesliga, 4K/8K dès 5 €/mois
+- [IPTV Espagne](https://atvcorner.com/fr/iptv-espana): LaLiga, chaînes espagnoles et internationales en 4K
+- [IPTV Italie](https://atvcorner.com/fr/iptv-italia): Serie A, chaînes italiennes et internationales en 4K
 - [IPTV sur Roku](https://atvcorner.com/fr/iptv-roku): Installer l'IPTV sur un Roku, lecteurs et recours HDMI
 
 ## Blog (FR)
@@ -208,6 +210,42 @@ ATV Corner (atvcorner.com) propose des abonnements de streaming pour l'Europe. C
 - [Borussia Dortmund](https://atvcorner.com/de/tools/team/borussia-dortmund)
 - [Juventus](https://atvcorner.com/de/tools/team/juventus)
 - [Olympique Marseille](https://atvcorner.com/de/tools/team/olympique-marseille)
+
+## Español
+
+- [Inicio](https://atvcorner.com/es)
+- [Precios](https://atvcorner.com/es/pricing)
+- [Canales y VOD](https://atvcorner.com/es/channels)
+- [Instalación](https://atvcorner.com/es/setup)
+- [Contacto](https://atvcorner.com/es/contact)
+- [IPTV España](https://atvcorner.com/es/iptv-espana): LaLiga, Champions, canales españoles y 70.000 películas en 4K desde 5 €/mes
+- [IPTV Italia](https://atvcorner.com/es/iptv-italia): Serie A, Champions y canales italianos en 4K desde 5 €/mes
+- [Suscripción IPTV](https://atvcorner.com/es/iptv-subscription): Planes de 1 a 12 meses, desde 5 €/mes, sin permanencia
+- [Prueba gratis 24 h](https://atvcorner.com/es/iptv-free-trial): Acceso completo sin tarjeta de crédito
+- [Mejor servicio IPTV](https://atvcorner.com/es/best-iptv-service): Criterios verificables para elegir proveedor
+- [IPTV deportes](https://atvcorner.com/es/iptv-sport): 4.200 canales, LaLiga, Champions, F1 y boxeo
+- [IPTV premium](https://atvcorner.com/es/iptv-premium): 66.000+ canales en 4K/8K con soporte 24/7
+- [Alternativa al cable](https://atvcorner.com/es/cable-tv-alternative): Dejar cable o satélite sin perder canales
+- [IPTV en Fire TV Stick](https://atvcorner.com/es/iptv-firestick): Instalación en 5 minutos con TiviMate o Smarters
+- [Lista M3U](https://atvcorner.com/es/m3u-playlist): Enlace único compatible con VLC, TiviMate y Kodi
+
+## Italiano
+
+- [Home](https://atvcorner.com/it)
+- [Prezzi](https://atvcorner.com/it/pricing)
+- [Canali e VOD](https://atvcorner.com/it/channels)
+- [Installazione](https://atvcorner.com/it/setup)
+- [Contatti](https://atvcorner.com/it/contact)
+- [IPTV Italia](https://atvcorner.com/it/iptv-italia): Serie A, Champions, canali italiani e 70.000 film in 4K da 5 €/mese
+- [IPTV Spagna](https://atvcorner.com/it/iptv-espana): LaLiga, Champions e canali spagnoli in 4K da 5 €/mese
+- [Abbonamento IPTV](https://atvcorner.com/it/iptv-subscription): Piani da 1 a 12 mesi, da 5 €/mese, senza vincoli
+- [Prova gratuita 24 h](https://atvcorner.com/it/iptv-free-trial): Accesso completo senza carta di credito
+- [Miglior servizio IPTV](https://atvcorner.com/it/best-iptv-service): Criteri verificabili per scegliere un provider
+- [IPTV sport](https://atvcorner.com/it/iptv-sport): 4.200 canali, Serie A, Champions, F1 e boxe
+- [IPTV premium](https://atvcorner.com/it/iptv-premium): 66.000+ canali in 4K/8K con assistenza 24/7
+- [Alternativa al cavo](https://atvcorner.com/it/cable-tv-alternative): Lasciare cavo o satellite senza perdere canali
+- [IPTV su Fire TV Stick](https://atvcorner.com/it/iptv-firestick): Installazione in 5 minuti con TiviMate o Smarters
+- [Playlist M3U](https://atvcorner.com/it/m3u-playlist): Link unico compatibile con VLC, TiviMate e Kodi
 
 ## Légal
 

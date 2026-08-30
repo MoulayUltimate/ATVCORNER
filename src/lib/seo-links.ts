@@ -162,6 +162,20 @@ const labels: Record<SeoPage, Partial<Record<Locale, LinkCopy>>> = {
     es: { label: "Alternativas IPTV", blurb: "Comparativa frente a otros servicios." },
     it: { label: "Alternative IPTV", blurb: "Confronto con gli altri servizi." },
   },
+  "iptv-espana": {
+    fr: { label: "IPTV Espagne", blurb: "LaLiga, chaînes espagnoles et monde." },
+    en: { label: "IPTV Spain", blurb: "LaLiga and Spanish channels live." },
+    de: { label: "IPTV Spanien", blurb: "LaLiga und spanische Sender." },
+    es: { label: "IPTV España", blurb: "LaLiga, canales españoles e internacionales." },
+    it: { label: "IPTV Spagna", blurb: "LaLiga, canali spagnoli e internazionali." },
+  },
+  "iptv-italia": {
+    fr: { label: "IPTV Italie", blurb: "Serie A, chaînes italiennes et monde." },
+    en: { label: "IPTV Italy", blurb: "Serie A and Italian channels live." },
+    de: { label: "IPTV Italien", blurb: "Serie A und italienische Sender." },
+    es: { label: "IPTV Italia", blurb: "Serie A, canales italianos e internacionales." },
+    it: { label: "IPTV Italia", blurb: "Serie A, canali italiani e internazionali." },
+  },
 };
 
 /**
@@ -192,6 +206,8 @@ const related: Record<SeoPage, SeoPage[]> = {
   "iptv-canada": ["iptv-usa", "iptv-sport", "iptv-subscription"],
   "iptv-uk": ["iptv-sport", "iptv-subscription", "cable-tv-alternative"],
   "iptv-france": ["iptv-sport", "iptv-subscription", "iptv-deutschland"],
+  "iptv-espana": ["iptv-sport", "iptv-subscription", "iptv-free-trial"],
+  "iptv-italia": ["iptv-sport", "iptv-subscription", "iptv-free-trial"],
 };
 
 export type RelatedLink = { slug: SeoPage; label: string; blurb: string };

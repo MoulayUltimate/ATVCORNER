@@ -4,8 +4,9 @@ import type { TeamData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
 import { getTeamExtras } from "@/data/tools/seoExtras";
 import { SeoSections } from "./SeoSections";
-import { toolLocaleOf } from "@/data/tools/types";
+
 import { pick } from "@/i18n/pick";
+import { toolLocaleOf } from "@/data/tools/locale";
 
 export function TeamPage({ lang, team }: { lang: Locale; team: TeamData }) {
   const t = toolLocaleOf(team.i18n, lang);

@@ -4,8 +4,9 @@ import type { LeagueData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
 import { getLeagueExtras } from "@/data/tools/seoExtras";
 import { SeoSections } from "./SeoSections";
-import { toolLocaleOf } from "@/data/tools/types";
+
 import { pick } from "@/i18n/pick";
+import { toolLocaleOf } from "@/data/tools/locale";
 
 export function LeaguePage({ lang, league }: { lang: Locale; league: LeagueData }) {
   const t = toolLocaleOf(league.i18n, lang);

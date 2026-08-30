@@ -5,8 +5,9 @@ import Link from "next/link";
 import type { Locale } from "@/i18n";
 import type { DeviceCategory } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
-import { toolLocaleOf } from "@/data/tools/types";
+
 import { pick } from "@/i18n/pick";
+import { toolLocaleOf } from "@/data/tools/locale";
 
 type Copy = {
   h1: string;

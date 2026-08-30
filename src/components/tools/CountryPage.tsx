@@ -4,8 +4,9 @@ import type { CountryData } from "@/data/tools/types";
 import { whatsappUrl } from "@/lib/site";
 import { getCountryExtras } from "@/data/tools/seoExtras";
 import { SeoSections } from "./SeoSections";
-import { toolLocaleOf } from "@/data/tools/types";
+
 import { pick } from "@/i18n/pick";
+import { toolLocaleOf } from "@/data/tools/locale";
 
 export function CountryPage({ lang, country }: { lang: Locale; country: CountryData }) {
   const t = toolLocaleOf(country.i18n, lang);
