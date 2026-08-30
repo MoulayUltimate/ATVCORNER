@@ -4235,6 +4235,79 @@ content["iptv-8k"].it = {
   cta: "Prova il catalogo",
 };
 
+// --- es/it for /iptv-smarters-pro -------------------------------------------
+content["iptv-smarters-pro"].es = {
+  metaTitle: "IPTV Smarters Pro — configuración en 5 minutos, 66.000 canales",
+  metaDesc:
+    "Configura IPTV Smarters Pro paso a paso: credenciales Xtream Codes o M3U, EPG y VOD en Android, iOS, Fire TV y Windows. Desde 5 €/mes con prueba gratis.",
+  eyebrow: "IPTV Smarters Pro · Guía",
+  h1: "IPTV Smarters Pro",
+  h1Accent: "configurado en 5 minutos",
+  intro:
+    "La aplicación IPTV más sencilla de configurar, disponible en casi todas las plataformas. Te damos las credenciales listas y la guía paso a paso para tener 66.000+ canales funcionando en menos de cinco minutos, desde 5 €/mes.",
+  features: [
+    { h: "En todas las plataformas", p: "Android, iOS, Fire TV, Android TV, Windows y macOS." },
+    { h: "Xtream Codes o M3U", p: "Acepta ambos formatos; te enviamos el que prefieras." },
+    { h: "EPG y VOD incluidos", p: "Guía de programación y videoteca con carátulas." },
+    { h: "Multiusuario", p: "Varias cuentas configuradas en la misma aplicación." },
+  ],
+  sections: [
+    { h: "Por qué elegir Smarters Pro", p: "Su virtud es que no exige nada de ti. La pantalla de inicio pregunta directamente por el tipo de acceso, rellenas tres campos y ya está funcionando. No hay que configurar complementos, ni entender qué es un PVR, ni ajustar rutas de archivo. Para una primera instalación es la vía más rápida, y sigue siendo la opción que recomendamos a quien quiere que algo funcione hoy sin dedicarle una tarde." },
+    { h: "Instalarla en tu dispositivo", p: "En Android y en Google Play la encuentras directamente por su nombre. En iPhone e iPad está en la App Store. En Fire TV Stick, al no estar siempre en la tienda de Amazon, se instala mediante Downloader con la dirección que te facilitamos por WhatsApp, tras activar la instalación desde orígenes desconocidos en Mi Fire TV. En Windows y macOS existe versión de escritorio. En todos los casos la configuración posterior es idéntica." },
+    { h: "Introducir tus credenciales", p: "Al abrirla verás dos opciones. «Login with Xtream Codes API» es la que recomendamos: pide URL del servidor, usuario y contraseña, y carga los canales de forma dinámica junto con la videoteca con carátulas. «Load Your Playlist or File/URL» es para el formato M3U y basta con pegar una única dirección. Ambas dan acceso al mismo contenido; la primera es más rápida y presenta mejor las películas y series." },
+    { h: "Configurar la guía de programación", p: "Con Xtream Codes la guía llega incluida y no hay que hacer nada más. Con M3U, en cambio, la EPG es una segunda dirección que se añade aparte: si tu guía aparece vacía, ese campo es casi siempre el motivo. Te enviamos ambas direcciones juntas para evitarlo. Una vez cargada, la guía cubre varios días y permite ver qué se emite sin ir saltando de canal a ciegas." },
+    { h: "Ajustes que conviene tocar", p: "Activa la decodificación por hardware en los ajustes del reproductor: es el cambio con más impacto sobre la fluidez y el que más se olvida. Elige el reproductor interno en lugar del externo si notas retardo al cambiar de canal. Ajusta el búfer a un valor medio, porque uno bajo corta en conexiones irregulares y uno alto ralentiza el zapeo. Y crea una lista de favoritos con los canales que ves de verdad para no recorrer decenas de miles de entradas." },
+    { h: "Smarters Pro frente a TiviMate", p: "Smarters gana en sencillez y en cobertura de plataformas: existe en iOS, donde TiviMate no está, y se configura en menos pasos. TiviMate gana en experiencia de televisión: su guía en mosaico, la gestión de favoritos y el zapeo son claramente superiores en Android TV y Fire TV, aunque algunas funciones requieren la versión de pago. Si es tu primera instalación, empieza por Smarters; si acabas viendo a diario en el televisor, prueba TiviMate después." },
+    { h: "Problemas frecuentes", p: "Si aparece «credenciales inválidas», revisa que no se haya colado un espacio al pegar desde WhatsApp, que es la causa más habitual. Si la aplicación carga pero no se ve ningún canal, fuerza una actualización del catálogo desde los ajustes. Si la imagen va a tirones con buena conexión, activa la decodificación por hardware. Y si se cierra sola al abrirla, borra su caché desde los ajustes del sistema del dispositivo antes de reinstalar nada." },
+    { h: "Varios dispositivos y varias cuentas", p: "Smarters permite guardar varios perfiles, lo que resulta cómodo si gestionas el acceso de más de una persona o si quieres tener configurados a la vez el formato Xtream Codes y el M3U. Tus credenciales no están atadas a un aparato, así que puedes usarlas en el televisor, en el móvil y en una tableta. Lo único a dimensionar es el número de conexiones simultáneas, que solo importa si varias personas ven canales distintos a la vez." },
+    { h: "Probarlo antes de pagar", p: "La prueba gratuita de 24 horas incluye credenciales completas sin tarjeta de crédito, así que puedes hacer la instalación entera y comprobar el resultado en tu propio equipo. Actívala en horario punta, verifica que tus canales estén, que la guía se rellene y que la imagen aguante diez minutos seguidos. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Cómo configuro IPTV Smarters Pro?", a: "Ábrela, elige «Login with Xtream Codes API» e introduce la URL del servidor, el usuario y la contraseña que te enviamos por WhatsApp. El catálogo se carga en menos de un minuto." },
+    { q: "¿En qué dispositivos funciona?", a: "Android, iOS, Fire TV Stick, Android TV, Windows y macOS. En Fire TV se instala con Downloader tras activar los orígenes desconocidos." },
+    { q: "¿Por qué dice «credenciales inválidas»?", a: "Casi siempre por un espacio de más al pegar desde WhatsApp o una barra final añadida a la URL. Copia y pega exactamente lo que te enviamos." },
+    { q: "¿Es mejor Smarters Pro o TiviMate?", a: "Smarters es más sencilla y existe en iOS. TiviMate ofrece mejor experiencia de televisión en Android TV y Fire TV. Empieza por Smarters si es tu primera instalación." },
+    { q: "¿Por qué está vacía la guía de programación?", a: "Si usas M3U, falta la URL EPG, que se añade aparte. Con credenciales Xtream Codes la guía llega incluida y no hay que configurar nada." },
+  ],
+  cta: "Recibir mis credenciales",
+};
+
+content["iptv-smarters-pro"].it = {
+  metaTitle: "IPTV Smarters Pro — configurazione in 5 minuti, 66.000 canali",
+  metaDesc:
+    "Configura IPTV Smarters Pro passo passo: credenziali Xtream Codes o M3U, EPG e VOD su Android, iOS, Fire TV e Windows. Da 5 €/mese con prova gratuita.",
+  eyebrow: "IPTV Smarters Pro · Guida",
+  h1: "IPTV Smarters Pro",
+  h1Accent: "configurato in 5 minuti",
+  intro:
+    "L'app IPTV più semplice da configurare, disponibile su quasi tutte le piattaforme. Ti diamo le credenziali pronte e la guida passo passo per avere 66.000+ canali funzionanti in meno di cinque minuti, da 5 €/mese.",
+  features: [
+    { h: "Su tutte le piattaforme", p: "Android, iOS, Fire TV, Android TV, Windows e macOS." },
+    { h: "Xtream Codes o M3U", p: "Accetta entrambi i formati; ti inviamo quello che preferisci." },
+    { h: "EPG e VOD inclusi", p: "Guida ai programmi e videoteca con copertine." },
+    { h: "Multiutente", p: "Più account configurati nella stessa app." },
+  ],
+  sections: [
+    { h: "Perché scegliere Smarters Pro", p: "Il suo pregio è che non chiede nulla a te. La schermata iniziale domanda direttamente il tipo di accesso, compili tre campi ed è già in funzione. Non serve configurare componenti aggiuntivi, né capire cosa sia un PVR, né sistemare percorsi di file. Per una prima installazione è la via più rapida, e resta l'opzione che consigliamo a chi vuole che qualcosa funzioni oggi senza dedicarci un pomeriggio." },
+    { h: "Installarla sul tuo dispositivo", p: "Su Android e su Google Play la trovi direttamente per nome. Su iPhone e iPad è nell'App Store. Su Fire TV Stick, non essendo sempre nello store Amazon, si installa tramite Downloader con l'indirizzo che ti forniamo su WhatsApp, dopo aver attivato l'installazione da origini sconosciute in Il mio Fire TV. Su Windows e macOS esiste una versione desktop. In tutti i casi la configurazione successiva è identica." },
+    { h: "Inserire le credenziali", p: "All'apertura vedrai due opzioni. «Login with Xtream Codes API» è quella che consigliamo: chiede URL del server, nome utente e password, e carica i canali in modo dinamico insieme alla videoteca con le copertine. «Load Your Playlist or File/URL» serve per il formato M3U e basta incollare un unico indirizzo. Entrambe danno accesso allo stesso contenuto; la prima è più rapida e presenta meglio film e serie." },
+    { h: "Configurare la guida ai programmi", p: "Con Xtream Codes la guida arriva inclusa e non serve fare altro. Con l'M3U, invece, l'EPG è un secondo indirizzo da aggiungere separatamente: se la tua guida risulta vuota, quel campo è quasi sempre il motivo. Ti inviamo entrambi gli indirizzi insieme per evitarlo. Una volta caricata, la guida copre più giorni e permette di vedere cosa va in onda senza saltare da un canale all'altro alla cieca." },
+    { h: "Impostazioni da sistemare", p: "Attiva la decodifica hardware nelle impostazioni del lettore: è la modifica con più impatto sulla fluidità e quella che più spesso si dimentica. Scegli il lettore interno invece di quello esterno se noti ritardo nel cambio canale. Regola il buffer su un valore medio, perché uno basso interrompe su connessioni irregolari e uno alto rallenta lo zapping. E crea un elenco di preferiti con i canali che guardi davvero, per non scorrere decine di migliaia di voci." },
+    { h: "Smarters Pro contro TiviMate", p: "Smarters vince sulla semplicità e sulla copertura di piattaforme: esiste su iOS, dove TiviMate non c'è, e si configura in meno passaggi. TiviMate vince sull'esperienza da televisore: la guida a griglia, la gestione dei preferiti e lo zapping sono nettamente superiori su Android TV e Fire TV, anche se alcune funzioni richiedono la versione a pagamento. Se è la tua prima installazione parti da Smarters; se poi guardi ogni giorno sul televisore, prova TiviMate." },
+    { h: "Problemi frequenti", p: "Se compare «credenziali non valide», controlla che non si sia infilato uno spazio incollando da WhatsApp, che è la causa più comune. Se l'app carica ma non si vede alcun canale, forza un aggiornamento del catalogo dalle impostazioni. Se l'immagine scatta con una buona connessione, attiva la decodifica hardware. E se si chiude da sola all'avvio, svuota la cache dalle impostazioni di sistema del dispositivo prima di reinstallare qualsiasi cosa." },
+    { h: "Più dispositivi e più account", p: "Smarters consente di salvare più profili, il che è comodo se gestisci l'accesso di più di una persona o se vuoi avere configurati contemporaneamente il formato Xtream Codes e l'M3U. Le tue credenziali non sono legate a un apparecchio, quindi puoi usarle sul televisore, sul telefono e su un tablet. L'unica cosa da dimensionare è il numero di connessioni simultanee, che conta solo se più persone guardano canali diversi insieme." },
+    { h: "Provarlo prima di pagare", p: "La prova gratuita di 24 ore include credenziali complete senza carta di credito, così puoi eseguire l'installazione intera e verificare il risultato sul tuo apparecchio. Attivala in orario di punta, controlla che i tuoi canali ci siano, che la guida si popoli e che l'immagine regga dieci minuti consecutivi. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni. Conviene fare la prova direttamente sull'apparecchio che userai ogni sera, perché è l'unico test che riflette davvero le condizioni di casa tua: la stessa app, sullo stesso televisore, sulla stessa rete e alla stessa ora in cui la guarderai." },
+  ],
+  faq: [
+    { q: "Come configuro IPTV Smarters Pro?", a: "Aprila, scegli «Login with Xtream Codes API» e inserisci URL del server, nome utente e password che ti inviamo su WhatsApp. Il catalogo si carica in meno di un minuto." },
+    { q: "Su quali dispositivi funziona?", a: "Android, iOS, Fire TV Stick, Android TV, Windows e macOS. Su Fire TV si installa con Downloader dopo aver attivato le origini sconosciute." },
+    { q: "Perché dice «credenziali non valide»?", a: "Quasi sempre per uno spazio di troppo incollando da WhatsApp o una barra finale aggiunta all'URL. Copia e incolla esattamente ciò che ti inviamo." },
+    { q: "Meglio Smarters Pro o TiviMate?", a: "Smarters è più semplice ed esiste su iOS. TiviMate offre una migliore esperienza da televisore su Android TV e Fire TV. Parti da Smarters se è la tua prima installazione." },
+    { q: "Perché la guida ai programmi è vuota?", a: "Se usi l'M3U, manca l'URL EPG, che si aggiunge separatamente. Con le credenziali Xtream Codes la guida arriva inclusa e non serve configurare nulla." },
+  ],
+  cta: "Ricevi le mie credenziali",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
