@@ -4089,6 +4089,152 @@ content["best-iptv-alternatives"].it = {
   cta: "Prova l'opzione IPTV",
 };
 
+// --- es/it for /iptv-4k -----------------------------------------------------
+content["iptv-4k"].es = {
+  metaTitle: "IPTV 4K — HEVC/H.265, imagen estable desde 5 €/mes",
+  metaDesc:
+    "IPTV en 4K con codificación HEVC/H.265 y bitrate adaptativo: 66.000+ canales y 70.000 películas sin cortes. Qué conexión necesitas y cómo comprobarlo.",
+  eyebrow: "IPTV 4K · HEVC/H.265",
+  h1: "IPTV en 4K",
+  h1Accent: "sin cortes ni excusas",
+  intro:
+    "El 4K solo tiene valor si se sostiene en movimiento. Emitimos en HEVC/H.265 con bitrate adaptativo sobre 66.000+ canales y 70.000 películas, y te explicamos exactamente qué necesitas para verlo bien desde 5 €/mes.",
+  features: [
+    { h: "HEVC/H.265", p: "Misma calidad con menos ancho de banda que el códec H.264." },
+    { h: "Bitrate adaptativo", p: "Baja un escalón cuando la red fluctúa, en vez de congelarse." },
+    { h: "25 Mbps bastan", p: "Medidos en el dispositivo de visionado, no en el router." },
+    { h: "Catálogo completo", p: "66.000+ canales y 70.000 películas incluidos en cualquier plan." },
+  ],
+  sections: [
+    { h: "Qué significa realmente 4K en IPTV", p: "El 4K son 3840 por 2160 píxeles, cuatro veces la definición del Full HD. Pero en televisión por internet la resolución es solo la mitad de la historia: un flujo 4K mal comprimido se ve peor que un HD bien codificado, porque los artefactos de compresión aparecen justo en las escenas con movimiento. Por eso conviene desconfiar de cualquier proveedor que anuncie resolución sin decir nada sobre el códec y el bitrate que emplea." },
+    { h: "Por qué usamos HEVC/H.265", p: "HEVC comprime aproximadamente el doble de eficientemente que el H.264 anterior: transporta la misma calidad de imagen con cerca de la mitad de ancho de banda. En la práctica eso significa que un hogar con una conexión normal puede ver 4K de verdad sin saturar la línea, y que en horas de mucho tráfico hay margen antes de que la calidad se resienta. Es la diferencia entre un 4K que funciona a diario y uno que solo funciona de madrugada." },
+    { h: "El bitrate adaptativo, la parte que se nota", p: "Ninguna conexión doméstica es perfectamente constante: fluctúa cuando alguien más se conecta, cuando el Wi-Fi se congestiona o cuando la red del operador va cargada. Sin adaptación, cada caída se traduce en una congelación. Con bitrate adaptativo, el flujo baja un escalón de calidad durante unos segundos y sigue reproduciéndose. Preferimos una bajada momentánea de nitidez a una imagen detenida, sobre todo si lo que estás viendo es un partido." },
+    { h: "Qué conexión necesitas de verdad", p: "Unos 25 Mbps estables bastan para 4K con HEVC, y 10 Mbps para HD. La palabra decisiva es estables, y el lugar de la medición importa tanto como el número: mide en el aparato donde vas a ver, no en el router y no con el móvil al lado de este. Una línea que promedia 100 Mbps pero cae a 5 cada pocos minutos dará peor resultado que una de 25 Mbps constante, y esa caída casi siempre ocurre en el último tramo Wi-Fi." },
+    { h: "El televisor y el reproductor también cuentan", p: "Para ver 4K necesitas una pantalla 4K y un reproductor capaz de decodificar HEVC por hardware. La mayoría de los televisores de los últimos años lo hacen, pero algunos dispositivos externos antiguos no: un Fire TV Stick Lite, por ejemplo, no es un modelo 4K. Si tu reproductor no decodifica HEVC por hardware, intentará hacerlo por software y el resultado serán tirones aunque tu conexión sea excelente. Es el fallo más común y el más fácil de confundir con un problema del servicio." },
+    { h: "No todo el catálogo está en 4K", p: "Conviene decirlo con claridad porque muchos proveedores lo esquivan: la resolución final la fija siempre la fuente original. Un canal que emite en HD llegará en HD por mucho que tu televisor y tu conexión estén preparados para más. Lo que sí garantizamos es que allí donde existe una fuente 4K, la emitimos en 4K con HEVC, y que el resto del catálogo llega con la mejor calidad disponible. Quien prometa 66.000 canales todos en 4K no está diciendo la verdad." },
+    { h: "Ajustes que mejoran la imagen", p: "En tu aplicación, activa la decodificación por hardware: es el ajuste que más impacto tiene y el que más gente olvida. Ajusta el búfer a un valor medio, porque uno demasiado bajo provoca cortes en conexiones irregulares y uno demasiado alto retrasa el cambio de canal. En el televisor, desactiva los modos de mejora de imagen agresivos, que introducen retardo y artefactos sobre un flujo ya comprimido. Y si puedes, conecta por cable Ethernet." },
+    { h: "Cómo comprobarlo antes de pagar", p: "La prueba gratuita de 24 horas da acceso al catálogo completo sin tarjeta de crédito. Actívala en horario punta y elige deliberadamente contenido con movimiento rápido: fútbol o motor, nunca un plano fijo. Diez minutos seguidos bastan para ver si la imagen se sostiene o si aparecen artefactos. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+    { h: "Cuándo el 4K no compensa", p: "Si tu televisor es de 43 pulgadas o menos y lo ves desde tres metros, la diferencia entre un buen HD y un 4K es prácticamente imperceptible para la mayoría de la gente. En ese caso, lo que mejora tu experiencia no es la resolución sino la estabilidad del flujo, y ahí el HD tiene ventaja porque exige menos ancho de banda. Pagar por resolución que tu pantalla y tu distancia de visionado no pueden aprovechar no tiene sentido; en nuestros planes, en cualquier caso, ambas están incluidas." },
+  ],
+  faq: [
+    { q: "¿Qué conexión necesito para IPTV en 4K?", a: "Unos 25 Mbps estables, medidos en el dispositivo donde vas a ver y no en el router. Para HD bastan 10 Mbps. La estabilidad importa más que la velocidad máxima contratada." },
+    { q: "¿Está todo el catálogo en 4K?", a: "No. La resolución la fija siempre la fuente original: un canal que emite en HD llega en HD. Donde existe fuente 4K la emitimos en 4K con HEVC/H.265." },
+    { q: "¿Por qué se ve a tirones si mi conexión es buena?", a: "Casi siempre porque el reproductor no decodifica HEVC por hardware e intenta hacerlo por software. Activa la decodificación por hardware en la aplicación y comprueba que tu dispositivo sea un modelo 4K." },
+    { q: "¿Qué es el bitrate adaptativo?", a: "Un mecanismo que baja la calidad un escalón durante unos segundos cuando tu red fluctúa, en lugar de congelar la imagen. Es lo que permite ver un partido sin interrupciones en una línea imperfecta." },
+    { q: "¿Cuesta más el 4K?", a: "No. Todos los planes incluyen el mismo catálogo y la misma calidad, de 15 € por un mes a 60 € por doce, es decir 5 €/mes." },
+  ],
+  cta: "Ver en 4K",
+};
+
+content["iptv-4k"].it = {
+  metaTitle: "IPTV 4K — HEVC/H.265, immagine stabile da 5 €/mese",
+  metaDesc:
+    "IPTV in 4K con codifica HEVC/H.265 e bitrate adattivo: 66.000+ canali e 70.000 film senza interruzioni. Quale connessione serve e come verificarlo.",
+  eyebrow: "IPTV 4K · HEVC/H.265",
+  h1: "IPTV in 4K",
+  h1Accent: "senza interruzioni né scuse",
+  intro:
+    "Il 4K ha valore solo se regge in movimento. Trasmettiamo in HEVC/H.265 con bitrate adattivo su 66.000+ canali e 70.000 film, e ti spieghiamo esattamente cosa serve per vederlo bene da 5 €/mese.",
+  features: [
+    { h: "HEVC/H.265", p: "Stessa qualità con meno banda rispetto al codec H.264." },
+    { h: "Bitrate adattivo", p: "Scende di un gradino quando la rete oscilla, invece di bloccarsi." },
+    { h: "Bastano 25 Mbps", p: "Misurati sul dispositivo di visione, non sul router." },
+    { h: "Catalogo completo", p: "66.000+ canali e 70.000 film inclusi in qualsiasi piano." },
+  ],
+  sections: [
+    { h: "Cosa significa davvero 4K nell'IPTV", p: "Il 4K è 3840 per 2160 pixel, quattro volte la definizione del Full HD. Ma nella televisione via internet la risoluzione è solo metà della storia: un flusso 4K compresso male si vede peggio di un HD codificato bene, perché gli artefatti di compressione compaiono proprio nelle scene in movimento. Per questo conviene diffidare di qualsiasi fornitore che pubblicizzi la risoluzione senza dire nulla sul codec e sul bitrate che utilizza." },
+    { h: "Perché usiamo HEVC/H.265", p: "L'HEVC comprime all'incirca il doppio più efficientemente del precedente H.264: trasporta la stessa qualità d'immagine con circa metà della banda. In pratica questo significa che una famiglia con una connessione normale può guardare vero 4K senza saturare la linea, e che nelle ore di traffico intenso c'è margine prima che la qualità ne risenta. È la differenza tra un 4K che funziona ogni giorno e uno che funziona solo di notte." },
+    { h: "Il bitrate adattivo, la parte che si nota", p: "Nessuna connessione domestica è perfettamente costante: oscilla quando qualcun altro si collega, quando il Wi-Fi si congestiona o quando la rete dell'operatore è carica. Senza adattamento, ogni calo si traduce in un blocco. Con il bitrate adattivo, il flusso scende di un gradino di qualità per qualche secondo e continua a riprodursi. Preferiamo un calo momentaneo di nitidezza a un'immagine ferma, soprattutto se quello che stai guardando è una partita." },
+    { h: "Quale connessione serve davvero", p: "Circa 25 Mbps stabili bastano per il 4K con HEVC, e 10 Mbps per l'HD. La parola decisiva è stabili, e il punto di misurazione conta quanto il numero: misura sull'apparecchio su cui guarderai, non sul router e non con il telefono accanto a esso. Una linea che in media fa 100 Mbps ma scende a 5 ogni pochi minuti darà un risultato peggiore di una da 25 Mbps costante, e quel calo avviene quasi sempre nell'ultimo tratto Wi-Fi." },
+    { h: "Contano anche il televisore e il lettore", p: "Per vedere il 4K servono uno schermo 4K e un lettore capace di decodificare l'HEVC via hardware. La maggior parte dei televisori degli ultimi anni lo fa, ma alcuni dispositivi esterni datati no: un Fire TV Stick Lite, per esempio, non è un modello 4K. Se il tuo lettore non decodifica l'HEVC via hardware, proverà a farlo via software e il risultato saranno scatti anche con una connessione eccellente. È il guasto più comune e il più facile da confondere con un problema del servizio." },
+    { h: "Non tutto il catalogo è in 4K", p: "Conviene dirlo chiaramente perché molti fornitori lo evitano: la risoluzione finale la fissa sempre la sorgente originale. Un canale che trasmette in HD arriverà in HD per quanto il televisore e la connessione siano pronti a di più. Ciò che garantiamo è che dove esiste una sorgente 4K la trasmettiamo in 4K con HEVC, e che il resto del catalogo arriva con la migliore qualità disponibile. Chi promette 66.000 canali tutti in 4K non sta dicendo la verità." },
+    { h: "Impostazioni che migliorano l'immagine", p: "Nella tua app, attiva la decodifica hardware: è l'impostazione con più impatto e quella che più spesso viene dimenticata. Regola il buffer su un valore medio, perché troppo basso provoca interruzioni su connessioni irregolari e troppo alto rallenta il cambio canale. Sul televisore, disattiva le modalità di miglioramento immagine aggressive, che introducono ritardo e artefatti su un flusso già compresso. E se puoi, collega via cavo Ethernet." },
+    { h: "Come verificarlo prima di pagare", p: "La prova gratuita di 24 ore dà accesso al catalogo completo senza carta di credito. Attivala in orario di punta e scegli deliberatamente contenuti con movimento rapido: calcio o motori, mai un'inquadratura fissa. Dieci minuti consecutivi bastano per capire se l'immagine regge o se compaiono artefatti. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+    { h: "Quando il 4K non conviene", p: "Se il tuo televisore è da 43 pollici o meno e lo guardi da tre metri, la differenza tra un buon HD e un 4K è praticamente impercettibile per la maggior parte delle persone. In quel caso, ciò che migliora l'esperienza non è la risoluzione ma la stabilità del flusso, e lì l'HD è avvantaggiato perché richiede meno banda. Pagare per una risoluzione che il tuo schermo e la tua distanza di visione non possono sfruttare non ha senso; nei nostri piani, in ogni caso, entrambe sono incluse." },
+  ],
+  faq: [
+    { q: "Quale connessione serve per l'IPTV in 4K?", a: "Circa 25 Mbps stabili, misurati sul dispositivo su cui guarderai e non sul router. Per l'HD bastano 10 Mbps. La stabilità conta più della velocità massima contrattuale." },
+    { q: "Tutto il catalogo è in 4K?", a: "No. La risoluzione la fissa sempre la sorgente originale: un canale che trasmette in HD arriva in HD. Dove esiste una sorgente 4K la trasmettiamo in 4K con HEVC/H.265." },
+    { q: "Perché scatta se la mia connessione è buona?", a: "Quasi sempre perché il lettore non decodifica l'HEVC via hardware e prova a farlo via software. Attiva la decodifica hardware nell'app e verifica che il tuo dispositivo sia un modello 4K." },
+    { q: "Che cos'è il bitrate adattivo?", a: "Un meccanismo che abbassa la qualità di un gradino per qualche secondo quando la rete oscilla, invece di bloccare l'immagine. È ciò che permette di guardare una partita senza interruzioni su una linea imperfetta." },
+    { q: "Il 4K costa di più?", a: "No. Tutti i piani includono lo stesso catalogo e la stessa qualità, da 15 € per un mese a 60 € per dodici, cioè 5 €/mese." },
+  ],
+  cta: "Guarda in 4K",
+};
+
+// --- es/it for /iptv-8k -----------------------------------------------------
+content["iptv-8k"].es = {
+  metaTitle: "IPTV 8K — qué es real hoy y qué no, desde 5 €/mes",
+  metaDesc:
+    "IPTV 8K sin exageraciones: qué contenido existe realmente en 8K, qué conexión y qué televisor hacen falta, y por qué el 4K sigue siendo la apuesta sensata.",
+  eyebrow: "IPTV 8K · Sin exageraciones",
+  h1: "IPTV en 8K",
+  h1Accent: "lo que es real hoy",
+  intro:
+    "El 8K existe, pero el contenido en 8K es escaso y las exigencias son altas. Esto es lo que hay de verdad, qué necesitas para aprovecharlo y por qué el 4K sigue siendo la elección sensata para casi todo el mundo.",
+  features: [
+    { h: "Soporte 8K real", p: "Donde existe fuente en 8K, la servimos en 8K con HEVC." },
+    { h: "Catálogo escaso", p: "El contenido nativo en 8K sigue siendo muy limitado en todo el sector." },
+    { h: "Exige mucho", p: "Televisor 8K, decodificación por hardware y conexión muy holgada." },
+    { h: "Incluido sin recargo", p: "No cobramos más por resolución: todos los planes son iguales." },
+  ],
+  sections: [
+    { h: "Qué es el 8K y qué exige", p: "El 8K son 7680 por 4320 píxeles, cuatro veces el 4K y dieciséis veces el Full HD. Esa cantidad de información impone requisitos en toda la cadena: una pantalla 8K, un reproductor que decodifique HEVC en 8K por hardware, y una conexión con margen amplio y estable. Basta con que uno de los tres eslabones falle para que el resultado sea peor que un 4K bien servido, lo que ocurre más a menudo de lo que la publicidad del sector sugiere." },
+    { h: "Cuánto contenido 8K existe realmente", p: "Muy poco, y conviene ser honestos porque aquí es donde más se exagera en este mercado. Prácticamente ninguna cadena de televisión emite su programación regular en 8K: la producción, el almacenamiento y la distribución siguen siendo caros, y los derechos deportivos se negocian todavía en 4K como techo. Lo que sí existe es contenido puntual, demostraciones y algunas producciones específicas. Cualquier proveedor que anuncie un catálogo entero en 8K está describiendo algo que no existe en ninguna parte." },
+    { h: "Nuestra posición", p: "Donde existe una fuente en 8K, la servimos en 8K con codificación HEVC. Donde no existe, servimos la mejor calidad disponible, que en la gran mayoría de los casos será 4K o Full HD. No inflamos la cifra ni cobramos un recargo por resolución: los cuatro planes incluyen exactamente el mismo catálogo y la misma calidad, y la única diferencia entre ellos es el coste mensual. Preferimos que compres sabiendo qué vas a recibir." },
+    { h: "Qué conexión haría falta", p: "Un flujo 8K bien codificado con HEVC exige bastante más que los 25 Mbps del 4K, y sobre todo exige una estabilidad que pocas líneas domésticas mantienen de forma sostenida en horario punta. Si tu conexión ya va justa para 4K, el 8K no es una mejora sino una fuente de cortes. Antes de plantearlo, mide en el televisor donde ves y observa el comportamiento durante media hora, no el pico de una prueba de velocidad de diez segundos." },
+    { h: "El televisor y la distancia de visionado", p: "Aquí está el argumento que casi nadie menciona. La ventaja del 8K sobre el 4K solo es perceptible en pantallas muy grandes vistas desde cerca. En un televisor de 55 o 65 pulgadas visto desde tres metros, que es la situación de la mayoría de los salones, el ojo humano no distingue el detalle adicional. Es decir: aunque tuvieras el contenido, la conexión y el aparato, es probable que no notaras diferencia respecto a un buen 4K." },
+    { h: "Por qué el 4K sigue siendo la apuesta sensata", p: "El 4K tiene hoy contenido abundante, exigencias de red razonables y compatibilidad universal con los reproductores de los últimos años. Ofrece la mejor relación entre calidad percibida y fiabilidad, que es lo que de verdad determina si disfrutas viendo la televisión. Nuestra recomendación honesta para casi todos los hogares es optimizar para un 4K estable —conexión por cable, decodificación por hardware activada— antes que perseguir una resolución para la que apenas hay material." },
+    { h: "Cuándo el 8K sí tiene sentido", p: "Hay casos legítimos. Si ya tienes un televisor 8K de gran formato, una conexión sobrada y estable, y te interesa específicamente el contenido de demostración o las producciones que sí existen en esa resolución, entonces poder recibirlo sin pagar un suplemento es una ventaja real. También tiene sentido como garantía a futuro: si la oferta crece en los próximos años, tu suscripción ya lo admite sin cambiar de plan ni de proveedor." },
+    { h: "Cómo comprobar qué recibes", p: "La mayoría de las aplicaciones muestran la resolución del flujo en curso en su panel de información. Es la forma directa de ver qué te está llegando de verdad en cada canal, en lugar de fiarte de lo que anuncia una página de precios. Durante la prueba gratuita de 24 horas puedes revisarlo canal por canal en tus favoritos y hacerte una idea exacta del catálogo antes de pagar nada." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes. Los cuatro incluyen el mismo catálogo de 66.000+ canales, 70.000 películas y 18.000 series, y la misma calidad, sea cual sea la resolución de la fuente. Sin permanencia, sin renovación automática y con garantía de devolución de 7 días desde la compra." },
+  ],
+  faq: [
+    { q: "¿Hay contenido real en 8K?", a: "Muy poco. Prácticamente ninguna cadena emite su programación regular en 8K. Existe contenido puntual y algunas producciones específicas. Un proveedor que anuncie un catálogo entero en 8K describe algo que no existe." },
+    { q: "¿Merece la pena el 8K frente al 4K?", a: "Para la mayoría, no. La diferencia solo se percibe en pantallas muy grandes vistas desde cerca. En un televisor de 55 o 65 pulgadas a tres metros, el ojo no distingue el detalle adicional." },
+    { q: "¿Cobráis más por el 8K?", a: "No. Los cuatro planes incluyen el mismo catálogo y la misma calidad, de 15 € por un mes a 60 € por doce. No hay recargo por resolución." },
+    { q: "¿Qué necesito para ver 8K?", a: "Un televisor 8K, un reproductor que decodifique HEVC en 8K por hardware y una conexión con margen amplio y muy estable. Si uno de los tres falla, verás peor que con un 4K bien servido." },
+    { q: "¿Cómo sé en qué resolución estoy viendo?", a: "La mayoría de las aplicaciones muestran la resolución del flujo en su panel de información. Puedes revisarlo canal por canal durante la prueba gratuita de 24 horas." },
+  ],
+  cta: "Probar el catálogo",
+};
+
+content["iptv-8k"].it = {
+  metaTitle: "IPTV 8K — cosa è reale oggi e cosa no, da 5 €/mese",
+  metaDesc:
+    "IPTV 8K senza esagerazioni: quali contenuti esistono davvero in 8K, quale connessione e quale televisore servono, e perché il 4K resta la scelta sensata.",
+  eyebrow: "IPTV 8K · Senza esagerazioni",
+  h1: "IPTV in 8K",
+  h1Accent: "cosa è reale oggi",
+  intro:
+    "L'8K esiste, ma i contenuti in 8K sono scarsi e le richieste sono elevate. Ecco cosa c'è davvero, cosa ti serve per sfruttarlo e perché il 4K resta la scelta sensata per quasi tutti.",
+  features: [
+    { h: "Supporto 8K reale", p: "Dove esiste una sorgente in 8K, la serviamo in 8K con HEVC." },
+    { h: "Catalogo scarso", p: "I contenuti nativi in 8K restano molto limitati in tutto il settore." },
+    { h: "Richiede molto", p: "Televisore 8K, decodifica hardware e connessione con ampio margine." },
+    { h: "Incluso senza extra", p: "Non facciamo pagare la risoluzione: tutti i piani sono uguali." },
+  ],
+  sections: [
+    { h: "Cos'è l'8K e cosa richiede", p: "L'8K è 7680 per 4320 pixel, quattro volte il 4K e sedici volte il Full HD. Quella quantità di informazione impone requisiti su tutta la catena: uno schermo 8K, un lettore che decodifichi l'HEVC in 8K via hardware, e una connessione con margine ampio e stabile. Basta che uno dei tre anelli ceda perché il risultato sia peggiore di un 4K servito bene, cosa che accade più spesso di quanto la pubblicità del settore lasci intendere." },
+    { h: "Quanti contenuti 8K esistono davvero", p: "Pochissimi, ed è giusto essere onesti perché è qui che in questo mercato si esagera di più. Praticamente nessuna emittente trasmette la programmazione regolare in 8K: produzione, archiviazione e distribuzione restano costose, e i diritti sportivi si negoziano ancora con il 4K come tetto. Ciò che esiste sono contenuti occasionali, dimostrazioni e alcune produzioni specifiche. Qualsiasi fornitore che pubblicizzi un intero catalogo in 8K sta descrivendo qualcosa che non esiste da nessuna parte." },
+    { h: "La nostra posizione", p: "Dove esiste una sorgente in 8K, la serviamo in 8K con codifica HEVC. Dove non esiste, serviamo la migliore qualità disponibile, che nella grande maggioranza dei casi sarà 4K o Full HD. Non gonfiamo la cifra e non applichiamo un sovrapprezzo per la risoluzione: i quattro piani includono esattamente lo stesso catalogo e la stessa qualità, e l'unica differenza tra loro è il costo mensile. Preferiamo che tu acquisti sapendo cosa riceverai." },
+    { h: "Quale connessione servirebbe", p: "Un flusso 8K ben codificato con HEVC richiede parecchio più dei 25 Mbps del 4K, e soprattutto richiede una stabilità che poche linee domestiche mantengono in modo continuativo nelle ore di punta. Se la tua connessione è già al limite per il 4K, l'8K non è un miglioramento ma una fonte di interruzioni. Prima di considerarlo, misura sul televisore su cui guardi e osserva il comportamento per mezz'ora, non il picco di un test di velocità da dieci secondi." },
+    { h: "Il televisore e la distanza di visione", p: "Qui sta l'argomento che quasi nessuno menziona. Il vantaggio dell'8K sul 4K è percepibile solo su schermi molto grandi guardati da vicino. Su un televisore da 55 o 65 pollici visto da tre metri, che è la situazione della maggior parte dei salotti, l'occhio umano non distingue il dettaglio aggiuntivo. Vale a dire: anche avendo il contenuto, la connessione e l'apparecchio, probabilmente non noteresti differenza rispetto a un buon 4K." },
+    { h: "Perché il 4K resta la scelta sensata", p: "Il 4K ha oggi contenuti abbondanti, richieste di rete ragionevoli e compatibilità universale con i lettori degli ultimi anni. Offre il miglior rapporto tra qualità percepita e affidabilità, che è ciò che davvero determina se ti godi la televisione. Il nostro consiglio onesto per quasi tutte le famiglie è ottimizzare per un 4K stabile — collegamento via cavo, decodifica hardware attivata — piuttosto che inseguire una risoluzione per cui esiste pochissimo materiale." },
+    { h: "Quando l'8K ha senso", p: "Ci sono casi legittimi. Se hai già un televisore 8K di grande formato, una connessione abbondante e stabile, e ti interessano specificamente i contenuti dimostrativi o le produzioni che esistono davvero in quella risoluzione, allora poterlo ricevere senza pagare un supplemento è un vantaggio reale. Ha senso anche come garanzia per il futuro: se l'offerta crescerà nei prossimi anni, il tuo abbonamento la supporta già senza cambiare piano né fornitore." },
+    { h: "Come verificare cosa ricevi", p: "La maggior parte delle app mostra la risoluzione del flusso in corso nel pannello informazioni. È il modo diretto per vedere cosa ti sta arrivando davvero su ogni canale, invece di fidarti di quanto dichiara una pagina prezzi. Durante la prova gratuita di 24 ore puoi controllarlo canale per canale nei tuoi preferiti e farti un'idea esatta del catalogo prima di pagare qualsiasi cosa." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese. Tutti e quattro includono lo stesso catalogo di 66.000+ canali, 70.000 film e 18.000 serie, e la stessa qualità, qualunque sia la risoluzione della sorgente. Senza vincoli, senza rinnovo automatico e con garanzia di rimborso di 7 giorni dall'acquisto." },
+  ],
+  faq: [
+    { q: "Esistono contenuti reali in 8K?", a: "Pochissimi. Praticamente nessuna emittente trasmette la programmazione regolare in 8K. Esistono contenuti occasionali e alcune produzioni specifiche. Un fornitore che pubblicizzi un intero catalogo in 8K descrive qualcosa che non esiste." },
+    { q: "Vale la pena l'8K rispetto al 4K?", a: "Per la maggior parte delle persone no. La differenza si percepisce solo su schermi molto grandi guardati da vicino. Su un televisore da 55 o 65 pollici a tre metri, l'occhio non distingue il dettaglio aggiuntivo." },
+    { q: "L'8K costa di più?", a: "No. I quattro piani includono lo stesso catalogo e la stessa qualità, da 15 € per un mese a 60 € per dodici. Non c'è sovrapprezzo per la risoluzione." },
+    { q: "Cosa mi serve per guardare in 8K?", a: "Un televisore 8K, un lettore che decodifichi l'HEVC in 8K via hardware e una connessione con ampio margine e molto stabile. Se uno dei tre cede, vedrai peggio che con un 4K servito bene." },
+    { q: "Come faccio a sapere in quale risoluzione sto guardando?", a: "La maggior parte delle app mostra la risoluzione del flusso nel pannello informazioni. Puoi controllarlo canale per canale durante la prova gratuita di 24 ore." },
+  ],
+  cta: "Prova il catalogo",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
