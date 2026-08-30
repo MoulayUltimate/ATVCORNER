@@ -5061,6 +5061,91 @@ content["iptv-italia"].es = {
   cta: "Empezar en Italia",
 };
 
+content["iptv-espana"].fr = {
+  metaTitle: "IPTV Espagne — 66 000 chaînes, LaLiga et 4K dès 5 €/mois",
+  metaDesc:
+    "IPTV en Espagne avec 66 000+ chaînes : LaLiga, Champions League, chaînes espagnoles et 70 000 films en 4K. Activation en 5 minutes, essai gratuit 24 h.",
+  eyebrow: "IPTV Espagne · Dès 5 €/mois",
+  h1: "IPTV en Espagne",
+  h1Accent: "chaînes et football en 4K",
+  intro:
+    "Chaînes espagnoles, LaLiga et compétitions européennes, plus 70 000 films et 18 000 séries en 4K, sur un seul accès. Sans engagement, sans installateur et sans décodeur : activé sur WhatsApp en moins de cinq minutes, dès 5 €/mois.",
+  features: [
+    { h: "Chaînes espagnoles", p: "Généralistes, régionales, information, jeunesse et thématiques." },
+    { h: "LaLiga et Champions", p: "4 200 chaînes sport avec le football national et européen." },
+    { h: "Sans engagement", p: "Aucun contrat de 12 ou 24 mois, aucun préavis à retenir." },
+    { h: "Actif en 5 minutes", p: "Identifiants sur WhatsApp, sur le matériel que vous avez déjà." },
+  ],
+  cover: "/blog/iptv-espana-main-en.jpg",
+  image: {
+    src: "/blog/iptv-espana-body-en.jpg",
+    alt: "Ce que couvre l'IPTV en Espagne : chaînes généralistes et régionales, 4 200 chaînes sport avec LaLiga et la Champions League, et 70 000 films en 4K/8K.",
+    caption: "Chaînes espagnoles, sport et vidéothèque en un seul accès.",
+  },
+  sections: [
+    { h: "Ce que couvre l'IPTV en Espagne", p: "Un abonnement ATV Corner rassemble dans une seule liste ce que le marché espagnol répartit habituellement entre plusieurs contrats. On y trouve les chaînes généralistes en clair, les chaînes régionales des communautés autonomes, l'information en continu, les programmes jeunesse et une large offre thématique de documentaires, de cinéma et de séries. S'y ajoutent plus de 66 000 chaînes internationales, ce qui permet de suivre la télévision d'autres pays sur le même accès." },
+    { h: "Football : LaLiga et compétitions européennes", p: "Le football est la raison pour laquelle la plupart des foyers espagnols paient la télévision, et c'est aussi ce qui alourdit la facture, car les droits sont répartis et les options sport sont facturées à part du bouquet de base. Nos 4 200 chaînes sport comprennent LaLiga, la Champions League, l'Europa League, la Copa del Rey et les grands championnats européens, avec la Premier League, la Serie A, la Bundesliga et la Ligue 1. Le sport est inclus dans chaque formule." },
+    { h: "Ce que vous payez aujourd'hui et ce que vous paieriez", p: "Sur le marché espagnol, un bouquet réunissant le football et le cinéma se situe habituellement à plusieurs dizaines d'euros par mois, auxquels s'ajoutent la location du décodeur et, souvent, un tarif promotionnel qui augmente automatiquement au bout d'un an. Une formule annuelle ATV Corner coûte 60 €, soit 5 €/mois, sport inclus et sans matériel à louer. La comparaison honnête ne se fait pas avec l'offre de lancement mais avec la facture du treizième mois." },
+    { h: "Au-delà de la péninsule : îles et expatriés", p: "L'IPTV passe par internet : elle ne dépend donc ni de la couverture d'une antenne ni du déploiement de la fibre d'un opérateur précis dans votre zone. C'est particulièrement utile hors de la péninsule, où l'offre commerciale est plus limitée, et pour les Espagnols vivant à l'étranger : les mêmes identifiants permettent de regarder les chaînes espagnoles depuis n'importe quel pays, sans changer d'abonnement." },
+    { h: "Quelle connexion en Espagne", p: "La règle pratique est de 10 Mbps stables pour la HD et 25 Mbps pour la 4K, mesurés sur l'appareil où vous regardez et non sur la box. La couverture fibre espagnole est l'une des meilleures d'Europe, si bien que la plupart des foyers dépassent largement ce seuil ; le problème, quand il survient, vient rarement du débit souscrit mais du wifi. Si le téléviseur est loin de la box, un câble Ethernet règle plus de choses que n'importe quel réglage applicatif." },
+    { h: "Sur quels appareils cela fonctionne", p: "Smart TV Samsung, LG et Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, récepteurs Enigma2 et ordinateurs sous Windows, macOS ou Linux. Les applications recommandées sont TiviMate pour son interface télé, IPTV Smarters Pro pour sa simplicité, IBO Player et VLC pour un usage ponctuel. Vos identifiants ne sont pas liés à un appareil : vous pouvez commencer un match au salon et le finir sur le téléphone." },
+    { h: "Quitter son opérateur sans se retrouver sans télévision", p: "L'ordre compte, car les contrats espagnols prévoient généralement un préavis et parfois un engagement encore en cours. Activez d'abord l'essai gratuit de 24 heures et testez-le aux heures de pointe ou pendant un match. Si cela convainc, prenez un mois d'IPTV et faites cohabiter les deux services quelques semaines. Ce n'est qu'ensuite qu'il faut résilier, après avoir vérifié les conditions du contrat pour éviter toute pénalité." },
+    { h: "Comment vérifier avant de payer", p: "Demandez l'essai gratuit de 24 heures, qui ne réclame aucune carte bancaire, et lancez-le délibérément au moment où vous regardez vraiment la télévision : à l'heure du match, pas un mardi matin. Vérifiez que vos chaînes habituelles sont présentes et fonctionnelles, que le guide des programmes est bien rempli sur plusieurs jours et que l'image tient dix minutes d'affilée de football. Ensuite, l'abonnement coûte à partir de 15 € par mois ou 5 €/mois en formule annuelle." },
+    { h: "Tarifs et conditions", p: "Quatre durées : 15 € pour un mois, 30 € pour trois, 50 € pour six et 60 € pour douze. Les quatre formules comprennent exactement le même catalogue de 66 000+ chaînes, la même qualité 4K/8K et le même support 24/7 ; seul le coût mensuel change. Il n'y a pas de reconduction automatique : l'accès expire de lui-même et c'est vous qui décidez de revenir. La note moyenne du service est de 4,9/5 sur plus de 2 800 avis, pour 12 000 abonnés." },
+  ],
+  faq: [
+    { q: "L'IPTV fonctionne-t-elle en Espagne ?", a: "Oui. Elle passe par votre connexion internet et fonctionne donc dans toute l'Espagne, Canaries et Baléares comprises, sans antenne ni décodeur. 10 Mbps stables suffisent pour la HD et 25 Mbps pour la 4K." },
+    { q: "Puis-je regarder LaLiga et la Champions League ?", a: "Oui. Les 4 200 chaînes sport comprennent LaLiga, la Champions League, l'Europa League, la Copa del Rey et les grands championnats européens, sans coût supplémentaire sur la formule choisie." },
+    { q: "Combien coûte l'IPTV en Espagne ?", a: "De 15 € pour un mois à 60 € pour douze, soit 5 €/mois en formule annuelle. Le sport est inclus et non facturé à part comme dans les bouquets traditionnels." },
+    { q: "Puis-je regarder les chaînes espagnoles depuis l'étranger ?", a: "Oui. Les mêmes identifiants fonctionnent depuis n'importe quel pays disposant d'une connexion internet, sans changer d'abonnement." },
+    { q: "Y a-t-il un engagement ou des frais de résiliation ?", a: "Non. Aucun engagement et aucune reconduction automatique : l'accès expire seul. Les sept premiers jours sont couverts par une garantie satisfait ou remboursé intégrale." },
+  ],
+  cta: "Démarrer en Espagne",
+};
+
+content["iptv-espana"].de = {
+  metaTitle: "IPTV Spanien — 66.000 Sender, LaLiga und 4K ab 5 €/Monat",
+  metaDesc:
+    "IPTV in Spanien mit 66.000+ Sendern: LaLiga, Champions League, spanische Sender und 70.000 Filme in 4K. Aktivierung in 5 Minuten, 24-Stunden-Gratistest.",
+  eyebrow: "IPTV Spanien · Ab 5 €/Monat",
+  h1: "IPTV in Spanien",
+  h1Accent: "Sender und Fußball in 4K",
+  intro:
+    "Spanische Sender, LaLiga und europäische Wettbewerbe, dazu 70.000 Filme und 18.000 Serien in 4K, über einen einzigen Zugang. Ohne Vertragsbindung, ohne Techniker und ohne Receiver: in unter fünf Minuten per WhatsApp aktiviert, ab 5 €/Monat.",
+  features: [
+    { h: "Spanische Sender", p: "Vollprogramme, Regionalsender, Nachrichten, Kinder und Spartenkanäle." },
+    { h: "LaLiga und Champions", p: "4.200 Sportsender mit nationalem und europäischem Fußball." },
+    { h: "Ohne Bindung", p: "Kein 12- oder 24-Monats-Vertrag, keine Kündigungsfrist im Kalender." },
+    { h: "In 5 Minuten aktiv", p: "Zugangsdaten per WhatsApp, auf Geräten, die Sie schon besitzen." },
+  ],
+  cover: "/blog/iptv-espana-main-en.jpg",
+  image: {
+    src: "/blog/iptv-espana-body-en.jpg",
+    alt: "Was IPTV in Spanien abdeckt: Vollprogramme und Regionalsender, 4.200 Sportkanäle mit LaLiga und Champions League sowie 70.000 Filme in 4K/8K.",
+    caption: "Spanische Sender, Sport und Mediathek in einem Zugang.",
+  },
+  sections: [
+    { h: "Was IPTV in Spanien abdeckt", p: "Ein ATV-Corner-Abo bündelt in einer Liste, was der spanische Markt üblicherweise auf mehrere Verträge verteilt. Dazu gehören die frei empfangbaren Vollprogramme, die Regionalsender der autonomen Gemeinschaften, Nachrichtensender rund um die Uhr, Kinderprogramme und ein breites Spartenangebot aus Dokumentationen, Kino und Serien. Hinzu kommen über 66.000 internationale Sender, sodass Sie Fernsehen aus anderen Ländern über denselben Zugang verfolgen können." },
+    { h: "Fußball: LaLiga und europäische Wettbewerbe", p: "Fußball ist der Grund, warum die meisten spanischen Haushalte überhaupt für Fernsehen zahlen, und zugleich das, was die Rechnung nach oben treibt: Die Rechte sind verteilt, und Sportoptionen werden getrennt vom Grundpaket abgerechnet. Unsere 4.200 Sportsender umfassen LaLiga, Champions League, Europa League, Copa del Rey sowie die großen europäischen Ligen mit Premier League, Serie A, Bundesliga und Ligue 1. Sport ist in jedem Tarif enthalten." },
+    { h: "Was Sie heute zahlen und was Sie zahlen würden", p: "Auf dem spanischen Markt liegt ein Paket aus Fußball und Kino üblicherweise bei mehreren Dutzend Euro im Monat, wozu meist noch die Receiver-Miete kommt und häufig ein Aktionspreis, der nach dem ersten Jahr automatisch steigt. Ein Jahrestarif von ATV Corner kostet 60 €, also 5 €/Monat, inklusive Sport und ohne Mietgerät. Der ehrliche Vergleich zieht nicht den Einstiegspreis heran, sondern die Rechnung im dreizehnten Monat." },
+    { h: "Jenseits des Festlands: Inseln und Auslandsspanier", p: "IPTV läuft über das Internet und hängt damit weder von der Antennenabdeckung noch vom Glasfaserausbau eines bestimmten Anbieters in Ihrer Straße ab. Das hilft besonders außerhalb des Festlands, wo das kommerzielle Angebot dünner ist, und Spaniern im Ausland: Mit denselben Zugangsdaten sehen Sie spanische Sender aus jedem Land, ohne das Abo zu wechseln." },
+    { h: "Welche Verbindung Sie in Spanien brauchen", p: "Als Faustregel gelten 10 Mbit/s stabil für HD und 25 Mbit/s für 4K, gemessen an dem Gerät, an dem Sie tatsächlich schauen, nicht am Router. Die spanische Glasfaserabdeckung gehört zu den besten Europas, sodass die meisten Haushalte das deutlich überschreiten; wenn Probleme auftreten, liegt es fast nie an der gebuchten Bandbreite, sondern am WLAN. Steht der Fernseher weit vom Router entfernt, löst ein Netzwerkkabel mehr als jede App-Einstellung." },
+    { h: "Auf welchen Geräten es läuft", p: "Smart TVs von Samsung, LG und Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, Enigma2-Receiver sowie Computer unter Windows, macOS oder Linux. Empfohlene Apps sind TiviMate für die TV-Oberfläche, IPTV Smarters Pro für die einfache Einrichtung, IBO Player und VLC für den gelegentlichen Gebrauch. Ihre Zugangsdaten sind nicht an ein Gerät gebunden: Sie können ein Spiel im Wohnzimmer beginnen und am Telefon zu Ende sehen." },
+    { h: "Den Anbieter wechseln, ohne ohne Fernsehen dazustehen", p: "Die Reihenfolge zählt, denn spanische Verträge sehen meist eine Kündigungsfrist und mitunter eine noch laufende Bindung vor. Starten Sie zuerst den kostenlosen 24-Stunden-Test und prüfen Sie ihn zur Hauptsendezeit oder während eines Spiels. Überzeugt er, buchen Sie einen Monat IPTV und lassen beide Dienste einige Wochen nebeneinander laufen. Erst danach kündigen Sie, nach Prüfung der Vertragsbedingungen, um Strafgebühren zu vermeiden." },
+    { h: "Wie Sie es vor dem Kauf prüfen", p: "Fordern Sie den kostenlosen 24-Stunden-Test an, der keine Kreditkarte verlangt, und starten Sie ihn bewusst dann, wenn Sie wirklich fernsehen: zur Anstoßzeit, nicht an einem Dienstagvormittag. Prüfen Sie, ob Ihre gewohnten Sender vorhanden sind und laufen, ob die Programmzeitschrift über mehrere Tage gefüllt ist und ob das Bild zehn Minuten Fußball am Stück durchhält. Danach kostet das Abo ab 15 € im Monat oder 5 €/Monat im Jahrestarif." },
+    { h: "Mehrere Geräte im selben Haushalt", p: "Ein Abo hängt an Ihren Zugangsdaten, nicht an einem bestimmten Gerät. Sie können dieselben Daten am Fernseher im Wohnzimmer, an einem Telefon und an einem Tablet eintragen und auf jedem davon weiterschauen, ohne etwas nachzukaufen. Zu bedenken ist allein die Zahl gleichzeitiger Verbindungen: Wollen mehrere Personen zur selben Zeit unterschiedliche Sender sehen, brauchen Sie entsprechend mehr. Wie viele sinnvoll sind, hängt vom Haushalt ab; fragen Sie im Zweifel vor dem Kauf, dann klären wir das in einer Nachricht." },
+    { h: "Preise und Konditionen", p: "Vier Laufzeiten: 15 € für einen Monat, 30 € für drei, 50 € für sechs und 60 € für zwölf. Alle vier enthalten exakt denselben Katalog mit 66.000+ Sendern, dieselbe 4K/8K-Qualität und denselben Support rund um die Uhr; nur die monatlichen Kosten unterscheiden sich. Es gibt keine automatische Verlängerung: Der Zugang läuft von selbst aus, und Sie entscheiden, ob Sie zurückkommen. Die Durchschnittsbewertung liegt bei 4,9/5 aus über 2.800 Bewertungen, bei 12.000 Abonnenten." },
+  ],
+  faq: [
+    { q: "Funktioniert IPTV in Spanien?", a: "Ja. Es läuft über Ihre Internetverbindung und funktioniert damit in ganz Spanien, einschließlich der Kanaren und Balearen, ohne Antenne oder Receiver. 10 Mbit/s stabil genügen für HD, 25 Mbit/s für 4K." },
+    { q: "Kann ich LaLiga und die Champions League sehen?", a: "Ja. Die 4.200 Sportsender umfassen LaLiga, Champions League, Europa League, Copa del Rey und die großen europäischen Ligen, ohne Aufpreis auf den gewählten Tarif." },
+    { q: "Was kostet IPTV in Spanien?", a: "Von 15 € für einen Monat bis 60 € für zwölf, also 5 €/Monat im Jahrestarif. Sport ist enthalten und wird nicht wie in klassischen Paketen separat berechnet." },
+    { q: "Kann ich spanische Sender aus dem Ausland sehen?", a: "Ja. Dieselben Zugangsdaten funktionieren aus jedem Land mit Internetverbindung, ohne Abowechsel und ohne Abhängigkeit vom lokalen Anbieter." },
+    { q: "Gibt es eine Bindung oder Kündigungsgebühren?", a: "Nein. Keine Bindung und keine automatische Verlängerung: Der Zugang läuft von selbst aus. Die ersten sieben Tage deckt eine vollständige Geld-zurück-Garantie ab." },
+  ],
+  cta: "In Spanien starten",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
