@@ -4749,6 +4749,81 @@ content["iptv-canada"].it = {
   cta: "Inizia in Canada",
 };
 
+// --- es/it for /iptv-uk -----------------------------------------------------
+content["iptv-uk"].es = {
+  metaTitle: "IPTV Reino Unido — Premier League y canales británicos en 4K",
+  metaDesc:
+    "IPTV en Reino Unido: Premier League, EFL, rugby, críquet y canales británicos en 4K, más 70.000 películas. Sin contrato ni licencia de equipo, desde 5 €/mes.",
+  eyebrow: "IPTV Reino Unido · Premier League",
+  h1: "IPTV en Reino Unido",
+  h1Accent: "Premier League incluida",
+  intro:
+    "Canales británicos, la Premier League completa, EFL, rugby y críquet en un solo acceso, con 70.000 películas y 18.000 series en 4K. Sin contrato de dos años ni descodificador alquilado, desde 5 €/mes.",
+  features: [
+    { h: "Premier League", p: "Más EFL, FA Cup y las competiciones europeas de clubes." },
+    { h: "Canales británicos", p: "Generalistas, informativos, documentales e infantiles." },
+    { h: "Rugby y críquet", p: "Six Nations, Premiership, The Ashes y torneos internacionales." },
+    { h: "Sin contrato", p: "Ni permanencia ni renovación automática ni equipo alquilado." },
+  ],
+  sections: [
+    { h: "Qué cubre el IPTV en Reino Unido", p: "El mercado británico reparte los derechos entre varios operadores, de modo que ver toda la temporada de fútbol suele exigir dos o tres suscripciones simultáneas. Una suscripción de ATV Corner reúne los canales generalistas británicos, los informativos de veinticuatro horas, los documentales y la programación infantil junto a más de 66.000 canales internacionales, en un único acceso y sin sumar contratos ni facturas." },
+    { h: "El fútbol: Premier League y más", p: "La Premier League es el motivo principal por el que se paga televisión en el Reino Unido, y también el que más encarece la factura, porque los partidos están repartidos entre emisores distintos según la jornada y el horario. Nuestros 4.200 canales deportivos cubren la Premier League, la EFL Championship y las divisiones inferiores, la FA Cup y las competiciones europeas de clubes, además de las grandes ligas del continente. Todo incluido en cualquier plan." },
+    { h: "Rugby, críquet y el resto", p: "El deporte británico no se agota en el fútbol y ahí es donde un catálogo amplio marca la diferencia. Encontrarás el Six Nations y la Premiership de rugby, el críquet con The Ashes y los torneos internacionales, el golf con los grandes campeonatos, el tenis durante la temporada de hierba, el boxeo y las carreras de caballos. Son precisamente los deportes que en la oferta tradicional aparecen dispersos entre canales de pago distintos." },
+    { h: "Lo que pagas hoy", p: "Un hogar británico que quiere fútbol completo y cine paga habitualmente varias decenas de libras al mes, sumando el paquete base, el suplemento deportivo, a menudo un segundo servicio para los partidos que no cubre el primero, y el alquiler del equipo. Sobre doce meses la cifra es considerable. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido y sin hardware que devolver." },
+    { h: "La licencia de televisión", p: "Conviene ser claro en este punto porque genera dudas. La TV Licence británica es una obligación legal independiente de tu proveedor: se aplica a ver o grabar televisión en directo, sea cual sea el medio por el que llegue la señal. Cambiar de servicio no altera esa obligación en ningún sentido, y cualquier proveedor que insinúe lo contrario te está desinformando. Es un asunto que corresponde a la autoridad competente, no a nosotros." },
+    { h: "Qué conexión necesitas", p: "Unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el televisor donde vas a ver y no en el router. La cobertura de banda ancha británica es buena en general, pero la fibra hasta el domicilio sigue siendo desigual y muchas líneas dependen todavía del par de cobre en el último tramo. Si tu velocidad es justa, conecta el televisor por cable Ethernet: mejora más la estabilidad que cualquier ajuste de la aplicación." },
+    { h: "En qué dispositivos funciona", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2 y ordenadores. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IPTV Smarters Pro por su facilidad de configuración, IBO Player y VLC para uso puntual. Como las credenciales no están vinculadas a un aparato, el mismo acceso vale para el salón, el móvil y una tableta." },
+    { h: "Ver canales británicos desde fuera", p: "Las mismas credenciales funcionan desde cualquier país con conexión a internet. Es un uso muy frecuente entre británicos residentes en España, Francia o Portugal, que quieren seguir la Premier League y los canales de casa sin depender de qué operador local haya comprado los derechos esa temporada. No hay que cambiar de plan ni pagar un suplemento por verlo fuera del Reino Unido." },
+    { h: "Cambiar de proveedor sin quedarte sin fútbol", p: "El orden importa, porque los contratos británicos suelen incluir un periodo mínimo y un preaviso de treinta días. Activa primero la prueba gratuita de 24 horas y compruébala durante una jornada de Premier League, no un martes por la mañana. Si convence, contrata un mes y convive unas semanas con tu servicio actual. Solo entonces cursa la baja, respetando el preaviso y devolviendo el equipo dentro del plazo para evitar cargos." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes. Los cuatro planes incluyen el mismo catálogo de 66.000+ canales, 4.200 deportivos, 70.000 películas y 18.000 series en 4K/8K, con soporte 24/7. Sin permanencia y sin renovación automática: el acceso caduca solo. Garantía de devolución de 7 días desde la compra." },
+  ],
+  faq: [
+    { q: "¿Puedo ver la Premier League?", a: "Sí. Los 4.200 canales deportivos cubren la Premier League, la EFL Championship, la FA Cup y las competiciones europeas de clubes, incluidos en cualquier plan sin coste adicional." },
+    { q: "¿Necesito la TV Licence?", a: "La TV Licence es una obligación legal independiente de tu proveedor y se aplica a ver o grabar televisión en directo por cualquier medio. Cambiar de servicio no altera esa obligación." },
+    { q: "¿Cuánto ahorro frente a mi proveedor actual?", a: "Un hogar con fútbol completo y cine paga varias decenas de libras al mes sumando paquete, suplemento deportivo y alquiler de equipo. El plan anual cuesta 60 €, es decir 5 €/mes." },
+    { q: "¿Puedo ver canales británicos desde España?", a: "Sí. Las mismas credenciales funcionan desde cualquier país con conexión, sin cambiar de plan ni pagar un suplemento." },
+    { q: "¿Qué conexión necesito?", a: "10 Mbps estables para HD y 25 Mbps para 4K, medidos en el televisor. Si tu línea va justa, conecta por Ethernet antes de cambiar cualquier ajuste." },
+  ],
+  cta: "Empezar en Reino Unido",
+};
+
+content["iptv-uk"].it = {
+  metaTitle: "IPTV Regno Unito — Premier League e canali britannici in 4K",
+  metaDesc:
+    "IPTV nel Regno Unito: Premier League, EFL, rugby, cricket e canali britannici in 4K, più 70.000 film. Senza contratto né apparecchi, da 5 €/mese.",
+  eyebrow: "IPTV Regno Unito · Premier League",
+  h1: "IPTV nel Regno Unito",
+  h1Accent: "Premier League inclusa",
+  intro:
+    "Canali britannici, la Premier League completa, EFL, rugby e cricket in un solo accesso, con 70.000 film e 18.000 serie in 4K. Senza contratto biennale né decoder a noleggio, da 5 €/mese.",
+  features: [
+    { h: "Premier League", p: "Più EFL, FA Cup e le competizioni europee per club." },
+    { h: "Canali britannici", p: "Generalisti, informazione, documentari e programmi per bambini." },
+    { h: "Rugby e cricket", p: "Sei Nazioni, Premiership, The Ashes e tornei internazionali." },
+    { h: "Senza contratto", p: "Né vincoli né rinnovo automatico né apparecchi a noleggio." },
+  ],
+  sections: [
+    { h: "Cosa copre l'IPTV nel Regno Unito", p: "Il mercato britannico divide i diritti tra più operatori, così che seguire un'intera stagione di calcio richiede di norma due o tre abbonamenti contemporanei. Un abbonamento ATV Corner riunisce i canali generalisti britannici, l'informazione ventiquattr'ore, i documentari e la programmazione per bambini insieme a oltre 66.000 canali internazionali, in un unico accesso e senza sommare contratti né fatture." },
+    { h: "Il calcio: Premier League e non solo", p: "La Premier League è il motivo principale per cui nel Regno Unito si paga la televisione, ed è anche ciò che fa lievitare di più la bolletta, perché le partite sono distribuite tra emittenti diverse a seconda della giornata e dell'orario. I nostri 4.200 canali sportivi coprono la Premier League, la EFL Championship e le divisioni inferiori, la FA Cup e le competizioni europee per club, oltre ai maggiori campionati continentali. Tutto incluso in qualsiasi piano." },
+    { h: "Rugby, cricket e il resto", p: "Lo sport britannico non si esaurisce nel calcio ed è lì che un catalogo ampio fa la differenza. Troverai il Sei Nazioni e la Premiership di rugby, il cricket con The Ashes e i tornei internazionali, il golf con i grandi campionati, il tennis durante la stagione sull'erba, la boxe e le corse dei cavalli. Sono esattamente gli sport che nell'offerta tradizionale risultano dispersi tra canali a pagamento diversi." },
+    { h: "Quanto paghi oggi", p: "Una famiglia britannica che vuole il calcio completo e il cinema paga abitualmente diverse decine di sterline al mese, sommando il pacchetto base, il supplemento sportivo, spesso un secondo servizio per le partite che il primo non copre, e il noleggio dell'apparecchio. Su dodici mesi la cifra è considerevole. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso e nessun hardware da restituire." },
+    { h: "La licenza televisiva", p: "Conviene essere chiari su questo punto perché genera dubbi. La TV Licence britannica è un obbligo di legge indipendente dal tuo fornitore: si applica alla visione o registrazione di televisione in diretta, qualunque sia il mezzo con cui arriva il segnale. Cambiare servizio non modifica quell'obbligo in alcun senso, e qualsiasi fornitore che lasci intendere il contrario ti sta disinformando. È una materia che compete all'autorità competente, non a noi." },
+    { h: "Quale connessione serve", p: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul televisore su cui guarderai e non sul router. La copertura a banda larga britannica è nel complesso buona, ma la fibra fino all'abitazione resta disomogenea e molte linee dipendono ancora dal doppino di rame nell'ultimo tratto. Se la tua velocità è al limite, collega il televisore via cavo Ethernet: migliora la stabilità più di qualsiasi impostazione dell'app." },
+    { h: "Su quali dispositivi funziona", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2 e computer. Le app consigliate sono TiviMate per l'interfaccia da televisore, IPTV Smarters Pro per la facilità di configurazione, IBO Player e VLC per un uso occasionale. Poiché le credenziali non sono legate a un apparecchio, lo stesso accesso vale per il salotto, il telefono e un tablet." },
+    { h: "Guardare canali britannici dall'estero", p: "Le stesse credenziali funzionano da qualsiasi paese con una connessione internet. È un uso molto frequente tra britannici residenti in Spagna, Francia o Portogallo, che vogliono seguire la Premier League e i canali di casa senza dipendere da quale operatore locale abbia acquistato i diritti quella stagione. Non serve cambiare piano né pagare un supplemento per guardarlo fuori dal Regno Unito." },
+    { h: "Cambiare fornitore senza restare senza calcio", p: "L'ordine conta, perché i contratti britannici prevedono di norma un periodo minimo e un preavviso di trenta giorni. Attiva prima la prova gratuita di 24 ore e verificala durante una giornata di Premier League, non un martedì mattina. Se convince, acquista un mese e convivi qualche settimana con il servizio attuale. Solo allora invia la disdetta, rispettando il preavviso e restituendo l'apparecchio entro i termini per evitare addebiti." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese. Tutti e quattro i piani includono lo stesso catalogo di 66.000+ canali, 4.200 sportivi, 70.000 film e 18.000 serie in 4K/8K, con assistenza 24/7. Senza vincoli e senza rinnovo automatico: l'accesso scade da solo. Garanzia di rimborso di 7 giorni dall'acquisto." },
+  ],
+  faq: [
+    { q: "Posso guardare la Premier League?", a: "Sì. I 4.200 canali sportivi coprono Premier League, EFL Championship, FA Cup e competizioni europee per club, inclusi in qualsiasi piano senza costi aggiuntivi." },
+    { q: "Mi serve la TV Licence?", a: "La TV Licence è un obbligo di legge indipendente dal fornitore e si applica alla visione o registrazione di televisione in diretta con qualsiasi mezzo. Cambiare servizio non modifica quell'obbligo." },
+    { q: "Quanto risparmio rispetto al mio fornitore attuale?", a: "Una famiglia con calcio completo e cinema paga diverse decine di sterline al mese sommando pacchetto, supplemento sportivo e noleggio. Il piano annuale costa 60 €, cioè 5 €/mese." },
+    { q: "Posso guardare canali britannici dall'Italia?", a: "Sì. Le stesse credenziali funzionano da qualsiasi paese con una connessione, senza cambiare piano né pagare un supplemento." },
+    { q: "Quale connessione mi serve?", a: "10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul televisore. Se la linea è al limite, collega via Ethernet prima di modificare qualsiasi impostazione." },
+  ],
+  cta: "Inizia nel Regno Unito",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
