@@ -4976,6 +4976,91 @@ content["iptv-deutschland"].it = {
   cta: "Inizia in Germania",
 };
 
+// --- cross-locale for the two new market pages ------------------------------
+content["iptv-espana"].it = {
+  metaTitle: "IPTV Spagna — 66.000 canali, LaLiga e 4K da 5 €/mese",
+  metaDesc:
+    "IPTV in Spagna con 66.000+ canali: LaLiga, Champions, canali spagnoli e 70.000 film in 4K. Attivazione in 5 minuti, prova gratuita di 24 ore.",
+  eyebrow: "IPTV Spagna · Da 5 €/mese",
+  h1: "IPTV in Spagna",
+  h1Accent: "canali e calcio in 4K",
+  intro:
+    "Canali spagnoli, LaLiga e competizioni europee, più 70.000 film e 18.000 serie in 4K, su un unico accesso. Senza vincoli, senza installatore e senza decoder: attivo su WhatsApp in meno di cinque minuti da 5 €/mese.",
+  features: [
+    { h: "Canali spagnoli", p: "Generalisti, regionali, informazione, bambini e tematici." },
+    { h: "LaLiga e Champions", p: "4.200 canali sportivi con calcio nazionale ed europeo." },
+    { h: "Senza vincoli", p: "Nessun contratto da 12 o 24 mesi né preavviso da ricordare." },
+    { h: "Attivo in 5 minuti", p: "Credenziali su WhatsApp, sull'apparecchio che già possiedi." },
+  ],
+  cover: "/blog/iptv-espana-main-en.jpg",
+  image: {
+    src: "/blog/iptv-espana-body-en.jpg",
+    alt: "Cosa copre l'IPTV in Spagna: canali generalisti e regionali, 4.200 canali sportivi con LaLiga e Champions, e 70.000 film in 4K/8K.",
+    caption: "Canali spagnoli, sport e videoteca in un solo accesso.",
+  },
+  sections: [
+    { h: "Cosa copre l'IPTV in Spagna", p: "Un abbonamento ATV Corner riunisce in un unico elenco ciò che sul mercato spagnolo è normalmente diviso tra più contratti. Ci sono i canali generalisti in chiaro, le emittenti regionali delle comunità autonome, l'informazione ventiquattr'ore, i canali per bambini e un'ampia offerta tematica di documentari, cinema e serie. A questi si aggiungono oltre 66.000 canali internazionali, così puoi seguire la televisione di altri paesi sullo stesso accesso." },
+    { h: "Calcio: LaLiga e competizioni europee", p: "Il calcio è il motivo per cui la maggior parte delle famiglie spagnole paga la televisione, ed è anche ciò che fa lievitare la bolletta, perché i diritti sono ripartiti e le opzioni sportive vengono fatturate a parte rispetto al pacchetto base. I nostri 4.200 canali sportivi comprendono LaLiga, la Champions League, l'Europa League, la Copa del Rey e i maggiori campionati europei, con Premier League, Serie A, Bundesliga e Ligue 1. Lo sport è incluso in ogni piano." },
+    { h: "Quanto paghi oggi e quanto pagheresti", p: "Sul mercato spagnolo, un pacchetto che unisca calcio e cinema si colloca abitualmente su diverse decine di euro al mese, a cui si aggiunge di norma il noleggio del decoder e, spesso, una tariffa promozionale che sale automaticamente dopo il primo anno. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso e nessun apparecchio da noleggiare. Il confronto onesto non è con l'offerta d'ingresso ma con la bolletta del tredicesimo mese." },
+    { h: "Oltre la penisola: isole ed espatriati", p: "L'IPTV arriva via internet, quindi non dipende dalla copertura di un'antenna né dalla posa della fibra di un operatore specifico nella tua zona. Questo è particolarmente utile fuori dalla penisola, dove l'offerta commerciale è più limitata, e per gli spagnoli che vivono all'estero: con le stesse credenziali puoi guardare i canali spagnoli da qualsiasi paese, senza cambiare abbonamento e senza dipendere da quale operatore locale abbia accordi con le emittenti." },
+    { h: "Quale connessione serve in Spagna", p: "La regola pratica è 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul dispositivo su cui guarderai e non sul router. La copertura in fibra spagnola è tra le migliori d'Europa, quindi la maggior parte delle famiglie soddisfa ampiamente quel requisito; il problema, quando compare, non è quasi mai la velocità contrattuale ma il Wi-Fi. Se il televisore è lontano dal router, un cavo Ethernet risolve più di qualsiasi impostazione dell'app." },
+    { h: "Su quali dispositivi funziona", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2 e computer con Windows, macOS o Linux. Le app consigliate sono TiviMate per l'interfaccia da televisore, IPTV Smarters Pro per la semplicità, IBO Player e VLC per un uso occasionale. Le tue credenziali non sono legate a un apparecchio, quindi puoi iniziare una partita in salotto e finirla sul telefono." },
+    { h: "Lasciare l'operatore senza restare senza TV", p: "L'ordine conta, perché i contratti spagnoli prevedono di norma un preavviso e talvolta un vincolo ancora attivo. Attiva prima la prova gratuita di 24 ore e verificala in orario di punta o durante una partita. Se convince, acquista un mese di IPTV e convivi qualche settimana con entrambi i servizi. Solo allora invia la disdetta, controllando prima le condizioni del contratto per non pagare penali." },
+    { h: "Come verificarlo prima di pagare", p: "Richiedi la prova gratuita di 24 ore, che non necessita di carta di credito, e attivala deliberatamente quando guardi davvero la televisione: all'ora della partita, non un martedì mattina. Verifica che i tuoi canali abituali siano presenti e funzionanti, che la guida ai programmi sia popolata su più giorni e che l'immagine regga dieci minuti consecutivi di calcio. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici. Tutti e quattro i piani includono esattamente lo stesso catalogo di 66.000+ canali, la stessa qualità 4K/8K e la stessa assistenza 24/7; l'unica cosa che cambia è il costo mensile. Non c'è rinnovo automatico, quindi l'accesso scade da solo e sei tu a decidere se tornare. La valutazione media del servizio è di 4,9/5 su oltre 2.800 recensioni, con 12.000 abbonati." },
+  ],
+  faq: [
+    { q: "L'IPTV funziona in Spagna?", a: "Sì. Arriva tramite la tua connessione internet, quindi funziona in tutta la Spagna, Canarie e Baleari comprese, senza antenna né decoder. Bastano 10 Mbps stabili per l'HD e 25 Mbps per il 4K." },
+    { q: "Posso guardare LaLiga e la Champions League?", a: "Sì. I 4.200 canali sportivi comprendono LaLiga, Champions, Europa League, Copa del Rey e i grandi campionati europei, senza costi aggiuntivi sul piano scelto." },
+    { q: "Quanto costa l'IPTV in Spagna?", a: "Da 15 € per un mese a 60 € per dodici, cioè 5 €/mese sul piano annuale. Lo sport è incluso, non fatturato a parte come accade nei pacchetti tradizionali." },
+    { q: "Posso guardare canali spagnoli dall'estero?", a: "Sì. Le stesse credenziali funzionano da qualsiasi paese con una connessione internet, senza cambiare abbonamento né dipendere dall'operatore locale." },
+    { q: "Ci sono vincoli o penali di disdetta?", a: "No. Nessun vincolo e nessun rinnovo automatico: l'accesso scade da solo. I primi sette giorni sono coperti da una garanzia di rimborso integrale." },
+  ],
+  cta: "Inizia in Spagna",
+};
+
+content["iptv-italia"].es = {
+  metaTitle: "IPTV Italia — 66.000 canales, Serie A y 4K desde 5 €/mes",
+  metaDesc:
+    "IPTV en Italia con 66.000+ canales: Serie A, Champions, canales italianos y 70.000 películas en 4K. Activación en 5 minutos, prueba gratis de 24 h.",
+  eyebrow: "IPTV Italia · Desde 5 €/mes",
+  h1: "IPTV en Italia",
+  h1Accent: "canales y fútbol en 4K",
+  intro:
+    "Canales italianos, la Serie A y las competiciones europeas, más 70.000 películas y 18.000 series en 4K, en un solo acceso. Sin permanencia, sin instalador y sin descodificador: activado por WhatsApp en menos de cinco minutos desde 5 €/mes.",
+  features: [
+    { h: "Canales italianos", p: "Generalistas, informativos, infantiles, deporte y temáticos." },
+    { h: "Serie A y Champions", p: "4.200 canales deportivos con fútbol nacional y europeo." },
+    { h: "Sin permanencia", p: "Ningún contrato de 12 o 24 meses ni preaviso que recordar." },
+    { h: "Activo en 5 minutos", p: "Credenciales por WhatsApp, sobre el equipo que ya tienes." },
+  ],
+  cover: "/blog/iptv-italia-main-en.jpg",
+  image: {
+    src: "/blog/iptv-italia-body-en.jpg",
+    alt: "Lo que cubre el IPTV en Italia: canales generalistas y temáticos, 4.200 canales deportivos con Serie A y Champions, y 70.000 películas en 4K/8K.",
+    caption: "Canales italianos, deporte y videoteca en un mismo acceso.",
+  },
+  sections: [
+    { h: "Qué cubre el IPTV en Italia", p: "Una suscripción de ATV Corner reúne en una sola lista lo que en el mercado italiano suele estar repartido entre varios contratos. Están los canales generalistas en abierto, los informativos de veinticuatro horas, los infantiles y una amplia oferta temática de documentales, cine y series. A eso se suman más de 66.000 canales internacionales, así que puedes seguir televisión de otros países en el mismo acceso, un terreno que ningún operador nacional cubre bien." },
+    { h: "Fútbol: Serie A y competiciones europeas", p: "El fútbol es el motivo por el que la mayoría de los hogares italianos paga televisión, y también el que más encarece la factura, porque los derechos están repartidos entre operadores distintos y seguir un campeonato completo suele exigir dos suscripciones. Nuestros 4.200 canales deportivos incluyen la Serie A, la Champions League, la Europa League, la Coppa Italia y las grandes ligas europeas, con Premier League, LaLiga, Bundesliga y Ligue 1." },
+    { h: "Lo que pagas hoy y lo que pasarías a pagar", p: "En el mercado italiano, seguir el fútbol al completo y tener además cine y series suele implicar sumar varias suscripciones, con un total que se sitúa en varias decenas de euros al mes, a menudo con el alquiler del descodificador añadido y una tarifa promocional que sube tras el primer año. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido y sin equipo que alquilar." },
+    { h: "Donde la televisión tradicional llega mal", p: "El IPTV viaja por internet, así que no depende de la orientación de una parabólica ni de la cobertura de la televisión digital terrestre en tu zona. Eso importa sobre todo en zonas de montaña y en núcleos pequeños, donde la recepción terrestre ha sido históricamente más irregular, y para los italianos que viven en el extranjero: con las mismas credenciales puedes ver canales italianos desde cualquier país, sin depender de los acuerdos de un operador local." },
+    { h: "Qué conexión necesitas en Italia", p: "La regla práctica son 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el aparato donde vas a ver y no en el router. La cobertura de fibra italiana ha crecido mucho en los últimos años, pero sigue siendo desigual, así que conviene medir antes de contratar. Cuando aparecen problemas, la causa casi siempre es el Wi-Fi y no la velocidad contratada: si el televisor está lejos del router, un cable Ethernet resuelve más que cualquier ajuste." },
+    { h: "En qué dispositivos funciona", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2 y ordenadores con Windows, macOS o Linux. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IPTV Smarters Pro por su sencillez de configuración, IBO Player y VLC para uso puntual. Las credenciales no están atadas a un aparato, así que puedes empezar un partido en el salón y terminarlo en el móvil." },
+    { h: "Dejar el operador sin quedarte sin televisión", p: "El orden importa, porque los contratos italianos suelen incluir un preaviso y a veces una permanencia todavía activa. Activa primero la prueba gratuita de 24 horas y compruébala en horario punta o durante un partido. Si convence, contrata un mes de IPTV y convive unas semanas con los dos servicios. Solo entonces cursa la baja, revisando antes las condiciones del contrato para evitar penalizaciones." },
+    { h: "Cómo verificarlo antes de pagar", p: "Pide la prueba gratuita de 24 horas, que no requiere tarjeta de crédito, y actívala deliberadamente cuando de verdad ves la televisión: a la hora del partido, no un martes por la mañana. Comprueba que tus canales habituales estén presentes y funcionen, que la guía de programación esté rellenada varios días y que la imagen aguante diez minutos seguidos de fútbol. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce. Los cuatro planes incluyen exactamente el mismo catálogo de 66.000+ canales, la misma calidad 4K/8K y el mismo soporte 24/7; lo único que cambia es el coste mensual. No hay renovación automática, así que el acceso caduca solo y decides tú si vuelves. La valoración media del servicio es de 4,9/5 sobre más de 2.800 reseñas, con 12.000 suscriptores." },
+  ],
+  faq: [
+    { q: "¿Funciona el IPTV en Italia?", a: "Sí. Llega por tu conexión a internet, así que funciona en toda Italia sin parabólica ni descodificador, incluidas las zonas donde la TDT se recibe mal. Bastan 10 Mbps estables para HD y 25 Mbps para 4K." },
+    { q: "¿Puedo ver la Serie A y la Champions League?", a: "Sí. Los 4.200 canales deportivos incluyen Serie A, Champions League, Europa League, Coppa Italia y las grandes ligas europeas, sin coste adicional sobre el plan que elijas." },
+    { q: "¿Cuánto cuesta el IPTV en Italia?", a: "De 15 € por un mes a 60 € por doce, es decir 5 €/mes en el plan anual. El deporte está incluido en lugar de facturado aparte, como suele ocurrir." },
+    { q: "¿Puedo ver canales italianos desde el extranjero?", a: "Sí. Las mismas credenciales funcionan desde cualquier país con conexión a internet, sin cambiar de suscripción ni depender de un operador local." },
+    { q: "¿Hay permanencia o penalización por baja?", a: "No. Sin permanencia y sin renovación automática: el acceso caduca solo. Los siete primeros días están cubiertos por una garantía de devolución íntegra." },
+  ],
+  cta: "Empezar en Italia",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
