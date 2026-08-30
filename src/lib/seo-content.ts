@@ -3696,6 +3696,79 @@ content["iptv-premium"].it = {
   cta: "Inizia con IPTV premium",
 };
 
+// --- es/it for /m3u-playlist ------------------------------------------------
+content["m3u-playlist"].es = {
+  metaTitle: "Lista M3U IPTV — enlace estable, 66.000 canales, 5 minutos",
+  metaDesc:
+    "Lista M3U IPTV lista para usar: un enlace, 66.000+ canales con guía EPG, compatible con VLC, TiviMate, Kodi y Smarters. Desde 5 €/mes con prueba gratis.",
+  eyebrow: "Lista M3U · Enlace único",
+  h1: "Lista M3U",
+  h1Accent: "estable y completa",
+  intro:
+    "Un único enlace M3U que abre 66.000+ canales con guía de programación, compatible con VLC, TiviMate, Kodi, IPTV Smarters y prácticamente cualquier reproductor. Entregado por WhatsApp en menos de cinco minutos.",
+  features: [
+    { h: "Un solo enlace", p: "Nada que descargar ni actualizar a mano: la URL se refresca sola." },
+    { h: "Compatible con todo", p: "VLC, TiviMate, Kodi, IPTV Smarters, IBO Player, Enigma2 y MAG." },
+    { h: "Con guía EPG", p: "Programación de varios días asociada al canal correcto." },
+    { h: "66.000+ canales", p: "Más 70.000 películas y 18.000 series en la misma lista." },
+  ],
+  sections: [
+    { h: "Qué es exactamente una lista M3U", p: "Un archivo M3U es, en su origen, una simple lista de reproducción de texto: una sucesión de entradas donde cada una asocia un nombre a una dirección de flujo. Aplicado al IPTV, cada línea corresponde a un canal y apunta al servidor que lo emite. La ventaja de este formato es su universalidad: existe desde hace décadas y prácticamente cualquier reproductor sabe leerlo, desde VLC en un ordenador hasta las aplicaciones dedicadas de televisión." },
+    { h: "Enlace remoto frente a archivo descargado", p: "Puedes encontrar listas M3U en dos formas: un archivo que descargas o una URL remota. Nosotros entregamos siempre una URL, y la diferencia es importante. Un archivo descargado queda congelado en el momento de la descarga: cuando se añaden canales o cambian direcciones de servidor, tu copia queda obsoleta y hay que rehacerla a mano. Una URL remota se consulta cada vez que abres la aplicación, así que las actualizaciones del catálogo llegan solas sin que tengas que tocar nada." },
+    { h: "Cómo instalarla", p: "El procedimiento es idéntico en casi todas las aplicaciones. Abre tu reproductor, busca la opción de añadir una lista o playlist, elige el tipo M3U o «lista remota» y pega la URL que te enviamos por WhatsApp. La aplicación descarga entonces el índice completo, lo que tarda entre unos segundos y un par de minutos la primera vez según el tamaño del catálogo. A partir de ahí los canales aparecen organizados por categorías y ya puedes empezar a ver." },
+    { h: "La guía de programación", p: "Una lista M3U desnuda es solo una sucesión de canales sin información sobre qué se emite. La guía EPG se añade como una segunda URL, normalmente en formato XMLTV, que la aplicación cruza con la lista para asociar cada programa a su canal. Nosotros entregamos ambas juntas. Si tu aplicación pide una «URL EPG» separada, es esa segunda dirección la que hay que pegar; si la guía aparece vacía, casi siempre es porque ese campo se ha quedado sin rellenar." },
+    { h: "Elegir el reproductor adecuado", p: "VLC es la opción más rápida para una comprobación puntual en ordenador, pero su interfaz no está pensada para el uso diario en televisión. TiviMate ofrece la mejor experiencia en Android TV y Fire TV, con una guía tipo mosaico y gestión de favoritos. IPTV Smarters Pro es la más sencilla de configurar y existe en casi todas las plataformas. Kodi es la más flexible pero requiere configurar el complemento PVR Simple Client, lo que la hace menos inmediata." },
+    { h: "M3U o Xtream Codes", p: "Ambos formatos dan acceso exactamente al mismo contenido, así que la elección es puramente técnica. El M3U carga toda la lista de una vez, lo que resulta simple y universal pero puede tardar en un catálogo de decenas de miles de entradas. Xtream Codes carga los canales, la guía y la videoteca de forma dinámica, solo cuando hacen falta, lo que acelera notablemente la apertura y el cambio de canal. Si tu aplicación admite ambos, Xtream Codes suele ser mejor elección; el M3U sigue siendo imbatible en compatibilidad." },
+    { h: "Problemas frecuentes", p: "Si la lista no carga, comprueba primero que has pegado la URL completa, incluida la parte final: los gestores de portapapeles cortan a veces las direcciones largas. Si carga pero muchos canales fallan, suele ser un problema de red y no de la lista. Si los canales van bien pero la guía está vacía, falta la URL EPG. Y si la lista funcionaba y deja de hacerlo, verifica que tu suscripción sigue activa antes de rehacer la configuración." },
+    { h: "Seguridad y buenas prácticas", p: "Tu URL M3U contiene tus credenciales de acceso: trátala como una contraseña. No la publiques en foros ni la compartas en redes sociales, porque cualquiera que la tenga puede consumir tus conexiones simultáneas y degradar tu propia experiencia. Si sospechas que se ha filtrado, escríbenos y te generamos una nueva. Conviene también no acumular la misma lista en cinco aplicaciones distintas que se conecten a la vez sin que lo sepas." },
+    { h: "Probarla antes de comprar", p: "La prueba gratuita de 24 horas entrega una URL M3U completa, sin tarjeta de crédito. Es la forma más directa de verificar que tu reproductor la lee correctamente, que tus canales están presentes y que la guía se rellena. Actívala en horario punta para que la prueba sea significativa. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Qué es una lista M3U IPTV?", a: "Una lista de reproducción donde cada línea asocia un canal a la dirección del servidor que lo emite. Nosotros la entregamos como URL remota, que se actualiza sola cuando cambia el catálogo." },
+    { q: "¿En qué aplicaciones funciona?", a: "En VLC, TiviMate, Kodi, IPTV Smarters Pro, IBO Player, receptores Enigma2 y MAG Box. El M3U es el formato más universal que existe." },
+    { q: "¿Por qué está vacía la guía de programación?", a: "Porque falta la URL EPG. Se añade aparte de la lista, en el campo «URL EPG» o «guía» de la aplicación. Te enviamos ambas direcciones juntas." },
+    { q: "¿Es mejor M3U o Xtream Codes?", a: "Dan el mismo contenido. Xtream Codes carga los canales de forma dinámica y es más rápido con catálogos grandes; el M3U gana en compatibilidad universal." },
+    { q: "¿Puedo compartir mi enlace M3U?", a: "No conviene: contiene tus credenciales y quien lo tenga consume tus conexiones simultáneas. Si crees que se ha filtrado, escríbenos y generamos uno nuevo." },
+  ],
+  cta: "Recibir mi lista M3U",
+};
+
+content["m3u-playlist"].it = {
+  metaTitle: "Playlist M3U IPTV — link stabile, 66.000 canali, 5 minuti",
+  metaDesc:
+    "Playlist M3U IPTV pronta all'uso: un link, 66.000+ canali con guida EPG, compatibile con VLC, TiviMate, Kodi e Smarters. Da 5 €/mese con prova gratuita.",
+  eyebrow: "Playlist M3U · Link unico",
+  h1: "Playlist M3U",
+  h1Accent: "stabile e completa",
+  intro:
+    "Un unico link M3U che apre 66.000+ canali con guida ai programmi, compatibile con VLC, TiviMate, Kodi, IPTV Smarters e praticamente qualsiasi lettore. Consegnato su WhatsApp in meno di cinque minuti.",
+  features: [
+    { h: "Un solo link", p: "Niente da scaricare o aggiornare a mano: l'URL si rinfresca da sé." },
+    { h: "Compatibile con tutto", p: "VLC, TiviMate, Kodi, IPTV Smarters, IBO Player, Enigma2 e MAG." },
+    { h: "Con guida EPG", p: "Programmazione su più giorni associata al canale corretto." },
+    { h: "66.000+ canali", p: "Più 70.000 film e 18.000 serie nella stessa playlist." },
+  ],
+  sections: [
+    { h: "Che cos'è esattamente una playlist M3U", p: "Un file M3U è, all'origine, una semplice playlist di testo: una successione di voci in cui ciascuna associa un nome a un indirizzo di flusso. Applicato all'IPTV, ogni riga corrisponde a un canale e punta al server che lo trasmette. Il vantaggio di questo formato è la sua universalità: esiste da decenni e praticamente qualsiasi lettore sa leggerlo, da VLC su computer alle app dedicate per televisore." },
+    { h: "Link remoto contro file scaricato", p: "Puoi trovare playlist M3U in due forme: un file da scaricare o un URL remoto. Noi consegniamo sempre un URL, e la differenza è importante. Un file scaricato resta congelato al momento del download: quando vengono aggiunti canali o cambiano gli indirizzi dei server, la tua copia diventa obsoleta e va rifatta a mano. Un URL remoto viene consultato ogni volta che apri l'app, quindi gli aggiornamenti del catalogo arrivano da soli senza che tu debba toccare nulla." },
+    { h: "Come installarla", p: "La procedura è identica in quasi tutte le app. Apri il lettore, cerca l'opzione per aggiungere una playlist, scegli il tipo M3U o «playlist remota» e incolla l'URL che ti inviamo su WhatsApp. L'app scarica quindi l'indice completo, operazione che richiede da pochi secondi a un paio di minuti la prima volta a seconda della dimensione del catalogo. Da lì in poi i canali compaiono organizzati per categorie e puoi iniziare a guardare." },
+    { h: "La guida ai programmi", p: "Una playlist M3U nuda è solo una successione di canali senza informazioni su cosa vada in onda. La guida EPG si aggiunge come secondo URL, di norma in formato XMLTV, che l'app incrocia con la playlist per associare ogni programma al suo canale. Noi consegniamo entrambi insieme. Se la tua app chiede un «URL EPG» separato, è quel secondo indirizzo da incollare; se la guida risulta vuota, quasi sempre è perché quel campo è rimasto senza valore." },
+    { h: "Scegliere il lettore giusto", p: "VLC è l'opzione più rapida per una verifica occasionale su computer, ma la sua interfaccia non è pensata per l'uso quotidiano sul televisore. TiviMate offre la migliore esperienza su Android TV e Fire TV, con una guida a griglia e la gestione dei preferiti. IPTV Smarters Pro è la più semplice da configurare ed esiste su quasi tutte le piattaforme. Kodi è la più flessibile ma richiede di configurare il componente PVR Simple Client, il che la rende meno immediata." },
+    { h: "M3U o Xtream Codes", p: "Entrambi i formati danno accesso esattamente allo stesso contenuto, quindi la scelta è puramente tecnica. L'M3U carica l'intera playlist in una volta, il che è semplice e universale ma può risultare lento con un catalogo di decine di migliaia di voci. Xtream Codes carica canali, guida e videoteca in modo dinamico, solo quando servono, il che accelera notevolmente l'apertura e il cambio canale. Se la tua app supporta entrambi, Xtream Codes è di solito la scelta migliore; l'M3U resta imbattibile per compatibilità." },
+    { h: "Problemi frequenti", p: "Se la playlist non si carica, verifica prima di aver incollato l'URL completo, parte finale inclusa: i gestori degli appunti a volte troncano gli indirizzi lunghi. Se si carica ma molti canali non partono, di solito è un problema di rete e non della playlist. Se i canali funzionano ma la guida è vuota, manca l'URL EPG. E se la playlist funzionava e smette di farlo, controlla che il tuo abbonamento sia ancora attivo prima di rifare la configurazione." },
+    { h: "Sicurezza e buone pratiche", p: "Il tuo URL M3U contiene le credenziali di accesso: trattalo come una password. Non pubblicarlo su forum né condividerlo sui social, perché chiunque lo possieda può consumare le tue connessioni simultanee e peggiorare la tua stessa esperienza. Se sospetti che sia trapelato, scrivici e te ne generiamo uno nuovo. Conviene inoltre non accumulare la stessa playlist su cinque app diverse che si collegano contemporaneamente a tua insaputa." },
+    { h: "Provarla prima di comprare", p: "La prova gratuita di 24 ore fornisce un URL M3U completo, senza carta di credito. È il modo più diretto per verificare che il tuo lettore lo legga correttamente, che i tuoi canali siano presenti e che la guida si popoli. Attivala in orario di punta perché la prova sia significativa. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+  ],
+  faq: [
+    { q: "Che cos'è una playlist M3U IPTV?", a: "Una playlist in cui ogni riga associa un canale all'indirizzo del server che lo trasmette. Noi la consegniamo come URL remoto, che si aggiorna da sé quando cambia il catalogo." },
+    { q: "Su quali app funziona?", a: "Su VLC, TiviMate, Kodi, IPTV Smarters Pro, IBO Player, ricevitori Enigma2 e MAG Box. L'M3U è il formato più universale che esista." },
+    { q: "Perché la guida ai programmi è vuota?", a: "Perché manca l'URL EPG. Si aggiunge separatamente dalla playlist, nel campo «URL EPG» o «guida» dell'app. Ti inviamo entrambi gli indirizzi insieme." },
+    { q: "Meglio M3U o Xtream Codes?", a: "Danno lo stesso contenuto. Xtream Codes carica i canali in modo dinamico ed è più rapido con cataloghi grandi; l'M3U vince sulla compatibilità universale." },
+    { q: "Posso condividere il mio link M3U?", a: "Meglio di no: contiene le tue credenziali e chi lo possiede consuma le tue connessioni simultanee. Se pensi che sia trapelato, scrivici e ne generiamo uno nuovo." },
+  ],
+  cta: "Ricevi la mia playlist M3U",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
