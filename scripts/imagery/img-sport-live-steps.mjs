@@ -11,5 +11,15 @@ await make({
       lines: ["1  Single subs — $45–110, per league", "2  Sport packages — never complete", "3  IPTV — 4,200 channels, from $5"] },
     fr: { title: "Trois voies vers le même match", cardTitle: "Couverture et prix mensuel",
       lines: ["1  Abos séparés — 40–100 €, par ligue", "2  Bouquets sport — jamais complets", "3  IPTV — 4 200 chaînes, dès 5 €"] },
+    es: {
+      title: "Tres vías hacia el mismo partido",
+      cardTitle: "Cobertura frente a coste mensual",
+      lines: ["1  Abonos sueltos — 40-80 €, por liga", "2  Paquetes deporte — nunca completos", "3  IPTV — 4.200 canales, desde 5 €"],
+    },
+    it: {
+      title: "Tre vie verso la stessa partita",
+      cardTitle: "Copertura contro costo mensile",
+      lines: ["1  Abbonamenti singoli — 40-80 €, per lega", "2  Pacchetti sport — mai completi", "3  IPTV — 4.200 canali, da 5 €"],
+    },
   },
 });
