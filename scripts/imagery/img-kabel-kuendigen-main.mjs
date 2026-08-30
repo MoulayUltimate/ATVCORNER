@@ -2,14 +2,14 @@
  * MAIN / cover for "Kabel kündigen & zu IPTV wechseln".
  * Base: Unsplash PR-YSolYqUI (satellite dish on a tiled roof, wide open sky).
  * Dish sits at ~x 460, y 280 in 600-space — the thing you get to leave behind.
- *   node scripts/imagery/img-kabel-kuendigen-main.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-kabel-kuendigen-main.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, leader, marker, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -29,6 +29,18 @@ const STR = {
     pill: "Peut disparaître",
     cardTitle: "40–100 €/mois → dès 5 €/mois",
     lines: ["Testez l'IPTV en parallèle, puis résiliez —", "aucune coupure entre les deux."],
+  },
+  es: {
+    title: "Deja el cable sin perder un día de TV",
+    pill: "Esto puede irse",
+    cardTitle: "40-80 €/mes → desde 5 €/mes",
+    lines: ["Prueba el IPTV en paralelo y después cancela —", "así no se abre ningún hueco."],
+  },
+  it: {
+    title: "Lascia il cavo senza perdere un giorno di TV",
+    pill: "Questo può sparire",
+    cardTitle: "40-80 €/mese → da 5 €/mese",
+    lines: ["Prova l'IPTV in parallelo e poi disdici —", "così non si apre alcun vuoto."],
   },
 }[locale];
 
