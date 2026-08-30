@@ -15,6 +15,8 @@ export function TeamPage({ lang, team }: { lang: Locale; team: TeamData }) {
     fr: { whyFollow: "Pourquoi suivre", whereToWatch: "Où regarder", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils", founded: "Fondé", stadium: "Stade", competitions: "Compétitions" },
     en: { whyFollow: "Why follow", whereToWatch: "Where to watch", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools", founded: "Founded", stadium: "Stadium", competitions: "Competitions" },
     de: { whyFollow: "Warum verfolgen", whereToWatch: "Wo schauen", faq: "Häufige Fragen", cta: "Abo aktivieren", crumb: "Tools", founded: "Gegründet", stadium: "Stadion", competitions: "Wettbewerbe" },
+    es: { whyFollow: "Por qué seguirlo", whereToWatch: "Dónde verlo", faq: "Preguntas frecuentes", cta: "Activar la suscripción", crumb: "Herramientas", founded: "Fundado", stadium: "Estadio", competitions: "Competiciones" },
+    it: { whyFollow: "Perché seguirla", whereToWatch: "Dove guardarla", faq: "Domande frequenti", cta: "Attiva l'abbonamento", crumb: "Strumenti", founded: "Fondata", stadium: "Stadio", competitions: "Competizioni" },
   }, lang);
 
   return (

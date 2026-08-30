@@ -26,6 +26,16 @@ const meta = {
     description:
       "Experten-IPTV-Guides: M3U, Xtream Codes, 4K/8K, Premium-OTT, TiviMate, Smart STB. Tutorials und Vergleiche für das Beste aus Ihrem Abo.",
   },
+  es: {
+    title: "Blog IPTV — guías, comparativas y tutoriales",
+    description:
+      "Guías expertas de IPTV: M3U, Xtream Codes, 4K/8K, OTT premium, TiviMate y Smart STB. Tutoriales y comparativas para sacar el máximo a tu suscripción.",
+  },
+  it: {
+    title: "Blog IPTV — guide, confronti e tutorial",
+    description:
+      "Guide esperte sull'IPTV: M3U, Xtream Codes, 4K/8K, OTT premium, TiviMate e Smart STB. Tutorial e confronti per sfruttare al massimo il tuo abbonamento.",
+  },
 };
 
 export async function generateMetadata({

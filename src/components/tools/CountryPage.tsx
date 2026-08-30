@@ -15,6 +15,8 @@ export function CountryPage({ lang, country }: { lang: Locale; country: CountryD
     fr: { leagues: "Championnats les plus populaires", teams: "Équipes locales", devices: "Appareils compatibles", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils" },
     en: { leagues: "Most popular leagues", teams: "Local teams", devices: "Supported devices", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools" },
     de: { leagues: "Beliebteste Ligen", teams: "Lokale Vereine", devices: "Unterstützte Geräte", faq: "Häufige Fragen", cta: "Abo aktivieren", crumb: "Tools" },
+    es: { leagues: "Ligas más populares", teams: "Equipos locales", devices: "Dispositivos compatibles", faq: "Preguntas frecuentes", cta: "Activar la suscripción", crumb: "Herramientas" },
+    it: { leagues: "Campionati più seguiti", teams: "Squadre locali", devices: "Dispositivi compatibili", faq: "Domande frequenti", cta: "Attiva l'abbonamento", crumb: "Strumenti" },
   }, lang);
 
   return (

@@ -33,6 +33,20 @@ const LABELS: Partial<Record<Locale, LabelMap>> = {
     faqExtra: "Weitere Fragen",
     th: { provider: "Sender", coverage: "Abdeckung", price: "Preis", note: "Besonderheit" },
   },
+  es: {
+    related: "Páginas relacionadas",
+    broadcasters: "Emisoras y alternativas",
+    byDevice: "Por dispositivo",
+    faqExtra: "Más preguntas",
+    th: { provider: "Emisora", coverage: "Cobertura", price: "Precio", note: "Particularidad" },
+  },
+  it: {
+    related: "Pagine correlate",
+    broadcasters: "Emittenti e alternative",
+    byDevice: "Per dispositivo",
+    faqExtra: "Altre domande",
+    th: { provider: "Emittente", coverage: "Copertura", price: "Prezzo", note: "Particolarità" },
+  },
 };
 
 export function SeoSections({

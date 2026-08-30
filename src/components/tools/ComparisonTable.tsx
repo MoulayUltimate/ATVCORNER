@@ -50,6 +50,36 @@ const COPY = {
       { q: "Was ist der Unterschied zwischen IPTV und Premium-OTT?", a: "Premium-OTT meint Dienste wie Netflix/DAZN mit offiziellen Apps. IPTV ist das Streaming-Protokoll, das mehrere Quellen bündeln kann. ATV Corner kombiniert beides: OTT-Qualität plus IPTV-Abdeckung." },
     ],
   },
+  es: {
+    h1: "Mejor servicio de fútbol en streaming en Europa — comparativa 2026",
+    intro: "ATV Corner frente a DAZN, Sky Sports, beIN, Canal+ y Movistar+. Comparativa honesta de precio, ligas, calidad de imagen, dispositivos y disponibilidad por país.",
+    cols: { name: "Servicio", price: "Precio/mes", leagues: "Ligas", quality: "Calidad", devices: "Dispositivos", countries: "Países", support: "Soporte" },
+    intent: "Por qué gana ATV Corner",
+    intentBody: "Una sola suscripción de 15 € para TODAS las ligas europeas: LaLiga, Premier League, Champions League, Serie A, Bundesliga, Ligue 1 y Europa League. Ningún competidor ofrece el mismo paquete por debajo de 70 €/mes.",
+    cta: "Activar ATV Corner",
+    faq: "Preguntas frecuentes",
+    faqItems: [
+      { q: "¿Es ATV Corner realmente más barato que DAZN?", a: "Sí: 15 €/mes frente a 35 € de DAZN, con seis veces más cobertura de ligas. Comparación de mayo de 2026, verificable en las webs de cada proveedor." },
+      { q: "¿Qué competidor ofrece más ligas?", a: "Con más de 50 ligas internacionales, ATV Corner es el más amplio. DAZN ronda las 8, Sky las 6 y beIN las 10. Ningún otro supera las 15 ligas deportivas." },
+      { q: "¿Son todos los competidores accesibles en toda Europa?", a: "No. Movistar+: solo España. Canal+ Sport: Francia, Bélgica y Suiza. Sky Sports: Reino Unido, Alemania e Italia. ATV Corner: toda Europa." },
+      { q: "¿Cuál es la diferencia entre IPTV y OTT premium?", a: "OTT premium designa servicios como Netflix o DAZN con aplicaciones oficiales. El IPTV es el protocolo de streaming que puede agrupar varias fuentes. ATV Corner combina ambas cosas: calidad OTT y cobertura IPTV." },
+    ],
+  },
+  it: {
+    h1: "Miglior servizio di calcio in streaming in Europa — confronto 2026",
+    intro: "ATV Corner contro DAZN, Sky Sports, beIN, Canal+ e Movistar+. Confronto onesto su prezzo, campionati, qualità dell'immagine, dispositivi e disponibilità per paese.",
+    cols: { name: "Servizio", price: "Prezzo/mese", leagues: "Campionati", quality: "Qualità", devices: "Dispositivi", countries: "Paesi", support: "Assistenza" },
+    intent: "Perché vince ATV Corner",
+    intentBody: "Un unico abbonamento da 15 € per TUTTI i campionati europei: Serie A, Premier League, Champions League, LaLiga, Bundesliga, Ligue 1 ed Europa League. Nessun concorrente offre lo stesso pacchetto sotto i 70 €/mese.",
+    cta: "Attiva ATV Corner",
+    faq: "Domande frequenti",
+    faqItems: [
+      { q: "ATV Corner è davvero più economico di DAZN?", a: "Sì: 15 €/mese contro i 35 € di DAZN, con sei volte più copertura di campionati. Confronto di maggio 2026, verificabile sui siti dei singoli fornitori." },
+      { q: "Quale concorrente offre più campionati?", a: "Con oltre 50 campionati internazionali, ATV Corner è il più ampio. DAZN si aggira sugli 8, Sky sui 6 e beIN sui 10. Nessun altro supera i 15 campionati sportivi." },
+      { q: "Tutti i concorrenti sono accessibili in tutta Europa?", a: "No. Movistar+: solo Spagna. Canal+ Sport: Francia, Belgio e Svizzera. Sky Sports: Regno Unito, Germania e Italia. ATV Corner: tutta Europa." },
+      { q: "Qual è la differenza tra IPTV e OTT premium?", a: "OTT premium indica servizi come Netflix o DAZN con app ufficiali. L'IPTV è il protocollo di streaming che può riunire più sorgenti. ATV Corner combina entrambe le cose: qualità OTT e copertura IPTV." },
+    ],
+  },
 };
 
 export function ComparisonTable({ lang, providers }: { lang: Locale; providers: ComparisonProvider[] }) {

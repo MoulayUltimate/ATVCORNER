@@ -74,6 +74,40 @@ const COPY: Partial<Record<Locale, Copy>> = {
       { q: "Funktioniert es mit meinem alten TV?", a: "Wenn Ihr TV kein Smart TV ist, einfach Fire Stick (40€) oder Chromecast mit Google TV (40€) anschließen — jedes TV mit HDMI wird kompatibel." },
     ],
   },
+  es: {
+    h1: "Compatibilidad de dispositivos — ¿puedo usar ATV Corner?",
+    intro: "Elige tu dispositivo. Obtendrás las instrucciones exactas, las aplicaciones recomendadas y una estimación del tiempo hasta la reproducción.",
+    choose: "Elegir dispositivo",
+    result: "Resultado de compatibilidad",
+    steps: "Pasos de instalación",
+    pros: "Ventajas",
+    cons: "Conviene saber",
+    cta: "Activar la suscripción",
+    faq: "Preguntas frecuentes",
+    faqItems: [
+      { q: "¿Qué dispositivo es el más sencillo?", a: "El Fire TV Stick 4K Max: 40 €, se conecta al HDMI, se instala en 5 minutos y da 4K HDR con Dolby Atmos." },
+      { q: "¿Necesito una VPN?", a: "No, ATV Corner funciona en toda Europa sin VPN. Ninguna suscripción oficial cubre el 100 % del fútbol; nosotros reunimos las emisiones europeas en una sola interfaz." },
+      { q: "¿Cuántas emisiones simultáneas?", a: "Una por defecto, dos o tres según el plan. Consulta la página de precios." },
+      { q: "¿Funciona con mi televisor antiguo?", a: "Si tu televisor no es inteligente, basta con conectar un Fire Stick (40 €) o un Chromecast con Google TV (40 €): cualquier televisor con HDMI pasa a ser compatible." },
+    ],
+  },
+  it: {
+    h1: "Compatibilità dei dispositivi — posso usare ATV Corner?",
+    intro: "Scegli il tuo dispositivo. Otterrai le istruzioni esatte, le app consigliate e una stima del tempo necessario alla riproduzione.",
+    choose: "Scegli il dispositivo",
+    result: "Risultato di compatibilità",
+    steps: "Passaggi di installazione",
+    pros: "Vantaggi",
+    cons: "Buono a sapersi",
+    cta: "Attiva l'abbonamento",
+    faq: "Domande frequenti",
+    faqItems: [
+      { q: "Quale dispositivo è il più semplice?", a: "Il Fire TV Stick 4K Max: 40 €, si collega all'HDMI, si installa in 5 minuti e dà 4K HDR con Dolby Atmos." },
+      { q: "Mi serve una VPN?", a: "No, ATV Corner funziona in tutta Europa senza VPN. Nessun abbonamento ufficiale copre il 100 % del calcio; noi riuniamo le trasmissioni europee in un'unica interfaccia." },
+      { q: "Quante trasmissioni contemporanee?", a: "Una per impostazione predefinita, due o tre a seconda del piano. Consulta la pagina dei prezzi." },
+      { q: "Funziona con il mio vecchio televisore?", a: "Se il tuo televisore non è smart, basta collegare un Fire Stick (40 €) o un Chromecast con Google TV (40 €): qualsiasi televisore con HDMI diventa compatibile." },
+    ],
+  },
 };
 
 export function DeviceChecker({ lang, devices }: { lang: Locale; devices: DeviceCategory[] }) {

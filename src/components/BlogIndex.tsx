@@ -37,6 +37,24 @@ const t = {
     readMin: "Min. Lesezeit",
     readMore: "Artikel lesen",
   },
+  es: {
+    eyebrow: "Blog · Guías IPTV",
+    title: "El",
+    titleAccent: "blog de ATV Corner",
+    intro:
+      "Guías expertas, comparativas, tutoriales de instalación y consejos para sacar el máximo partido a tu suscripción IPTV.",
+    readMin: "min de lectura",
+    readMore: "Leer el artículo",
+  },
+  it: {
+    eyebrow: "Blog · Guide IPTV",
+    title: "Il",
+    titleAccent: "blog di ATV Corner",
+    intro:
+      "Guide esperte, confronti, tutorial di installazione e consigli per sfruttare al massimo il tuo abbonamento IPTV.",
+    readMin: "min di lettura",
+    readMore: "Leggi l'articolo",
+  },
 };
 
 export function BlogIndex({ posts, lang }: Props) {

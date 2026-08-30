@@ -35,6 +35,8 @@ const dateLocale: Record<string, string> = {
   fr: "fr-FR",
   en: "en-US",
   de: "de-DE",
+  es: "es-ES",
+  it: "it-IT",
 };
 
 export default async function CookiesPage({

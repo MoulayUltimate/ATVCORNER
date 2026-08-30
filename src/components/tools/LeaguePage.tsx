@@ -15,6 +15,8 @@ export function LeaguePage({ lang, league }: { lang: Locale; league: LeagueData 
     fr: { benefits: "Ce que vous obtenez", whyAtv: "Pourquoi ATV Corner", devices: "Appareils compatibles", countries: "Disponibilité par pays", faq: "Questions fréquentes", cta: "Activer mon abonnement", crumb: "Outils" },
     en: { benefits: "What you get", whyAtv: "Why ATV Corner", devices: "Supported devices", countries: "Country availability", faq: "Frequently asked questions", cta: "Activate my subscription", crumb: "Tools" },
     de: { benefits: "Was Sie bekommen", whyAtv: "Warum ATV Corner", devices: "Unterstützte Geräte", countries: "Länderverfügbarkeit", faq: "Häufige Fragen", cta: "Abo aktivieren", crumb: "Tools" },
+    es: { benefits: "Lo que obtienes", whyAtv: "Por qué ATV Corner", devices: "Dispositivos compatibles", countries: "Disponibilidad por país", faq: "Preguntas frecuentes", cta: "Activar la suscripción", crumb: "Herramientas" },
+    it: { benefits: "Cosa ottieni", whyAtv: "Perché ATV Corner", devices: "Dispositivi compatibili", countries: "Disponibilità per paese", faq: "Domande frequenti", cta: "Attiva l'abbonamento", crumb: "Strumenti" },
   }, lang);
 
   return (

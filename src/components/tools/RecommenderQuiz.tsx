@@ -245,6 +245,152 @@ const COPY: Partial<Record<Locale, Copy>> = {
     restart: "Neu starten",
     cta: "Diesen Plan auf WhatsApp aktivieren",
   },
+  es: {
+    h1: "Encuentra tu suscripción de fútbol perfecta",
+    intro: "Responde a 6 preguntas. Te recomendamos el plan de ATV Corner que encaja exactamente contigo.",
+    step: "Paso",
+    of: "de",
+    back: "Atrás",
+    next: "Siguiente",
+    finish: "Ver mi resultado",
+    questions: [
+      {
+        id: "country",
+        question: "¿Desde qué país ves la televisión?",
+        options: [
+          { id: "fr", label: "Francia" }, { id: "de", label: "Alemania" }, { id: "es", label: "España" },
+          { id: "it", label: "Italia" }, { id: "be", label: "Bélgica" }, { id: "ch", label: "Suiza" }, { id: "other", label: "Otro país europeo" },
+        ],
+      },
+      {
+        id: "leagues",
+        question: "¿Qué ligas sigues principalmente?",
+        options: [
+          { id: "one", label: "Solo una (por ejemplo LaLiga o la Premier League)", weight: 1 },
+          { id: "two", label: "Dos o tres", weight: 2 },
+          { id: "all", label: "Todas las grandes ligas europeas", weight: 3 },
+          { id: "ucl", label: "Sobre todo la Champions League", weight: 2 },
+        ],
+      },
+      {
+        id: "quality",
+        question: "¿Qué calidad de imagen buscas?",
+        options: [
+          { id: "hd", label: "HD estándar", weight: 1 },
+          { id: "4k", label: "4K HDR cuando esté disponible", weight: 2 },
+          { id: "8k", label: "Lo máximo (8K y contenido premium)", weight: 3 },
+        ],
+      },
+      {
+        id: "screens",
+        question: "¿Cuántas pantallas a la vez?",
+        options: [
+          { id: "1", label: "1 (solo yo)", weight: 1 },
+          { id: "2", label: "2 (pareja o hijos)", weight: 2 },
+          { id: "3", label: "3 o más", weight: 3 },
+        ],
+      },
+      {
+        id: "device",
+        question: "¿Cuál es tu dispositivo principal?",
+        options: [
+          { id: "tv", label: "Smart TV" }, { id: "fire", label: "Fire Stick" }, { id: "android", label: "Android TV" },
+          { id: "apple", label: "Apple TV" }, { id: "mobile", label: "Móvil o tableta" },
+        ],
+      },
+      {
+        id: "budget",
+        question: "¿Presupuesto máximo al mes?",
+        options: [
+          { id: "low", label: "Menos de 15 €", weight: 1 },
+          { id: "mid", label: "Entre 15 y 25 €", weight: 2 },
+          { id: "high", label: "Sin límite", weight: 3 },
+        ],
+      },
+    ],
+    resultTitle: "Tu plan recomendado",
+    resultIntro: "Según tus respuestas, este es el plan que mejor encaja:",
+    resultPlan: [
+      { name: "Essential", desc: "1 pantalla, HD, perfecto para una liga principal.", price: "15 €/mes" },
+      { name: "Premium", desc: "2 pantallas, 4K HDR, todas las ligas europeas.", price: "20 €/mes" },
+      { name: "Elite", desc: "3 pantallas, 4K/8K, multicámara y soporte VIP 24/7.", price: "28 €/mes" },
+    ],
+    restart: "Empezar de nuevo",
+    cta: "Activar este plan por WhatsApp",
+  },
+  it: {
+    h1: "Trova il tuo abbonamento calcio perfetto",
+    intro: "Rispondi a 6 domande. Ti consigliamo il piano ATV Corner che fa esattamente al caso tuo.",
+    step: "Passo",
+    of: "di",
+    back: "Indietro",
+    next: "Avanti",
+    finish: "Vedi il mio risultato",
+    questions: [
+      {
+        id: "country",
+        question: "Da quale paese guardi la televisione?",
+        options: [
+          { id: "fr", label: "Francia" }, { id: "de", label: "Germania" }, { id: "es", label: "Spagna" },
+          { id: "it", label: "Italia" }, { id: "be", label: "Belgio" }, { id: "ch", label: "Svizzera" }, { id: "other", label: "Altro paese europeo" },
+        ],
+      },
+      {
+        id: "leagues",
+        question: "Quali campionati segui principalmente?",
+        options: [
+          { id: "one", label: "Solo uno (per esempio la Serie A o la Premier League)", weight: 1 },
+          { id: "two", label: "Due o tre", weight: 2 },
+          { id: "all", label: "Tutti i grandi campionati europei", weight: 3 },
+          { id: "ucl", label: "Soprattutto la Champions League", weight: 2 },
+        ],
+      },
+      {
+        id: "quality",
+        question: "Quale qualità dell'immagine cerchi?",
+        options: [
+          { id: "hd", label: "HD standard", weight: 1 },
+          { id: "4k", label: "4K HDR quando disponibile", weight: 2 },
+          { id: "8k", label: "Il massimo (8K e contenuti premium)", weight: 3 },
+        ],
+      },
+      {
+        id: "screens",
+        question: "Quanti schermi contemporaneamente?",
+        options: [
+          { id: "1", label: "1 (solo io)", weight: 1 },
+          { id: "2", label: "2 (partner o figli)", weight: 2 },
+          { id: "3", label: "3 o più", weight: 3 },
+        ],
+      },
+      {
+        id: "device",
+        question: "Qual è il tuo dispositivo principale?",
+        options: [
+          { id: "tv", label: "Smart TV" }, { id: "fire", label: "Fire Stick" }, { id: "android", label: "Android TV" },
+          { id: "apple", label: "Apple TV" }, { id: "mobile", label: "Telefono o tablet" },
+        ],
+      },
+      {
+        id: "budget",
+        question: "Budget massimo al mese?",
+        options: [
+          { id: "low", label: "Meno di 15 €", weight: 1 },
+          { id: "mid", label: "Tra 15 e 25 €", weight: 2 },
+          { id: "high", label: "Nessun limite", weight: 3 },
+        ],
+      },
+    ],
+    resultTitle: "Il tuo piano consigliato",
+    resultIntro: "In base alle tue risposte, questo è il piano più adatto:",
+    resultPlan: [
+      { name: "Essential", desc: "1 schermo, HD, perfetto per un campionato principale.", price: "15 €/mese" },
+      { name: "Premium", desc: "2 schermi, 4K HDR, tutti i campionati europei.", price: "20 €/mese" },
+      { name: "Elite", desc: "3 schermi, 4K/8K, multicamera e assistenza VIP 24/7.", price: "28 €/mese" },
+    ],
+    restart: "Ricomincia",
+    cta: "Attiva questo piano su WhatsApp",
+  },
 };
 
 export function RecommenderQuiz({ lang }: { lang: Locale }) {
