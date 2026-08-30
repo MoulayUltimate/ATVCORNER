@@ -3623,6 +3623,79 @@ content["iptv-firestick"].it = {
   cta: "Attiva sul mio Fire Stick",
 };
 
+// --- es/it for /iptv-premium ------------------------------------------------
+content["iptv-premium"].es = {
+  metaTitle: "IPTV premium — 66.000 canales en 4K/8K desde 5 €/mes",
+  metaDesc:
+    "IPTV premium con 66.000+ canales, 70.000 películas y 18.000 series en 4K/8K. Servidores estables, soporte 24/7 y activación en 5 minutos desde 5 €/mes.",
+  eyebrow: "IPTV premium · 4K/8K",
+  h1: "IPTV premium",
+  h1Accent: "sin compromisos",
+  intro:
+    "Un servicio pensado para quien no acepta cortes: 66.000+ canales, 70.000 películas y 18.000 series en 4K/8K, sobre servidores dimensionados para el horario punta. Desde 5 €/mes, activado en menos de cinco minutos.",
+  features: [
+    { h: "66.000+ canales", p: "Deporte, cine, series, informativos e internacionales en un solo acceso." },
+    { h: "4K/8K con HEVC", p: "Codificación H.265 y bitrate adaptativo para una imagen estable." },
+    { h: "Soporte 24/7", p: "Respuesta por WhatsApp en menos de 5 minutos, cualquier día." },
+    { h: "4,9/5 · 2.800 reseñas", p: "12.000 suscriptores y una garantía de devolución de 7 días." },
+  ],
+  sections: [
+    { h: "Qué significa «premium» de verdad", p: "En este sector la palabra se usa con demasiada ligereza, casi siempre para justificar un precio más alto sin nada detrás. Para nosotros significa tres compromisos concretos y verificables: servidores con capacidad suficiente para el horario punta, un catálogo mantenido en el que los canales muertos se retiran, y un soporte que responde en minutos y no en días. Ninguno de los tres se aprecia en una página de precios; los tres se comprueban en quince minutos con una prueba gratuita." },
+    { h: "El catálogo en detalle", p: "Más de 66.000 canales en directo, de los cuales 4.200 son deportivos, junto a una videoteca de 70.000 películas y 18.000 series. La cobertura internacional es lo que más diferencia a un servicio premium: canales europeos, árabes, asiáticos, africanos y americanos conviven en la misma lista, lo que permite seguir competiciones extranjeras o ver televisión en tu idioma de origen sin contratar un segundo servicio. Todo el catálogo está incluido en cualquier plan, sin módulos de pago adicionales." },
+    { h: "Calidad de imagen y codificación", p: "Emitimos en HEVC/H.265 con bitrate adaptativo. En la práctica esto significa dos cosas. Primero, que se transporta la misma calidad con menos ancho de banda que el códec H.264 más antiguo, lo que ayuda si tu conexión no es excepcional. Segundo, que cuando tu red fluctúa, la calidad baja un escalón durante unos segundos en lugar de congelar la imagen. La resolución final siempre depende de la fuente: nadie puede ofrecer 8K en un canal que emite en HD, y quien lo prometa está mintiendo." },
+    { h: "Estabilidad: dónde se gana o se pierde", p: "Un servicio se juzga en el peor momento, no en el mejor. Entre las 20 y las 23 horas, y sobre todo durante un partido muy seguido, miles de espectadores piden simultáneamente el mismo flujo. Ahí es donde un servidor infradimensionado revela microcortes y caídas de resolución. Nuestra infraestructura está dimensionada para esos picos, pero no te pedimos que nos creas: la prueba gratuita existe precisamente para que lo verifiques en el peor momento posible." },
+    { h: "Compatibilidad con tus dispositivos", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2, Windows, macOS y Linux. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IBO Player, IPTV Smarters Pro por su sencillez de configuración, y VLC para uso puntual en ordenador. Tus credenciales no están vinculadas a un dispositivo, así que puedes usarlas en varios equipos y continuar la reproducción donde la dejaste." },
+    { h: "Activación y soporte", p: "Tras el pago recibes por WhatsApp tus credenciales Xtream Codes o tu enlace M3U, normalmente en menos de cinco minutos. Si es tu primera instalación, te indicamos la aplicación adecuada para tu dispositivo concreto y te acompañamos paso a paso. El soporte funciona 24 horas al día porque los problemas de televisión aparecen por la noche y los fines de semana, no en horario de oficina. Puedes ponerlo a prueba antes de pagar, escribiendo una pregunta técnica durante la prueba gratuita." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes en el plan anual. Los cuatro planes incluyen exactamente el mismo catálogo, la misma calidad y el mismo soporte; solo cambia el coste mensual. No hay renovación automática, así que el acceso caduca por sí solo y decides tú si vuelves. Durante los siete primeros días se aplica además una garantía de devolución íntegra." },
+    { h: "Lo que este servicio no es", p: "No es un sustituto de una buena conexión: si tu línea cae por debajo de 10 Mbps estables, ningún proveedor podrá darte una experiencia fluida. No promete que el 100 % del catálogo esté en 4K, porque la resolución la fija la fuente original. Y no incluye la grabación en disco duro propia de un descodificador de operador, aunque varias aplicaciones ofrecen alternativas. Preferimos decirlo antes de la compra: un servicio que promete todo a todo el mundo suele cumplir poco." },
+    { h: "Cómo comprobarlo en quince minutos", p: "Solicita la prueba gratuita de 24 horas, que no requiere tarjeta de crédito, y actívala deliberadamente en horario punta. Comprueba que tus ocho o diez canales habituales estén presentes y funcionen, que la guía de programación esté rellenada varios días, que la imagen aguante diez minutos seguidos de contenido con movimiento rápido, y cronometra la respuesta del soporte a una pregunta técnica. Cuatro comprobaciones, un cuarto de hora, y sabrás más que leyendo cualquier comparativa." },
+  ],
+  faq: [
+    { q: "¿Qué incluye el servicio premium?", a: "66.000+ canales en directo con 4.200 deportivos, 70.000 películas y 18.000 series en 4K/8K, guía de programación y soporte 24/7. Todo incluido en cualquier plan, sin módulos de pago." },
+    { q: "¿Está todo el catálogo en 4K?", a: "No, y ningún proveedor honesto lo afirmaría: la resolución depende siempre de la fuente. Lo que sí garantizamos es codificación HEVC/H.265 con bitrate adaptativo para mantener la imagen estable." },
+    { q: "¿Cuánto cuesta?", a: "De 15 € por un mes a 60 € por doce, es decir 5 €/mes en el plan anual. Todos los planes tienen el mismo catálogo y la misma calidad; solo cambia el coste mensual." },
+    { q: "¿Cómo compruebo la estabilidad?", a: "Con la prueba gratuita de 24 horas, activada entre las 20 y las 23 horas o durante un partido concurrido. Por la mañana casi cualquier servicio funciona bien y la prueba no demuestra nada." },
+    { q: "¿Hay permanencia?", a: "No. Sin permanencia y sin renovación automática: el acceso caduca solo y decides si vuelves. Los siete primeros días están cubiertos por una garantía de devolución." },
+  ],
+  cta: "Empezar con IPTV premium",
+};
+
+content["iptv-premium"].it = {
+  metaTitle: "IPTV premium — 66.000 canali in 4K/8K da 5 €/mese",
+  metaDesc:
+    "IPTV premium con 66.000+ canali, 70.000 film e 18.000 serie in 4K/8K. Server stabili, assistenza 24/7 e attivazione in 5 minuti da 5 €/mese.",
+  eyebrow: "IPTV premium · 4K/8K",
+  h1: "IPTV premium",
+  h1Accent: "senza compromessi",
+  intro:
+    "Un servizio pensato per chi non accetta interruzioni: 66.000+ canali, 70.000 film e 18.000 serie in 4K/8K, su server dimensionati per le ore di punta. Da 5 €/mese, attivo in meno di cinque minuti.",
+  features: [
+    { h: "66.000+ canali", p: "Sport, cinema, serie, informazione e internazionali in un solo accesso." },
+    { h: "4K/8K con HEVC", p: "Codifica H.265 e bitrate adattivo per un'immagine stabile." },
+    { h: "Assistenza 24/7", p: "Risposta su WhatsApp in meno di 5 minuti, ogni giorno." },
+    { h: "4,9/5 · 2.800 recensioni", p: "12.000 abbonati e una garanzia di rimborso di 7 giorni." },
+  ],
+  sections: [
+    { h: "Cosa significa davvero «premium»", p: "In questo settore la parola viene usata con troppa leggerezza, quasi sempre per giustificare un prezzo più alto senza nulla dietro. Per noi significa tre impegni concreti e verificabili: server con capacità sufficiente per le ore di punta, un catalogo curato in cui i canali morti vengono rimossi, e un'assistenza che risponde in minuti e non in giorni. Nessuno dei tre si vede in una pagina prezzi; tutti e tre si verificano in un quarto d'ora con una prova gratuita." },
+    { h: "Il catalogo in dettaglio", p: "Oltre 66.000 canali in diretta, di cui 4.200 sportivi, insieme a una videoteca di 70.000 film e 18.000 serie. La copertura internazionale è ciò che distingue di più un servizio premium: canali europei, arabi, asiatici, africani e americani convivono nello stesso elenco, il che permette di seguire competizioni estere o guardare la televisione nella tua lingua d'origine senza sottoscrivere un secondo servizio. L'intero catalogo è incluso in qualsiasi piano, senza moduli a pagamento aggiuntivi." },
+    { h: "Qualità dell'immagine e codifica", p: "Trasmettiamo in HEVC/H.265 con bitrate adattivo. In pratica questo significa due cose. Primo, che si trasporta la stessa qualità con meno banda rispetto al più vecchio codec H.264, il che aiuta se la tua connessione non è eccezionale. Secondo, che quando la rete oscilla, la qualità scende di un gradino per qualche secondo invece di bloccare l'immagine. La risoluzione finale dipende sempre dalla sorgente: nessuno può offrire l'8K su un canale che trasmette in HD, e chi lo promette sta mentendo." },
+    { h: "Stabilità: dove si vince o si perde", p: "Un servizio si giudica nel momento peggiore, non in quello migliore. Tra le 20 e le 23, e soprattutto durante una partita molto seguita, migliaia di spettatori richiedono contemporaneamente lo stesso flusso. È lì che un server sottodimensionato rivela microinterruzioni e cali di risoluzione. La nostra infrastruttura è dimensionata per quei picchi, ma non ti chiediamo di crederci: la prova gratuita esiste proprio perché tu lo verifichi nel momento peggiore possibile." },
+    { h: "Compatibilità con i tuoi dispositivi", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2, Windows, macOS e Linux. Le app consigliate sono TiviMate per la sua interfaccia da televisore, IBO Player, IPTV Smarters Pro per la semplicità di configurazione, e VLC per un uso occasionale su computer. Le tue credenziali non sono legate a un dispositivo, quindi puoi usarle su più apparecchi e riprendere la visione dove l'avevi lasciata." },
+    { h: "Attivazione e assistenza", p: "Dopo il pagamento ricevi su WhatsApp le credenziali Xtream Codes o il link M3U, di norma in meno di cinque minuti. Se è la tua prima installazione, ti indichiamo l'app adatta al tuo dispositivo specifico e ti seguiamo passo passo. L'assistenza funziona 24 ore su 24 perché i problemi televisivi si presentano di sera e nei fine settimana, non in orario d'ufficio. Puoi metterla alla prova prima di pagare, scrivendo una domanda tecnica durante la prova gratuita." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese sul piano annuale. Tutti e quattro i piani includono esattamente lo stesso catalogo, la stessa qualità e la stessa assistenza; cambia solo il costo mensile. Non c'è rinnovo automatico, quindi l'accesso scade da solo e sei tu a decidere se tornare. Nei primi sette giorni si applica inoltre una garanzia di rimborso integrale." },
+    { h: "Cosa questo servizio non è", p: "Non è un sostituto di una buona connessione: se la tua linea scende sotto i 10 Mbps stabili, nessun fornitore potrà darti un'esperienza fluida. Non promette che il 100 % del catalogo sia in 4K, perché la risoluzione la fissa la sorgente originale. E non include la registrazione su disco propria di un decoder d'operatore, sebbene diverse app offrano alternative. Preferiamo dirlo prima dell'acquisto: un servizio che promette tutto a tutti di solito mantiene poco." },
+    { h: "Come verificarlo in un quarto d'ora", p: "Richiedi la prova gratuita di 24 ore, che non necessita di carta di credito, e attivala deliberatamente in orario di punta. Verifica che i tuoi otto o dieci canali abituali siano presenti e funzionino, che la guida ai programmi sia popolata su più giorni, che l'immagine regga dieci minuti consecutivi di contenuto con movimento rapido, e cronometra la risposta dell'assistenza a una domanda tecnica. Quattro verifiche, un quarto d'ora, e saprai più di quanto ti dirà qualsiasi comparativa." },
+  ],
+  faq: [
+    { q: "Cosa include il servizio premium?", a: "66.000+ canali in diretta con 4.200 sportivi, 70.000 film e 18.000 serie in 4K/8K, guida ai programmi e assistenza 24/7. Tutto incluso in qualsiasi piano, senza moduli a pagamento." },
+    { q: "L'intero catalogo è in 4K?", a: "No, e nessun fornitore onesto lo sosterrebbe: la risoluzione dipende sempre dalla sorgente. Ciò che garantiamo è la codifica HEVC/H.265 con bitrate adattivo per mantenere l'immagine stabile." },
+    { q: "Quanto costa?", a: "Da 15 € per un mese a 60 € per dodici, cioè 5 €/mese sul piano annuale. Tutti i piani hanno lo stesso catalogo e la stessa qualità; cambia solo il costo mensile." },
+    { q: "Come verifico la stabilità?", a: "Con la prova gratuita di 24 ore, attivata tra le 20 e le 23 o durante una partita molto seguita. Di mattina quasi ogni servizio funziona bene e la prova non dimostra nulla." },
+    { q: "Ci sono vincoli?", a: "No. Nessun vincolo e nessun rinnovo automatico: l'accesso scade da solo e decidi tu se tornare. I primi sette giorni sono coperti da una garanzia di rimborso." },
+  ],
+  cta: "Inizia con IPTV premium",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
