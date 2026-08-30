@@ -3552,6 +3552,77 @@ content["cable-tv-alternative"].it = {
   cta: "Prova l'alternativa gratis",
 };
 
+// --- es/it for /iptv-firestick ----------------------------------------------
+content["iptv-firestick"].es = {
+  metaTitle: "IPTV en Fire TV Stick — instalación en 5 minutos, 66.000 canales",
+  metaDesc:
+    "Instala IPTV en tu Amazon Fire TV Stick en 5 minutos: 66.000+ canales en 4K con TiviMate o IPTV Smarters. Guía paso a paso y prueba gratis de 24 h.",
+  eyebrow: "Fire TV Stick · Instalación en 5 min",
+  h1: "IPTV en Fire TV Stick",
+  h1Accent: "listo en 5 minutos",
+  intro:
+    "El Fire TV Stick es la forma más barata de convertir cualquier televisor en un receptor IPTV completo. Con ATV Corner accedes a 66.000+ canales en 4K desde 5 €/mes, y la instalación no requiere ningún conocimiento técnico.",
+  features: [
+    { h: "Funciona en todo modelo", p: "Fire TV Stick Lite, 4K, 4K Max y Fire TV Cube." },
+    { h: "TiviMate o Smarters", p: "Elige la aplicación que prefieras; ambas están soportadas." },
+    { h: "Instalación en 5 min", p: "Descarga, credenciales y ya está: sin ordenador ni cables." },
+    { h: "4K con HEVC", p: "El 4K Max aprovecha por completo la codificación H.265." },
+  ],
+  sections: [
+    { h: "Por qué el Fire Stick es la mejor puerta de entrada", p: "Cuesta menos que dos meses de un paquete de cable, cabe en el bolsillo y convierte cualquier televisor con puerto HDMI en un receptor IPTV completo, incluido un modelo antiguo sin funciones inteligentes. A diferencia de las aplicaciones preinstaladas en muchos televisores, el sistema de Amazon permite instalar aplicaciones externas, que es exactamente lo que hace falta para el IPTV. Y como es un dispositivo dedicado, no compite por recursos con el resto del software del televisor, lo que se traduce en una navegación más fluida." },
+    { h: "Qué modelo elegir", p: "El Fire TV Stick Lite basta para ver en HD y es la opción más económica. El 4K y el 4K Max añaden decodificación 4K por hardware y compatibilidad con HEVC/H.265, que es la codificación que usamos: si tienes un televisor 4K, la diferencia se nota en las imágenes con movimiento rápido. El 4K Max añade además más memoria y Wi-Fi 6, lo que reduce las esperas al abrir la aplicación y ayuda si tu red está saturada. El Fire TV Cube es la versión de sobremesa, más potente y con Ethernet incluido." },
+    { h: "Instalar la aplicación", p: "En los ajustes del Fire Stick, entra en Mi Fire TV, después en Opciones de desarrollador, y activa la instalación de aplicaciones de origen desconocido. Instala Downloader desde la tienda de Amazon, ábrelo e introduce la dirección que te facilitamos por WhatsApp para descargar TiviMate o IPTV Smarters Pro. La descarga tarda unos segundos y la instalación es automática. Todo el proceso se hace con el mando del televisor, sin necesidad de ordenador ni de conectar cables." },
+    { h: "Introducir tus credenciales", p: "Abre la aplicación y elige añadir una lista. Si te hemos enviado credenciales Xtream Codes, introduce la URL del servidor, el usuario y la contraseña; si prefieres el formato M3U, pega la URL única. La aplicación descarga entonces la lista de canales, la guía de programación y el catálogo de películas y series, lo que suele llevar entre uno y dos minutos la primera vez. Escribir con el mando es lo más tedioso del proceso: la aplicación de Fire TV en el móvil incluye un teclado que lo hace mucho más rápido." },
+    { h: "Ajustes que mejoran la experiencia", p: "En TiviMate, activa la decodificación por hardware: descarga el trabajo en el chip del Fire Stick en lugar del procesador y elimina la mayoría de los tirones. Ajusta el búfer a un valor medio; demasiado bajo provoca cortes en conexiones irregulares, demasiado alto retrasa el cambio de canal. Crea un grupo de favoritos con los veinte canales que ves de verdad para no recorrer una lista de 66.000 entradas cada noche. Y desactiva las notificaciones de Amazon, que pueden aparecer en pantalla en pleno partido." },
+    { h: "Red: el factor que más pesa", p: "El Fire Stick es pequeño y su antena Wi-Fi también. Si el televisor está lejos del router o hay paredes de por medio, ese será el cuello de botella antes que cualquier ajuste de la aplicación. La solución más eficaz es el adaptador Ethernet oficial de Amazon, que se conecta al puerto de alimentación y permite usar cable de red: elimina de golpe la mayoría de los problemas de cortes. Si no es posible, sitúa el router más cerca o usa un repetidor en la banda de 5 GHz." },
+    { h: "Problemas frecuentes y solución", p: "Si la imagen se congela cada pocos minutos, revisa primero el Wi-Fi y después activa la decodificación por hardware. Si la aplicación se cierra al abrirla, suele bastar con borrar su caché desde los ajustes del Fire Stick. Si faltan canales o la guía está vacía, fuerza una recarga de la lista dentro de la aplicación. Y si el mando no responde bien al escribir, usa la aplicación de Fire TV en el móvil. Nuestro soporte revisa cualquiera de estos casos por WhatsApp en menos de cinco minutos." },
+    { h: "Probarlo antes de comprar", p: "Puedes hacer toda la instalación durante la prueba gratuita de 24 horas, sin tarjeta de crédito. Es la mejor manera de comprobar que tu Fire Stick concreto, con tu red concreta, da el resultado que esperas. Actívala en horario punta y mira diez minutos seguidos de un contenido con movimiento rápido. Si funciona bien, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿En qué Fire TV Stick funciona?", a: "En todos: Lite, 4K, 4K Max y Fire TV Cube. Los modelos 4K decodifican HEVC/H.265 por hardware, que es la codificación que usamos, así que rinden mejor en 4K." },
+    { q: "¿Cuánto tarda la instalación?", a: "Unos cinco minutos: activar orígenes desconocidos, instalar Downloader, descargar TiviMate o IPTV Smarters e introducir tus credenciales. Todo con el mando, sin ordenador." },
+    { q: "¿Qué aplicación conviene más?", a: "TiviMate ofrece la mejor interfaz de televisión y gestión de favoritos; IPTV Smarters Pro es más sencilla de configurar. Ambas funcionan con nuestras credenciales Xtream Codes o M3U." },
+    { q: "¿Por qué se corta la imagen en el Fire Stick?", a: "Casi siempre es el Wi-Fi. Usa el adaptador Ethernet oficial de Amazon o acerca el router, y activa la decodificación por hardware en los ajustes de la aplicación." },
+    { q: "¿Puedo probar antes de pagar?", a: "Sí. La prueba gratuita de 24 horas no pide tarjeta y permite hacer la instalación completa para comprobar el resultado en tu propio equipo." },
+  ],
+  cta: "Activar en mi Fire Stick",
+};
+
+content["iptv-firestick"].it = {
+  metaTitle: "IPTV su Fire TV Stick — installazione in 5 minuti, 66.000 canali",
+  metaDesc:
+    "Installa l'IPTV sul tuo Amazon Fire TV Stick in 5 minuti: 66.000+ canali in 4K con TiviMate o IPTV Smarters. Guida passo passo e prova gratuita di 24 h.",
+  eyebrow: "Fire TV Stick · Installazione in 5 min",
+  h1: "IPTV su Fire TV Stick",
+  h1Accent: "pronto in 5 minuti",
+  intro:
+    "Il Fire TV Stick è il modo più economico per trasformare qualsiasi televisore in un ricevitore IPTV completo. Con ATV Corner accedi a 66.000+ canali in 4K da 5 €/mese, e l'installazione non richiede alcuna competenza tecnica.",
+  features: [
+    { h: "Funziona su ogni modello", p: "Fire TV Stick Lite, 4K, 4K Max e Fire TV Cube." },
+    { h: "TiviMate o Smarters", p: "Scegli l'app che preferisci; sono supportate entrambe." },
+    { h: "Installazione in 5 min", p: "Download, credenziali e via: senza computer né cavi." },
+    { h: "4K con HEVC", p: "Il 4K Max sfrutta pienamente la codifica H.265." },
+  ],
+  sections: [
+    { h: "Perché il Fire Stick è la porta d'ingresso migliore", p: "Costa meno di due mesi di un pacchetto via cavo, sta in tasca e trasforma qualsiasi televisore con porta HDMI in un ricevitore IPTV completo, compreso un modello datato privo di funzioni smart. A differenza delle app preinstallate su molti televisori, il sistema di Amazon consente di installare applicazioni esterne, che è esattamente ciò che serve per l'IPTV. E trattandosi di un dispositivo dedicato, non compete per le risorse con il resto del software del televisore, il che si traduce in una navigazione più fluida." },
+    { h: "Quale modello scegliere", p: "Il Fire TV Stick Lite basta per guardare in HD ed è l'opzione più economica. Il 4K e il 4K Max aggiungono la decodifica 4K via hardware e la compatibilità HEVC/H.265, che è la codifica che usiamo: se hai un televisore 4K, la differenza si nota nelle immagini con movimento rapido. Il 4K Max aggiunge inoltre più memoria e il Wi-Fi 6, riducendo le attese all'apertura dell'app e aiutando se la rete è congestionata. Il Fire TV Cube è la versione da tavolo, più potente e con Ethernet integrata." },
+    { h: "Installare l'app", p: "Nelle impostazioni del Fire Stick, entra in Il mio Fire TV, poi in Opzioni sviluppatore, e attiva l'installazione di app da origini sconosciute. Installa Downloader dallo store Amazon, aprilo e inserisci l'indirizzo che ti forniamo su WhatsApp per scaricare TiviMate o IPTV Smarters Pro. Il download richiede pochi secondi e l'installazione è automatica. L'intera procedura si svolge con il telecomando del televisore, senza bisogno di computer né di collegare cavi." },
+    { h: "Inserire le credenziali", p: "Apri l'app e scegli di aggiungere una playlist. Se ti abbiamo inviato credenziali Xtream Codes, inserisci l'URL del server, il nome utente e la password; se preferisci il formato M3U, incolla l'URL unico. L'app scarica quindi l'elenco dei canali, la guida ai programmi e il catalogo di film e serie, operazione che richiede di norma uno o due minuti la prima volta. Scrivere con il telecomando è la parte più noiosa: l'app Fire TV per telefono include una tastiera che rende tutto molto più rapido." },
+    { h: "Impostazioni che migliorano l'esperienza", p: "In TiviMate, attiva la decodifica hardware: sposta il lavoro sul chip del Fire Stick invece che sul processore ed elimina la maggior parte degli scatti. Imposta il buffer su un valore medio; troppo basso provoca interruzioni su connessioni irregolari, troppo alto rallenta il cambio canale. Crea un gruppo di preferiti con i venti canali che guardi davvero, per non scorrere un elenco di 66.000 voci ogni sera. E disattiva le notifiche Amazon, che possono comparire sullo schermo in piena partita." },
+    { h: "Rete: il fattore che pesa di più", p: "Il Fire Stick è piccolo e lo è anche la sua antenna Wi-Fi. Se il televisore è lontano dal router o ci sono muri di mezzo, sarà quello il collo di bottiglia prima di qualsiasi impostazione dell'app. La soluzione più efficace è l'adattatore Ethernet ufficiale Amazon, che si collega alla porta di alimentazione e permette di usare un cavo di rete: elimina di colpo la maggior parte dei problemi di interruzione. Se non è possibile, avvicina il router o usa un ripetitore sulla banda 5 GHz." },
+    { h: "Problemi frequenti e soluzioni", p: "Se l'immagine si blocca ogni pochi minuti, controlla prima il Wi-Fi e poi attiva la decodifica hardware. Se l'app si chiude all'avvio, di solito basta svuotarne la cache dalle impostazioni del Fire Stick. Se mancano canali o la guida è vuota, forza un ricaricamento della playlist dall'app. E se il telecomando non risponde bene durante la digitazione, usa l'app Fire TV sul telefono. La nostra assistenza verifica ognuno di questi casi su WhatsApp in meno di cinque minuti." },
+    { h: "Provarlo prima di comprare", p: "Puoi eseguire l'intera installazione durante la prova gratuita di 24 ore, senza carta di credito. È il modo migliore per verificare che il tuo specifico Fire Stick, sulla tua specifica rete, dia il risultato che ti aspetti. Attivala in orario di punta e guarda dieci minuti consecutivi di un contenuto con movimento rapido. Se funziona bene, l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni. Vale la pena fare la prova sul televisore che userai davvero ogni sera, e non su un secondo apparecchio più vicino al router: è l'unico test che riflette le condizioni reali di casa tua." },
+  ],
+  faq: [
+    { q: "Su quale Fire TV Stick funziona?", a: "Su tutti: Lite, 4K, 4K Max e Fire TV Cube. I modelli 4K decodificano HEVC/H.265 via hardware, la codifica che usiamo, quindi rendono meglio in 4K." },
+    { q: "Quanto dura l'installazione?", a: "Circa cinque minuti: attivare le origini sconosciute, installare Downloader, scaricare TiviMate o IPTV Smarters e inserire le credenziali. Tutto con il telecomando, senza computer." },
+    { q: "Quale app conviene di più?", a: "TiviMate offre la migliore interfaccia da televisore e gestione dei preferiti; IPTV Smarters Pro è più semplice da configurare. Entrambe funzionano con le nostre credenziali Xtream Codes o M3U." },
+    { q: "Perché l'immagine si interrompe sul Fire Stick?", a: "Quasi sempre è il Wi-Fi. Usa l'adattatore Ethernet ufficiale Amazon o avvicina il router, e attiva la decodifica hardware nelle impostazioni dell'app." },
+    { q: "Posso provare prima di pagare?", a: "Sì. La prova gratuita di 24 ore non richiede carta e permette di eseguire l'installazione completa per verificare il risultato sul tuo apparecchio." },
+  ],
+  cta: "Attiva sul mio Fire Stick",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
