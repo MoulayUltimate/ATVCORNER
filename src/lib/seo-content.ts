@@ -4675,6 +4675,80 @@ content["iptv-usa"].it = {
   cta: "Inizia con IPTV USA",
 };
 
+// --- es/it for /iptv-canada -------------------------------------------------
+content["iptv-canada"].es = {
+  metaTitle: "IPTV Canadá — NHL, NBA, MLB y canales bilingües en 4K",
+  metaDesc:
+    "IPTV en Canadá con canales en inglés y francés: NHL, NBA, MLB, MLS y 70.000 películas en 4K. Sin contrato ni descodificador, desde 5 €/mes.",
+  eyebrow: "IPTV Canadá · Bilingüe",
+  h1: "IPTV en Canadá",
+  h1Accent: "en inglés y en francés",
+  intro:
+    "Canales canadienses en ambos idiomas oficiales, la NHL completa, NBA, MLB y MLS, más 70.000 películas y 18.000 series en 4K. Sin contrato ni equipo alquilado: activado en cinco minutos desde 5 €/mes.",
+  features: [
+    { h: "Bilingüe", p: "Canales en inglés y en francés, incluidos los de Quebec." },
+    { h: "NHL completa", p: "Temporada regular, playoffs y la Copa Stanley sin paquetes aparte." },
+    { h: "Sin contrato", p: "Ni permanencia, ni renovación automática, ni descodificador." },
+    { h: "En todo el país", p: "Llega por internet: no depende de la cobertura por cable." },
+  ],
+  sections: [
+    { h: "Qué cubre el IPTV en Canadá", p: "Canadá tiene una particularidad que ningún otro mercado comparte: la doble oferta lingüística. Una suscripción de ATV Corner incluye canales generalistas e informativos en inglés y en francés, con la programación de Quebec junto a la del resto del país, además de más de 66.000 canales internacionales. Para los hogares bilingües, o para quien se ha mudado entre provincias, eso resuelve en un solo acceso algo que normalmente exige contratar paquetes separados." },
+    { h: "El hockey, primero", p: "La NHL es el deporte que define el consumo televisivo canadiense, y también el que encarece la factura, porque los derechos están repartidos y seguir a un equipo durante toda la temporada suele implicar más de una suscripción. Nuestros 4.200 canales deportivos cubren la temporada regular, los playoffs y la Copa Stanley, junto a la NBA con los Raptors, la MLB con los Blue Jays y la MLS. El deporte está incluido en cualquier plan, no facturado aparte." },
+    { h: "Lo que se paga hoy en Canadá", p: "Los paquetes de televisión canadienses están entre los más caros del mundo desarrollado. Un paquete con deporte se sitúa habitualmente en varias decenas de dólares al mes una vez sumados el alquiler del descodificador, los cargos por terminal adicional y el fin de la tarifa promocional del primer año. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido y sin equipo que devolver al darse de baja." },
+    { h: "Donde el cable llega mal", p: "La geografía canadiense hace que la cobertura por cable sea desigual fuera de las grandes áreas urbanas, y en las provincias del norte y en zonas rurales las opciones se reducen a satélite o a paquetes limitados. El IPTV llega por internet, así que no depende del despliegue de un operador concreto en tu calle. Mientras tengas una conexión razonable, el catálogo es el mismo en Toronto que en una localidad pequeña de Saskatchewan." },
+    { h: "El invierno y la conexión", p: "Es un detalle práctico que importa más de lo que parece. El satélite, muy extendido en Canadá, se degrada con nieve intensa y con hielo acumulado en la parabólica, justo en los meses en los que más televisión se ve. El IPTV no tiene ese problema porque no depende de una antena exterior, aunque a cambio necesita que tu conexión aguante. La regla son 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el televisor y no en el router." },
+    { h: "En qué dispositivos funciona", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2 y ordenadores con Windows, macOS o Linux. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IPTV Smarters Pro por su sencillez, IBO Player y VLC. Tus credenciales no están atadas a un aparato, así que el mismo acceso vale para el salón, el móvil y una tableta." },
+    { h: "Ver canales canadienses desde fuera", p: "Las mismas credenciales funcionan desde cualquier país con conexión a internet. Es un uso habitual entre canadienses que trabajan o estudian en el extranjero y quieren seguir la temporada de hockey en su idioma, o entre quienes pasan el invierno fuera del país. No hace falta cambiar de plan ni contratar nada adicional: el catálogo que ves en Canadá es el mismo que verás desde Europa o desde el sur." },
+    { h: "Dejar tu proveedor sin quedarte sin nada", p: "El orden recomendado evita el hueco entre servicios. Activa primero la prueba gratuita de 24 horas y compruébala durante un partido de hockey en horario de máxima audiencia, no un martes por la mañana. Si convence, contrata un mes y convive unas semanas con tu proveedor actual. Solo entonces cursa la baja, revisando el preaviso de tu contrato y devolviendo el descodificador dentro del plazo para evitar cargos por equipo no retornado." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes. Los cuatro incluyen el mismo catálogo de 66.000+ canales, 4.200 deportivos, 70.000 películas y 18.000 series en 4K/8K, con soporte 24/7. Sin permanencia y sin renovación automática: el acceso caduca solo y decides tú si vuelves. Garantía de devolución de 7 días desde la compra." },
+  ],
+  faq: [
+    { q: "¿Hay canales en francés y en inglés?", a: "Sí. La suscripción incluye canales generalistas e informativos en ambos idiomas oficiales, con la programación de Quebec junto a la del resto del país." },
+    { q: "¿Puedo ver toda la temporada de la NHL?", a: "Sí. Los 4.200 canales deportivos cubren la temporada regular, los playoffs y la Copa Stanley, además de NBA, MLB y MLS, incluidos en cualquier plan." },
+    { q: "¿Funciona fuera de las grandes ciudades?", a: "Sí. Llega por internet, así que no depende del despliegue de cable en tu calle. Solo necesitas 10 Mbps estables para HD o 25 para 4K." },
+    { q: "¿Se ve afectado por la nieve como el satélite?", a: "No. El IPTV no usa antena exterior, así que la nieve y el hielo no lo degradan. A cambio depende de que tu conexión a internet se mantenga estable." },
+    { q: "¿Puedo verlo desde el extranjero?", a: "Sí. Las mismas credenciales funcionan desde cualquier país con conexión, sin cambiar de plan ni pagar nada adicional." },
+  ],
+  cta: "Empezar en Canadá",
+};
+
+content["iptv-canada"].it = {
+  metaTitle: "IPTV Canada — NHL, NBA, MLB e canali bilingui in 4K",
+  metaDesc:
+    "IPTV in Canada con canali in inglese e francese: NHL, NBA, MLB, MLS e 70.000 film in 4K. Senza contratto né decoder, da 5 €/mese.",
+  eyebrow: "IPTV Canada · Bilingue",
+  h1: "IPTV in Canada",
+  h1Accent: "in inglese e in francese",
+  intro:
+    "Canali canadesi in entrambe le lingue ufficiali, l'NHL completa, NBA, MLB e MLS, più 70.000 film e 18.000 serie in 4K. Senza contratto né apparecchi a noleggio: attivo in cinque minuti da 5 €/mese.",
+  features: [
+    { h: "Bilingue", p: "Canali in inglese e in francese, compresi quelli del Québec." },
+    { h: "NHL completa", p: "Stagione regolare, playoff e Stanley Cup senza pacchetti a parte." },
+    { h: "Senza contratto", p: "Né vincoli, né rinnovo automatico, né decoder." },
+    { h: "In tutto il paese", p: "Arriva via internet: non dipende dalla copertura via cavo." },
+  ],
+  sections: [
+    { h: "Cosa copre l'IPTV in Canada", p: "Il Canada ha una particolarità che nessun altro mercato condivide: la doppia offerta linguistica. Un abbonamento ATV Corner include canali generalisti e d'informazione in inglese e in francese, con la programmazione del Québec accanto a quella del resto del paese, oltre a più di 66.000 canali internazionali. Per le famiglie bilingui, o per chi si è trasferito tra province, questo risolve in un solo accesso qualcosa che normalmente richiede pacchetti separati." },
+    { h: "L'hockey, prima di tutto", p: "L'NHL è lo sport che definisce i consumi televisivi canadesi, ed è anche ciò che fa lievitare la bolletta, perché i diritti sono divisi e seguire una squadra per l'intera stagione richiede spesso più di un abbonamento. I nostri 4.200 canali sportivi coprono la stagione regolare, i playoff e la Stanley Cup, insieme all'NBA con i Raptors, alla MLB con i Blue Jays e alla MLS. Lo sport è incluso in qualsiasi piano, non fatturato a parte." },
+    { h: "Quanto si paga oggi in Canada", p: "I pacchetti televisivi canadesi sono tra i più cari del mondo sviluppato. Un pacchetto con lo sport si colloca abitualmente su diverse decine di dollari al mese una volta sommati il noleggio del decoder, i costi per terminale aggiuntivo e la fine della tariffa promozionale del primo anno. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso e nessun apparecchio da restituire alla disdetta." },
+    { h: "Dove il cavo arriva male", p: "La geografia canadese rende la copertura via cavo disomogenea fuori dalle grandi aree urbane, e nelle province settentrionali e nelle zone rurali le opzioni si riducono al satellite o a pacchetti limitati. L'IPTV arriva via internet, quindi non dipende dallo sviluppo di rete di un operatore specifico nella tua strada. Finché hai una connessione ragionevole, il catalogo è lo stesso a Toronto come in un piccolo centro del Saskatchewan." },
+    { h: "L'inverno e la connessione", p: "È un dettaglio pratico che conta più di quanto sembri. Il satellite, molto diffuso in Canada, si degrada con la neve intensa e con il ghiaccio accumulato sulla parabola, proprio nei mesi in cui si guarda più televisione. L'IPTV non ha questo problema perché non dipende da un'antenna esterna, anche se in cambio richiede che la connessione regga. La regola è 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul televisore e non sul router." },
+    { h: "Su quali dispositivi funziona", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2 e computer con Windows, macOS o Linux. Le app consigliate sono TiviMate per l'interfaccia da televisore, IPTV Smarters Pro per la semplicità, IBO Player e VLC. Le tue credenziali non sono legate a un apparecchio, quindi lo stesso accesso vale per il salotto, il telefono e un tablet." },
+    { h: "Guardare canali canadesi dall'estero", p: "Le stesse credenziali funzionano da qualsiasi paese con una connessione internet. È un uso abituale tra canadesi che lavorano o studiano all'estero e vogliono seguire la stagione di hockey nella propria lingua, o tra chi passa l'inverno fuori dal paese. Non serve cambiare piano né sottoscrivere nulla di aggiuntivo: il catalogo che vedi in Canada è lo stesso che vedrai dall'Europa o dal sud." },
+    { h: "Lasciare il fornitore senza restare senza nulla", p: "L'ordine consigliato evita il vuoto tra servizi. Attiva prima la prova gratuita di 24 ore e verificala durante una partita di hockey in prima serata, non un martedì mattina. Se convince, acquista un mese e convivi qualche settimana con il fornitore attuale. Solo allora invia la disdetta, controllando il preavviso del contratto e restituendo il decoder entro i termini per evitare addebiti per apparecchi non resi." },
+    { h: "Come verificarlo prima di pagare", p: "La prova gratuita di 24 ore non richiede carta di credito e dà accesso al catalogo completo. Il momento in cui la attivi decide quanto vale: scegli deliberatamente una serata con una partita di hockey molto seguita, perché è allora che migliaia di spettatori richiedono lo stesso flusso e la capacità dei server viene messa davvero alla prova. Controlla che le reti che guardi abitualmente ci siano in entrambe le lingue, che la guida ai programmi risulti popolata su più giorni e che l'immagine regga dieci minuti consecutivi di gioco. Se queste tre verifiche passano nel momento peggiore, passeranno anche nel resto del tempo." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese. Tutti e quattro includono lo stesso catalogo di 66.000+ canali, 4.200 sportivi, 70.000 film e 18.000 serie in 4K/8K, con assistenza 24/7. Senza vincoli e senza rinnovo automatico: l'accesso scade da solo e sei tu a decidere se tornare. Garanzia di rimborso di 7 giorni dall'acquisto." },
+  ],
+  faq: [
+    { q: "Ci sono canali in francese e in inglese?", a: "Sì. L'abbonamento include canali generalisti e d'informazione in entrambe le lingue ufficiali, con la programmazione del Québec accanto a quella del resto del paese." },
+    { q: "Posso vedere tutta la stagione NHL?", a: "Sì. I 4.200 canali sportivi coprono stagione regolare, playoff e Stanley Cup, oltre a NBA, MLB e MLS, inclusi in qualsiasi piano." },
+    { q: "Funziona fuori dalle grandi città?", a: "Sì. Arriva via internet, quindi non dipende dallo sviluppo del cavo nella tua strada. Servono solo 10 Mbps stabili per l'HD o 25 per il 4K." },
+    { q: "Risente della neve come il satellite?", a: "No. L'IPTV non usa un'antenna esterna, quindi neve e ghiaccio non lo degradano. In cambio dipende dal fatto che la connessione resti stabile." },
+    { q: "Posso guardarlo dall'estero?", a: "Sì. Le stesse credenziali funzionano da qualsiasi paese con una connessione, senza cambiare piano né pagare nulla di aggiuntivo." },
+  ],
+  cta: "Inizia in Canada",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
