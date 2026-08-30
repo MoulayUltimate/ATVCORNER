@@ -4824,6 +4824,81 @@ content["iptv-uk"].it = {
   cta: "Inizia nel Regno Unito",
 };
 
+// --- es/it for /iptv-france -------------------------------------------------
+content["iptv-france"].es = {
+  metaTitle: "IPTV Francia — Ligue 1 y canales franceses en 4K",
+  metaDesc:
+    "IPTV en Francia: Ligue 1, Top 14, Roland-Garros y canales franceses en 4K, más 70.000 películas. Sin contrato ni descodificador, desde 5 €/mes.",
+  eyebrow: "IPTV Francia · Ligue 1",
+  h1: "IPTV en Francia",
+  h1Accent: "Ligue 1 y canales franceses",
+  intro:
+    "Canales franceses, Ligue 1, Top 14 y Roland-Garros en un solo acceso, con 70.000 películas y 18.000 series en 4K. Sin permanencia ni descodificador alquilado: activado en cinco minutos desde 5 €/mes.",
+  features: [
+    { h: "Canales franceses", p: "Generalistas, informativos 24 h, documentales e infantiles." },
+    { h: "Ligue 1 y Europa", p: "Más Champions League, Europa League y grandes ligas europeas." },
+    { h: "Rugby y tenis", p: "Top 14, Six Nations y Roland-Garros durante la temporada de tierra." },
+    { h: "Sin permanencia", p: "Ni contrato de 12 o 24 meses ni preaviso que recordar." },
+  ],
+  sections: [
+    { h: "Qué cubre el IPTV en Francia", p: "El mercado francés reparte los derechos deportivos entre varios operadores y plataformas, de modo que seguir la Ligue 1 completa junto a las competiciones europeas suele exigir más de una suscripción. Una suscripción de ATV Corner reúne los canales generalistas franceses, los informativos de veinticuatro horas, los documentales y la programación infantil junto a más de 66.000 canales internacionales, en un único acceso." },
+    { h: "El fútbol francés y europeo", p: "La Ligue 1 y la Ligue 2, la Coupe de France, y las competiciones europeas de clubes con la Champions League y la Europa League. A eso se suman las grandes ligas del continente —Premier League, LaLiga, Serie A y Bundesliga— que en la oferta francesa tradicional suelen requerir un servicio aparte. Nuestros 4.200 canales deportivos están incluidos en cualquier plan, sin opción deportiva facturada por separado." },
+    { h: "Rugby, tenis y ciclismo", p: "El deporte francés va mucho más allá del fútbol y ahí un catálogo amplio se nota. Encontrarás el Top 14 y el Six Nations de rugby, Roland-Garros y la temporada de tierra batida, el Tour de France y las clásicas ciclistas, el balonmano donde Francia es potencia, y las carreras de resistencia como las 24 Horas de Le Mans. Son los deportes que en un paquete convencional aparecen dispersos entre canales de pago distintos." },
+    { h: "Lo que pagas hoy", p: "Un hogar francés que quiere fútbol y cine paga habitualmente varias decenas de euros al mes, sumando el paquete del operador, una plataforma deportiva adicional para los partidos que aquel no cubre, y el alquiler de la box. A eso se añade la tarifa promocional que sube al cabo de doce meses. Un plan anual de ATV Corner cuesta 60 €, es decir 5 €/mes, con el deporte incluido y sin equipo que devolver." },
+    { h: "Fuera de las grandes ciudades", p: "La cobertura de fibra en Francia ha avanzado mucho pero sigue siendo desigual, y en zonas rurales muchas viviendas dependen todavía de ADSL o de soluciones intermedias. El IPTV llega por internet, así que no depende del despliegue de la box de un operador concreto en tu domicilio, pero sí de que tu línea aguante. Con ADSL justo conviene quedarse en HD, que necesita unos 10 Mbps estables, en lugar de forzar 4K." },
+    { h: "Ver canales franceses desde el extranjero", p: "Las mismas credenciales funcionan desde cualquier país con conexión a internet. Es un uso habitual entre franceses expatriados y entre quienes pasan largas temporadas fuera, que quieren seguir los informativos y la Ligue 1 en su idioma sin depender de qué operador local tenga acuerdos con las cadenas francesas. No hay que cambiar de plan ni pagar un suplemento por verlo fuera de Francia." },
+    { h: "Qué conexión necesitas", p: "Unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el televisor donde vas a ver y no en el router. La palabra decisiva es estables: una línea que promedia mucho pero cae con frecuencia dará peor resultado que otra más modesta y constante. Si el televisor está lejos de la box, un cable Ethernet o un adaptador CPL mejora la estabilidad más que cualquier ajuste dentro de la aplicación." },
+    { h: "En qué dispositivos funciona", p: "Smart TV Samsung, LG y Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, receptores Enigma2 y ordenadores con Windows, macOS o Linux. Las aplicaciones recomendadas son TiviMate por su interfaz de televisión, IPTV Smarters Pro por su sencillez, IBO Player y VLC para uso puntual. Tus credenciales no están atadas a un aparato concreto." },
+    { h: "Dejar tu operador sin quedarte sin nada", p: "El orden importa, porque los contratos franceses suelen incluir un preaviso y a veces una permanencia pendiente. Activa primero la prueba gratuita de 24 horas y compruébala durante una jornada de Ligue 1, no un martes por la mañana. Si convence, contrata un mes y convive unas semanas con tu servicio actual. Solo entonces cursa la baja, revisando las condiciones y devolviendo la box dentro del plazo para evitar cargos por material no retornado." },
+    { h: "Precios y condiciones", p: "Cuatro duraciones: 15 € por un mes, 30 € por tres, 50 € por seis y 60 € por doce, es decir 5 €/mes. Los cuatro planes incluyen el mismo catálogo de 66.000+ canales, 4.200 deportivos, 70.000 películas y 18.000 series en 4K/8K, con soporte 24/7. Sin permanencia y sin renovación automática: el acceso caduca solo y decides tú si vuelves. Garantía de devolución de 7 días desde la compra." },
+  ],
+  faq: [
+    { q: "¿Puedo ver la Ligue 1?", a: "Sí. Los 4.200 canales deportivos cubren la Ligue 1, la Ligue 2, la Coupe de France y las competiciones europeas de clubes, incluidos en cualquier plan sin coste adicional." },
+    { q: "¿Hay rugby y Roland-Garros?", a: "Sí. Top 14, Six Nations, Roland-Garros y la temporada de tierra batida, además del Tour de France y el balonmano, dentro del mismo acceso." },
+    { q: "¿Cuánto ahorro frente a mi operador?", a: "Un hogar con fútbol y cine paga varias decenas de euros al mes sumando paquete, plataforma deportiva y alquiler de box. El plan anual cuesta 60 €, es decir 5 €/mes." },
+    { q: "¿Funciona con ADSL?", a: "Sí, en HD, que necesita unos 10 Mbps estables. Para 4K hacen falta 25 Mbps, así que con ADSL justo conviene quedarse en HD en lugar de forzar la resolución." },
+    { q: "¿Puedo ver canales franceses desde el extranjero?", a: "Sí. Las mismas credenciales funcionan desde cualquier país con conexión, sin cambiar de plan ni pagar un suplemento." },
+  ],
+  cta: "Empezar en Francia",
+};
+
+content["iptv-france"].it = {
+  metaTitle: "IPTV Francia — Ligue 1 e canali francesi in 4K",
+  metaDesc:
+    "IPTV in Francia: Ligue 1, Top 14, Roland-Garros e canali francesi in 4K, più 70.000 film. Senza contratto né decoder, da 5 €/mese.",
+  eyebrow: "IPTV Francia · Ligue 1",
+  h1: "IPTV in Francia",
+  h1Accent: "Ligue 1 e canali francesi",
+  intro:
+    "Canali francesi, Ligue 1, Top 14 e Roland-Garros in un solo accesso, con 70.000 film e 18.000 serie in 4K. Senza vincoli né decoder a noleggio: attivo in cinque minuti da 5 €/mese.",
+  features: [
+    { h: "Canali francesi", p: "Generalisti, informazione 24 h, documentari e programmi per bambini." },
+    { h: "Ligue 1 ed Europa", p: "Più Champions League, Europa League e grandi campionati europei." },
+    { h: "Rugby e tennis", p: "Top 14, Sei Nazioni e Roland-Garros durante la stagione sulla terra." },
+    { h: "Senza vincoli", p: "Né contratto da 12 o 24 mesi né preavviso da ricordare." },
+  ],
+  sections: [
+    { h: "Cosa copre l'IPTV in Francia", p: "Il mercato francese divide i diritti sportivi tra più operatori e piattaforme, così che seguire l'intera Ligue 1 insieme alle competizioni europee richiede di norma più di un abbonamento. Un abbonamento ATV Corner riunisce i canali generalisti francesi, l'informazione ventiquattr'ore, i documentari e la programmazione per bambini insieme a oltre 66.000 canali internazionali, in un unico accesso." },
+    { h: "Il calcio francese ed europeo", p: "La Ligue 1 e la Ligue 2, la Coupe de France, e le competizioni europee per club con Champions League ed Europa League. A questi si aggiungono i maggiori campionati continentali — Premier League, LaLiga, Serie A e Bundesliga — che nell'offerta francese tradizionale richiedono di solito un servizio a parte. I nostri 4.200 canali sportivi sono inclusi in qualsiasi piano, senza opzione sport fatturata separatamente." },
+    { h: "Rugby, tennis e ciclismo", p: "Lo sport francese va ben oltre il calcio e lì un catalogo ampio si fa sentire. Troverai il Top 14 e il Sei Nazioni di rugby, il Roland-Garros e la stagione sulla terra battuta, il Tour de France e le classiche del ciclismo, la pallamano dove la Francia è una potenza, e le gare di durata come la 24 Ore di Le Mans. Sono gli sport che in un pacchetto convenzionale risultano dispersi tra canali a pagamento diversi." },
+    { h: "Quanto paghi oggi", p: "Una famiglia francese che vuole calcio e cinema paga abitualmente diverse decine di euro al mese, sommando il pacchetto dell'operatore, una piattaforma sportiva aggiuntiva per le partite che quello non copre, e il noleggio della box. A questo si aggiunge la tariffa promozionale che sale dopo dodici mesi. Un piano annuale ATV Corner costa 60 €, cioè 5 €/mese, con lo sport incluso e nessun apparecchio da restituire." },
+    { h: "Fuori dalle grandi città", p: "La copertura in fibra in Francia è avanzata molto ma resta disomogenea, e nelle zone rurali molte abitazioni dipendono ancora dall'ADSL o da soluzioni intermedie. L'IPTV arriva via internet, quindi non dipende dall'installazione della box di un operatore specifico a casa tua, ma richiede che la linea regga. Con un ADSL al limite conviene restare in HD, che necessita di circa 10 Mbps stabili, invece di forzare il 4K." },
+    { h: "Guardare canali francesi dall'estero", p: "Le stesse credenziali funzionano da qualsiasi paese con una connessione internet. È un uso abituale tra francesi espatriati e tra chi passa lunghi periodi fuori, che vogliono seguire i telegiornali e la Ligue 1 nella propria lingua senza dipendere da quale operatore locale abbia accordi con le emittenti francesi. Non serve cambiare piano né pagare un supplemento per guardarlo fuori dalla Francia." },
+    { h: "Quale connessione serve", p: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sul televisore su cui guarderai e non sul router. La parola decisiva è stabili: una linea che in media va forte ma cala di frequente darà un risultato peggiore di un'altra più modesta e costante. Se il televisore è lontano dalla box, un cavo Ethernet o un adattatore CPL migliora la stabilità più di qualsiasi impostazione dentro l'app." },
+    { h: "Su quali dispositivi funziona", p: "Smart TV Samsung, LG e Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad, Android, MAG Box, ricevitori Enigma2 e computer con Windows, macOS o Linux. Le app consigliate sono TiviMate per l'interfaccia da televisore, IPTV Smarters Pro per la semplicità, IBO Player e VLC per un uso occasionale. Le tue credenziali non sono legate a un apparecchio specifico." },
+    { h: "Lasciare l'operatore senza restare senza nulla", p: "L'ordine conta, perché i contratti francesi prevedono di norma un preavviso e talvolta un vincolo ancora attivo. Attiva prima la prova gratuita di 24 ore e verificala durante una giornata di Ligue 1, non un martedì mattina. Se convince, acquista un mese e convivi qualche settimana con il servizio attuale. Solo allora invia la disdetta, controllando le condizioni e restituendo la box entro i termini per evitare addebiti per materiale non reso." },
+    { h: "Prezzi e condizioni", p: "Quattro durate: 15 € per un mese, 30 € per tre, 50 € per sei e 60 € per dodici, cioè 5 €/mese. Tutti e quattro i piani includono lo stesso catalogo di 66.000+ canali, 4.200 sportivi, 70.000 film e 18.000 serie in 4K/8K, con assistenza 24/7. Senza vincoli e senza rinnovo automatico: l'accesso scade da solo e sei tu a decidere se tornare. Garanzia di rimborso di 7 giorni dall'acquisto." },
+  ],
+  faq: [
+    { q: "Posso guardare la Ligue 1?", a: "Sì. I 4.200 canali sportivi coprono Ligue 1, Ligue 2, Coupe de France e competizioni europee per club, inclusi in qualsiasi piano senza costi aggiuntivi." },
+    { q: "Ci sono rugby e Roland-Garros?", a: "Sì. Top 14, Sei Nazioni, Roland-Garros e la stagione sulla terra battuta, oltre al Tour de France e alla pallamano, nello stesso accesso." },
+    { q: "Quanto risparmio rispetto al mio operatore?", a: "Una famiglia con calcio e cinema paga diverse decine di euro al mese sommando pacchetto, piattaforma sportiva e noleggio della box. Il piano annuale costa 60 €, cioè 5 €/mese." },
+    { q: "Funziona con l'ADSL?", a: "Sì, in HD, che richiede circa 10 Mbps stabili. Per il 4K servono 25 Mbps, quindi con un ADSL al limite conviene restare in HD invece di forzare la risoluzione." },
+    { q: "Posso guardare canali francesi dall'estero?", a: "Sì. Le stesse credenziali funzionano da qualsiasi paese con una connessione, senza cambiare piano né pagare un supplemento." },
+  ],
+  cta: "Inizia in Francia",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
