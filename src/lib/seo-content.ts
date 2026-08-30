@@ -4381,6 +4381,80 @@ content["iptv-roku"].it = {
   cta: "Prova sul mio Roku",
 };
 
+// --- es/it for /iptv-apple-tv -----------------------------------------------
+content["iptv-apple-tv"].es = {
+  metaTitle: "IPTV en Apple TV — App Store, sin jailbreak, en 5 minutos",
+  metaDesc:
+    "Instala IPTV en Apple TV desde la App Store, sin jailbreak: 66.000+ canales en 4K con Smarters o IBO Player. Guía paso a paso y prueba gratis de 24 h.",
+  eyebrow: "Apple TV · Sin jailbreak",
+  h1: "IPTV en Apple TV",
+  h1Accent: "directo desde la App Store",
+  intro:
+    "No hace falta jailbreak ni trucos: las aplicaciones IPTV están en la App Store de tvOS. Con ATV Corner accedes a 66.000+ canales en 4K desde 5 €/mes, configurado en menos de cinco minutos con el mando.",
+  features: [
+    { h: "Desde la App Store", p: "Aplicaciones oficiales en tvOS, sin jailbreak ni sideload." },
+    { h: "4K con HEVC", p: "El Apple TV 4K decodifica H.265 por hardware, sin tirones." },
+    { h: "Teclado del iPhone", p: "Escribe las credenciales desde el móvil en lugar del mando." },
+    { h: "Ethernet integrado", p: "Los modelos con puerto de red eliminan el problema del Wi-Fi." },
+  ],
+  sections: [
+    { h: "Por qué el Apple TV va tan bien con IPTV", p: "Es, en potencia bruta, el mejor reproductor doméstico para IPTV. Su procesador decodifica HEVC/H.265 por hardware sin despeinarse, tiene memoria de sobra para cargar catálogos de decenas de miles de canales, y el sistema no interrumpe la reproducción con notificaciones ni sugerencias. A eso se suma que los modelos superiores incluyen puerto Ethernet, que es la mejora individual con más impacto sobre la estabilidad de cualquier emisión en directo." },
+    { h: "Qué aplicaciones usar", p: "IPTV Smarters Pro está en la App Store de tvOS y es la más sencilla de configurar. IBO Player es la otra opción sólida, con una interfaz algo más cuidada para la videoteca. TiviMate, que es la referencia en Android TV, no existe en tvOS: si vienes de un Fire TV Stick, ese es el cambio que notarás. Todas se instalan como cualquier otra aplicación, buscándolas por nombre en la tienda, sin jailbreak ni procedimientos raros." },
+    { h: "Instalar y configurar", p: "Abre la App Store en el Apple TV, busca la aplicación por su nombre e instálala. Al abrirla, elige el acceso mediante Xtream Codes e introduce la URL del servidor, el usuario y la contraseña que te enviamos por WhatsApp. Si prefieres M3U, pega la URL única. El catálogo tarda entre unos segundos y un minuto en cargarse la primera vez, y a partir de ahí los canales aparecen organizados por categorías." },
+    { h: "El truco del teclado del iPhone", p: "Escribir una URL larga con el mando del Apple TV es tedioso, pero hay una solución que mucha gente desconoce. Cuando aparece un campo de texto en pantalla, el iPhone o el iPad conectados a la misma cuenta muestran una notificación que convierte el móvil en teclado. Puedes pegar directamente desde el portapapeles, así que copiar las credenciales del mensaje de WhatsApp y pegarlas en el televisor lleva segundos en lugar de minutos." },
+    { h: "Ajustes que mejoran el resultado", p: "En la aplicación, activa la decodificación por hardware si aparece como opción y ajusta el búfer a un valor medio. En los ajustes del Apple TV, fija la salida de vídeo a la resolución real de tu televisor en lugar de dejarla en automático, porque el cambio de modo entre canales introduce esperas de un par de segundos cada vez. Y desactiva el protector de pantalla agresivo, que puede saltar durante una emisión con poco movimiento." },
+    { h: "Ethernet frente a Wi-Fi", p: "Si tu modelo tiene puerto de red, úsalo. Es la recomendación más aburrida y también la más eficaz: elimina de un golpe la mayor parte de los cortes que la gente atribuye al proveedor. El Wi-Fi del Apple TV es bueno, pero sigue compitiendo con el resto de los dispositivos de la casa y se degrada en horario punta, que es justo cuando estás viendo un partido. Si no puedes cablear, al menos usa la banda de 5 GHz." },
+    { h: "Qué conexión necesitas", p: "Unos 10 Mbps estables para HD y 25 Mbps para 4K, medidos en el propio Apple TV y no en el router. La palabra importante sigue siendo estables: una línea que promedia mucho pero cae con frecuencia dará peor resultado que otra más modesta y constante. Los modelos 4K aprovechan HEVC por hardware, así que consumen menos ancho de banda del que cabría esperar para la calidad que muestran." },
+    { h: "Problemas frecuentes", p: "Si la aplicación no acepta las credenciales, revisa que no se haya colado un espacio al pegarlas, que es el fallo más habitual. Si los canales cortan pese a una buena conexión, pasa a Ethernet antes de tocar cualquier otra cosa. Si la guía aparece vacía y usas M3U, falta la URL EPG, que se añade en un campo separado. Y si la aplicación se cierra al abrirla, desinstálala y vuelve a instalarla: en tvOS no hay opción de borrar caché por separado." },
+    { h: "Probarlo antes de pagar", p: "La prueba gratuita de 24 horas no pide tarjeta de crédito y permite hacer la instalación completa en tu propio Apple TV. Actívala en horario punta y comprueba que tus canales estén, que la guía se rellene y que la imagen aguante diez minutos seguidos de contenido con movimiento rápido. Si te convence, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Necesito jailbreak para ver IPTV en Apple TV?", a: "No. IPTV Smarters Pro e IBO Player están en la App Store de tvOS y se instalan como cualquier otra aplicación, buscándolas por nombre." },
+    { q: "¿Está TiviMate en Apple TV?", a: "No. TiviMate solo existe en Android TV y Fire TV. En tvOS las opciones son IPTV Smarters Pro e IBO Player, ambas compatibles con nuestras credenciales." },
+    { q: "¿Cómo escribo las credenciales sin pelearme con el mando?", a: "Cuando aparece un campo de texto, el iPhone o iPad de la misma cuenta muestran una notificación que convierte el móvil en teclado, con opción de pegar desde el portapapeles." },
+    { q: "¿Por qué se corta la imagen?", a: "Casi siempre por el Wi-Fi. Si tu modelo tiene puerto Ethernet, conéctalo por cable: es la mejora individual con más impacto sobre la estabilidad." },
+    { q: "¿Qué modelo de Apple TV conviene?", a: "Cualquiera funciona, pero los modelos 4K decodifican HEVC/H.265 por hardware y los que incluyen puerto Ethernet eliminan la variable del Wi-Fi." },
+  ],
+  cta: "Activar en mi Apple TV",
+};
+
+content["iptv-apple-tv"].it = {
+  metaTitle: "IPTV su Apple TV — App Store, senza jailbreak, in 5 minuti",
+  metaDesc:
+    "Installa l'IPTV su Apple TV dall'App Store, senza jailbreak: 66.000+ canali in 4K con Smarters o IBO Player. Guida passo passo e prova gratuita di 24 h.",
+  eyebrow: "Apple TV · Senza jailbreak",
+  h1: "IPTV su Apple TV",
+  h1Accent: "direttamente dall'App Store",
+  intro:
+    "Non servono jailbreak né trucchi: le app IPTV sono nell'App Store di tvOS. Con ATV Corner accedi a 66.000+ canali in 4K da 5 €/mese, configurato in meno di cinque minuti con il telecomando.",
+  features: [
+    { h: "Dall'App Store", p: "App ufficiali su tvOS, senza jailbreak né sideload." },
+    { h: "4K con HEVC", p: "L'Apple TV 4K decodifica l'H.265 via hardware, senza scatti." },
+    { h: "Tastiera dell'iPhone", p: "Digita le credenziali dal telefono invece che dal telecomando." },
+    { h: "Ethernet integrata", p: "I modelli con porta di rete eliminano il problema del Wi-Fi." },
+  ],
+  sections: [
+    { h: "Perché l'Apple TV va così bene con l'IPTV", p: "È, in potenza bruta, il miglior lettore domestico per l'IPTV. Il suo processore decodifica l'HEVC/H.265 via hardware senza sforzo, ha memoria in abbondanza per caricare cataloghi da decine di migliaia di canali, e il sistema non interrompe la riproduzione con notifiche o suggerimenti. A questo si aggiunge che i modelli superiori includono una porta Ethernet, che è il singolo miglioramento con più impatto sulla stabilità di qualsiasi trasmissione in diretta." },
+    { h: "Quali app usare", p: "IPTV Smarters Pro è nell'App Store di tvOS ed è la più semplice da configurare. IBO Player è l'altra opzione solida, con un'interfaccia un po' più curata per la videoteca. TiviMate, che è il riferimento su Android TV, non esiste su tvOS: se arrivi da un Fire TV Stick, è questo il cambiamento che noterai. Tutte si installano come qualsiasi altra app, cercandole per nome nello store, senza jailbreak né procedure strane." },
+    { h: "Installare e configurare", p: "Apri l'App Store sull'Apple TV, cerca l'app per nome e installala. All'apertura, scegli l'accesso tramite Xtream Codes e inserisci URL del server, nome utente e password che ti inviamo su WhatsApp. Se preferisci l'M3U, incolla l'URL unico. Il catalogo impiega da pochi secondi a un minuto a caricarsi la prima volta, e da lì in poi i canali compaiono organizzati per categorie." },
+    { h: "Il trucco della tastiera dell'iPhone", p: "Digitare un URL lungo con il telecomando dell'Apple TV è noioso, ma c'è una soluzione che in molti non conoscono. Quando compare un campo di testo sullo schermo, l'iPhone o l'iPad collegati allo stesso account mostrano una notifica che trasforma il telefono in tastiera. Puoi incollare direttamente dagli appunti, quindi copiare le credenziali dal messaggio WhatsApp e incollarle sul televisore richiede secondi invece di minuti." },
+    { h: "Impostazioni che migliorano il risultato", p: "Nell'app, attiva la decodifica hardware se compare come opzione e regola il buffer su un valore medio. Nelle impostazioni dell'Apple TV, fissa l'uscita video alla risoluzione reale del tuo televisore invece di lasciarla in automatico, perché il cambio di modalità tra canali introduce attese di un paio di secondi ogni volta. E disattiva il salvaschermo aggressivo, che può attivarsi durante una trasmissione con poco movimento." },
+    { h: "Ethernet contro Wi-Fi", p: "Se il tuo modello ha la porta di rete, usala. È il consiglio più noioso e anche il più efficace: elimina in un colpo la maggior parte delle interruzioni che le persone attribuiscono al fornitore. Il Wi-Fi dell'Apple TV è buono, ma compete comunque con gli altri dispositivi di casa e si degrada nelle ore di punta, che è esattamente quando stai guardando una partita. Se non puoi cablare, usa almeno la banda a 5 GHz." },
+    { h: "Quale connessione serve", p: "Circa 10 Mbps stabili per l'HD e 25 Mbps per il 4K, misurati sull'Apple TV stesso e non sul router. La parola che conta resta stabili: una linea che in media va forte ma cala di frequente darà un risultato peggiore di un'altra più modesta e costante. I modelli 4K sfruttano l'HEVC via hardware, quindi consumano meno banda di quanto ci si aspetterebbe per la qualità che mostrano." },
+    { h: "Problemi frequenti", p: "Se l'app non accetta le credenziali, controlla che non si sia infilato uno spazio incollandole, che è l'errore più comune. Se i canali si interrompono nonostante una buona connessione, passa all'Ethernet prima di toccare qualsiasi altra cosa. Se la guida risulta vuota e usi l'M3U, manca l'URL EPG, da aggiungere in un campo separato. E se l'app si chiude all'avvio, disinstallala e reinstallala: su tvOS non esiste un'opzione separata per svuotare la cache." },
+    { h: "Guardare su più schermi di casa", p: "Le credenziali non sono legate a un singolo apparecchio, quindi lo stesso abbonamento funziona sull'Apple TV del salotto, su un iPhone e su un iPad senza acquistare nulla di aggiuntivo. È comodo per le partite in contemporanea: lasci l'incontro principale sul televisore e segui il secondo sul tablet. L'unica cosa da pianificare in anticipo è il numero di connessioni simultanee incluse nel tuo piano, che conta soltanto quando più persone guardano canali diversi nello stesso momento. Se non sei sicuro di quante te ne servano, chiedicelo prima dell'acquisto e lo risolviamo in un messaggio." },
+    { h: "Provarlo prima di pagare", p: "La prova gratuita di 24 ore non richiede carta di credito e permette di eseguire l'installazione completa sul tuo Apple TV. Attivala in orario di punta e verifica che i tuoi canali ci siano, che la guida si popoli e che l'immagine regga dieci minuti consecutivi di contenuto con movimento rapido. Se ti convince, l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni." },
+  ],
+  faq: [
+    { q: "Serve il jailbreak per l'IPTV su Apple TV?", a: "No. IPTV Smarters Pro e IBO Player sono nell'App Store di tvOS e si installano come qualsiasi altra app, cercandole per nome." },
+    { q: "TiviMate è disponibile su Apple TV?", a: "No. TiviMate esiste solo su Android TV e Fire TV. Su tvOS le opzioni sono IPTV Smarters Pro e IBO Player, entrambe compatibili con le nostre credenziali." },
+    { q: "Come digito le credenziali senza combattere col telecomando?", a: "Quando compare un campo di testo, l'iPhone o l'iPad dello stesso account mostrano una notifica che trasforma il telefono in tastiera, con l'opzione di incollare dagli appunti." },
+    { q: "Perché l'immagine si interrompe?", a: "Quasi sempre per il Wi-Fi. Se il tuo modello ha la porta Ethernet, collegalo via cavo: è il singolo miglioramento con più impatto sulla stabilità." },
+    { q: "Quale modello di Apple TV conviene?", a: "Funzionano tutti, ma i modelli 4K decodificano l'HEVC/H.265 via hardware e quelli con porta Ethernet eliminano la variabile Wi-Fi." },
+  ],
+  cta: "Attiva sul mio Apple TV",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
