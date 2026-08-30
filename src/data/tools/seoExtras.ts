@@ -1223,6 +1223,44 @@ export const teamExtras: Record<string, LocalizedExtras> = {
         { label: "Fu\u00dfball in Spanien", href: "/tools/in/spain" },
       ],
     },
+    es: {
+      intro: "El Real Madrid CF, el club más laureado de la historia del fútbol europeo con 15 Champions League y 35 títulos de LaLiga, arrastra a cientos de millones de aficionados en todo el mundo. Seguir todos sus partidos —LaLiga, Copa del Rey, Supercopa, Champions League y Mundial de Clubes— desde fuera de España exigiría combinar Movistar+, BT Sports, Canal+ y DAZN. ATV Corner reúne todas las señales por 15 € al mes.",
+      sections: [
+        { h2: "Dónde ver al Real Madrid en directo en Europa", body: "Todos los partidos del Real Madrid en el Santiago Bernabéu (81.000 asientos, remodelado en 2024) se emiten en Movistar LaLiga en España, beIN Sports en Francia, DAZN en Alemania e Italia y Sky en el Reino Unido. ATV Corner agrega esas señales: partidos en casa, fuera, El Clásico, Champions League, Copa del Rey, Supercopa y Mundial de Clubes de la FIFA. El 100 % de la temporada en HD/4K." },
+        { h2: "Las estrellas del Real Madrid 2025/2026", body: "Kylian Mbappé, Vinícius Júnior, Jude Bellingham, Federico Valverde, Rodrygo, Aurélien Tchouaméni, Eduardo Camavinga, Antonio Rüdiger y Thibaut Courtois. En el banquillo, Carlo Ancelotti y después Xabi Alonso. ATV Corner sigue a cada estrella con la multicámara del Bernabéu, de 16 cámaras." },
+        { h2: "El Clásico entre Real Madrid y FC Barcelona", body: "El Clásico enfrenta al Real Madrid y al FC Barcelona dos veces por temporada de LaLiga, y potencialmente también en la Copa del Rey y la Supercopa. Más de 600 millones de espectadores en el mundo, ocho ángulos de cámara, cuatro idiomas de comentarios y 4K HDR con Dolby Vision de forma sistemática en ATV Corner." },
+      ],
+      extraFaq: [
+        { q: "¿Están incluidos todos los partidos del Real Madrid?", a: "Sí: LaLiga (38), Copa del Rey (variable), Supercopa, Champions League (10 como mínimo) y Mundial de Clubes de la FIFA." },
+        { q: "¿Está incluido el canal oficial Real Madrid TV?", a: "Sí, Real Madrid TV está agregado en ATV Corner, con noticias, entrevistas y partidos de las categorías inferiores." },
+        { q: "¿El Bernabéu en 4K HDR?", a: "Sí, todos los partidos del Real Madrid como local en el Santiago Bernabéu se emiten en 4K HDR con Dolby Vision en ATV Corner." },
+      ],
+      related: [
+        { label: "Ver LaLiga", href: "/tools/watch/la-liga" },
+        { label: "Ver al Barcelona", href: "/tools/team/barcelona" },
+        { label: "Champions League", href: "/tools/watch/champions-league" },
+        { label: "Fútbol en España", href: "/tools/in/spain" },
+      ],
+    },
+    it: {
+      intro: "Il Real Madrid CF, il club più titolato della storia del calcio europeo con 15 Champions League e 35 titoli di LaLiga, attira centinaia di milioni di tifosi in tutto il mondo. Seguire tutte le sue partite — LaLiga, Copa del Rey, Supercopa, Champions League e Mondiale per club — dall'estero richiederebbe di combinare Movistar+, BT Sports, Canal+ e DAZN. ATV Corner riunisce tutti i segnali per 15 € al mese.",
+      sections: [
+        { h2: "Dove guardare il Real Madrid in diretta in Europa", body: "Tutte le partite del Real Madrid al Santiago Bernabéu (81.000 posti, ristrutturato nel 2024) vengono trasmesse su Movistar LaLiga in Spagna, beIN Sports in Francia, DAZN in Germania e Italia e Sky nel Regno Unito. ATV Corner aggrega questi segnali: partite in casa, in trasferta, Clásico, Champions League, Copa del Rey, Supercopa e Mondiale per club FIFA. Il 100 % della stagione in HD/4K." },
+        { h2: "Le stelle del Real Madrid 2025/2026", body: "Kylian Mbappé, Vinícius Júnior, Jude Bellingham, Federico Valverde, Rodrygo, Aurélien Tchouaméni, Eduardo Camavinga, Antonio Rüdiger e Thibaut Courtois. In panchina Carlo Ancelotti e poi Xabi Alonso. ATV Corner segue ogni stella con la multicamera del Bernabéu, a 16 telecamere." },
+        { h2: "Il Clásico tra Real Madrid e FC Barcellona", body: "Il Clásico mette di fronte Real Madrid e FC Barcellona due volte a stagione in LaLiga, e potenzialmente anche in Copa del Rey e Supercopa. Oltre 600 milioni di spettatori nel mondo, otto angolazioni di camera, quattro lingue di telecronaca e 4K HDR con Dolby Vision in modo sistematico su ATV Corner." },
+      ],
+      extraFaq: [
+        { q: "Sono incluse tutte le partite del Real Madrid?", a: "Sì: LaLiga (38), Copa del Rey (variabile), Supercopa, Champions League (almeno 10) e Mondiale per club FIFA." },
+        { q: "È incluso il canale ufficiale Real Madrid TV?", a: "Sì, Real Madrid TV è aggregato su ATV Corner, con notizie, interviste e partite delle giovanili." },
+        { q: "Il Bernabéu in 4K HDR?", a: "Sì, tutte le partite casalinghe del Real Madrid al Santiago Bernabéu vanno in onda in 4K HDR con Dolby Vision su ATV Corner." },
+      ],
+      related: [
+        { label: "Guarda LaLiga", href: "/tools/watch/la-liga" },
+        { label: "Guarda il Barcellona", href: "/tools/team/barcelona" },
+        { label: "Champions League", href: "/tools/watch/champions-league" },
+        { label: "Calcio in Spagna", href: "/tools/in/spain" },
+      ],
+    },
   },
   "manchester-united": {
     fr: {
@@ -1276,6 +1314,40 @@ export const teamExtras: Record<string, LocalizedExtras> = {
         { label: "Arsenal live", href: "/tools/team/arsenal" },
       ],
     },
+    es: {
+      intro: "El Manchester United FC, el club más laureado de Inglaterra con 20 títulos de Premier League y 3 Champions League, juega en Old Trafford (74.000 asientos, el Teatro de los Sueños). Seguir todos sus partidos desde fuera de Inglaterra exigiría Sky Sports UK más Canal+ o DAZN, más una suscripción para la Europa League. ATV Corner lo reúne todo por 15 € al mes.",
+      sections: [
+        { h2: "Old Trafford, en Sir Matt Busby Way", body: "Old Trafford acoge los partidos del Manchester United de Premier League, FA Cup, Carabao Cup y competiciones europeas. 74.000 asientos y un ambiente legendario, con multicámara de ATV Corner en la tribuna central, el Stretford End y la Sir Bobby Charlton Stand. Todos los partidos como local en 4K HDR." },
+        { h2: "Las estrellas del Manchester United 2025/2026", body: "Bruno Fernandes (capitán), Marcus Rashford, Casemiro, Lisandro Martínez, Harry Maguire, Mason Mount, Antony, Alejandro Garnacho, Rasmus Højlund y André Onana. En el banquillo, Erik ten Hag y después Rúben Amorim. ATV Corner sigue a cada jugador con multicámara." },
+        { h2: "El derbi de Manchester y el del noroeste", body: "El derbi de Manchester (United contra City), el del noroeste (United contra Liverpool), el de las Rosas (United contra Leeds) y la Batalla de Gran Bretaña (United contra Celtic o Rangers en Champions). Todos en 4K HDR con Dolby Vision en ATV Corner, con multicámara y cuatro idiomas de comentarios." },
+      ],
+      extraFaq: [
+        { q: "¿Están todos los partidos del United en 4K?", a: "Sí, los encuentros en Old Trafford y los de fuera emitidos por Sky Sports UK se ofrecen sistemáticamente en 4K HDR con HDR10+ en ATV Corner." },
+        { q: "¿Está incluido MUTV, el canal oficial del club?", a: "Sí, MUTV está agregado, con entrevistas, partidos del sub-21 y archivos históricos (las finales de 1968, 1999 y 2008)." },
+      ],
+      related: [
+        { label: "Premier League en directo", href: "/tools/watch/premier-league" },
+        { label: "Ver al Liverpool", href: "/tools/team/liverpool" },
+        { label: "Ver al Arsenal", href: "/tools/team/arsenal" },
+      ],
+    },
+    it: {
+      intro: "Il Manchester United FC, il club più titolato d'Inghilterra con 20 titoli di Premier League e 3 Champions League, gioca a Old Trafford (74.000 posti, il Teatro dei Sogni). Seguire tutte le sue partite dall'estero richiederebbe Sky Sports UK più Canal+ o DAZN, più un abbonamento per l'Europa League. ATV Corner riunisce tutto per 15 € al mese.",
+      sections: [
+        { h2: "Old Trafford, in Sir Matt Busby Way", body: "Old Trafford ospita le partite del Manchester United di Premier League, FA Cup, Carabao Cup e competizioni europee. 74.000 posti e un'atmosfera leggendaria, con la multicamera di ATV Corner sulla tribuna centrale, sullo Stretford End e sulla Sir Bobby Charlton Stand. Tutte le partite casalinghe in 4K HDR." },
+        { h2: "Le stelle del Manchester United 2025/2026", body: "Bruno Fernandes (capitano), Marcus Rashford, Casemiro, Lisandro Martínez, Harry Maguire, Mason Mount, Antony, Alejandro Garnacho, Rasmus Højlund e André Onana. In panchina Erik ten Hag e poi Rúben Amorim. ATV Corner segue ogni giocatore con la multicamera." },
+        { h2: "Il derby di Manchester e quello del nord-ovest", body: "Il derby di Manchester (United contro City), quello del nord-ovest (United contro Liverpool), quello delle Rose (United contro Leeds) e la Battaglia di Gran Bretagna (United contro Celtic o Rangers in Champions). Tutti in 4K HDR con Dolby Vision su ATV Corner, con multicamera e quattro lingue di telecronaca." },
+      ],
+      extraFaq: [
+        { q: "Tutte le partite dello United sono in 4K?", a: "Sì, gli incontri a Old Trafford e quelli in trasferta trasmessi da Sky Sports UK sono sistematicamente in 4K HDR con HDR10+ su ATV Corner." },
+        { q: "È incluso MUTV, il canale ufficiale del club?", a: "Sì, MUTV è aggregato, con interviste, partite dell'under 21 e archivi storici (le finali del 1968, 1999 e 2008)." },
+      ],
+      related: [
+        { label: "Premier League in diretta", href: "/tools/watch/premier-league" },
+        { label: "Guarda il Liverpool", href: "/tools/team/liverpool" },
+        { label: "Guarda l'Arsenal", href: "/tools/team/arsenal" },
+      ],
+    },
   },
   "barcelona": {
     fr: {
@@ -1327,6 +1399,40 @@ export const teamExtras: Record<string, LocalizedExtras> = {
         { label: "LaLiga", href: "/tools/watch/la-liga" },
         { label: "Real Madrid", href: "/tools/team/real-madrid" },
         { label: "Fu\u00dfball in Spanien", href: "/tools/in/spain" },
+      ],
+    },
+    es: {
+      intro: "El FC Barcelona, con 27 títulos de LaLiga y 5 Champions League, juega en el Camp Nou (en obras, con vuelta prevista en 2025/26) o temporalmente en Montjuïc. Seguir al Barça al completo desde fuera de España exigiría Movistar LaLiga, beIN Sports y DAZN. ATV Corner lo reúne todo por 15 € al mes.",
+      sections: [
+        { h2: "Camp Nou y Montjuïc: el Barça en casa", body: "El nuevo Camp Nou (105.000 espectadores de aforo final) acoge al FC Barcelona en LaLiga, la Copa del Rey y la Champions League. ATV Corner emite todos los partidos del Barça en 4K HDR con Dolby Vision y multicámara de 12 cámaras, con comentarios en catalán, español, inglés, francés y árabe." },
+        { h2: "Las estrellas del Barça 2025/2026", body: "Lamine Yamal, Pedri, Gavi, Robert Lewandowski, Raphinha, Frenkie de Jong, Pau Cubarsí, Marc Casadó, Ronald Araújo y Marc-André ter Stegen. En el banquillo, Hansi Flick. ATV Corner sigue a la generación de La Masia con multicámara." },
+        { h2: "El Clásico entre el Barça y el Real Madrid en 4K HDR", body: "El Clásico es la cumbre del fútbol mundial, ya sea en el Camp Nou con el Barça como local o en el Bernabéu con el Real. Más de 600 millones de espectadores. ATV Corner lo emite en 4K HDR con Dolby Vision, multicámara de ocho ángulos y cuatro idiomas de comentarios." },
+      ],
+      extraFaq: [
+        { q: "¿Está incluido Barça TV?", a: "Sí, Barça TV, el canal oficial del FC Barcelona, está agregado con entrevistas, categorías sub-19 y sub-23 y archivos." },
+        { q: "¿Se emiten todos los partidos del Barça femenino?", a: "Sí, la Liga F, donde el equipo femenino del Barça encadena títulos, se emite en ATV Corner." },
+      ],
+      related: [
+        { label: "LaLiga", href: "/tools/watch/la-liga" },
+        { label: "Real Madrid", href: "/tools/team/real-madrid" },
+        { label: "Fútbol en España", href: "/tools/in/spain" },
+      ],
+    },
+    it: {
+      intro: "Il FC Barcellona, con 27 titoli di LaLiga e 5 Champions League, gioca al Camp Nou (in ristrutturazione, con rientro previsto nel 2025/26) o temporaneamente a Montjuïc. Seguire il Barça per intero dall'estero richiederebbe Movistar LaLiga, beIN Sports e DAZN. ATV Corner riunisce tutto per 15 € al mese.",
+      sections: [
+        { h2: "Camp Nou e Montjuïc: il Barça in casa", body: "Il nuovo Camp Nou (105.000 spettatori di capienza finale) ospita il FC Barcellona in LaLiga, Copa del Rey e Champions League. ATV Corner trasmette tutte le partite del Barça in 4K HDR con Dolby Vision e multicamera a 12 telecamere, con telecronaca in catalano, spagnolo, inglese, francese e arabo." },
+        { h2: "Le stelle del Barça 2025/2026", body: "Lamine Yamal, Pedri, Gavi, Robert Lewandowski, Raphinha, Frenkie de Jong, Pau Cubarsí, Marc Casadó, Ronald Araújo e Marc-André ter Stegen. In panchina Hansi Flick. ATV Corner segue la generazione della Masia con la multicamera." },
+        { h2: "Il Clásico tra Barça e Real Madrid in 4K HDR", body: "Il Clásico è il vertice del calcio mondiale, sia al Camp Nou con il Barça in casa sia al Bernabéu con il Real. Oltre 600 milioni di spettatori. ATV Corner lo trasmette in 4K HDR con Dolby Vision, multicamera a otto angolazioni e quattro lingue di telecronaca." },
+      ],
+      extraFaq: [
+        { q: "È incluso Barça TV?", a: "Sì, Barça TV, il canale ufficiale del FC Barcellona, è aggregato con interviste, under 19 e under 23 e archivi." },
+        { q: "Vengono trasmesse tutte le partite del Barça femminile?", a: "Sì, la Liga F, dove la squadra femminile del Barça colleziona titoli, viene trasmessa su ATV Corner." },
+      ],
+      related: [
+        { label: "LaLiga", href: "/tools/watch/la-liga" },
+        { label: "Real Madrid", href: "/tools/team/real-madrid" },
+        { label: "Calcio in Spagna", href: "/tools/in/spain" },
       ],
     },
   },
