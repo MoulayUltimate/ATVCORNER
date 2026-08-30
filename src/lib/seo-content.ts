@@ -4455,6 +4455,79 @@ content["iptv-apple-tv"].it = {
   cta: "Attiva sul mio Apple TV",
 };
 
+// --- es/it for /iptv-android-tv ---------------------------------------------
+content["iptv-android-tv"].es = {
+  metaTitle: "IPTV en Android TV — TiviMate, Shield y Google TV en 5 min",
+  metaDesc:
+    "IPTV en Android TV, box, Nvidia Shield y Google TV: instala TiviMate o Smarters y accede a 66.000+ canales en 4K desde 5 €/mes. Guía y prueba gratis.",
+  eyebrow: "Android TV · TiviMate",
+  h1: "IPTV en Android TV",
+  h1Accent: "la plataforma más abierta",
+  intro:
+    "Android TV es donde el IPTV rinde mejor: permite instalar TiviMate, la mejor aplicación del sector, sin restricciones. Con ATV Corner accedes a 66.000+ canales en 4K desde 5 €/mes, configurado en cinco minutos.",
+  features: [
+    { h: "TiviMate disponible", p: "La mejor interfaz de televisión del sector, exclusiva de Android." },
+    { h: "Sin restricciones", p: "Instala cualquier aplicación, desde Google Play o por APK." },
+    { h: "Todos los aparatos", p: "Box Android, Nvidia Shield, Google TV y televisores Sony, Philips o TCL." },
+    { h: "4K con HEVC", p: "Decodificación por hardware en casi todos los modelos recientes." },
+  ],
+  sections: [
+    { h: "Por qué Android TV es la mejor opción", p: "A diferencia de Roku o tvOS, Android TV deja instalar lo que quieras, y eso importa porque la aplicación IPTV de referencia solo existe aquí. TiviMate ofrece una guía en mosaico como la de un descodificador de operador, gestión de favoritos por grupos, zapeo casi instantáneo y grabación programada. Ninguna aplicación de otra plataforma se le acerca. Si estás eligiendo un aparato con el IPTV en mente, Android TV es la respuesta." },
+    { h: "Qué dispositivo elegir", p: "Un box Android barato funciona, pero suele tener poca memoria, y con catálogos de decenas de miles de canales eso se traduce en esperas al abrir y en cierres inesperados. La Nvidia Shield es el aparato de referencia: potencia sobrada, Ethernet incluido y actualizaciones durante años. Los televisores Sony, Philips y TCL con Google TV integrado van bien y ahorran un mando más. El Chromecast con Google TV es el equilibrio más razonable entre precio y rendimiento." },
+    { h: "Instalar TiviMate", p: "TiviMate está en Google Play, así que basta con buscarla e instalarla como cualquier otra aplicación. La versión gratuita permite una lista y las funciones básicas; la versión premium añade múltiples listas, grabación y personalización de la guía. Para empezar, la gratuita es suficiente para comprobar si te convence. IPTV Smarters Pro e IBO Player son alternativas válidas si prefieres algo más simple de configurar." },
+    { h: "Introducir tus credenciales", p: "En TiviMate, elige «Añadir lista de reproducción» y después «Xtream Codes». Introduce la URL del servidor, el usuario y la contraseña que te enviamos por WhatsApp. La aplicación carga entonces los canales, la guía de programación de varios días y la videoteca con carátulas, algo que suele llevar menos de un minuto. Si prefieres M3U, la opción también está disponible, aunque Xtream Codes carga más rápido y presenta mejor las películas." },
+    { h: "Ajustes que marcan la diferencia", p: "Activa la decodificación por hardware: es el ajuste con más impacto sobre la fluidez. Ajusta el búfer a un valor medio, porque uno bajo corta en conexiones irregulares y uno alto retrasa el zapeo. Configura los grupos de favoritos para tener a mano los veinte canales que ves de verdad. Y en la guía, activa la vista de mosaico con varias horas visibles, que es lo que hace que TiviMate se parezca a un descodificador de operador y no a una lista." },
+    { h: "El teclado, un detalle que ahorra tiempo", p: "Escribir credenciales con el mando es la parte más lenta de cualquier instalación. En Android TV puedes emparejar un teclado Bluetooth, usar la aplicación Google TV en el móvil como mando con teclado, o instalar un gestor de portapapeles. Cualquiera de las tres opciones convierte cinco minutos de escritura torpe en unos segundos, y reduce además el riesgo de introducir mal un carácter y pensar que las credenciales fallan." },
+    { h: "Red: Ethernet siempre que puedas", p: "La Nvidia Shield y la mayoría de los box Android incluyen puerto de red. Úsalo. Es la mejora más eficaz que existe sobre la estabilidad en directo y elimina de un golpe la mayor parte de los cortes que se atribuyen al proveedor. Si tu aparato solo tiene Wi-Fi, un adaptador USB a Ethernet cuesta poco y funciona en casi todos los modelos. En cualquier caso, necesitas 10 Mbps estables para HD y 25 para 4K, medidos en el propio dispositivo." },
+    { h: "Problemas frecuentes", p: "Si la aplicación va lenta al abrir, el aparato se queda corto de memoria: cierra el resto de las aplicaciones o considera un modelo con más RAM. Si la imagen va a tirones con buena conexión, activa la decodificación por hardware. Si la guía aparece incompleta, fuerza una recarga desde los ajustes de la lista. Y si TiviMate se cierra sola, borra su caché desde los ajustes del sistema antes de reinstalar nada, porque suele bastar con eso." },
+    { h: "Probarlo antes de comprar", p: "La prueba gratuita de 24 horas no pide tarjeta de crédito y permite hacer la instalación completa con TiviMate en tu propio aparato. Actívala en horario punta y comprueba que tus canales estén presentes, que la guía se rellene varios días y que la imagen aguante diez minutos seguidos de contenido con movimiento rápido. Después, la suscripción cuesta desde 15 € al mes o 5 €/mes en el plan anual, con garantía de devolución de 7 días." },
+  ],
+  faq: [
+    { q: "¿Qué aplicación es mejor en Android TV?", a: "TiviMate, sin discusión: guía en mosaico, favoritos por grupos y zapeo casi instantáneo. IPTV Smarters Pro e IBO Player son alternativas más sencillas de configurar." },
+    { q: "¿Qué dispositivo Android TV conviene?", a: "La Nvidia Shield es la referencia por potencia y Ethernet. El Chromecast con Google TV es el mejor equilibrio precio-rendimiento. Los box baratos funcionan pero se quedan cortos de memoria." },
+    { q: "¿Puedo instalar aplicaciones fuera de Google Play?", a: "Sí. Android TV permite instalar por APK sin restricciones, a diferencia de Roku o tvOS. Por eso es la plataforma más flexible para IPTV." },
+    { q: "¿Por qué se corta la imagen?", a: "Casi siempre el Wi-Fi. Usa el puerto Ethernet si tu aparato lo tiene, o un adaptador USB a Ethernet, y activa la decodificación por hardware en la aplicación." },
+    { q: "¿TiviMate es de pago?", a: "La versión gratuita permite una lista y las funciones básicas, suficiente para empezar. La premium añade múltiples listas, grabación y personalización de la guía." },
+  ],
+  cta: "Activar en Android TV",
+};
+
+content["iptv-android-tv"].it = {
+  metaTitle: "IPTV su Android TV — TiviMate, Shield e Google TV in 5 min",
+  metaDesc:
+    "IPTV su Android TV, box, Nvidia Shield e Google TV: installa TiviMate o Smarters e accedi a 66.000+ canali in 4K da 5 €/mese. Guida e prova gratuita.",
+  eyebrow: "Android TV · TiviMate",
+  h1: "IPTV su Android TV",
+  h1Accent: "la piattaforma più aperta",
+  intro:
+    "Android TV è dove l'IPTV rende meglio: consente di installare TiviMate, la migliore app del settore, senza restrizioni. Con ATV Corner accedi a 66.000+ canali in 4K da 5 €/mese, configurato in cinque minuti.",
+  features: [
+    { h: "TiviMate disponibile", p: "La migliore interfaccia da televisore del settore, esclusiva Android." },
+    { h: "Senza restrizioni", p: "Installa qualsiasi app, da Google Play o tramite APK." },
+    { h: "Tutti gli apparecchi", p: "Box Android, Nvidia Shield, Google TV e televisori Sony, Philips o TCL." },
+    { h: "4K con HEVC", p: "Decodifica hardware su quasi tutti i modelli recenti." },
+  ],
+  sections: [
+    { h: "Perché Android TV è la scelta migliore", p: "A differenza di Roku o tvOS, Android TV lascia installare ciò che vuoi, e questo conta perché l'app IPTV di riferimento esiste solo qui. TiviMate offre una guida a griglia come quella di un decoder d'operatore, gestione dei preferiti per gruppi, zapping quasi istantaneo e registrazione programmata. Nessuna app di un'altra piattaforma le si avvicina. Se stai scegliendo un apparecchio pensando all'IPTV, Android TV è la risposta." },
+    { h: "Quale dispositivo scegliere", p: "Un box Android economico funziona, ma di solito ha poca memoria, e con cataloghi da decine di migliaia di canali questo si traduce in attese all'apertura e chiusure inattese. La Nvidia Shield è l'apparecchio di riferimento: potenza abbondante, Ethernet inclusa e aggiornamenti per anni. I televisori Sony, Philips e TCL con Google TV integrato vanno bene e risparmiano un telecomando in più. Il Chromecast con Google TV è l'equilibrio più ragionevole tra prezzo e prestazioni." },
+    { h: "Installare TiviMate", p: "TiviMate è su Google Play, quindi basta cercarla e installarla come qualsiasi altra app. La versione gratuita consente una playlist e le funzioni di base; la versione premium aggiunge playlist multiple, registrazione e personalizzazione della guida. Per iniziare, la gratuita è sufficiente a capire se ti convince. IPTV Smarters Pro e IBO Player sono alternative valide se preferisci qualcosa di più semplice da configurare." },
+    { h: "Inserire le credenziali", p: "In TiviMate, scegli «Aggiungi playlist» e poi «Xtream Codes». Inserisci l'URL del server, il nome utente e la password che ti inviamo su WhatsApp. L'app carica quindi i canali, la guida ai programmi su più giorni e la videoteca con le copertine, operazione che richiede di norma meno di un minuto. Se preferisci l'M3U, anche quell'opzione è disponibile, benché Xtream Codes carichi più in fretta e presenti meglio i film." },
+    { h: "Impostazioni che fanno la differenza", p: "Attiva la decodifica hardware: è l'impostazione con più impatto sulla fluidità. Regola il buffer su un valore medio, perché uno basso interrompe su connessioni irregolari e uno alto rallenta lo zapping. Configura i gruppi di preferiti per avere a portata i venti canali che guardi davvero. E nella guida, attiva la vista a griglia con più ore visibili, che è ciò che rende TiviMate simile a un decoder d'operatore e non a un semplice elenco." },
+    { h: "La tastiera, un dettaglio che fa risparmiare tempo", p: "Digitare le credenziali con il telecomando è la parte più lenta di qualsiasi installazione. Su Android TV puoi abbinare una tastiera Bluetooth, usare l'app Google TV sul telefono come telecomando con tastiera, oppure installare un gestore degli appunti. Ognuna delle tre opzioni trasforma cinque minuti di digitazione goffa in pochi secondi, e riduce inoltre il rischio di sbagliare un carattere e credere che le credenziali non funzionino." },
+    { h: "Rete: Ethernet ogni volta che puoi", p: "La Nvidia Shield e la maggior parte dei box Android includono una porta di rete. Usala. È il miglioramento più efficace che esista sulla stabilità in diretta ed elimina di colpo gran parte delle interruzioni che vengono attribuite al fornitore. Se il tuo apparecchio ha solo il Wi-Fi, un adattatore da USB a Ethernet costa poco e funziona su quasi tutti i modelli. In ogni caso servono 10 Mbps stabili per l'HD e 25 per il 4K, misurati sul dispositivo stesso." },
+    { h: "Problemi frequenti", p: "Se l'app è lenta all'apertura, l'apparecchio è a corto di memoria: chiudi le altre app o valuta un modello con più RAM. Se l'immagine scatta con una buona connessione, attiva la decodifica hardware. Se la guida risulta incompleta, forza un ricaricamento dalle impostazioni della playlist. E se TiviMate si chiude da sola, svuota la sua cache dalle impostazioni di sistema prima di reinstallare qualsiasi cosa, perché di norma è sufficiente." },
+    { h: "Provarlo prima di comprare", p: "La prova gratuita di 24 ore non richiede carta di credito e permette di eseguire l'installazione completa con TiviMate sul tuo apparecchio. Attivala in orario di punta e verifica che i tuoi canali siano presenti, che la guida si popoli su più giorni e che l'immagine regga dieci minuti consecutivi di contenuto con movimento rapido. Poi l'abbonamento costa da 15 € al mese oppure 5 €/mese sul piano annuale, con garanzia di rimborso di 7 giorni. Conviene provare sull'apparecchio e sulla rete che userai davvero ogni sera, perché è l'unica verifica che riflette le condizioni reali di casa tua." },
+  ],
+  faq: [
+    { q: "Quale app è migliore su Android TV?", a: "TiviMate, senza discussione: guida a griglia, preferiti per gruppi e zapping quasi istantaneo. IPTV Smarters Pro e IBO Player sono alternative più semplici da configurare." },
+    { q: "Quale dispositivo Android TV conviene?", a: "La Nvidia Shield è il riferimento per potenza ed Ethernet. Il Chromecast con Google TV è il miglior equilibrio prezzo-prestazioni. I box economici funzionano ma restano a corto di memoria." },
+    { q: "Posso installare app fuori da Google Play?", a: "Sì. Android TV consente l'installazione tramite APK senza restrizioni, a differenza di Roku o tvOS. Per questo è la piattaforma più flessibile per l'IPTV." },
+    { q: "Perché l'immagine si interrompe?", a: "Quasi sempre il Wi-Fi. Usa la porta Ethernet se il tuo apparecchio ce l'ha, o un adattatore da USB a Ethernet, e attiva la decodifica hardware nell'app." },
+    { q: "TiviMate è a pagamento?", a: "La versione gratuita consente una playlist e le funzioni di base, sufficiente per iniziare. La premium aggiunge playlist multiple, registrazione e personalizzazione della guida." },
+  ],
+  cta: "Attiva su Android TV",
+};
+
 export function getSeoContent(page: Page, locale: Locale): SeoContent {
   const byLocale = content[page];
   const hit = byLocale[locale];
