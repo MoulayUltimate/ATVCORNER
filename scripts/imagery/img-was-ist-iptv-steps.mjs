@@ -1,14 +1,14 @@
 /**
  * DESCRIPTIVE in-body image for "Was ist IPTV?" — the 3-step setup (de/en/fr).
  * Base: Unsplash BBmycUz7cns (person watching video on a tablet, top-down).
- *   node scripts/imagery/img-was-ist-iptv-steps.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-was-ist-iptv-steps.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, leader, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -28,6 +28,18 @@ const STR = {
     cardTitle: "Prêt en moins de 5 minutes",
     lines: ["1  Abonnement → identifiants par WhatsApp", "2  Ouvrir l'app (TiviMate / Smarters)", "3  Saisir → 66 000+ chaînes en direct"],
     pill: "Sur chaque appareil",
+  },
+  es: {
+    title: "Cómo funciona el IPTV — en 3 pasos",
+    cardTitle: "Listo en menos de 5 minutos",
+    lines: ["1  Suscripción → credenciales por WhatsApp", "2  Abrir la app (TiviMate / Smarters)", "3  Introducir → 66.000+ canales en directo"],
+    pill: "En cualquier aparato",
+  },
+  it: {
+    title: "Come funziona l'IPTV — in 3 passaggi",
+    cardTitle: "Pronto in meno di 5 minuti",
+    lines: ["1  Abbonamento → credenziali su WhatsApp", "2  Aprire l'app (TiviMate / Smarters)", "3  Inserire → 66.000+ canali in diretta"],
+    pill: "Su ogni dispositivo",
   },
 }[locale];
 

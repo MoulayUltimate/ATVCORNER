@@ -1,14 +1,14 @@
 /**
  * MAIN / cover image for the "Was ist IPTV?" article (de/en/fr).
  * Base: Unsplash EOQhsfFBhRk (hand + streaming remote pointing at a TV).
- *   node scripts/imagery/img-was-ist-iptv-main.mjs <photo> <out.png> <de|en|fr>
+ *   node scripts/imagery/img-was-ist-iptv-main.mjs <photo> <out.png> <de|en|fr|es|it>
  */
 import {
   AUTHOR_W, scaled, titleBar, card, pill, leader, marker, gradeFilter, embed, render,
 } from "./lib/compose.mjs";
 
 const [photo, out, locale = "de"] = process.argv.slice(2);
-if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr>"); process.exit(1); }
+if (!photo || !out) { console.error("usage: <photo> <out.png> <de|en|fr|es|it>"); process.exit(1); }
 
 const STR = {
   de: {
@@ -28,6 +28,18 @@ const STR = {
     pill: "LIVE 4K/8K",
     cardTitle: "66 000+ chaînes par internet",
     lines: ["TV en direct, sport, films & séries en une app —", "sur chaque écran, sans câble."],
+  },
+  es: {
+    title: "¿Qué es el IPTV? La televisión por internet",
+    pill: "LIVE 4K/8K",
+    cardTitle: "66.000+ canales por internet",
+    lines: ["TV en directo, deporte, cine y series en una app —", "en cualquier pantalla, sin cable."],
+  },
+  it: {
+    title: "Che cos'è l'IPTV? La TV via internet",
+    pill: "LIVE 4K/8K",
+    cardTitle: "66.000+ canali via internet",
+    lines: ["TV in diretta, sport, film e serie in un'app —", "su ogni schermo, senza cavo."],
   },
 }[locale];
 
